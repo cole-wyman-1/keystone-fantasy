@@ -55,5 +55,5 @@ const title = p.team?.name || who;
   {profile.length > 0 && (<div class="profile"><h2>About</h2><dl>{profile.map(([k, v]) => (<><dt>{labels[k] ?? k}</dt><dd>{p.logos?.[k] ? <img src={u(p.logos[k])} alt="" /> : (p.icons?.[k] ? `${p.icons[k]} ` : '')}{v}</dd></>))}</dl></div>)}
 
   <h2>{league.name} standings</h2>
-  <StandingsTable rows={rows} highlight={p.slot_id} />
+  <StandingsTable rows={rows} highlight={p.slot_id} playoffTeams={league.playoff_teams} />
 </Layout>

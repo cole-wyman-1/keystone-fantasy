@@ -24,7 +24,7 @@ const cards = rb ? [['Highest score', rb.highest_score[0], 'points'], ['Lowest s
   <p class="muted">ESPN: {league.espn_name} · {league.scoring_format} · {league.regular_season_weeks}-week regular season · {playoffLine}</p>
 
   <h2>Standings</h2>
-  <StandingsTable rows={rows} />
+  <StandingsTable rows={rows} playoffTeams={league.playoff_teams} />
 
   {inProgress && (<>
     <h2>Week {inProgress.week} <span class="badge acc">in progress</span></h2>
