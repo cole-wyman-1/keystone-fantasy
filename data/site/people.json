@@ -3044,7 +3044,7 @@
 "favorite_team":"Buffalo Bills",
 "home_city":"Boston",
 "college":"Boston College",
-"company":"Boston"
+"company_internal":"Boston"
 },
 "icons":{
 "favorite_team":"🦬",
@@ -3164,7 +3164,7 @@
 "favorite_team":"New England Patriots",
 "home_city":"BOS",
 "college":"Boston College",
-"company":"BOS"
+"company_internal":"BOS"
 },
 "icons":{
 "favorite_team":"🇺🇸",
@@ -3409,7 +3409,8 @@
 "favorite_team":"🇺🇸",
 "home_city":"🦞",
 "college":"🎖️",
-"keystone_group":"🦞"
+"keystone_group":"🦞",
+"company":"🏢"
 },
 "logos":{
 "college":"logos/college/113.png",
@@ -3642,7 +3643,7 @@
 "favorite_team":"New England Patriots",
 "home_city":"Boston",
 "college":"Vassar College",
-"company":"Keystone Strategy"
+"company_internal":"Keystone Strategy"
 },
 "icons":{
 "favorite_team":"🇺🇸",
@@ -3762,7 +3763,7 @@
 "favorite_team":"Atlanta Falcons",
 "home_city":"Athens, GA",
 "college":"Harvard University",
-"company":"Keystone"
+"company_internal":"Keystone"
 },
 "icons":{
 "favorite_team":"🪶",
@@ -4432,7 +4433,7 @@
 "keystone_group":"Keystone Boston",
 "home_city":"Boston, MA",
 "college":"Dartmouth College",
-"company":"Keystone"
+"company_internal":"Keystone"
 },
 "icons":{
 "home_city":"🦞",
@@ -4786,7 +4787,7 @@
 "favorite_team":"Detroit Lions",
 "home_city":"Detroit",
 "college":"University of Michigan",
-"company":"Keystone"
+"company_internal":"Keystone"
 },
 "icons":{
 "favorite_team":"🦁",
@@ -5586,11 +5587,13 @@
 "favorite_team":"🗽",
 "home_city":"🚗",
 "college":"😈",
-"keystone_group":"🎓"
+"keystone_group":"🎓",
+"company":"🏢"
 },
 "logos":{
 "college":"logos/college/150.png",
-"favorite_team":"logos/nfl/nyg.png"
+"favorite_team":"logos/nfl/nyg.png",
+"company":"logos/company/ford.png"
 },
 "team":{
 "team_id":8,
@@ -5706,11 +5709,13 @@
 "favorite_team":"⛏️",
 "home_city":"🌉",
 "college":"🦫",
-"keystone_group":"🎓"
+"keystone_group":"🎓",
+"company":"🏢"
 },
 "logos":{
 "college":"logos/college/109.png",
-"favorite_team":"logos/nfl/sf.png"
+"favorite_team":"logos/nfl/sf.png",
+"company":"logos/company/sony-playstation.png"
 },
 "team":{
 "team_id":5,
@@ -5826,11 +5831,13 @@
 "favorite_team":"🇺🇸",
 "home_city":"🦞",
 "college":"🐓",
-"keystone_group":"🎓"
+"keystone_group":"🎓",
+"company":"🏢"
 },
 "logos":{
 "college":"logos/college/2977.png",
-"favorite_team":"logos/nfl/ne.png"
+"favorite_team":"logos/nfl/ne.png",
+"company":"logos/company/google.png"
 },
 "team":{
 "team_id":6,
@@ -6060,11 +6067,13 @@
 "favorite_team":"🇺🇸",
 "home_city":"🦞",
 "college":"🐻",
-"keystone_group":"🎓"
+"keystone_group":"🎓",
+"company":"🏢"
 },
 "logos":{
 "college":"logos/college/225.png",
-"favorite_team":"logos/nfl/ne.png"
+"favorite_team":"logos/nfl/ne.png",
+"company":"logos/company/national-grid-partners.png"
 },
 "team":{
 "team_id":11,
@@ -6180,11 +6189,13 @@
 "favorite_team":"⭐",
 "home_city":"🇲🇽",
 "college":"🌲",
-"keystone_group":"🎓"
+"keystone_group":"🎓",
+"company":"🏢"
 },
 "logos":{
 "college":"logos/college/159.png",
-"favorite_team":"logos/nfl/dal.png"
+"favorite_team":"logos/nfl/dal.png",
+"company":"logos/company/twee-capital.png"
 },
 "team":{
 "team_id":2,
@@ -6300,11 +6311,13 @@
 "favorite_team":"🗽",
 "home_city":"🗽",
 "college":"🐕",
-"keystone_group":"🎓"
+"keystone_group":"🎓",
+"company":"🏢"
 },
 "logos":{
 "college":"logos/college/399.png",
-"favorite_team":"logos/nfl/nyg.png"
+"favorite_team":"logos/nfl/nyg.png",
+"company":"logos/company/one-federal-solution-federal-govcon-small-business.png"
 },
 "team":{
 "team_id":4,
@@ -6418,11 +6431,13 @@
 "icons":{
 "favorite_team":"🗽",
 "college":"😈",
-"keystone_group":"🎓"
+"keystone_group":"🎓",
+"company":"🏢"
 },
 "logos":{
 "college":"logos/college/150.png",
-"favorite_team":"logos/nfl/nyg.png"
+"favorite_team":"logos/nfl/nyg.png",
+"company":"logos/company/paramount.png"
 },
 "team":{
 "team_id":12,
@@ -6538,11 +6553,13 @@
 "favorite_team":"🇺🇸",
 "home_city":"🦞",
 "college":"🐕",
-"keystone_group":"🎓"
+"keystone_group":"🎓",
+"company":"🏢"
 },
 "logos":{
 "college":"logos/college/104.png",
-"favorite_team":"logos/nfl/ne.png"
+"favorite_team":"logos/nfl/ne.png",
+"company":"logos/company/violet-labs.png"
 },
 "team":{
 "team_id":3,
@@ -7099,11 +7116,13 @@
 "favorite_team":"🧀",
 "home_city":"🧀",
 "college":"🌲",
-"keystone_group":"🎓"
+"keystone_group":"🎓",
+"company":"🏢"
 },
 "logos":{
 "college":"logos/college/159.png",
-"favorite_team":"logos/nfl/gb.png"
+"favorite_team":"logos/nfl/gb.png",
+"company":"logos/company/bain.png"
 },
 "team":{
 "team_id":4,
@@ -7333,7 +7352,8 @@
 "favorite_team":"🦁",
 "home_city":"🗽",
 "college":"🐻",
-"keystone_group":"🎓"
+"keystone_group":"🎓",
+"company":"🏢"
 },
 "logos":{
 "college":"logos/college/172.png",
@@ -7453,11 +7473,13 @@
 "favorite_team":"⛏️",
 "home_city":"🤠",
 "college":"🐻",
-"keystone_group":"🎓"
+"keystone_group":"🎓",
+"company":"🏢"
 },
 "logos":{
 "college":"logos/college/25.png",
-"favorite_team":"logos/nfl/sf.png"
+"favorite_team":"logos/nfl/sf.png",
+"company":"logos/college/245.png"
 },
 "team":{
 "team_id":12,
@@ -7573,11 +7595,13 @@
 "favorite_team":"🐻",
 "home_city":"🌭",
 "college":"🐔",
-"keystone_group":"🎓"
+"keystone_group":"🎓",
+"company":"🏢"
 },
 "logos":{
 "college":"logos/college/2923.png",
-"favorite_team":"logos/nfl/chi.png"
+"favorite_team":"logos/nfl/chi.png",
+"company":"logos/company/google-llc.png"
 },
 "team":{
 "team_id":11,
@@ -7693,11 +7717,13 @@
 "favorite_team":"🦬",
 "home_city":"🦞",
 "college":"🐕",
-"keystone_group":"🎓"
+"keystone_group":"🎓",
+"company":"🏢"
 },
 "logos":{
 "college":"logos/college/104.png",
-"favorite_team":"logos/nfl/buf.png"
+"favorite_team":"logos/nfl/buf.png",
+"company":"logos/company/prizepicks.png"
 },
 "team":{
 "team_id":10,
@@ -7811,11 +7837,13 @@
 "icons":{
 "favorite_team":"🦁",
 "college":"🐶",
-"keystone_group":"🎓"
+"keystone_group":"🎓",
+"company":"🏢"
 },
 "logos":{
 "college":"logos/college/43.png",
-"favorite_team":"logos/nfl/det.png"
+"favorite_team":"logos/nfl/det.png",
+"company":"logos/company/linkedin.png"
 },
 "team":{
 "team_id":8,
@@ -7931,11 +7959,13 @@
 "favorite_team":"🦁",
 "home_city":"🚗",
 "college":"🐝",
-"keystone_group":"🎓"
+"keystone_group":"🎓",
+"company":"🏢"
 },
 "logos":{
 "college":"logos/college/59.png",
-"favorite_team":"logos/nfl/det.png"
+"favorite_team":"logos/nfl/det.png",
+"company":"logos/company/openai.png"
 },
 "team":{
 "team_id":7,
@@ -8051,11 +8081,13 @@
 "favorite_team":"🌊",
 "home_city":"🌲",
 "college":"🌳",
-"keystone_group":"🎓"
+"keystone_group":"🎓",
+"company":"🏢"
 },
 "logos":{
 "college":"logos/college/24.png",
-"favorite_team":"logos/nfl/sea.png"
+"favorite_team":"logos/nfl/sea.png",
+"company":"logos/company/stripe.png"
 },
 "team":{
 "team_id":6,
@@ -8486,7 +8518,7 @@
 "keystone_group":"Keystone DC",
 "favorite_team":"Washington Commanders",
 "home_city":"Washington, DC",
-"company":"Keystone"
+"company_internal":"Keystone"
 },
 "icons":{
 "favorite_team":"🎖️",
@@ -9187,7 +9219,7 @@
 "favorite_team":"San Francisco 49ers",
 "home_city":"San Francisco",
 "college":"University of California, Los Angeles",
-"company":"Keystone"
+"company_internal":"Keystone"
 },
 "icons":{
 "favorite_team":"⛏️",

@@ -13,7 +13,7 @@ const league = leagueByCode[p.league_code];
 const rows = standings[p.league_code] ?? [];
 const r = p.record;
 const leagueAvg = rows.length ? rows.reduce((s: number, x: any) => s + x.ppg, 0) / rows.length : null;
-const labels: Record<string, string> = { keystone_group: 'Keystone group', favorite_team: 'Favorite NFL team', home_city: 'Home city', college: 'College', company: 'Company' };
+const labels: Record<string, string> = { keystone_group: 'Keystone group', favorite_team: 'Favorite NFL team', home_city: 'Home city', college: 'College', company: 'Company', company_internal: 'Company' };
 const profile = Object.entries(p.profile ?? {});
 const who = p.is_commissioner ? `${league.name} Commissioner` : p.display_name;
 const title = p.team?.name || who;

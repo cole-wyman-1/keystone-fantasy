@@ -29,7 +29,7 @@ cp .env.example .env                           # then paste ESPN_S2 / ESPN_SWID
 ```
 
 ## Decisions (keep in sync with PLAN.md)
-- Logos: `scripts/fetch_logos.py` downloads NFL + college PNGs (ESPN CDN, favicon fallback for 4 schools) into `site/public/logos/` (committed) and writes `data/logos.json`. Re-run locally when a new college/team appears in the CSV. Hometown stays emoji (country flag if international); hover/tap tooltips via `ProfileBadges.astro`.
+- Logos: `scripts/fetch_logos.py` downloads NFL + college PNGs (ESPN CDN, favicon fallback for 4 schools) into `site/public/logos/` (committed) and writes `data/logos.json`. Re-run locally when a new college/team appears in the CSV. Hometown stays emoji (country flag if international); hover/tap tooltips via `ProfileBadges.astro`. Company logos (alumni jobs outside Keystone) come from the `COMPANY` map in fetch_logos.py (favicon via Google's s2 service, generic-globe responses rejected); compute.py hides a company that equals the home city or contains "Keystone".
 - Display: TEAM NAME is the bold link everywhere; manager name (+ city/college/NFL emoji row) is subtext. Person page h1 = team name.
 - Luck is computed and shown on person pages / records / power, but NOT in standings tables (Cole's choice).
 - Deferred: office/NFL-team/college grouping pages ("maybe later").

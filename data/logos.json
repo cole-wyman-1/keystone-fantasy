@@ -63,5 +63,23 @@
   "Vassar College": "logos/college/vassar-college.png",
   "Worcester Polytechnic Institute": "logos/college/worcester-polytechnic-institute.png",
   "Yale University": "logos/college/43.png"
+ },
+ "company": {
+  "Bain": "logos/company/bain.png",
+  "Ford": "logos/company/ford.png",
+  "Google": "logos/company/google.png",
+  "Google LLC": "logos/company/google-llc.png",
+  "LinkedIn": "logos/company/linkedin.png",
+  "National Grid Partners": "logos/company/national-grid-partners.png",
+  "Northlawn/Cornell University": "logos/college/172.png",
+  "One Federal Solution (Federal GovCon Small Business)": "logos/company/one-federal-solution-federal-govcon-small-business.png",
+  "OpenAI": "logos/company/openai.png",
+  "Paramount": "logos/company/paramount.png",
+  "PrizePicks": "logos/company/prizepicks.png",
+  "Sony PlayStation": "logos/company/sony-playstation.png",
+  "Stripe": "logos/company/stripe.png",
+  "Texas A&M": "logos/college/245.png",
+  "Twee Capital": "logos/company/twee-capital.png",
+  "Violet Labs": "logos/company/violet-labs.png"
  }
 }

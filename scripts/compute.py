@@ -64,11 +64,19 @@ _LOGOS = json.loads(LOGOS.read_text()) if LOGOS.exists() else {"nfl": {}, "colle
 def public_person(slot: dict) -> dict:
     """Strip emails and blanks; what the site is allowed to know about a person."""
     profile = {k: slot[k] for k in PROFILE_FIELDS if slot.get(k)}
+    # a company that just repeats the city (form mis-entry) or is Keystone itself is not an "outside job"
+    comp = profile.get("company", "")
+    if comp and (comp.strip().lower() == profile.get("home_city", "").strip().lower() or "keystone" in comp.lower()):
+        profile["company_internal"] = comp   # kept for the About list, no badge
+        del profile["company"]
     logos = {}
     if profile.get("college") and _LOGOS["college"].get(profile["college"]):
         logos["college"] = _LOGOS["college"][profile["college"]]
     if profile.get("favorite_team") and _LOGOS["nfl"].get(profile["favorite_team"]):
         logos["favorite_team"] = _LOGOS["nfl"][profile["favorite_team"]]
+    comp_logo = _LOGOS.get("company", {}).get(profile.get("company", ""))
+    if comp_logo and comp_logo != logos.get("college"):   # don't show the college crest twice
+        logos["company"] = comp_logo
     return {
         "slot_id": slot["slot_id"], "slug": slot["slot_id"].lower(), "display_name": slot["display_name"],
         "first_name": slot["first_name"], "last_name": slot["last_name"],

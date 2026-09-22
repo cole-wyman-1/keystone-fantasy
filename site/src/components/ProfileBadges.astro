@@ -8,6 +8,7 @@ const items: { tip: string; img?: string; emoji?: string }[] = [];
 if (prof.college) items.push({ tip: `College: ${prof.college}`, img: logos.college ? u(logos.college) : undefined, emoji: icons.college });
 if (prof.home_city) items.push({ tip: `Hometown: ${prof.home_city}`, emoji: icons.home_city });
 if (prof.favorite_team) items.push({ tip: `Favorite team: ${prof.favorite_team}`, img: logos.favorite_team ? u(logos.favorite_team) : undefined, emoji: icons.favorite_team });
+if (prof.company) items.push({ tip: `Works at: ${prof.company}`, img: logos.company ? u(logos.company) : undefined, emoji: icons.company });
 ---
 {items.length > 0 && (
   <span class={`badges ${size}`}>

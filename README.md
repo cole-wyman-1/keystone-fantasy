@@ -79,7 +79,7 @@ fill Display Name / First / Last / Seat Type = Member, and the `ESPN Team ID` fr
 `.venv/bin/python scripts/espn_probe.py` (it lists every team id and owner per league).
 
 **New college or NFL team shows a generic icon:** run `.venv/bin/python scripts/fetch_logos.py`
-(add the school to `COLLEGE_ESPN` or `COLLEGE_DOMAIN` in that script if it isn't found), then
+(add the school to `COLLEGE_ESPN` or `COLLEGE_DOMAIN`, or an employer to `COMPANY`, in that script), then
 compute, commit the new PNGs under `site/public/logos/`, push.
 
 **Rename a league:** change `name` in `leagues.json` (the code and Slot IDs stay the same).

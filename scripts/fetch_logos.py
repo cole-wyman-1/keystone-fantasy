@@ -46,6 +46,18 @@ COLLEGE_ESPN = {
     "University of Washington": 264, "University of Wisconsin-Madison": 275, "Utah State University": 328,
     "Vanderbilt University": 238, "Yale University": 43,
 }
+# current employer (outside Keystone) -> ("favicon", domain) or ("ncaa", espn id). Values that are
+# just Keystone or a city are skipped by compute.py and need no entry here.
+COMPANY = {
+    "Bain": ("favicon", "bain.com"), "Ford": ("favicon", "ford.com"), "Google": ("favicon", "google.com"),
+    "Google LLC": ("favicon", "google.com"), "LinkedIn": ("favicon", "linkedin.com"),
+    "National Grid Partners": ("favicon", "ngpartners.com"), "Northlawn/Cornell University": ("ncaa", 172),
+    "One Federal Solution (Federal GovCon Small Business)": ("favicon", "onefederalsolution.com"),
+    "OpenAI": ("favicon", "openai.com"), "Paramount": ("favicon", "paramount.com"),
+    "PrizePicks": ("favicon", "prizepicks.com"), "Sony PlayStation": ("favicon", "playstation.com"),
+    "Stripe": ("favicon", "stripe.com"), "Texas A&M": ("ncaa", 245), "Twee Capital": ("favicon", "twee.capital"),
+    "Violet Labs": ("favicon", "violetlabs.com"),
+}
 # schools ESPN doesn't carry -> their website favicon
 COLLEGE_DOMAIN = {
     "Brandeis University": "brandeis.edu", "University of Alberta": "ualberta.ca",
@@ -57,12 +69,26 @@ def slug(s: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", s.lower()).strip("-")
 
 
+_DEFAULT_FAVICON: bytes | None = None
+
+
+def default_favicon() -> bytes:
+    """Google's favicon service returns a generic globe for unknown domains; fetch it once to detect that."""
+    global _DEFAULT_FAVICON
+    if _DEFAULT_FAVICON is None:
+        _DEFAULT_FAVICON = requests.get(FAVICON.format(domain="this-domain-does-not-exist-xyz.example"), timeout=30).content
+    return _DEFAULT_FAVICON
+
+
 def download(url: str, dest: Path, force: bool) -> bool:
     if dest.exists() and not force:
         return True
     r = requests.get(url, timeout=30, headers={"User-Agent": "Mozilla/5.0"})
     if r.status_code != 200 or not r.content or "image" not in r.headers.get("content-type", ""):
         print(f"  FAILED {url} -> HTTP {r.status_code} {r.headers.get('content-type')}")
+        return False
+    if "favicons?" in url and r.content == default_favicon():
+        print(f"  NO ICON for {url} (generic globe returned)")
         return False
     dest.parent.mkdir(parents=True, exist_ok=True)
     dest.write_bytes(r.content)
@@ -98,8 +124,25 @@ def main() -> int:
             continue
         if ok:
             out["college"][c] = f"logos/college/{dest.name}"
+    out["company"] = {}
+    companies_used = sorted({s["company"] for s in master["slots"] if s.get("company")})
+    for c in companies_used:
+        src = COMPANY.get(c)
+        if not src:
+            continue  # Keystone / junk values are filtered in compute.py; anything else new shows up in the summary
+        kind, key = src
+        if kind == "ncaa":
+            dest = OUT_DIR / "college" / f"{key}.png"
+            ok = download(COMBINER.format(league="ncaa", key=key), dest, args.force)
+        else:
+            dest = OUT_DIR / "company" / f"{slug(c)}.png"
+            ok = download(FAVICON.format(domain=key), dest, args.force)
+        if ok:
+            out["company"][c] = f"logos/{dest.parent.name}/{dest.name}"
+    unmapped = [c for c in companies_used if c not in COMPANY and "keystone" not in c.lower()]
     OUT_JSON.write_text(json.dumps(out, indent=1, ensure_ascii=False))
     total = sum(p.stat().st_size for p in OUT_DIR.rglob("*.png"))
+    print(f"company logos: {len(out['company'])}/{len(COMPANY)} mapped; unmapped company values: {unmapped or 'none'}")
     print(f"NFL logos: {len(out['nfl'])}/{len(teams_used)}  college logos: {len(out['college'])}/{len(colleges_used)}  "
           f"({total/1024:.0f} KB on disk) -> {OUT_JSON.relative_to(ROOT)}")
     if missing:

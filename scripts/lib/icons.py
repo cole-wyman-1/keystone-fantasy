@@ -90,4 +90,6 @@ def profile_icons(profile: dict) -> dict:
         out["college"] = college_icon(profile["college"])
     if profile.get("keystone_group"):
         out["keystone_group"] = group_icon(profile["keystone_group"])
+    if profile.get("company"):
+        out["company"] = "🏢"
     return out
