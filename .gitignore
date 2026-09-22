@@ -19,3 +19,6 @@ site/.astro/
 
 # os
 .DS_Store
+
+# master files that contain email addresses stay local only
+Starter Files/private/

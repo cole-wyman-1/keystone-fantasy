@@ -65,10 +65,10 @@
             "Anita Bushnell (Anita Bushnell)"
           ],
           "slot_id": "EMP-02",
-          "score": 0.85,
-          "reason": "email matches",
+          "score": 1.0,
+          "reason": "exact name",
           "co_owned_with_commissioner": false,
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "espn_team_id": 6,
@@ -187,10 +187,10 @@
             "ESPNFAN7321607657 (Santiago Castillo)"
           ],
           "slot_id": "GOT-02",
-          "score": 0.8,
-          "reason": "first name only",
+          "score": 1.0,
+          "reason": "exact name",
           "co_owned_with_commissioner": false,
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "espn_team_id": 3,
@@ -278,10 +278,10 @@
             "Bogry (Bogdan Hamilton)"
           ],
           "slot_id": "GOT-10",
-          "score": 0.8,
-          "reason": "first name only",
+          "score": 1.0,
+          "reason": "exact name",
           "co_owned_with_commissioner": false,
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "espn_team_id": 10,
@@ -414,10 +414,10 @@
             "ESPNFAN2099673435 (Sylee Dandekar)"
           ],
           "slot_id": "BEA-06",
-          "score": 0.85,
-          "reason": "email matches",
+          "score": 1.0,
+          "reason": "exact name",
           "co_owned_with_commissioner": false,
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "espn_team_id": 8,
@@ -983,10 +983,10 @@
             "ESPNFAN5203492745 (Aseem Mahajan)"
           ],
           "slot_id": "C2C-12",
-          "score": 0.8,
-          "reason": "first name only",
+          "score": 1.0,
+          "reason": "exact name",
           "co_owned_with_commissioner": true,
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "espn_team_id": 2,
@@ -1035,10 +1035,10 @@
             "ESPNFAN8814508881 (Ande Shen)"
           ],
           "slot_id": "C2C-09",
-          "score": 0.85,
-          "reason": "email matches",
+          "score": 1.0,
+          "reason": "exact name",
           "co_owned_with_commissioner": false,
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "espn_team_id": 6,
@@ -1113,10 +1113,10 @@
             "ESPNfan5748269417 (Gaby Lichucki)"
           ],
           "slot_id": "C2C-03",
-          "score": 0.85,
-          "reason": "email matches",
+          "score": 1.0,
+          "reason": "exact name",
           "co_owned_with_commissioner": false,
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
           "espn_team_id": 12,

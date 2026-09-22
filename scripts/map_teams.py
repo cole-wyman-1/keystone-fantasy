@@ -21,8 +21,11 @@ from difflib import SequenceMatcher
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-MASTER_CSV = ROOT / "Starter Files" / "keystone_ff_2026_master.csv"
-MASTER_JSON = ROOT / "Starter Files" / "keystone_ff_2026_master.json"
+MASTER_CSV = ROOT / "Starter Files" / "keystone_ff_2026_master.csv"            # committed, no emails
+PRIVATE_DIR = ROOT / "Starter Files" / "private"                                  # git-ignored
+PRIVATE_CSV = PRIVATE_DIR / "keystone_ff_2026_master_with_emails.csv"            # used for matching if present
+MASTER_JSON = PRIVATE_DIR / "keystone_ff_2026_master.json"
+EMAIL_COLS = ("Email (Communications)", "Email (ESPN Login)")
 PROBE = ROOT / "data" / "espn" / "probe.json"
 MAPPING = ROOT / "data" / "team_mapping.json"
 
@@ -89,7 +92,23 @@ def parse_owner(o: str) -> dict:
 
 
 def load_master() -> list[dict]:
-    return list(csv.DictReader(MASTER_CSV.open(newline="")))
+    src = PRIVATE_CSV if PRIVATE_CSV.exists() else MASTER_CSV
+    return list(csv.DictReader(src.open(newline="")))
+
+
+def write_master(rows: list[dict]) -> None:
+    """Write the private (with emails) CSV if it exists, and always the sanitized committed CSV."""
+    fields = list(rows[0].keys())
+    if PRIVATE_CSV.exists():
+        buf = io.StringIO()
+        w = csv.DictWriter(buf, fieldnames=fields, lineterminator="\n")
+        w.writeheader(); w.writerows(rows)
+        PRIVATE_CSV.write_text(buf.getvalue())
+    pub = [f for f in fields if f not in EMAIL_COLS]
+    buf = io.StringIO()
+    w = csv.DictWriter(buf, fieldnames=pub, lineterminator="\n", extrasaction="ignore")
+    w.writeheader(); w.writerows(rows)
+    MASTER_CSV.write_text(buf.getvalue())
 
 
 def assign(slots: list[dict], teams: list[dict]) -> list[dict]:
@@ -198,11 +217,10 @@ def apply() -> int:
     if problems:
         print("NOT APPLIED:\n  " + "\n  ".join(problems))
         return 1
-    buf = io.StringIO()
-    w = csv.DictWriter(buf, fieldnames=list(rows[0].keys()), lineterminator="\n")
-    w.writeheader(); w.writerows(rows)
-    MASTER_CSV.write_text(buf.getvalue())
-    # mirror into the JSON copy
+    write_master(rows)
+    if not MASTER_JSON.exists():
+        print("(no private JSON copy to mirror)")
+        return 0
     j = json.loads(MASTER_JSON.read_text())
     for lg in j["leagues"]:
         lg["espn_league_id"] = mapping["leagues"][lg["code"]]["espn_league_id"]

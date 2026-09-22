@@ -1,8 +1,8 @@
 """Master CSV -> data/master.json. Validates the roster and the ESPN join keys.
 
 The CSV is the source of truth; this is a pure read except for the JSON it writes.
-Emails are NOT written to data/master.json: matching (map_teams.py) reads the CSV directly, so
-nothing under data/ ever carries an address, and the repo can be public.
+The committed CSV has no email columns (the repo is public). The copy with emails lives in
+Starter Files/private/ (git-ignored) and is only used by map_teams.py for matching.
 """
 from __future__ import annotations
 
