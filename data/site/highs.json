@@ -1,0 +1,117 @@
+{
+"weeks":[
+{
+"week":1,
+"per_league":{
+"EMP":{
+"slot_id":"EMP-05",
+"owner":"Bradley Hart",
+"team_name":"Synergistic optimization",
+"points":156.2,
+"team_id":10
+},
+"GOT":{
+"slot_id":"GOT-01",
+"owner":"Alice Khayami",
+"team_name":"Bijan Mustard",
+"points":169.94,
+"team_id":7
+},
+"BEA":{
+"slot_id":"BEA-02",
+"owner":"Justin Metz",
+"team_name":"LIFO The Party",
+"points":158.9,
+"team_id":10
+},
+"HAR":{
+"slot_id":"HAR-06",
+"owner":"Brian Hunscher",
+"team_name":"All Sleepers",
+"points":151.52,
+"team_id":10
+},
+"ALC":{
+"slot_id":"ALC-03",
+"owner":"Catherine Goel",
+"team_name":"Brady Bunch",
+"points":163.76,
+"team_id":6
+},
+"ALL":{
+"slot_id":"ALL-09",
+"owner":"Omer Khan",
+"team_name":"Omer's Otherworldly Team",
+"points":204.5,
+"team_id":7
+},
+"C2C":{
+"slot_id":"C2C-10",
+"owner":"Kylie Sagisi",
+"team_name":"Slim Reapers",
+"points":136.82,
+"team_id":2
+}
+},
+"overall":{
+"league_code":"ALL",
+"slot_id":"ALL-09",
+"owner":"Omer Khan",
+"team_name":"Omer's Otherworldly Team",
+"points":204.5,
+"team_id":7
+}
+}
+],
+"leaderboard":[
+{
+"slot_id":"EMP-05",
+"owner":"Bradley Hart",
+"league_code":"EMP",
+"team_name":"Synergistic optimization",
+"count":1
+},
+{
+"slot_id":"GOT-01",
+"owner":"Alice Khayami",
+"league_code":"GOT",
+"team_name":"Bijan Mustard",
+"count":1
+},
+{
+"slot_id":"BEA-02",
+"owner":"Justin Metz",
+"league_code":"BEA",
+"team_name":"LIFO The Party",
+"count":1
+},
+{
+"slot_id":"HAR-06",
+"owner":"Brian Hunscher",
+"league_code":"HAR",
+"team_name":"All Sleepers",
+"count":1
+},
+{
+"slot_id":"ALC-03",
+"owner":"Catherine Goel",
+"league_code":"ALC",
+"team_name":"Brady Bunch",
+"count":1
+},
+{
+"slot_id":"ALL-09",
+"owner":"Omer Khan",
+"league_code":"ALL",
+"team_name":"Omer's Otherworldly Team",
+"count":1
+},
+{
+"slot_id":"C2C-10",
+"owner":"Kylie Sagisi",
+"league_code":"C2C",
+"team_name":"Slim Reapers",
+"count":1
+}
+]
+}

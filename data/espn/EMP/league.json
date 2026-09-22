@@ -1,0 +1,1278 @@
+{
+ "code": "EMP",
+ "name": "Empire League",
+ "espn_league_id": 225405520,
+ "season": 2026,
+ "espn_name": "Keystone Fantasy 2026 - \"Empire\"",
+ "size": 12,
+ "regular_season_weeks": 14,
+ "playoff_teams": 6,
+ "matchup_periods": {
+  "1": [
+   1
+  ],
+  "2": [
+   2
+  ],
+  "3": [
+   3
+  ],
+  "4": [
+   4
+  ],
+  "5": [
+   5
+  ],
+  "6": [
+   6
+  ],
+  "7": [
+   7
+  ],
+  "8": [
+   8
+  ],
+  "9": [
+   9
+  ],
+  "10": [
+   10
+  ],
+  "11": [
+   11
+  ],
+  "12": [
+   12
+  ],
+  "13": [
+   13
+  ],
+  "14": [
+   14
+  ],
+  "15": [
+   15
+  ],
+  "16": [
+   16
+  ],
+  "17": [
+   17
+  ]
+ },
+ "lineup_slot_counts": {
+  "0": 1,
+  "2": 2,
+  "4": 3,
+  "6": 1,
+  "16": 1,
+  "17": 1,
+  "20": 8,
+  "21": 1,
+  "23": 1
+ },
+ "scoring_format": "Half PPR",
+ "status": {
+  "current_matchup_period": 2,
+  "latest_scoring_period": 2,
+  "final_scoring_period": 17,
+  "is_active": true
+ },
+ "teams": [
+  {
+   "espn_team_id": 1,
+   "name": "Manhattan Elitists",
+   "abbrev": "NYC",
+   "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg",
+   "division_id": 0,
+   "owners": [
+    {
+     "display": "ESPNFAN1712906171",
+     "first": "Key",
+     "last": "Stone"
+    },
+    {
+     "display": "cwyman16",
+     "first": "Cole",
+     "last": "Wyman"
+    }
+   ],
+   "espn_record": {
+    "wins": 0,
+    "losses": 1,
+    "ties": 0,
+    "points_for": 111.28,
+    "points_against": 126.52
+   },
+   "espn_playoff_seed": 10
+  },
+  {
+   "espn_team_id": 2,
+   "name": "Druv's Daring Team",
+   "abbrev": "DDT",
+   "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/19.svg",
+   "division_id": 0,
+   "owners": [
+    {
+     "display": "Druv75",
+     "first": "Druv",
+     "last": "Murthy"
+    }
+   ],
+   "espn_record": {
+    "wins": 0,
+    "losses": 1,
+    "ties": 0,
+    "points_for": 135.66,
+    "points_against": 156.2
+   },
+   "espn_playoff_seed": 7
+  },
+  {
+   "espn_team_id": 3,
+   "name": "Benjamin's Best Team",
+   "abbrev": "BBT",
+   "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/20.svg",
+   "division_id": 0,
+   "owners": [
+    {
+     "display": "bfeldman89",
+     "first": "Benjamin",
+     "last": "Feldman"
+    }
+   ],
+   "espn_record": {
+    "wins": 1,
+    "losses": 0,
+    "ties": 0,
+    "points_for": 117.5,
+    "points_against": 115.4
+   },
+   "espn_playoff_seed": 6
+  },
+  {
+   "espn_team_id": 4,
+   "name": "Aussie Aussie Aussie Oi Oi Oi",
+   "abbrev": "MMT",
+   "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/12.svg",
+   "division_id": 0,
+   "owners": [
+    {
+     "display": "ESPNFAN3019906957",
+     "first": "Matthew",
+     "last": "Gates"
+    }
+   ],
+   "espn_record": {
+    "wins": 0,
+    "losses": 1,
+    "ties": 0,
+    "points_for": 121.86,
+    "points_against": 124.96
+   },
+   "espn_playoff_seed": 8
+  },
+  {
+   "espn_team_id": 5,
+   "name": "Drake and Goff",
+   "abbrev": "DAG",
+   "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/1.svg",
+   "division_id": 0,
+   "owners": [
+    {
+     "display": "Anita Bushnell",
+     "first": "Anita",
+     "last": "Bushnell"
+    }
+   ],
+   "espn_record": {
+    "wins": 0,
+    "losses": 1,
+    "ties": 0,
+    "points_for": 94.82,
+    "points_against": 142.86
+   },
+   "espn_playoff_seed": 11
+  },
+  {
+   "espn_team_id": 6,
+   "name": "Team Salant",
+   "abbrev": "JAS",
+   "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/14.svg",
+   "division_id": 0,
+   "owners": [
+    {
+     "display": "Jacob Salant",
+     "first": "Jacob",
+     "last": "Salant"
+    }
+   ],
+   "espn_record": {
+    "wins": 1,
+    "losses": 0,
+    "ties": 0,
+    "points_for": 126.96,
+    "points_against": 74.36
+   },
+   "espn_playoff_seed": 3
+  },
+  {
+   "espn_team_id": 7,
+   "name": "Kelton's Deluxe Team",
+   "abbrev": "KDT",
+   "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/11.svg",
+   "division_id": 0,
+   "owners": [
+    {
+     "display": "Kelton Berry",
+     "first": "Kelton",
+     "last": "Berry"
+    }
+   ],
+   "espn_record": {
+    "wins": 0,
+    "losses": 1,
+    "ties": 0,
+    "points_for": 74.36,
+    "points_against": 126.96
+   },
+   "espn_playoff_seed": 12
+  },
+  {
+   "espn_team_id": 8,
+   "name": "TheGenoSmithExperience",
+   "abbrev": "TGSE",
+   "logo": "https://mystique-api.fantasy.espn.com/apis/v1/domains/lm/images/2bd94100-ab8e-11f1-9afc-5feb43d211a1",
+   "division_id": 0,
+   "owners": [
+    {
+     "display": "ESPNFAN2097408021",
+     "first": "Prajeet",
+     "last": "Sarker"
+    }
+   ],
+   "espn_record": {
+    "wins": 0,
+    "losses": 1,
+    "ties": 0,
+    "points_for": 115.4,
+    "points_against": 117.5
+   },
+   "espn_playoff_seed": 9
+  },
+  {
+   "espn_team_id": 9,
+   "name": "System of a 1st Down",
+   "abbrev": "SO1D",
+   "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/4.svg",
+   "division_id": 0,
+   "owners": [
+    {
+     "display": "ESPNFAN0756772383",
+     "first": "Zachary",
+     "last": "Macdonald"
+    }
+   ],
+   "espn_record": {
+    "wins": 1,
+    "losses": 0,
+    "ties": 0,
+    "points_for": 126.52,
+    "points_against": 111.28
+   },
+   "espn_playoff_seed": 4
+  },
+  {
+   "espn_team_id": 10,
+   "name": "Synergistic optimization",
+   "abbrev": "SYNG",
+   "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/8.svg",
+   "division_id": 0,
+   "owners": [
+    {
+     "display": "Bradley Hart",
+     "first": "Bradley",
+     "last": "Hart"
+    }
+   ],
+   "espn_record": {
+    "wins": 1,
+    "losses": 0,
+    "ties": 0,
+    "points_for": 156.2,
+    "points_against": 135.66
+   },
+   "espn_playoff_seed": 1
+  },
+  {
+   "espn_team_id": 11,
+   "name": "Amelia's Awesome Team",
+   "abbrev": "AAT",
+   "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/5.svg",
+   "division_id": 0,
+   "owners": [
+    {
+     "display": "ESPNFAN2505184436",
+     "first": "Amelia",
+     "last": "Ockert"
+    }
+   ],
+   "espn_record": {
+    "wins": 1,
+    "losses": 0,
+    "ties": 0,
+    "points_for": 124.96,
+    "points_against": 121.86
+   },
+   "espn_playoff_seed": 5
+  },
+  {
+   "espn_team_id": 12,
+   "name": "Victoire's Spirited Team",
+   "abbrev": "VST",
+   "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/18.svg",
+   "division_id": 0,
+   "owners": [
+    {
+     "display": "ESPNFAN6412074181",
+     "first": "Victoire",
+     "last": "Cagniart"
+    }
+   ],
+   "espn_record": {
+    "wins": 1,
+    "losses": 0,
+    "ties": 0,
+    "points_for": 142.86,
+    "points_against": 94.82
+   },
+   "espn_playoff_seed": 2
+  }
+ ],
+ "schedule": [
+  {
+   "matchup_id": 1,
+   "matchup_period": 1,
+   "home_team_id": 6,
+   "away_team_id": 7,
+   "home_points": 126.96,
+   "away_points": 74.36,
+   "winner": "HOME",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 2,
+   "matchup_period": 1,
+   "home_team_id": 2,
+   "away_team_id": 10,
+   "home_points": 135.66,
+   "away_points": 156.2,
+   "winner": "AWAY",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 3,
+   "matchup_period": 1,
+   "home_team_id": 11,
+   "away_team_id": 4,
+   "home_points": 124.96,
+   "away_points": 121.86,
+   "winner": "HOME",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 4,
+   "matchup_period": 1,
+   "home_team_id": 8,
+   "away_team_id": 3,
+   "home_points": 115.4,
+   "away_points": 117.5,
+   "winner": "AWAY",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 5,
+   "matchup_period": 1,
+   "home_team_id": 12,
+   "away_team_id": 5,
+   "home_points": 142.86,
+   "away_points": 94.82,
+   "winner": "HOME",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 6,
+   "matchup_period": 1,
+   "home_team_id": 1,
+   "away_team_id": 9,
+   "home_points": 111.28,
+   "away_points": 126.52,
+   "winner": "AWAY",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 7,
+   "matchup_period": 2,
+   "home_team_id": 7,
+   "away_team_id": 10,
+   "home_points": 59.22,
+   "away_points": 160.26,
+   "winner": "UNDECIDED",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 8,
+   "matchup_period": 2,
+   "home_team_id": 4,
+   "away_team_id": 6,
+   "home_points": 133.24,
+   "away_points": 125.5,
+   "winner": "UNDECIDED",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 9,
+   "matchup_period": 2,
+   "home_team_id": 3,
+   "away_team_id": 2,
+   "home_points": 102.48,
+   "away_points": 67.68,
+   "winner": "UNDECIDED",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 10,
+   "matchup_period": 2,
+   "home_team_id": 5,
+   "away_team_id": 11,
+   "home_points": 86.32,
+   "away_points": 113.78,
+   "winner": "UNDECIDED",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 11,
+   "matchup_period": 2,
+   "home_team_id": 9,
+   "away_team_id": 8,
+   "home_points": 99.86,
+   "away_points": 76.0,
+   "winner": "UNDECIDED",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 12,
+   "matchup_period": 2,
+   "home_team_id": 1,
+   "away_team_id": 12,
+   "home_points": 80.5,
+   "away_points": 102.02,
+   "winner": "UNDECIDED",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 13,
+   "matchup_period": 3,
+   "home_team_id": 4,
+   "away_team_id": 7,
+   "home_points": 0.0,
+   "away_points": 0.0,
+   "winner": "UNDECIDED",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 14,
+   "matchup_period": 3,
+   "home_team_id": 10,
+   "away_team_id": 3,
+   "home_points": 0.0,
+   "away_points": 0.0,
+   "winner": "UNDECIDED",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 15,
+   "matchup_period": 3,
+   "home_team_id": 6,
+   "away_team_id": 5,
+   "home_points": 0.0,
+   "away_points": 0.0,
+   "winner": "UNDECIDED",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 16,
+   "matchup_period": 3,
+   "home_team_id": 2,
+   "away_team_id": 9,
+   "home_points": 0.0,
+   "away_points": 0.0,
+   "winner": "UNDECIDED",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 17,
+   "matchup_period": 3,
+   "home_team_id": 11,
+   "away_team_id": 1,
+   "home_points": 0.0,
+   "away_points": 0.0,
+   "winner": "UNDECIDED",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 18,
+   "matchup_period": 3,
+   "home_team_id": 8,
+   "away_team_id": 12,
+   "home_points": 0.0,
+   "away_points": 0.0,
+   "winner": "UNDECIDED",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 19,
+   "matchup_period": 4,
+   "home_team_id": 7,
+   "away_team_id": 3,
+   "home_points": 0.0,
+   "away_points": 0.0,
+   "winner": "UNDECIDED",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 20,
+   "matchup_period": 4,
+   "home_team_id": 5,
+   "away_team_id": 4,
+   "home_points": 0.0,
+   "away_points": 0.0,
+   "winner": "UNDECIDED",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 21,
+   "matchup_period": 4,
+   "home_team_id": 9,
+   "away_team_id": 10,
+   "home_points": 0.0,
+   "away_points": 0.0,
+   "winner": "UNDECIDED",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 22,
+   "matchup_period": 4,
+   "home_team_id": 1,
+   "away_team_id": 6,
+   "home_points": 0.0,
+   "away_points": 0.0,
+   "winner": "UNDECIDED",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 23,
+   "matchup_period": 4,
+   "home_team_id": 12,
+   "away_team_id": 2,
+   "home_points": 0.0,
+   "away_points": 0.0,
+   "winner": "UNDECIDED",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 24,
+   "matchup_period": 4,
+   "home_team_id": 8,
+   "away_team_id": 11,
+   "home_points": 0.0,
+   "away_points": 0.0,
+   "winner": "UNDECIDED",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 25,
+   "matchup_period": 5,
+   "home_team_id": 5,
+   "away_team_id": 7,
+   "home_points": 0.0,
+   "away_points": 0.0,
+   "winner": "UNDECIDED",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 26,
+   "matchup_period": 5,
+   "home_team_id": 3,
+   "away_team_id": 9,
+   "home_points": 0.0,
+   "away_points": 0.0,
+   "winner": "UNDECIDED",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 27,
+   "matchup_period": 5,
+   "home_team_id": 4,
+   "away_team_id": 1,
+   "home_points": 0.0,
+   "away_points": 0.0,
+   "winner": "UNDECIDED",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 28,
+   "matchup_period": 5,
+   "home_team_id": 10,
+   "away_team_id": 12,
+   "home_points": 0.0,
+   "away_points": 0.0,
+   "winner": "UNDECIDED",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 29,
+   "matchup_period": 5,
+   "home_team_id": 6,
+   "away_team_id": 8,
+   "home_points": 0.0,
+   "away_points": 0.0,
+   "winner": "UNDECIDED",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 30,
+   "matchup_period": 5,
+   "home_team_id": 2,
+   "away_team_id": 11,
+   "home_points": 0.0,
+   "away_points": 0.0,
+   "winner": "UNDECIDED",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 31,
+   "matchup_period": 6,
+   "home_team_id": 7,
+   "away_team_id": 9,
+   "home_points": 0.0,
+   "away_points": 0.0,
+   "winner": "UNDECIDED",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 32,
+   "matchup_period": 6,
+   "home_team_id": 1,
+   "away_team_id": 5,
+   "home_points": 0.0,
+   "away_points": 0.0,
+   "winner": "UNDECIDED",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 33,
+   "matchup_period": 6,
+   "home_team_id": 12,
+   "away_team_id": 3,
+   "home_points": 0.0,
+   "away_points": 0.0,
+   "winner": "UNDECIDED",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 34,
+   "matchup_period": 6,
+   "home_team_id": 8,
+   "away_team_id": 4,
+   "home_points": 0.0,
+   "away_points": 0.0,
+   "winner": "UNDECIDED",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 35,
+   "matchup_period": 6,
+   "home_team_id": 11,
+   "away_team_id": 10,
+   "home_points": 0.0,
+   "away_points": 0.0,
+   "winner": "UNDECIDED",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 36,
+   "matchup_period": 6,
+   "home_team_id": 2,
+   "away_team_id": 6,
+   "home_points": 0.0,
+   "away_points": 0.0,
+   "winner": "UNDECIDED",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 37,
+   "matchup_period": 7,
+   "home_team_id": 1,
+   "away_team_id": 7,
+   "home_points": 0.0,
+   "away_points": 0.0,
+   "winner": "UNDECIDED",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 38,
+   "matchup_period": 7,
+   "home_team_id": 9,
+   "away_team_id": 12,
+   "home_points": 0.0,
+   "away_points": 0.0,
+   "winner": "UNDECIDED",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 39,
+   "matchup_period": 7,
+   "home_team_id": 5,
+   "away_team_id": 8,
+   "home_points": 0.0,
+   "away_points": 0.0,
+   "winner": "UNDECIDED",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 40,
+   "matchup_period": 7,
+   "home_team_id": 3,
+   "away_team_id": 11,
+   "home_points": 0.0,
+   "away_points": 0.0,
+   "winner": "UNDECIDED",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 41,
+   "matchup_period": 7,
+   "home_team_id": 4,
+   "away_team_id": 2,
+   "home_points": 0.0,
+   "away_points": 0.0,
+   "winner": "UNDECIDED",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 42,
+   "matchup_period": 7,
+   "home_team_id": 10,
+   "away_team_id": 6,
+   "home_points": 0.0,
+   "away_points": 0.0,
+   "winner": "UNDECIDED",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 43,
+   "matchup_period": 8,
+   "home_team_id": 7,
+   "away_team_id": 12,
+   "home_points": 0.0,
+   "away_points": 0.0,
+   "winner": "UNDECIDED",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 44,
+   "matchup_period": 8,
+   "home_team_id": 8,
+   "away_team_id": 1,
+   "home_points": 0.0,
+   "away_points": 0.0,
+   "winner": "UNDECIDED",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 45,
+   "matchup_period": 8,
+   "home_team_id": 11,
+   "away_team_id": 9,
+   "home_points": 0.0,
+   "away_points": 0.0,
+   "winner": "UNDECIDED",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 46,
+   "matchup_period": 8,
+   "home_team_id": 2,
+   "away_team_id": 5,
+   "home_points": 0.0,
+   "away_points": 0.0,
+   "winner": "UNDECIDED",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 47,
+   "matchup_period": 8,
+   "home_team_id": 6,
+   "away_team_id": 3,
+   "home_points": 0.0,
+   "away_points": 0.0,
+   "winner": "UNDECIDED",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 48,
+   "matchup_period": 8,
+   "home_team_id": 10,
+   "away_team_id": 4,
+   "home_points": 0.0,
+   "away_points": 0.0,
+   "winner": "UNDECIDED",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 49,
+   "matchup_period": 9,
+   "home_team_id": 8,
+   "away_team_id": 7,
+   "home_points": 0.0,
+   "away_points": 0.0,
+   "winner": "UNDECIDED",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 50,
+   "matchup_period": 9,
+   "home_team_id": 12,
+   "away_team_id": 11,
+   "home_points": 0.0,
+   "away_points": 0.0,
+   "winner": "UNDECIDED",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 51,
+   "matchup_period": 9,
+   "home_team_id": 1,
+   "away_team_id": 2,
+   "home_points": 0.0,
+   "away_points": 0.0,
+   "winner": "UNDECIDED",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 52,
+   "matchup_period": 9,
+   "home_team_id": 9,
+   "away_team_id": 6,
+   "home_points": 0.0,
+   "away_points": 0.0,
+   "winner": "UNDECIDED",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 53,
+   "matchup_period": 9,
+   "home_team_id": 5,
+   "away_team_id": 10,
+   "home_points": 0.0,
+   "away_points": 0.0,
+   "winner": "UNDECIDED",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 54,
+   "matchup_period": 9,
+   "home_team_id": 3,
+   "away_team_id": 4,
+   "home_points": 0.0,
+   "away_points": 0.0,
+   "winner": "UNDECIDED",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 55,
+   "matchup_period": 10,
+   "home_team_id": 7,
+   "away_team_id": 11,
+   "home_points": 0.0,
+   "away_points": 0.0,
+   "winner": "UNDECIDED",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 56,
+   "matchup_period": 10,
+   "home_team_id": 2,
+   "away_team_id": 8,
+   "home_points": 0.0,
+   "away_points": 0.0,
+   "winner": "UNDECIDED",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 57,
+   "matchup_period": 10,
+   "home_team_id": 6,
+   "away_team_id": 12,
+   "home_points": 0.0,
+   "away_points": 0.0,
+   "winner": "UNDECIDED",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 58,
+   "matchup_period": 10,
+   "home_team_id": 10,
+   "away_team_id": 1,
+   "home_points": 0.0,
+   "away_points": 0.0,
+   "winner": "UNDECIDED",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 59,
+   "matchup_period": 10,
+   "home_team_id": 4,
+   "away_team_id": 9,
+   "home_points": 0.0,
+   "away_points": 0.0,
+   "winner": "UNDECIDED",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 60,
+   "matchup_period": 10,
+   "home_team_id": 3,
+   "away_team_id": 5,
+   "home_points": 0.0,
+   "away_points": 0.0,
+   "winner": "UNDECIDED",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 61,
+   "matchup_period": 11,
+   "home_team_id": 2,
+   "away_team_id": 7,
+   "home_points": 0.0,
+   "away_points": 0.0,
+   "winner": "UNDECIDED",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 62,
+   "matchup_period": 11,
+   "home_team_id": 11,
+   "away_team_id": 6,
+   "home_points": 0.0,
+   "away_points": 0.0,
+   "winner": "UNDECIDED",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 63,
+   "matchup_period": 11,
+   "home_team_id": 8,
+   "away_team_id": 10,
+   "home_points": 0.0,
+   "away_points": 0.0,
+   "winner": "UNDECIDED",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 64,
+   "matchup_period": 11,
+   "home_team_id": 12,
+   "away_team_id": 4,
+   "home_points": 0.0,
+   "away_points": 0.0,
+   "winner": "UNDECIDED",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 65,
+   "matchup_period": 11,
+   "home_team_id": 1,
+   "away_team_id": 3,
+   "home_points": 0.0,
+   "away_points": 0.0,
+   "winner": "UNDECIDED",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 66,
+   "matchup_period": 11,
+   "home_team_id": 9,
+   "away_team_id": 5,
+   "home_points": 0.0,
+   "away_points": 0.0,
+   "winner": "UNDECIDED",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 67,
+   "matchup_period": 12,
+   "home_team_id": 7,
+   "away_team_id": 6,
+   "home_points": 0.0,
+   "away_points": 0.0,
+   "winner": "UNDECIDED",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 68,
+   "matchup_period": 12,
+   "home_team_id": 10,
+   "away_team_id": 2,
+   "home_points": 0.0,
+   "away_points": 0.0,
+   "winner": "UNDECIDED",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 69,
+   "matchup_period": 12,
+   "home_team_id": 4,
+   "away_team_id": 11,
+   "home_points": 0.0,
+   "away_points": 0.0,
+   "winner": "UNDECIDED",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 70,
+   "matchup_period": 12,
+   "home_team_id": 3,
+   "away_team_id": 8,
+   "home_points": 0.0,
+   "away_points": 0.0,
+   "winner": "UNDECIDED",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 71,
+   "matchup_period": 12,
+   "home_team_id": 5,
+   "away_team_id": 12,
+   "home_points": 0.0,
+   "away_points": 0.0,
+   "winner": "UNDECIDED",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 72,
+   "matchup_period": 12,
+   "home_team_id": 9,
+   "away_team_id": 1,
+   "home_points": 0.0,
+   "away_points": 0.0,
+   "winner": "UNDECIDED",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 73,
+   "matchup_period": 13,
+   "home_team_id": 10,
+   "away_team_id": 7,
+   "home_points": 0.0,
+   "away_points": 0.0,
+   "winner": "UNDECIDED",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 74,
+   "matchup_period": 13,
+   "home_team_id": 6,
+   "away_team_id": 4,
+   "home_points": 0.0,
+   "away_points": 0.0,
+   "winner": "UNDECIDED",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 75,
+   "matchup_period": 13,
+   "home_team_id": 2,
+   "away_team_id": 3,
+   "home_points": 0.0,
+   "away_points": 0.0,
+   "winner": "UNDECIDED",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 76,
+   "matchup_period": 13,
+   "home_team_id": 11,
+   "away_team_id": 5,
+   "home_points": 0.0,
+   "away_points": 0.0,
+   "winner": "UNDECIDED",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 77,
+   "matchup_period": 13,
+   "home_team_id": 8,
+   "away_team_id": 9,
+   "home_points": 0.0,
+   "away_points": 0.0,
+   "winner": "UNDECIDED",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 78,
+   "matchup_period": 13,
+   "home_team_id": 12,
+   "away_team_id": 1,
+   "home_points": 0.0,
+   "away_points": 0.0,
+   "winner": "UNDECIDED",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 79,
+   "matchup_period": 14,
+   "home_team_id": 7,
+   "away_team_id": 4,
+   "home_points": 0.0,
+   "away_points": 0.0,
+   "winner": "UNDECIDED",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 80,
+   "matchup_period": 14,
+   "home_team_id": 3,
+   "away_team_id": 10,
+   "home_points": 0.0,
+   "away_points": 0.0,
+   "winner": "UNDECIDED",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 81,
+   "matchup_period": 14,
+   "home_team_id": 5,
+   "away_team_id": 6,
+   "home_points": 0.0,
+   "away_points": 0.0,
+   "winner": "UNDECIDED",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 82,
+   "matchup_period": 14,
+   "home_team_id": 9,
+   "away_team_id": 2,
+   "home_points": 0.0,
+   "away_points": 0.0,
+   "winner": "UNDECIDED",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 83,
+   "matchup_period": 14,
+   "home_team_id": 1,
+   "away_team_id": 11,
+   "home_points": 0.0,
+   "away_points": 0.0,
+   "winner": "UNDECIDED",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "matchup_id": 84,
+   "matchup_period": 14,
+   "home_team_id": 12,
+   "away_team_id": 8,
+   "home_points": 0.0,
+   "away_points": 0.0,
+   "winner": "UNDECIDED",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  }
+ ]
+}
