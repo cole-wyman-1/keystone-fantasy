@@ -1,10 +1,10 @@
 ---
-// Team name is the bold link; the manager (and their icons) is the subtext.
+// Team name is the bold link; the manager (and their badges) is the subtext.
+import ProfileBadges from './ProfileBadges.astro';
 import { personUrl, people } from '../lib/data';
 const { slotId, teamName, owner, icons = true, league = null } = Astro.props;
 const p = slotId ? people[slotId] : null;
 const name = teamName || p?.team?.name || '';
 const who = owner || p?.display_name || '';
-const row = icons && p?.icon_row ? p.icon_row : '';
 ---
-<span class="tc"><a href={personUrl(slotId)}><strong>{name}</strong></a><span class="tc-sub">{who}{league ? ` · ${league}` : ''}{row ? ` ${row}` : ''}</span></span>
+<span class="tc"><a href={personUrl(slotId)}><strong>{name}</strong></a><span class="tc-sub">{who}{league ? ` · ${league}` : ''}{icons && p && <ProfileBadges p={p} size="sm" />}</span></span>

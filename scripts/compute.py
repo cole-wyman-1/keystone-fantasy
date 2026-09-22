@@ -23,6 +23,7 @@ ROOT = Path(__file__).resolve().parent.parent
 MASTER = ROOT / "data" / "master.json"
 ESPN = ROOT / "data" / "espn"
 SITE = ROOT / "data" / "site"
+LOGOS = ROOT / "data" / "logos.json"
 PROFILE_FIELDS = ["keystone_group", "favorite_team", "home_city", "college", "company"]
 RECORD_N_OVERALL, RECORD_N_LEAGUE = 10, 5
 EMAIL_RE = re.compile(r"[\w.+-]+@[\w-]+\.[\w.-]+")
@@ -57,18 +58,25 @@ def lineup_extras(week: dict, slot_counts: dict) -> dict[int, dict]:
     return out
 
 
+_LOGOS = json.loads(LOGOS.read_text()) if LOGOS.exists() else {"nfl": {}, "college": {}}
+
+
 def public_person(slot: dict) -> dict:
     """Strip emails and blanks; what the site is allowed to know about a person."""
     profile = {k: slot[k] for k in PROFILE_FIELDS if slot.get(k)}
+    logos = {}
+    if profile.get("college") and _LOGOS["college"].get(profile["college"]):
+        logos["college"] = _LOGOS["college"][profile["college"]]
+    if profile.get("favorite_team") and _LOGOS["nfl"].get(profile["favorite_team"]):
+        logos["favorite_team"] = _LOGOS["nfl"][profile["favorite_team"]]
     return {
         "slot_id": slot["slot_id"], "slug": slot["slot_id"].lower(), "display_name": slot["display_name"],
         "first_name": slot["first_name"], "last_name": slot["last_name"],
         "league_code": slot["league_code"], "league_name": slot["league_name"],
         "is_commissioner": slot["is_commissioner"], "manager_seat": slot["manager_seat"],
         "profile": profile,
-        "icons": profile_icons(profile),
-        # compact "🗽 🦡 🏈" string for table subtext: city, college, favorite team
-        "icon_row": " ".join(i for i in (profile_icons(profile).get(k, "") for k in ("home_city", "college", "favorite_team")) if i),
+        "icons": profile_icons(profile),   # emoji: hometown always, college/NFL only as fallback
+        "logos": logos,                    # site-relative PNG paths for college + NFL team
     }
 
 

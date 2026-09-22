@@ -21,7 +21,10 @@
 "college":"🐻",
 "keystone_group":"🗽"
 },
-"icon_row":"🌳 🐻 ✈️",
+"logos":{
+"college":"logos/college/172.png",
+"favorite_team":"logos/nfl/nyj.png"
+},
 "team":{
 "team_id":8,
 "name":"TheGenoSmithExperience",
@@ -135,7 +138,10 @@
 "home_city":"🦞",
 "college":"🐺"
 },
-"icon_row":"🦞 🐺 🇺🇸",
+"logos":{
+"college":"logos/college/111.png",
+"favorite_team":"logos/nfl/ne.png"
+},
 "team":{
 "team_id":5,
 "name":"Drake and Goff",
@@ -249,7 +255,10 @@
 "home_city":"🤠",
 "college":"🌴"
 },
-"icon_row":"🤠 🌴 🐂",
+"logos":{
+"college":"logos/college/2390.png",
+"favorite_team":"logos/nfl/hou.png"
+},
 "team":{
 "team_id":2,
 "name":"Druv's Daring Team",
@@ -365,7 +374,10 @@
 "college":"🎖️",
 "keystone_group":"🦞"
 },
-"icon_row":"🦞 🎖️ 🇺🇸",
+"logos":{
+"college":"logos/college/113.png",
+"favorite_team":"logos/nfl/ne.png"
+},
 "team":{
 "team_id":9,
 "name":"System of a 1st Down",
@@ -481,7 +493,10 @@
 "college":"🌲",
 "keystone_group":"🗽"
 },
-"icon_row":"🦞 🌲 🇺🇸",
+"logos":{
+"college":"logos/college/159.png",
+"favorite_team":"logos/nfl/ne.png"
+},
 "team":{
 "team_id":10,
 "name":"Synergistic optimization",
@@ -597,7 +612,10 @@
 "college":"🏀",
 "keystone_group":"🗽"
 },
-"icon_row":"🗽 🏀 ✈️",
+"logos":{
+"college":"logos/college/84.png",
+"favorite_team":"logos/nfl/nyj.png"
+},
 "team":{
 "team_id":3,
 "name":"Benjamin's Best Team",
@@ -713,7 +731,10 @@
 "college":"☘️",
 "keystone_group":"🗽"
 },
-"icon_row":"🏛️ ☘️ 🗽",
+"logos":{
+"college":"logos/college/87.png",
+"favorite_team":"logos/nfl/nyg.png"
+},
 "team":{
 "team_id":7,
 "name":"Kelton's Deluxe Team",
@@ -829,7 +850,10 @@
 "college":"🦡",
 "keystone_group":"🗽"
 },
-"icon_row":"🗽 🦡 🗽",
+"logos":{
+"college":"logos/college/275.png",
+"favorite_team":"logos/nfl/nyg.png"
+},
 "team":{
 "team_id":1,
 "name":"Manhattan Elitists",
@@ -945,7 +969,10 @@
 "college":"🐶",
 "keystone_group":"🇦🇺"
 },
-"icon_row":"🦞 🐶 🇺🇸",
+"logos":{
+"college":"logos/college/46.png",
+"favorite_team":"logos/nfl/ne.png"
+},
 "team":{
 "team_id":4,
 "name":"Aussie Aussie Aussie Oi Oi Oi",
@@ -1061,7 +1088,10 @@
 "college":"🦉",
 "keystone_group":"🏛️"
 },
-"icon_row":"🗽 🦉 🗽",
+"logos":{
+"college":"logos/college/brandeis-university.png",
+"favorite_team":"logos/nfl/nyg.png"
+},
 "team":{
 "team_id":6,
 "name":"Team Salant",
@@ -1167,7 +1197,7 @@
 "manager_seat":false,
 "profile":{},
 "icons":{},
-"icon_row":"",
+"logos":{},
 "team":{
 "team_id":12,
 "name":"Victoire's Spirited Team",
@@ -1273,7 +1303,7 @@
 "manager_seat":false,
 "profile":{},
 "icons":{},
-"icon_row":"",
+"logos":{},
 "team":{
 "team_id":11,
 "name":"Amelia's Awesome Team",
@@ -1389,7 +1419,10 @@
 "college":"📚",
 "keystone_group":"🗽"
 },
-"icon_row":"🗽 📚 🗽",
+"logos":{
+"college":"logos/college/108.png",
+"favorite_team":"logos/nfl/nyg.png"
+},
 "team":{
 "team_id":7,
 "name":"Bijan Mustard",
@@ -1505,7 +1538,10 @@
 "college":"🐘",
 "keystone_group":"🗽"
 },
-"icon_row":"🇲🇽 🐘 🏴‍☠️",
+"logos":{
+"college":"logos/college/112.png",
+"favorite_team":"logos/nfl/tb.png"
+},
 "team":{
 "team_id":2,
 "name":"Fries in the Bag",
@@ -1621,7 +1657,10 @@
 "college":"🐻",
 "keystone_group":"🗽"
 },
-"icon_row":"🌉 🐻 ⛏️",
+"logos":{
+"college":"logos/college/25.png",
+"favorite_team":"logos/nfl/sf.png"
+},
 "team":{
 "team_id":12,
 "name":"Ashutosh's Astounding Team",
@@ -1731,7 +1770,7 @@
 "icons":{
 "keystone_group":"🗽"
 },
-"icon_row":"",
+"logos":{},
 "team":{
 "team_id":11,
 "name":"Sahil's Game of Throws",
@@ -1847,7 +1886,10 @@
 "college":"🦁",
 "keystone_group":"🗽"
 },
-"icon_row":"🗽 🦁 🐦‍⬛",
+"logos":{
+"college":"logos/college/171.png",
+"favorite_team":"logos/nfl/bal.png"
+},
 "team":{
 "team_id":3,
 "name":"Benjamin's Best Team",
@@ -1961,7 +2003,9 @@
 "college":"🌊",
 "keystone_group":"🗽"
 },
-"icon_row":"🌉 🌊",
+"logos":{
+"college":"logos/college/2655.png"
+},
 "team":{
 "team_id":8,
 "name":"Zoe's Team",
@@ -2077,7 +2121,10 @@
 "college":"〽️",
 "keystone_group":"🗽"
 },
-"icon_row":"🌭 〽️ 🐻",
+"logos":{
+"college":"logos/college/130.png",
+"favorite_team":"logos/nfl/chi.png"
+},
 "team":{
 "team_id":10,
 "name":"Rohan's Rowdy Team",
@@ -2193,7 +2240,10 @@
 "college":"🍊",
 "keystone_group":"🗽"
 },
-"icon_row":"🌳 🍊 🦅",
+"logos":{
+"college":"logos/college/183.png",
+"favorite_team":"logos/nfl/phi.png"
+},
 "team":{
 "team_id":6,
 "name":"End Zone Sloane",
@@ -2309,7 +2359,10 @@
 "college":"🔔",
 "keystone_group":"🗽"
 },
-"icon_row":"🌶️ 🔔 🐯",
+"logos":{
+"college":"logos/college/219.png",
+"favorite_team":"logos/nfl/cin.png"
+},
 "team":{
 "team_id":4,
 "name":"Julian's Scary Team",
@@ -2425,7 +2478,10 @@
 "college":"🦁",
 "keystone_group":"🗽"
 },
-"icon_row":"🎸 🦁 🐏",
+"logos":{
+"college":"logos/college/171.png",
+"favorite_team":"logos/nfl/lar.png"
+},
 "team":{
 "team_id":9,
 "name":"Bogdan's Brilliant Team",
@@ -2535,7 +2591,7 @@
 "icons":{
 "keystone_group":"🗽"
 },
-"icon_row":"",
+"logos":{},
 "team":{
 "team_id":5,
 "name":"Rob-in the Win",
@@ -2641,7 +2697,7 @@
 "manager_seat":true,
 "profile":{},
 "icons":{},
-"icon_row":"",
+"logos":{},
 "team":{
 "team_id":1,
 "name":"Key's Top-Notch Team",
@@ -2757,7 +2813,10 @@
 "college":"🌴",
 "keystone_group":"🦞"
 },
-"icon_row":"🦞 🌴 🇺🇸",
+"logos":{
+"college":"logos/college/2390.png",
+"favorite_team":"logos/nfl/ne.png"
+},
 "team":{
 "team_id":8,
 "name":"Brittany's Brilliant Team",
@@ -2873,7 +2932,10 @@
 "college":"🦅",
 "keystone_group":"🎓"
 },
-"icon_row":"🌳 🦅 🗽",
+"logos":{
+"college":"logos/college/2329.png",
+"favorite_team":"logos/nfl/nyg.png"
+},
 "team":{
 "team_id":10,
 "name":"LIFO The Party",
@@ -2990,7 +3052,10 @@
 "college":"🦅",
 "keystone_group":"🦞"
 },
-"icon_row":"🦞 🦅 🦬",
+"logos":{
+"college":"logos/college/103.png",
+"favorite_team":"logos/nfl/buf.png"
+},
 "team":{
 "team_id":5,
 "name":"James learns football",
@@ -3107,7 +3172,10 @@
 "college":"🦅",
 "keystone_group":"🦞"
 },
-"icon_row":"🦞 🦅 🇺🇸",
+"logos":{
+"college":"logos/college/103.png",
+"favorite_team":"logos/nfl/ne.png"
+},
 "team":{
 "team_id":11,
 "name":"Uncommon Champions",
@@ -3223,7 +3291,10 @@
 "college":"🎖️",
 "keystone_group":"🦞"
 },
-"icon_row":"🦞 🎖️ 🇺🇸",
+"logos":{
+"college":"logos/college/113.png",
+"favorite_team":"logos/nfl/ne.png"
+},
 "team":{
 "team_id":12,
 "name":"Ackshually Tyler SHOUGH",
@@ -3340,7 +3411,10 @@
 "college":"🎖️",
 "keystone_group":"🦞"
 },
-"icon_row":"🦞 🎖️ 🇺🇸",
+"logos":{
+"college":"logos/college/113.png",
+"favorite_team":"logos/nfl/ne.png"
+},
 "team":{
 "team_id":7,
 "name":"Sylee's Super Team",
@@ -3456,7 +3530,10 @@
 "college":"🐐",
 "keystone_group":"🦞"
 },
-"icon_row":"🦞 🐐 🇺🇸",
+"logos":{
+"college":"logos/college/worcester-polytechnic-institute.png",
+"favorite_team":"logos/nfl/ne.png"
+},
 "team":{
 "team_id":6,
 "name":"Chris's Amazing Team",
@@ -3573,7 +3650,10 @@
 "college":"🌹",
 "keystone_group":"🦞"
 },
-"icon_row":"🦞 🌹 🇺🇸",
+"logos":{
+"college":"logos/college/vassar-college.png",
+"favorite_team":"logos/nfl/ne.png"
+},
 "team":{
 "team_id":3,
 "name":"Bill's Best Team",
@@ -3690,7 +3770,10 @@
 "college":"📚",
 "keystone_group":"🦞"
 },
-"icon_row":"🍑 📚 🪶",
+"logos":{
+"college":"logos/college/108.png",
+"favorite_team":"logos/nfl/atl.png"
+},
 "team":{
 "team_id":2,
 "name":"Peter's Totally Serious Team",
@@ -3802,7 +3885,10 @@
 "favorite_team":"🦅",
 "college":"🐂"
 },
-"icon_row":"🐂 🦅",
+"logos":{
+"college":"logos/college/328.png",
+"favorite_team":"logos/nfl/phi.png"
+},
 "team":{
 "team_id":4,
 "name":"Salt Lake Dirty Sodas",
@@ -3912,7 +3998,7 @@
 "icons":{
 "keystone_group":"🏢"
 },
-"icon_row":"",
+"logos":{},
 "team":{
 "team_id":9,
 "name":"Prateek's Perfect Team",
@@ -4018,7 +4104,7 @@
 "manager_seat":true,
 "profile":{},
 "icons":{},
-"icon_row":"",
+"logos":{},
 "team":{
 "team_id":1,
 "name":"Key's Top-Notch Team",
@@ -4128,7 +4214,7 @@
 "icons":{
 "keystone_group":"🦞"
 },
-"icon_row":"",
+"logos":{},
 "team":{
 "team_id":12,
 "name":"All Vibes",
@@ -4238,7 +4324,7 @@
 "icons":{
 "keystone_group":"🦞"
 },
-"icon_row":"",
+"logos":{},
 "team":{
 "team_id":3,
 "name":"Mimi Family",
@@ -4353,7 +4439,9 @@
 "college":"🌲",
 "keystone_group":"🦞"
 },
-"icon_row":"🦞 🌲",
+"logos":{
+"college":"logos/college/159.png"
+},
 "team":{
 "team_id":8,
 "name":"Team 17",
@@ -4469,7 +4557,10 @@
 "college":"⚓",
 "keystone_group":"🦞"
 },
-"icon_row":"🇨🇦 ⚓ 🐯",
+"logos":{
+"college":"logos/college/238.png",
+"favorite_team":"logos/nfl/cin.png"
+},
 "team":{
 "team_id":11,
 "name":"Doug's Dangerous Team",
@@ -4583,7 +4674,10 @@
 "college":"〽️",
 "keystone_group":"🦞"
 },
-"icon_row":"〽️ 🗽",
+"logos":{
+"college":"logos/college/130.png",
+"favorite_team":"logos/nfl/nyg.png"
+},
 "team":{
 "team_id":6,
 "name":"Little Giants",
@@ -4700,7 +4794,10 @@
 "college":"〽️",
 "keystone_group":"🦞"
 },
-"icon_row":"🚗 〽️ 🦁",
+"logos":{
+"college":"logos/college/130.png",
+"favorite_team":"logos/nfl/det.png"
+},
 "team":{
 "team_id":10,
 "name":"All Sleepers",
@@ -4816,7 +4913,10 @@
 "college":"🐏",
 "keystone_group":"🦞"
 },
-"icon_row":"🗽 🐏 🗽",
+"logos":{
+"college":"logos/college/227.png",
+"favorite_team":"logos/nfl/nyg.png"
+},
 "team":{
 "team_id":7,
 "name":"Sunday Scaries",
@@ -4932,7 +5032,10 @@
 "college":"🐈",
 "keystone_group":"🦞"
 },
-"icon_row":"🌭 🐈 🐯",
+"logos":{
+"college":"logos/college/77.png",
+"favorite_team":"logos/nfl/cin.png"
+},
 "team":{
 "team_id":1,
 "name":"Ranmit's Rudderless Randos",
@@ -5042,7 +5145,7 @@
 "icons":{
 "keystone_group":"🇬🇧"
 },
-"icon_row":"",
+"logos":{},
 "team":{
 "team_id":9,
 "name":"CoolName?utm_source=chatgpt.com",
@@ -5152,7 +5255,7 @@
 "icons":{
 "keystone_group":"🇬🇧"
 },
-"icon_row":"",
+"logos":{},
 "team":{
 "team_id":5,
 "name":"clueless part three",
@@ -5262,7 +5365,7 @@
 "icons":{
 "keystone_group":"🇬🇧"
 },
-"icon_row":"",
+"logos":{},
 "team":{
 "team_id":4,
 "name":"Gabriele's Great Team",
@@ -5368,7 +5471,7 @@
 "manager_seat":false,
 "profile":{},
 "icons":{},
-"icon_row":"",
+"logos":{},
 "team":{
 "team_id":2,
 "name":"Dumb Luck Club",
@@ -5485,7 +5588,10 @@
 "college":"😈",
 "keystone_group":"🎓"
 },
-"icon_row":"🚗 😈 🗽",
+"logos":{
+"college":"logos/college/150.png",
+"favorite_team":"logos/nfl/nyg.png"
+},
 "team":{
 "team_id":8,
 "name":"Like a Good Nabers",
@@ -5602,7 +5708,10 @@
 "college":"🦫",
 "keystone_group":"🎓"
 },
-"icon_row":"🌉 🦫 ⛏️",
+"logos":{
+"college":"logos/college/109.png",
+"favorite_team":"logos/nfl/sf.png"
+},
 "team":{
 "team_id":5,
 "name":"J Wong",
@@ -5719,7 +5828,10 @@
 "college":"🐓",
 "keystone_group":"🎓"
 },
-"icon_row":"🦞 🐓 🇺🇸",
+"logos":{
+"college":"logos/college/2977.png",
+"favorite_team":"logos/nfl/ne.png"
+},
 "team":{
 "team_id":6,
 "name":"Brady Bunch",
@@ -5831,7 +5943,9 @@
 "favorite_team":"🦅",
 "keystone_group":"🎓"
 },
-"icon_row":"🦅",
+"logos":{
+"favorite_team":"logos/nfl/phi.png"
+},
 "team":{
 "team_id":7,
 "name":"First and Goel",
@@ -5948,7 +6062,10 @@
 "college":"🐻",
 "keystone_group":"🎓"
 },
-"icon_row":"🦞 🐻 🇺🇸",
+"logos":{
+"college":"logos/college/225.png",
+"favorite_team":"logos/nfl/ne.png"
+},
 "team":{
 "team_id":11,
 "name":"Mark's Magnificent Team",
@@ -6065,7 +6182,10 @@
 "college":"🌲",
 "keystone_group":"🎓"
 },
-"icon_row":"🇲🇽 🌲 ⭐",
+"logos":{
+"college":"logos/college/159.png",
+"favorite_team":"logos/nfl/dal.png"
+},
 "team":{
 "team_id":2,
 "name":"Cuau MX",
@@ -6182,7 +6302,10 @@
 "college":"🐕",
 "keystone_group":"🎓"
 },
-"icon_row":"🗽 🐕 🗽",
+"logos":{
+"college":"logos/college/399.png",
+"favorite_team":"logos/nfl/nyg.png"
+},
 "team":{
 "team_id":4,
 "name":"DC's Team 🐆",
@@ -6297,7 +6420,10 @@
 "college":"😈",
 "keystone_group":"🎓"
 },
-"icon_row":"😈 🗽",
+"logos":{
+"college":"logos/college/150.png",
+"favorite_team":"logos/nfl/nyg.png"
+},
 "team":{
 "team_id":12,
 "name":"Hersh's Heated Team",
@@ -6414,7 +6540,10 @@
 "college":"🐕",
 "keystone_group":"🎓"
 },
-"icon_row":"🦞 🐕 🇺🇸",
+"logos":{
+"college":"logos/college/104.png",
+"favorite_team":"logos/nfl/ne.png"
+},
 "team":{
 "team_id":3,
 "name":"Sam's Calling for Hikes",
@@ -6524,7 +6653,7 @@
 "icons":{
 "keystone_group":"🏢"
 },
-"icon_row":"",
+"logos":{},
 "team":{
 "team_id":10,
 "name":"RL Remarkables",
@@ -6630,7 +6759,7 @@
 "manager_seat":false,
 "profile":{},
 "icons":{},
-"icon_row":"",
+"logos":{},
 "team":{
 "team_id":9,
 "name":"Cedric's Competitive Team",
@@ -6736,7 +6865,7 @@
 "manager_seat":true,
 "profile":{},
 "icons":{},
-"icon_row":"",
+"logos":{},
 "team":{
 "team_id":1,
 "name":"Key's Top-Notch Team",
@@ -6852,7 +6981,10 @@
 "college":"🐻",
 "keystone_group":"🎓"
 },
-"icon_row":"🌉 🐻 ⚔️",
+"logos":{
+"college":"logos/college/university-of-alberta.png",
+"favorite_team":"logos/nfl/min.png"
+},
 "team":{
 "team_id":3,
 "name":"Fraser's Fantastic Team",
@@ -6969,7 +7101,10 @@
 "college":"🌲",
 "keystone_group":"🎓"
 },
-"icon_row":"🧀 🌲 🧀",
+"logos":{
+"college":"logos/college/159.png",
+"favorite_team":"logos/nfl/gb.png"
+},
 "team":{
 "team_id":4,
 "name":"Jack's Scary Team",
@@ -7081,7 +7216,9 @@
 "college":"🐊",
 "keystone_group":"🗽"
 },
-"icon_row":"🐊",
+"logos":{
+"college":"logos/college/57.png"
+},
 "team":{
 "team_id":5,
 "name":"Unreasonable Hostility",
@@ -7198,7 +7335,10 @@
 "college":"🐻",
 "keystone_group":"🎓"
 },
-"icon_row":"🗽 🐻 🦁",
+"logos":{
+"college":"logos/college/172.png",
+"favorite_team":"logos/nfl/det.png"
+},
 "team":{
 "team_id":2,
 "name":"K-Pop Lehman's Punters",
@@ -7315,7 +7455,10 @@
 "college":"🐻",
 "keystone_group":"🎓"
 },
-"icon_row":"🤠 🐻 ⛏️",
+"logos":{
+"college":"logos/college/25.png",
+"favorite_team":"logos/nfl/sf.png"
+},
 "team":{
 "team_id":12,
 "name":"ben's Brilliant Team",
@@ -7432,7 +7575,10 @@
 "college":"🐔",
 "keystone_group":"🎓"
 },
-"icon_row":"🌭 🐔 🐻",
+"logos":{
+"college":"logos/college/2923.png",
+"favorite_team":"logos/nfl/chi.png"
+},
 "team":{
 "team_id":11,
 "name":"Beliebe In Miracles",
@@ -7549,7 +7695,10 @@
 "college":"🐕",
 "keystone_group":"🎓"
 },
-"icon_row":"🦞 🐕 🦬",
+"logos":{
+"college":"logos/college/104.png",
+"favorite_team":"logos/nfl/buf.png"
+},
 "team":{
 "team_id":10,
 "name":"The Bills Make Me Wanna, Shout!",
@@ -7664,7 +7813,10 @@
 "college":"🐶",
 "keystone_group":"🎓"
 },
-"icon_row":"🐶 🦁",
+"logos":{
+"college":"logos/college/43.png",
+"favorite_team":"logos/nfl/det.png"
+},
 "team":{
 "team_id":8,
 "name":"Andre's Astounding Team",
@@ -7781,7 +7933,10 @@
 "college":"🐝",
 "keystone_group":"🎓"
 },
-"icon_row":"🚗 🐝 🦁",
+"logos":{
+"college":"logos/college/59.png",
+"favorite_team":"logos/nfl/det.png"
+},
 "team":{
 "team_id":7,
 "name":"Omer's Otherworldly Team",
@@ -7898,7 +8053,10 @@
 "college":"🌳",
 "keystone_group":"🎓"
 },
-"icon_row":"🌲 🌳 🌊",
+"logos":{
+"college":"logos/college/24.png",
+"favorite_team":"logos/nfl/sea.png"
+},
 "team":{
 "team_id":6,
 "name":"Seapigeons",
@@ -8004,7 +8162,7 @@
 "manager_seat":false,
 "profile":{},
 "icons":{},
-"icon_row":"",
+"logos":{},
 "team":{
 "team_id":9,
 "name":"Max's Magnificent Team",
@@ -8110,7 +8268,7 @@
 "manager_seat":true,
 "profile":{},
 "icons":{},
-"icon_row":"",
+"logos":{},
 "team":{
 "team_id":1,
 "name":"The Commissioner",
@@ -8220,7 +8378,7 @@
 "icons":{
 "keystone_group":"🏛️"
 },
-"icon_row":"",
+"logos":{},
 "team":{
 "team_id":3,
 "name":"Touch base in the end zone",
@@ -8335,7 +8493,9 @@
 "home_city":"🏛️",
 "keystone_group":"🏛️"
 },
-"icon_row":"🏛️ 🎖️",
+"logos":{
+"favorite_team":"logos/nfl/wsh.png"
+},
 "team":{
 "team_id":7,
 "name":"futbol americano",
@@ -8445,7 +8605,7 @@
 "icons":{
 "keystone_group":"🏛️"
 },
-"icon_row":"",
+"logos":{},
 "team":{
 "team_id":11,
 "name":"yay sports",
@@ -8559,7 +8719,9 @@
 "college":"🐶",
 "keystone_group":"🏛️"
 },
-"icon_row":"🌲 🐶",
+"logos":{
+"college":"logos/college/43.png"
+},
 "team":{
 "team_id":12,
 "name":"12th man",
@@ -8675,7 +8837,10 @@
 "college":"🦡",
 "keystone_group":"🌲"
 },
-"icon_row":"🌲 🦡 🌊",
+"logos":{
+"college":"logos/college/275.png",
+"favorite_team":"logos/nfl/sea.png"
+},
 "team":{
 "team_id":6,
 "name":"The Hypothetical Monopolists",
@@ -8791,7 +8956,10 @@
 "college":"☘️",
 "keystone_group":"🌲"
 },
-"icon_row":"🌲 ☘️ 🔩",
+"logos":{
+"college":"logos/college/87.png",
+"favorite_team":"logos/nfl/pit.png"
+},
 "team":{
 "team_id":9,
 "name":"Rich's Rowdy Team",
@@ -8907,7 +9075,10 @@
 "college":"🐺",
 "keystone_group":"🗽"
 },
-"icon_row":"🌲 🐺 🌊",
+"logos":{
+"college":"logos/college/264.png",
+"favorite_team":"logos/nfl/sea.png"
+},
 "team":{
 "team_id":8,
 "name":"Evan's Excellent Team",
@@ -9024,7 +9195,10 @@
 "college":"🐻",
 "keystone_group":"🌉"
 },
-"icon_row":"🌉 🐻 ⛏️",
+"logos":{
+"college":"logos/college/26.png",
+"favorite_team":"logos/nfl/sf.png"
+},
 "team":{
 "team_id":4,
 "name":"The A(melie) Team",
@@ -9138,7 +9312,9 @@
 "home_city":"🌉",
 "keystone_group":"🌉"
 },
-"icon_row":"🌉 ⛏️",
+"logos":{
+"favorite_team":"logos/nfl/sf.png"
+},
 "team":{
 "team_id":5,
 "name":"Ande's Awesome Team",
@@ -9254,7 +9430,10 @@
 "college":"🔱",
 "keystone_group":"🌉"
 },
-"icon_row":"🌉 🔱 🦅",
+"logos":{
+"college":"logos/college/28.png",
+"favorite_team":"logos/nfl/phi.png"
+},
 "team":{
 "team_id":2,
 "name":"Slim Reapers",
@@ -9360,7 +9539,7 @@
 "manager_seat":false,
 "profile":{},
 "icons":{},
-"icon_row":"",
+"logos":{},
 "team":{
 "team_id":10,
 "name":"We're a basketball city anyways",
@@ -9466,7 +9645,7 @@
 "manager_seat":true,
 "profile":{},
 "icons":{},
-"icon_row":"",
+"logos":{},
 "team":{
 "team_id":1,
 "name":"Key's Top-Notch Team",

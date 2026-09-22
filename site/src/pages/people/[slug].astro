@@ -2,7 +2,8 @@
 import Layout from '../../components/Layout.astro';
 import ScoreChart from '../../components/ScoreChart.astro';
 import StandingsTable from '../../components/StandingsTable.astro';
-import { people, standings, leagueByCode, leagueUrl, personUrl, fmt, signed, record } from '../../lib/data';
+import ProfileBadges from '../../components/ProfileBadges.astro';
+import { people, standings, leagueByCode, leagueUrl, personUrl, fmt, signed, record, u } from '../../lib/data';
 
 export function getStaticPaths() {
   return Object.values(people).map((p: any) => ({ params: { slug: p.slug }, props: { p } }));
@@ -21,7 +22,7 @@ const title = p.team?.name || who;
   <p class="small"><a href={leagueUrl(p.league_code)}>← {league.name}</a></p>
   <h1>{title}</h1>
   <p class="muted">Managed by <strong>{who}</strong>{p.team?.abbrev ? ` · ${p.team.abbrev}` : ''} · {league.name}{p.is_commissioner ? ' · commissioner-owned team' : ''}</p>
-  {p.icon_row && <div class="icon-row" aria-hidden="true">{p.icon_row}</div>}
+  <ProfileBadges p={p} size="lg" />
 
   {r ? (
     <div class="stat-row">
@@ -51,7 +52,7 @@ const title = p.team?.name || who;
 
   {p.in_progress && (<p class="small"><span class="badge acc">Week {p.in_progress.week} in progress</span> {fmt(p.in_progress.points)} vs <a href={personUrl(p.in_progress.opp_slot_id)}><strong>{p.in_progress.opp_team_name}</strong></a> ({p.in_progress.opp_owner}) {fmt(p.in_progress.opp_points)}</p>)}
 
-  {profile.length > 0 && (<div class="profile"><h2>About</h2><dl>{profile.map(([k, v]) => (<><dt>{labels[k] ?? k}</dt><dd>{p.icons?.[k] ? `${p.icons[k]} ` : ''}{v}</dd></>))}</dl></div>)}
+  {profile.length > 0 && (<div class="profile"><h2>About</h2><dl>{profile.map(([k, v]) => (<><dt>{labels[k] ?? k}</dt><dd>{p.logos?.[k] ? <img src={u(p.logos[k])} alt="" /> : (p.icons?.[k] ? `${p.icons[k]} ` : '')}{v}</dd></>))}</dl></div>)}
 
   <h2>{league.name} standings</h2>
   <StandingsTable rows={rows} highlight={p.slot_id} />

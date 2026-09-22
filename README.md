@@ -78,6 +78,10 @@ The push rebuilds the site from the committed data (no ESPN call needed). If you
 fill Display Name / First / Last / Seat Type = Member, and the `ESPN Team ID` from
 `.venv/bin/python scripts/espn_probe.py` (it lists every team id and owner per league).
 
+**New college or NFL team shows a generic icon:** run `.venv/bin/python scripts/fetch_logos.py`
+(add the school to `COLLEGE_ESPN` or `COLLEGE_DOMAIN` in that script if it isn't found), then
+compute, commit the new PNGs under `site/public/logos/`, push.
+
 **Rename a league:** change `name` in `leagues.json` (the code and Slot IDs stay the same).
 
 **Force a full re-fetch** (e.g. after ESPN stat corrections): `scripts/fetch_espn.py --force`.

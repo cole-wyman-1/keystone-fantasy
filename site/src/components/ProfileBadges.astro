@@ -1,0 +1,20 @@
+---
+// College logo, hometown emoji (country flag for international), favorite NFL logo.
+// Each badge has a hover/tap tooltip naming the school / hometown / team.
+import { u } from '../lib/data';
+const { p, size = 'sm' } = Astro.props;
+const prof = p.profile ?? {}, icons = p.icons ?? {}, logos = p.logos ?? {};
+const items: { tip: string; img?: string; emoji?: string }[] = [];
+if (prof.college) items.push({ tip: `College: ${prof.college}`, img: logos.college ? u(logos.college) : undefined, emoji: icons.college });
+if (prof.home_city) items.push({ tip: `Hometown: ${prof.home_city}`, emoji: icons.home_city });
+if (prof.favorite_team) items.push({ tip: `Favorite team: ${prof.favorite_team}`, img: logos.favorite_team ? u(logos.favorite_team) : undefined, emoji: icons.favorite_team });
+---
+{items.length > 0 && (
+  <span class={`badges ${size}`}>
+    {items.map((it) => (
+      <span class="tip" data-tip={it.tip} title={it.tip} tabindex="0">
+        {it.img ? <img src={it.img} alt={it.tip} loading="lazy" width="96" height="96" /> : <span class="emoji">{it.emoji}</span>}
+      </span>
+    ))}
+  </span>
+)}
