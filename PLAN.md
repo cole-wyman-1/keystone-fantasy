@@ -1,6 +1,6 @@
 # Keystone Fantasy Football 2026 — Site Plan
 
-Status: APPROVED 2026-09-21. ESPN layer: raw requests. Cron: 11:00 UTC Mon/Tue/Fri.
+Status: APPROVED 2026-09-21, SHIPPED 2026-09-22. Post-launch changes are recorded in CLAUDE.md (UI decisions) and AGENT_LOG.md; this file is the original design.
 
 ## 1. Decisions so far
 
