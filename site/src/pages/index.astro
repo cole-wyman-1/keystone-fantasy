@@ -1,5 +1,6 @@
 ---
 import Layout from '../components/Layout.astro';
+import TeamCell from '../components/TeamCell.astro';
 import { meta, leagues, standings, highs, weekly, people, power, u, leagueUrl, personUrl, fmt, record } from '../lib/data';
 const lastWeek = highs.weeks.length ? highs.weeks[highs.weeks.length - 1] : null;
 const leaderboard = highs.leaderboard.slice(0, 8);
@@ -13,9 +14,9 @@ const inProgressWeek = Object.values(weekly).flatMap((w: any) => Object.values(w
   {lastWeek && (
     <div class="stat-row">
       <div class="stat"><div class="lbl">Top score, week {lastWeek.week}</div><div class="val">{fmt(lastWeek.overall.points)}</div>
-        <div class="sub"><a href={personUrl(lastWeek.overall.slot_id)}>{lastWeek.overall.owner}</a> · {lastWeek.overall.league_code}</div></div>
-      {topPower[0] && <div class="stat"><div class="lbl">Power #1</div><div class="val">{topPower[0].owner}</div><div class="sub">{topPower[0].league_code} · {fmt(topPower[0].ppg)} ppg</div></div>}
-      {leaderboard[0] && <div class="stat"><div class="lbl">Most weekly highs</div><div class="val">{leaderboard[0].owner}</div><div class="sub">{leaderboard[0].count} week{leaderboard[0].count === 1 ? '' : 's'} · {leaderboard[0].league_code}</div></div>}
+        <div class="sub"><a href={personUrl(lastWeek.overall.slot_id)}><strong>{lastWeek.overall.team_name}</strong></a> · {lastWeek.overall.owner} · {lastWeek.overall.league_code}</div></div>
+      {topPower[0] && <div class="stat"><div class="lbl">Power #1</div><div class="val">{topPower[0].team_name}</div><div class="sub">{topPower[0].owner} · {topPower[0].league_code} · {fmt(topPower[0].ppg)} ppg</div></div>}
+      {leaderboard[0] && <div class="stat"><div class="lbl">Most weekly highs</div><div class="val">{leaderboard[0].team_name}</div><div class="sub">{leaderboard[0].owner} · {leaderboard[0].count} week{leaderboard[0].count === 1 ? '' : 's'} · {leaderboard[0].league_code}</div></div>}
     </div>
   )}
 
@@ -29,8 +30,8 @@ const inProgressWeek = Object.values(weekly).flatMap((w: any) => Object.values(w
         <a class="card" href={leagueUrl(l.code)} style="color:inherit">
           <h3>{l.name}</h3>
           <div class="small muted">{l.scoring_format} · {l.weeks_complete} wk complete</div>
-          {lead && <div style="margin-top:8px"><span class="badge acc">1st</span> {lead.owner} <span class="muted small">{record(lead)}, {fmt(lead.points_for)} PF</span></div>}
-          {hi && <div><span class="badge gold">Wk {lastWeek.week} high</span> {hi.owner} <span class="muted small">{fmt(hi.points)}</span></div>}
+          {lead && <div style="margin-top:8px"><span class="badge acc">1st</span> <strong>{lead.team_name}</strong> <span class="muted small">{lead.owner} · {record(lead)}, {fmt(lead.points_for)} PF</span></div>}
+          {hi && <div><span class="badge gold">Wk {lastWeek.week} high</span> <strong>{hi.team_name}</strong> <span class="muted small">{hi.owner} · {fmt(hi.points)}</span></div>}
         </a>
       );
     })}
@@ -38,8 +39,8 @@ const inProgressWeek = Object.values(weekly).flatMap((w: any) => Object.values(w
 
   <h2>Most weekly high scores</h2>
   {leaderboard.length === 0 ? <p class="muted">No completed weeks yet.</p> : (
-  <div class="tbl-wrap"><table class="tbl"><thead><tr><th>#</th><th>Manager</th><th>League</th><th class="num">Weeks won</th></tr></thead>
-    <tbody>{leaderboard.map((r: any, i: number) => (<tr><td class="num">{i + 1}</td><td><a href={personUrl(r.slot_id)}>{r.owner}</a> <span class="muted small">{r.team_name}</span></td><td class="muted">{r.league_code}</td><td class="num">{r.count}</td></tr>))}</tbody></table></div>
+  <div class="tbl-wrap"><table class="tbl"><thead><tr><th>#</th><th>Team</th><th>League</th><th class="num">Weeks won</th></tr></thead>
+    <tbody>{leaderboard.map((r: any, i: number) => (<tr><td class="num">{i + 1}</td><td><TeamCell slotId={r.slot_id} teamName={r.team_name} owner={r.owner} /></td><td class="muted">{r.league_code}</td><td class="num">{r.count}</td></tr>))}</tbody></table></div>
   )}
   <p><a href={u('weekly-highs/')}>All weekly highs →</a> · <a href={u('records/')}>Record book →</a> · <a href={u('power/')}>Power ranking →</a></p>
 </Layout>

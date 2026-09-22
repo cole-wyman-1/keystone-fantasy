@@ -1,10 +1,11 @@
 ---
 import Layout from '../components/Layout.astro';
+import TeamCell from '../components/TeamCell.astro';
 import { power, personUrl, fmt, signed, record } from '../lib/data';
 ---
 <Layout title="Power Ranking">
   <h1>Cross-league power ranking</h1>
   <p class="muted">All 84 teams on one scale. Every league uses the same Half-PPR scoring, so points are directly comparable. Score = 60% points per game + 25% all-play win % + 15% last-3-week scoring.</p>
-  <div class="tbl-wrap"><table class="tbl"><thead><tr><th>#</th><th>Manager</th><th>League</th><th class="num">Score</th><th class="num">PPG</th><th class="num hide-sm">W-L</th><th class="num hide-sm">All-play</th><th class="num hide-sm">Last 3</th><th class="num hide-sm">Luck</th></tr></thead>
-    <tbody>{power.map((r: any) => (<tr><td class="num">{r.power_rank}</td><td><a href={personUrl(r.slot_id)}>{r.owner}</a> <span class="muted small">{r.team_name}</span></td><td class="muted">{r.league_code}</td><td class="num"><strong>{fmt(r.power_score, 1)}</strong></td><td class="num">{fmt(r.ppg)}</td><td class="num hide-sm">{record(r)}</td><td class="num hide-sm">{fmt(100 * r.all_play_pct, 0)}%</td><td class="num hide-sm">{fmt(r.last3_ppg)}</td><td class={`num hide-sm ${r.luck > 0 ? 'pos' : r.luck < 0 ? 'neg' : ''}`}>{signed(r.luck)}</td></tr>))}</tbody></table></div>
+  <div class="tbl-wrap"><table class="tbl"><thead><tr><th>#</th><th>Team</th><th>League</th><th class="num">Score</th><th class="num">PPG</th><th class="num hide-sm">W-L</th><th class="num hide-sm">All-play</th><th class="num hide-sm">Last 3</th><th class="num hide-sm">Luck</th></tr></thead>
+    <tbody>{power.map((r: any) => (<tr><td class="num">{r.power_rank}</td><td><TeamCell slotId={r.slot_id} teamName={r.team_name} owner={r.owner} /></td><td class="muted">{r.league_code}</td><td class="num"><strong>{fmt(r.power_score, 1)}</strong></td><td class="num">{fmt(r.ppg)}</td><td class="num hide-sm">{record(r)}</td><td class="num hide-sm">{fmt(100 * r.all_play_pct, 0)}%</td><td class="num hide-sm">{fmt(r.last3_ppg)}</td><td class={`num hide-sm ${r.luck > 0 ? 'pos' : r.luck < 0 ? 'neg' : ''}`}>{signed(r.luck)}</td></tr>))}</tbody></table></div>
 </Layout>

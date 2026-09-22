@@ -29,6 +29,9 @@ cp .env.example .env                           # then paste ESPN_S2 / ESPN_SWID
 ```
 
 ## Decisions (keep in sync with PLAN.md)
+- Display: TEAM NAME is the bold link everywhere; manager name (+ city/college/NFL emoji row) is subtext. Person page h1 = team name.
+- Luck is computed and shown on person pages / records / power, but NOT in standings tables (Cole's choice).
+- Deferred: office/NFL-team/college grouping pages ("maybe later").
 - All 7 leagues share one scoring format (Half PPR); power ranking uses raw points.
 - `Manager Seat = Yes` = the team that carries the commissioner ESPN login. In EMP/BEA/HAR/C2C the co-owner is the real owner and the page is theirs; in GOT/ALC/ALL it is the commissioner's own team.
 - All leagues private; single ESPN account; cookies from `.env` locally, GitHub Secrets in CI.
@@ -47,4 +50,4 @@ cp .env.example .env                           # then paste ESPN_S2 / ESPN_SWID
 - [x] Phase 2: cookies + probe OK for all 7 leagues (2026-09-21)
 - [x] Phase 3: 84/84 slots mapped; IDs written to master CSV/JSON (`scripts/map_teams.py propose|apply`)
 - [x] Phase 4: fetch, compute, site (Astro, 95 pages), workflow, README (2026-09-22)
-- [ ] Phase 5: first deploy + verify vs ESPN app
+- [x] Phase 5: deployed 2026-09-22, Cole verified Gotham standings + week 2 vs ESPN app. Post-verify tweaks: team-first naming, Luck hidden from standings tables, emoji icons (`scripts/lib/icons.py`).

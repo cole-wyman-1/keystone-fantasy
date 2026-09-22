@@ -14,12 +14,14 @@ const r = p.record;
 const leagueAvg = rows.length ? rows.reduce((s: number, x: any) => s + x.ppg, 0) / rows.length : null;
 const labels: Record<string, string> = { keystone_group: 'Keystone group', favorite_team: 'Favorite NFL team', home_city: 'Home city', college: 'College', company: 'Company' };
 const profile = Object.entries(p.profile ?? {});
-const title = p.is_commissioner ? `${league.name} Commissioner` : p.display_name;
+const who = p.is_commissioner ? `${league.name} Commissioner` : p.display_name;
+const title = p.team?.name || who;
 ---
-<Layout title={title}>
+<Layout title={`${title} · ${who}`}>
   <p class="small"><a href={leagueUrl(p.league_code)}>← {league.name}</a></p>
   <h1>{title}</h1>
-  <p class="muted">{p.team?.name}{p.team?.abbrev ? ` (${p.team.abbrev})` : ''} · {league.name}{p.is_commissioner ? ' · commissioner-owned team' : ''}</p>
+  <p class="muted">Managed by <strong>{who}</strong>{p.team?.abbrev ? ` · ${p.team.abbrev}` : ''} · {league.name}{p.is_commissioner ? ' · commissioner-owned team' : ''}</p>
+  {p.icon_row && <div class="icon-row" aria-hidden="true">{p.icon_row}</div>}
 
   {r ? (
     <div class="stat-row">
@@ -37,19 +39,19 @@ const title = p.is_commissioner ? `${league.name} Commissioner` : p.display_name
 
   {p.weeks.length > 0 && (<>
     <div class="stat-row">
-      <div class="stat"><div class="lbl">Best week</div><div class="val">{fmt(p.best_week.points)}</div><div class="sub">week {p.best_week.week} vs {p.best_week.opp_owner}</div></div>
-      <div class="stat"><div class="lbl">Worst week</div><div class="val">{fmt(p.worst_week.points)}</div><div class="sub">week {p.worst_week.week} vs {p.worst_week.opp_owner}</div></div>
+      <div class="stat"><div class="lbl">Best week</div><div class="val">{fmt(p.best_week.points)}</div><div class="sub">week {p.best_week.week} vs {p.best_week.opp_team_name}</div></div>
+      <div class="stat"><div class="lbl">Worst week</div><div class="val">{fmt(p.worst_week.points)}</div><div class="sub">week {p.worst_week.week} vs {p.worst_week.opp_team_name}</div></div>
       <div class="stat"><div class="lbl">Bench points</div><div class="val">{fmt(p.bench_total)}</div><div class="sub">total, completed weeks</div></div>
       <div class="stat"><div class="lbl">Left on the table</div><div class="val">{fmt(p.left_on_table_total)}</div><div class="sub">optimal lineup minus actual</div></div>
     </div>
     <h2>Game log</h2>
     <div class="tbl-wrap"><table class="tbl"><thead><tr><th>Wk</th><th>Result</th><th class="num">Pts</th><th>Opponent</th><th class="num">Opp</th><th class="num hide-sm">Rank</th><th class="num hide-sm">Bench</th><th class="num hide-sm">Optimal</th></tr></thead>
-      <tbody>{p.weeks.map((w: any) => (<tr class={w.league_high ? 'hi' : ''}><td>{w.week}</td><td><span class={`badge ${w.result === 'W' ? 'win' : w.result === 'L' ? 'loss' : ''}`}>{w.result}</span></td><td class="num"><strong>{fmt(w.points)}</strong>{w.league_high ? ' ★' : ''}</td><td><a href={personUrl(w.opp_slot_id)}>{w.opp_owner}</a></td><td class="num">{fmt(w.opp_points)}</td><td class="num hide-sm">{w.rank_in_league}/{rows.length}</td><td class="num hide-sm">{fmt(w.bench_points)}</td><td class="num hide-sm">{fmt(w.optimal_points)}</td></tr>))}</tbody></table></div>
+      <tbody>{p.weeks.map((w: any) => (<tr class={w.league_high ? 'hi' : ''}><td>{w.week}</td><td><span class={`badge ${w.result === 'W' ? 'win' : w.result === 'L' ? 'loss' : ''}`}>{w.result}</span></td><td class="num"><strong>{fmt(w.points)}</strong>{w.league_high ? ' ★' : ''}</td><td><a href={personUrl(w.opp_slot_id)}><strong>{w.opp_team_name}</strong></a> <span class="muted small">{w.opp_owner}</span></td><td class="num">{fmt(w.opp_points)}</td><td class="num hide-sm">{w.rank_in_league}/{rows.length}</td><td class="num hide-sm">{fmt(w.bench_points)}</td><td class="num hide-sm">{fmt(w.optimal_points)}</td></tr>))}</tbody></table></div>
   </>)}
 
-  {p.in_progress && (<p class="small"><span class="badge acc">Week {p.in_progress.week} in progress</span> {fmt(p.in_progress.points)} vs <a href={personUrl(p.in_progress.opp_slot_id)}>{p.in_progress.opp_owner}</a> {fmt(p.in_progress.opp_points)}</p>)}
+  {p.in_progress && (<p class="small"><span class="badge acc">Week {p.in_progress.week} in progress</span> {fmt(p.in_progress.points)} vs <a href={personUrl(p.in_progress.opp_slot_id)}><strong>{p.in_progress.opp_team_name}</strong></a> ({p.in_progress.opp_owner}) {fmt(p.in_progress.opp_points)}</p>)}
 
-  {profile.length > 0 && (<div class="profile"><h2>About</h2><dl>{profile.map(([k, v]) => (<><dt>{labels[k] ?? k}</dt><dd>{v}</dd></>))}</dl></div>)}
+  {profile.length > 0 && (<div class="profile"><h2>About</h2><dl>{profile.map(([k, v]) => (<><dt>{labels[k] ?? k}</dt><dd>{p.icons?.[k] ? `${p.icons[k]} ` : ''}{v}</dd></>))}</dl></div>)}
 
   <h2>{league.name} standings</h2>
   <StandingsTable rows={rows} highlight={p.slot_id} />

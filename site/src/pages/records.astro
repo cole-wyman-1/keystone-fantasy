@@ -29,7 +29,7 @@ const sections = (rb: any, showLeague: boolean) => [
     {[['Luckiest', records.luck.luckiest], ['Unluckiest', records.luck.unluckiest]].map(([t, rows]: any) => (
       <div class="card"><h3>{t}</h3>
         <div class="tbl-wrap"><table class="tbl"><thead><tr><th>Who</th><th class="num">Rec</th><th class="num">Exp</th><th class="num">Luck</th></tr></thead>
-          <tbody>{rows.slice(0, 5).map((r: any) => (<tr><td><a href={personUrl(r.slot_id)}>{r.owner}</a> <span class="muted small">{r.league_code}</span></td><td class="num">{record(r)}</td><td class="num">{fmt(r.expected_wins)}</td><td class={`num ${r.luck > 0 ? 'pos' : r.luck < 0 ? 'neg' : ''}`}>{signed(r.luck)}</td></tr>))}</tbody></table></div>
+          <tbody>{rows.slice(0, 5).map((r: any) => (<tr><td><a href={personUrl(r.slot_id)}><strong>{r.team_name}</strong></a> <span class="muted small">{r.owner} · {r.league_code}</span></td><td class="num">{record(r)}</td><td class="num">{fmt(r.expected_wins)}</td><td class={`num ${r.luck > 0 ? 'pos' : r.luck < 0 ? 'neg' : ''}`}>{signed(r.luck)}</td></tr>))}</tbody></table></div>
       </div>
     ))}
   </div>
@@ -39,7 +39,7 @@ const sections = (rb: any, showLeague: boolean) => [
     {[['Longest win streak', records.streaks.longest_win, 'longest_win_streak'], ['Longest losing streak', records.streaks.longest_loss, 'longest_loss_streak']].map(([t, rows, key]: any) => (
       <div class="card"><h3>{t}</h3>
         <div class="tbl-wrap"><table class="tbl"><thead><tr><th>Who</th><th class="num">Length</th><th>Now</th></tr></thead>
-          <tbody>{rows.filter((r: any) => r[key] > 0).slice(0, 5).map((r: any) => (<tr><td><a href={personUrl(r.slot_id)}>{r.owner}</a> <span class="muted small">{r.league_code}</span></td><td class="num">{r[key]}</td><td><span class="badge">{r.streak}</span></td></tr>))}</tbody></table></div>
+          <tbody>{rows.filter((r: any) => r[key] > 0).slice(0, 5).map((r: any) => (<tr><td><a href={personUrl(r.slot_id)}><strong>{r.team_name}</strong></a> <span class="muted small">{r.owner} · {r.league_code}</span></td><td class="num">{r[key]}</td><td><span class="badge">{r.streak}</span></td></tr>))}</tbody></table></div>
       </div>
     ))}
   </div>

@@ -1,5 +1,6 @@
 ---
 import Layout from '../components/Layout.astro';
+import TeamCell from '../components/TeamCell.astro';
 import { highs, leagues, personUrl, fmt } from '../lib/data';
 const weeks = [...highs.weeks].reverse();
 ---
@@ -9,13 +10,13 @@ const weeks = [...highs.weeks].reverse();
 
   <h2>Leaderboard: most weekly highs</h2>
   {highs.leaderboard.length === 0 ? <p class="muted">No completed weeks yet.</p> : (
-  <div class="tbl-wrap"><table class="tbl"><thead><tr><th>#</th><th>Manager</th><th>League</th><th class="num">Weeks</th></tr></thead>
-    <tbody>{highs.leaderboard.map((r: any, i: number) => (<tr><td class="num">{i + 1}</td><td><a href={personUrl(r.slot_id)}>{r.owner}</a> <span class="muted small">{r.team_name}</span></td><td class="muted">{r.league_code}</td><td class="num">{r.count}</td></tr>))}</tbody></table></div>
+  <div class="tbl-wrap"><table class="tbl"><thead><tr><th>#</th><th>Team</th><th>League</th><th class="num">Weeks</th></tr></thead>
+    <tbody>{highs.leaderboard.map((r: any, i: number) => (<tr><td class="num">{i + 1}</td><td><TeamCell slotId={r.slot_id} teamName={r.team_name} owner={r.owner} /></td><td class="muted">{r.league_code}</td><td class="num">{r.count}</td></tr>))}</tbody></table></div>
   )}
 
   {weeks.map((w: any) => (<>
-    <h2>Week {w.week} <span class="badge gold">Overall: {w.overall.owner} {fmt(w.overall.points)}</span></h2>
-    <div class="tbl-wrap"><table class="tbl"><thead><tr><th>League</th><th>High scorer</th><th class="num">Points</th></tr></thead>
-      <tbody>{leagues.map((l) => { const h = w.per_league[l.code]; return h ? (<tr class={l.code === w.overall.league_code ? 'hi' : ''}><td>{l.name}</td><td><a href={personUrl(h.slot_id)}>{h.owner}</a> <span class="muted small">{h.team_name}</span></td><td class="num"><strong>{fmt(h.points)}</strong></td></tr>) : null; })}</tbody></table></div>
+    <h2>Week {w.week} <span class="badge gold">Overall: {w.overall.team_name} ({w.overall.owner}) {fmt(w.overall.points)}</span></h2>
+    <div class="tbl-wrap"><table class="tbl"><thead><tr><th>League</th><th>Top team</th><th class="num">Points</th></tr></thead>
+      <tbody>{leagues.map((l) => { const h = w.per_league[l.code]; return h ? (<tr class={l.code === w.overall.league_code ? 'hi' : ''}><td>{l.name}</td><td><TeamCell slotId={h.slot_id} teamName={h.team_name} owner={h.owner} /></td><td class="num"><strong>{fmt(h.points)}</strong></td></tr>) : null; })}</tbody></table></div>
   </>))}
 </Layout>

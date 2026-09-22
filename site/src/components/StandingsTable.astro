@@ -1,5 +1,6 @@
 ---
-import { personUrl, fmt, signed, record } from '../lib/data';
+import TeamCell from './TeamCell.astro';
+import { fmt, record } from '../lib/data';
 const { rows, highlight = null, showLeague = false } = Astro.props;
 const badge = (p: string) => ({ clinched: ['gold', 'Clinched'], in: ['win', 'In'], bubble: ['acc', 'Bubble'], eliminated: ['loss', 'Out'], out: ['', 'Out'] } as any)[p] ?? ['', ''];
 ---
@@ -8,21 +9,20 @@ const badge = (p: string) => ({ clinched: ['gold', 'Clinched'], in: ['win', 'In'
     <thead>
       <tr>
         <th>#</th><th>Team</th>{showLeague && <th>League</th>}<th class="num">W-L</th><th class="num">PF</th>
-        <th class="num hide-sm">PA</th><th class="num">PPG</th><th class="hide-sm">Streak</th><th class="num hide-sm" title="Actual wins minus all-play expected wins">Luck</th><th class="hide-sm">Playoffs</th>
+        <th class="num hide-sm">PA</th><th class="num">PPG</th><th class="hide-sm">Streak</th><th class="hide-sm">Playoffs</th>
       </tr>
     </thead>
     <tbody>
       {rows.map((r: any) => (
         <tr class={r.slot_id === highlight ? 'me' : ''}>
           <td class="num">{r.rank}</td>
-          <td><a href={personUrl(r.slot_id)}>{r.owner}</a> <span class="muted small">{r.team_name}</span></td>
+          <td><TeamCell slotId={r.slot_id} teamName={r.team_name} owner={r.owner} /></td>
           {showLeague && <td class="muted">{r.league_code}</td>}
           <td class="num">{record(r)}</td>
           <td class="num">{fmt(r.points_for)}</td>
           <td class="num hide-sm">{fmt(r.points_against)}</td>
           <td class="num">{fmt(r.ppg)}</td>
           <td class="hide-sm"><span class={`badge ${r.streak_type === 'W' ? 'win' : r.streak_type === 'L' ? 'loss' : ''}`}>{r.streak}</span></td>
-          <td class={`num hide-sm ${r.luck > 0 ? 'pos' : r.luck < 0 ? 'neg' : ''}`}>{signed(r.luck)}</td>
           <td class="hide-sm">{r.playoff && <span class={`badge ${badge(r.playoff)[0]}`}>{badge(r.playoff)[1]}</span>}</td>
         </tr>
       ))}

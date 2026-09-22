@@ -14,6 +14,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+from lib.icons import profile_icons  # noqa: E402
 from lib.lineup import optimal_lineup  # noqa: E402
 from lib.records import (games_from_weeks, playoff_picture, power_rank, record_book, standings,  # noqa: E402
                          weekly_highs)
@@ -65,6 +66,9 @@ def public_person(slot: dict) -> dict:
         "league_code": slot["league_code"], "league_name": slot["league_name"],
         "is_commissioner": slot["is_commissioner"], "manager_seat": slot["manager_seat"],
         "profile": profile,
+        "icons": profile_icons(profile),
+        # compact "🗽 🦡 🏈" string for table subtext: city, college, favorite team
+        "icon_row": " ".join(i for i in (profile_icons(profile).get(k, "") for k in ("home_city", "college", "favorite_team")) if i),
     }
 
 

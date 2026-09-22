@@ -1,5 +1,6 @@
 ---
-import { personUrl, fmt } from '../lib/data';
+import TeamCell from './TeamCell.astro';
+import { fmt } from '../lib/data';
 const { title, rows, valueKey, valueLabel = 'Points', note = '', showLeague = true, extra = null } = Astro.props;
 ---
 <h3>{title}</h3>
@@ -7,16 +8,16 @@ const { title, rows, valueKey, valueLabel = 'Points', note = '', showLeague = tr
 {rows.length === 0 ? <p class="muted small">Nothing yet.</p> : (
 <div class="tbl-wrap">
   <table class="tbl">
-    <thead><tr><th>#</th><th>Who</th>{showLeague && <th class="hide-sm">League</th>}<th class="num">Wk</th><th class="num">{valueLabel}</th><th class="hide-sm">Detail</th></tr></thead>
+    <thead><tr><th>#</th><th>Team</th>{showLeague && <th class="hide-sm">League</th>}<th class="num">Wk</th><th class="num">{valueLabel}</th><th class="hide-sm">Detail</th></tr></thead>
     <tbody>
       {rows.map((r: any, i: number) => (
         <tr>
           <td class="num">{i + 1}</td>
-          <td><a href={personUrl(r.slot_id)}>{r.owner}</a> <span class="muted small">{r.team_name}</span></td>
+          <td><TeamCell slotId={r.slot_id} teamName={r.team_name} owner={r.owner} icons={false} /></td>
           {showLeague && <td class="muted hide-sm">{r.league_code}</td>}
           <td class="num">{r.week}</td>
           <td class="num"><strong>{typeof r[valueKey] === 'number' ? fmt(r[valueKey]) : r[valueKey]}</strong></td>
-          <td class="muted small hide-sm">{extra ? extra(r) : `vs ${r.opp_owner} (${fmt(r.opp_points)}), ${r.result === 'W' ? 'won' : r.result === 'L' ? 'lost' : 'tied'}`}</td>
+          <td class="muted small hide-sm">{extra ? extra(r) : `vs ${r.opp_team_name} (${fmt(r.opp_points)}), ${r.result === 'W' ? 'won' : r.result === 'L' ? 'lost' : 'tied'}`}</td>
         </tr>
       ))}
     </tbody>
