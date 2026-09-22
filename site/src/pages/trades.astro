@@ -4,7 +4,6 @@ import TradeCard from '../components/TradeCard.astro';
 import { load, leagues } from '../lib/data';
 const trades: any[] = load('trades');
 const done = trades.filter((t) => t.status === 'EXECUTED');
-const pending = trades.filter((t) => t.status === 'PENDING');
 const byLeague = (code: string) => done.filter((t) => t.league_code === code);
 ---
 <Layout title="Trade Center">
@@ -16,12 +15,6 @@ const byLeague = (code: string) => done.filter((t) => t.league_code === code);
   ) : (
     <div class="trades">{done.map((t) => <TradeCard t={t} />)}</div>
   )}
-
-  {pending.length > 0 && (<>
-    <h2>Pending proposals</h2>
-    <p class="small muted">Offers on the table right now. They move up once both sides accept and the review period passes.</p>
-    <div class="trades">{pending.map((t) => <TradeCard t={t} />)}</div>
-  </>)}
 
   {done.length > 0 && (<>
     <h2>By league</h2>

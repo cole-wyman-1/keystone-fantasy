@@ -49,7 +49,7 @@ cp .env.example .env                           # then paste ESPN_S2 / ESPN_SWID
 - Emails never enter git: history was rewritten before the first push; keep it that way.
 
 ## Trade center
-`/trades/`: fetch_espn.py pulls `mTransactions2` for every scoring period (transactions are per-period), `lib/trades.py` keeps `TRADE_PROPOSAL` records (any status) with `TRADE` items → `data/espn/<CODE>/trades.json`. Player names resolved via `kona_player_info` + x-fantasy-filter into `data/espn/players.json` (append-only cache). compute.py → `data/site/trades.json` (sides with gives/receives). Page shows EXECUTED trades, a pending-proposals section, and per-league details; person pages list their completed trades.
+`/trades/`: fetch_espn.py pulls `mTransactions2` for every scoring period (transactions are per-period), `lib/trades.py` keeps `TRADE_PROPOSAL` records (any status) with `TRADE` items → `data/espn/<CODE>/trades.json`. Player names resolved via `kona_player_info` + x-fantasy-filter into `data/espn/players.json` (append-only cache). compute.py → `data/site/trades.json` (sides with gives/receives). Only EXECUTED trades reach data/site (pending/canceled are private, user's call); page shows them newest-first plus per-league details; person pages list their completed trades.
 
 ## Message board
 `site/src/components/MessageBoard.astro` at the bottom of the home page, backed by Supabase (free tier). Config in `board.json` (public URL + anon key; blank = board hidden). Schema + RLS + rate-limit triggers in `scripts/board_schema.sql`. Anyone can read/post; deletes happen in the Supabase dashboard. Replies nest one level (trigger re-parents deeper replies).

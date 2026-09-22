@@ -190,6 +190,8 @@ def main() -> int:
 
         tpath = ESPN / code / "trades.json"
         for t in (json.loads(tpath.read_text()) if tpath.exists() else []):
+            if t["status"] != "EXECUTED":
+                continue  # pending / canceled / declined proposals never reach the site
             rec = {"id": t["id"], "league_code": code, "league_name": lg["name"], "status": t["status"], "status_label": t["status_label"],
                    "proposed_utc": t["proposed_utc"], "processed_utc": t["processed_utc"], "week": t["scoring_period"],
                    "sides": trade_sides(t, label, players_db)}

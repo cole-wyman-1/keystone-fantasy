@@ -110,7 +110,7 @@ computed standings agree with ESPN's own W-L and points for every team.
 ## Trade center
 
 Automatic. Every refresh pulls all trade proposals from ESPN; completed ones appear on `/trades/`
-and on each manager's page, pending offers in their own section. If a player shows as
+and on each manager's page. Pending, canceled, and declined proposals are never published. If a player shows as
 "Player 123456", delete that id from `data/espn/players.json` and re-run the fetch.
 
 ## Message board (home page)
