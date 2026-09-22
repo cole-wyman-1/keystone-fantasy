@@ -4,7 +4,7 @@ import TeamCell from '../components/TeamCell.astro';
 import { meta, leagues, standings, highs, weekly, people, power, u, leagueUrl, personUrl, fmt, record } from '../lib/data';
 const lastWeek = highs.weeks.length ? highs.weeks[highs.weeks.length - 1] : null;
 const leaderboard = highs.leaderboard.slice(0, 8);
-const topPower = power.slice(0, 5);
+const topPower = power.slice(0, 10);
 const inProgressWeek = Object.values(weekly).flatMap((w: any) => Object.values(w)).find((w: any) => !w.complete) as any;
 ---
 <Layout>
@@ -37,10 +37,11 @@ const inProgressWeek = Object.values(weekly).flatMap((w: any) => Object.values(w
     })}
   </div>
 
-  <h2>Most weekly high scores</h2>
-  {leaderboard.length === 0 ? <p class="muted">No completed weeks yet.</p> : (
-  <div class="tbl-wrap"><table class="tbl"><thead><tr><th>#</th><th>Team</th><th>League</th><th class="num">Weeks won</th></tr></thead>
-    <tbody>{leaderboard.map((r: any, i: number) => (<tr><td class="num">{i + 1}</td><td><TeamCell slotId={r.slot_id} teamName={r.team_name} owner={r.owner} /></td><td class="muted">{r.league_code}</td><td class="num">{r.count}</td></tr>))}</tbody></table></div>
+  <h2>Cross-league power ranking</h2>
+  {topPower.length === 0 ? <p class="muted">No completed weeks yet.</p> : (
+  <div class="tbl-wrap"><table class="tbl"><thead><tr><th>#</th><th>Team</th><th>League</th><th class="num">Score</th><th class="num">PPG</th><th class="num hide-sm">W-L</th></tr></thead>
+    <tbody>{topPower.map((r: any) => (<tr><td class="num">{r.power_rank}</td><td><TeamCell slotId={r.slot_id} teamName={r.team_name} owner={r.owner} /></td><td class="muted">{r.league_code}</td><td class="num"><strong>{fmt(r.power_score, 1)}</strong></td><td class="num">{fmt(r.ppg)}</td><td class="num hide-sm">{record(r)}</td></tr>))}</tbody></table></div>
   )}
-  <p><a href={u('weekly-highs/')}>All weekly highs →</a> · <a href={u('records/')}>Record book →</a> · <a href={u('power/')}>Power ranking →</a></p>
+  <p class="small muted">Top 10 of 84. Score = 60% points per game + 25% all-play win % + 15% last-3-week scoring. <a href={u('power/')}>Full ranking →</a></p>
+  <p><a href={u('weekly-highs/')}>Weekly highs →</a> · <a href={u('records/')}>Record book →</a></p>
 </Layout>
