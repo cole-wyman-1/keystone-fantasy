@@ -1,0 +1,21 @@
+# secrets
+.env
+.env.*
+!.env.example
+
+# python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# raw ESPN responses (debug only; large, kept as CI artifact instead)
+data/raw/
+
+# node / astro
+site/node_modules/
+site/dist/
+site/.astro/
+
+# os
+.DS_Store

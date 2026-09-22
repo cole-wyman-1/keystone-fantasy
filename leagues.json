@@ -1,0 +1,12 @@
+{
+  "season": 2026,
+  "leagues": [
+    {"code": "EMP", "name": "Empire League",   "espn_league_id": 225405520,  "managed_by": "member"},
+    {"code": "GOT", "name": "Gotham League",   "espn_league_id": 321048737,  "managed_by": "league_manager"},
+    {"code": "BEA", "name": "Beantown League", "espn_league_id": 57393498,   "managed_by": "member"},
+    {"code": "HAR", "name": "Harbor League",   "espn_league_id": 420658602,  "managed_by": "member"},
+    {"code": "ALC", "name": "Alumni Classic",  "espn_league_id": 1464805408, "managed_by": "league_manager"},
+    {"code": "ALL", "name": "Alumni Legends",  "espn_league_id": 313712614,  "managed_by": "league_manager"},
+    {"code": "C2C", "name": "Freedom League",  "espn_league_id": 1314750435, "managed_by": "member"}
+  ]
+}
