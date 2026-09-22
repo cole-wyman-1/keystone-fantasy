@@ -1,6 +1,7 @@
 ---
 import Layout from '../components/Layout.astro';
 import TeamCell from '../components/TeamCell.astro';
+import MessageBoard from '../components/MessageBoard.astro';
 import { meta, leagues, standings, highs, weekly, people, power, u, leagueUrl, personUrl, fmt, record } from '../lib/data';
 const lastWeek = highs.weeks.length ? highs.weeks[highs.weeks.length - 1] : null;
 const leaderboard = highs.leaderboard.slice(0, 8);
@@ -44,4 +45,5 @@ const inProgressWeek = Object.values(weekly).flatMap((w: any) => Object.values(w
   )}
   <p class="small muted">Top 10 of 84. Score = 60% points per game + 25% all-play win % + 15% last-3-week scoring. <a href={u('power/')}>Full ranking →</a></p>
   <p><a href={u('weekly-highs/')}>Weekly highs →</a> · <a href={u('records/')}>Record book →</a></p>
+  <MessageBoard />
 </Layout>

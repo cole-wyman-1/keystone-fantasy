@@ -1,0 +1,123 @@
+---
+// Home-page message board backed by Supabase (config in /board.json). Renders nothing if unconfigured.
+import { readFileSync } from 'node:fs';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+const cfgPath = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../../../board.json');
+const cfg = JSON.parse(readFileSync(cfgPath, 'utf8'));
+const enabled = Boolean(cfg.supabase_url && cfg.supabase_anon_key);
+---
+{enabled && (
+<section class="board" id="board" data-url={cfg.supabase_url} data-key={cfg.supabase_anon_key}>
+  <h2>Message board</h2>
+  <p class="small muted">Trash talk, trade offers, waiver gripes. Type your name, say your piece. Replies nest under the post.</p>
+  <form class="board-form" id="board-form" autocomplete="off">
+    <div class="board-row">
+      <input name="name" id="board-name" maxlength="40" placeholder="Your name" required />
+      <span class="board-replying" id="board-replying" hidden>Replying to <b></b> <button type="button" id="board-cancel">cancel</button></span>
+    </div>
+    <textarea name="message" id="board-message" maxlength="1000" rows="3" placeholder="Write a message…" required></textarea>
+    <div class="board-row">
+      <button type="submit" id="board-submit">Post</button>
+      <span class="small muted" id="board-status"></span>
+    </div>
+  </form>
+  <div id="board-list" class="board-list"><p class="muted small">Loading…</p></div>
+</section>
+)}
+
+<style>
+  .board { margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--line); }
+  .board-form { display: grid; gap: 8px; margin: 12px 0 20px; max-width: 720px; }
+  .board-row { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+  .board input, .board textarea { font: inherit; padding: 8px 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--bg); color: var(--fg); }
+  .board input { width: 220px; max-width: 100%; }
+  .board textarea { width: 100%; resize: vertical; }
+  .board button { font: inherit; font-weight: 600; padding: 7px 14px; border-radius: 8px; border: 1px solid var(--accent); background: var(--accent); color: #fff; cursor: pointer; }
+  .board button[disabled] { opacity: 0.6; cursor: default; }
+  .board button.link, .board-replying button { background: none; border: 0; color: var(--accent); padding: 0; font-weight: 500; font-size: 0.85rem; }
+  .board-list { display: grid; gap: 10px; max-width: 720px; }
+  .post { border: 1px solid var(--line); border-radius: 10px; padding: 10px 14px; }
+  .post .meta { font-size: 0.8rem; color: var(--muted); display: flex; gap: 8px; align-items: baseline; flex-wrap: wrap; }
+  .post .meta b { color: var(--fg); font-size: 0.95rem; }
+  .post .body { white-space: pre-wrap; overflow-wrap: anywhere; margin: 4px 0 6px; }
+  .replies { margin: 8px 0 0 14px; padding-left: 12px; border-left: 2px solid var(--line); display: grid; gap: 8px; }
+  .reply .body { margin: 2px 0 0; }
+  .board-status-err { color: var(--loss); }
+</style>
+
+<script>
+  const root = document.getElementById('board');
+  if (root) {
+    const URL_ = root.dataset.url!.replace(/\/$/, '') + '/rest/v1/posts';
+    const KEY = root.dataset.key!;
+    const H = { apikey: KEY, Authorization: `Bearer ${KEY}`, 'Content-Type': 'application/json' };
+    const list = document.getElementById('board-list')!;
+    const form = document.getElementById('board-form') as HTMLFormElement;
+    const nameEl = document.getElementById('board-name') as HTMLInputElement;
+    const msgEl = document.getElementById('board-message') as HTMLTextAreaElement;
+    const status = document.getElementById('board-status')!;
+    const replying = document.getElementById('board-replying')!;
+    const submit = document.getElementById('board-submit') as HTMLButtonElement;
+    let parentId: number | null = null;
+
+    try { nameEl.value = localStorage.getItem('kf-board-name') || ''; } catch {}
+
+    const esc = (s: string) => s.replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]!));
+    const when = (iso: string) => {
+      const d = new Date(iso), m = (Date.now() - d.getTime()) / 60000;
+      if (m < 1) return 'just now';
+      if (m < 60) return `${Math.floor(m)}m ago`;
+      if (m < 60 * 24) return `${Math.floor(m / 60)}h ago`;
+      return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' }) + ' ' + d.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' });
+    };
+
+    async function load() {
+      try {
+        const r = await fetch(`${URL_}?select=id,created_at,name,message,parent_id&order=created_at.asc&limit=500`, { headers: H });
+        if (!r.ok) throw new Error(`HTTP ${r.status}`);
+        const rows: any[] = await r.json();
+        const tops = rows.filter((p) => p.parent_id == null).reverse();
+        const byParent: Record<number, any[]> = {};
+        for (const p of rows) if (p.parent_id != null) (byParent[p.parent_id] ??= []).push(p);
+        if (!tops.length) { list.innerHTML = '<p class="muted small">Nothing here yet. Be the first.</p>'; return; }
+        list.innerHTML = tops.map((p) => `
+          <div class="post" data-id="${p.id}">
+            <div class="meta"><b>${esc(p.name)}</b><span>${when(p.created_at)}</span><button type="button" class="link reply-btn" data-id="${p.id}" data-name="${esc(p.name)}">Reply</button></div>
+            <div class="body">${esc(p.message)}</div>
+            ${(byParent[p.id] || []).length ? `<div class="replies">${byParent[p.id].map((r) => `
+              <div class="reply"><div class="meta"><b>${esc(r.name)}</b><span>${when(r.created_at)}</span></div><div class="body">${esc(r.message)}</div></div>`).join('')}</div>` : ''}
+          </div>`).join('');
+        list.querySelectorAll<HTMLButtonElement>('.reply-btn').forEach((b) => b.addEventListener('click', () => {
+          parentId = Number(b.dataset.id);
+          replying.querySelector('b')!.textContent = b.dataset.name || '';
+          replying.hidden = false;
+          msgEl.focus();
+          form.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }));
+      } catch (e: any) {
+        list.innerHTML = `<p class="small board-status-err">Couldn't load the board (${esc(String(e.message || e))}).</p>`;
+      }
+    }
+
+    document.getElementById('board-cancel')!.addEventListener('click', () => { parentId = null; replying.hidden = true; });
+
+    form.addEventListener('submit', async (ev) => {
+      ev.preventDefault();
+      const name = nameEl.value.trim(), message = msgEl.value.trim();
+      if (!name || !message) return;
+      submit.disabled = true; status.textContent = 'Posting…'; status.className = 'small muted';
+      try {
+        const r = await fetch(URL_, { method: 'POST', headers: { ...H, Prefer: 'return=minimal' }, body: JSON.stringify({ name, message, parent_id: parentId }) });
+        if (!r.ok) { const t = await r.json().catch(() => ({})); throw new Error(t.message || `HTTP ${r.status}`); }
+        try { localStorage.setItem('kf-board-name', name); } catch {}
+        msgEl.value = ''; parentId = null; replying.hidden = true; status.textContent = 'Posted.';
+        await load();
+      } catch (e: any) {
+        status.textContent = String(e.message || e); status.className = 'small board-status-err';
+      } finally { submit.disabled = false; }
+    });
+
+    load();
+  }
+</script>

@@ -48,6 +48,9 @@ cp .env.example .env                           # then paste ESPN_S2 / ESPN_SWID
 - Repo: public `cole-wyman-1/keystone-fantasy`, GitHub Pages via Actions. Site https://cole-wyman-1.github.io/keystone-fantasy/
 - Emails never enter git: history was rewritten before the first push; keep it that way.
 
+## Message board
+`site/src/components/MessageBoard.astro` at the bottom of the home page, backed by Supabase (free tier). Config in `board.json` (public URL + anon key; blank = board hidden). Schema + RLS + rate-limit triggers in `scripts/board_schema.sql`. Anyone can read/post; deletes happen in the Supabase dashboard. Replies nest one level (trigger re-parents deeper replies).
+
 ## Phase status
 - [x] Phase 0/1: plan approved 2026-09-21
 - [x] Phase 2: cookies + probe OK for all 7 leagues (2026-09-21)

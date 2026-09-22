@@ -106,3 +106,11 @@ compute, commit the new PNGs under `site/public/logos/`, push.
 Covers standings, streaks, all-play luck, record book, playoff flags, the optimal-lineup
 solver (against brute force), that no email address reaches `data/site/`, and that our
 computed standings agree with ESPN's own W-L and points for every team.
+
+## Message board (home page)
+
+Posts live in a free Supabase project. `board.json` holds the project URL and the *anon* key; both
+are public by design (row-level security in `scripts/board_schema.sql` only allows read + insert).
+- **Delete a post:** Supabase dashboard → Table Editor → `posts` → select row → Delete.
+- **Turn the board off:** blank both values in `board.json`, push.
+- **Move to a new project:** run `scripts/board_schema.sql` in the new project's SQL Editor, update `board.json`.
