@@ -1,5 +1,5 @@
 {
   "_comment": "Supabase project for the home-page message board. Both values are PUBLIC by design (the anon key only allows what the row-level-security policies in scripts/board_schema.sql permit). Leave blank to hide the board.",
-  "supabase_url": "",
-  "supabase_anon_key": ""
+  "supabase_url": "https://nzafwnydzzzhckoerzad.supabase.co",
+  "supabase_anon_key": "sb_publishable_DxTNMg4gR_UMZFLuaF3b7w_DFjq46X9"
 }
