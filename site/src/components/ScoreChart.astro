@@ -1,0 +1,29 @@
+---
+// Inline SVG bar chart of weekly points. No client JS.
+import { fmt } from '../lib/data';
+const { weeks, leagueAvg = null } = Astro.props as { weeks: any[]; leagueAvg?: number | null };
+const W = 640, H = 200, padL = 36, padB = 26, padT = 14;
+const n = Math.max(weeks.length, 1);
+const maxPts = Math.max(...weeks.map((w) => w.points), leagueAvg ?? 0, 100);
+const top = Math.ceil(maxPts / 25) * 25;
+const bw = (W - padL - 8) / n;
+const y = (v: number) => padT + (H - padT - padB) * (1 - v / top);
+const ticks = [0, top / 2, top];
+---
+{weeks.length === 0 ? <p class="muted">No completed weeks yet.</p> : (
+<svg viewBox={`0 0 ${W} ${H}`} role="img" aria-label="Weekly points" style="width:100%;height:auto;max-height:260px">
+  {ticks.map((t) => (<g><line x1={padL} x2={W - 8} y1={y(t)} y2={y(t)} stroke="#e3e7ec" /><text x={padL - 6} y={y(t) + 4} font-size="10" text-anchor="end" fill="#5f6b7a">{t}</text></g>))}
+  {leagueAvg != null && <line x1={padL} x2={W - 8} y1={y(leagueAvg)} y2={y(leagueAvg)} stroke="#b7791f" stroke-dasharray="4 3" />}
+  {weeks.map((w, i) => {
+    const x = padL + i * bw + bw * 0.15, wd = bw * 0.7, h = y(0) - y(w.points);
+    const color = w.result === 'W' ? '#1f8a4c' : w.result === 'L' ? '#c53a3a' : '#5f6b7a';
+    return (<g>
+      <rect x={x} y={y(w.points)} width={wd} height={h} rx="3" fill={color} opacity={w.league_high ? 1 : 0.8} />
+      {w.league_high && <text x={x + wd / 2} y={y(w.points) - 4} font-size="10" text-anchor="middle" fill="#b7791f">★</text>}
+      <text x={x + wd / 2} y={y(w.points) - (w.league_high ? 14 : 4)} font-size="10" text-anchor="middle" fill="#1a1d21">{fmt(w.points, 0)}</text>
+      <text x={x + wd / 2} y={H - 8} font-size="10" text-anchor="middle" fill="#5f6b7a">W{w.week}</text>
+    </g>);
+  })}
+</svg>
+<p class="small muted">Green = win, red = loss, ★ = league high that week{leagueAvg != null ? `, dashed line = league average (${fmt(leagueAvg, 1)})` : ''}.</p>
+)}

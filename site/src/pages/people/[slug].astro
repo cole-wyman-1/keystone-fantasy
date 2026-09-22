@@ -1,0 +1,56 @@
+---
+import Layout from '../../components/Layout.astro';
+import ScoreChart from '../../components/ScoreChart.astro';
+import StandingsTable from '../../components/StandingsTable.astro';
+import { people, standings, leagueByCode, leagueUrl, personUrl, fmt, signed, record } from '../../lib/data';
+
+export function getStaticPaths() {
+  return Object.values(people).map((p: any) => ({ params: { slug: p.slug }, props: { p } }));
+}
+const { p } = Astro.props;
+const league = leagueByCode[p.league_code];
+const rows = standings[p.league_code] ?? [];
+const r = p.record;
+const leagueAvg = rows.length ? rows.reduce((s: number, x: any) => s + x.ppg, 0) / rows.length : null;
+const labels: Record<string, string> = { keystone_group: 'Keystone group', favorite_team: 'Favorite NFL team', home_city: 'Home city', college: 'College', company: 'Company' };
+const profile = Object.entries(p.profile ?? {});
+const title = p.is_commissioner ? `${league.name} Commissioner` : p.display_name;
+---
+<Layout title={title}>
+  <p class="small"><a href={leagueUrl(p.league_code)}>← {league.name}</a></p>
+  <h1>{title}</h1>
+  <p class="muted">{p.team?.name}{p.team?.abbrev ? ` (${p.team.abbrev})` : ''} · {league.name}{p.is_commissioner ? ' · commissioner-owned team' : ''}</p>
+
+  {r ? (
+    <div class="stat-row">
+      <div class="stat"><div class="lbl">Record</div><div class="val">{record(r)}</div><div class="sub">#{r.rank} of {rows.length} · {r.games_back ? `${r.games_back} GB` : 'leading'}</div></div>
+      <div class="stat"><div class="lbl">Points for</div><div class="val">{fmt(r.points_for)}</div><div class="sub">{fmt(r.ppg)} per week</div></div>
+      <div class="stat"><div class="lbl">Streak</div><div class="val">{r.streak}</div><div class="sub">longest win streak {r.longest_win_streak}</div></div>
+      <div class="stat"><div class="lbl">Luck</div><div class={`val ${r.luck > 0 ? 'pos' : r.luck < 0 ? 'neg' : ''}`}>{signed(r.luck)}</div><div class="sub">{fmt(r.expected_wins)} expected wins</div></div>
+      {p.power_rank && <div class="stat"><div class="lbl">Power rank</div><div class="val">#{p.power_rank}</div><div class="sub">of 84 across all leagues</div></div>}
+      {p.weekly_high_count > 0 && <div class="stat"><div class="lbl">Weekly highs</div><div class="val">{p.weekly_high_count}</div><div class="sub">league-best weeks</div></div>}
+    </div>
+  ) : <p class="muted">No completed weeks yet.</p>}
+
+  <h2>Weekly scores</h2>
+  <ScoreChart weeks={p.weeks} leagueAvg={leagueAvg} />
+
+  {p.weeks.length > 0 && (<>
+    <div class="stat-row">
+      <div class="stat"><div class="lbl">Best week</div><div class="val">{fmt(p.best_week.points)}</div><div class="sub">week {p.best_week.week} vs {p.best_week.opp_owner}</div></div>
+      <div class="stat"><div class="lbl">Worst week</div><div class="val">{fmt(p.worst_week.points)}</div><div class="sub">week {p.worst_week.week} vs {p.worst_week.opp_owner}</div></div>
+      <div class="stat"><div class="lbl">Bench points</div><div class="val">{fmt(p.bench_total)}</div><div class="sub">total, completed weeks</div></div>
+      <div class="stat"><div class="lbl">Left on the table</div><div class="val">{fmt(p.left_on_table_total)}</div><div class="sub">optimal lineup minus actual</div></div>
+    </div>
+    <h2>Game log</h2>
+    <div class="tbl-wrap"><table class="tbl"><thead><tr><th>Wk</th><th>Result</th><th class="num">Pts</th><th>Opponent</th><th class="num">Opp</th><th class="num hide-sm">Rank</th><th class="num hide-sm">Bench</th><th class="num hide-sm">Optimal</th></tr></thead>
+      <tbody>{p.weeks.map((w: any) => (<tr class={w.league_high ? 'hi' : ''}><td>{w.week}</td><td><span class={`badge ${w.result === 'W' ? 'win' : w.result === 'L' ? 'loss' : ''}`}>{w.result}</span></td><td class="num"><strong>{fmt(w.points)}</strong>{w.league_high ? ' ★' : ''}</td><td><a href={personUrl(w.opp_slot_id)}>{w.opp_owner}</a></td><td class="num">{fmt(w.opp_points)}</td><td class="num hide-sm">{w.rank_in_league}/{rows.length}</td><td class="num hide-sm">{fmt(w.bench_points)}</td><td class="num hide-sm">{fmt(w.optimal_points)}</td></tr>))}</tbody></table></div>
+  </>)}
+
+  {p.in_progress && (<p class="small"><span class="badge acc">Week {p.in_progress.week} in progress</span> {fmt(p.in_progress.points)} vs <a href={personUrl(p.in_progress.opp_slot_id)}>{p.in_progress.opp_owner}</a> {fmt(p.in_progress.opp_points)}</p>)}
+
+  {profile.length > 0 && (<div class="profile"><h2>About</h2><dl>{profile.map(([k, v]) => (<><dt>{labels[k] ?? k}</dt><dd>{v}</dd></>))}</dl></div>)}
+
+  <h2>{league.name} standings</h2>
+  <StandingsTable rows={rows} highlight={p.slot_id} />
+</Layout>

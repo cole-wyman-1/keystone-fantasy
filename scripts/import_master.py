@@ -1,8 +1,8 @@
 """Master CSV -> data/master.json. Validates the roster and the ESPN join keys.
 
 The CSV is the source of truth; this is a pure read except for the JSON it writes.
-Emails ARE included here (data/master.json is for matching only) and are stripped by compute.py
-before anything reaches data/site/.
+Emails are NOT written to data/master.json: matching (map_teams.py) reads the CSV directly, so
+nothing under data/ ever carries an address, and the repo can be public.
 """
 from __future__ import annotations
 
@@ -63,7 +63,8 @@ def load() -> dict:
 def main() -> int:
     m = load()
     OUT.parent.mkdir(parents=True, exist_ok=True)
-    OUT.write_text(json.dumps({k: m[k] for k in ("season", "leagues", "slots")}, indent=1, ensure_ascii=False))
+    slots = [{k: v for k, v in s.items() if not k.startswith("email")} for s in m["slots"]]
+    OUT.write_text(json.dumps({"season": m["season"], "leagues": m["leagues"], "slots": slots}, indent=1, ensure_ascii=False))
     print(f"Imported {len(m['slots'])} slots across {len(m['per_league'])} leagues -> {OUT.relative_to(ROOT)}")
     if m["problems"]:
         print("PROBLEMS:\n  " + "\n  ".join(m["problems"]))

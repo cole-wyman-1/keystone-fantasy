@@ -1,0 +1,19 @@
+---
+import { personUrl, fmt } from '../lib/data';
+const { matchups, complete = true, highlight = null } = Astro.props;
+const side = (s: any, won: boolean, lost: boolean) => ({ s, cls: won ? 'winner' : lost ? 'loser' : '' });
+---
+<div class="matchups">
+  {matchups.map((m: any) => {
+    const hw = complete && m.home.points > m.away.points, aw = complete && m.away.points > m.home.points;
+    return (
+      <div class="mu">
+        <div class={`team ${hw ? 'winner' : aw ? 'loser' : ''}`}><a href={personUrl(m.home.slot_id)}>{m.home.owner}</a><span class="tn">{m.home.team_name}</span></div>
+        <div class={`pts ${hw ? 'winner' : aw ? 'loser' : ''}`}>{fmt(m.home.points)}</div>
+        <div class={`team ${aw ? 'winner' : hw ? 'loser' : ''}`}><a href={personUrl(m.away.slot_id)}>{m.away.owner}</a><span class="tn">{m.away.team_name}</span></div>
+        <div class={`pts ${aw ? 'winner' : hw ? 'loser' : ''}`}>{fmt(m.away.points)}</div>
+        <div class="foot">{complete ? `Margin ${fmt(m.margin)}` : 'In progress'}{m.home.bench_points != null && complete ? ` · Bench ${fmt(m.home.bench_points, 1)} / ${fmt(m.away.bench_points, 1)}` : ''}</div>
+      </div>
+    );
+  })}
+</div>

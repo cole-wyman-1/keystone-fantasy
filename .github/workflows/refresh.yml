@@ -1,0 +1,101 @@
+name: Refresh ESPN data and deploy site
+
+on:
+  schedule:
+    # 11:00 UTC = 7:00am EDT (until Nov 1 2026) / 6:00am EST. Mon, Tue, Fri.
+    # GitHub cron is UTC-only and cannot follow daylight saving time.
+    - cron: "0 11 * * 1,2,5"
+  workflow_dispatch:        # "Run workflow" button in the Actions tab
+  push:
+    branches: [main]
+    paths: ["site/**", "scripts/**", "data/site/**", "leagues.json", ".github/workflows/refresh.yml"]
+
+permissions:
+  contents: write   # commit refreshed data back to main
+  pages: write      # deploy to GitHub Pages
+  id-token: write
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Import master roster
+        run: python scripts/import_master.py
+
+      # On a plain code push we rebuild from the committed data and skip ESPN entirely.
+      - name: Fetch from ESPN (fails loudly on expired cookies)
+        if: github.event_name != 'push'
+        env:
+          ESPN_S2: ${{ secrets.ESPN_S2 }}
+          ESPN_SWID: ${{ secrets.ESPN_SWID }}
+        run: python scripts/fetch_espn.py
+
+      - name: Compute standings, records, power rankings
+        run: python scripts/compute.py
+
+      - name: Tests
+        run: python -m pytest -q
+
+      - name: Keep raw ESPN responses for debugging (14 days)
+        if: github.event_name != 'push'
+        uses: actions/upload-artifact@v4
+        with:
+          name: espn-raw-${{ github.run_id }}
+          path: data/raw
+          retention-days: 14
+          if-no-files-found: ignore
+
+      - name: Commit refreshed data
+        if: github.event_name != 'push'
+        run: |
+          git config user.name "keystone-fantasy-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/espn data/site data/master.json
+          if git diff --cached --quiet; then
+            echo "No data changes."
+          else
+            git commit -m "data: ESPN refresh $(date -u +%Y-%m-%dT%H:%MZ) [skip ci]"
+            git push
+          fi
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: site/package-lock.json
+
+      - name: Build site
+        working-directory: site
+        env:
+          SITE_BASE: /${{ github.event.repository.name }}
+          SITE_URL: https://${{ github.repository_owner }}.github.io
+        run: |
+          npm ci
+          npm run build
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site/dist
+
+  deploy:
+    needs: refresh
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

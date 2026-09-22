@@ -1,0 +1,49 @@
+---
+import Layout from '../components/Layout.astro';
+import RecordTable from '../components/RecordTable.astro';
+import { records, leagues, personUrl, fmt, signed, record } from '../lib/data';
+const o = records.overall;
+const playerExtra = (r: any) => `${r.player} (${r.position})${r.player_started ? '' : ', on the bench'} · team scored ${fmt(r.points)}`;
+const benchExtra = (r: any) => `scored ${fmt(r.points)}, optimal ${fmt(r.optimal_points)}`;
+const sections = (rb: any, showLeague: boolean) => [
+  ['Highest single-week score', rb.highest_score, 'points', 'Points', null],
+  ['Lowest single-week score', rb.lowest_score, 'points', 'Points', null],
+  ['Biggest blowout', rb.biggest_blowout, 'margin', 'Margin', null],
+  ['Closest game', rb.closest_game, 'margin', 'Margin', null],
+  ['Most points in a loss', rb.most_points_in_loss, 'points', 'Points', null],
+  ['Fewest points in a win', rb.fewest_points_in_win, 'points', 'Points', null],
+  ['Most bench points', rb.most_bench_points, 'bench_points', 'Bench', benchExtra],
+  ['Most points left on the table', rb.most_left_on_table, 'left_on_table', 'Left', benchExtra],
+  ['Best single-player week', rb.best_player_week, 'player_points', 'Player pts', playerExtra],
+];
+---
+<Layout title="Record Book">
+  <h1>Record book</h1>
+  <p class="muted">Season to date, completed weeks only, all seven leagues. "Left on the table" is the gap between the best possible lineup and the one that was started.</p>
+
+  {sections(o, true).map(([title, rows, key, label, extra]: any) => <RecordTable title={title} rows={rows} valueKey={key} valueLabel={label} extra={extra} />)}
+
+  <h2>Luck</h2>
+  <p class="small muted">Luck = actual wins minus expected wins from the all-play method (each week, a team's expected win share is the fraction of its league it outscored).</p>
+  <div class="cards">
+    {[['Luckiest', records.luck.luckiest], ['Unluckiest', records.luck.unluckiest]].map(([t, rows]: any) => (
+      <div class="card"><h3>{t}</h3>
+        <div class="tbl-wrap"><table class="tbl"><thead><tr><th>Who</th><th class="num">Rec</th><th class="num">Exp</th><th class="num">Luck</th></tr></thead>
+          <tbody>{rows.slice(0, 5).map((r: any) => (<tr><td><a href={personUrl(r.slot_id)}>{r.owner}</a> <span class="muted small">{r.league_code}</span></td><td class="num">{record(r)}</td><td class="num">{fmt(r.expected_wins)}</td><td class={`num ${r.luck > 0 ? 'pos' : r.luck < 0 ? 'neg' : ''}`}>{signed(r.luck)}</td></tr>))}</tbody></table></div>
+      </div>
+    ))}
+  </div>
+
+  <h2>Streaks</h2>
+  <div class="cards">
+    {[['Longest win streak', records.streaks.longest_win, 'longest_win_streak'], ['Longest losing streak', records.streaks.longest_loss, 'longest_loss_streak']].map(([t, rows, key]: any) => (
+      <div class="card"><h3>{t}</h3>
+        <div class="tbl-wrap"><table class="tbl"><thead><tr><th>Who</th><th class="num">Length</th><th>Now</th></tr></thead>
+          <tbody>{rows.filter((r: any) => r[key] > 0).slice(0, 5).map((r: any) => (<tr><td><a href={personUrl(r.slot_id)}>{r.owner}</a> <span class="muted small">{r.league_code}</span></td><td class="num">{r[key]}</td><td><span class="badge">{r.streak}</span></td></tr>))}</tbody></table></div>
+      </div>
+    ))}
+  </div>
+
+  <h2>By league</h2>
+  {leagues.map((l) => (<details><summary>{l.name}</summary>{sections(records.per_league[l.code], false).map(([title, rows, key, label, extra]: any) => <RecordTable title={title} rows={rows.slice(0, 3)} valueKey={key} valueLabel={label} extra={extra} showLeague={false} />)}</details>))}
+</Layout>
