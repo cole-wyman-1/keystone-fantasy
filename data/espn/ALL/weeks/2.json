@@ -1,8 +1,8 @@
 {
  "scoring_period": 2,
  "matchup_period": 2,
- "complete": false,
- "fetched_utc": "2026-09-22T03:07:24+00:00",
+ "complete": true,
+ "fetched_utc": "2026-09-22T13:39:47+00:00",
  "matchups": [
   {
    "matchup_id": 7,
@@ -11,7 +11,7 @@
    "away_team_id": 10,
    "home_points": 114.32,
    "away_points": 80.3,
-   "winner": "UNDECIDED",
+   "winner": "HOME",
    "playoff_tier": "NONE",
    "is_bye": false
   },
@@ -22,7 +22,7 @@
    "away_team_id": 2,
    "home_points": 134.48,
    "away_points": 112.72,
-   "winner": "UNDECIDED",
+   "winner": "HOME",
    "playoff_tier": "NONE",
    "is_bye": false
   },
@@ -33,7 +33,7 @@
    "away_team_id": 5,
    "home_points": 82.0,
    "away_points": 105.48,
-   "winner": "UNDECIDED",
+   "winner": "AWAY",
    "playoff_tier": "NONE",
    "is_bye": false
   },
@@ -44,7 +44,7 @@
    "away_team_id": 4,
    "home_points": 169.76,
    "away_points": 59.8,
-   "winner": "UNDECIDED",
+   "winner": "HOME",
    "playoff_tier": "NONE",
    "is_bye": false
   },
@@ -55,7 +55,7 @@
    "away_team_id": 11,
    "home_points": 104.66,
    "away_points": 62.32,
-   "winner": "UNDECIDED",
+   "winner": "HOME",
    "playoff_tier": "NONE",
    "is_bye": false
   },
@@ -66,7 +66,7 @@
    "away_team_id": 9,
    "home_points": 120.16,
    "away_points": 121.74,
-   "winner": "UNDECIDED",
+   "winner": "AWAY",
    "playoff_tier": "NONE",
    "is_bye": false
   }

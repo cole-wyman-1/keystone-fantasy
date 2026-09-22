@@ -1805,7 +1805,7 @@
    "espn_league_id": 1314750435,
    "espn_team_id": 1,
    "espn_team_name": "Key's Top-Notch Team",
-   "notes": "Owns this team; commissioner account is co-owner so the League Manager can see the league; Last name filled from ESPN",
+   "notes": "Owns this team; commissioner account is co-owner so the League Manager can see the league",
    "is_commissioner": false,
    "league_name": "Freedom League"
   }

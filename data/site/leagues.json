@@ -9,8 +9,8 @@
 "regular_season_weeks":14,
 "playoff_teams":6,
 "scoring_format":"Half PPR",
-"weeks_complete":1,
-"current_week":2,
+"weeks_complete":2,
+"current_week":3,
 "teams":[
 {
 "team_id":1,
@@ -120,8 +120,8 @@
 "regular_season_weeks":14,
 "playoff_teams":6,
 "scoring_format":"Half PPR",
-"weeks_complete":1,
-"current_week":2,
+"weeks_complete":2,
+"current_week":3,
 "teams":[
 {
 "team_id":1,
@@ -231,8 +231,8 @@
 "regular_season_weeks":14,
 "playoff_teams":6,
 "scoring_format":"Half PPR",
-"weeks_complete":1,
-"current_week":2,
+"weeks_complete":2,
+"current_week":3,
 "teams":[
 {
 "team_id":1,
@@ -342,8 +342,8 @@
 "regular_season_weeks":14,
 "playoff_teams":6,
 "scoring_format":"Half PPR",
-"weeks_complete":1,
-"current_week":2,
+"weeks_complete":2,
+"current_week":3,
 "teams":[
 {
 "team_id":1,
@@ -453,8 +453,8 @@
 "regular_season_weeks":14,
 "playoff_teams":6,
 "scoring_format":"Half PPR",
-"weeks_complete":1,
-"current_week":2,
+"weeks_complete":2,
+"current_week":3,
 "teams":[
 {
 "team_id":1,
@@ -564,8 +564,8 @@
 "regular_season_weeks":14,
 "playoff_teams":6,
 "scoring_format":"Half PPR",
-"weeks_complete":1,
-"current_week":2,
+"weeks_complete":2,
+"current_week":3,
 "teams":[
 {
 "team_id":1,
@@ -675,8 +675,8 @@
 "regular_season_weeks":14,
 "playoff_teams":6,
 "scoring_format":"Half PPR",
-"weeks_complete":1,
-"current_week":2,
+"weeks_complete":2,
+"current_week":3,
 "teams":[
 {
 "team_id":1,
