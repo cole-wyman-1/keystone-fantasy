@@ -8,7 +8,7 @@ on:
   workflow_dispatch:        # "Run workflow" button in the Actions tab
   push:
     branches: [main]
-    paths: ["site/**", "scripts/**", "data/site/**", "leagues.json", ".github/workflows/refresh.yml"]
+    paths: ["site/**", "scripts/**", "data/site/**", "leagues.json", "board.json", ".github/workflows/refresh.yml"]
 
 permissions:
   contents: write   # commit refreshed data back to main
