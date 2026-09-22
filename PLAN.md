@@ -170,10 +170,10 @@ Luck / expected wins: "all-play" method. Each week a team's expected win share =
 (teams it outscored in its league) / 11. Expected wins = sum over weeks.
 Luck = actual wins − expected wins (positive = lucky).
 
-Power ranking (cross-league): leagues may use different scoring formats, so raw points are
-not comparable. Score = 0.5 × within-league z-score of PPG + 0.3 × expected win % +
-0.2 × last-3-weeks z-score. Shown alongside raw PPG and record. If the probe shows all 7
-use the identical scoring format, I'll simplify to raw points and tell you.
+Power ranking (cross-league): the probe confirmed all 7 leagues use identical scoring
+(Half PPR, 4-pt pass TD, 14-week regular season, 6 playoff teams), so raw points ARE
+comparable. Score = 0.6 × PPG rank-normalised across all 84 teams + 0.25 × all-play win % +
+0.15 × last-3-weeks PPG. Shown alongside raw PPG and record.
 
 ## 7. Pages (Astro, mobile-first, light theme, stable URLs)
 
@@ -209,7 +209,11 @@ and the home page shows "last successful refresh" so staleness is visible.
 - Phase 4: fetch → compute + tests → Astro site → workflow → README. One commit per step.
 - Phase 5: deploy, hand-check one league + one week against the ESPN app, list open items.
 
-## 10. Assumptions to verify in the probe
-- Every league has exactly 12 teams and the same regular-season length.
-- Scoring formats (may differ across leagues; affects power ranking).
-- Current week and whether Week 1/2 are already complete (season is underway on 2026-09-21).
+## 10. Probe results (2026-09-21)
+- All 7 leagues: 12 teams, Half PPR, 4-pt pass TD, 14 regular-season weeks, 6 playoff teams.
+- Week 1 complete, week 2 in progress at probe time.
+- Commissioner ESPN account ("Key Stone", display ESPNFAN1712906171) holds team 1 in every
+  league: alone in GOT/ALC/ALL (League Manager slots), co-owned in EMP (Cole Wyman, EMP-08),
+  BEA (Charlie Fairfax, BEA-12), HAR (Ranmit Pantle, HAR-08), C2C (Aseem Mahajan, C2C-12).
+  Those four people are the real owners; Manager Seat = Yes just marks the team that carries
+  the commissioner login. 84/84 slots mapped, 3 surname mismatches confirmed by Cole.

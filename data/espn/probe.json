@@ -1,0 +1,805 @@
+[
+  {
+    "code": "EMP",
+    "espn_league_id": 225405520,
+    "espn_name": "Keystone Fantasy 2026 - \"Empire\"",
+    "size": 12,
+    "current_matchup_period": 2,
+    "scoring_period": 2,
+    "latest_scoring_period": 2,
+    "final_scoring_period": 17,
+    "regular_season_weeks": 14,
+    "playoff_teams": 6,
+    "divisions": [
+      "League Standings"
+    ],
+    "scoring": "Half PPR, 4.0 pt pass TD",
+    "teams": [
+      {
+        "id": 1,
+        "abbrev": "NYC",
+        "name": "Manhattan Elitists",
+        "owners": [
+          "ESPNFAN1712906171 (Key Stone)",
+          "cwyman16 (Cole Wyman)"
+        ]
+      },
+      {
+        "id": 2,
+        "abbrev": "DDT",
+        "name": "Druv's Daring Team",
+        "owners": [
+          "Druv75 (Druv Murthy)"
+        ]
+      },
+      {
+        "id": 3,
+        "abbrev": "BBT",
+        "name": "Benjamin's Best Team",
+        "owners": [
+          "bfeldman89 (Benjamin Feldman)"
+        ]
+      },
+      {
+        "id": 4,
+        "abbrev": "MMT",
+        "name": "Aussie Aussie Aussie Oi Oi Oi",
+        "owners": [
+          "ESPNFAN3019906957 (Matthew Gates)"
+        ]
+      },
+      {
+        "id": 5,
+        "abbrev": "DAG",
+        "name": "Drake and Goff",
+        "owners": [
+          "Anita Bushnell (Anita Bushnell)"
+        ]
+      },
+      {
+        "id": 6,
+        "abbrev": "JAS",
+        "name": "Team Salant",
+        "owners": [
+          "Jacob Salant (Jacob Salant)"
+        ]
+      },
+      {
+        "id": 7,
+        "abbrev": "KDT",
+        "name": "Kelton's Deluxe Team",
+        "owners": [
+          "Kelton Berry (Kelton Berry)"
+        ]
+      },
+      {
+        "id": 8,
+        "abbrev": "TGSE",
+        "name": "TheGenoSmithExperience",
+        "owners": [
+          "ESPNFAN2097408021 (Prajeet Sarker)"
+        ]
+      },
+      {
+        "id": 9,
+        "abbrev": "SO1D",
+        "name": "System of a 1st Down",
+        "owners": [
+          "ESPNFAN0756772383 (Zachary Macdonald)"
+        ]
+      },
+      {
+        "id": 10,
+        "abbrev": "SYNG",
+        "name": "Synergistic optimization",
+        "owners": [
+          "Bradley Hart (Bradley Hart)"
+        ]
+      },
+      {
+        "id": 11,
+        "abbrev": "AAT",
+        "name": "Amelia's Awesome Team",
+        "owners": [
+          "ESPNFAN2505184436 (Amelia Ockert)"
+        ]
+      },
+      {
+        "id": 12,
+        "abbrev": "VST",
+        "name": "Victoire's Spirited Team",
+        "owners": [
+          "ESPNFAN6412074181 (Victoire Cagniart)"
+        ]
+      }
+    ]
+  },
+  {
+    "code": "GOT",
+    "espn_league_id": 321048737,
+    "espn_name": "Keystone Fantasy 2026 \"Gotham\"",
+    "size": 12,
+    "current_matchup_period": 2,
+    "scoring_period": 2,
+    "latest_scoring_period": 2,
+    "final_scoring_period": 17,
+    "regular_season_weeks": 14,
+    "playoff_teams": 6,
+    "divisions": [
+      "League Standings"
+    ],
+    "scoring": "Half PPR, 4.0 pt pass TD",
+    "teams": [
+      {
+        "id": 1,
+        "abbrev": "KTT",
+        "name": "Key's Top-Notch Team",
+        "owners": [
+          "ESPNFAN1712906171 (Key Stone)"
+        ]
+      },
+      {
+        "id": 2,
+        "abbrev": "FITB",
+        "name": "Fries in the Bag",
+        "owners": [
+          "ESPNFAN7321607657 (Santiago Castillo)"
+        ]
+      },
+      {
+        "id": 3,
+        "abbrev": "BBT",
+        "name": "Benjamin's Best Team",
+        "owners": [
+          "espnfan2502182337 (Benjamin Sango)"
+        ]
+      },
+      {
+        "id": 4,
+        "abbrev": "JST",
+        "name": "Julian's Scary Team",
+        "owners": [
+          "espnfan9923764109 (Julian Kurtzman)"
+        ]
+      },
+      {
+        "id": 5,
+        "abbrev": "RTW",
+        "name": "Rob-in the Win",
+        "owners": [
+          "ESPNFAN7195571580 (Robert Mueller)"
+        ]
+      },
+      {
+        "id": 6,
+        "abbrev": "EZS",
+        "name": "End Zone Sloane",
+        "owners": [
+          "PhillyPhanatic18 (Jason Holtzman)"
+        ]
+      },
+      {
+        "id": 7,
+        "abbrev": "AA",
+        "name": "Bijan Mustard",
+        "owners": [
+          "ESPNFAN5032839633 (Alice Khayami)"
+        ]
+      },
+      {
+        "id": 8,
+        "abbrev": "ZS",
+        "name": "Zoe's Team",
+        "owners": [
+          "z_l_s (Zoe Stern)"
+        ]
+      },
+      {
+        "id": 9,
+        "abbrev": "BBT",
+        "name": "Bogdan's Brilliant Team",
+        "owners": [
+          "Bogry (Bogdan Hamilton)"
+        ]
+      },
+      {
+        "id": 10,
+        "abbrev": "RRT",
+        "name": "Rohan's Rowdy Team",
+        "owners": [
+          "RohanB9 (Rohan Bhargava)"
+        ]
+      },
+      {
+        "id": 11,
+        "abbrev": "SGT",
+        "name": "Sahil's Game of Throws",
+        "owners": [
+          "ESPNFAN7047166708 (Sahil Singh)"
+        ]
+      },
+      {
+        "id": 12,
+        "abbrev": "AAT",
+        "name": "Ashutosh's Astounding Team",
+        "owners": [
+          "ESPNFAN7518598501 (Ashutosh Bajpai)"
+        ]
+      }
+    ]
+  },
+  {
+    "code": "BEA",
+    "espn_league_id": 57393498,
+    "espn_name": "Keystone Fantasy 2026 - Beantown",
+    "size": 12,
+    "current_matchup_period": 2,
+    "scoring_period": 2,
+    "latest_scoring_period": 2,
+    "final_scoring_period": 17,
+    "regular_season_weeks": 14,
+    "playoff_teams": 6,
+    "divisions": [
+      "League Standings"
+    ],
+    "scoring": "Half PPR, 4.0 pt pass TD",
+    "teams": [
+      {
+        "id": 1,
+        "abbrev": "KTT",
+        "name": "Key's Top-Notch Team",
+        "owners": [
+          "ESPNFAN1712906171 (Key Stone)",
+          "ESPNfan8417107080 (Charlie Fairfax)"
+        ]
+      },
+      {
+        "id": 2,
+        "abbrev": "PWC",
+        "name": "Peter's Totally Serious Team",
+        "owners": [
+          "ESPNFAN1593384956 (Peter Chang)"
+        ]
+      },
+      {
+        "id": 3,
+        "abbrev": "BBT",
+        "name": "Bill's Best Team",
+        "owners": [
+          "ESPNFAN2013894231 (Bill Leith)"
+        ]
+      },
+      {
+        "id": 4,
+        "abbrev": "SLDs",
+        "name": "Salt Lake Dirty Sodas",
+        "owners": [
+          "NadirTekarli (Nadir  Tekarli)"
+        ]
+      },
+      {
+        "id": 5,
+        "abbrev": "JST",
+        "name": "James learns football",
+        "owners": [
+          "ESPNfan6829595087 (James Mulcahy)"
+        ]
+      },
+      {
+        "id": 6,
+        "abbrev": "CCT",
+        "name": "Chris's Amazing Team",
+        "owners": [
+          "Chris Teixeira (Chris Teixeira)"
+        ]
+      },
+      {
+        "id": 7,
+        "abbrev": "SST",
+        "name": "Sylee's Super Team",
+        "owners": [
+          "ESPNFAN2099673435 (Sylee Dandekar)"
+        ]
+      },
+      {
+        "id": 8,
+        "abbrev": "BBT",
+        "name": "Brittany's Brilliant Team",
+        "owners": [
+          "Brittany Halks (Brittany Halks)"
+        ]
+      },
+      {
+        "id": 9,
+        "abbrev": "PPT",
+        "name": "Prateek's Perfect Team",
+        "owners": [
+          "prateekm92 (Prateek Mehta)"
+        ]
+      },
+      {
+        "id": 10,
+        "abbrev": "LIFO",
+        "name": "LIFO The Party",
+        "owners": [
+          "ESPNFAN8936449975 (Justin Metz)"
+        ]
+      },
+      {
+        "id": 11,
+        "abbrev": "UC",
+        "name": "Uncommon Champions",
+        "owners": [
+          "Jacqui_Lemire (Jacqui Lemire)"
+        ]
+      },
+      {
+        "id": 12,
+        "abbrev": "ATS",
+        "name": "Ackshually Tyler SHOUGH",
+        "owners": [
+          "ESPNFAN96544061 (Lukas Marmanis)"
+        ]
+      }
+    ]
+  },
+  {
+    "code": "HAR",
+    "espn_league_id": 420658602,
+    "espn_name": "Keystone Fantasy 2026 - Harbor",
+    "size": 12,
+    "current_matchup_period": 2,
+    "scoring_period": 2,
+    "latest_scoring_period": 2,
+    "final_scoring_period": 17,
+    "regular_season_weeks": 14,
+    "playoff_teams": 6,
+    "divisions": [
+      "League Standings"
+    ],
+    "scoring": "Half PPR, 4.0 pt pass TD",
+    "teams": [
+      {
+        "id": 1,
+        "abbrev": "RRR",
+        "name": "Ranmit's Rudderless Randos",
+        "owners": [
+          "ESPNFAN1712906171 (Key Stone)",
+          "ESPNFAN0091338057 (Ranmit Singh)"
+        ]
+      },
+      {
+        "id": 2,
+        "abbrev": "DLC",
+        "name": "Dumb Luck Club",
+        "owners": [
+          "ESPNFAN0548400614 (Elisabeth Beltinger)"
+        ]
+      },
+      {
+        "id": 3,
+        "abbrev": "Mimi",
+        "name": "Mimi Family",
+        "owners": [
+          "ESPNFAN5864609770 (Nhi Dang)"
+        ]
+      },
+      {
+        "id": 4,
+        "abbrev": "GGT",
+        "name": "Gabriele's Great Team",
+        "owners": [
+          "ESPNFAN6562798504 (Gabriele Corbetta)"
+        ]
+      },
+      {
+        "id": 5,
+        "abbrev": "CPT",
+        "name": "clueless part three",
+        "owners": [
+          "ESPNFAN7997983388 (Sowmya Sridhar)"
+        ]
+      },
+      {
+        "id": 6,
+        "abbrev": "LG",
+        "name": "Little Giants",
+        "owners": [
+          "espnfan2565523585 (Jin Paik)"
+        ]
+      },
+      {
+        "id": 7,
+        "abbrev": "SS",
+        "name": "Sunday Scaries",
+        "owners": [
+          "ESPNFAN5168211768 (Caroline Scala)"
+        ]
+      },
+      {
+        "id": 8,
+        "abbrev": "321",
+        "name": "Team 17",
+        "owners": [
+          "ESPNFAN6434467729 (Samuel Peter)"
+        ]
+      },
+      {
+        "id": 9,
+        "abbrev": "TTT",
+        "name": "CoolName?utm_source=chatgpt.com",
+        "owners": [
+          "RTRichards (Tyler Richards)"
+        ]
+      },
+      {
+        "id": 10,
+        "abbrev": "BAS",
+        "name": "All Sleepers",
+        "owners": [
+          "ESPNFAN5348531549 (Brian Hunscher)"
+        ]
+      },
+      {
+        "id": 11,
+        "abbrev": "DDT",
+        "name": "Doug's Dangerous Team",
+        "owners": [
+          "dkirkpatrick17 (Doug Kirkpatrick)"
+        ]
+      },
+      {
+        "id": 12,
+        "abbrev": "AVBS",
+        "name": "All Vibes",
+        "owners": [
+          "bassistwithafro (Aaron White)",
+          "ESPNFAN4946545899 (A W)"
+        ]
+      }
+    ]
+  },
+  {
+    "code": "ALC",
+    "espn_league_id": 1464805408,
+    "espn_name": "Keystone Fantasy 2026 - Classic",
+    "size": 12,
+    "current_matchup_period": 2,
+    "scoring_period": 2,
+    "latest_scoring_period": 2,
+    "final_scoring_period": 17,
+    "regular_season_weeks": 14,
+    "playoff_teams": 6,
+    "divisions": [
+      "League Standings"
+    ],
+    "scoring": "Half PPR, 4.0 pt pass TD",
+    "teams": [
+      {
+        "id": 1,
+        "abbrev": "KTT",
+        "name": "Key's Top-Notch Team",
+        "owners": [
+          "ESPNFAN1712906171 (Key Stone)"
+        ]
+      },
+      {
+        "id": 2,
+        "abbrev": "CUAU",
+        "name": "Cuau MX",
+        "owners": [
+          "ESPNFAN4347038149 (Cuau Trevino)"
+        ]
+      },
+      {
+        "id": 3,
+        "abbrev": "SCH",
+        "name": "Sam's Calling for Hikes",
+        "owners": [
+          "espn41729080 (Sam Hoffman)"
+        ]
+      },
+      {
+        "id": 4,
+        "abbrev": "Dc",
+        "name": "DC's Team \ud83d\udc06",
+        "owners": [
+          "ESPNFAN1566339075 (Danielle Collazo)"
+        ]
+      },
+      {
+        "id": 5,
+        "abbrev": "JW",
+        "name": "J Wong",
+        "owners": [
+          "jswong02 (Jonathan Wong)"
+        ]
+      },
+      {
+        "id": 6,
+        "abbrev": "CG",
+        "name": "Brady Bunch",
+        "owners": [
+          "ESPNFAN1695059902 (CATHERINE POIRIER)"
+        ]
+      },
+      {
+        "id": 7,
+        "abbrev": "AAT",
+        "name": "First and Goel",
+        "owners": [
+          "ESPNFAN5136959808 (Akshay Goel)"
+        ]
+      },
+      {
+        "id": 8,
+        "abbrev": "LAGN",
+        "name": "Like a Good Nabers",
+        "owners": [
+          "rzuban (Rob Zuban)"
+        ]
+      },
+      {
+        "id": 9,
+        "abbrev": "CCT",
+        "name": "Cedric's Competitive Team",
+        "owners": [
+          "cedricgarcia (Cedric Garcia)"
+        ]
+      },
+      {
+        "id": 10,
+        "abbrev": "RR",
+        "name": "RL Remarkables",
+        "owners": [
+          "ESPNFAN4761685765 (Ranjeet Laungani)"
+        ]
+      },
+      {
+        "id": 11,
+        "abbrev": "MMT",
+        "name": "Mark's Magnificent Team",
+        "owners": [
+          "espn63469321 (Mark Karlson)"
+        ]
+      },
+      {
+        "id": 12,
+        "abbrev": "HHT",
+        "name": "Hersh's Heated Team",
+        "owners": [
+          "ESPNFAN7349536803 (Hersh Lakdawala)"
+        ]
+      }
+    ]
+  },
+  {
+    "code": "ALL",
+    "espn_league_id": 313712614,
+    "espn_name": "Keystone Fantasy 2026 - Legends",
+    "size": 12,
+    "current_matchup_period": 2,
+    "scoring_period": 2,
+    "latest_scoring_period": 2,
+    "final_scoring_period": 17,
+    "regular_season_weeks": 14,
+    "playoff_teams": 6,
+    "divisions": [
+      "League Standings"
+    ],
+    "scoring": "Half PPR, 4.0 pt pass TD",
+    "teams": [
+      {
+        "id": 1,
+        "abbrev": "COLE",
+        "name": "The Commissioner",
+        "owners": [
+          "ESPNFAN1712906171 (Key Stone)"
+        ]
+      },
+      {
+        "id": 2,
+        "abbrev": "KPLP",
+        "name": "K-Pop Lehman's Punters",
+        "owners": [
+          "JCubLehman (Jacob Lehman)"
+        ]
+      },
+      {
+        "id": 3,
+        "abbrev": "FFT",
+        "name": "Fraser's Fantastic Team",
+        "owners": [
+          "espn20467486 (Fraser Thompson)"
+        ]
+      },
+      {
+        "id": 4,
+        "abbrev": "JST",
+        "name": "Jack's Scary Team",
+        "owners": [
+          "jcards01 (Jack Cardwell)"
+        ]
+      },
+      {
+        "id": 5,
+        "abbrev": "UR",
+        "name": "Unreasonable Hostility",
+        "owners": [
+          "jmarowits (Jeff Marowits)"
+        ]
+      },
+      {
+        "id": 6,
+        "abbrev": "BENJ",
+        "name": "Seapigeons",
+        "owners": [
+          "kaonwarb (Benjamin Christensen)"
+        ]
+      },
+      {
+        "id": 7,
+        "abbrev": "OOT",
+        "name": "Omer's Otherworldly Team",
+        "owners": [
+          "ESPNFAN8142429899 (Omer Khan)"
+        ]
+      },
+      {
+        "id": 8,
+        "abbrev": "AAT",
+        "name": "Andre's Astounding Team",
+        "owners": [
+          "ESPNFAN8430825206 (Andre Costa)"
+        ]
+      },
+      {
+        "id": 9,
+        "abbrev": "MMT",
+        "name": "Max's Magnificent Team",
+        "owners": [
+          "Grosser_98 (Max Gross)"
+        ]
+      },
+      {
+        "id": 10,
+        "abbrev": "BBL",
+        "name": "The Bills Make Me Wanna, Shout!",
+        "owners": [
+          "Mikeylats17 (Michael Latona)"
+        ]
+      },
+      {
+        "id": 11,
+        "abbrev": "BBT",
+        "name": "Beliebe In Miracles",
+        "owners": [
+          "ESPNFAN0277178627 (Ben Lieber)"
+        ]
+      },
+      {
+        "id": 12,
+        "abbrev": "BBT",
+        "name": "ben's Brilliant Team",
+        "owners": [
+          "benklop5 (ben klopack)"
+        ]
+      }
+    ]
+  },
+  {
+    "code": "C2C",
+    "espn_league_id": 1314750435,
+    "espn_name": "Keystone Fantasy 2026 - Freedom",
+    "size": 12,
+    "current_matchup_period": 2,
+    "scoring_period": 2,
+    "latest_scoring_period": 2,
+    "final_scoring_period": 17,
+    "regular_season_weeks": 14,
+    "playoff_teams": 6,
+    "divisions": [
+      "League Standings"
+    ],
+    "scoring": "Half PPR, 4.0 pt pass TD",
+    "teams": [
+      {
+        "id": 1,
+        "abbrev": "KTT",
+        "name": "Key's Top-Notch Team",
+        "owners": [
+          "ESPNFAN1712906171 (Key Stone)",
+          "ESPNFAN5203492745 (Aseem Mahajan)"
+        ]
+      },
+      {
+        "id": 2,
+        "abbrev": "SLM",
+        "name": "Slim Reapers",
+        "owners": [
+          "ESPNFAN5122278937 (Kylie Sagisi)"
+        ]
+      },
+      {
+        "id": 3,
+        "abbrev": "MMT",
+        "name": "Touch base in the end zone",
+        "owners": [
+          "ESPNfan1588253863 (ManYee Yu)"
+        ]
+      },
+      {
+        "id": 4,
+        "abbrev": "AAT",
+        "name": "The A(melie) Team",
+        "owners": [
+          "espnfan6435039216 (Amelie Gantert)"
+        ]
+      },
+      {
+        "id": 5,
+        "abbrev": "AAT",
+        "name": "Ande's Awesome Team",
+        "owners": [
+          "ESPNFAN8814508881 (Ande Shen)"
+        ]
+      },
+      {
+        "id": 6,
+        "abbrev": "TD",
+        "name": "The Hypothetical Monopolists",
+        "owners": [
+          "ESPNFAN4068972512 (Terrence Dai)"
+        ]
+      },
+      {
+        "id": 7,
+        "abbrev": "AFA ",
+        "name": "futbol americano",
+        "owners": [
+          "ESPNFAN2105662934 (Alec Brockell)"
+        ]
+      },
+      {
+        "id": 8,
+        "abbrev": "EET",
+        "name": "Evan's Excellent Team",
+        "owners": [
+          "Esexto (Evan Sexton)"
+        ]
+      },
+      {
+        "id": 9,
+        "abbrev": "RRT",
+        "name": "Rich's Rowdy Team",
+        "owners": [
+          "espn36578993 (Rich Riley)"
+        ]
+      },
+      {
+        "id": 10,
+        "abbrev": "BBL",
+        "name": "We're a basketball city anyways",
+        "owners": [
+          "burrito_spartans (Karthik Hemmanur)"
+        ]
+      },
+      {
+        "id": 11,
+        "abbrev": "YAY",
+        "name": "yay sports",
+        "owners": [
+          "ESPNfan5748269417 (Gaby Lichucki)"
+        ]
+      },
+      {
+        "id": 12,
+        "abbrev": "MMT",
+        "name": "12th man",
+        "owners": [
+          "Garywinzzz (michael gary)"
+        ]
+      }
+    ]
+  }
+]

@@ -12,7 +12,8 @@ Static site (Astro, GitHub Pages) for 7 private ESPN fantasy leagues (84 slots, 
   Key = `Slot ID`. The JSON/XLSX beside it are copies of the same data.
 - `leagues.json` — season + league codes → ESPN league ids + display names. Not secret.
 - `scripts/espn_client.py` — cookie-auth client, retries, raw caching to `data/raw/`.
-- `scripts/espn_probe.py` — prints league name/teams/owners/current week per league.
+- `scripts/espn_probe.py` — prints league name/teams/owners/current week per league → `data/espn/probe.json`.
+- `scripts/map_teams.py` — `propose` auto-matches slots↔ESPN teams into `data/team_mapping.json`; `apply` writes IDs back to the master CSV/JSON.
 - `data/raw/` (git-ignored) verbatim ESPN JSON; `data/espn/` normalized; `data/site/` for Astro.
 - `site/` — Astro project (Phase 4).
 - `.github/workflows/refresh.yml` — scheduled fetch → compute → build → deploy (Phase 4).
@@ -25,6 +26,8 @@ cp .env.example .env                           # then paste ESPN_S2 / ESPN_SWID
 ```
 
 ## Decisions (keep in sync with PLAN.md)
+- All 7 leagues share one scoring format (Half PPR); power ranking uses raw points.
+- `Manager Seat = Yes` = the team that carries the commissioner ESPN login. In EMP/BEA/HAR/C2C the co-owner is the real owner and the page is theirs; in GOT/ALC/ALL it is the commissioner's own team.
 - All leagues private; single ESPN account; cookies from `.env` locally, GitHub Secrets in CI.
 - Raw `requests` against `lm-api-reads.fantasy.espn.com/apis/v3/games/ffl` (verified 2026-09-21),
   not the `espn-api` package.
@@ -36,7 +39,7 @@ cp .env.example .env                           # then paste ESPN_S2 / ESPN_SWID
 
 ## Phase status
 - [x] Phase 0/1: plan approved 2026-09-21
-- [ ] Phase 2: cookies + probe (in progress)
-- [ ] Phase 3: map slots ↔ ESPN teams
+- [x] Phase 2: cookies + probe OK for all 7 leagues (2026-09-21)
+- [x] Phase 3: 84/84 slots mapped; IDs written to master CSV/JSON (`scripts/map_teams.py propose|apply`)
 - [ ] Phase 4: fetch, compute, site, workflow, README
 - [ ] Phase 5: verify vs ESPN app

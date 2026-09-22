@@ -1,0 +1,1137 @@
+{
+  "season": 2026,
+  "leagues": {
+    "EMP": {
+      "espn_league_id": 225405520,
+      "teams": [
+        {
+          "espn_team_id": 1,
+          "espn_team_name": "Manhattan Elitists",
+          "espn_abbrev": "NYC",
+          "espn_owners": [
+            "ESPNFAN1712906171 (Key Stone)",
+            "cwyman16 (Cole Wyman)"
+          ],
+          "slot_id": "EMP-08",
+          "score": 1.0,
+          "reason": "exact name",
+          "co_owned_with_commissioner": true,
+          "confidence": "high"
+        },
+        {
+          "espn_team_id": 2,
+          "espn_team_name": "Druv's Daring Team",
+          "espn_abbrev": "DDT",
+          "espn_owners": [
+            "Druv75 (Druv Murthy)"
+          ],
+          "slot_id": "EMP-03",
+          "score": 1.0,
+          "reason": "exact name",
+          "co_owned_with_commissioner": false,
+          "confidence": "high"
+        },
+        {
+          "espn_team_id": 3,
+          "espn_team_name": "Benjamin's Best Team",
+          "espn_abbrev": "BBT",
+          "espn_owners": [
+            "bfeldman89 (Benjamin Feldman)"
+          ],
+          "slot_id": "EMP-06",
+          "score": 1.0,
+          "reason": "exact name",
+          "co_owned_with_commissioner": false,
+          "confidence": "high"
+        },
+        {
+          "espn_team_id": 4,
+          "espn_team_name": "Aussie Aussie Aussie Oi Oi Oi",
+          "espn_abbrev": "MMT",
+          "espn_owners": [
+            "ESPNFAN3019906957 (Matthew Gates)"
+          ],
+          "slot_id": "EMP-09",
+          "score": 1.0,
+          "reason": "exact name",
+          "co_owned_with_commissioner": false,
+          "confidence": "high"
+        },
+        {
+          "espn_team_id": 5,
+          "espn_team_name": "Drake and Goff",
+          "espn_abbrev": "DAG",
+          "espn_owners": [
+            "Anita Bushnell (Anita Bushnell)"
+          ],
+          "slot_id": "EMP-02",
+          "score": 0.85,
+          "reason": "email matches",
+          "co_owned_with_commissioner": false,
+          "confidence": "medium"
+        },
+        {
+          "espn_team_id": 6,
+          "espn_team_name": "Team Salant",
+          "espn_abbrev": "JAS",
+          "espn_owners": [
+            "Jacob Salant (Jacob Salant)"
+          ],
+          "slot_id": "EMP-10",
+          "score": 1.0,
+          "reason": "exact name",
+          "co_owned_with_commissioner": false,
+          "confidence": "high"
+        },
+        {
+          "espn_team_id": 7,
+          "espn_team_name": "Kelton's Deluxe Team",
+          "espn_abbrev": "KDT",
+          "espn_owners": [
+            "Kelton Berry (Kelton Berry)"
+          ],
+          "slot_id": "EMP-07",
+          "score": 1.0,
+          "reason": "exact name",
+          "co_owned_with_commissioner": false,
+          "confidence": "high"
+        },
+        {
+          "espn_team_id": 8,
+          "espn_team_name": "TheGenoSmithExperience",
+          "espn_abbrev": "TGSE",
+          "espn_owners": [
+            "ESPNFAN2097408021 (Prajeet Sarker)"
+          ],
+          "slot_id": "EMP-01",
+          "score": 1.0,
+          "reason": "exact name",
+          "co_owned_with_commissioner": false,
+          "confidence": "high"
+        },
+        {
+          "espn_team_id": 9,
+          "espn_team_name": "System of a 1st Down",
+          "espn_abbrev": "SO1D",
+          "espn_owners": [
+            "ESPNFAN0756772383 (Zachary Macdonald)"
+          ],
+          "slot_id": "EMP-04",
+          "score": 1.0,
+          "reason": "exact name",
+          "co_owned_with_commissioner": false,
+          "confidence": "high"
+        },
+        {
+          "espn_team_id": 10,
+          "espn_team_name": "Synergistic optimization",
+          "espn_abbrev": "SYNG",
+          "espn_owners": [
+            "Bradley Hart (Bradley Hart)"
+          ],
+          "slot_id": "EMP-05",
+          "score": 1.0,
+          "reason": "exact name",
+          "co_owned_with_commissioner": false,
+          "confidence": "high"
+        },
+        {
+          "espn_team_id": 11,
+          "espn_team_name": "Amelia's Awesome Team",
+          "espn_abbrev": "AAT",
+          "espn_owners": [
+            "ESPNFAN2505184436 (Amelia Ockert)"
+          ],
+          "slot_id": "EMP-12",
+          "score": 1.0,
+          "reason": "exact name",
+          "co_owned_with_commissioner": false,
+          "confidence": "high"
+        },
+        {
+          "espn_team_id": 12,
+          "espn_team_name": "Victoire's Spirited Team",
+          "espn_abbrev": "VST",
+          "espn_owners": [
+            "ESPNFAN6412074181 (Victoire Cagniart)"
+          ],
+          "slot_id": "EMP-11",
+          "score": 1.0,
+          "reason": "exact name",
+          "co_owned_with_commissioner": false,
+          "confidence": "high"
+        }
+      ]
+    },
+    "GOT": {
+      "espn_league_id": 321048737,
+      "teams": [
+        {
+          "espn_team_id": 1,
+          "espn_team_name": "Key's Top-Notch Team",
+          "espn_abbrev": "KTT",
+          "espn_owners": [
+            "ESPNFAN1712906171 (Key Stone)"
+          ],
+          "slot_id": "GOT-12",
+          "score": 1.0,
+          "reason": "commissioner-only team",
+          "co_owned_with_commissioner": false,
+          "confidence": "high"
+        },
+        {
+          "espn_team_id": 2,
+          "espn_team_name": "Fries in the Bag",
+          "espn_abbrev": "FITB",
+          "espn_owners": [
+            "ESPNFAN7321607657 (Santiago Castillo)"
+          ],
+          "slot_id": "GOT-02",
+          "score": 0.8,
+          "reason": "first name only",
+          "co_owned_with_commissioner": false,
+          "confidence": "medium"
+        },
+        {
+          "espn_team_id": 3,
+          "espn_team_name": "Benjamin's Best Team",
+          "espn_abbrev": "BBT",
+          "espn_owners": [
+            "espnfan2502182337 (Benjamin Sango)"
+          ],
+          "slot_id": "GOT-05",
+          "score": 1.0,
+          "reason": "exact name",
+          "co_owned_with_commissioner": false,
+          "confidence": "high"
+        },
+        {
+          "espn_team_id": 4,
+          "espn_team_name": "Julian's Scary Team",
+          "espn_abbrev": "JST",
+          "espn_owners": [
+            "espnfan9923764109 (Julian Kurtzman)"
+          ],
+          "slot_id": "GOT-09",
+          "score": 1.0,
+          "reason": "exact name",
+          "co_owned_with_commissioner": false,
+          "confidence": "high"
+        },
+        {
+          "espn_team_id": 5,
+          "espn_team_name": "Rob-in the Win",
+          "espn_abbrev": "RTW",
+          "espn_owners": [
+            "ESPNFAN7195571580 (Robert Mueller)"
+          ],
+          "slot_id": "GOT-11",
+          "score": 1.0,
+          "reason": "exact name",
+          "co_owned_with_commissioner": false,
+          "confidence": "high"
+        },
+        {
+          "espn_team_id": 6,
+          "espn_team_name": "End Zone Sloane",
+          "espn_abbrev": "EZS",
+          "espn_owners": [
+            "PhillyPhanatic18 (Jason Holtzman)"
+          ],
+          "slot_id": "GOT-08",
+          "score": 0.9,
+          "reason": "surname",
+          "co_owned_with_commissioner": false,
+          "confidence": "medium"
+        },
+        {
+          "espn_team_id": 7,
+          "espn_team_name": "Bijan Mustard",
+          "espn_abbrev": "AA",
+          "espn_owners": [
+            "ESPNFAN5032839633 (Alice Khayami)"
+          ],
+          "slot_id": "GOT-01",
+          "score": 1.0,
+          "reason": "exact name",
+          "co_owned_with_commissioner": false,
+          "confidence": "high"
+        },
+        {
+          "espn_team_id": 8,
+          "espn_team_name": "Zoe's Team",
+          "espn_abbrev": "ZS",
+          "espn_owners": [
+            "z_l_s (Zoe Stern)"
+          ],
+          "slot_id": "GOT-06",
+          "score": 1.0,
+          "reason": "exact name",
+          "co_owned_with_commissioner": false,
+          "confidence": "high"
+        },
+        {
+          "espn_team_id": 9,
+          "espn_team_name": "Bogdan's Brilliant Team",
+          "espn_abbrev": "BBT",
+          "espn_owners": [
+            "Bogry (Bogdan Hamilton)"
+          ],
+          "slot_id": "GOT-10",
+          "score": 0.8,
+          "reason": "first name only",
+          "co_owned_with_commissioner": false,
+          "confidence": "medium"
+        },
+        {
+          "espn_team_id": 10,
+          "espn_team_name": "Rohan's Rowdy Team",
+          "espn_abbrev": "RRT",
+          "espn_owners": [
+            "RohanB9 (Rohan Bhargava)"
+          ],
+          "slot_id": "GOT-07",
+          "score": 1.0,
+          "reason": "exact name",
+          "co_owned_with_commissioner": false,
+          "confidence": "high"
+        },
+        {
+          "espn_team_id": 11,
+          "espn_team_name": "Sahil's Game of Throws",
+          "espn_abbrev": "SGT",
+          "espn_owners": [
+            "ESPNFAN7047166708 (Sahil Singh)"
+          ],
+          "slot_id": "GOT-04",
+          "score": 1.0,
+          "reason": "exact name",
+          "co_owned_with_commissioner": false,
+          "confidence": "high"
+        },
+        {
+          "espn_team_id": 12,
+          "espn_team_name": "Ashutosh's Astounding Team",
+          "espn_abbrev": "AAT",
+          "espn_owners": [
+            "ESPNFAN7518598501 (Ashutosh Bajpai)"
+          ],
+          "slot_id": "GOT-03",
+          "score": 1.0,
+          "reason": "exact name",
+          "co_owned_with_commissioner": false,
+          "confidence": "high"
+        }
+      ]
+    },
+    "BEA": {
+      "espn_league_id": 57393498,
+      "teams": [
+        {
+          "espn_team_id": 1,
+          "espn_team_name": "Key's Top-Notch Team",
+          "espn_abbrev": "KTT",
+          "espn_owners": [
+            "ESPNFAN1712906171 (Key Stone)",
+            "ESPNfan8417107080 (Charlie Fairfax)"
+          ],
+          "slot_id": "BEA-12",
+          "score": 1.0,
+          "reason": "exact name",
+          "co_owned_with_commissioner": true,
+          "confidence": "high"
+        },
+        {
+          "espn_team_id": 2,
+          "espn_team_name": "Peter's Totally Serious Team",
+          "espn_abbrev": "PWC",
+          "espn_owners": [
+            "ESPNFAN1593384956 (Peter Chang)"
+          ],
+          "slot_id": "BEA-09",
+          "score": 1.0,
+          "reason": "exact name",
+          "co_owned_with_commissioner": false,
+          "confidence": "high"
+        },
+        {
+          "espn_team_id": 3,
+          "espn_team_name": "Bill's Best Team",
+          "espn_abbrev": "BBT",
+          "espn_owners": [
+            "ESPNFAN2013894231 (Bill Leith)"
+          ],
+          "slot_id": "BEA-08",
+          "score": 1.0,
+          "reason": "exact name",
+          "co_owned_with_commissioner": false,
+          "confidence": "high"
+        },
+        {
+          "espn_team_id": 4,
+          "espn_team_name": "Salt Lake Dirty Sodas",
+          "espn_abbrev": "SLDs",
+          "espn_owners": [
+            "NadirTekarli (Nadir  Tekarli)"
+          ],
+          "slot_id": "BEA-10",
+          "score": 1.0,
+          "reason": "exact name",
+          "co_owned_with_commissioner": false,
+          "confidence": "high"
+        },
+        {
+          "espn_team_id": 5,
+          "espn_team_name": "James learns football",
+          "espn_abbrev": "JST",
+          "espn_owners": [
+            "ESPNfan6829595087 (James Mulcahy)"
+          ],
+          "slot_id": "BEA-03",
+          "score": 1.0,
+          "reason": "exact name",
+          "co_owned_with_commissioner": false,
+          "confidence": "high"
+        },
+        {
+          "espn_team_id": 6,
+          "espn_team_name": "Chris's Amazing Team",
+          "espn_abbrev": "CCT",
+          "espn_owners": [
+            "Chris Teixeira (Chris Teixeira)"
+          ],
+          "slot_id": "BEA-07",
+          "score": 1.0,
+          "reason": "exact name",
+          "co_owned_with_commissioner": false,
+          "confidence": "high"
+        },
+        {
+          "espn_team_id": 7,
+          "espn_team_name": "Sylee's Super Team",
+          "espn_abbrev": "SST",
+          "espn_owners": [
+            "ESPNFAN2099673435 (Sylee Dandekar)"
+          ],
+          "slot_id": "BEA-06",
+          "score": 0.85,
+          "reason": "email matches",
+          "co_owned_with_commissioner": false,
+          "confidence": "medium"
+        },
+        {
+          "espn_team_id": 8,
+          "espn_team_name": "Brittany's Brilliant Team",
+          "espn_abbrev": "BBT",
+          "espn_owners": [
+            "Brittany Halks (Brittany Halks)"
+          ],
+          "slot_id": "BEA-01",
+          "score": 1.0,
+          "reason": "exact name",
+          "co_owned_with_commissioner": false,
+          "confidence": "high"
+        },
+        {
+          "espn_team_id": 9,
+          "espn_team_name": "Prateek's Perfect Team",
+          "espn_abbrev": "PPT",
+          "espn_owners": [
+            "prateekm92 (Prateek Mehta)"
+          ],
+          "slot_id": "BEA-11",
+          "score": 1.0,
+          "reason": "exact name",
+          "co_owned_with_commissioner": false,
+          "confidence": "high"
+        },
+        {
+          "espn_team_id": 10,
+          "espn_team_name": "LIFO The Party",
+          "espn_abbrev": "LIFO",
+          "espn_owners": [
+            "ESPNFAN8936449975 (Justin Metz)"
+          ],
+          "slot_id": "BEA-02",
+          "score": 1.0,
+          "reason": "exact name",
+          "co_owned_with_commissioner": false,
+          "confidence": "high"
+        },
+        {
+          "espn_team_id": 11,
+          "espn_team_name": "Uncommon Champions",
+          "espn_abbrev": "UC",
+          "espn_owners": [
+            "Jacqui_Lemire (Jacqui Lemire)"
+          ],
+          "slot_id": "BEA-04",
+          "score": 1.0,
+          "reason": "exact name",
+          "co_owned_with_commissioner": false,
+          "confidence": "high"
+        },
+        {
+          "espn_team_id": 12,
+          "espn_team_name": "Ackshually Tyler SHOUGH",
+          "espn_abbrev": "ATS",
+          "espn_owners": [
+            "ESPNFAN96544061 (Lukas Marmanis)"
+          ],
+          "slot_id": "BEA-05",
+          "score": 1.0,
+          "reason": "exact name",
+          "co_owned_with_commissioner": false,
+          "confidence": "high"
+        }
+      ]
+    },
+    "HAR": {
+      "espn_league_id": 420658602,
+      "teams": [
+        {
+          "espn_team_id": 1,
+          "espn_team_name": "Ranmit's Rudderless Randos",
+          "espn_abbrev": "RRR",
+          "espn_owners": [
+            "ESPNFAN1712906171 (Key Stone)",
+            "ESPNFAN0091338057 (Ranmit Singh)"
+          ],
+          "slot_id": "HAR-08",
+          "score": 0.7,
+          "reason": "first name, surname differs",
+          "co_owned_with_commissioner": true,
+          "confidence": "LOW"
+        },
+        {
+          "espn_team_id": 2,
+          "espn_team_name": "Dumb Luck Club",
+          "espn_abbrev": "DLC",
+          "espn_owners": [
+            "ESPNFAN0548400614 (Elisabeth Beltinger)"
+          ],
+          "slot_id": "HAR-12",
+          "score": 1.0,
+          "reason": "exact name",
+          "co_owned_with_commissioner": false,
+          "confidence": "high"
+        },
+        {
+          "espn_team_id": 3,
+          "espn_team_name": "Mimi Family",
+          "espn_abbrev": "Mimi",
+          "espn_owners": [
+            "ESPNFAN5864609770 (Nhi Dang)"
+          ],
+          "slot_id": "HAR-02",
+          "score": 1.0,
+          "reason": "exact name",
+          "co_owned_with_commissioner": false,
+          "confidence": "high"
+        },
+        {
+          "espn_team_id": 4,
+          "espn_team_name": "Gabriele's Great Team",
+          "espn_abbrev": "GGT",
+          "espn_owners": [
+            "ESPNFAN6562798504 (Gabriele Corbetta)"
+          ],
+          "slot_id": "HAR-11",
+          "score": 1.0,
+          "reason": "exact name",
+          "co_owned_with_commissioner": false,
+          "confidence": "high"
+        },
+        {
+          "espn_team_id": 5,
+          "espn_team_name": "clueless part three",
+          "espn_abbrev": "CPT",
+          "espn_owners": [
+            "ESPNFAN7997983388 (Sowmya Sridhar)"
+          ],
+          "slot_id": "HAR-10",
+          "score": 1.0,
+          "reason": "exact name",
+          "co_owned_with_commissioner": false,
+          "confidence": "high"
+        },
+        {
+          "espn_team_id": 6,
+          "espn_team_name": "Little Giants",
+          "espn_abbrev": "LG",
+          "espn_owners": [
+            "espnfan2565523585 (Jin Paik)"
+          ],
+          "slot_id": "HAR-05",
+          "score": 1.0,
+          "reason": "exact name",
+          "co_owned_with_commissioner": false,
+          "confidence": "high"
+        },
+        {
+          "espn_team_id": 7,
+          "espn_team_name": "Sunday Scaries",
+          "espn_abbrev": "SS",
+          "espn_owners": [
+            "ESPNFAN5168211768 (Caroline Scala)"
+          ],
+          "slot_id": "HAR-07",
+          "score": 1.0,
+          "reason": "exact name",
+          "co_owned_with_commissioner": false,
+          "confidence": "high"
+        },
+        {
+          "espn_team_id": 8,
+          "espn_team_name": "Team 17",
+          "espn_abbrev": "321",
+          "espn_owners": [
+            "ESPNFAN6434467729 (Samuel Peter)"
+          ],
+          "slot_id": "HAR-03",
+          "score": 1.0,
+          "reason": "exact name",
+          "co_owned_with_commissioner": false,
+          "confidence": "high"
+        },
+        {
+          "espn_team_id": 9,
+          "espn_team_name": "CoolName?utm_source=chatgpt.com",
+          "espn_abbrev": "TTT",
+          "espn_owners": [
+            "RTRichards (Tyler Richards)"
+          ],
+          "slot_id": "HAR-09",
+          "score": 1.0,
+          "reason": "exact name",
+          "co_owned_with_commissioner": false,
+          "confidence": "high"
+        },
+        {
+          "espn_team_id": 10,
+          "espn_team_name": "All Sleepers",
+          "espn_abbrev": "BAS",
+          "espn_owners": [
+            "ESPNFAN5348531549 (Brian Hunscher)"
+          ],
+          "slot_id": "HAR-06",
+          "score": 1.0,
+          "reason": "exact name",
+          "co_owned_with_commissioner": false,
+          "confidence": "high"
+        },
+        {
+          "espn_team_id": 11,
+          "espn_team_name": "Doug's Dangerous Team",
+          "espn_abbrev": "DDT",
+          "espn_owners": [
+            "dkirkpatrick17 (Doug Kirkpatrick)"
+          ],
+          "slot_id": "HAR-04",
+          "score": 1.0,
+          "reason": "exact name",
+          "co_owned_with_commissioner": false,
+          "confidence": "high"
+        },
+        {
+          "espn_team_id": 12,
+          "espn_team_name": "All Vibes",
+          "espn_abbrev": "AVBS",
+          "espn_owners": [
+            "bassistwithafro (Aaron White)",
+            "ESPNFAN4946545899 (A W)"
+          ],
+          "slot_id": "HAR-01",
+          "score": 1.0,
+          "reason": "exact name",
+          "co_owned_with_commissioner": false,
+          "confidence": "high"
+        }
+      ]
+    },
+    "ALC": {
+      "espn_league_id": 1464805408,
+      "teams": [
+        {
+          "espn_team_id": 1,
+          "espn_team_name": "Key's Top-Notch Team",
+          "espn_abbrev": "KTT",
+          "espn_owners": [
+            "ESPNFAN1712906171 (Key Stone)"
+          ],
+          "slot_id": "ALC-12",
+          "score": 1.0,
+          "reason": "commissioner-only team",
+          "co_owned_with_commissioner": false,
+          "confidence": "high"
+        },
+        {
+          "espn_team_id": 2,
+          "espn_team_name": "Cuau MX",
+          "espn_abbrev": "CUAU",
+          "espn_owners": [
+            "ESPNFAN4347038149 (Cuau Trevino)"
+          ],
+          "slot_id": "ALC-06",
+          "score": 1.0,
+          "reason": "exact name",
+          "co_owned_with_commissioner": false,
+          "confidence": "high"
+        },
+        {
+          "espn_team_id": 3,
+          "espn_team_name": "Sam's Calling for Hikes",
+          "espn_abbrev": "SCH",
+          "espn_owners": [
+            "espn41729080 (Sam Hoffman)"
+          ],
+          "slot_id": "ALC-09",
+          "score": 1.0,
+          "reason": "exact name",
+          "co_owned_with_commissioner": false,
+          "confidence": "high"
+        },
+        {
+          "espn_team_id": 4,
+          "espn_team_name": "DC's Team \ud83d\udc06",
+          "espn_abbrev": "Dc",
+          "espn_owners": [
+            "ESPNFAN1566339075 (Danielle Collazo)"
+          ],
+          "slot_id": "ALC-07",
+          "score": 1.0,
+          "reason": "exact name",
+          "co_owned_with_commissioner": false,
+          "confidence": "high"
+        },
+        {
+          "espn_team_id": 5,
+          "espn_team_name": "J Wong",
+          "espn_abbrev": "JW",
+          "espn_owners": [
+            "jswong02 (Jonathan Wong)"
+          ],
+          "slot_id": "ALC-02",
+          "score": 1.0,
+          "reason": "exact name",
+          "co_owned_with_commissioner": false,
+          "confidence": "high"
+        },
+        {
+          "espn_team_id": 6,
+          "espn_team_name": "Brady Bunch",
+          "espn_abbrev": "CG",
+          "espn_owners": [
+            "ESPNFAN1695059902 (CATHERINE POIRIER)"
+          ],
+          "slot_id": "ALC-03",
+          "score": 0.77,
+          "reason": "first name, surname differs",
+          "co_owned_with_commissioner": false,
+          "confidence": "medium"
+        },
+        {
+          "espn_team_id": 7,
+          "espn_team_name": "First and Goel",
+          "espn_abbrev": "AAT",
+          "espn_owners": [
+            "ESPNFAN5136959808 (Akshay Goel)"
+          ],
+          "slot_id": "ALC-04",
+          "score": 1.0,
+          "reason": "exact name",
+          "co_owned_with_commissioner": false,
+          "confidence": "high"
+        },
+        {
+          "espn_team_id": 8,
+          "espn_team_name": "Like a Good Nabers",
+          "espn_abbrev": "LAGN",
+          "espn_owners": [
+            "rzuban (Rob Zuban)"
+          ],
+          "slot_id": "ALC-01",
+          "score": 0.96,
+          "reason": "email matches",
+          "co_owned_with_commissioner": false,
+          "confidence": "high"
+        },
+        {
+          "espn_team_id": 9,
+          "espn_team_name": "Cedric's Competitive Team",
+          "espn_abbrev": "CCT",
+          "espn_owners": [
+            "cedricgarcia (Cedric Garcia)"
+          ],
+          "slot_id": "ALC-11",
+          "score": 1.0,
+          "reason": "exact name",
+          "co_owned_with_commissioner": false,
+          "confidence": "high"
+        },
+        {
+          "espn_team_id": 10,
+          "espn_team_name": "RL Remarkables",
+          "espn_abbrev": "RR",
+          "espn_owners": [
+            "ESPNFAN4761685765 (Ranjeet Laungani)"
+          ],
+          "slot_id": "ALC-10",
+          "score": 1.0,
+          "reason": "exact name",
+          "co_owned_with_commissioner": false,
+          "confidence": "high"
+        },
+        {
+          "espn_team_id": 11,
+          "espn_team_name": "Mark's Magnificent Team",
+          "espn_abbrev": "MMT",
+          "espn_owners": [
+            "espn63469321 (Mark Karlson)"
+          ],
+          "slot_id": "ALC-05",
+          "score": 1.0,
+          "reason": "exact name",
+          "co_owned_with_commissioner": false,
+          "confidence": "high"
+        },
+        {
+          "espn_team_id": 12,
+          "espn_team_name": "Hersh's Heated Team",
+          "espn_abbrev": "HHT",
+          "espn_owners": [
+            "ESPNFAN7349536803 (Hersh Lakdawala)"
+          ],
+          "slot_id": "ALC-08",
+          "score": 1.0,
+          "reason": "exact name",
+          "co_owned_with_commissioner": false,
+          "confidence": "high"
+        }
+      ]
+    },
+    "ALL": {
+      "espn_league_id": 313712614,
+      "teams": [
+        {
+          "espn_team_id": 1,
+          "espn_team_name": "The Commissioner",
+          "espn_abbrev": "COLE",
+          "espn_owners": [
+            "ESPNFAN1712906171 (Key Stone)"
+          ],
+          "slot_id": "ALL-12",
+          "score": 1.0,
+          "reason": "commissioner-only team",
+          "co_owned_with_commissioner": false,
+          "confidence": "high"
+        },
+        {
+          "espn_team_id": 2,
+          "espn_team_name": "K-Pop Lehman's Punters",
+          "espn_abbrev": "KPLP",
+          "espn_owners": [
+            "JCubLehman (Jacob Lehman)"
+          ],
+          "slot_id": "ALL-04",
+          "score": 1.0,
+          "reason": "exact name",
+          "co_owned_with_commissioner": false,
+          "confidence": "high"
+        },
+        {
+          "espn_team_id": 3,
+          "espn_team_name": "Fraser's Fantastic Team",
+          "espn_abbrev": "FFT",
+          "espn_owners": [
+            "espn20467486 (Fraser Thompson)"
+          ],
+          "slot_id": "ALL-01",
+          "score": 1.0,
+          "reason": "exact name",
+          "co_owned_with_commissioner": false,
+          "confidence": "high"
+        },
+        {
+          "espn_team_id": 4,
+          "espn_team_name": "Jack's Scary Team",
+          "espn_abbrev": "JST",
+          "espn_owners": [
+            "jcards01 (Jack Cardwell)"
+          ],
+          "slot_id": "ALL-02",
+          "score": 1.0,
+          "reason": "exact name",
+          "co_owned_with_commissioner": false,
+          "confidence": "high"
+        },
+        {
+          "espn_team_id": 5,
+          "espn_team_name": "Unreasonable Hostility",
+          "espn_abbrev": "UR",
+          "espn_owners": [
+            "jmarowits (Jeff Marowits)"
+          ],
+          "slot_id": "ALL-03",
+          "score": 1.0,
+          "reason": "exact name",
+          "co_owned_with_commissioner": false,
+          "confidence": "high"
+        },
+        {
+          "espn_team_id": 6,
+          "espn_team_name": "Seapigeons",
+          "espn_abbrev": "BENJ",
+          "espn_owners": [
+            "kaonwarb (Benjamin Christensen)"
+          ],
+          "slot_id": "ALL-10",
+          "score": 1.0,
+          "reason": "exact name",
+          "co_owned_with_commissioner": false,
+          "confidence": "high"
+        },
+        {
+          "espn_team_id": 7,
+          "espn_team_name": "Omer's Otherworldly Team",
+          "espn_abbrev": "OOT",
+          "espn_owners": [
+            "ESPNFAN8142429899 (Omer Khan)"
+          ],
+          "slot_id": "ALL-09",
+          "score": 1.0,
+          "reason": "exact name",
+          "co_owned_with_commissioner": false,
+          "confidence": "high"
+        },
+        {
+          "espn_team_id": 8,
+          "espn_team_name": "Andre's Astounding Team",
+          "espn_abbrev": "AAT",
+          "espn_owners": [
+            "ESPNFAN8430825206 (Andre Costa)"
+          ],
+          "slot_id": "ALL-08",
+          "score": 1.0,
+          "reason": "exact name",
+          "co_owned_with_commissioner": false,
+          "confidence": "high"
+        },
+        {
+          "espn_team_id": 9,
+          "espn_team_name": "Max's Magnificent Team",
+          "espn_abbrev": "MMT",
+          "espn_owners": [
+            "Grosser_98 (Max Gross)"
+          ],
+          "slot_id": "ALL-11",
+          "score": 1.0,
+          "reason": "exact name",
+          "co_owned_with_commissioner": false,
+          "confidence": "high"
+        },
+        {
+          "espn_team_id": 10,
+          "espn_team_name": "The Bills Make Me Wanna, Shout!",
+          "espn_abbrev": "BBL",
+          "espn_owners": [
+            "Mikeylats17 (Michael Latona)"
+          ],
+          "slot_id": "ALL-07",
+          "score": 1.0,
+          "reason": "exact name",
+          "co_owned_with_commissioner": false,
+          "confidence": "high"
+        },
+        {
+          "espn_team_id": 11,
+          "espn_team_name": "Beliebe In Miracles",
+          "espn_abbrev": "BBT",
+          "espn_owners": [
+            "ESPNFAN0277178627 (Ben Lieber)"
+          ],
+          "slot_id": "ALL-06",
+          "score": 1.0,
+          "reason": "exact name",
+          "co_owned_with_commissioner": false,
+          "confidence": "high"
+        },
+        {
+          "espn_team_id": 12,
+          "espn_team_name": "ben's Brilliant Team",
+          "espn_abbrev": "BBT",
+          "espn_owners": [
+            "benklop5 (ben klopack)"
+          ],
+          "slot_id": "ALL-05",
+          "score": 1.0,
+          "reason": "exact name",
+          "co_owned_with_commissioner": false,
+          "confidence": "high"
+        }
+      ]
+    },
+    "C2C": {
+      "espn_league_id": 1314750435,
+      "teams": [
+        {
+          "espn_team_id": 1,
+          "espn_team_name": "Key's Top-Notch Team",
+          "espn_abbrev": "KTT",
+          "espn_owners": [
+            "ESPNFAN1712906171 (Key Stone)",
+            "ESPNFAN5203492745 (Aseem Mahajan)"
+          ],
+          "slot_id": "C2C-12",
+          "score": 0.8,
+          "reason": "first name only",
+          "co_owned_with_commissioner": true,
+          "confidence": "medium"
+        },
+        {
+          "espn_team_id": 2,
+          "espn_team_name": "Slim Reapers",
+          "espn_abbrev": "SLM",
+          "espn_owners": [
+            "ESPNFAN5122278937 (Kylie Sagisi)"
+          ],
+          "slot_id": "C2C-10",
+          "score": 1.0,
+          "reason": "exact name",
+          "co_owned_with_commissioner": false,
+          "confidence": "high"
+        },
+        {
+          "espn_team_id": 3,
+          "espn_team_name": "Touch base in the end zone",
+          "espn_abbrev": "MMT",
+          "espn_owners": [
+            "ESPNfan1588253863 (ManYee Yu)"
+          ],
+          "slot_id": "C2C-01",
+          "score": 1.0,
+          "reason": "exact name",
+          "co_owned_with_commissioner": false,
+          "confidence": "high"
+        },
+        {
+          "espn_team_id": 4,
+          "espn_team_name": "The A(melie) Team",
+          "espn_abbrev": "AAT",
+          "espn_owners": [
+            "espnfan6435039216 (Amelie Gantert)"
+          ],
+          "slot_id": "C2C-08",
+          "score": 1.0,
+          "reason": "exact name",
+          "co_owned_with_commissioner": false,
+          "confidence": "high"
+        },
+        {
+          "espn_team_id": 5,
+          "espn_team_name": "Ande's Awesome Team",
+          "espn_abbrev": "AAT",
+          "espn_owners": [
+            "ESPNFAN8814508881 (Ande Shen)"
+          ],
+          "slot_id": "C2C-09",
+          "score": 0.85,
+          "reason": "email matches",
+          "co_owned_with_commissioner": false,
+          "confidence": "medium"
+        },
+        {
+          "espn_team_id": 6,
+          "espn_team_name": "The Hypothetical Monopolists",
+          "espn_abbrev": "TD",
+          "espn_owners": [
+            "ESPNFAN4068972512 (Terrence Dai)"
+          ],
+          "slot_id": "C2C-05",
+          "score": 1.0,
+          "reason": "exact name",
+          "co_owned_with_commissioner": false,
+          "confidence": "high"
+        },
+        {
+          "espn_team_id": 7,
+          "espn_team_name": "futbol americano",
+          "espn_abbrev": "AFA ",
+          "espn_owners": [
+            "ESPNFAN2105662934 (Alec Brockell)"
+          ],
+          "slot_id": "C2C-02",
+          "score": 1.0,
+          "reason": "exact name",
+          "co_owned_with_commissioner": false,
+          "confidence": "high"
+        },
+        {
+          "espn_team_id": 8,
+          "espn_team_name": "Evan's Excellent Team",
+          "espn_abbrev": "EET",
+          "espn_owners": [
+            "Esexto (Evan Sexton)"
+          ],
+          "slot_id": "C2C-07",
+          "score": 1.0,
+          "reason": "exact name",
+          "co_owned_with_commissioner": false,
+          "confidence": "high"
+        },
+        {
+          "espn_team_id": 9,
+          "espn_team_name": "Rich's Rowdy Team",
+          "espn_abbrev": "RRT",
+          "espn_owners": [
+            "espn36578993 (Rich Riley)"
+          ],
+          "slot_id": "C2C-06",
+          "score": 1.0,
+          "reason": "exact name",
+          "co_owned_with_commissioner": false,
+          "confidence": "high"
+        },
+        {
+          "espn_team_id": 10,
+          "espn_team_name": "We're a basketball city anyways",
+          "espn_abbrev": "BBL",
+          "espn_owners": [
+            "burrito_spartans (Karthik Hemmanur)"
+          ],
+          "slot_id": "C2C-11",
+          "score": 1.0,
+          "reason": "exact name",
+          "co_owned_with_commissioner": false,
+          "confidence": "high"
+        },
+        {
+          "espn_team_id": 11,
+          "espn_team_name": "yay sports",
+          "espn_abbrev": "YAY",
+          "espn_owners": [
+            "ESPNfan5748269417 (Gaby Lichucki)"
+          ],
+          "slot_id": "C2C-03",
+          "score": 0.85,
+          "reason": "email matches",
+          "co_owned_with_commissioner": false,
+          "confidence": "medium"
+        },
+        {
+          "espn_team_id": 12,
+          "espn_team_name": "12th man",
+          "espn_abbrev": "MMT",
+          "espn_owners": [
+            "Garywinzzz (michael gary)"
+          ],
+          "slot_id": "C2C-04",
+          "score": 1.0,
+          "reason": "exact name",
+          "co_owned_with_commissioner": false,
+          "confidence": "high"
+        }
+      ]
+    }
+  }
+}
