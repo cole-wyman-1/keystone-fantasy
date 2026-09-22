@@ -9,5 +9,7 @@ export default defineConfig({
   base: repo,
   output: 'static',
   trailingSlash: 'always',
-  build: { format: 'directory' },
+  // Inline all CSS: pages are cached by browsers/CDN across frequent deploys, and a cached page
+  // pointing at a hashed CSS file from an older build would render unstyled.
+  build: { format: 'directory', inlineStylesheets: 'always' },
 });
