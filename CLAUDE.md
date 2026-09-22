@@ -8,8 +8,10 @@ Static site (Astro, GitHub Pages) for 7 private ESPN fantasy leagues (84 slots, 
 (Mon/Tue/Fri 11:00 UTC), compute standings/records, and rebuild the site.
 
 ## Layout
-- `Starter Files/keystone_ff_2026_master.csv` — editable source of truth for people/slots.
-  Key = `Slot ID`. The JSON/XLSX beside it are copies of the same data.
+- `Starter Files/keystone_ff_2026_master.csv` — editable source of truth for people/slots,
+  committed WITHOUT email columns (repo is public). Key = `Slot ID`.
+- `Starter Files/private/` (git-ignored) — the full CSV with emails, plus JSON/XLSX copies.
+  `map_teams.py` reads the private CSV for matching when present and writes both CSVs.
 - `leagues.json` — season + league codes → ESPN league ids + display names. Not secret.
 - `scripts/espn_client.py` — cookie-auth client, retries, raw caching to `data/raw/`.
 - `scripts/espn_probe.py` — prints league name/teams/owners/current week per league → `data/espn/probe.json`.
@@ -20,6 +22,7 @@ Static site (Astro, GitHub Pages) for 7 private ESPN fantasy leagues (84 slots, 
 
 ## How to run
 ```
+cd site && npm install && npm run dev       # site preview at localhost:4321/keystone-fantasy/
 .venv/bin/pip install -r requirements.txt      # once
 cp .env.example .env                           # then paste ESPN_S2 / ESPN_SWID
 .venv/bin/python scripts/espn_probe.py         # sanity-check auth + list teams
@@ -36,10 +39,12 @@ cp .env.example .env                           # then paste ESPN_S2 / ESPN_SWID
 - Tracks total, bench, optimal-lineup, and single-player points.
 - Luck = actual wins − all-play expected wins. Power ranking uses within-league z-scores.
 - Cron 11:00 UTC (7am EDT / 6am EST) Mon, Tue, Fri + manual dispatch. Fetch failure = no deploy.
+- Repo: public `cole-wyman-1/keystone-fantasy`, GitHub Pages via Actions. Site https://cole-wyman-1.github.io/keystone-fantasy/
+- Emails never enter git: history was rewritten before the first push; keep it that way.
 
 ## Phase status
 - [x] Phase 0/1: plan approved 2026-09-21
 - [x] Phase 2: cookies + probe OK for all 7 leagues (2026-09-21)
 - [x] Phase 3: 84/84 slots mapped; IDs written to master CSV/JSON (`scripts/map_teams.py propose|apply`)
-- [ ] Phase 4: fetch, compute, site, workflow, README
-- [ ] Phase 5: verify vs ESPN app
+- [x] Phase 4: fetch, compute, site (Astro, 95 pages), workflow, README (2026-09-22)
+- [ ] Phase 5: first deploy + verify vs ESPN app

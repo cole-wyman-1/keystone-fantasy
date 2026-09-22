@@ -61,6 +61,9 @@ cd site && npm run dev        # preview at http://localhost:4321/keystone-fantas
 
 **Fix a name / profile / team assignment:** edit `Starter Files/keystone_ff_2026_master.csv`
 in Excel or Numbers (keep the header row and Slot IDs), save as CSV, then:
+(That file has no email columns because the repo is public. The full copy with emails is
+`Starter Files/private/keystone_ff_2026_master_with_emails.csv`, which git ignores. If you
+edit names there instead, run `scripts/map_teams.py apply` to sync both copies.)
 
 ```
 .venv/bin/python scripts/import_master.py     # validates; prints any problem rows
