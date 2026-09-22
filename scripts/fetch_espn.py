@@ -19,6 +19,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from espn_client import AuthError, ESPNError, client_from_env  # noqa: E402
 from lib.espn_ids import NON_STARTING_SLOTS, position_name, slot_name  # noqa: E402
+from lib.trades import PRO_TEAMS, normalize_trades  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "data" / "espn"
@@ -124,6 +125,35 @@ def week_from_scoring_period(data: dict, scoring_period: int, matchup_period: in
             "matchups": matchups, "lineups": lineups}
 
 
+PLAYERS_CACHE = OUT / "players.json"
+
+
+def fetch_trades(client, league: dict, latest: int) -> list[dict]:
+    """All trade proposals in every scoring period so far (cheap; statuses can change, so always refetch)."""
+    txs = []
+    for sp in range(1, latest + 1):
+        data = client.league(league["espn_league_id"], ["mTransactions2"], scoring_period=sp, cache_name=f"transactions_sp{sp}")
+        txs.extend(data.get("transactions", []))
+    return normalize_trades(txs)
+
+
+def resolve_players(client, league_id: int, player_ids: set[int]) -> dict:
+    """Look up names/positions for player ids not already in data/espn/players.json."""
+    cache = json.loads(PLAYERS_CACHE.read_text()) if PLAYERS_CACHE.exists() else {}
+    missing = sorted(pid for pid in player_ids if str(pid) not in cache)
+    for i in range(0, len(missing), 50):
+        batch = missing[i:i + 50]
+        data = client.league_filtered(league_id, "kona_player_info", {"players": {"filterIds": {"value": batch}}})
+        for p in data.get("players", []):
+            pl = p.get("player", {})
+            cache[str(pl.get("id", p.get("id")))] = {"name": pl.get("fullName", ""), "position": position_name(pl.get("defaultPositionId")),
+                                                    "pro_team": PRO_TEAMS.get(pl.get("proTeamId"), "")}
+        for pid in batch:  # avoid re-querying ids ESPN doesn't know
+            cache.setdefault(str(pid), {"name": f"Player {pid}", "position": "", "pro_team": ""})
+    PLAYERS_CACHE.write_text(json.dumps(cache, indent=0, ensure_ascii=False))
+    return cache
+
+
 def fetch_league(client, league: dict, force: bool, max_period: int | None) -> dict:
     code = league["code"]
     ldir = OUT / code
@@ -134,7 +164,11 @@ def fetch_league(client, league: dict, force: bool, max_period: int | None) -> d
     latest = lg["status"]["latest_scoring_period"] or 1
     final = lg["status"]["final_scoring_period"] or 17
     period_of = {sp: mp for mp, sps in lg["matchup_periods"].items() for sp in sps} or {i: i for i in range(1, final + 1)}
-    summary = {"code": code, "weeks_fetched": [], "weeks_skipped": [], "weeks_complete": []}
+    summary = {"code": code, "weeks_fetched": [], "weeks_skipped": [], "weeks_complete": [], "trades": 0}
+    trades = fetch_trades(client, league, latest)
+    resolve_players(client, league["espn_league_id"], {m["player_id"] for t in trades for m in t["moves"]})
+    (ldir / "trades.json").write_text(json.dumps(trades, indent=1))
+    summary["trades"] = sum(1 for t in trades if t["status"] == "EXECUTED")
     for sp in range(1, min(latest, max_period or latest) + 1):
         path = ldir / "weeks" / f"{sp}.json"
         if path.exists() and not force:
@@ -176,7 +210,7 @@ def main() -> int:
             continue
         summaries.append(s)
         print(f"{s['code']}: fetched weeks {s['weeks_fetched'] or '-'}, skipped (already complete) {s['weeks_skipped'] or '-'}, "
-              f"complete through week {max(s['weeks_complete']) if s['weeks_complete'] else 0}")
+              f"complete through week {max(s['weeks_complete']) if s['weeks_complete'] else 0}, completed trades {s['trades']}")
     meta_path = OUT / "fetch_meta.json"
     meta = {"season": cfg["season"], "fetched_utc": datetime.now(timezone.utc).isoformat(timespec="seconds"),
             "leagues": summaries, "failures": failures}

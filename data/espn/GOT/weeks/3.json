@@ -2,7 +2,7 @@
  "scoring_period": 3,
  "matchup_period": 3,
  "complete": false,
- "fetched_utc": "2026-09-22T13:39:41+00:00",
+ "fetched_utc": "2026-09-22T17:30:46+00:00",
  "matchups": [
   {
    "matchup_id": 13,
@@ -2763,8 +2763,8 @@
      "player_id": 4361529,
      "name": "Isiah Pacheco",
      "position": "RB",
-     "lineup_slot_id": 20,
-     "lineup_slot": "BE",
+     "lineup_slot_id": 21,
+     "lineup_slot": "IR",
      "started": false,
      "eligible_slots": [
       2,
@@ -3277,9 +3277,9 @@
      "player_id": 4432710,
      "name": "TreVeyon Henderson",
      "position": "RB",
-     "lineup_slot_id": 20,
-     "lineup_slot": "BE",
-     "started": false,
+     "lineup_slot_id": 2,
+     "lineup_slot": "RB",
+     "started": true,
      "eligible_slots": [
       2,
       3,
@@ -3309,9 +3309,9 @@
      "player_id": 4371733,
      "name": "Kenny Gainwell",
      "position": "RB",
-     "lineup_slot_id": 2,
-     "lineup_slot": "RB",
-     "started": true,
+     "lineup_slot_id": 20,
+     "lineup_slot": "BE",
+     "started": false,
      "eligible_slots": [
       2,
       3,
@@ -3361,8 +3361,8 @@
      "player_id": 4360569,
      "name": "Jordan Mason",
      "position": "RB",
-     "lineup_slot_id": 20,
-     "lineup_slot": "BE",
+     "lineup_slot_id": 21,
+     "lineup_slot": "IR",
      "started": false,
      "eligible_slots": [
       2,

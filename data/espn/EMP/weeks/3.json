@@ -2,7 +2,7 @@
  "scoring_period": 3,
  "matchup_period": 3,
  "complete": false,
- "fetched_utc": "2026-09-22T13:39:40+00:00",
+ "fetched_utc": "2026-09-22T17:30:45+00:00",
  "matchups": [
   {
    "matchup_id": 13,
@@ -215,9 +215,9 @@
      "player_id": 4701936,
      "name": "Matthew Golden",
      "position": "WR",
-     "lineup_slot_id": 4,
-     "lineup_slot": "WR",
-     "started": true,
+     "lineup_slot_id": 20,
+     "lineup_slot": "BE",
+     "started": false,
      "eligible_slots": [
       3,
       4,
@@ -252,9 +252,9 @@
      "player_id": 4695883,
      "name": "Jalen Coker",
      "position": "WR",
-     "lineup_slot_id": 20,
-     "lineup_slot": "BE",
-     "started": false,
+     "lineup_slot_id": 4,
+     "lineup_slot": "WR",
+     "started": true,
      "eligible_slots": [
       3,
       4,

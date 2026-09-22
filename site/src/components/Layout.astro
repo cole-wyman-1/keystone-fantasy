@@ -8,6 +8,7 @@ const nav = [
   { href: u('weekly-highs/'), label: 'Weekly Highs' },
   { href: u('records/'), label: 'Records' },
   { href: u('power/'), label: 'Power' },
+  { href: u('trades/'), label: 'Trades' },
 ];
 ---
 <!doctype html>
@@ -126,6 +127,12 @@ const nav = [
   .legend { display: flex; flex-wrap: wrap; gap: 6px 18px; margin-top: 6px; }
   .line-key { display: inline-block; width: 26px; border-top: 2px dotted; vertical-align: middle; margin-right: 6px; }
   .line-key.bye { border-color: var(--gold); } .line-key.po { border-color: var(--accent); }
+  .trades { display: grid; gap: 12px; max-width: 860px; }
+  .trade { border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; }
+  .trade-muted { opacity: 0.75; }
+  .trade-head { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; margin-bottom: 8px; }
+  .trade-sides { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 12px; }
+  .trade-side { background: var(--soft); border-radius: 8px; padding: 10px 12px; display: grid; gap: 3px; }
   .profile dd img { width: 22px; height: 22px; object-fit: contain; vertical-align: middle; margin-right: 6px; }
   .profile dl { display: grid; grid-template-columns: max-content 1fr; gap: 4px 14px; margin: 0; }
   .profile dt { color: var(--muted); font-size: 0.85rem; }

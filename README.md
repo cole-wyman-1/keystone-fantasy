@@ -107,6 +107,12 @@ Covers standings, streaks, all-play luck, record book, playoff flags, the optima
 solver (against brute force), that no email address reaches `data/site/`, and that our
 computed standings agree with ESPN's own W-L and points for every team.
 
+## Trade center
+
+Automatic. Every refresh pulls all trade proposals from ESPN; completed ones appear on `/trades/`
+and on each manager's page, pending offers in their own section. If a player shows as
+"Player 123456", delete that id from `data/espn/players.json` and re-run the fetch.
+
 ## Message board (home page)
 
 Posts live in a free Supabase project. `board.json` holds the project URL and the *anon* key; both

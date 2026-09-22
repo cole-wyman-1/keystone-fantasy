@@ -1,0 +1,32 @@
+---
+import Layout from '../components/Layout.astro';
+import TradeCard from '../components/TradeCard.astro';
+import { load, leagues } from '../lib/data';
+const trades: any[] = load('trades');
+const done = trades.filter((t) => t.status === 'EXECUTED');
+const pending = trades.filter((t) => t.status === 'PENDING');
+const byLeague = (code: string) => done.filter((t) => t.league_code === code);
+---
+<Layout title="Trade Center">
+  <h1>Trade center</h1>
+  <p class="muted">Every completed trade across the seven leagues, pulled from ESPN on each refresh. Newest first.</p>
+
+  {done.length === 0 ? (
+    <div class="banner">No completed trades yet this season. Somebody make an offer.</div>
+  ) : (
+    <div class="trades">{done.map((t) => <TradeCard t={t} />)}</div>
+  )}
+
+  {pending.length > 0 && (<>
+    <h2>Pending proposals</h2>
+    <p class="small muted">Offers on the table right now. They move up once both sides accept and the review period passes.</p>
+    <div class="trades">{pending.map((t) => <TradeCard t={t} />)}</div>
+  </>)}
+
+  {done.length > 0 && (<>
+    <h2>By league</h2>
+    {leagues.map((l) => (<details><summary>{l.name} · {byLeague(l.code).length} trade{byLeague(l.code).length === 1 ? '' : 's'}</summary>
+      {byLeague(l.code).length ? <div class="trades">{byLeague(l.code).map((t) => <TradeCard t={t} showLeague={false} />)}</div> : <p class="muted small">None yet.</p>}
+    </details>))}
+  </>)}
+</Layout>

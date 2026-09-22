@@ -80,13 +80,21 @@ class ESPNClient:
         self._cache(league_id, name, data)
         return data
 
+    def league_filtered(self, league_id: int, view: str, fantasy_filter: dict, cache_name: str | None = None) -> dict:
+        """GET one league view with an x-fantasy-filter header (player lookups, activity feeds)."""
+        url = f"{BASE_URL}/seasons/{self.season}/segments/0/leagues/{league_id}"
+        data = self._get(url, [("view", view)], league_id, headers={"x-fantasy-filter": json.dumps(fantasy_filter)})
+        if cache_name:
+            self._cache(league_id, cache_name, data)
+        return data
+
     # -- internals ----------------------------------------------------------------
 
-    def _get(self, url: str, params: list[tuple[str, str]], league_id: int) -> dict:
+    def _get(self, url: str, params: list[tuple[str, str]], league_id: int, headers: dict | None = None) -> dict:
         last_exc: Exception | None = None
         for attempt in range(1, self.retries + 1):
             try:
-                resp = self.session.get(url, params=params, timeout=self.timeout)
+                resp = self.session.get(url, params=params, timeout=self.timeout, headers=headers)
             except requests.RequestException as exc:  # network blip: retry
                 last_exc = exc
                 time.sleep(2 * attempt)

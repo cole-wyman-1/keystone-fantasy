@@ -16,6 +16,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from lib.icons import profile_icons  # noqa: E402
 from lib.lineup import optimal_lineup  # noqa: E402
+from lib.trades import sides as trade_sides  # noqa: E402
 from lib.records import (games_from_weeks, playoff_picture, power_rank, record_book, standings,  # noqa: E402
                          weekly_highs)
 
@@ -102,6 +103,8 @@ def main() -> int:
     highs_by_week: dict[int, dict] = defaultdict(dict)
     high_counts: Counter = Counter()
     fetch_meta = json.loads((ESPN / "fetch_meta.json").read_text()) if (ESPN / "fetch_meta.json").exists() else {}
+    players_db = json.loads((ESPN / "players.json").read_text()) if (ESPN / "players.json").exists() else {}
+    trades_out = []
 
     for lg in master["leagues"]:
         code = lg["code"]
@@ -184,6 +187,16 @@ def main() -> int:
                         people[sid]["in_progress"] = rec
 
         league_records[code] = record_book(games, extras, RECORD_N_LEAGUE)
+
+        tpath = ESPN / code / "trades.json"
+        for t in (json.loads(tpath.read_text()) if tpath.exists() else []):
+            rec = {"id": t["id"], "league_code": code, "league_name": lg["name"], "status": t["status"], "status_label": t["status_label"],
+                   "proposed_utc": t["proposed_utc"], "processed_utc": t["processed_utc"], "week": t["scoring_period"],
+                   "sides": trade_sides(t, label, players_db)}
+            trades_out.append(rec)
+            for sd in rec["sides"]:
+                if sd["slot_id"] and t["status"] == "EXECUTED":
+                    people[sd["slot_id"]].setdefault("trades", []).append(rec["id"])
         leagues_out.append({
             "code": code, "name": lg["name"], "slug": code.lower(), "espn_name": league["espn_name"],
             "espn_league_id": league["espn_league_id"], "managed_by": lg["managed_by"],
@@ -234,15 +247,17 @@ def main() -> int:
                    "streaks": {"longest_win": sorted([{k: r[k] for k in ("slot_id", "owner", "team_name", "league_code", "longest_win_streak", "streak")} for r in all_rows], key=lambda r: -r["longest_win_streak"])[:RECORD_N_OVERALL],
                                "longest_loss": sorted([{k: r[k] for k in ("slot_id", "owner", "team_name", "league_code", "longest_loss_streak", "streak")} for r in all_rows], key=lambda r: -r["longest_loss_streak"])[:RECORD_N_OVERALL]}}
 
+    trades_out.sort(key=lambda t: (t["processed_utc"] or t["proposed_utc"] or ""), reverse=True)
     now = datetime.now(timezone.utc).isoformat(timespec="seconds")
     weeks_complete = min(weeks_complete_by_league.values()) if weeks_complete_by_league else 0
     meta = {"season": season, "generated_utc": now, "last_successful_fetch_utc": fetch_meta.get("fetched_utc", now),
             "weeks_complete": weeks_complete, "weeks_complete_by_league": weeks_complete_by_league,
             "current_week": max((l["current_week"] or 0) for l in leagues_out) if leagues_out else None,
-            "n_people": sum(1 for p in people.values() if not p["is_commissioner"]), "n_leagues": len(leagues_out)}
+            "n_people": sum(1 for p in people.values() if not p["is_commissioner"]), "n_leagues": len(leagues_out),
+            "n_trades": sum(1 for t in trades_out if t["status"] == "EXECUTED")}
 
     for name, obj in {"meta": meta, "leagues": leagues_out, "people": people, "standings": standings_out, "weekly": weekly_out,
-                      "highs": highs_out, "records": records_out, "power": power_out}.items():
+                      "highs": highs_out, "records": records_out, "power": power_out, "trades": trades_out}.items():
         text = json.dumps(obj, indent=0, ensure_ascii=False, separators=(",", ":"))
         assert not EMAIL_RE.search(text), f"{name}.json would contain an email address"
         (SITE / f"{name}.json").write_text(text)

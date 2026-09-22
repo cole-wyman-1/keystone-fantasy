@@ -1,7 +1,7 @@
 {
 "season":2026,
-"generated_utc":"2026-09-22T15:33:28+00:00",
-"last_successful_fetch_utc":"2026-09-22T13:39:49+00:00",
+"generated_utc":"2026-09-22T17:30:52+00:00",
+"last_successful_fetch_utc":"2026-09-22T17:30:52+00:00",
 "weeks_complete":2,
 "weeks_complete_by_league":{
 "EMP":2,
@@ -14,5 +14,6 @@
 },
 "current_week":3,
 "n_people":81,
-"n_leagues":7
+"n_leagues":7,
+"n_trades":0
 }

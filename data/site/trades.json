@@ -1,0 +1,266 @@
+[
+{
+"id":"3636d77a-908a-40e5-8d2b-8faa9467e378",
+"league_code":"C2C",
+"league_name":"Freedom League",
+"status":"CANCELED",
+"status_label":"canceled",
+"proposed_utc":"2026-09-19T18:36:09+00:00",
+"processed_utc":null,
+"week":2,
+"sides":[
+{
+"team_id":1,
+"slot_id":"C2C-12",
+"owner":"Aseem Mahajan",
+"team_name":"Key's Top-Notch Team",
+"abbrev":"KTT",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg",
+"gives":[
+{
+"name":"Quinshon Judkins",
+"position":"RB",
+"pro_team":"CLE"
+}
+],
+"receives":[
+{
+"name":"Bo Nix",
+"position":"QB",
+"pro_team":"DEN"
+}
+]
+},
+{
+"team_id":7,
+"slot_id":"C2C-02",
+"owner":"Alec Brockell",
+"team_name":"futbol americano",
+"abbrev":"AFA ",
+"logo":"https://mystique-api.fantasy.espn.com/apis/v1/domains/lm/images/e3087730-ab8c-11f1-adbb-af55773333bb",
+"gives":[
+{
+"name":"Bo Nix",
+"position":"QB",
+"pro_team":"DEN"
+}
+],
+"receives":[
+{
+"name":"Quinshon Judkins",
+"position":"RB",
+"pro_team":"CLE"
+}
+]
+}
+]
+},
+{
+"id":"88a99cd2-e0b8-44b7-87eb-e4dc3f51c3c4",
+"league_code":"C2C",
+"league_name":"Freedom League",
+"status":"PENDING",
+"status_label":"pending",
+"proposed_utc":"2026-09-19T18:27:23+00:00",
+"processed_utc":null,
+"week":2,
+"sides":[
+{
+"team_id":1,
+"slot_id":"C2C-12",
+"owner":"Aseem Mahajan",
+"team_name":"Key's Top-Notch Team",
+"abbrev":"KTT",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg",
+"gives":[
+{
+"name":"Quinshon Judkins",
+"position":"RB",
+"pro_team":"CLE"
+}
+],
+"receives":[
+{
+"name":"Bo Nix",
+"position":"QB",
+"pro_team":"DEN"
+}
+]
+},
+{
+"team_id":7,
+"slot_id":"C2C-02",
+"owner":"Alec Brockell",
+"team_name":"futbol americano",
+"abbrev":"AFA ",
+"logo":"https://mystique-api.fantasy.espn.com/apis/v1/domains/lm/images/e3087730-ab8c-11f1-adbb-af55773333bb",
+"gives":[
+{
+"name":"Bo Nix",
+"position":"QB",
+"pro_team":"DEN"
+}
+],
+"receives":[
+{
+"name":"Quinshon Judkins",
+"position":"RB",
+"pro_team":"CLE"
+}
+]
+}
+]
+},
+{
+"id":"04a41d33-8914-4b6e-b93d-61ad6644bc02",
+"league_code":"HAR",
+"league_name":"Harbor League",
+"status":"CANCELED",
+"status_label":"canceled",
+"proposed_utc":"2026-09-18T16:09:34+00:00",
+"processed_utc":null,
+"week":2,
+"sides":[
+{
+"team_id":1,
+"slot_id":"HAR-08",
+"owner":"Ranmit Pantle",
+"team_name":"Ranmit's Rudderless Randos",
+"abbrev":"RRR",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg",
+"gives":[
+{
+"name":"Josh Jacobs",
+"position":"RB",
+"pro_team":"GB"
+},
+{
+"name":"A.J. Brown",
+"position":"WR",
+"pro_team":"NE"
+}
+],
+"receives":[
+{
+"name":"Romeo Doubs",
+"position":"WR",
+"pro_team":"NE"
+},
+{
+"name":"Xavier Worthy",
+"position":"WR",
+"pro_team":"KC"
+}
+]
+},
+{
+"team_id":3,
+"slot_id":"HAR-02",
+"owner":"Nhi Dang",
+"team_name":"Mimi Family",
+"abbrev":"Mimi",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/20.svg",
+"gives":[
+{
+"name":"Romeo Doubs",
+"position":"WR",
+"pro_team":"NE"
+},
+{
+"name":"Xavier Worthy",
+"position":"WR",
+"pro_team":"KC"
+}
+],
+"receives":[
+{
+"name":"Josh Jacobs",
+"position":"RB",
+"pro_team":"GB"
+},
+{
+"name":"A.J. Brown",
+"position":"WR",
+"pro_team":"NE"
+}
+]
+}
+]
+},
+{
+"id":"aecf0245-ab87-4397-99e5-4d479a3c60ad",
+"league_code":"HAR",
+"league_name":"Harbor League",
+"status":"PENDING",
+"status_label":"pending",
+"proposed_utc":"2026-09-18T03:50:33+00:00",
+"processed_utc":null,
+"week":2,
+"sides":[
+{
+"team_id":1,
+"slot_id":"HAR-08",
+"owner":"Ranmit Pantle",
+"team_name":"Ranmit's Rudderless Randos",
+"abbrev":"RRR",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg",
+"gives":[
+{
+"name":"Josh Jacobs",
+"position":"RB",
+"pro_team":"GB"
+},
+{
+"name":"A.J. Brown",
+"position":"WR",
+"pro_team":"NE"
+}
+],
+"receives":[
+{
+"name":"Romeo Doubs",
+"position":"WR",
+"pro_team":"NE"
+},
+{
+"name":"Xavier Worthy",
+"position":"WR",
+"pro_team":"KC"
+}
+]
+},
+{
+"team_id":3,
+"slot_id":"HAR-02",
+"owner":"Nhi Dang",
+"team_name":"Mimi Family",
+"abbrev":"Mimi",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/20.svg",
+"gives":[
+{
+"name":"Romeo Doubs",
+"position":"WR",
+"pro_team":"NE"
+},
+{
+"name":"Xavier Worthy",
+"position":"WR",
+"pro_team":"KC"
+}
+],
+"receives":[
+{
+"name":"Josh Jacobs",
+"position":"RB",
+"pro_team":"GB"
+},
+{
+"name":"A.J. Brown",
+"position":"WR",
+"pro_team":"NE"
+}
+]
+}
+]
+}
+]
