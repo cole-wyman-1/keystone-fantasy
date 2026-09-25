@@ -323,9 +323,9 @@
   },
   {
    "espn_team_id": 12,
-   "name": "Hersh's Heated Team",
-   "abbrev": "HHT",
-   "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/18.svg",
+   "name": "The Ja’Marrican Dream",
+   "abbrev": "USA",
+   "logo": "https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-7.svg",
    "division_id": 0,
    "owners": [
     {
@@ -494,7 +494,7 @@
    "home_team_id": 6,
    "away_team_id": 4,
    "home_points": 0.0,
-   "away_points": 0.0,
+   "away_points": 2.8,
    "winner": "UNDECIDED",
    "playoff_tier": "NONE",
    "is_bye": false
@@ -504,7 +504,7 @@
    "matchup_period": 3,
    "home_team_id": 10,
    "away_team_id": 8,
-   "home_points": 0.0,
+   "home_points": 23.9,
    "away_points": 0.0,
    "winner": "UNDECIDED",
    "playoff_tier": "NONE",
@@ -516,7 +516,7 @@
    "home_team_id": 9,
    "away_team_id": 3,
    "home_points": 0.0,
-   "away_points": 0.0,
+   "away_points": 34.3,
    "winner": "UNDECIDED",
    "playoff_tier": "NONE",
    "is_bye": false
@@ -527,7 +527,7 @@
    "home_team_id": 12,
    "away_team_id": 11,
    "home_points": 0.0,
-   "away_points": 0.0,
+   "away_points": 37.6,
    "winner": "UNDECIDED",
    "playoff_tier": "NONE",
    "is_bye": false
@@ -538,7 +538,7 @@
    "home_team_id": 2,
    "away_team_id": 5,
    "home_points": 0.0,
-   "away_points": 0.0,
+   "away_points": 4.6,
    "winner": "UNDECIDED",
    "playoff_tier": "NONE",
    "is_bye": false

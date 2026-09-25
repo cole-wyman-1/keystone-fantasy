@@ -483,7 +483,7 @@
    "home_team_id": 11,
    "away_team_id": 3,
    "home_points": 0.0,
-   "away_points": 0.0,
+   "away_points": 11.0,
    "winner": "UNDECIDED",
    "playoff_tier": "NONE",
    "is_bye": false
@@ -493,7 +493,7 @@
    "matchup_period": 3,
    "home_team_id": 7,
    "away_team_id": 6,
-   "home_points": 0.0,
+   "home_points": 34.3,
    "away_points": 0.0,
    "winner": "UNDECIDED",
    "playoff_tier": "NONE",
@@ -515,8 +515,8 @@
    "matchup_period": 3,
    "home_team_id": 1,
    "away_team_id": 10,
-   "home_points": 0.0,
-   "away_points": 0.0,
+   "home_points": 23.7,
+   "away_points": 24.9,
    "winner": "UNDECIDED",
    "playoff_tier": "NONE",
    "is_bye": false

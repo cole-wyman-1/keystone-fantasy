@@ -2,7 +2,7 @@
  "scoring_period": 3,
  "matchup_period": 3,
  "complete": false,
- "fetched_utc": "2026-09-22T17:30:47+00:00",
+ "fetched_utc": "2026-09-25T15:43:13+00:00",
  "matchups": [
   {
    "matchup_id": 13,
@@ -10,7 +10,7 @@
    "home_team_id": 2,
    "away_team_id": 4,
    "home_points": 0.0,
-   "away_points": 0.0,
+   "away_points": 23.9,
    "winner": "UNDECIDED",
    "playoff_tier": "NONE",
    "is_bye": false
@@ -31,8 +31,8 @@
    "matchup_period": 3,
    "home_team_id": 7,
    "away_team_id": 10,
-   "home_points": 0.0,
-   "away_points": 0.0,
+   "home_points": 1.0,
+   "away_points": 4.6,
    "winner": "UNDECIDED",
    "playoff_tier": "NONE",
    "is_bye": false
@@ -42,8 +42,8 @@
    "matchup_period": 3,
    "home_team_id": 1,
    "away_team_id": 11,
-   "home_points": 0.0,
-   "away_points": 0.0,
+   "home_points": 19.1,
+   "away_points": -6.0,
    "winner": "UNDECIDED",
    "playoff_tier": "NONE",
    "is_bye": false
@@ -64,7 +64,7 @@
    "matchup_period": 3,
    "home_team_id": 8,
    "away_team_id": 9,
-   "home_points": 0.0,
+   "home_points": 34.3,
    "away_points": 0.0,
    "winner": "UNDECIDED",
    "playoff_tier": "NONE",
@@ -320,7 +320,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 11.0
     },
     {
      "player_id": 4597500,
@@ -374,7 +374,7 @@
    ]
   },
   "4": {
-   "points": 0.0,
+   "points": 23.9,
    "players": [
     {
      "player_id": 3043078,
@@ -409,7 +409,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 23.9
     },
     {
      "player_id": 4239996,
@@ -622,7 +622,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 18.48
     },
     {
      "player_id": 4382466,
@@ -700,8 +700,8 @@
      "player_id": 4429160,
      "name": "De'Von Achane",
      "position": "RB",
-     "lineup_slot_id": 23,
-     "lineup_slot": "FLEX",
+     "lineup_slot_id": 2,
+     "lineup_slot": "RB",
      "started": true,
      "eligible_slots": [
       2,
@@ -717,9 +717,9 @@
      "player_id": 4429615,
      "name": "Zay Flowers",
      "position": "WR",
-     "lineup_slot_id": 20,
-     "lineup_slot": "BE",
-     "started": false,
+     "lineup_slot_id": 4,
+     "lineup_slot": "WR",
+     "started": true,
      "eligible_slots": [
       3,
       4,
@@ -821,8 +821,8 @@
      "player_id": 3042519,
      "name": "Aaron Jones Sr.",
      "position": "RB",
-     "lineup_slot_id": 2,
-     "lineup_slot": "RB",
+     "lineup_slot_id": 23,
+     "lineup_slot": "FLEX",
      "started": true,
      "eligible_slots": [
       2,
@@ -838,9 +838,9 @@
      "player_id": 4701936,
      "name": "Matthew Golden",
      "position": "WR",
-     "lineup_slot_id": 4,
-     "lineup_slot": "WR",
-     "started": true,
+     "lineup_slot_id": 20,
+     "lineup_slot": "BE",
+     "started": false,
      "eligible_slots": [
       3,
       4,
@@ -850,7 +850,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 18.5
     },
     {
      "player_id": 4683062,
@@ -943,9 +943,9 @@
      "player_id": -16012,
      "name": "Chiefs D/ST",
      "position": "D/ST",
-     "lineup_slot_id": 20,
-     "lineup_slot": "BE",
-     "started": false,
+     "lineup_slot_id": 16,
+     "lineup_slot": "D/ST",
+     "started": true,
      "eligible_slots": [
       16,
       20,
@@ -971,9 +971,9 @@
      "player_id": -16027,
      "name": "Buccaneers D/ST",
      "position": "D/ST",
-     "lineup_slot_id": 16,
-     "lineup_slot": "D/ST",
-     "started": true,
+     "lineup_slot_id": 20,
+     "lineup_slot": "BE",
+     "started": false,
      "eligible_slots": [
       16,
       20,
@@ -1146,30 +1146,12 @@
      "player_id": 4429096,
      "name": "Blake Corum",
      "position": "RB",
-     "lineup_slot_id": 20,
-     "lineup_slot": "BE",
-     "started": false,
+     "lineup_slot_id": 23,
+     "lineup_slot": "FLEX",
+     "started": true,
      "eligible_slots": [
       2,
       3,
-      23,
-      7,
-      20,
-      21
-     ],
-     "points": 0.0
-    },
-    {
-     "player_id": 4430834,
-     "name": "Jalen McMillan",
-     "position": "WR",
-     "lineup_slot_id": 20,
-     "lineup_slot": "BE",
-     "started": false,
-     "eligible_slots": [
-      3,
-      4,
-      5,
       23,
       7,
       20,
@@ -1265,26 +1247,12 @@
      "points": 0.0
     },
     {
-     "player_id": -16030,
-     "name": "Jaguars D/ST",
-     "position": "D/ST",
-     "lineup_slot_id": 16,
-     "lineup_slot": "D/ST",
-     "started": true,
-     "eligible_slots": [
-      16,
-      20,
-      21
-     ],
-     "points": 0.0
-    },
-    {
      "player_id": 4429086,
      "name": "Michael Mayer",
      "position": "TE",
-     "lineup_slot_id": 23,
-     "lineup_slot": "FLEX",
-     "started": true,
+     "lineup_slot_id": 20,
+     "lineup_slot": "BE",
+     "started": false,
      "eligible_slots": [
       5,
       6,
@@ -1298,6 +1266,38 @@
     {
      "player_id": 4429022,
      "name": "Kayshon Boutte",
+     "position": "WR",
+     "lineup_slot_id": 20,
+     "lineup_slot": "BE",
+     "started": false,
+     "eligible_slots": [
+      3,
+      4,
+      5,
+      23,
+      7,
+      20,
+      21
+     ],
+     "points": 0.0
+    },
+    {
+     "player_id": -16004,
+     "name": "Bengals D/ST",
+     "position": "D/ST",
+     "lineup_slot_id": 16,
+     "lineup_slot": "D/ST",
+     "started": true,
+     "eligible_slots": [
+      16,
+      20,
+      21
+     ],
+     "points": 0.0
+    },
+    {
+     "player_id": 4242433,
+     "name": "Joshua Palmer",
      "position": "WR",
      "lineup_slot_id": 4,
      "lineup_slot": "WR",
@@ -1316,7 +1316,7 @@
    ]
   },
   "7": {
-   "points": 0.0,
+   "points": 1.0,
    "players": [
     {
      "player_id": 4242335,
@@ -1438,7 +1438,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 1.0
     },
     {
      "player_id": 4431611,
@@ -1620,7 +1620,7 @@
    ]
   },
   "10": {
-   "points": 0.0,
+   "points": 4.6,
    "players": [
     {
      "player_id": 4429795,
@@ -1725,7 +1725,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 4.6
     },
     {
      "player_id": 4360310,
@@ -1813,9 +1813,9 @@
      "player_id": -16021,
      "name": "Eagles D/ST",
      "position": "D/ST",
-     "lineup_slot_id": 16,
-     "lineup_slot": "D/ST",
-     "started": true,
+     "lineup_slot_id": 20,
+     "lineup_slot": "BE",
+     "started": false,
      "eligible_slots": [
       16,
       20,
@@ -1863,9 +1863,9 @@
      "player_id": 4428718,
      "name": "Tre Tucker",
      "position": "WR",
-     "lineup_slot_id": 20,
-     "lineup_slot": "BE",
-     "started": false,
+     "lineup_slot_id": 4,
+     "lineup_slot": "WR",
+     "started": true,
      "eligible_slots": [
       3,
       4,
@@ -1895,9 +1895,9 @@
      "player_id": -16016,
      "name": "Vikings D/ST",
      "position": "D/ST",
-     "lineup_slot_id": 20,
-     "lineup_slot": "BE",
-     "started": false,
+     "lineup_slot_id": 16,
+     "lineup_slot": "D/ST",
+     "started": true,
      "eligible_slots": [
       16,
       20,
@@ -1926,9 +1926,9 @@
      "player_id": 4686422,
      "name": "Xavier Hutchinson",
      "position": "WR",
-     "lineup_slot_id": 4,
-     "lineup_slot": "WR",
-     "started": true,
+     "lineup_slot_id": 20,
+     "lineup_slot": "BE",
+     "started": false,
      "eligible_slots": [
       3,
       4,
@@ -1943,7 +1943,7 @@
    ]
   },
   "1": {
-   "points": 0.0,
+   "points": 19.1,
    "players": [
     {
      "player_id": 3117251,
@@ -2065,7 +2065,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 19.1
     },
     {
      "player_id": 2577417,
@@ -2247,7 +2247,7 @@
    ]
   },
   "11": {
-   "points": 0.0,
+   "points": -6.0,
    "players": [
     {
      "player_id": 4374302,
@@ -2376,9 +2376,9 @@
      "player_id": 4689114,
      "name": "Jaxson Dart",
      "position": "QB",
-     "lineup_slot_id": 0,
-     "lineup_slot": "QB",
-     "started": true,
+     "lineup_slot_id": 20,
+     "lineup_slot": "BE",
+     "started": false,
      "eligible_slots": [
       0,
       7,
@@ -2409,28 +2409,11 @@
      "player_id": 3917315,
      "name": "Kyler Murray",
      "position": "QB",
-     "lineup_slot_id": 21,
-     "lineup_slot": "IR",
-     "started": false,
+     "lineup_slot_id": 0,
+     "lineup_slot": "QB",
+     "started": true,
      "eligible_slots": [
       0,
-      7,
-      20,
-      21
-     ],
-     "points": 0.0
-    },
-    {
-     "player_id": 4596334,
-     "name": "Keaton Mitchell",
-     "position": "RB",
-     "lineup_slot_id": 20,
-     "lineup_slot": "BE",
-     "started": false,
-     "eligible_slots": [
-      2,
-      3,
-      23,
       7,
       20,
       21
@@ -2534,7 +2517,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": -6.0
     },
     {
      "player_id": 4361411,
@@ -2546,6 +2529,23 @@
      "eligible_slots": [
       5,
       6,
+      23,
+      7,
+      20,
+      21
+     ],
+     "points": 0.0
+    },
+    {
+     "player_id": 4887558,
+     "name": "Emanuel Wilson",
+     "position": "RB",
+     "lineup_slot_id": 20,
+     "lineup_slot": "BE",
+     "started": false,
+     "eligible_slots": [
+      2,
+      3,
       23,
       7,
       20,
@@ -2680,9 +2680,9 @@
      "player_id": 4371733,
      "name": "Kenny Gainwell",
      "position": "RB",
-     "lineup_slot_id": 23,
-     "lineup_slot": "FLEX",
-     "started": true,
+     "lineup_slot_id": 20,
+     "lineup_slot": "BE",
+     "started": false,
      "eligible_slots": [
       2,
       3,
@@ -2781,9 +2781,9 @@
      "player_id": 3046439,
      "name": "Hunter Henry",
      "position": "TE",
-     "lineup_slot_id": 20,
-     "lineup_slot": "BE",
-     "started": false,
+     "lineup_slot_id": 23,
+     "lineup_slot": "FLEX",
+     "started": true,
      "eligible_slots": [
       5,
       6,
@@ -2954,9 +2954,9 @@
      "player_id": 4871023,
      "name": "Carnell Tate",
      "position": "WR",
-     "lineup_slot_id": 4,
-     "lineup_slot": "WR",
-     "started": true,
+     "lineup_slot_id": 20,
+     "lineup_slot": "BE",
+     "started": false,
      "eligible_slots": [
       25,
       3,
@@ -2973,9 +2973,9 @@
      "player_id": 5083076,
      "name": "Harold Fannin Jr.",
      "position": "TE",
-     "lineup_slot_id": 6,
-     "lineup_slot": "TE",
-     "started": true,
+     "lineup_slot_id": 20,
+     "lineup_slot": "BE",
+     "started": false,
      "eligible_slots": [
       5,
       6,
@@ -3020,24 +3020,6 @@
      "points": 0.0
     },
     {
-     "player_id": 4429205,
-     "name": "Jordan Addison",
-     "position": "WR",
-     "lineup_slot_id": 20,
-     "lineup_slot": "BE",
-     "started": false,
-     "eligible_slots": [
-      3,
-      4,
-      5,
-      23,
-      7,
-      20,
-      21
-     ],
-     "points": 0.0
-    },
-    {
      "player_id": 4688813,
      "name": "Josh Downs",
      "position": "WR",
@@ -3059,9 +3041,9 @@
      "player_id": 3126486,
      "name": "Deebo Samuel Sr.",
      "position": "WR",
-     "lineup_slot_id": 20,
-     "lineup_slot": "BE",
-     "started": false,
+     "lineup_slot_id": 4,
+     "lineup_slot": "WR",
+     "started": true,
      "eligible_slots": [
       3,
       4,
@@ -3155,12 +3137,30 @@
      "player_id": 3117256,
      "name": "Dalton Schultz",
      "position": "TE",
+     "lineup_slot_id": 6,
+     "lineup_slot": "TE",
+     "started": true,
+     "eligible_slots": [
+      5,
+      6,
+      23,
+      7,
+      20,
+      21
+     ],
+     "points": 0.0
+    },
+    {
+     "player_id": 4361432,
+     "name": "Romeo Doubs",
+     "position": "WR",
      "lineup_slot_id": 20,
      "lineup_slot": "BE",
      "started": false,
      "eligible_slots": [
+      3,
+      4,
       5,
-      6,
       23,
       7,
       20,
@@ -3171,7 +3171,7 @@
    ]
   },
   "8": {
-   "points": 0.0,
+   "points": 34.3,
    "players": [
     {
      "player_id": 4430807,
@@ -3188,7 +3188,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 34.3
     },
     {
      "player_id": 4361307,
@@ -3609,9 +3609,9 @@
      "player_id": 3046779,
      "name": "Jared Goff",
      "position": "QB",
-     "lineup_slot_id": 0,
-     "lineup_slot": "QB",
-     "started": true,
+     "lineup_slot_id": 20,
+     "lineup_slot": "BE",
+     "started": false,
      "eligible_slots": [
       0,
       7,
@@ -3671,20 +3671,6 @@
      "points": 0.0
     },
     {
-     "player_id": 4686361,
-     "name": "Cam Little",
-     "position": "K",
-     "lineup_slot_id": 17,
-     "lineup_slot": "K",
-     "started": true,
-     "eligible_slots": [
-      17,
-      20,
-      21
-     ],
-     "points": 0.0
-    },
-    {
      "player_id": 4686612,
      "name": "Tre' Harris",
      "position": "WR",
@@ -3706,9 +3692,9 @@
      "player_id": 4685720,
      "name": "Bryce Young",
      "position": "QB",
-     "lineup_slot_id": 20,
-     "lineup_slot": "BE",
-     "started": false,
+     "lineup_slot_id": 0,
+     "lineup_slot": "QB",
+     "started": true,
      "eligible_slots": [
       0,
       7,
@@ -3746,7 +3732,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 0.9
     },
     {
      "player_id": 5081432,
@@ -3768,8 +3754,22 @@
      "points": 0.0
     },
     {
-     "player_id": 4429023,
-     "name": "MarShawn Lloyd",
+     "player_id": 3150744,
+     "name": "Chase McLaughlin",
+     "position": "K",
+     "lineup_slot_id": 17,
+     "lineup_slot": "K",
+     "started": true,
+     "eligible_slots": [
+      17,
+      20,
+      21
+     ],
+     "points": 0.0
+    },
+    {
+     "player_id": 4596334,
+     "name": "Keaton Mitchell",
      "position": "RB",
      "lineup_slot_id": 20,
      "lineup_slot": "BE",
@@ -3785,8 +3785,8 @@
      "points": 0.0
     },
     {
-     "player_id": 2991662,
-     "name": "Mack Hollins",
+     "player_id": 4569603,
+     "name": "Malik Washington",
      "position": "WR",
      "lineup_slot_id": 20,
      "lineup_slot": "BE",

@@ -2,7 +2,7 @@
  "scoring_period": 3,
  "matchup_period": 3,
  "complete": false,
- "fetched_utc": "2026-09-22T17:30:46+00:00",
+ "fetched_utc": "2026-09-25T15:43:12+00:00",
  "matchups": [
   {
    "matchup_id": 13,
@@ -10,7 +10,7 @@
    "home_team_id": 11,
    "away_team_id": 3,
    "home_points": 0.0,
-   "away_points": 0.0,
+   "away_points": 11.0,
    "winner": "UNDECIDED",
    "playoff_tier": "NONE",
    "is_bye": false
@@ -20,7 +20,7 @@
    "matchup_period": 3,
    "home_team_id": 7,
    "away_team_id": 6,
-   "home_points": 0.0,
+   "home_points": 34.3,
    "away_points": 0.0,
    "winner": "UNDECIDED",
    "playoff_tier": "NONE",
@@ -42,8 +42,8 @@
    "matchup_period": 3,
    "home_team_id": 1,
    "away_team_id": 10,
-   "home_points": 0.0,
-   "away_points": 0.0,
+   "home_points": 23.7,
+   "away_points": 24.9,
    "winner": "UNDECIDED",
    "playoff_tier": "NONE",
    "is_bye": false
@@ -247,7 +247,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 18.5
     },
     {
      "player_id": 4428557,
@@ -382,7 +382,7 @@
    ]
   },
   "3": {
-   "points": 0.0,
+   "points": 11.0,
    "players": [
     {
      "player_id": 4362628,
@@ -626,7 +626,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 11.0
     },
     {
      "player_id": 4686361,
@@ -694,7 +694,7 @@
    ]
   },
   "7": {
-   "points": 0.0,
+   "points": 34.3,
    "players": [
     {
      "player_id": 4430807,
@@ -711,7 +711,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 34.3
     },
     {
      "player_id": 4361370,
@@ -834,7 +834,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 2.8
     },
     {
      "player_id": 3046779,
@@ -855,9 +855,9 @@
      "player_id": 4429025,
      "name": "Quentin Johnston",
      "position": "WR",
-     "lineup_slot_id": 23,
-     "lineup_slot": "FLEX",
-     "started": true,
+     "lineup_slot_id": 20,
+     "lineup_slot": "BE",
+     "started": false,
      "eligible_slots": [
       3,
       4,
@@ -890,9 +890,9 @@
      "player_id": 4569559,
      "name": "Devaughn Vele",
      "position": "WR",
-     "lineup_slot_id": 20,
-     "lineup_slot": "BE",
-     "started": false,
+     "lineup_slot_id": 23,
+     "lineup_slot": "FLEX",
+     "started": true,
      "eligible_slots": [
       3,
       4,
@@ -937,7 +937,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 0.9
     },
     {
      "player_id": 4360234,
@@ -971,25 +971,11 @@
      "points": 0.0
     },
     {
-     "player_id": -16025,
-     "name": "49ers D/ST",
-     "position": "D/ST",
-     "lineup_slot_id": 16,
-     "lineup_slot": "D/ST",
-     "started": true,
-     "eligible_slots": [
-      16,
-      20,
-      21
-     ],
-     "points": 0.0
-    },
-    {
      "player_id": 3043116,
      "name": "Demarcus Robinson",
      "position": "WR",
-     "lineup_slot_id": 20,
-     "lineup_slot": "BE",
+     "lineup_slot_id": 21,
+     "lineup_slot": "IR",
      "started": false,
      "eligible_slots": [
       3,
@@ -997,6 +983,20 @@
       5,
       23,
       7,
+      20,
+      21
+     ],
+     "points": 0.0
+    },
+    {
+     "player_id": -16016,
+     "name": "Vikings D/ST",
+     "position": "D/ST",
+     "lineup_slot_id": 16,
+     "lineup_slot": "D/ST",
+     "started": true,
+     "eligible_slots": [
+      16,
       20,
       21
      ],
@@ -1162,25 +1162,6 @@
      "points": 0.0
     },
     {
-     "player_id": 4710714,
-     "name": "De'Zhaun Stribling",
-     "position": "WR",
-     "lineup_slot_id": 20,
-     "lineup_slot": "BE",
-     "started": false,
-     "eligible_slots": [
-      25,
-      3,
-      4,
-      5,
-      23,
-      7,
-      20,
-      21
-     ],
-     "points": 0.0
-    },
-    {
      "player_id": 4870653,
      "name": "KC Concepcion",
      "position": "WR",
@@ -1282,23 +1263,6 @@
      "points": 0.0
     },
     {
-     "player_id": 4429086,
-     "name": "Michael Mayer",
-     "position": "TE",
-     "lineup_slot_id": 20,
-     "lineup_slot": "BE",
-     "started": false,
-     "eligible_slots": [
-      5,
-      6,
-      23,
-      7,
-      20,
-      21
-     ],
-     "points": 0.0
-    },
-    {
      "player_id": 2973405,
      "name": "Kalif Raymond",
      "position": "WR",
@@ -1325,6 +1289,41 @@
      "started": false,
      "eligible_slots": [
       0,
+      7,
+      20,
+      21
+     ],
+     "points": 0.0
+    },
+    {
+     "player_id": 4887558,
+     "name": "Emanuel Wilson",
+     "position": "RB",
+     "lineup_slot_id": 20,
+     "lineup_slot": "BE",
+     "started": false,
+     "eligible_slots": [
+      2,
+      3,
+      23,
+      7,
+      20,
+      21
+     ],
+     "points": 0.0
+    },
+    {
+     "player_id": 16731,
+     "name": "Brandin Cooks",
+     "position": "WR",
+     "lineup_slot_id": 20,
+     "lineup_slot": "BE",
+     "started": false,
+     "eligible_slots": [
+      3,
+      4,
+      5,
+      23,
       7,
       20,
       21
@@ -1427,9 +1426,9 @@
      "player_id": 3915511,
      "name": "Joe Burrow",
      "position": "QB",
-     "lineup_slot_id": 0,
-     "lineup_slot": "QB",
-     "started": true,
+     "lineup_slot_id": 20,
+     "lineup_slot": "BE",
+     "started": false,
      "eligible_slots": [
       0,
       7,
@@ -1442,9 +1441,9 @@
      "player_id": 3916148,
      "name": "Tony Pollard",
      "position": "RB",
-     "lineup_slot_id": 23,
-     "lineup_slot": "FLEX",
-     "started": true,
+     "lineup_slot_id": 20,
+     "lineup_slot": "BE",
+     "started": false,
      "eligible_slots": [
       2,
       3,
@@ -1459,9 +1458,9 @@
      "player_id": 4360761,
      "name": "Michael Wilson",
      "position": "WR",
-     "lineup_slot_id": 4,
-     "lineup_slot": "WR",
-     "started": true,
+     "lineup_slot_id": 20,
+     "lineup_slot": "BE",
+     "started": false,
      "eligible_slots": [
       3,
       4,
@@ -1477,9 +1476,9 @@
      "player_id": 4241985,
      "name": "J.K. Dobbins",
      "position": "RB",
-     "lineup_slot_id": 20,
-     "lineup_slot": "BE",
-     "started": false,
+     "lineup_slot_id": 23,
+     "lineup_slot": "FLEX",
+     "started": true,
      "eligible_slots": [
       2,
       3,
@@ -1512,9 +1511,9 @@
      "player_id": 3917315,
      "name": "Kyler Murray",
      "position": "QB",
-     "lineup_slot_id": 20,
-     "lineup_slot": "BE",
-     "started": false,
+     "lineup_slot_id": 0,
+     "lineup_slot": "QB",
+     "started": true,
      "eligible_slots": [
       0,
       7,
@@ -1544,9 +1543,9 @@
      "player_id": 4832800,
      "name": "Denzel Boston",
      "position": "WR",
-     "lineup_slot_id": 20,
-     "lineup_slot": "BE",
-     "started": false,
+     "lineup_slot_id": 4,
+     "lineup_slot": "WR",
+     "started": true,
      "eligible_slots": [
       25,
       3,
@@ -1577,9 +1576,9 @@
      "player_id": -16012,
      "name": "Chiefs D/ST",
      "position": "D/ST",
-     "lineup_slot_id": 20,
-     "lineup_slot": "BE",
-     "started": false,
+     "lineup_slot_id": 16,
+     "lineup_slot": "D/ST",
+     "started": true,
      "eligible_slots": [
       16,
       20,
@@ -1588,22 +1587,23 @@
      "points": 0.0
     },
     {
-     "player_id": 17427,
-     "name": "Cairo Santos",
+     "player_id": 4869461,
+     "name": "Trey Smack",
      "position": "K",
      "lineup_slot_id": 20,
      "lineup_slot": "BE",
      "started": false,
      "eligible_slots": [
+      25,
       17,
       20,
       21
      ],
-     "points": 0.0
+     "points": 1.0
     },
     {
-     "player_id": 3886598,
-     "name": "Jauan Jennings",
+     "player_id": 4569603,
+     "name": "Malik Washington",
      "position": "WR",
      "lineup_slot_id": 20,
      "lineup_slot": "BE",
@@ -1620,12 +1620,12 @@
      "points": 0.0
     },
     {
-     "player_id": -16020,
-     "name": "Jets D/ST",
+     "player_id": -16029,
+     "name": "Panthers D/ST",
      "position": "D/ST",
-     "lineup_slot_id": 16,
-     "lineup_slot": "D/ST",
-     "started": true,
+     "lineup_slot_id": 20,
+     "lineup_slot": "BE",
+     "started": false,
      "eligible_slots": [
       16,
       20,
@@ -1730,9 +1730,9 @@
      "player_id": 4035687,
      "name": "Michael Pittman Jr.",
      "position": "WR",
-     "lineup_slot_id": 20,
-     "lineup_slot": "BE",
-     "started": false,
+     "lineup_slot_id": 4,
+     "lineup_slot": "WR",
+     "started": true,
      "eligible_slots": [
       3,
       4,
@@ -1797,9 +1797,9 @@
      "player_id": 4870795,
      "name": "Makai Lemon",
      "position": "WR",
-     "lineup_slot_id": 4,
-     "lineup_slot": "WR",
-     "started": true,
+     "lineup_slot_id": 20,
+     "lineup_slot": "BE",
+     "started": false,
      "eligible_slots": [
       25,
       3,
@@ -1861,20 +1861,6 @@
      "points": 0.0
     },
     {
-     "player_id": -16033,
-     "name": "Ravens D/ST",
-     "position": "D/ST",
-     "lineup_slot_id": 16,
-     "lineup_slot": "D/ST",
-     "started": true,
-     "eligible_slots": [
-      16,
-      20,
-      21
-     ],
-     "points": 0.0
-    },
-    {
      "player_id": 4241463,
      "name": "Jerry Jeudy",
      "position": "WR",
@@ -1910,24 +1896,6 @@
      "points": 0.0
     },
     {
-     "player_id": 4586312,
-     "name": "Jaylin Noel",
-     "position": "WR",
-     "lineup_slot_id": 20,
-     "lineup_slot": "BE",
-     "started": false,
-     "eligible_slots": [
-      3,
-      4,
-      5,
-      23,
-      7,
-      20,
-      21
-     ],
-     "points": 0.0
-    },
-    {
      "player_id": 4685261,
      "name": "Germie Bernard",
      "position": "WR",
@@ -1945,11 +1913,43 @@
       21
      ],
      "points": 0.0
+    },
+    {
+     "player_id": -16025,
+     "name": "49ers D/ST",
+     "position": "D/ST",
+     "lineup_slot_id": 16,
+     "lineup_slot": "D/ST",
+     "started": true,
+     "eligible_slots": [
+      16,
+      20,
+      21
+     ],
+     "points": 0.0
+    },
+    {
+     "player_id": 4635008,
+     "name": "Keon Coleman",
+     "position": "WR",
+     "lineup_slot_id": 20,
+     "lineup_slot": "BE",
+     "started": false,
+     "eligible_slots": [
+      3,
+      4,
+      5,
+      23,
+      7,
+      20,
+      21
+     ],
+     "points": 0.0
     }
    ]
   },
   "1": {
-   "points": 0.0,
+   "points": 23.7,
    "players": [
     {
      "player_id": 4685382,
@@ -2054,7 +2054,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 19.1
     },
     {
      "player_id": 4572680,
@@ -2071,7 +2071,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 4.6
     },
     {
      "player_id": 4432773,
@@ -2260,7 +2260,7 @@
    ]
   },
   "10": {
-   "points": 0.0,
+   "points": 24.9,
    "players": [
     {
      "player_id": 3117251,
@@ -2295,7 +2295,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 23.9
     },
     {
      "player_id": 3918298,
@@ -2380,7 +2380,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 1.0
     },
     {
      "player_id": 4047365,
@@ -2677,9 +2677,9 @@
      "player_id": 4431611,
      "name": "Caleb Williams",
      "position": "QB",
-     "lineup_slot_id": 0,
-     "lineup_slot": "QB",
-     "started": true,
+     "lineup_slot_id": 20,
+     "lineup_slot": "BE",
+     "started": false,
      "eligible_slots": [
       0,
       7,
@@ -2868,6 +2868,21 @@
       4,
       5,
       23,
+      7,
+      20,
+      21
+     ],
+     "points": 0.0
+    },
+    {
+     "player_id": 14880,
+     "name": "Kirk Cousins",
+     "position": "QB",
+     "lineup_slot_id": 0,
+     "lineup_slot": "QB",
+     "started": true,
+     "eligible_slots": [
+      0,
       7,
       20,
       21
@@ -3326,9 +3341,9 @@
      "player_id": 4242355,
      "name": "Jake Ferguson",
      "position": "TE",
-     "lineup_slot_id": 6,
-     "lineup_slot": "TE",
-     "started": true,
+     "lineup_slot_id": 20,
+     "lineup_slot": "BE",
+     "started": false,
      "eligible_slots": [
       5,
       6,
@@ -3393,27 +3408,12 @@
      "points": 0.0
     },
     {
-     "player_id": 4036378,
-     "name": "Jordan Love",
-     "position": "QB",
-     "lineup_slot_id": 20,
-     "lineup_slot": "BE",
-     "started": false,
-     "eligible_slots": [
-      0,
-      7,
-      20,
-      21
-     ],
-     "points": 0.0
-    },
-    {
      "player_id": -16017,
      "name": "Patriots D/ST",
      "position": "D/ST",
-     "lineup_slot_id": 16,
-     "lineup_slot": "D/ST",
-     "started": true,
+     "lineup_slot_id": 20,
+     "lineup_slot": "BE",
+     "started": false,
      "eligible_slots": [
       16,
       20,
@@ -3472,17 +3472,49 @@
      "points": 0.0
     },
     {
-     "player_id": 4040761,
-     "name": "Devin Singletary",
+     "player_id": 3117256,
+     "name": "Dalton Schultz",
+     "position": "TE",
+     "lineup_slot_id": 6,
+     "lineup_slot": "TE",
+     "started": true,
+     "eligible_slots": [
+      5,
+      6,
+      23,
+      7,
+      20,
+      21
+     ],
+     "points": 0.0
+    },
+    {
+     "player_id": 4702555,
+     "name": "Jonah Coleman",
      "position": "RB",
      "lineup_slot_id": 20,
      "lineup_slot": "BE",
      "started": false,
      "eligible_slots": [
+      25,
       2,
       3,
       23,
       7,
+      20,
+      21
+     ],
+     "points": 0.0
+    },
+    {
+     "player_id": -16004,
+     "name": "Bengals D/ST",
+     "position": "D/ST",
+     "lineup_slot_id": 16,
+     "lineup_slot": "D/ST",
+     "started": true,
+     "eligible_slots": [
+      16,
       20,
       21
      ],
