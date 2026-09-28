@@ -2,15 +2,15 @@
  "scoring_period": 3,
  "matchup_period": 3,
  "complete": false,
- "fetched_utc": "2026-09-25T15:43:17+00:00",
+ "fetched_utc": "2026-09-28T18:23:53+00:00",
  "matchups": [
   {
    "matchup_id": 13,
    "matchup_period": 3,
    "home_team_id": 1,
    "away_team_id": 8,
-   "home_points": 0.0,
-   "away_points": 0.0,
+   "home_points": 105.74,
+   "away_points": 117.96,
    "winner": "UNDECIDED",
    "playoff_tier": "NONE",
    "is_bye": false
@@ -20,8 +20,8 @@
    "matchup_period": 3,
    "home_team_id": 12,
    "away_team_id": 4,
-   "home_points": 0.0,
-   "away_points": 0.0,
+   "home_points": 78.04,
+   "away_points": 136.44,
    "winner": "UNDECIDED",
    "playoff_tier": "NONE",
    "is_bye": false
@@ -31,8 +31,8 @@
    "matchup_period": 3,
    "home_team_id": 6,
    "away_team_id": 7,
-   "home_points": 0.0,
-   "away_points": 0.0,
+   "home_points": 102.22,
+   "away_points": 110.34,
    "winner": "UNDECIDED",
    "playoff_tier": "NONE",
    "is_bye": false
@@ -42,8 +42,8 @@
    "matchup_period": 3,
    "home_team_id": 9,
    "away_team_id": 5,
-   "home_points": 52.8,
-   "away_points": 1.0,
+   "home_points": 123.84,
+   "away_points": 82.64,
    "winner": "UNDECIDED",
    "playoff_tier": "NONE",
    "is_bye": false
@@ -53,8 +53,8 @@
    "matchup_period": 3,
    "home_team_id": 11,
    "away_team_id": 3,
-   "home_points": 29.5,
-   "away_points": 0.0,
+   "home_points": 143.18,
+   "away_points": 141.88,
    "winner": "UNDECIDED",
    "playoff_tier": "NONE",
    "is_bye": false
@@ -64,8 +64,8 @@
    "matchup_period": 3,
    "home_team_id": 2,
    "away_team_id": 10,
-   "home_points": 19.1,
-   "away_points": 0.0,
+   "home_points": 43.6,
+   "away_points": 111.3,
    "winner": "UNDECIDED",
    "playoff_tier": "NONE",
    "is_bye": false
@@ -73,7 +73,7 @@
  ],
  "lineups": {
   "1": {
-   "points": 0.0,
+   "points": 105.74,
    "players": [
     {
      "player_id": 4362628,
@@ -91,7 +91,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 20.3
     },
     {
      "player_id": 4361370,
@@ -109,7 +109,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 15.2
     },
     {
      "player_id": 4685702,
@@ -126,7 +126,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 8.9
     },
     {
      "player_id": 4432710,
@@ -143,7 +143,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 3.4
     },
     {
      "player_id": 3042519,
@@ -160,7 +160,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 11.7
     },
     {
      "player_id": 4430834,
@@ -192,7 +192,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 4.0
     },
     {
      "player_id": 4429022,
@@ -210,7 +210,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 3.1
     },
     {
      "player_id": 4688380,
@@ -225,7 +225,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 9.44
     },
     {
      "player_id": 3930086,
@@ -242,7 +242,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 1.0
     },
     {
      "player_id": 4685720,
@@ -257,7 +257,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 13.64
     },
     {
      "player_id": 3116164,
@@ -274,7 +274,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 11.2
     },
     {
      "player_id": 4040761,
@@ -337,7 +337,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 11.0
     },
     {
      "player_id": 3929645,
@@ -354,7 +354,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 19.3
     },
     {
      "player_id": 2973405,
@@ -377,15 +377,15 @@
    ]
   },
   "8": {
-   "points": 0.0,
+   "points": 117.96,
    "players": [
     {
      "player_id": 4432665,
      "name": "Brock Bowers",
      "position": "TE",
-     "lineup_slot_id": 20,
-     "lineup_slot": "BE",
-     "started": false,
+     "lineup_slot_id": 6,
+     "lineup_slot": "TE",
+     "started": true,
      "eligible_slots": [
       5,
       6,
@@ -394,7 +394,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 22.6
     },
     {
      "player_id": 3918298,
@@ -409,7 +409,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 16.96
     },
     {
      "player_id": 4427366,
@@ -426,7 +426,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 7.0
     },
     {
      "player_id": 4696981,
@@ -443,7 +443,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 11.5
     },
     {
      "player_id": 3915416,
@@ -461,7 +461,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 9.7
     },
     {
      "player_id": 4426388,
@@ -479,7 +479,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 6.9
     },
     {
      "player_id": 4360078,
@@ -503,9 +503,9 @@
      "player_id": 4038815,
      "name": "Rico Dowdle",
      "position": "RB",
-     "lineup_slot_id": 23,
-     "lineup_slot": "FLEX",
-     "started": true,
+     "lineup_slot_id": 20,
+     "lineup_slot": "BE",
+     "started": false,
      "eligible_slots": [
       2,
       3,
@@ -535,9 +535,9 @@
      "player_id": 3916433,
      "name": "Jakobi Meyers",
      "position": "WR",
-     "lineup_slot_id": 20,
-     "lineup_slot": "BE",
-     "started": false,
+     "lineup_slot_id": 23,
+     "lineup_slot": "FLEX",
+     "started": true,
      "eligible_slots": [
       3,
       4,
@@ -547,7 +547,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 15.9
     },
     {
      "player_id": 3126486,
@@ -565,7 +565,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 15.4
     },
     {
      "player_id": 4366031,
@@ -615,7 +615,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 4.0
     },
     {
      "player_id": 3055899,
@@ -629,7 +629,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 5.0
     },
     {
      "player_id": 4241457,
@@ -646,7 +646,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 5.2
     },
     {
      "player_id": -16012,
@@ -660,15 +660,15 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 7.0
     },
     {
      "player_id": 4429086,
      "name": "Michael Mayer",
      "position": "TE",
-     "lineup_slot_id": 6,
-     "lineup_slot": "TE",
-     "started": true,
+     "lineup_slot_id": 20,
+     "lineup_slot": "BE",
+     "started": false,
      "eligible_slots": [
       5,
       6,
@@ -677,12 +677,12 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 10.7
     }
    ]
   },
   "12": {
-   "points": 0.0,
+   "points": 78.04,
    "players": [
     {
      "player_id": 4374302,
@@ -700,7 +700,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 9.9
     },
     {
      "player_id": 4362238,
@@ -717,7 +717,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 7.9
     },
     {
      "player_id": 4239996,
@@ -734,7 +734,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 8.0
     },
     {
      "player_id": 4595348,
@@ -752,7 +752,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 5.1
     },
     {
      "player_id": 4431459,
@@ -769,7 +769,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 10.2
     },
     {
      "player_id": 4569173,
@@ -786,7 +786,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 5.3
     },
     {
      "player_id": 2577417,
@@ -801,7 +801,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 18.94
     },
     {
      "player_id": 4678008,
@@ -835,7 +835,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 2.5
     },
     {
      "player_id": 4361050,
@@ -852,7 +852,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 2.3
     },
     {
      "player_id": 4683062,
@@ -870,7 +870,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 3.0
     },
     {
      "player_id": 4241463,
@@ -906,7 +906,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 5.4
     },
     {
      "player_id": -16017,
@@ -934,7 +934,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 7.0
     },
     {
      "player_id": 5081432,
@@ -953,7 +953,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 2.5
     },
     {
      "player_id": 4429013,
@@ -984,7 +984,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 6.0
     },
     {
      "player_id": 4371733,
@@ -1001,12 +1001,12 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 2.0
     }
    ]
   },
   "4": {
-   "points": 0.0,
+   "points": 136.44,
    "players": [
     {
      "player_id": 4430878,
@@ -1024,7 +1024,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 30.36
     },
     {
      "player_id": 12483,
@@ -1039,7 +1039,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 20.9
     },
     {
      "player_id": 4567048,
@@ -1056,7 +1056,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 20.3
     },
     {
      "player_id": 3040151,
@@ -1073,7 +1073,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 23.2
     },
     {
      "player_id": 4685512,
@@ -1091,7 +1091,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 0.7
     },
     {
      "player_id": 4035687,
@@ -1109,7 +1109,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 2.6
     },
     {
      "player_id": -16026,
@@ -1123,7 +1123,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 4.0
     },
     {
      "player_id": 4569587,
@@ -1141,7 +1141,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 15.2
     },
     {
      "player_id": 3121023,
@@ -1172,7 +1172,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 9.0
     },
     {
      "player_id": 4361741,
@@ -1187,7 +1187,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 31.28
     },
     {
      "player_id": 4428557,
@@ -1204,7 +1204,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 0.5
     },
     {
      "player_id": 4032473,
@@ -1222,7 +1222,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 2.4
     },
     {
      "player_id": 4361411,
@@ -1239,7 +1239,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 4.1
     },
     {
      "player_id": 4685415,
@@ -1312,12 +1312,12 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 2.5
     }
    ]
   },
   "6": {
-   "points": 0.0,
+   "points": 102.22,
    "players": [
     {
      "player_id": 4262921,
@@ -1335,7 +1335,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 4.2
     },
     {
      "player_id": 4685382,
@@ -1352,7 +1352,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 5.6
     },
     {
      "player_id": 4426354,
@@ -1370,7 +1370,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 11.7
     },
     {
      "player_id": 4567750,
@@ -1388,7 +1388,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 8.7
     },
     {
      "player_id": 4882093,
@@ -1405,7 +1405,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 16.0
     },
     {
      "player_id": 4432708,
@@ -1423,7 +1423,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 5.5
     },
     {
      "player_id": 4431611,
@@ -1472,7 +1472,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 13.0
     },
     {
      "player_id": 4870795,
@@ -1506,14 +1506,14 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 10.42
     },
     {
      "player_id": 4702555,
      "name": "Jonah Coleman",
      "position": "RB",
-     "lineup_slot_id": 20,
-     "lineup_slot": "BE",
+     "lineup_slot_id": 21,
+     "lineup_slot": "IR",
      "started": false,
      "eligible_slots": [
       25,
@@ -1543,7 +1543,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 7.1
     },
     {
      "player_id": 15818,
@@ -1561,7 +1561,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 15.3
     },
     {
      "player_id": 4567104,
@@ -1575,21 +1575,21 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 16.0
     },
     {
      "player_id": -16033,
      "name": "Ravens D/ST",
      "position": "D/ST",
-     "lineup_slot_id": 16,
-     "lineup_slot": "D/ST",
-     "started": true,
+     "lineup_slot_id": 20,
+     "lineup_slot": "BE",
+     "started": false,
      "eligible_slots": [
       16,
       20,
       21
      ],
-     "points": 0.0
+     "points": 1.0
     },
     {
      "player_id": 3912547,
@@ -1604,7 +1604,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 27.66
     },
     {
      "player_id": 2576925,
@@ -1621,12 +1621,26 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 7.6
+    },
+    {
+     "player_id": -16019,
+     "name": "Giants D/ST",
+     "position": "D/ST",
+     "lineup_slot_id": 16,
+     "lineup_slot": "D/ST",
+     "started": true,
+     "eligible_slots": [
+      16,
+      20,
+      21
+     ],
+     "points": 9.0
     }
    ]
   },
   "7": {
-   "points": 0.0,
+   "points": 110.34,
    "players": [
     {
      "player_id": 4379399,
@@ -1643,7 +1657,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 19.4
     },
     {
      "player_id": 3043078,
@@ -1660,7 +1674,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 21.4
     },
     {
      "player_id": 4429615,
@@ -1678,7 +1692,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 12.9
     },
     {
      "player_id": 4426348,
@@ -1717,9 +1731,9 @@
      "player_id": 4431299,
      "name": "Rome Odunze",
      "position": "WR",
-     "lineup_slot_id": 4,
-     "lineup_slot": "WR",
-     "started": true,
+     "lineup_slot_id": 20,
+     "lineup_slot": "BE",
+     "started": false,
      "eligible_slots": [
       3,
       4,
@@ -1746,7 +1760,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 12.9
     },
     {
      "player_id": 2976212,
@@ -1764,7 +1778,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 5.3
     },
     {
      "player_id": -16007,
@@ -1778,7 +1792,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 9.0
     },
     {
      "player_id": 4426338,
@@ -1793,7 +1807,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 24.14
     },
     {
      "player_id": 4426385,
@@ -1827,7 +1841,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 1.4
     },
     {
      "player_id": 4362081,
@@ -1841,7 +1855,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 9.0
     },
     {
      "player_id": 4038441,
@@ -1858,7 +1872,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 3.3
     },
     {
      "player_id": 4685247,
@@ -1875,14 +1889,14 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 3.2
     },
     {
      "player_id": 4360939,
      "name": "Rashod Bateman",
      "position": "WR",
-     "lineup_slot_id": 23,
-     "lineup_slot": "FLEX",
+     "lineup_slot_id": 4,
+     "lineup_slot": "WR",
      "started": true,
      "eligible_slots": [
       3,
@@ -1893,7 +1907,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 4.7
     },
     {
      "player_id": 17372,
@@ -1907,7 +1921,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 13.0
     },
     {
      "player_id": 3149687,
@@ -1930,9 +1944,9 @@
      "player_id": 3117256,
      "name": "Dalton Schultz",
      "position": "TE",
-     "lineup_slot_id": 20,
-     "lineup_slot": "BE",
-     "started": false,
+     "lineup_slot_id": 23,
+     "lineup_slot": "FLEX",
+     "started": true,
      "eligible_slots": [
       5,
       6,
@@ -1941,12 +1955,12 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 4.5
     }
    ]
   },
   "9": {
-   "points": 52.8,
+   "points": 123.84,
    "players": [
     {
      "player_id": 4430807,
@@ -1998,7 +2012,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 12.0
     },
     {
      "player_id": 4596448,
@@ -2015,7 +2029,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 6.8
     },
     {
      "player_id": 3121422,
@@ -2033,7 +2047,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 16.7
     },
     {
      "player_id": 4871023,
@@ -2052,7 +2066,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 8.8
     },
     {
      "player_id": 4241985,
@@ -2069,7 +2083,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 5.8
     },
     {
      "player_id": 4360761,
@@ -2087,7 +2101,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 20.4
     },
     {
      "player_id": 3139477,
@@ -2102,7 +2116,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 15.94
     },
     {
      "player_id": 4608686,
@@ -2151,7 +2165,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 5.0
     },
     {
      "player_id": -16021,
@@ -2182,7 +2196,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 4.7
     },
     {
      "player_id": 4036378,
@@ -2215,7 +2229,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 2.1
     },
     {
      "player_id": 4383429,
@@ -2250,12 +2264,12 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 12.6
     }
    ]
   },
   "5": {
-   "points": 1.0,
+   "points": 82.64,
    "players": [
     {
      "player_id": 3929630,
@@ -2290,7 +2304,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 16.7
     },
     {
      "player_id": 3916387,
@@ -2305,7 +2319,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 20.44
     },
     {
      "player_id": 4569618,
@@ -2323,7 +2337,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 21.7
     },
     {
      "player_id": 4035538,
@@ -2340,7 +2354,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 5.8
     },
     {
      "player_id": 16737,
@@ -2358,7 +2372,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 10.9
     },
     {
      "player_id": 4360248,
@@ -2393,7 +2407,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 6.1
     },
     {
      "player_id": 4575131,
@@ -2410,7 +2424,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 4.8
     },
     {
      "player_id": 4373678,
@@ -2428,7 +2442,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 1.1
     },
     {
      "player_id": 4710714,
@@ -2466,7 +2480,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 1.9
     },
     {
      "player_id": 4373626,
@@ -2483,7 +2497,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 2.9
     },
     {
      "player_id": 3052587,
@@ -2498,7 +2512,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 11.28
     },
     {
      "player_id": -16025,
@@ -2530,7 +2544,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 11.4
     },
     {
      "player_id": 4870847,
@@ -2568,7 +2582,7 @@
    ]
   },
   "11": {
-   "points": 29.5,
+   "points": 143.18,
    "players": [
     {
      "player_id": 3117251,
@@ -2585,7 +2599,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 19.6
     },
     {
      "player_id": 4426502,
@@ -2620,7 +2634,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 17.3
     },
     {
      "player_id": 4239993,
@@ -2638,7 +2652,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 18.0
     },
     {
      "player_id": 16800,
@@ -2656,7 +2670,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 17.2
     },
     {
      "player_id": 3916148,
@@ -2673,7 +2687,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 11.6
     },
     {
      "player_id": 4572680,
@@ -2705,7 +2719,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 12.74
     },
     {
      "player_id": 4429205,
@@ -2723,7 +2737,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 17.5
     },
     {
      "player_id": 4385690,
@@ -2740,7 +2754,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 2.8
     },
     {
      "player_id": 4360310,
@@ -2755,7 +2769,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 19.78
     },
     {
      "player_id": 4880281,
@@ -2792,7 +2806,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 1.7
     },
     {
      "player_id": 4869461,
@@ -2825,7 +2839,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 19.4
     },
     {
      "player_id": 4361432,
@@ -2843,7 +2857,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 6.4
     },
     {
      "player_id": 4832955,
@@ -2861,7 +2875,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 1.7
     },
     {
      "player_id": -16016,
@@ -2875,7 +2889,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 19.0
     },
     {
      "player_id": 4723086,
@@ -2897,7 +2911,7 @@
    ]
   },
   "3": {
-   "points": 0.0,
+   "points": 141.88,
    "players": [
     {
      "player_id": 4429795,
@@ -2914,7 +2928,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 37.9
     },
     {
      "player_id": 4047646,
@@ -2949,7 +2963,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 18.8
     },
     {
      "player_id": 4612826,
@@ -2967,7 +2981,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 8.6
     },
     {
      "player_id": 4372016,
@@ -2985,7 +2999,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 5.4
     },
     {
      "player_id": 3915511,
@@ -3000,7 +3014,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 22.58
     },
     {
      "player_id": 4569987,
@@ -3017,7 +3031,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 19.1
     },
     {
      "player_id": 4432773,
@@ -3035,7 +3049,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 1.3
     },
     {
      "player_id": 4242355,
@@ -3052,7 +3066,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 7.8
     },
     {
      "player_id": -16023,
@@ -3066,7 +3080,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 4.0
     },
     {
      "player_id": 4688813,
@@ -3084,7 +3098,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 10.2
     },
     {
      "player_id": 4360569,
@@ -3115,7 +3129,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 16.0
     },
     {
      "player_id": 3054850,
@@ -3132,7 +3146,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 4.6
     },
     {
      "player_id": 4869645,
@@ -3166,7 +3180,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 10.0
     },
     {
      "player_id": 4047650,
@@ -3184,7 +3198,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 10.6
     },
     {
      "player_id": 4429023,
@@ -3206,7 +3220,7 @@
    ]
   },
   "2": {
-   "points": 19.1,
+   "points": 43.6,
    "players": [
     {
      "player_id": 4426515,
@@ -3241,7 +3255,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 1.7
     },
     {
      "player_id": 4241478,
@@ -3293,7 +3307,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 5.9
     },
     {
      "player_id": 4040715,
@@ -3343,7 +3357,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 3.9
     },
     {
      "player_id": 4697815,
@@ -3360,7 +3374,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 10.6
     },
     {
      "player_id": -16014,
@@ -3374,7 +3388,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 5.0
     },
     {
      "player_id": 4034949,
@@ -3388,7 +3402,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 8.0
     },
     {
      "player_id": 4695883,
@@ -3406,7 +3420,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 2.8
     },
     {
      "player_id": 4428718,
@@ -3424,7 +3438,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 6.3
     },
     {
      "player_id": 4036133,
@@ -3441,7 +3455,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 2.1
     },
     {
      "player_id": 4241474,
@@ -3473,7 +3487,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 11.68
     },
     {
      "player_id": 4697745,
@@ -3487,7 +3501,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 12.0
     },
     {
      "player_id": 4569603,
@@ -3505,12 +3519,12 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 8.6
     }
    ]
   },
   "10": {
-   "points": 0.0,
+   "points": 111.3,
    "players": [
     {
      "player_id": 4242335,
@@ -3527,7 +3541,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 8.2
     },
     {
      "player_id": 4890973,
@@ -3544,7 +3558,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 10.8
     },
     {
      "player_id": 4428331,
@@ -3562,7 +3576,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 12.3
     },
     {
      "player_id": 4685472,
@@ -3580,7 +3594,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 2.7
     },
     {
      "player_id": 4431452,
@@ -3595,7 +3609,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 3.76
     },
     {
      "player_id": 3116165,
@@ -3613,7 +3627,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 4.0
     },
     {
      "player_id": 5083076,
@@ -3630,7 +3644,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 20.6
     },
     {
      "player_id": 4432620,
@@ -3648,7 +3662,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 11.5
     },
     {
      "player_id": -16034,
@@ -3662,7 +3676,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 10.0
     },
     {
      "player_id": 3953687,
@@ -3676,7 +3690,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 10.0
     },
     {
      "player_id": 4429059,
@@ -3693,7 +3707,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 8.6
     },
     {
      "player_id": 3046779,
@@ -3708,7 +3722,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 19.36
     },
     {
      "player_id": 4360689,
@@ -3723,7 +3737,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 23.8
     },
     {
      "player_id": 4596334,
@@ -3740,7 +3754,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 12.2
     },
     {
      "player_id": 4586312,
@@ -3758,7 +3772,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 3.5
     },
     {
      "player_id": 4685261,
@@ -3777,7 +3791,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 1.9
     },
     {
      "player_id": 4887558,
@@ -3794,7 +3808,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 1.4
     },
     {
      "player_id": 3046439,
@@ -3811,7 +3825,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 1.0
     }
    ]
   }
