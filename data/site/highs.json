@@ -123,6 +123,68 @@
 "points":169.76,
 "team_id":12
 }
+},
+{
+"week":3,
+"per_league":{
+"EMP":{
+"slot_id":"EMP-05",
+"owner":"Bradley Hart",
+"team_name":"Synergistic optimization",
+"points":141.74,
+"team_id":10
+},
+"GOT":{
+"slot_id":"GOT-01",
+"owner":"Alice Khayami",
+"team_name":"Bijan Mustard",
+"points":158.26,
+"team_id":7
+},
+"BEA":{
+"slot_id":"BEA-02",
+"owner":"Justin Metz",
+"team_name":"LIFO The Party",
+"points":146.38,
+"team_id":10
+},
+"HAR":{
+"slot_id":"HAR-07",
+"owner":"Caroline Scala",
+"team_name":"Sunday Scaries",
+"points":143.18,
+"team_id":7
+},
+"ALC":{
+"slot_id":"ALC-06",
+"owner":"Cuau Trevino",
+"team_name":"Cuau MX",
+"points":139.22,
+"team_id":2
+},
+"ALL":{
+"slot_id":"ALL-09",
+"owner":"Omer Khan",
+"team_name":"Omer's Otherworldly Team",
+"points":149.18,
+"team_id":7
+},
+"C2C":{
+"slot_id":"C2C-03",
+"owner":"Gaby Lichucki",
+"team_name":"yay sports",
+"points":143.18,
+"team_id":11
+}
+},
+"overall":{
+"league_code":"GOT",
+"slot_id":"GOT-01",
+"owner":"Alice Khayami",
+"team_name":"Bijan Mustard",
+"points":158.26,
+"team_id":7
+}
 }
 ],
 "leaderboard":[
@@ -131,6 +193,20 @@
 "owner":"Bradley Hart",
 "league_code":"EMP",
 "team_name":"Synergistic optimization",
+"count":3
+},
+{
+"slot_id":"GOT-01",
+"owner":"Alice Khayami",
+"league_code":"GOT",
+"team_name":"Bijan Mustard",
+"count":2
+},
+{
+"slot_id":"BEA-02",
+"owner":"Justin Metz",
+"league_code":"BEA",
+"team_name":"LIFO The Party",
 "count":2
 },
 {
@@ -141,24 +217,17 @@
 "count":2
 },
 {
-"slot_id":"GOT-01",
-"owner":"Alice Khayami",
-"league_code":"GOT",
-"team_name":"Bijan Mustard",
-"count":1
+"slot_id":"ALL-09",
+"owner":"Omer Khan",
+"league_code":"ALL",
+"team_name":"Omer's Otherworldly Team",
+"count":2
 },
 {
 "slot_id":"GOT-09",
 "owner":"Julian Kurtzman",
 "league_code":"GOT",
 "team_name":"Julian's Scary Team",
-"count":1
-},
-{
-"slot_id":"BEA-02",
-"owner":"Justin Metz",
-"league_code":"BEA",
-"team_name":"LIFO The Party",
 "count":1
 },
 {
@@ -183,10 +252,17 @@
 "count":1
 },
 {
-"slot_id":"ALL-09",
-"owner":"Omer Khan",
-"league_code":"ALL",
-"team_name":"Omer's Otherworldly Team",
+"slot_id":"HAR-07",
+"owner":"Caroline Scala",
+"league_code":"HAR",
+"team_name":"Sunday Scaries",
+"count":1
+},
+{
+"slot_id":"ALC-06",
+"owner":"Cuau Trevino",
+"league_code":"ALC",
+"team_name":"Cuau MX",
 "count":1
 },
 {
@@ -208,6 +284,13 @@
 "owner":"Alec Brockell",
 "league_code":"C2C",
 "team_name":"futbol americano",
+"count":1
+},
+{
+"slot_id":"C2C-03",
+"owner":"Gaby Lichucki",
+"league_code":"C2C",
+"team_name":"yay sports",
 "count":1
 }
 ]

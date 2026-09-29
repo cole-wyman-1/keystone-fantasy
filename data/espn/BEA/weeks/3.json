@@ -1,17 +1,17 @@
 {
  "scoring_period": 3,
  "matchup_period": 3,
- "complete": false,
- "fetched_utc": "2026-09-28T18:23:49+00:00",
+ "complete": true,
+ "fetched_utc": "2026-09-29T16:46:47+00:00",
  "matchups": [
   {
    "matchup_id": 13,
    "matchup_period": 3,
    "home_team_id": 2,
    "away_team_id": 4,
-   "home_points": 67.68,
+   "home_points": 76.18,
    "away_points": 118.0,
-   "winner": "UNDECIDED",
+   "winner": "AWAY",
    "playoff_tier": "NONE",
    "is_bye": false
   },
@@ -21,8 +21,8 @@
    "home_team_id": 6,
    "away_team_id": 12,
    "home_points": 76.96,
-   "away_points": 72.04,
-   "winner": "UNDECIDED",
+   "away_points": 77.14,
+   "winner": "AWAY",
    "playoff_tier": "NONE",
    "is_bye": false
   },
@@ -32,8 +32,8 @@
    "home_team_id": 7,
    "away_team_id": 10,
    "home_points": 69.5,
-   "away_points": 136.58,
-   "winner": "UNDECIDED",
+   "away_points": 146.38,
+   "winner": "AWAY",
    "playoff_tier": "NONE",
    "is_bye": false
   },
@@ -42,9 +42,9 @@
    "matchup_period": 3,
    "home_team_id": 1,
    "away_team_id": 11,
-   "home_points": 118.14,
+   "home_points": 124.04,
    "away_points": 105.82,
-   "winner": "UNDECIDED",
+   "winner": "HOME",
    "playoff_tier": "NONE",
    "is_bye": false
   },
@@ -55,7 +55,7 @@
    "away_team_id": 3,
    "home_points": 92.26,
    "away_points": 141.08,
-   "winner": "UNDECIDED",
+   "winner": "AWAY",
    "playoff_tier": "NONE",
    "is_bye": false
   },
@@ -64,16 +64,16 @@
    "matchup_period": 3,
    "home_team_id": 8,
    "away_team_id": 9,
-   "home_points": 97.8,
-   "away_points": 96.1,
-   "winner": "UNDECIDED",
+   "home_points": 110.42,
+   "away_points": 105.6,
+   "winner": "HOME",
    "playoff_tier": "NONE",
    "is_bye": false
   }
  ],
  "lineups": {
   "2": {
-   "points": 67.68,
+   "points": 76.18,
    "players": [
     {
      "player_id": 3929630,
@@ -90,7 +90,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 8.5
     },
     {
      "player_id": 4262921,
@@ -672,7 +672,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 10.0
     }
    ]
   },
@@ -984,7 +984,7 @@
    ]
   },
   "12": {
-   "points": 72.04,
+   "points": 77.14,
    "players": [
     {
      "player_id": 4426515,
@@ -1054,7 +1054,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 5.1
     },
     {
      "player_id": 4035538,
@@ -1488,7 +1488,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 3.1
     },
     {
      "player_id": 3139477,
@@ -1620,7 +1620,7 @@
    ]
   },
   "10": {
-   "points": 136.58,
+   "points": 146.38,
    "players": [
     {
      "player_id": 4429795,
@@ -1708,7 +1708,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 9.8
     },
     {
      "player_id": 4572680,
@@ -1821,7 +1821,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": -1.0
     },
     {
      "player_id": 4362619,
@@ -1943,7 +1943,7 @@
    ]
   },
   "1": {
-   "points": 118.14,
+   "points": 124.04,
    "players": [
     {
      "player_id": 3117251,
@@ -2047,7 +2047,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 5.9
     },
     {
      "player_id": 4248528,
@@ -2858,7 +2858,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 4.2
     },
     {
      "player_id": 4430539,
@@ -3191,7 +3191,7 @@
    ]
   },
   "8": {
-   "points": 97.8,
+   "points": 110.42,
    "players": [
     {
      "player_id": 4430807,
@@ -3275,7 +3275,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 12.62
     },
     {
      "player_id": 4432708,
@@ -3444,7 +3444,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": -1.0
     },
     {
      "player_id": 4241479,
@@ -3513,7 +3513,7 @@
    ]
   },
   "9": {
-   "points": 96.1,
+   "points": 105.6,
    "players": [
     {
      "player_id": 4430878,
@@ -3566,7 +3566,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 9.5
     },
     {
      "player_id": 4596448,
@@ -3601,7 +3601,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 16.3
     },
     {
      "player_id": 16737,
