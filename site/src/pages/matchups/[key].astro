@@ -1,0 +1,67 @@
+---
+import Layout from '../../components/Layout.astro';
+import PlayerCell from '../../components/PlayerCell.astro';
+import { weekly, lineups, leagueByCode, leagueUrl, personUrl, fmt } from '../../lib/data';
+
+export function getStaticPaths() {
+  return Object.entries(weekly).flatMap(([code, weeks]) =>
+    Object.values(weeks).flatMap((w: any) =>
+      w.matchups.map((m: any) => ({ params: { key: m.key }, props: { code, week: w.week, complete: w.complete, m } }))));
+}
+const { code, week, complete, m } = Astro.props;
+const league = leagueByCode[code];
+const empty = { starters: [], bench: [], ir: [] };
+const lu = (side: any) => lineups[code]?.[String(week)]?.[String(side.team_id)] ?? empty;
+const home = lu(m.home), away = lu(m.away);
+const hw = complete && m.home.points > m.away.points, aw = complete && m.away.points > m.home.points;
+// pair the two lineups row by row; the shorter bench is padded
+const pair = (a: any[], b: any[], slot: string) =>
+  Array.from({ length: Math.max(a.length, b.length) }, (_, i) => ({ slot, h: a[i] ?? null, a: b[i] ?? null, pad: true }));
+const starters = Array.from({ length: Math.max(home.starters.length, away.starters.length) }, (_, i) => ({
+  slot: home.starters[i]?.slot ?? away.starters[i]?.slot, h: home.starters[i]?.player ?? null, a: away.starters[i]?.player ?? null, pad: false }));
+const sections = [
+  { title: 'Starters', rows: starters },
+  { title: 'Bench', rows: pair(home.bench, away.bench, 'BE') },
+  { title: 'Injured reserve', rows: pair(home.ir, away.ir, 'IR') },
+].filter((s) => s.rows.length);
+const pts = (p: any) => (p ? fmt(p.points, 1) : '');
+const tier = m.playoff_tier && m.playoff_tier !== 'NONE' ? ' · Playoffs' : '';
+---
+<Layout title={`${m.home.team_name} vs ${m.away.team_name} · Week ${week}`}>
+  <p class="small"><a href={leagueUrl(code)}>← {league.name}</a></p>
+  <h1>Week {week} matchup {!complete && <span class="badge acc">in progress</span>}</h1>
+  <p class="muted">{league.name}{tier}{complete ? ` · Margin ${fmt(m.margin)}` : ''}</p>
+
+  <div class="box-head">
+    <div class={`side ${hw ? 'winner' : aw ? 'loser' : ''}`}>
+      <a href={personUrl(m.home.slot_id)}><strong>{m.home.team_name}</strong></a><span class="tn">{m.home.owner}</span>
+      <div class="score">{fmt(m.home.points)}</div>
+    </div>
+    <div class="vs muted">vs</div>
+    <div class={`side r ${aw ? 'winner' : hw ? 'loser' : ''}`}>
+      <a href={personUrl(m.away.slot_id)}><strong>{m.away.team_name}</strong></a><span class="tn">{m.away.owner}</span>
+      <div class="score">{fmt(m.away.points)}</div>
+    </div>
+  </div>
+
+  {sections.map((s) => (<>
+    <h2>{s.title}</h2>
+    <table class="box">
+      <tbody>
+        {s.rows.map((r) => (<tr>
+          <td class="p">{r.h || !r.pad ? <PlayerCell player={r.h} /> : ''}</td>
+          <td class="n">{pts(r.h)}</td>
+          <td class="s">{r.slot}</td>
+          <td class="n">{pts(r.a)}</td>
+          <td class="p r">{r.a || !r.pad ? <PlayerCell player={r.a} /> : ''}</td>
+        </tr>))}
+      </tbody>
+      {s.title === 'Starters' && <tfoot><tr><td class="p"></td><td class="n">{fmt(m.home.points)}</td><td class="s">Total</td><td class="n">{fmt(m.away.points)}</td><td class="p"></td></tr></tfoot>}
+      {s.title === 'Bench' && m.home.bench_points != null && <tfoot><tr><td class="p"></td><td class="n">{fmt(m.home.bench_points)}</td><td class="s">Total</td><td class="n">{fmt(m.away.bench_points)}</td><td class="p"></td></tr></tfoot>}
+    </table>
+  </>))}
+
+  {complete && m.home.optimal_points != null && (
+    <p class="small muted">Best possible lineup: {m.home.team_name} {fmt(m.home.optimal_points)} · {m.away.team_name} {fmt(m.away.optimal_points)}</p>
+  )}
+</Layout>

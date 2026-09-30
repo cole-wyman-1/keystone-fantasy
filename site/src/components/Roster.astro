@@ -1,0 +1,21 @@
+---
+// A team's latest lineup (starters, bench, IR) with points for that week and the last completed one.
+import PlayerCell from './PlayerCell.astro';
+import { fmt } from '../lib/data';
+const { lineup, week, complete, prev = null, prevWeek = null } = Astro.props;
+const prevPts = new Map<number, number>();
+if (prev) for (const p of [...prev.starters.map((s: any) => s.player), ...prev.bench, ...prev.ir]) if (p) prevPts.set(p.id, p.points);
+const rows = [
+  ...lineup.starters.map((s: any) => ({ slot: s.slot, player: s.player, cls: '' })),
+  ...lineup.bench.map((p: any, i: number) => ({ slot: 'BE', player: p, cls: i === 0 ? 'sec' : '' })),
+  ...lineup.ir.map((p: any, i: number) => ({ slot: 'IR', player: p, cls: i === 0 ? 'sec' : '' })),
+];
+const total = lineup.starters.reduce((s: number, x: any) => s + (x.player?.points ?? 0), 0);
+---
+<div class="tbl-wrap"><table class="tbl roster"><thead><tr><th>Slot</th><th>Player</th>{prev && <th class="num">Wk {prevWeek}</th>}<th class="num">Wk {week}</th></tr></thead>
+  <tbody>
+    {rows.map((r) => (<tr class={r.cls}><td class="slot">{r.slot}</td><td><PlayerCell player={r.player} /></td>{prev && <td class="num muted">{r.player && prevPts.has(r.player.id) ? fmt(prevPts.get(r.player.id), 1) : '–'}</td>}<td class="num">{r.player ? fmt(r.player.points, 1) : '–'}</td></tr>))}
+  </tbody>
+  <tfoot><tr><td></td><td><strong>Starters total</strong></td>{prev && <td></td>}<td class="num"><strong>{fmt(total)}</strong></td></tr></tfoot>
+</table></div>
+<p class="small muted">Lineup as of the last ESPN refresh, week {week}{complete ? '' : ' (in progress)'}.{prev ? ` Wk ${prevWeek} shows what each player scored while on this roster.` : ''}</p>

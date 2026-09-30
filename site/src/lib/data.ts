@@ -1,4 +1,4 @@
-import { readFileSync } from 'node:fs';
+import { existsSync, readFileSync } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -16,6 +16,11 @@ export const weekly: Record<string, Record<string, any>> = load('weekly');
 export const highs = load('highs');
 export const records = load('records');
 export const power: any[] = load('power');
+/** code -> week -> ESPN team id -> { starters: [{slot, player|null}], bench, ir } */
+export const lineups: Record<string, Record<string, Record<string, any>>> = load('lineups');
+
+/** Monday Night Sweats snapshot, or null before the first Monday refresh. */
+export const sweats: any | null = existsSync(path.join(DATA, 'sweats.json')) ? load('sweats') : null;
 
 export const leagueByCode: Record<string, any> = Object.fromEntries(leagues.map((l) => [l.code, l]));
 
@@ -26,6 +31,7 @@ export function u(p: string): string {
 }
 
 export const personUrl = (slotId: string | null) => (slotId ? u(`people/${slotId.toLowerCase()}/`) : '#');
+export const matchupUrl = (key: string) => u(`matchups/${key}/`);
 export const leagueUrl = (code: string) => u(`leagues/${code.toLowerCase()}/`);
 
 export const fmt = (n: number | null | undefined, d = 2) =>

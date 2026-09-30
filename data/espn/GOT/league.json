@@ -346,6 +346,10 @@
  ],
  "schedule": [
   {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 1,
    "matchup_period": 1,
    "home_team_id": 5,
@@ -357,6 +361,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 2,
    "matchup_period": 1,
    "home_team_id": 1,
@@ -368,6 +376,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 3,
    "matchup_period": 1,
    "home_team_id": 9,
@@ -379,6 +391,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 4,
    "matchup_period": 1,
    "home_team_id": 4,
@@ -390,6 +406,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 5,
    "matchup_period": 1,
    "home_team_id": 2,
@@ -401,6 +421,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 6,
    "matchup_period": 1,
    "home_team_id": 8,
@@ -412,6 +436,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 7,
    "matchup_period": 2,
    "home_team_id": 3,
@@ -423,6 +451,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 8,
    "matchup_period": 2,
    "home_team_id": 11,
@@ -434,6 +466,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 9,
    "matchup_period": 2,
    "home_team_id": 6,
@@ -445,6 +481,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 10,
    "matchup_period": 2,
    "home_team_id": 12,
@@ -456,6 +496,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 11,
    "matchup_period": 2,
    "home_team_id": 10,
@@ -467,6 +511,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 12,
    "matchup_period": 2,
    "home_team_id": 8,
@@ -478,6 +526,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 13,
    "matchup_period": 3,
    "home_team_id": 11,
@@ -489,6 +541,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 14,
    "matchup_period": 3,
    "home_team_id": 7,
@@ -500,6 +556,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 15,
    "matchup_period": 3,
    "home_team_id": 5,
@@ -511,6 +571,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 16,
    "matchup_period": 3,
    "home_team_id": 1,
@@ -522,6 +586,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 17,
    "matchup_period": 3,
    "home_team_id": 9,
@@ -533,6 +601,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 18,
    "matchup_period": 3,
    "home_team_id": 4,
@@ -544,6 +616,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": 0.41,
+   "away_win_prob": 0.59,
+   "home_projected": 96.71,
+   "away_projected": 113.23,
    "matchup_id": 19,
    "matchup_period": 4,
    "home_team_id": 3,
@@ -555,6 +631,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": 0.59,
+   "away_win_prob": 0.41,
+   "home_projected": 97.95,
+   "away_projected": 83.03,
    "matchup_id": 20,
    "matchup_period": 4,
    "home_team_id": 12,
@@ -566,6 +646,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": 0.44,
+   "away_win_prob": 0.56,
+   "home_projected": 115.21,
+   "away_projected": 128.42,
    "matchup_id": 21,
    "matchup_period": 4,
    "home_team_id": 10,
@@ -577,6 +661,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": 0.52,
+   "away_win_prob": 0.48,
+   "home_projected": 122.05,
+   "away_projected": 118.45,
    "matchup_id": 22,
    "matchup_period": 4,
    "home_team_id": 8,
@@ -588,6 +676,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": 0.47,
+   "away_win_prob": 0.53,
+   "home_projected": 83.05,
+   "away_projected": 87.58,
    "matchup_id": 23,
    "matchup_period": 4,
    "home_team_id": 2,
@@ -599,6 +691,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": 0.46,
+   "away_win_prob": 0.54,
+   "home_projected": 109.71,
+   "away_projected": 117.73,
    "matchup_id": 24,
    "matchup_period": 4,
    "home_team_id": 4,
@@ -610,6 +706,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 25,
    "matchup_period": 5,
    "home_team_id": 12,
@@ -621,6 +721,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 26,
    "matchup_period": 5,
    "home_team_id": 6,
@@ -632,6 +736,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 27,
    "matchup_period": 5,
    "home_team_id": 11,
@@ -643,6 +751,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 28,
    "matchup_period": 5,
    "home_team_id": 7,
@@ -654,6 +766,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 29,
    "matchup_period": 5,
    "home_team_id": 5,
@@ -665,6 +781,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 30,
    "matchup_period": 5,
    "home_team_id": 1,
@@ -676,6 +796,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 31,
    "matchup_period": 6,
    "home_team_id": 3,
@@ -687,6 +811,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 32,
    "matchup_period": 6,
    "home_team_id": 8,
@@ -698,6 +826,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 33,
    "matchup_period": 6,
    "home_team_id": 2,
@@ -709,6 +841,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 34,
    "matchup_period": 6,
    "home_team_id": 4,
@@ -720,6 +856,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 35,
    "matchup_period": 6,
    "home_team_id": 9,
@@ -731,6 +871,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 36,
    "matchup_period": 6,
    "home_team_id": 1,
@@ -742,6 +886,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 37,
    "matchup_period": 7,
    "home_team_id": 8,
@@ -753,6 +901,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 38,
    "matchup_period": 7,
    "home_team_id": 10,
@@ -764,6 +916,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 39,
    "matchup_period": 7,
    "home_team_id": 12,
@@ -775,6 +931,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 40,
    "matchup_period": 7,
    "home_team_id": 6,
@@ -786,6 +946,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 41,
    "matchup_period": 7,
    "home_team_id": 11,
@@ -797,6 +961,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 42,
    "matchup_period": 7,
    "home_team_id": 7,
@@ -808,6 +976,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 43,
    "matchup_period": 8,
    "home_team_id": 3,
@@ -819,6 +991,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 44,
    "matchup_period": 8,
    "home_team_id": 4,
@@ -830,6 +1006,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 45,
    "matchup_period": 8,
    "home_team_id": 9,
@@ -841,6 +1021,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 46,
    "matchup_period": 8,
    "home_team_id": 1,
@@ -852,6 +1036,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 47,
    "matchup_period": 8,
    "home_team_id": 5,
@@ -863,6 +1051,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 48,
    "matchup_period": 8,
    "home_team_id": 7,
@@ -874,6 +1066,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 49,
    "matchup_period": 9,
    "home_team_id": 4,
@@ -885,6 +1081,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 50,
    "matchup_period": 9,
    "home_team_id": 2,
@@ -896,6 +1096,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 51,
    "matchup_period": 9,
    "home_team_id": 8,
@@ -907,6 +1111,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 52,
    "matchup_period": 9,
    "home_team_id": 10,
@@ -918,6 +1126,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 53,
    "matchup_period": 9,
    "home_team_id": 12,
@@ -929,6 +1141,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 54,
    "matchup_period": 9,
    "home_team_id": 6,
@@ -940,6 +1156,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 55,
    "matchup_period": 10,
    "home_team_id": 3,
@@ -951,6 +1171,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 56,
    "matchup_period": 10,
    "home_team_id": 1,
@@ -962,6 +1186,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 57,
    "matchup_period": 10,
    "home_team_id": 5,
@@ -973,6 +1201,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 58,
    "matchup_period": 10,
    "home_team_id": 7,
@@ -984,6 +1216,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 59,
    "matchup_period": 10,
    "home_team_id": 11,
@@ -995,6 +1231,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 60,
    "matchup_period": 10,
    "home_team_id": 6,
@@ -1006,6 +1246,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 61,
    "matchup_period": 11,
    "home_team_id": 1,
@@ -1017,6 +1261,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 62,
    "matchup_period": 11,
    "home_team_id": 9,
@@ -1028,6 +1276,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 63,
    "matchup_period": 11,
    "home_team_id": 4,
@@ -1039,6 +1291,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 64,
    "matchup_period": 11,
    "home_team_id": 2,
@@ -1050,6 +1306,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 65,
    "matchup_period": 11,
    "home_team_id": 8,
@@ -1061,6 +1321,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 66,
    "matchup_period": 11,
    "home_team_id": 10,
@@ -1072,6 +1336,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 67,
    "matchup_period": 12,
    "home_team_id": 3,
@@ -1083,6 +1351,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 68,
    "matchup_period": 12,
    "home_team_id": 7,
@@ -1094,6 +1366,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 69,
    "matchup_period": 12,
    "home_team_id": 11,
@@ -1105,6 +1381,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 70,
    "matchup_period": 12,
    "home_team_id": 6,
@@ -1116,6 +1396,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 71,
    "matchup_period": 12,
    "home_team_id": 12,
@@ -1127,6 +1411,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 72,
    "matchup_period": 12,
    "home_team_id": 10,
@@ -1138,6 +1426,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 73,
    "matchup_period": 13,
    "home_team_id": 7,
@@ -1149,6 +1441,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 74,
    "matchup_period": 13,
    "home_team_id": 5,
@@ -1160,6 +1456,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 75,
    "matchup_period": 13,
    "home_team_id": 1,
@@ -1171,6 +1471,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 76,
    "matchup_period": 13,
    "home_team_id": 9,
@@ -1182,6 +1486,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 77,
    "matchup_period": 13,
    "home_team_id": 4,
@@ -1193,6 +1501,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 78,
    "matchup_period": 13,
    "home_team_id": 2,
@@ -1204,6 +1516,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 79,
    "matchup_period": 14,
    "home_team_id": 3,
@@ -1215,6 +1531,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 80,
    "matchup_period": 14,
    "home_team_id": 6,
@@ -1226,6 +1546,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 81,
    "matchup_period": 14,
    "home_team_id": 12,
@@ -1237,6 +1561,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 82,
    "matchup_period": 14,
    "home_team_id": 10,
@@ -1248,6 +1576,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 83,
    "matchup_period": 14,
    "home_team_id": 8,
@@ -1259,6 +1591,10 @@
    "is_bye": false
   },
   {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 84,
    "matchup_period": 14,
    "home_team_id": 2,

@@ -38,3 +38,22 @@ enabled Pages, first run green.
 
 **Tools/patterns worth reusing:** CDP screenshot script (`scratchpad/shot.mjs`: launch Chrome `--headless=new --remote-debugging-port=9222`,
 `Emulation.setDeviceMetricsOverride`, `Page.captureScreenshot`); `gh run watch <id> --exit-status`; `git filter-branch --index-filter` for history scrubs.
+
+## 2026-09-29 — Claude Code (Fable 5.1), rosters and matchup box scores
+
+Cole asked: clicking a team shows its roster; clicking a matchup shows the players in it.
+- `fetch_espn.py`: lineup players now carry `pro_team`. Ran `fetch_espn.py --force` once locally so weeks 1–3 have it too (scores unchanged).
+- `lib/lineup.py::display_lineup` + `compute.py::public_lineup` → new `data/site/lineups.json` (code → week → team id → starters/bench/ir, ~0.6 MB at week 4).
+  Matchups got a `key`, person week records a `matchup_key`, people a `roster_week`.
+- Site: `Roster.astro`, `PlayerCell.astro`, `pages/matchups/[key].astro` (168 new pages, 264 total); matchup cards clickable; game log links to lineups.
+- Tests 20 → 22 (display order/empty slots; every matchup's starters sum to its score — 336/336 team-weeks match).
+- Verified with CDP screenshots at 1100px and 375px (no horizontal overflow). Fixed totals wrapping in the narrow points column.
+
+**Monday Night Sweats (same session).** Cole: 5 closest matchups across leagues heading into Monday, by ESPN win probability, skip matchups where the
+trailing team has nobody left, score-bug visual with lead + remaining players.
+- Found `winProbability` + `totalProjectedPointsLive` on each side of the *current* matchup period in mMatchupScore/mBoxscore (absent for past periods),
+  per-player projections in `stats[statSourceId=1]`, kickoffs in the public season view `proTeamSchedules_wl`.
+- `espn_client.season_view`, `fetch_espn.norm_pro_schedule` / `projected_points`; `lib/sweats.py` (+4 tests); `compute.sweat_candidates`;
+  `MondaySweats.astro` on the home page. Snapshot semantics documented in CLAUDE.md.
+- Verified visually with a *simulated* week-3 snapshot (MNF players zeroed, projection := actual) — deleted before commit; the real one arrives Mon Oct 5.
+- Cole: verify live on Sunday night 2026-10-04; until then the home page shows a 'Coming Monday morning' skeleton card. Shipped 2026-09-29.

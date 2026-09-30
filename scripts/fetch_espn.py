@@ -2,6 +2,7 @@
 
   data/espn/<CODE>/league.json      settings, status, teams, full schedule totals
   data/espn/<CODE>/weeks/<N>.json   matchups + per-team lineups for scoring period N
+  data/espn/pro_schedule.json       NFL kickoff times per scoring period (who has yet to play)
 
 Idempotent: a week that is already stored as complete is not re-fetched unless --force.
 The current (in-progress) week is always re-fetched and stored with complete=false so the
@@ -74,10 +75,19 @@ def side_points(side: dict, decided: bool) -> float:
     return round(live or 0.0, 2)
 
 
+def _round(v, n: int = 2):
+    return None if v is None else round(v, n)
+
+
 def norm_matchup(m: dict) -> dict:
     home, away = m.get("home", {}), m.get("away")  # away is absent on a bye
     decided = m.get("winner", "UNDECIDED") != "UNDECIDED"
     return {
+        # ESPN only sends these for the current matchup period; None otherwise
+        "home_win_prob": _round(home.get("winProbability"), 3),
+        "away_win_prob": _round(away.get("winProbability"), 3) if away else None,
+        "home_projected": _round(home.get("totalProjectedPointsLive")),
+        "away_projected": _round(away.get("totalProjectedPointsLive")) if away else None,
         "matchup_id": m["id"], "matchup_period": m["matchupPeriodId"],
         "home_team_id": home.get("teamId"), "away_team_id": away.get("teamId") if away else None,
         "home_points": side_points(home, decided),
@@ -87,13 +97,39 @@ def norm_matchup(m: dict) -> dict:
     }
 
 
-def norm_lineup(entries: list[dict]) -> list[dict]:
+def norm_pro_schedule(data: dict) -> dict:
+    """scoring period -> NFL team abbrev -> {utc, opp, home}. Teams on bye are simply absent."""
+    out: dict[str, dict] = {}
+    for t in data.get("settings", {}).get("proTeams", []):
+        for sp, games in t.get("proGamesByScoringPeriod", {}).items():
+            for g in games:
+                home = g["homeProTeamId"] == t["id"]
+                opp = g["awayProTeamId"] if home else g["homeProTeamId"]
+                out.setdefault(str(sp), {})[PRO_TEAMS.get(t["id"], str(t["id"]))] = {
+                    "utc": datetime.fromtimestamp(g["date"] / 1000, tz=timezone.utc).isoformat(timespec="seconds"),
+                    "opp": PRO_TEAMS.get(opp, str(opp)), "home": home}
+    return out
+
+
+def projected_points(player: dict, scoring_period: int) -> float | None:
+    for s in player.get("stats", []):
+        if s.get("statSourceId") == 1 and s.get("scoringPeriodId") == scoring_period and s.get("statSplitTypeId") == 1:
+            return round(s.get("appliedTotal", 0.0), 1)
+    return None
+
+
+def norm_lineup(entries: list[dict], scoring_period: int | None = None, games: dict | None = None) -> list[dict]:
     out = []
     for e in entries:
         p = e["playerPoolEntry"]["player"]
+        game = (games or {}).get(PRO_TEAMS.get(p.get("proTeamId"), ""))
         out.append({
+            "projected": projected_points(p, scoring_period) if scoring_period else None,
+            "game_utc": game["utc"] if game else None,
+            "game": (f"vs {game['opp']}" if game["home"] else f"at {game['opp']}") if game else None,
             "player_id": e["playerId"], "name": p.get("fullName", ""),
             "position": position_name(p.get("defaultPositionId")),
+            "pro_team": PRO_TEAMS.get(p.get("proTeamId"), ""),
             "lineup_slot_id": e["lineupSlotId"], "lineup_slot": slot_name(e["lineupSlotId"]),
             "started": e["lineupSlotId"] not in NON_STARTING_SLOTS,
             "eligible_slots": p.get("eligibleSlots", []),
@@ -102,7 +138,7 @@ def norm_lineup(entries: list[dict]) -> list[dict]:
     return out
 
 
-def week_from_scoring_period(data: dict, scoring_period: int, matchup_period: int) -> dict:
+def week_from_scoring_period(data: dict, scoring_period: int, matchup_period: int, games: dict | None = None) -> dict:
     matchups, lineups = [], {}
     for m in data.get("schedule", []):
         if m["matchupPeriodId"] != matchup_period:
@@ -114,7 +150,7 @@ def week_from_scoring_period(data: dict, scoring_period: int, matchup_period: in
             if not s:
                 continue
             roster = s.get("rosterForCurrentScoringPeriod", {}).get("entries", [])
-            lu = norm_lineup(roster)
+            lu = norm_lineup(roster, scoring_period, games)
             lineups[str(s["teamId"])] = {
                 "points": round(s.get("pointsByScoringPeriod", {}).get(str(scoring_period), s.get("totalPoints", 0.0)), 2),
                 "players": lu,
@@ -154,7 +190,7 @@ def resolve_players(client, league_id: int, player_ids: set[int]) -> dict:
     return cache
 
 
-def fetch_league(client, league: dict, force: bool, max_period: int | None) -> dict:
+def fetch_league(client, league: dict, force: bool, max_period: int | None, schedule: dict | None = None) -> dict:
     code = league["code"]
     ldir = OUT / code
     (ldir / "weeks").mkdir(parents=True, exist_ok=True)
@@ -179,7 +215,7 @@ def fetch_league(client, league: dict, force: bool, max_period: int | None) -> d
                 continue
         wdata = client.league(league["espn_league_id"], ["mMatchupScore", "mBoxscore", "mRoster"],
                               scoring_period=sp, cache_name=f"week_{sp}")
-        week = week_from_scoring_period(wdata, sp, period_of.get(sp, sp))
+        week = week_from_scoring_period(wdata, sp, period_of.get(sp, sp), (schedule or {}).get(str(sp)))
         path.write_text(json.dumps(week, indent=1, ensure_ascii=False))
         summary["weeks_fetched"].append(sp)
         if week["complete"]:
@@ -201,9 +237,15 @@ def main() -> int:
         print(f"CONFIG ERROR: {exc}")
         return 2
     failures, summaries = [], []
+    try:
+        schedule = norm_pro_schedule(client.season_view("proTeamSchedules_wl", cache_name="pro_schedule"))
+        (OUT / "pro_schedule.json").write_text(json.dumps(schedule, indent=0))
+    except ESPNError as exc:   # not worth failing the refresh over; Monday Night Sweats just won't update
+        print(f"WARNING: NFL schedule not fetched: {exc}")
+        schedule = json.loads((OUT / "pro_schedule.json").read_text()) if (OUT / "pro_schedule.json").exists() else {}
     for league in leagues:
         try:
-            s = fetch_league(client, league, args.force, args.max_period)
+            s = fetch_league(client, league, args.force, args.max_period, schedule)
         except (AuthError, ESPNError) as exc:
             print(f"{league['code']}: FAILED: {exc}")
             failures.append(league["code"])

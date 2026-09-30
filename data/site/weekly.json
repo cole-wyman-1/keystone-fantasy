@@ -5,6 +5,7 @@
 "complete":true,
 "matchups":[
 {
+"key":"emp-w1-1",
 "home":{
 "team_id":6,
 "slot_id":"EMP-10",
@@ -32,6 +33,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"emp-w1-2",
 "home":{
 "team_id":2,
 "slot_id":"EMP-03",
@@ -59,6 +61,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"emp-w1-3",
 "home":{
 "team_id":11,
 "slot_id":"EMP-12",
@@ -86,6 +89,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"emp-w1-4",
 "home":{
 "team_id":8,
 "slot_id":"EMP-01",
@@ -113,6 +117,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"emp-w1-5",
 "home":{
 "team_id":12,
 "slot_id":"EMP-11",
@@ -140,6 +145,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"emp-w1-6",
 "home":{
 "team_id":1,
 "slot_id":"EMP-08",
@@ -186,6 +192,7 @@
 "complete":true,
 "matchups":[
 {
+"key":"emp-w2-7",
 "home":{
 "team_id":7,
 "slot_id":"EMP-07",
@@ -213,6 +220,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"emp-w2-8",
 "home":{
 "team_id":4,
 "slot_id":"EMP-09",
@@ -240,6 +248,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"emp-w2-9",
 "home":{
 "team_id":3,
 "slot_id":"EMP-06",
@@ -267,6 +276,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"emp-w2-10",
 "home":{
 "team_id":5,
 "slot_id":"EMP-02",
@@ -294,6 +304,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"emp-w2-11",
 "home":{
 "team_id":9,
 "slot_id":"EMP-04",
@@ -321,6 +332,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"emp-w2-12",
 "home":{
 "team_id":1,
 "slot_id":"EMP-08",
@@ -367,6 +379,7 @@
 "complete":true,
 "matchups":[
 {
+"key":"emp-w3-13",
 "home":{
 "team_id":4,
 "slot_id":"EMP-09",
@@ -394,6 +407,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"emp-w3-14",
 "home":{
 "team_id":10,
 "slot_id":"EMP-05",
@@ -421,6 +435,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"emp-w3-15",
 "home":{
 "team_id":6,
 "slot_id":"EMP-10",
@@ -448,6 +463,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"emp-w3-16",
 "home":{
 "team_id":2,
 "slot_id":"EMP-03",
@@ -475,6 +491,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"emp-w3-17",
 "home":{
 "team_id":11,
 "slot_id":"EMP-12",
@@ -502,6 +519,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"emp-w3-18",
 "home":{
 "team_id":8,
 "slot_id":"EMP-01",
@@ -548,6 +566,7 @@
 "complete":false,
 "matchups":[
 {
+"key":"emp-w4-19",
 "home":{
 "team_id":7,
 "slot_id":"EMP-07",
@@ -575,6 +594,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"emp-w4-20",
 "home":{
 "team_id":5,
 "slot_id":"EMP-02",
@@ -602,6 +622,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"emp-w4-21",
 "home":{
 "team_id":9,
 "slot_id":"EMP-04",
@@ -629,6 +650,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"emp-w4-22",
 "home":{
 "team_id":1,
 "slot_id":"EMP-08",
@@ -656,6 +678,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"emp-w4-23",
 "home":{
 "team_id":12,
 "slot_id":"EMP-11",
@@ -683,6 +706,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"emp-w4-24",
 "home":{
 "team_id":8,
 "slot_id":"EMP-01",
@@ -718,6 +742,7 @@
 "complete":true,
 "matchups":[
 {
+"key":"got-w1-1",
 "home":{
 "team_id":5,
 "slot_id":"GOT-11",
@@ -745,6 +770,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"got-w1-2",
 "home":{
 "team_id":1,
 "slot_id":"GOT-12",
@@ -772,6 +798,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"got-w1-3",
 "home":{
 "team_id":9,
 "slot_id":"GOT-10",
@@ -799,6 +826,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"got-w1-4",
 "home":{
 "team_id":4,
 "slot_id":"GOT-09",
@@ -826,6 +854,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"got-w1-5",
 "home":{
 "team_id":2,
 "slot_id":"GOT-02",
@@ -853,6 +882,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"got-w1-6",
 "home":{
 "team_id":8,
 "slot_id":"GOT-06",
@@ -899,6 +929,7 @@
 "complete":true,
 "matchups":[
 {
+"key":"got-w2-7",
 "home":{
 "team_id":3,
 "slot_id":"GOT-05",
@@ -926,6 +957,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"got-w2-8",
 "home":{
 "team_id":11,
 "slot_id":"GOT-04",
@@ -953,6 +985,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"got-w2-9",
 "home":{
 "team_id":6,
 "slot_id":"GOT-08",
@@ -980,6 +1013,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"got-w2-10",
 "home":{
 "team_id":12,
 "slot_id":"GOT-03",
@@ -1007,6 +1041,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"got-w2-11",
 "home":{
 "team_id":10,
 "slot_id":"GOT-07",
@@ -1034,6 +1069,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"got-w2-12",
 "home":{
 "team_id":8,
 "slot_id":"GOT-06",
@@ -1080,6 +1116,7 @@
 "complete":true,
 "matchups":[
 {
+"key":"got-w3-13",
 "home":{
 "team_id":11,
 "slot_id":"GOT-04",
@@ -1107,6 +1144,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"got-w3-14",
 "home":{
 "team_id":7,
 "slot_id":"GOT-01",
@@ -1134,6 +1172,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"got-w3-15",
 "home":{
 "team_id":5,
 "slot_id":"GOT-11",
@@ -1161,6 +1200,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"got-w3-16",
 "home":{
 "team_id":1,
 "slot_id":"GOT-12",
@@ -1188,6 +1228,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"got-w3-17",
 "home":{
 "team_id":9,
 "slot_id":"GOT-10",
@@ -1215,6 +1256,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"got-w3-18",
 "home":{
 "team_id":4,
 "slot_id":"GOT-09",
@@ -1261,6 +1303,7 @@
 "complete":false,
 "matchups":[
 {
+"key":"got-w4-19",
 "home":{
 "team_id":3,
 "slot_id":"GOT-05",
@@ -1288,6 +1331,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"got-w4-20",
 "home":{
 "team_id":12,
 "slot_id":"GOT-03",
@@ -1315,6 +1359,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"got-w4-21",
 "home":{
 "team_id":10,
 "slot_id":"GOT-07",
@@ -1342,6 +1387,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"got-w4-22",
 "home":{
 "team_id":8,
 "slot_id":"GOT-06",
@@ -1369,6 +1415,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"got-w4-23",
 "home":{
 "team_id":2,
 "slot_id":"GOT-02",
@@ -1396,6 +1443,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"got-w4-24",
 "home":{
 "team_id":4,
 "slot_id":"GOT-09",
@@ -1431,6 +1479,7 @@
 "complete":true,
 "matchups":[
 {
+"key":"bea-w1-1",
 "home":{
 "team_id":7,
 "slot_id":"BEA-06",
@@ -1458,6 +1507,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"bea-w1-2",
 "home":{
 "team_id":1,
 "slot_id":"BEA-12",
@@ -1485,6 +1535,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"bea-w1-3",
 "home":{
 "team_id":5,
 "slot_id":"BEA-03",
@@ -1512,6 +1563,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"bea-w1-4",
 "home":{
 "team_id":8,
 "slot_id":"BEA-01",
@@ -1539,6 +1591,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"bea-w1-5",
 "home":{
 "team_id":9,
 "slot_id":"BEA-11",
@@ -1566,6 +1619,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"bea-w1-6",
 "home":{
 "team_id":3,
 "slot_id":"BEA-08",
@@ -1612,6 +1666,7 @@
 "complete":true,
 "matchups":[
 {
+"key":"bea-w2-7",
 "home":{
 "team_id":4,
 "slot_id":"BEA-10",
@@ -1639,6 +1694,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"bea-w2-8",
 "home":{
 "team_id":2,
 "slot_id":"BEA-09",
@@ -1666,6 +1722,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"bea-w2-9",
 "home":{
 "team_id":12,
 "slot_id":"BEA-05",
@@ -1693,6 +1750,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"bea-w2-10",
 "home":{
 "team_id":10,
 "slot_id":"BEA-02",
@@ -1720,6 +1778,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"bea-w2-11",
 "home":{
 "team_id":11,
 "slot_id":"BEA-04",
@@ -1747,6 +1806,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"bea-w2-12",
 "home":{
 "team_id":3,
 "slot_id":"BEA-08",
@@ -1793,6 +1853,7 @@
 "complete":true,
 "matchups":[
 {
+"key":"bea-w3-13",
 "home":{
 "team_id":2,
 "slot_id":"BEA-09",
@@ -1820,6 +1881,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"bea-w3-14",
 "home":{
 "team_id":6,
 "slot_id":"BEA-07",
@@ -1847,6 +1909,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"bea-w3-15",
 "home":{
 "team_id":7,
 "slot_id":"BEA-06",
@@ -1874,6 +1937,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"bea-w3-16",
 "home":{
 "team_id":1,
 "slot_id":"BEA-12",
@@ -1901,6 +1965,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"bea-w3-17",
 "home":{
 "team_id":5,
 "slot_id":"BEA-03",
@@ -1928,6 +1993,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"bea-w3-18",
 "home":{
 "team_id":8,
 "slot_id":"BEA-01",
@@ -1974,6 +2040,7 @@
 "complete":false,
 "matchups":[
 {
+"key":"bea-w4-19",
 "home":{
 "team_id":4,
 "slot_id":"BEA-10",
@@ -2001,6 +2068,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"bea-w4-20",
 "home":{
 "team_id":10,
 "slot_id":"BEA-02",
@@ -2028,6 +2096,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"bea-w4-21",
 "home":{
 "team_id":11,
 "slot_id":"BEA-04",
@@ -2055,6 +2124,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"bea-w4-22",
 "home":{
 "team_id":3,
 "slot_id":"BEA-08",
@@ -2082,6 +2152,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"bea-w4-23",
 "home":{
 "team_id":9,
 "slot_id":"BEA-11",
@@ -2109,6 +2180,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"bea-w4-24",
 "home":{
 "team_id":8,
 "slot_id":"BEA-01",
@@ -2144,6 +2216,7 @@
 "complete":true,
 "matchups":[
 {
+"key":"har-w1-1",
 "home":{
 "team_id":5,
 "slot_id":"HAR-10",
@@ -2171,6 +2244,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"har-w1-2",
 "home":{
 "team_id":8,
 "slot_id":"HAR-03",
@@ -2198,6 +2272,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"har-w1-3",
 "home":{
 "team_id":10,
 "slot_id":"HAR-06",
@@ -2225,6 +2300,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"har-w1-4",
 "home":{
 "team_id":9,
 "slot_id":"HAR-09",
@@ -2252,6 +2328,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"har-w1-5",
 "home":{
 "team_id":1,
 "slot_id":"HAR-08",
@@ -2279,6 +2356,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"har-w1-6",
 "home":{
 "team_id":3,
 "slot_id":"HAR-02",
@@ -2325,6 +2403,7 @@
 "complete":true,
 "matchups":[
 {
+"key":"har-w2-7",
 "home":{
 "team_id":11,
 "slot_id":"HAR-04",
@@ -2352,6 +2431,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"har-w2-8",
 "home":{
 "team_id":6,
 "slot_id":"HAR-05",
@@ -2379,6 +2459,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"har-w2-9",
 "home":{
 "team_id":7,
 "slot_id":"HAR-07",
@@ -2406,6 +2487,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"har-w2-10",
 "home":{
 "team_id":2,
 "slot_id":"HAR-12",
@@ -2433,6 +2515,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"har-w2-11",
 "home":{
 "team_id":12,
 "slot_id":"HAR-01",
@@ -2460,6 +2543,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"har-w2-12",
 "home":{
 "team_id":3,
 "slot_id":"HAR-02",
@@ -2506,6 +2590,7 @@
 "complete":true,
 "matchups":[
 {
+"key":"har-w3-13",
 "home":{
 "team_id":6,
 "slot_id":"HAR-05",
@@ -2533,6 +2618,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"har-w3-14",
 "home":{
 "team_id":4,
 "slot_id":"HAR-11",
@@ -2560,6 +2646,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"har-w3-15",
 "home":{
 "team_id":5,
 "slot_id":"HAR-10",
@@ -2587,6 +2674,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"har-w3-16",
 "home":{
 "team_id":8,
 "slot_id":"HAR-03",
@@ -2614,6 +2702,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"har-w3-17",
 "home":{
 "team_id":10,
 "slot_id":"HAR-06",
@@ -2641,6 +2730,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"har-w3-18",
 "home":{
 "team_id":9,
 "slot_id":"HAR-09",
@@ -2687,6 +2777,7 @@
 "complete":false,
 "matchups":[
 {
+"key":"har-w4-19",
 "home":{
 "team_id":11,
 "slot_id":"HAR-04",
@@ -2714,6 +2805,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"har-w4-20",
 "home":{
 "team_id":2,
 "slot_id":"HAR-12",
@@ -2741,6 +2833,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"har-w4-21",
 "home":{
 "team_id":12,
 "slot_id":"HAR-01",
@@ -2768,6 +2861,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"har-w4-22",
 "home":{
 "team_id":3,
 "slot_id":"HAR-02",
@@ -2795,6 +2889,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"har-w4-23",
 "home":{
 "team_id":1,
 "slot_id":"HAR-08",
@@ -2822,6 +2917,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"har-w4-24",
 "home":{
 "team_id":9,
 "slot_id":"HAR-09",
@@ -2857,6 +2953,7 @@
 "complete":true,
 "matchups":[
 {
+"key":"alc-w1-1",
 "home":{
 "team_id":10,
 "slot_id":"ALC-10",
@@ -2884,6 +2981,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"alc-w1-2",
 "home":{
 "team_id":9,
 "slot_id":"ALC-11",
@@ -2911,6 +3009,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"alc-w1-3",
 "home":{
 "team_id":12,
 "slot_id":"ALC-08",
@@ -2938,6 +3037,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"alc-w1-4",
 "home":{
 "team_id":2,
 "slot_id":"ALC-06",
@@ -2965,6 +3065,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"alc-w1-5",
 "home":{
 "team_id":5,
 "slot_id":"ALC-02",
@@ -2992,6 +3093,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"alc-w1-6",
 "home":{
 "team_id":11,
 "slot_id":"ALC-05",
@@ -3038,6 +3140,7 @@
 "complete":true,
 "matchups":[
 {
+"key":"alc-w2-7",
 "home":{
 "team_id":7,
 "slot_id":"ALC-04",
@@ -3065,6 +3168,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"alc-w2-8",
 "home":{
 "team_id":1,
 "slot_id":"ALC-12",
@@ -3092,6 +3196,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"alc-w2-9",
 "home":{
 "team_id":4,
 "slot_id":"ALC-07",
@@ -3119,6 +3224,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"alc-w2-10",
 "home":{
 "team_id":8,
 "slot_id":"ALC-01",
@@ -3146,6 +3252,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"alc-w2-11",
 "home":{
 "team_id":3,
 "slot_id":"ALC-09",
@@ -3173,6 +3280,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"alc-w2-12",
 "home":{
 "team_id":11,
 "slot_id":"ALC-05",
@@ -3219,6 +3327,7 @@
 "complete":true,
 "matchups":[
 {
+"key":"alc-w3-13",
 "home":{
 "team_id":1,
 "slot_id":"ALC-12",
@@ -3246,6 +3355,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"alc-w3-14",
 "home":{
 "team_id":6,
 "slot_id":"ALC-03",
@@ -3273,6 +3383,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"alc-w3-15",
 "home":{
 "team_id":10,
 "slot_id":"ALC-10",
@@ -3300,6 +3411,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"alc-w3-16",
 "home":{
 "team_id":9,
 "slot_id":"ALC-11",
@@ -3327,6 +3439,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"alc-w3-17",
 "home":{
 "team_id":12,
 "slot_id":"ALC-08",
@@ -3354,6 +3467,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"alc-w3-18",
 "home":{
 "team_id":2,
 "slot_id":"ALC-06",
@@ -3400,6 +3514,7 @@
 "complete":false,
 "matchups":[
 {
+"key":"alc-w4-19",
 "home":{
 "team_id":7,
 "slot_id":"ALC-04",
@@ -3427,6 +3542,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"alc-w4-20",
 "home":{
 "team_id":8,
 "slot_id":"ALC-01",
@@ -3454,6 +3570,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"alc-w4-21",
 "home":{
 "team_id":3,
 "slot_id":"ALC-09",
@@ -3481,6 +3598,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"alc-w4-22",
 "home":{
 "team_id":11,
 "slot_id":"ALC-05",
@@ -3508,6 +3626,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"alc-w4-23",
 "home":{
 "team_id":5,
 "slot_id":"ALC-02",
@@ -3535,6 +3654,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"alc-w4-24",
 "home":{
 "team_id":2,
 "slot_id":"ALC-06",
@@ -3570,6 +3690,7 @@
 "complete":true,
 "matchups":[
 {
+"key":"all-w1-1",
 "home":{
 "team_id":2,
 "slot_id":"ALL-04",
@@ -3597,6 +3718,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"all-w1-2",
 "home":{
 "team_id":5,
 "slot_id":"ALL-03",
@@ -3624,6 +3746,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"all-w1-3",
 "home":{
 "team_id":4,
 "slot_id":"ALL-02",
@@ -3651,6 +3774,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"all-w1-4",
 "home":{
 "team_id":11,
 "slot_id":"ALL-06",
@@ -3678,6 +3802,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"all-w1-5",
 "home":{
 "team_id":9,
 "slot_id":"ALL-11",
@@ -3705,6 +3830,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"all-w1-6",
 "home":{
 "team_id":6,
 "slot_id":"ALL-10",
@@ -3751,6 +3877,7 @@
 "complete":true,
 "matchups":[
 {
+"key":"all-w2-7",
 "home":{
 "team_id":1,
 "slot_id":"ALL-12",
@@ -3778,6 +3905,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"all-w2-8",
 "home":{
 "team_id":3,
 "slot_id":"ALL-01",
@@ -3805,6 +3933,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"all-w2-9",
 "home":{
 "team_id":8,
 "slot_id":"ALL-08",
@@ -3832,6 +3961,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"all-w2-10",
 "home":{
 "team_id":12,
 "slot_id":"ALL-05",
@@ -3859,6 +3989,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"all-w2-11",
 "home":{
 "team_id":7,
 "slot_id":"ALL-09",
@@ -3886,6 +4017,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"all-w2-12",
 "home":{
 "team_id":6,
 "slot_id":"ALL-10",
@@ -3932,6 +4064,7 @@
 "complete":true,
 "matchups":[
 {
+"key":"all-w3-13",
 "home":{
 "team_id":3,
 "slot_id":"ALL-01",
@@ -3959,6 +4092,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"all-w3-14",
 "home":{
 "team_id":10,
 "slot_id":"ALL-07",
@@ -3986,6 +4120,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"all-w3-15",
 "home":{
 "team_id":2,
 "slot_id":"ALL-04",
@@ -4013,6 +4148,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"all-w3-16",
 "home":{
 "team_id":5,
 "slot_id":"ALL-03",
@@ -4040,6 +4176,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"all-w3-17",
 "home":{
 "team_id":4,
 "slot_id":"ALL-02",
@@ -4067,6 +4204,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"all-w3-18",
 "home":{
 "team_id":11,
 "slot_id":"ALL-06",
@@ -4113,6 +4251,7 @@
 "complete":false,
 "matchups":[
 {
+"key":"all-w4-19",
 "home":{
 "team_id":1,
 "slot_id":"ALL-12",
@@ -4140,6 +4279,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"all-w4-20",
 "home":{
 "team_id":12,
 "slot_id":"ALL-05",
@@ -4167,6 +4307,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"all-w4-21",
 "home":{
 "team_id":7,
 "slot_id":"ALL-09",
@@ -4194,6 +4335,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"all-w4-22",
 "home":{
 "team_id":6,
 "slot_id":"ALL-10",
@@ -4221,6 +4363,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"all-w4-23",
 "home":{
 "team_id":9,
 "slot_id":"ALL-11",
@@ -4248,6 +4391,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"all-w4-24",
 "home":{
 "team_id":11,
 "slot_id":"ALL-06",
@@ -4283,6 +4427,7 @@
 "complete":true,
 "matchups":[
 {
+"key":"c2c-w1-1",
 "home":{
 "team_id":6,
 "slot_id":"C2C-05",
@@ -4310,6 +4455,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"c2c-w1-2",
 "home":{
 "team_id":9,
 "slot_id":"C2C-06",
@@ -4337,6 +4483,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"c2c-w1-3",
 "home":{
 "team_id":11,
 "slot_id":"C2C-03",
@@ -4364,6 +4511,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"c2c-w1-4",
 "home":{
 "team_id":2,
 "slot_id":"C2C-10",
@@ -4391,6 +4539,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"c2c-w1-5",
 "home":{
 "team_id":10,
 "slot_id":"C2C-11",
@@ -4418,6 +4567,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"c2c-w1-6",
 "home":{
 "team_id":3,
 "slot_id":"C2C-01",
@@ -4464,6 +4614,7 @@
 "complete":true,
 "matchups":[
 {
+"key":"c2c-w2-7",
 "home":{
 "team_id":8,
 "slot_id":"C2C-07",
@@ -4491,6 +4642,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"c2c-w2-8",
 "home":{
 "team_id":1,
 "slot_id":"C2C-12",
@@ -4518,6 +4670,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"c2c-w2-9",
 "home":{
 "team_id":4,
 "slot_id":"C2C-08",
@@ -4545,6 +4698,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"c2c-w2-10",
 "home":{
 "team_id":7,
 "slot_id":"C2C-02",
@@ -4572,6 +4726,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"c2c-w2-11",
 "home":{
 "team_id":5,
 "slot_id":"C2C-09",
@@ -4599,6 +4754,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"c2c-w2-12",
 "home":{
 "team_id":3,
 "slot_id":"C2C-01",
@@ -4645,6 +4801,7 @@
 "complete":true,
 "matchups":[
 {
+"key":"c2c-w3-13",
 "home":{
 "team_id":1,
 "slot_id":"C2C-12",
@@ -4672,6 +4829,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"c2c-w3-14",
 "home":{
 "team_id":12,
 "slot_id":"C2C-04",
@@ -4699,6 +4857,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"c2c-w3-15",
 "home":{
 "team_id":6,
 "slot_id":"C2C-05",
@@ -4726,6 +4885,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"c2c-w3-16",
 "home":{
 "team_id":9,
 "slot_id":"C2C-06",
@@ -4753,6 +4913,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"c2c-w3-17",
 "home":{
 "team_id":11,
 "slot_id":"C2C-03",
@@ -4780,6 +4941,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"c2c-w3-18",
 "home":{
 "team_id":2,
 "slot_id":"C2C-10",
@@ -4826,6 +4988,7 @@
 "complete":false,
 "matchups":[
 {
+"key":"c2c-w4-19",
 "home":{
 "team_id":8,
 "slot_id":"C2C-07",
@@ -4853,6 +5016,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"c2c-w4-20",
 "home":{
 "team_id":7,
 "slot_id":"C2C-02",
@@ -4880,6 +5044,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"c2c-w4-21",
 "home":{
 "team_id":5,
 "slot_id":"C2C-09",
@@ -4907,6 +5072,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"c2c-w4-22",
 "home":{
 "team_id":3,
 "slot_id":"C2C-01",
@@ -4934,6 +5100,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"c2c-w4-23",
 "home":{
 "team_id":10,
 "slot_id":"C2C-11",
@@ -4961,6 +5128,7 @@
 "playoff_tier":"NONE"
 },
 {
+"key":"c2c-w4-24",
 "home":{
 "team_id":2,
 "slot_id":"C2C-10",

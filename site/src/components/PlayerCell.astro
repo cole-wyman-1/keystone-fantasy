@@ -1,0 +1,7 @@
+---
+// Player name with position · NFL team as subtext; an empty lineup slot renders as "Empty".
+const { player } = Astro.props;
+---
+{player
+  ? <span class="pl"><span class="pl-name">{player.name}</span><span class="pl-sub">{[player.position, player.pro_team].filter(Boolean).join(' · ')}</span></span>
+  : <span class="pl muted">Empty</span>}

@@ -88,6 +88,13 @@ class ESPNClient:
             self._cache(league_id, cache_name, data)
         return data
 
+    def season_view(self, view: str, cache_name: str | None = None) -> dict:
+        """GET a season-level (not league) view, e.g. proTeamSchedules_wl: NFL teams and kickoff times."""
+        data = self._get(f"{BASE_URL}/seasons/{self.season}", [("view", view)], 0)
+        if cache_name:
+            self._cache(0, cache_name, data)
+        return data
+
     # -- internals ----------------------------------------------------------------
 
     def _get(self, url: str, params: list[tuple[str, str]], league_id: int, headers: dict | None = None) -> dict:

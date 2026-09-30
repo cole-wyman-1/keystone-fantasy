@@ -13,10 +13,10 @@ record book / power ranking / trades, rebuild the site, deploy. No server, no da
 ## Pipeline (run in this order; the workflow does exactly this)
 ```
 .venv/bin/python scripts/import_master.py   # Starter Files/keystone_ff_2026_master.csv -> data/master.json (validates; no emails)
-.venv/bin/python scripts/fetch_espn.py      # ESPN -> data/espn/<CODE>/{league.json, weeks/N.json, trades.json}, data/espn/players.json
-.venv/bin/python scripts/compute.py         # -> data/site/*.json (meta, leagues, people, standings, weekly, highs, records, power, trades)
-.venv/bin/python -m pytest -q               # 20 tests
-cd site && npm run build                    # -> site/dist (96 pages)
+.venv/bin/python scripts/fetch_espn.py      # ESPN -> data/espn/<CODE>/{league.json, weeks/N.json, trades.json}, data/espn/players.json, pro_schedule.json
+.venv/bin/python scripts/compute.py         # -> data/site/*.json (meta, leagues, people, standings, weekly, highs, records, power, trades, lineups; sweats = Monday snapshot)
+.venv/bin/python -m pytest -q               # 26 tests
+cd site && npm run build                    # -> site/dist (96 pages + one per matchup)
 ```
 Local preview: `cd site && npm run dev` → http://localhost:4321/keystone-fantasy/ . Python venv at `.venv/` (3.14), Node 24, Astro 5.
 `fetch_espn.py` needs `ESPN_S2` / `ESPN_SWID` in `.env` (git-ignored). Idempotent: completed weeks are skipped unless `--force`;
@@ -30,15 +30,16 @@ the in-progress week is always refetched; trades are refetched for every period 
 - `scripts/espn_client.py` — cookie-auth client (`league()`, `league_filtered()` with x-fantasy-filter), retries, loud AuthError on 401/403, raw cache to `data/raw/` (git-ignored).
 - `scripts/espn_probe.py` — auth sanity check; prints teams/owners per league.
 - `scripts/map_teams.py propose|apply` — slot ↔ ESPN team matching (done; re-run only for a new season or roster change).
-- `scripts/fetch_espn.py` — league settings/teams/schedule, per-week matchups + lineups (bench/optimal), trades, player-name cache.
+- `scripts/fetch_espn.py` — league settings/teams/schedule, per-week matchups (+ ESPN `winProbability`/live projection for the current week) + lineups
+  (each player: projected pts, NFL game + kickoff `game_utc`), trades, player-name cache, NFL schedule (`proTeamSchedules_wl`, public) → `data/espn/pro_schedule.json`.
 - `scripts/compute.py` — all derived data; strips emails (asserts none); attaches logos/icons; writes `data/site/`.
 - `scripts/lib/records.py` — pure functions: standings, streaks, all-play luck, weekly highs, record book, playoff picture, power rank.
-- `scripts/lib/lineup.py` — optimal lineup solver (+ brute-force reference for tests). `lib/trades.py` — transaction → trade normalization.
+- `scripts/lib/lineup.py` — optimal lineup solver (+ brute-force reference for tests); `display_lineup` (starters in slot order, bench, IR). `lib/sweats.py` — Monday Night Sweats window / remaining starters / pick (pure, tested). `lib/trades.py` — transaction → trade normalization.
 - `scripts/lib/icons.py` — emoji maps (hometown, fallbacks). `scripts/fetch_logos.py` — NFL/college/company PNGs → `site/public/logos/`, `data/logos.json`.
 - `scripts/board_schema.sql` — Supabase table, one-level-reply trigger, rate limits, RLS (read + insert only).
 - `site/src/lib/data.ts` — loads `data/site/*.json` at build; `u()` prefixes the `/keystone-fantasy` base path; formatters.
-- `site/src/components/` — Layout (nav + ALL global CSS), TeamCell (team bold link + manager subtext + badges), ProfileBadges (college/NFL/company logos, hometown emoji, tooltips), StandingsTable, Matchups, RecordTable, ScoreChart (inline SVG), TradeCard, MessageBoard (client JS → Supabase REST).
-- `site/src/pages/` — index, leagues/[code], people/[slug] (slug = slot id lowercased), weekly-highs, records, power, trades.
+- `site/src/components/` — Layout (nav + ALL global CSS), TeamCell (team bold link + manager subtext + badges), ProfileBadges (college/NFL/company logos, hometown emoji, tooltips), StandingsTable, Matchups, RecordTable, ScoreChart (inline SVG), TradeCard, MessageBoard (client JS → Supabase REST), Roster (team page lineup table), PlayerCell (player name + pos · NFL team), MondaySweats (home-page score bugs; own `is:global` styles).
+- `site/src/pages/` — index, leagues/[code], people/[slug] (slug = slot id lowercased), matchups/[key] (box score; key = `<code>-w<week>-<espn matchup id>`, e.g. `emp-w3-13`), weekly-highs, records, power, trades.
 - `.github/workflows/refresh.yml` — cron + workflow_dispatch + push (paths-filtered). Fetch fails → no deploy. Bot commits `data/` with `[skip ci]`.
 - `tests/` — fixture league with hand-computed answers; lineup vs brute force; icons; trades; site-data checks (no emails, standings == ESPN records).
 
@@ -64,6 +65,17 @@ the in-progress week is always refetched; trades are refetched for every period 
   Hover/tap tooltip names each. Add a new school/company in `fetch_logos.py` maps, run it, commit the PNG.
 - Light theme, minimal, mobile-first (tables scroll inside `.tbl-wrap`; `.hide-sm` hides low-priority columns under 640px).
 - Deferred by Cole: office / NFL-team / college grouping pages ("maybe later"); commissioner seats keep the name "League Manager".
+
+- Rosters / box scores (2026-09-29): team page has a Roster section = latest fetched lineup (`people[].roster_week`) with last completed week's
+  points beside it. Matchup cards are fully clickable (stretched `.box-link`; team-name links sit above it) → `/matchups/<key>/`, both lineups side by side.
+  Rosters are only as fresh as the last ESPN refresh.
+- **Monday Night Sweats** (home page, above Leagues; 2026-09-29): `compute.py` writes `data/site/sweats.json` ONLY when a refresh lands in the
+  "final day window" (`lib/sweats.in_final_day_window`: Sunday night over, Monday games not started) — the Mon 11:00 UTC cron. Other refreshes leave
+  the snapshot alone, so it stays up all week and gets a "Final … held on / came back" line once the week completes. Picks the 5 undecided matchups
+  with ESPN win probability closest to 50% (fallback: our normal-approx estimate from projections, labeled "estimated"), skipping any where the trailing
+  team has no starter left to play. Before the first Monday refresh there is no sweats.json and the section is hidden.
+  UNVERIFIED as of 2026-09-29: whether ESPN's `winProbability` updates during the week or is the pregame number — `est_win_prob` is stored beside
+  `espn_win_prob` in sweats.json so the first real snapshot (Mon 2026-10-05) can be compared; if ESPN's is static, switch `win_prob` to the estimate.
 
 ## Hard-won gotchas
 - **CSS is inlined** (`inlineStylesheets: 'always'` in astro.config). External hashed CSS + frequent deploys + GitHub Pages 10-min cache → cached pages

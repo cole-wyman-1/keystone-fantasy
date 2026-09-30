@@ -2,7 +2,9 @@
 
 Outputs (all JSON, no emails anywhere):
   meta.json, leagues.json, people.json, standings.json, weekly.json, highs.json,
-  records.json, power.json
+  records.json, power.json, trades.json, lineups.json
+  sweats.json (Monday Night Sweats) is a snapshot: rewritten only by a refresh that lands between
+  Sunday night and Monday night football, otherwise left as it was.
 """
 from __future__ import annotations
 
@@ -15,8 +17,10 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from lib.icons import profile_icons  # noqa: E402
-from lib.lineup import optimal_lineup  # noqa: E402
-from lib.trades import sides as trade_sides  # noqa: E402
+from lib.espn_ids import LINEUP_SLOT_MAP  # noqa: E402
+from lib.lineup import display_lineup, optimal_lineup  # noqa: E402
+from lib.sweats import estimate_win_prob, in_final_day_window, pick_sweats, remaining_starters  # noqa: E402
+from lib.trades import PRO_TEAMS, sides as trade_sides  # noqa: E402
 from lib.records import (games_from_weeks, playoff_picture, power_rank, record_book, standings,  # noqa: E402
                          weekly_highs)
 
@@ -59,6 +63,51 @@ def lineup_extras(week: dict, slot_counts: dict) -> dict[int, dict]:
     return out
 
 
+def public_lineup(lu: dict, slot_counts: dict, players_db: dict) -> dict:
+    """One team-week for the roster / box score views: starters (slot order), bench, IR."""
+    def pro_team(p: dict) -> str:
+        if p.get("pro_team"):
+            return p["pro_team"]
+        if p["player_id"] < 0:   # D/ST ids are -(16000 + pro team id)
+            return PRO_TEAMS.get(-p["player_id"] - 16000, "")
+        return players_db.get(str(p["player_id"]), {}).get("pro_team", "")
+
+    def pub(p: dict | None) -> dict | None:
+        return p and {"id": p["player_id"], "name": p["name"], "position": p["position"], "pro_team": pro_team(p), "points": p["points"]}
+
+    d = display_lineup(lu["players"], slot_counts, LINEUP_SLOT_MAP)
+    return {"starters": [{"slot": s["slot"], "player": pub(s["player"])} for s in d["starters"]],
+            "bench": [pub(p) for p in d["bench"]], "ir": [pub(p) for p in d["ir"]]}
+
+
+def sweat_candidates(code: str, league_name: str, week: dict, label: dict) -> list[dict]:
+    """Every undecided matchup of an in-progress week, with each side's score, win probability
+    (ESPN's; ours only if ESPN sent none) and starters still to play."""
+    as_of, out = week["fetched_utc"], []
+    for m in week["matchups"]:
+        if m["away_team_id"] is None or m["winner"] != "UNDECIDED":
+            continue
+        sides = {}
+        for side in ("home", "away"):
+            tid = m[f"{side}_team_id"]
+            left = remaining_starters(week["lineups"].get(str(tid), {}).get("players", []), as_of)
+            sides[side] = {"team_id": tid, **label[tid], "points": m[f"{side}_points"], "projected": m.get(f"{side}_projected"),
+                           "espn_win_prob": m.get(f"{side}_win_prob"),
+                           "remaining": [{k: p.get(k) for k in ("name", "position", "pro_team", "projected", "game", "game_utc")} for p in left]}
+        h, a = sides["home"], sides["away"]
+        h["est_win_prob"] = estimate_win_prob(h["points"] - a["points"], h["remaining"], a["remaining"])
+        a["est_win_prob"] = round(1 - h["est_win_prob"], 3)
+        espn = h["espn_win_prob"] is not None and a["espn_win_prob"] is not None
+        for s in (h, a):
+            s["win_prob"] = s["espn_win_prob"] if espn else s["est_win_prob"]
+        lead = round(abs(h["points"] - a["points"]), 2)
+        out.append({"key": f"{code}-w{week['matchup_period']}-{m['matchup_id']}".lower(), "league_code": code, "league_name": league_name,
+                    "week": week["matchup_period"], "win_prob_source": "espn" if espn else "estimate",
+                    "leader": "home" if h["points"] > a["points"] else "away" if a["points"] > h["points"] else None,
+                    "lead": lead, "home": h, "away": a})
+    return out
+
+
 _LOGOS = json.loads(LOGOS.read_text()) if LOGOS.exists() else {"nfl": {}, "college": {}}
 
 
@@ -95,7 +144,7 @@ def main() -> int:
     slots_by_key = {(s["league_code"], s["espn_team_id"]): s for s in master["slots"]}
     SITE.mkdir(parents=True, exist_ok=True)
 
-    leagues_out, standings_out, weekly_out = [], {}, {}
+    leagues_out, standings_out, weekly_out, lineups_out = [], {}, {}, {}
     people = {s["slot_id"]: {**public_person(s), "team": None, "weeks": [], "in_progress": None} for s in master["slots"]}
     all_games, all_extras, all_rows = [], {}, []
     league_records = {}
@@ -105,6 +154,8 @@ def main() -> int:
     fetch_meta = json.loads((ESPN / "fetch_meta.json").read_text()) if (ESPN / "fetch_meta.json").exists() else {}
     players_db = json.loads((ESPN / "players.json").read_text()) if (ESPN / "players.json").exists() else {}
     trades_out = []
+    pro_schedule = json.loads((ESPN / "pro_schedule.json").read_text()) if (ESPN / "pro_schedule.json").exists() else {}
+    sweat_pool, sweat_as_of = [], None
 
     for lg in master["leagues"]:
         code = lg["code"]
@@ -151,15 +202,23 @@ def main() -> int:
 
         # weekly matchups (complete + in-progress) for league pages and person pages
         weekly_out[code] = {}
+        lineups_out[code] = {}
         for w in weeks:
             wk = w["matchup_period"]
+            lineups_out[code][str(wk)] = {tid: public_lineup(lu, league["lineup_slot_counts"], players_db)
+                                          for tid, lu in w["lineups"].items()}
+            for tid, lu in w["lineups"].items():   # weeks are in order, so this ends on the latest lineup
+                s = slots_by_key.get((code, int(tid)))
+                if s and lu["players"]:
+                    people[s["slot_id"]]["roster_week"] = wk
             ms = []
             for m in w["matchups"]:
                 if m["away_team_id"] is None:
                     continue
                 h, a = label[m["home_team_id"]], label[m["away_team_id"]]
                 eh, ea = extras.get((code, m["home_team_id"], wk), {}), extras.get((code, m["away_team_id"], wk), {})
-                ms.append({"home": {"team_id": m["home_team_id"], **h, "points": m["home_points"], **{k: eh.get(k) for k in ("bench_points", "optimal_points")}},
+                ms.append({"key": f"{code}-w{wk}-{m['matchup_id']}".lower(),
+                           "home": {"team_id": m["home_team_id"], **h, "points": m["home_points"], **{k: eh.get(k) for k in ("bench_points", "optimal_points")}},
                            "away": {"team_id": m["away_team_id"], **a, "points": m["away_points"], **{k: ea.get(k) for k in ("bench_points", "optimal_points")}},
                            "winner": m["winner"], "margin": round(abs(m["home_points"] - m["away_points"]), 2),
                            "playoff_tier": m["playoff_tier"]})
@@ -174,7 +233,7 @@ def main() -> int:
                     sid = m[side]["slot_id"]
                     if not sid:
                         continue
-                    rec = {"week": wk, "points": m[side]["points"], "opp_slot_id": m[opp]["slot_id"], "opp_owner": m[opp]["owner"],
+                    rec = {"week": wk, "matchup_key": m["key"], "points": m[side]["points"], "opp_slot_id": m[opp]["slot_id"], "opp_owner": m[opp]["owner"],
                            "opp_team_name": m[opp]["team_name"], "opp_points": m[opp]["points"],
                            "bench_points": m[side]["bench_points"], "optimal_points": m[side]["optimal_points"]}
                     if w["complete"]:
@@ -187,6 +246,12 @@ def main() -> int:
                         people[sid]["in_progress"] = rec
 
         league_records[code] = record_book(games, extras, RECORD_N_LEAGUE)
+
+        for w in weeks:
+            kickoffs = [g["utc"] for g in pro_schedule.get(str(w["scoring_period"]), {}).values()]
+            if not w["complete"] and in_final_day_window(kickoffs, w["fetched_utc"]):
+                sweat_pool.extend(sweat_candidates(code, lg["name"], w, label))
+                sweat_as_of = max(sweat_as_of or "", w["fetched_utc"])
 
         tpath = ESPN / code / "trades.json"
         for t in (json.loads(tpath.read_text()) if tpath.exists() else []):
@@ -259,10 +324,18 @@ def main() -> int:
             "n_trades": sum(1 for t in trades_out if t["status"] == "EXECUTED")}
 
     for name, obj in {"meta": meta, "leagues": leagues_out, "people": people, "standings": standings_out, "weekly": weekly_out,
-                      "highs": highs_out, "records": records_out, "power": power_out, "trades": trades_out}.items():
+                      "highs": highs_out, "records": records_out, "power": power_out, "trades": trades_out,
+                      "lineups": lineups_out}.items():
         text = json.dumps(obj, indent=0, ensure_ascii=False, separators=(",", ":"))
         assert not EMAIL_RE.search(text), f"{name}.json would contain an email address"
         (SITE / f"{name}.json").write_text(text)
+    if sweat_pool:   # otherwise keep the last Monday snapshot
+        sweats = {"week": max(c["week"] for c in sweat_pool), "as_of_utc": sweat_as_of, "candidates": len(sweat_pool),
+                  "sweats": pick_sweats([c for c in sweat_pool if c["week"] == max(x["week"] for x in sweat_pool)])}
+        text = json.dumps(sweats, indent=0, ensure_ascii=False, separators=(",", ":"))
+        assert not EMAIL_RE.search(text), "sweats.json would contain an email address"
+        (SITE / "sweats.json").write_text(text)
+        print(f"Monday Night Sweats: week {sweats['week']}, {len(sweats['sweats'])} of {len(sweat_pool)} undecided matchups")
     print(f"Wrote data/site/*.json: {len(leagues_out)} leagues, {len(people)} people, weeks complete = {weeks_complete}, "
           f"power #1 = {power_out[0]['owner']} ({power_out[0]['league_code']}) {power_out[0]['ppg']} ppg" if power_out else "no games yet")
     return 0

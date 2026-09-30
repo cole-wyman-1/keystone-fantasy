@@ -45,6 +45,37 @@ def optimal_lineup(players: list[dict], lineup_slot_counts: dict[int, int]) -> t
     return round(total, 2), chosen
 
 
+SLOT_ORDER = [0, 2, 4, 6, 23, 7, 16, 17]  # QB RB WR TE FLEX OP D/ST K: the order ESPN shows a lineup in
+POSITION_ORDER = ["QB", "RB", "WR", "TE", "K", "D/ST"]
+
+
+def display_lineup(players: list[dict], lineup_slot_counts: dict[int, int], slot_names: dict[int, str]) -> dict:
+    """Lineup as the site shows it: starters in slot order (one entry per starting slot, None when the
+    manager left it empty, so two teams in the same league line up row for row), then bench and IR."""
+    def order(slot: int) -> tuple[int, int]:
+        return (SLOT_ORDER.index(slot) if slot in SLOT_ORDER else len(SLOT_ORDER), slot)
+
+    def pos_key(p: dict) -> tuple[int, float]:
+        pos = p.get("position", "")
+        return (POSITION_ORDER.index(pos) if pos in POSITION_ORDER else len(POSITION_ORDER), -p["points"])
+
+    counts = {int(k): int(v) for k, v in lineup_slot_counts.items()}
+    starters = []
+    for slot in sorted((s for s in counts if s not in (BENCH_SLOT, IR_SLOT)), key=order):
+        here = [p for p in players if p.get("lineup_slot_id") == slot]
+        n = max(counts[slot], len(here))
+        for p in (here + [None] * n)[:n]:
+            starters.append({"slot": slot_names.get(slot, str(slot)), "player": p})
+    known = set(counts) - {BENCH_SLOT, IR_SLOT}
+    # a starter in a slot the league settings don't list (shouldn't happen) is still shown
+    for p in players:
+        if p.get("started") and p.get("lineup_slot_id") not in known:
+            starters.append({"slot": slot_names.get(p["lineup_slot_id"], str(p["lineup_slot_id"])), "player": p})
+    return {"starters": starters,
+            "bench": sorted((p for p in players if p.get("lineup_slot_id") == BENCH_SLOT), key=pos_key),
+            "ir": sorted((p for p in players if p.get("lineup_slot_id") == IR_SLOT), key=pos_key)}
+
+
 def brute_force_optimal(players: list[dict], lineup_slot_counts: dict[int, int]) -> float:
     """Exponential reference implementation for tests only (a slot may stay empty)."""
     pool = [p for p in players if p.get("lineup_slot_id") != IR_SLOT]

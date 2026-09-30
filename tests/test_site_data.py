@@ -33,3 +33,19 @@ def test_standings_match_espn_records():
             e = espn[r["team_id"]]
             assert (r["wins"], r["losses"], r["ties"]) == (e["wins"], e["losses"], e["ties"]), (code, r["owner"])
             assert abs(r["points_for"] - e["points_for"]) < 0.02, (code, r["owner"])
+
+
+def test_every_matchup_has_lineups_that_add_up():
+    """Both teams of every published matchup have a lineup whose starters sum to the matchup score."""
+    weekly = json.loads((SITE / "weekly.json").read_text())
+    lineups = json.loads((SITE / "lineups.json").read_text())
+    keys = set()
+    for code, weeks in weekly.items():
+        for wk, w in weeks.items():
+            for m in w["matchups"]:
+                keys.add(m["key"])
+                for side in ("home", "away"):
+                    lu = lineups[code][wk][str(m[side]["team_id"])]
+                    total = sum(s["player"]["points"] for s in lu["starters"] if s["player"])
+                    assert abs(total - m[side]["points"]) < 0.02, (code, wk, m[side]["team_name"])
+    assert len(keys) == sum(len(w["matchups"]) for weeks in weekly.values() for w in weeks.values())  # page urls unique

@@ -1,5 +1,5 @@
 ---
-import { personUrl, fmt } from '../lib/data';
+import { personUrl, matchupUrl, fmt } from '../lib/data';
 const { matchups, complete = true } = Astro.props;
 ---
 <div class="matchups">
@@ -11,7 +11,7 @@ const { matchups, complete = true } = Astro.props;
         <div class={`pts ${hw ? 'winner' : aw ? 'loser' : ''}`}>{fmt(m.home.points)}</div>
         <div class={`team ${aw ? 'winner' : hw ? 'loser' : ''}`}><a href={personUrl(m.away.slot_id)}><strong>{m.away.team_name}</strong></a><span class="tn">{m.away.owner}</span></div>
         <div class={`pts ${aw ? 'winner' : hw ? 'loser' : ''}`}>{fmt(m.away.points)}</div>
-        <div class="foot">{complete ? `Margin ${fmt(m.margin)}` : 'In progress'}{m.home.bench_points != null && complete ? ` · Bench ${fmt(m.home.bench_points, 1)} / ${fmt(m.away.bench_points, 1)}` : ''}</div>
+        <div class="foot">{complete ? `Margin ${fmt(m.margin)}` : 'In progress'}{m.home.bench_points != null && complete ? ` · Bench ${fmt(m.home.bench_points, 1)} / ${fmt(m.away.bench_points, 1)}` : ''}{m.key && <a class="box-link" href={matchupUrl(m.key)} aria-label={`${m.home.team_name} vs ${m.away.team_name} lineups`}>Lineups →</a>}</div>
       </div>
     );
   })}

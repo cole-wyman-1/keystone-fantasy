@@ -2,6 +2,7 @@
 import Layout from '../components/Layout.astro';
 import TeamCell from '../components/TeamCell.astro';
 import MessageBoard from '../components/MessageBoard.astro';
+import MondaySweats from '../components/MondaySweats.astro';
 import { meta, leagues, standings, highs, weekly, people, power, u, leagueUrl, personUrl, fmt, record } from '../lib/data';
 const lastWeek = highs.weeks.length ? highs.weeks[highs.weeks.length - 1] : null;
 const leaderboard = highs.leaderboard.slice(0, 8);
@@ -20,6 +21,8 @@ const inProgressWeek = Object.values(weekly).flatMap((w: any) => Object.values(w
       {leaderboard[0] && <div class="stat"><div class="lbl">Most weekly highs</div><div class="val">{leaderboard[0].team_name}</div><div class="sub">{leaderboard[0].owner} · {leaderboard[0].count} week{leaderboard[0].count === 1 ? '' : 's'} · {leaderboard[0].league_code}</div></div>}
     </div>
   )}
+
+  <MondaySweats />
 
   <h2>Leagues</h2>
   <div class="cards">

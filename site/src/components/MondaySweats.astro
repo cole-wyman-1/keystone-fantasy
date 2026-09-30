@@ -1,0 +1,112 @@
+---
+// Monday Night Sweats: the closest undecided matchups across all leagues heading into Monday night,
+// as a TV-style score bug: both teams, the lead, win probability, and who each side still has to play.
+import { sweats, weekly, meta, personUrl, matchupUrl, fmt, fmtDateET } from '../lib/data';
+const list: any[] = sweats?.sweats ?? [];
+const kick = (iso: string) => new Date(iso).toLocaleString('en-US', { timeZone: 'America/New_York', weekday: 'short', hour: 'numeric', minute: '2-digit' }) + ' ET';
+const pct = (p: number | null) => (p == null ? '–' : `${Math.round(p * 100)}%`);
+// what actually happened, once the week is complete
+const finalOf = (s: any) => {
+  const w = weekly[s.league_code]?.[String(s.week)];
+  if (!w?.complete) return null;
+  const m = w.matchups.find((x: any) => x.key === s.key);
+  if (!m) return null;
+  const winner = m.home.points > m.away.points ? 'home' : m.away.points > m.home.points ? 'away' : null;
+  return { m, winner, heldOn: winner && s.leader ? winner === s.leader : null };
+};
+---
+{(!sweats || list.length === 0) && (
+  <section class="sweats">
+    <h2>Monday Night Sweats</h2>
+    <div class="bug bug-empty">
+      <div class="bug-head"><span>Coming Monday morning</span></div>
+      <div class="bug-body small muted">After Sunday night football, this section fills in with the 5 closest undecided matchups across all seven
+        leagues{meta.current_week ? ` for week ${meta.current_week}` : ''}: live score, ESPN win probability, the lead, and who each team still has to play on Monday night.
+        It updates with the Monday 7:00 AM ET refresh and stays up all week.</div>
+    </div>
+  </section>
+)}
+{sweats && list.length > 0 && (
+  <section class="sweats">
+    <h2>Monday Night Sweats <span class="badge acc">Week {sweats.week}</span></h2>
+    <p class="small muted">The {list.length} closest matchups across all seven leagues heading into Monday night, as of {fmtDateET(sweats.as_of_utc)}.
+      Win probability {list.every((s) => s.win_prob_source === 'espn') ? 'from ESPN' : 'from ESPN where available, otherwise estimated from projections'}; matchups where the trailing team had nobody left to play are skipped.</p>
+    <div class="sweat-grid">
+      {list.map((s) => {
+        const fin = finalOf(s);
+        const sides = [s.home, s.away];
+        return (
+          <div class="bug">
+            <div class="bug-head"><span>{s.league_name}</span><a href={matchupUrl(s.key)}>Lineups →</a></div>
+            {sides.map((t, i) => {
+              const side = i === 0 ? 'home' : 'away';
+              const leads = s.leader === side;
+              return (
+                <div class={`bug-row ${leads ? 'leader' : ''}`}>
+                  {t.logo ? <img src={t.logo} alt="" loading="lazy" /> : <span class="logo-ph" />}
+                  <div class="bug-team"><a href={personUrl(t.slot_id)}>{t.team_name}</a><span class="bug-owner">{t.owner}</span></div>
+                  {leads && s.lead > 0 && <span class="lead-chip">+{fmt(s.lead, 1)}</span>}
+                  <span class="bug-score">{fmt(t.points, 1)}</span>
+                </div>
+              );
+            })}
+            <div class="wp"><span class={s.home.win_prob >= 0.5 ? 'hi' : ''}>{pct(s.home.win_prob)}</span>
+              <div class="wp-bar"><div style={`width:${Math.round((s.home.win_prob ?? 0.5) * 100)}%`} /></div>
+              <span class={s.away.win_prob > 0.5 ? 'hi' : ''}>{pct(s.away.win_prob)}</span></div>
+            <div class="wp-lbl muted">win probability{s.win_prob_source === 'estimate' ? ' (estimated)' : ''}</div>
+            <div class="left">
+              {sides.map((t) => (
+                <div class="left-side">
+                  <div class="left-lbl">{t.abbrev || t.team_name} · {t.remaining.length ? `${t.remaining.length} left` : 'done'}</div>
+                  {t.remaining.map((p: any) => (
+                    <div class="left-p"><span class="pl-name">{p.name}</span> <span class="muted">{`${p.position} · ${p.pro_team} ${p.game ?? ''}`}</span>{p.projected != null && <span class="proj">{fmt(p.projected, 1)} proj</span>}</div>
+                  ))}
+                  {t.remaining[0]?.game_utc && <div class="left-kick muted">{kick(t.remaining[0].game_utc)}</div>}
+                </div>
+              ))}
+            </div>
+            {fin && (
+              <div class={`final ${fin.heldOn === false ? 'flip' : ''}`}>
+<strong>Final</strong>{` ${fmt(fin.m.home.points, 1)}–${fmt(fin.m.away.points, 1)}`}{fin.winner && <>{' · '}<a href={personUrl(fin.m[fin.winner].slot_id)}>{fin.m[fin.winner].team_name}</a>{` ${fin.heldOn === false ? 'came back to win' : fin.heldOn ? 'held on' : 'won'}`}</>}
+              </div>
+            )}
+          </div>
+        );
+      })}
+    </div>
+  </section>
+)}
+
+<style is:global>
+  .sweats { margin-top: 8px; }
+  .sweat-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 12px; }
+  .bug { border-radius: 12px; overflow: hidden; border: 1px solid var(--line); background: var(--bg); display: flex; flex-direction: column; }
+  .bug-head { display: flex; justify-content: space-between; background: #0f1319; color: #aeb7c4; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.06em; padding: 6px 12px; }
+  .bug-head a { color: #aeb7c4; text-transform: none; letter-spacing: 0; }
+  .bug-row { display: flex; align-items: center; gap: 10px; padding: 8px 12px; background: #1a2029; color: #e6eaf0; border-left: 4px solid transparent; }
+  .bug-row + .bug-row { border-top: 1px solid #2a323d; }
+  .bug-row.leader { border-left-color: #ffd166; background: #202836; }
+  .bug-row img, .bug-row .logo-ph { width: 30px; height: 30px; border-radius: 50%; object-fit: cover; background: #2a323d; flex: none; }
+  .bug-team { min-width: 0; flex: 1; display: flex; flex-direction: column; line-height: 1.2; }
+  .bug-team a { color: #fff; font-weight: 700; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .bug-owner { color: #aeb7c4; font-size: 0.75rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .lead-chip { background: #ffd166; color: #1a1d21; font-weight: 800; font-size: 0.72rem; padding: 2px 7px; border-radius: 999px; flex: none; }
+  .bug-score { font-size: 1.35rem; font-weight: 800; font-variant-numeric: tabular-nums; min-width: 3.2em; text-align: right; flex: none; }
+  .bug-row:not(.leader) .bug-score { color: #aeb7c4; font-weight: 700; }
+  .wp { display: flex; align-items: center; gap: 8px; padding: 8px 12px 0; font-size: 0.8rem; font-weight: 700; color: var(--muted); font-variant-numeric: tabular-nums; }
+  .wp .hi { color: var(--fg); }
+  .wp-bar { flex: 1; height: 6px; border-radius: 3px; background: var(--line); overflow: hidden; }
+  .wp-bar div { height: 100%; background: var(--accent); }
+  .wp-lbl { font-size: 0.7rem; padding: 0 12px; text-transform: uppercase; letter-spacing: 0.05em; }
+  .left { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; padding: 10px 12px 12px; font-size: 0.82rem; }
+  .left-side { min-width: 0; }
+  .left-lbl { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); font-weight: 700; margin-bottom: 4px; }
+  .left-p { display: flex; flex-direction: column; margin-bottom: 4px; line-height: 1.3; }
+  .left-p .muted { font-size: 0.74rem; }
+  .left-p .proj { font-size: 0.74rem; color: var(--accent); font-weight: 600; }
+  .left-kick { font-size: 0.72rem; margin-top: 2px; }
+  .bug-empty { max-width: 560px; }
+  .bug-body { padding: 10px 12px 12px; }
+  .final { margin-top: auto; border-top: 1px solid var(--line); padding: 8px 12px; font-size: 0.85rem; background: var(--soft); }
+  .final.flip { background: var(--gold-soft); }
+</style>

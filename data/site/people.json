@@ -34,6 +34,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"emp-w1-4",
 "points":115.4,
 "opp_slot_id":"EMP-06",
 "opp_owner":"Ben Feldman",
@@ -47,6 +48,7 @@
 },
 {
 "week":2,
+"matchup_key":"emp-w2-11",
 "points":76.0,
 "opp_slot_id":"EMP-04",
 "opp_owner":"Zach Macdonald",
@@ -60,6 +62,7 @@
 },
 {
 "week":3,
+"matchup_key":"emp-w3-18",
 "points":79.0,
 "opp_slot_id":"EMP-11",
 "opp_owner":"Victoire Cagniart",
@@ -74,6 +77,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"emp-w4-24",
 "points":0.0,
 "opp_slot_id":"EMP-12",
 "opp_owner":"Amelia Ockert",
@@ -82,6 +86,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":74,
 "record":{
 "wins":0,
@@ -103,6 +108,7 @@
 },
 "best_week":{
 "week":1,
+"matchup_key":"emp-w1-4",
 "points":115.4,
 "opp_slot_id":"EMP-06",
 "opp_owner":"Ben Feldman",
@@ -116,6 +122,7 @@
 },
 "worst_week":{
 "week":2,
+"matchup_key":"emp-w2-11",
 "points":76.0,
 "opp_slot_id":"EMP-04",
 "opp_owner":"Zach Macdonald",
@@ -164,6 +171,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"emp-w1-5",
 "points":94.82,
 "opp_slot_id":"EMP-11",
 "opp_owner":"Victoire Cagniart",
@@ -177,6 +185,7 @@
 },
 {
 "week":2,
+"matchup_key":"emp-w2-10",
 "points":86.32,
 "opp_slot_id":"EMP-12",
 "opp_owner":"Amelia Ockert",
@@ -190,6 +199,7 @@
 },
 {
 "week":3,
+"matchup_key":"emp-w3-15",
 "points":67.56,
 "opp_slot_id":"EMP-10",
 "opp_owner":"Jacob Salant",
@@ -204,6 +214,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"emp-w4-20",
 "points":0.0,
 "opp_slot_id":"EMP-09",
 "opp_owner":"Matt Gates",
@@ -212,6 +223,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":80,
 "record":{
 "wins":0,
@@ -233,6 +245,7 @@
 },
 "best_week":{
 "week":1,
+"matchup_key":"emp-w1-5",
 "points":94.82,
 "opp_slot_id":"EMP-11",
 "opp_owner":"Victoire Cagniart",
@@ -246,6 +259,7 @@
 },
 "worst_week":{
 "week":3,
+"matchup_key":"emp-w3-15",
 "points":67.56,
 "opp_slot_id":"EMP-10",
 "opp_owner":"Jacob Salant",
@@ -294,6 +308,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"emp-w1-2",
 "points":135.66,
 "opp_slot_id":"EMP-05",
 "opp_owner":"Bradley Hart",
@@ -307,6 +322,7 @@
 },
 {
 "week":2,
+"matchup_key":"emp-w2-9",
 "points":67.68,
 "opp_slot_id":"EMP-06",
 "opp_owner":"Ben Feldman",
@@ -320,6 +336,7 @@
 },
 {
 "week":3,
+"matchup_key":"emp-w3-16",
 "points":70.68,
 "opp_slot_id":"EMP-04",
 "opp_owner":"Zach Macdonald",
@@ -334,6 +351,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"emp-w4-23",
 "points":0.0,
 "opp_slot_id":"EMP-11",
 "opp_owner":"Victoire Cagniart",
@@ -342,6 +360,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":72,
 "record":{
 "wins":0,
@@ -363,6 +382,7 @@
 },
 "best_week":{
 "week":1,
+"matchup_key":"emp-w1-2",
 "points":135.66,
 "opp_slot_id":"EMP-05",
 "opp_owner":"Bradley Hart",
@@ -376,6 +396,7 @@
 },
 "worst_week":{
 "week":2,
+"matchup_key":"emp-w2-9",
 "points":67.68,
 "opp_slot_id":"EMP-06",
 "opp_owner":"Ben Feldman",
@@ -426,6 +447,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"emp-w1-6",
 "points":126.52,
 "opp_slot_id":"EMP-08",
 "opp_owner":"Cole Wyman",
@@ -439,6 +461,7 @@
 },
 {
 "week":2,
+"matchup_key":"emp-w2-11",
 "points":99.86,
 "opp_slot_id":"EMP-01",
 "opp_owner":"Prajeet Sarker",
@@ -452,6 +475,7 @@
 },
 {
 "week":3,
+"matchup_key":"emp-w3-16",
 "points":99.82,
 "opp_slot_id":"EMP-03",
 "opp_owner":"Druv Murthy",
@@ -466,6 +490,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"emp-w4-21",
 "points":0.0,
 "opp_slot_id":"EMP-05",
 "opp_owner":"Bradley Hart",
@@ -474,6 +499,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":43,
 "record":{
 "wins":3,
@@ -495,6 +521,7 @@
 },
 "best_week":{
 "week":1,
+"matchup_key":"emp-w1-6",
 "points":126.52,
 "opp_slot_id":"EMP-08",
 "opp_owner":"Cole Wyman",
@@ -508,6 +535,7 @@
 },
 "worst_week":{
 "week":3,
+"matchup_key":"emp-w3-16",
 "points":99.82,
 "opp_slot_id":"EMP-03",
 "opp_owner":"Druv Murthy",
@@ -558,6 +586,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"emp-w1-2",
 "points":156.2,
 "opp_slot_id":"EMP-03",
 "opp_owner":"Druv Murthy",
@@ -571,6 +600,7 @@
 },
 {
 "week":2,
+"matchup_key":"emp-w2-7",
 "points":160.26,
 "opp_slot_id":"EMP-07",
 "opp_owner":"Kelton Berry",
@@ -584,6 +614,7 @@
 },
 {
 "week":3,
+"matchup_key":"emp-w3-14",
 "points":141.74,
 "opp_slot_id":"EMP-06",
 "opp_owner":"Ben Feldman",
@@ -598,6 +629,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"emp-w4-21",
 "points":0.0,
 "opp_slot_id":"EMP-04",
 "opp_owner":"Zach Macdonald",
@@ -606,6 +638,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":2,
 "record":{
 "wins":3,
@@ -627,6 +660,7 @@
 },
 "best_week":{
 "week":2,
+"matchup_key":"emp-w2-7",
 "points":160.26,
 "opp_slot_id":"EMP-07",
 "opp_owner":"Kelton Berry",
@@ -640,6 +674,7 @@
 },
 "worst_week":{
 "week":3,
+"matchup_key":"emp-w3-14",
 "points":141.74,
 "opp_slot_id":"EMP-06",
 "opp_owner":"Ben Feldman",
@@ -690,6 +725,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"emp-w1-4",
 "points":117.5,
 "opp_slot_id":"EMP-01",
 "opp_owner":"Prajeet Sarker",
@@ -703,6 +739,7 @@
 },
 {
 "week":2,
+"matchup_key":"emp-w2-9",
 "points":102.48,
 "opp_slot_id":"EMP-03",
 "opp_owner":"Druv Murthy",
@@ -716,6 +753,7 @@
 },
 {
 "week":3,
+"matchup_key":"emp-w3-14",
 "points":133.38,
 "opp_slot_id":"EMP-05",
 "opp_owner":"Bradley Hart",
@@ -730,6 +768,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"emp-w4-19",
 "points":0.0,
 "opp_slot_id":"EMP-07",
 "opp_owner":"Kelton Berry",
@@ -738,6 +777,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":28,
 "record":{
 "wins":2,
@@ -759,6 +799,7 @@
 },
 "best_week":{
 "week":3,
+"matchup_key":"emp-w3-14",
 "points":133.38,
 "opp_slot_id":"EMP-05",
 "opp_owner":"Bradley Hart",
@@ -772,6 +813,7 @@
 },
 "worst_week":{
 "week":2,
+"matchup_key":"emp-w2-9",
 "points":102.48,
 "opp_slot_id":"EMP-03",
 "opp_owner":"Druv Murthy",
@@ -822,6 +864,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"emp-w1-1",
 "points":74.36,
 "opp_slot_id":"EMP-10",
 "opp_owner":"Jacob Salant",
@@ -835,6 +878,7 @@
 },
 {
 "week":2,
+"matchup_key":"emp-w2-7",
 "points":59.22,
 "opp_slot_id":"EMP-05",
 "opp_owner":"Bradley Hart",
@@ -848,6 +892,7 @@
 },
 {
 "week":3,
+"matchup_key":"emp-w3-13",
 "points":58.36,
 "opp_slot_id":"EMP-09",
 "opp_owner":"Matt Gates",
@@ -862,6 +907,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"emp-w4-19",
 "points":0.0,
 "opp_slot_id":"EMP-06",
 "opp_owner":"Ben Feldman",
@@ -870,6 +916,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":84,
 "record":{
 "wins":0,
@@ -891,6 +938,7 @@
 },
 "best_week":{
 "week":1,
+"matchup_key":"emp-w1-1",
 "points":74.36,
 "opp_slot_id":"EMP-10",
 "opp_owner":"Jacob Salant",
@@ -904,6 +952,7 @@
 },
 "worst_week":{
 "week":3,
+"matchup_key":"emp-w3-13",
 "points":58.36,
 "opp_slot_id":"EMP-09",
 "opp_owner":"Matt Gates",
@@ -954,6 +1003,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"emp-w1-6",
 "points":111.28,
 "opp_slot_id":"EMP-04",
 "opp_owner":"Zach Macdonald",
@@ -967,6 +1017,7 @@
 },
 {
 "week":2,
+"matchup_key":"emp-w2-12",
 "points":80.5,
 "opp_slot_id":"EMP-11",
 "opp_owner":"Victoire Cagniart",
@@ -980,6 +1031,7 @@
 },
 {
 "week":3,
+"matchup_key":"emp-w3-17",
 "points":140.68,
 "opp_slot_id":"EMP-12",
 "opp_owner":"Amelia Ockert",
@@ -994,6 +1046,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"emp-w4-22",
 "points":0.0,
 "opp_slot_id":"EMP-10",
 "opp_owner":"Jacob Salant",
@@ -1002,6 +1055,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":45,
 "record":{
 "wins":1,
@@ -1023,6 +1077,7 @@
 },
 "best_week":{
 "week":3,
+"matchup_key":"emp-w3-17",
 "points":140.68,
 "opp_slot_id":"EMP-12",
 "opp_owner":"Amelia Ockert",
@@ -1036,6 +1091,7 @@
 },
 "worst_week":{
 "week":2,
+"matchup_key":"emp-w2-12",
 "points":80.5,
 "opp_slot_id":"EMP-11",
 "opp_owner":"Victoire Cagniart",
@@ -1086,6 +1142,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"emp-w1-3",
 "points":121.86,
 "opp_slot_id":"EMP-12",
 "opp_owner":"Amelia Ockert",
@@ -1099,6 +1156,7 @@
 },
 {
 "week":2,
+"matchup_key":"emp-w2-8",
 "points":133.24,
 "opp_slot_id":"EMP-10",
 "opp_owner":"Jacob Salant",
@@ -1112,6 +1170,7 @@
 },
 {
 "week":3,
+"matchup_key":"emp-w3-13",
 "points":124.54,
 "opp_slot_id":"EMP-07",
 "opp_owner":"Kelton Berry",
@@ -1126,6 +1185,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"emp-w4-20",
 "points":0.0,
 "opp_slot_id":"EMP-02",
 "opp_owner":"Anita Bushnell",
@@ -1134,6 +1194,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":17,
 "record":{
 "wins":2,
@@ -1155,6 +1216,7 @@
 },
 "best_week":{
 "week":2,
+"matchup_key":"emp-w2-8",
 "points":133.24,
 "opp_slot_id":"EMP-10",
 "opp_owner":"Jacob Salant",
@@ -1168,6 +1230,7 @@
 },
 "worst_week":{
 "week":1,
+"matchup_key":"emp-w1-3",
 "points":121.86,
 "opp_slot_id":"EMP-12",
 "opp_owner":"Amelia Ockert",
@@ -1218,6 +1281,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"emp-w1-1",
 "points":126.96,
 "opp_slot_id":"EMP-07",
 "opp_owner":"Kelton Berry",
@@ -1231,6 +1295,7 @@
 },
 {
 "week":2,
+"matchup_key":"emp-w2-8",
 "points":125.5,
 "opp_slot_id":"EMP-09",
 "opp_owner":"Matt Gates",
@@ -1244,6 +1309,7 @@
 },
 {
 "week":3,
+"matchup_key":"emp-w3-15",
 "points":128.9,
 "opp_slot_id":"EMP-02",
 "opp_owner":"Anita Bushnell",
@@ -1258,6 +1324,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"emp-w4-22",
 "points":0.0,
 "opp_slot_id":"EMP-08",
 "opp_owner":"Cole Wyman",
@@ -1266,6 +1333,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":12,
 "record":{
 "wins":2,
@@ -1287,6 +1355,7 @@
 },
 "best_week":{
 "week":3,
+"matchup_key":"emp-w3-15",
 "points":128.9,
 "opp_slot_id":"EMP-02",
 "opp_owner":"Anita Bushnell",
@@ -1300,6 +1369,7 @@
 },
 "worst_week":{
 "week":2,
+"matchup_key":"emp-w2-8",
 "points":125.5,
 "opp_slot_id":"EMP-09",
 "opp_owner":"Matt Gates",
@@ -1337,6 +1407,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"emp-w1-5",
 "points":142.86,
 "opp_slot_id":"EMP-02",
 "opp_owner":"Anita Bushnell",
@@ -1350,6 +1421,7 @@
 },
 {
 "week":2,
+"matchup_key":"emp-w2-12",
 "points":102.02,
 "opp_slot_id":"EMP-08",
 "opp_owner":"Cole Wyman",
@@ -1363,6 +1435,7 @@
 },
 {
 "week":3,
+"matchup_key":"emp-w3-18",
 "points":91.0,
 "opp_slot_id":"EMP-01",
 "opp_owner":"Prajeet Sarker",
@@ -1377,6 +1450,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"emp-w4-23",
 "points":0.0,
 "opp_slot_id":"EMP-03",
 "opp_owner":"Druv Murthy",
@@ -1385,6 +1459,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":34,
 "record":{
 "wins":3,
@@ -1406,6 +1481,7 @@
 },
 "best_week":{
 "week":1,
+"matchup_key":"emp-w1-5",
 "points":142.86,
 "opp_slot_id":"EMP-02",
 "opp_owner":"Anita Bushnell",
@@ -1419,6 +1495,7 @@
 },
 "worst_week":{
 "week":3,
+"matchup_key":"emp-w3-18",
 "points":91.0,
 "opp_slot_id":"EMP-01",
 "opp_owner":"Prajeet Sarker",
@@ -1456,6 +1533,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"emp-w1-3",
 "points":124.96,
 "opp_slot_id":"EMP-09",
 "opp_owner":"Matt Gates",
@@ -1469,6 +1547,7 @@
 },
 {
 "week":2,
+"matchup_key":"emp-w2-10",
 "points":113.78,
 "opp_slot_id":"EMP-02",
 "opp_owner":"Anita Bushnell",
@@ -1482,6 +1561,7 @@
 },
 {
 "week":3,
+"matchup_key":"emp-w3-17",
 "points":93.78,
 "opp_slot_id":"EMP-08",
 "opp_owner":"Cole Wyman",
@@ -1496,6 +1576,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"emp-w4-24",
 "points":0.0,
 "opp_slot_id":"EMP-01",
 "opp_owner":"Prajeet Sarker",
@@ -1504,6 +1585,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":39,
 "record":{
 "wins":2,
@@ -1525,6 +1607,7 @@
 },
 "best_week":{
 "week":1,
+"matchup_key":"emp-w1-3",
 "points":124.96,
 "opp_slot_id":"EMP-09",
 "opp_owner":"Matt Gates",
@@ -1538,6 +1621,7 @@
 },
 "worst_week":{
 "week":3,
+"matchup_key":"emp-w3-17",
 "points":93.78,
 "opp_slot_id":"EMP-08",
 "opp_owner":"Cole Wyman",
@@ -1588,6 +1672,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"got-w1-2",
 "points":169.94,
 "opp_slot_id":"GOT-12",
 "opp_owner":"League Manager",
@@ -1601,6 +1686,7 @@
 },
 {
 "week":2,
+"matchup_key":"got-w2-7",
 "points":133.88,
 "opp_slot_id":"GOT-05",
 "opp_owner":"Benjamin Sango",
@@ -1614,6 +1700,7 @@
 },
 {
 "week":3,
+"matchup_key":"got-w3-14",
 "points":158.26,
 "opp_slot_id":"GOT-08",
 "opp_owner":"Sloane Winters Holtzman",
@@ -1628,6 +1715,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"got-w4-21",
 "points":0.0,
 "opp_slot_id":"GOT-07",
 "opp_owner":"Rohan Bhargava",
@@ -1636,6 +1724,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":1,
 "record":{
 "wins":3,
@@ -1657,6 +1746,7 @@
 },
 "best_week":{
 "week":1,
+"matchup_key":"got-w1-2",
 "points":169.94,
 "opp_slot_id":"GOT-12",
 "opp_owner":"League Manager",
@@ -1670,6 +1760,7 @@
 },
 "worst_week":{
 "week":2,
+"matchup_key":"got-w2-7",
 "points":133.88,
 "opp_slot_id":"GOT-05",
 "opp_owner":"Benjamin Sango",
@@ -1720,6 +1811,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"got-w1-5",
 "points":119.06,
 "opp_slot_id":"GOT-03",
 "opp_owner":"Ashutosh Bajpai",
@@ -1733,6 +1825,7 @@
 },
 {
 "week":2,
+"matchup_key":"got-w2-12",
 "points":79.54,
 "opp_slot_id":"GOT-06",
 "opp_owner":"Zoe Stern",
@@ -1746,6 +1839,7 @@
 },
 {
 "week":3,
+"matchup_key":"got-w3-18",
 "points":90.8,
 "opp_slot_id":"GOT-09",
 "opp_owner":"Julian Kurtzman",
@@ -1760,6 +1854,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"got-w4-23",
 "points":0.0,
 "opp_slot_id":"GOT-12",
 "opp_owner":"League Manager",
@@ -1768,6 +1863,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":70,
 "record":{
 "wins":1,
@@ -1789,6 +1885,7 @@
 },
 "best_week":{
 "week":1,
+"matchup_key":"got-w1-5",
 "points":119.06,
 "opp_slot_id":"GOT-03",
 "opp_owner":"Ashutosh Bajpai",
@@ -1802,6 +1899,7 @@
 },
 "worst_week":{
 "week":2,
+"matchup_key":"got-w2-12",
 "points":79.54,
 "opp_slot_id":"GOT-06",
 "opp_owner":"Zoe Stern",
@@ -1852,6 +1950,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"got-w1-5",
 "points":107.6,
 "opp_slot_id":"GOT-02",
 "opp_owner":"Santiago Castillo",
@@ -1865,6 +1964,7 @@
 },
 {
 "week":2,
+"matchup_key":"got-w2-10",
 "points":104.78,
 "opp_slot_id":"GOT-10",
 "opp_owner":"Bogdan Hamilton",
@@ -1878,6 +1978,7 @@
 },
 {
 "week":3,
+"matchup_key":"got-w3-15",
 "points":109.88,
 "opp_slot_id":"GOT-11",
 "opp_owner":"Robert Mueller",
@@ -1892,6 +1993,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"got-w4-20",
 "points":0.0,
 "opp_slot_id":"GOT-04",
 "opp_owner":"Sahil Singh",
@@ -1900,6 +2002,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":54,
 "record":{
 "wins":0,
@@ -1921,6 +2024,7 @@
 },
 "best_week":{
 "week":3,
+"matchup_key":"got-w3-15",
 "points":109.88,
 "opp_slot_id":"GOT-11",
 "opp_owner":"Robert Mueller",
@@ -1934,6 +2038,7 @@
 },
 "worst_week":{
 "week":2,
+"matchup_key":"got-w2-10",
 "points":104.78,
 "opp_slot_id":"GOT-10",
 "opp_owner":"Bogdan Hamilton",
@@ -1975,6 +2080,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"got-w1-3",
 "points":104.56,
 "opp_slot_id":"GOT-10",
 "opp_owner":"Bogdan Hamilton",
@@ -1988,6 +2094,7 @@
 },
 {
 "week":2,
+"matchup_key":"got-w2-8",
 "points":74.68,
 "opp_slot_id":"GOT-11",
 "opp_owner":"Robert Mueller",
@@ -2001,6 +2108,7 @@
 },
 {
 "week":3,
+"matchup_key":"got-w3-13",
 "points":66.74,
 "opp_slot_id":"GOT-05",
 "opp_owner":"Benjamin Sango",
@@ -2015,6 +2123,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"got-w4-20",
 "points":0.0,
 "opp_slot_id":"GOT-03",
 "opp_owner":"Ashutosh Bajpai",
@@ -2023,6 +2132,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":81,
 "record":{
 "wins":0,
@@ -2044,6 +2154,7 @@
 },
 "best_week":{
 "week":1,
+"matchup_key":"got-w1-3",
 "points":104.56,
 "opp_slot_id":"GOT-10",
 "opp_owner":"Bogdan Hamilton",
@@ -2057,6 +2168,7 @@
 },
 "worst_week":{
 "week":3,
+"matchup_key":"got-w3-13",
 "points":66.74,
 "opp_slot_id":"GOT-05",
 "opp_owner":"Benjamin Sango",
@@ -2107,6 +2219,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"got-w1-1",
 "points":57.16,
 "opp_slot_id":"GOT-11",
 "opp_owner":"Robert Mueller",
@@ -2120,6 +2233,7 @@
 },
 {
 "week":2,
+"matchup_key":"got-w2-7",
 "points":102.3,
 "opp_slot_id":"GOT-01",
 "opp_owner":"Alice Khayami",
@@ -2133,6 +2247,7 @@
 },
 {
 "week":3,
+"matchup_key":"got-w3-13",
 "points":105.64,
 "opp_slot_id":"GOT-04",
 "opp_owner":"Sahil Singh",
@@ -2147,6 +2262,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"got-w4-19",
 "points":0.0,
 "opp_slot_id":"GOT-08",
 "opp_owner":"Sloane Winters Holtzman",
@@ -2155,6 +2271,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":76,
 "record":{
 "wins":1,
@@ -2176,6 +2293,7 @@
 },
 "best_week":{
 "week":3,
+"matchup_key":"got-w3-13",
 "points":105.64,
 "opp_slot_id":"GOT-04",
 "opp_owner":"Sahil Singh",
@@ -2189,6 +2307,7 @@
 },
 "worst_week":{
 "week":1,
+"matchup_key":"got-w1-1",
 "points":57.16,
 "opp_slot_id":"GOT-11",
 "opp_owner":"Robert Mueller",
@@ -2236,6 +2355,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"got-w1-6",
 "points":139.6,
 "opp_slot_id":"GOT-07",
 "opp_owner":"Rohan Bhargava",
@@ -2249,6 +2369,7 @@
 },
 {
 "week":2,
+"matchup_key":"got-w2-12",
 "points":104.86,
 "opp_slot_id":"GOT-02",
 "opp_owner":"Santiago Castillo",
@@ -2262,6 +2383,7 @@
 },
 {
 "week":3,
+"matchup_key":"got-w3-17",
 "points":148.54,
 "opp_slot_id":"GOT-10",
 "opp_owner":"Bogdan Hamilton",
@@ -2276,6 +2398,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"got-w4-22",
 "points":0.0,
 "opp_slot_id":"GOT-11",
 "opp_owner":"Robert Mueller",
@@ -2284,6 +2407,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":9,
 "record":{
 "wins":2,
@@ -2305,6 +2429,7 @@
 },
 "best_week":{
 "week":3,
+"matchup_key":"got-w3-17",
 "points":148.54,
 "opp_slot_id":"GOT-10",
 "opp_owner":"Bogdan Hamilton",
@@ -2318,6 +2443,7 @@
 },
 "worst_week":{
 "week":2,
+"matchup_key":"got-w2-12",
 "points":104.86,
 "opp_slot_id":"GOT-02",
 "opp_owner":"Santiago Castillo",
@@ -2368,6 +2494,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"got-w1-6",
 "points":120.16,
 "opp_slot_id":"GOT-06",
 "opp_owner":"Zoe Stern",
@@ -2381,6 +2508,7 @@
 },
 {
 "week":2,
+"matchup_key":"got-w2-11",
 "points":111.02,
 "opp_slot_id":"GOT-09",
 "opp_owner":"Julian Kurtzman",
@@ -2394,6 +2522,7 @@
 },
 {
 "week":3,
+"matchup_key":"got-w3-16",
 "points":97.86,
 "opp_slot_id":"GOT-12",
 "opp_owner":"League Manager",
@@ -2408,6 +2537,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"got-w4-21",
 "points":0.0,
 "opp_slot_id":"GOT-01",
 "opp_owner":"Alice Khayami",
@@ -2416,6 +2546,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":46,
 "record":{
 "wins":1,
@@ -2437,6 +2568,7 @@
 },
 "best_week":{
 "week":1,
+"matchup_key":"got-w1-6",
 "points":120.16,
 "opp_slot_id":"GOT-06",
 "opp_owner":"Zoe Stern",
@@ -2450,6 +2582,7 @@
 },
 "worst_week":{
 "week":3,
+"matchup_key":"got-w3-16",
 "points":97.86,
 "opp_slot_id":"GOT-12",
 "opp_owner":"League Manager",
@@ -2500,6 +2633,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"got-w1-4",
 "points":125.22,
 "opp_slot_id":"GOT-09",
 "opp_owner":"Julian Kurtzman",
@@ -2513,6 +2647,7 @@
 },
 {
 "week":2,
+"matchup_key":"got-w2-9",
 "points":113.46,
 "opp_slot_id":"GOT-12",
 "opp_owner":"League Manager",
@@ -2526,6 +2661,7 @@
 },
 {
 "week":3,
+"matchup_key":"got-w3-14",
 "points":90.02,
 "opp_slot_id":"GOT-01",
 "opp_owner":"Alice Khayami",
@@ -2540,6 +2676,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"got-w4-19",
 "points":0.0,
 "opp_slot_id":"GOT-05",
 "opp_owner":"Benjamin Sango",
@@ -2548,6 +2685,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":49,
 "record":{
 "wins":2,
@@ -2569,6 +2707,7 @@
 },
 "best_week":{
 "week":1,
+"matchup_key":"got-w1-4",
 "points":125.22,
 "opp_slot_id":"GOT-09",
 "opp_owner":"Julian Kurtzman",
@@ -2582,6 +2721,7 @@
 },
 "worst_week":{
 "week":3,
+"matchup_key":"got-w3-14",
 "points":90.02,
 "opp_slot_id":"GOT-01",
 "opp_owner":"Alice Khayami",
@@ -2632,6 +2772,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"got-w1-4",
 "points":90.2,
 "opp_slot_id":"GOT-08",
 "opp_owner":"Sloane Winters Holtzman",
@@ -2645,6 +2786,7 @@
 },
 {
 "week":2,
+"matchup_key":"got-w2-11",
 "points":148.56,
 "opp_slot_id":"GOT-07",
 "opp_owner":"Rohan Bhargava",
@@ -2658,6 +2800,7 @@
 },
 {
 "week":3,
+"matchup_key":"got-w3-18",
 "points":94.84,
 "opp_slot_id":"GOT-02",
 "opp_owner":"Santiago Castillo",
@@ -2672,6 +2815,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"got-w4-24",
 "points":0.0,
 "opp_slot_id":"GOT-10",
 "opp_owner":"Bogdan Hamilton",
@@ -2680,6 +2824,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":42,
 "record":{
 "wins":2,
@@ -2701,6 +2846,7 @@
 },
 "best_week":{
 "week":2,
+"matchup_key":"got-w2-11",
 "points":148.56,
 "opp_slot_id":"GOT-07",
 "opp_owner":"Rohan Bhargava",
@@ -2714,6 +2860,7 @@
 },
 "worst_week":{
 "week":1,
+"matchup_key":"got-w1-4",
 "points":90.2,
 "opp_slot_id":"GOT-08",
 "opp_owner":"Sloane Winters Holtzman",
@@ -2764,6 +2911,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"got-w1-3",
 "points":142.26,
 "opp_slot_id":"GOT-04",
 "opp_owner":"Sahil Singh",
@@ -2777,6 +2925,7 @@
 },
 {
 "week":2,
+"matchup_key":"got-w2-10",
 "points":114.82,
 "opp_slot_id":"GOT-03",
 "opp_owner":"Ashutosh Bajpai",
@@ -2790,6 +2939,7 @@
 },
 {
 "week":3,
+"matchup_key":"got-w3-17",
 "points":154.52,
 "opp_slot_id":"GOT-06",
 "opp_owner":"Zoe Stern",
@@ -2804,6 +2954,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"got-w4-24",
 "points":0.0,
 "opp_slot_id":"GOT-09",
 "opp_owner":"Julian Kurtzman",
@@ -2812,6 +2963,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":6,
 "record":{
 "wins":3,
@@ -2833,6 +2985,7 @@
 },
 "best_week":{
 "week":3,
+"matchup_key":"got-w3-17",
 "points":154.52,
 "opp_slot_id":"GOT-06",
 "opp_owner":"Zoe Stern",
@@ -2846,6 +2999,7 @@
 },
 "worst_week":{
 "week":2,
+"matchup_key":"got-w2-10",
 "points":114.82,
 "opp_slot_id":"GOT-03",
 "opp_owner":"Ashutosh Bajpai",
@@ -2887,6 +3041,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"got-w1-1",
 "points":122.36,
 "opp_slot_id":"GOT-05",
 "opp_owner":"Benjamin Sango",
@@ -2900,6 +3055,7 @@
 },
 {
 "week":2,
+"matchup_key":"got-w2-8",
 "points":116.78,
 "opp_slot_id":"GOT-04",
 "opp_owner":"Sahil Singh",
@@ -2913,6 +3069,7 @@
 },
 {
 "week":3,
+"matchup_key":"got-w3-15",
 "points":117.42,
 "opp_slot_id":"GOT-03",
 "opp_owner":"Ashutosh Bajpai",
@@ -2927,6 +3084,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"got-w4-22",
 "points":0.0,
 "opp_slot_id":"GOT-06",
 "opp_owner":"Zoe Stern",
@@ -2935,6 +3093,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":26,
 "record":{
 "wins":3,
@@ -2956,6 +3115,7 @@
 },
 "best_week":{
 "week":1,
+"matchup_key":"got-w1-1",
 "points":122.36,
 "opp_slot_id":"GOT-05",
 "opp_owner":"Benjamin Sango",
@@ -2969,6 +3129,7 @@
 },
 "worst_week":{
 "week":2,
+"matchup_key":"got-w2-8",
 "points":116.78,
 "opp_slot_id":"GOT-04",
 "opp_owner":"Sahil Singh",
@@ -3006,6 +3167,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"got-w1-2",
 "points":133.04,
 "opp_slot_id":"GOT-01",
 "opp_owner":"Alice Khayami",
@@ -3019,6 +3181,7 @@
 },
 {
 "week":2,
+"matchup_key":"got-w2-9",
 "points":80.28,
 "opp_slot_id":"GOT-08",
 "opp_owner":"Sloane Winters Holtzman",
@@ -3032,6 +3195,7 @@
 },
 {
 "week":3,
+"matchup_key":"got-w3-16",
 "points":90.18,
 "opp_slot_id":"GOT-07",
 "opp_owner":"Rohan Bhargava",
@@ -3046,6 +3210,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"got-w4-23",
 "points":0.0,
 "opp_slot_id":"GOT-02",
 "opp_owner":"Santiago Castillo",
@@ -3054,6 +3219,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":64,
 "record":{
 "wins":0,
@@ -3075,6 +3241,7 @@
 },
 "best_week":{
 "week":1,
+"matchup_key":"got-w1-2",
 "points":133.04,
 "opp_slot_id":"GOT-01",
 "opp_owner":"Alice Khayami",
@@ -3088,6 +3255,7 @@
 },
 "worst_week":{
 "week":2,
+"matchup_key":"got-w2-9",
 "points":80.28,
 "opp_slot_id":"GOT-08",
 "opp_owner":"Sloane Winters Holtzman",
@@ -3138,6 +3306,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"bea-w1-4",
 "points":94.72,
 "opp_slot_id":"BEA-05",
 "opp_owner":"Lukas Marmanis",
@@ -3151,6 +3320,7 @@
 },
 {
 "week":2,
+"matchup_key":"bea-w2-11",
 "points":91.06,
 "opp_slot_id":"BEA-04",
 "opp_owner":"Jacqui Lemire",
@@ -3164,6 +3334,7 @@
 },
 {
 "week":3,
+"matchup_key":"bea-w3-18",
 "points":110.42,
 "opp_slot_id":"BEA-11",
 "opp_owner":"Prateek Mehta",
@@ -3178,6 +3349,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"bea-w4-24",
 "points":0.0,
 "opp_slot_id":"BEA-03",
 "opp_owner":"James Mulcahy",
@@ -3186,6 +3358,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":65,
 "record":{
 "wins":2,
@@ -3207,6 +3380,7 @@
 },
 "best_week":{
 "week":3,
+"matchup_key":"bea-w3-18",
 "points":110.42,
 "opp_slot_id":"BEA-11",
 "opp_owner":"Prateek Mehta",
@@ -3220,6 +3394,7 @@
 },
 "worst_week":{
 "week":2,
+"matchup_key":"bea-w2-11",
 "points":91.06,
 "opp_slot_id":"BEA-04",
 "opp_owner":"Jacqui Lemire",
@@ -3270,6 +3445,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"bea-w1-5",
 "points":158.9,
 "opp_slot_id":"BEA-11",
 "opp_owner":"Prateek Mehta",
@@ -3283,6 +3459,7 @@
 },
 {
 "week":2,
+"matchup_key":"bea-w2-10",
 "points":111.16,
 "opp_slot_id":"BEA-03",
 "opp_owner":"James Mulcahy",
@@ -3296,6 +3473,7 @@
 },
 {
 "week":3,
+"matchup_key":"bea-w3-15",
 "points":146.38,
 "opp_slot_id":"BEA-06",
 "opp_owner":"Sylee Dandekar",
@@ -3310,6 +3488,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"bea-w4-20",
 "points":0.0,
 "opp_slot_id":"BEA-09",
 "opp_owner":"Peter Chang",
@@ -3318,6 +3497,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":4,
 "record":{
 "wins":2,
@@ -3339,6 +3519,7 @@
 },
 "best_week":{
 "week":1,
+"matchup_key":"bea-w1-5",
 "points":158.9,
 "opp_slot_id":"BEA-11",
 "opp_owner":"Prateek Mehta",
@@ -3352,6 +3533,7 @@
 },
 "worst_week":{
 "week":2,
+"matchup_key":"bea-w2-10",
 "points":111.16,
 "opp_slot_id":"BEA-03",
 "opp_owner":"James Mulcahy",
@@ -3403,6 +3585,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"bea-w1-3",
 "points":94.56,
 "opp_slot_id":"BEA-09",
 "opp_owner":"Peter Chang",
@@ -3416,6 +3599,7 @@
 },
 {
 "week":2,
+"matchup_key":"bea-w2-10",
 "points":130.92,
 "opp_slot_id":"BEA-02",
 "opp_owner":"Justin Metz",
@@ -3429,6 +3613,7 @@
 },
 {
 "week":3,
+"matchup_key":"bea-w3-17",
 "points":92.26,
 "opp_slot_id":"BEA-08",
 "opp_owner":"Bill Leith",
@@ -3443,6 +3628,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"bea-w4-24",
 "points":0.0,
 "opp_slot_id":"BEA-01",
 "opp_owner":"Brittany Halks",
@@ -3451,6 +3637,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":57,
 "record":{
 "wins":1,
@@ -3472,6 +3659,7 @@
 },
 "best_week":{
 "week":2,
+"matchup_key":"bea-w2-10",
 "points":130.92,
 "opp_slot_id":"BEA-02",
 "opp_owner":"Justin Metz",
@@ -3485,6 +3673,7 @@
 },
 "worst_week":{
 "week":3,
+"matchup_key":"bea-w3-17",
 "points":92.26,
 "opp_slot_id":"BEA-08",
 "opp_owner":"Bill Leith",
@@ -3536,6 +3725,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"bea-w1-6",
 "points":142.5,
 "opp_slot_id":"BEA-08",
 "opp_owner":"Bill Leith",
@@ -3549,6 +3739,7 @@
 },
 {
 "week":2,
+"matchup_key":"bea-w2-11",
 "points":83.5,
 "opp_slot_id":"BEA-01",
 "opp_owner":"Brittany Halks",
@@ -3562,6 +3753,7 @@
 },
 {
 "week":3,
+"matchup_key":"bea-w3-16",
 "points":105.82,
 "opp_slot_id":"BEA-12",
 "opp_owner":"Charlie Fairfax",
@@ -3576,6 +3768,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"bea-w4-21",
 "points":0.0,
 "opp_slot_id":"BEA-07",
 "opp_owner":"Christopher Teixeira",
@@ -3584,6 +3777,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":40,
 "record":{
 "wins":1,
@@ -3605,6 +3799,7 @@
 },
 "best_week":{
 "week":1,
+"matchup_key":"bea-w1-6",
 "points":142.5,
 "opp_slot_id":"BEA-08",
 "opp_owner":"Bill Leith",
@@ -3618,6 +3813,7 @@
 },
 "worst_week":{
 "week":2,
+"matchup_key":"bea-w2-11",
 "points":83.5,
 "opp_slot_id":"BEA-01",
 "opp_owner":"Brittany Halks",
@@ -3668,6 +3864,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"bea-w1-4",
 "points":133.26,
 "opp_slot_id":"BEA-01",
 "opp_owner":"Brittany Halks",
@@ -3681,6 +3878,7 @@
 },
 {
 "week":2,
+"matchup_key":"bea-w2-9",
 "points":67.48,
 "opp_slot_id":"BEA-12",
 "opp_owner":"Charlie Fairfax",
@@ -3694,6 +3892,7 @@
 },
 {
 "week":3,
+"matchup_key":"bea-w3-14",
 "points":77.14,
 "opp_slot_id":"BEA-07",
 "opp_owner":"Christopher Teixeira",
@@ -3708,6 +3907,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"bea-w4-19",
 "points":0.0,
 "opp_slot_id":"BEA-10",
 "opp_owner":"Nadir Tekarli",
@@ -3716,6 +3916,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":71,
 "record":{
 "wins":2,
@@ -3737,6 +3938,7 @@
 },
 "best_week":{
 "week":1,
+"matchup_key":"bea-w1-4",
 "points":133.26,
 "opp_slot_id":"BEA-01",
 "opp_owner":"Brittany Halks",
@@ -3750,6 +3952,7 @@
 },
 "worst_week":{
 "week":2,
+"matchup_key":"bea-w2-9",
 "points":67.48,
 "opp_slot_id":"BEA-12",
 "opp_owner":"Charlie Fairfax",
@@ -3802,6 +4005,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"bea-w1-1",
 "points":124.06,
 "opp_slot_id":"BEA-10",
 "opp_owner":"Nadir Tekarli",
@@ -3815,6 +4019,7 @@
 },
 {
 "week":2,
+"matchup_key":"bea-w2-8",
 "points":90.62,
 "opp_slot_id":"BEA-09",
 "opp_owner":"Peter Chang",
@@ -3828,6 +4033,7 @@
 },
 {
 "week":3,
+"matchup_key":"bea-w3-15",
 "points":69.5,
 "opp_slot_id":"BEA-02",
 "opp_owner":"Justin Metz",
@@ -3842,6 +4048,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"bea-w4-22",
 "points":0.0,
 "opp_slot_id":"BEA-08",
 "opp_owner":"Bill Leith",
@@ -3850,6 +4057,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":69,
 "record":{
 "wins":2,
@@ -3871,6 +4079,7 @@
 },
 "best_week":{
 "week":1,
+"matchup_key":"bea-w1-1",
 "points":124.06,
 "opp_slot_id":"BEA-10",
 "opp_owner":"Nadir Tekarli",
@@ -3884,6 +4093,7 @@
 },
 "worst_week":{
 "week":3,
+"matchup_key":"bea-w3-15",
 "points":69.5,
 "opp_slot_id":"BEA-02",
 "opp_owner":"Justin Metz",
@@ -3934,6 +4144,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"bea-w1-2",
 "points":117.22,
 "opp_slot_id":"BEA-12",
 "opp_owner":"Charlie Fairfax",
@@ -3947,6 +4158,7 @@
 },
 {
 "week":2,
+"matchup_key":"bea-w2-7",
 "points":109.12,
 "opp_slot_id":"BEA-10",
 "opp_owner":"Nadir Tekarli",
@@ -3960,6 +4172,7 @@
 },
 {
 "week":3,
+"matchup_key":"bea-w3-14",
 "points":76.96,
 "opp_slot_id":"BEA-05",
 "opp_owner":"Lukas Marmanis",
@@ -3974,6 +4187,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"bea-w4-21",
 "points":0.0,
 "opp_slot_id":"BEA-04",
 "opp_owner":"Jacqui Lemire",
@@ -3982,6 +4196,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":61,
 "record":{
 "wins":1,
@@ -4003,6 +4218,7 @@
 },
 "best_week":{
 "week":1,
+"matchup_key":"bea-w1-2",
 "points":117.22,
 "opp_slot_id":"BEA-12",
 "opp_owner":"Charlie Fairfax",
@@ -4016,6 +4232,7 @@
 },
 "worst_week":{
 "week":3,
+"matchup_key":"bea-w3-14",
 "points":76.96,
 "opp_slot_id":"BEA-05",
 "opp_owner":"Lukas Marmanis",
@@ -4067,6 +4284,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"bea-w1-6",
 "points":94.4,
 "opp_slot_id":"BEA-04",
 "opp_owner":"Jacqui Lemire",
@@ -4080,6 +4298,7 @@
 },
 {
 "week":2,
+"matchup_key":"bea-w2-12",
 "points":115.38,
 "opp_slot_id":"BEA-11",
 "opp_owner":"Prateek Mehta",
@@ -4093,6 +4312,7 @@
 },
 {
 "week":3,
+"matchup_key":"bea-w3-17",
 "points":141.08,
 "opp_slot_id":"BEA-03",
 "opp_owner":"James Mulcahy",
@@ -4107,6 +4327,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"bea-w4-22",
 "points":0.0,
 "opp_slot_id":"BEA-06",
 "opp_owner":"Sylee Dandekar",
@@ -4115,6 +4336,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":33,
 "record":{
 "wins":1,
@@ -4136,6 +4358,7 @@
 },
 "best_week":{
 "week":3,
+"matchup_key":"bea-w3-17",
 "points":141.08,
 "opp_slot_id":"BEA-03",
 "opp_owner":"James Mulcahy",
@@ -4149,6 +4372,7 @@
 },
 "worst_week":{
 "week":1,
+"matchup_key":"bea-w1-6",
 "points":94.4,
 "opp_slot_id":"BEA-04",
 "opp_owner":"Jacqui Lemire",
@@ -4200,6 +4424,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"bea-w1-3",
 "points":109.06,
 "opp_slot_id":"BEA-03",
 "opp_owner":"James Mulcahy",
@@ -4213,6 +4438,7 @@
 },
 {
 "week":2,
+"matchup_key":"bea-w2-8",
 "points":80.48,
 "opp_slot_id":"BEA-06",
 "opp_owner":"Sylee Dandekar",
@@ -4226,6 +4452,7 @@
 },
 {
 "week":3,
+"matchup_key":"bea-w3-13",
 "points":76.18,
 "opp_slot_id":"BEA-10",
 "opp_owner":"Nadir Tekarli",
@@ -4240,6 +4467,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"bea-w4-20",
 "points":0.0,
 "opp_slot_id":"BEA-02",
 "opp_owner":"Justin Metz",
@@ -4248,6 +4476,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":78,
 "record":{
 "wins":1,
@@ -4269,6 +4498,7 @@
 },
 "best_week":{
 "week":1,
+"matchup_key":"bea-w1-3",
 "points":109.06,
 "opp_slot_id":"BEA-03",
 "opp_owner":"James Mulcahy",
@@ -4282,6 +4512,7 @@
 },
 "worst_week":{
 "week":3,
+"matchup_key":"bea-w3-13",
 "points":76.18,
 "opp_slot_id":"BEA-10",
 "opp_owner":"Nadir Tekarli",
@@ -4328,6 +4559,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"bea-w1-1",
 "points":112.36,
 "opp_slot_id":"BEA-06",
 "opp_owner":"Sylee Dandekar",
@@ -4341,6 +4573,7 @@
 },
 {
 "week":2,
+"matchup_key":"bea-w2-7",
 "points":116.44,
 "opp_slot_id":"BEA-07",
 "opp_owner":"Christopher Teixeira",
@@ -4354,6 +4587,7 @@
 },
 {
 "week":3,
+"matchup_key":"bea-w3-13",
 "points":118.0,
 "opp_slot_id":"BEA-09",
 "opp_owner":"Peter Chang",
@@ -4368,6 +4602,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"bea-w4-19",
 "points":0.0,
 "opp_slot_id":"BEA-05",
 "opp_owner":"Lukas Marmanis",
@@ -4376,6 +4611,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":31,
 "record":{
 "wins":2,
@@ -4397,6 +4633,7 @@
 },
 "best_week":{
 "week":3,
+"matchup_key":"bea-w3-13",
 "points":118.0,
 "opp_slot_id":"BEA-09",
 "opp_owner":"Peter Chang",
@@ -4410,6 +4647,7 @@
 },
 "worst_week":{
 "week":1,
+"matchup_key":"bea-w1-1",
 "points":112.36,
 "opp_slot_id":"BEA-06",
 "opp_owner":"Sylee Dandekar",
@@ -4451,6 +4689,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"bea-w1-5",
 "points":118.74,
 "opp_slot_id":"BEA-02",
 "opp_owner":"Justin Metz",
@@ -4464,6 +4703,7 @@
 },
 {
 "week":2,
+"matchup_key":"bea-w2-12",
 "points":152.98,
 "opp_slot_id":"BEA-08",
 "opp_owner":"Bill Leith",
@@ -4477,6 +4717,7 @@
 },
 {
 "week":3,
+"matchup_key":"bea-w3-18",
 "points":105.6,
 "opp_slot_id":"BEA-01",
 "opp_owner":"Brittany Halks",
@@ -4491,6 +4732,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"bea-w4-23",
 "points":0.0,
 "opp_slot_id":"BEA-12",
 "opp_owner":"Charlie Fairfax",
@@ -4499,6 +4741,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":15,
 "record":{
 "wins":1,
@@ -4520,6 +4763,7 @@
 },
 "best_week":{
 "week":2,
+"matchup_key":"bea-w2-12",
 "points":152.98,
 "opp_slot_id":"BEA-08",
 "opp_owner":"Bill Leith",
@@ -4533,6 +4777,7 @@
 },
 "worst_week":{
 "week":3,
+"matchup_key":"bea-w3-18",
 "points":105.6,
 "opp_slot_id":"BEA-01",
 "opp_owner":"Brittany Halks",
@@ -4570,6 +4815,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"bea-w1-2",
 "points":116.4,
 "opp_slot_id":"BEA-07",
 "opp_owner":"Christopher Teixeira",
@@ -4583,6 +4829,7 @@
 },
 {
 "week":2,
+"matchup_key":"bea-w2-9",
 "points":145.06,
 "opp_slot_id":"BEA-05",
 "opp_owner":"Lukas Marmanis",
@@ -4596,6 +4843,7 @@
 },
 {
 "week":3,
+"matchup_key":"bea-w3-16",
 "points":124.04,
 "opp_slot_id":"BEA-04",
 "opp_owner":"Jacqui Lemire",
@@ -4610,6 +4858,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"bea-w4-23",
 "points":0.0,
 "opp_slot_id":"BEA-11",
 "opp_owner":"Prateek Mehta",
@@ -4618,6 +4867,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":11,
 "record":{
 "wins":2,
@@ -4639,6 +4889,7 @@
 },
 "best_week":{
 "week":2,
+"matchup_key":"bea-w2-9",
 "points":145.06,
 "opp_slot_id":"BEA-05",
 "opp_owner":"Lukas Marmanis",
@@ -4652,6 +4903,7 @@
 },
 "worst_week":{
 "week":1,
+"matchup_key":"bea-w1-2",
 "points":116.4,
 "opp_slot_id":"BEA-07",
 "opp_owner":"Christopher Teixeira",
@@ -4693,6 +4945,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"har-w1-6",
 "points":130.56,
 "opp_slot_id":"HAR-02",
 "opp_owner":"Nhi Dang",
@@ -4706,6 +4959,7 @@
 },
 {
 "week":2,
+"matchup_key":"har-w2-11",
 "points":95.7,
 "opp_slot_id":"HAR-09",
 "opp_owner":"Tyler Richards",
@@ -4719,6 +4973,7 @@
 },
 {
 "week":3,
+"matchup_key":"har-w3-16",
 "points":70.74,
 "opp_slot_id":"HAR-03",
 "opp_owner":"Samuel Peter",
@@ -4733,6 +4988,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"har-w4-21",
 "points":0.0,
 "opp_slot_id":"HAR-11",
 "opp_owner":"Gabriele Corbetta",
@@ -4741,6 +4997,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":66,
 "record":{
 "wins":1,
@@ -4762,6 +5019,7 @@
 },
 "best_week":{
 "week":1,
+"matchup_key":"har-w1-6",
 "points":130.56,
 "opp_slot_id":"HAR-02",
 "opp_owner":"Nhi Dang",
@@ -4775,6 +5033,7 @@
 },
 "worst_week":{
 "week":3,
+"matchup_key":"har-w3-16",
 "points":70.74,
 "opp_slot_id":"HAR-03",
 "opp_owner":"Samuel Peter",
@@ -4816,6 +5075,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"har-w1-6",
 "points":103.1,
 "opp_slot_id":"HAR-01",
 "opp_owner":"Aaron White",
@@ -4829,6 +5089,7 @@
 },
 {
 "week":2,
+"matchup_key":"har-w2-12",
 "points":113.68,
 "opp_slot_id":"HAR-08",
 "opp_owner":"Ranmit Pantle",
@@ -4842,6 +5103,7 @@
 },
 {
 "week":3,
+"matchup_key":"har-w3-17",
 "points":99.1,
 "opp_slot_id":"HAR-06",
 "opp_owner":"Brian Hunscher",
@@ -4856,6 +5118,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"har-w4-22",
 "points":0.0,
 "opp_slot_id":"HAR-10",
 "opp_owner":"Sowmya Sridhar",
@@ -4864,6 +5127,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":58,
 "record":{
 "wins":2,
@@ -4885,6 +5149,7 @@
 },
 "best_week":{
 "week":2,
+"matchup_key":"har-w2-12",
 "points":113.68,
 "opp_slot_id":"HAR-08",
 "opp_owner":"Ranmit Pantle",
@@ -4898,6 +5163,7 @@
 },
 "worst_week":{
 "week":3,
+"matchup_key":"har-w3-17",
 "points":99.1,
 "opp_slot_id":"HAR-06",
 "opp_owner":"Brian Hunscher",
@@ -4946,6 +5212,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"har-w1-2",
 "points":143.1,
 "opp_slot_id":"HAR-11",
 "opp_owner":"Gabriele Corbetta",
@@ -4959,6 +5226,7 @@
 },
 {
 "week":2,
+"matchup_key":"har-w2-9",
 "points":96.36,
 "opp_slot_id":"HAR-07",
 "opp_owner":"Caroline Scala",
@@ -4972,6 +5240,7 @@
 },
 {
 "week":3,
+"matchup_key":"har-w3-16",
 "points":132.48,
 "opp_slot_id":"HAR-01",
 "opp_owner":"Aaron White",
@@ -4986,6 +5255,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"har-w4-23",
 "points":0.0,
 "opp_slot_id":"HAR-08",
 "opp_owner":"Ranmit Pantle",
@@ -4994,6 +5264,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":16,
 "record":{
 "wins":3,
@@ -5015,6 +5286,7 @@
 },
 "best_week":{
 "week":1,
+"matchup_key":"har-w1-2",
 "points":143.1,
 "opp_slot_id":"HAR-11",
 "opp_owner":"Gabriele Corbetta",
@@ -5028,6 +5300,7 @@
 },
 "worst_week":{
 "week":2,
+"matchup_key":"har-w2-9",
 "points":96.36,
 "opp_slot_id":"HAR-07",
 "opp_owner":"Caroline Scala",
@@ -5078,6 +5351,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"har-w1-1",
 "points":111.16,
 "opp_slot_id":"HAR-10",
 "opp_owner":"Sowmya Sridhar",
@@ -5091,6 +5365,7 @@
 },
 {
 "week":2,
+"matchup_key":"har-w2-7",
 "points":131.14,
 "opp_slot_id":"HAR-11",
 "opp_owner":"Gabriele Corbetta",
@@ -5104,6 +5379,7 @@
 },
 {
 "week":3,
+"matchup_key":"har-w3-13",
 "points":131.42,
 "opp_slot_id":"HAR-05",
 "opp_owner":"Jin Paik",
@@ -5118,6 +5394,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"har-w4-19",
 "points":0.0,
 "opp_slot_id":"HAR-07",
 "opp_owner":"Caroline Scala",
@@ -5126,6 +5403,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":19,
 "record":{
 "wins":3,
@@ -5147,6 +5425,7 @@
 },
 "best_week":{
 "week":3,
+"matchup_key":"har-w3-13",
 "points":131.42,
 "opp_slot_id":"HAR-05",
 "opp_owner":"Jin Paik",
@@ -5160,6 +5439,7 @@
 },
 "worst_week":{
 "week":1,
+"matchup_key":"har-w1-1",
 "points":111.16,
 "opp_slot_id":"HAR-10",
 "opp_owner":"Sowmya Sridhar",
@@ -5208,6 +5488,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"har-w1-3",
 "points":110.0,
 "opp_slot_id":"HAR-06",
 "opp_owner":"Brian Hunscher",
@@ -5221,6 +5502,7 @@
 },
 {
 "week":2,
+"matchup_key":"har-w2-8",
 "points":117.96,
 "opp_slot_id":"HAR-10",
 "opp_owner":"Sowmya Sridhar",
@@ -5234,6 +5516,7 @@
 },
 {
 "week":3,
+"matchup_key":"har-w3-13",
 "points":101.44,
 "opp_slot_id":"HAR-04",
 "opp_owner":"Douglas Kirkpatrick",
@@ -5248,6 +5531,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"har-w4-20",
 "points":0.0,
 "opp_slot_id":"HAR-12",
 "opp_owner":"Elisabeth Beltinger",
@@ -5256,6 +5540,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":41,
 "record":{
 "wins":1,
@@ -5277,6 +5562,7 @@
 },
 "best_week":{
 "week":2,
+"matchup_key":"har-w2-8",
 "points":117.96,
 "opp_slot_id":"HAR-10",
 "opp_owner":"Sowmya Sridhar",
@@ -5290,6 +5576,7 @@
 },
 "worst_week":{
 "week":3,
+"matchup_key":"har-w3-13",
 "points":101.44,
 "opp_slot_id":"HAR-04",
 "opp_owner":"Douglas Kirkpatrick",
@@ -5341,6 +5628,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"har-w1-3",
 "points":151.52,
 "opp_slot_id":"HAR-05",
 "opp_owner":"Jin Paik",
@@ -5354,6 +5642,7 @@
 },
 {
 "week":2,
+"matchup_key":"har-w2-10",
 "points":88.26,
 "opp_slot_id":"HAR-12",
 "opp_owner":"Elisabeth Beltinger",
@@ -5367,6 +5656,7 @@
 },
 {
 "week":3,
+"matchup_key":"har-w3-17",
 "points":79.92,
 "opp_slot_id":"HAR-02",
 "opp_owner":"Nhi Dang",
@@ -5381,6 +5671,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"har-w4-24",
 "points":0.0,
 "opp_slot_id":"HAR-09",
 "opp_owner":"Tyler Richards",
@@ -5389,6 +5680,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":56,
 "record":{
 "wins":2,
@@ -5410,6 +5702,7 @@
 },
 "best_week":{
 "week":1,
+"matchup_key":"har-w1-3",
 "points":151.52,
 "opp_slot_id":"HAR-05",
 "opp_owner":"Jin Paik",
@@ -5423,6 +5716,7 @@
 },
 "worst_week":{
 "week":3,
+"matchup_key":"har-w3-17",
 "points":79.92,
 "opp_slot_id":"HAR-02",
 "opp_owner":"Nhi Dang",
@@ -5473,6 +5767,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"har-w1-4",
 "points":133.76,
 "opp_slot_id":"HAR-09",
 "opp_owner":"Tyler Richards",
@@ -5486,6 +5781,7 @@
 },
 {
 "week":2,
+"matchup_key":"har-w2-9",
 "points":85.08,
 "opp_slot_id":"HAR-03",
 "opp_owner":"Samuel Peter",
@@ -5499,6 +5795,7 @@
 },
 {
 "week":3,
+"matchup_key":"har-w3-14",
 "points":143.18,
 "opp_slot_id":"HAR-11",
 "opp_owner":"Gabriele Corbetta",
@@ -5513,6 +5810,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"har-w4-19",
 "points":0.0,
 "opp_slot_id":"HAR-04",
 "opp_owner":"Douglas Kirkpatrick",
@@ -5521,6 +5819,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":25,
 "record":{
 "wins":2,
@@ -5542,6 +5841,7 @@
 },
 "best_week":{
 "week":3,
+"matchup_key":"har-w3-14",
 "points":143.18,
 "opp_slot_id":"HAR-11",
 "opp_owner":"Gabriele Corbetta",
@@ -5555,6 +5855,7 @@
 },
 "worst_week":{
 "week":2,
+"matchup_key":"har-w2-9",
 "points":85.08,
 "opp_slot_id":"HAR-03",
 "opp_owner":"Samuel Peter",
@@ -5605,6 +5906,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"har-w1-5",
 "points":80.42,
 "opp_slot_id":"HAR-12",
 "opp_owner":"Elisabeth Beltinger",
@@ -5618,6 +5920,7 @@
 },
 {
 "week":2,
+"matchup_key":"har-w2-12",
 "points":101.62,
 "opp_slot_id":"HAR-02",
 "opp_owner":"Nhi Dang",
@@ -5631,6 +5934,7 @@
 },
 {
 "week":3,
+"matchup_key":"har-w3-18",
 "points":85.06,
 "opp_slot_id":"HAR-09",
 "opp_owner":"Tyler Richards",
@@ -5645,6 +5949,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"har-w4-23",
 "points":0.0,
 "opp_slot_id":"HAR-03",
 "opp_owner":"Samuel Peter",
@@ -5653,6 +5958,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":75,
 "record":{
 "wins":0,
@@ -5674,6 +5980,7 @@
 },
 "best_week":{
 "week":2,
+"matchup_key":"har-w2-12",
 "points":101.62,
 "opp_slot_id":"HAR-02",
 "opp_owner":"Nhi Dang",
@@ -5687,6 +5994,7 @@
 },
 "worst_week":{
 "week":1,
+"matchup_key":"har-w1-5",
 "points":80.42,
 "opp_slot_id":"HAR-12",
 "opp_owner":"Elisabeth Beltinger",
@@ -5728,6 +6036,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"har-w1-4",
 "points":115.96,
 "opp_slot_id":"HAR-07",
 "opp_owner":"Caroline Scala",
@@ -5741,6 +6050,7 @@
 },
 {
 "week":2,
+"matchup_key":"har-w2-11",
 "points":103.32,
 "opp_slot_id":"HAR-01",
 "opp_owner":"Aaron White",
@@ -5754,6 +6064,7 @@
 },
 {
 "week":3,
+"matchup_key":"har-w3-18",
 "points":114.06,
 "opp_slot_id":"HAR-08",
 "opp_owner":"Ranmit Pantle",
@@ -5768,6 +6079,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"har-w4-24",
 "points":0.0,
 "opp_slot_id":"HAR-06",
 "opp_owner":"Brian Hunscher",
@@ -5776,6 +6088,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":38,
 "record":{
 "wins":2,
@@ -5797,6 +6110,7 @@
 },
 "best_week":{
 "week":1,
+"matchup_key":"har-w1-4",
 "points":115.96,
 "opp_slot_id":"HAR-07",
 "opp_owner":"Caroline Scala",
@@ -5810,6 +6124,7 @@
 },
 "worst_week":{
 "week":2,
+"matchup_key":"har-w2-11",
 "points":103.32,
 "opp_slot_id":"HAR-01",
 "opp_owner":"Aaron White",
@@ -5851,6 +6166,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"har-w1-1",
 "points":106.36,
 "opp_slot_id":"HAR-04",
 "opp_owner":"Douglas Kirkpatrick",
@@ -5864,6 +6180,7 @@
 },
 {
 "week":2,
+"matchup_key":"har-w2-8",
 "points":88.42,
 "opp_slot_id":"HAR-05",
 "opp_owner":"Jin Paik",
@@ -5877,6 +6194,7 @@
 },
 {
 "week":3,
+"matchup_key":"har-w3-15",
 "points":80.7,
 "opp_slot_id":"HAR-12",
 "opp_owner":"Elisabeth Beltinger",
@@ -5891,6 +6209,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"har-w4-22",
 "points":0.0,
 "opp_slot_id":"HAR-02",
 "opp_owner":"Nhi Dang",
@@ -5899,6 +6218,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":73,
 "record":{
 "wins":0,
@@ -5920,6 +6240,7 @@
 },
 "best_week":{
 "week":1,
+"matchup_key":"har-w1-1",
 "points":106.36,
 "opp_slot_id":"HAR-04",
 "opp_owner":"Douglas Kirkpatrick",
@@ -5933,6 +6254,7 @@
 },
 "worst_week":{
 "week":3,
+"matchup_key":"har-w3-15",
 "points":80.7,
 "opp_slot_id":"HAR-12",
 "opp_owner":"Elisabeth Beltinger",
@@ -5974,6 +6296,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"har-w1-2",
 "points":124.46,
 "opp_slot_id":"HAR-03",
 "opp_owner":"Samuel Peter",
@@ -5987,6 +6310,7 @@
 },
 {
 "week":2,
+"matchup_key":"har-w2-7",
 "points":118.88,
 "opp_slot_id":"HAR-04",
 "opp_owner":"Douglas Kirkpatrick",
@@ -6000,6 +6324,7 @@
 },
 {
 "week":3,
+"matchup_key":"har-w3-14",
 "points":89.64,
 "opp_slot_id":"HAR-07",
 "opp_owner":"Caroline Scala",
@@ -6014,6 +6339,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"har-w4-21",
 "points":0.0,
 "opp_slot_id":"HAR-01",
 "opp_owner":"Aaron White",
@@ -6022,6 +6348,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":35,
 "record":{
 "wins":0,
@@ -6043,6 +6370,7 @@
 },
 "best_week":{
 "week":1,
+"matchup_key":"har-w1-2",
 "points":124.46,
 "opp_slot_id":"HAR-03",
 "opp_owner":"Samuel Peter",
@@ -6056,6 +6384,7 @@
 },
 "worst_week":{
 "week":3,
+"matchup_key":"har-w3-14",
 "points":89.64,
 "opp_slot_id":"HAR-07",
 "opp_owner":"Caroline Scala",
@@ -6093,6 +6422,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"har-w1-5",
 "points":117.9,
 "opp_slot_id":"HAR-08",
 "opp_owner":"Ranmit Pantle",
@@ -6106,6 +6436,7 @@
 },
 {
 "week":2,
+"matchup_key":"har-w2-10",
 "points":72.2,
 "opp_slot_id":"HAR-06",
 "opp_owner":"Brian Hunscher",
@@ -6119,6 +6450,7 @@
 },
 {
 "week":3,
+"matchup_key":"har-w3-15",
 "points":130.26,
 "opp_slot_id":"HAR-10",
 "opp_owner":"Sowmya Sridhar",
@@ -6133,6 +6465,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"har-w4-20",
 "points":0.0,
 "opp_slot_id":"HAR-05",
 "opp_owner":"Jin Paik",
@@ -6141,6 +6474,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":55,
 "record":{
 "wins":2,
@@ -6162,6 +6496,7 @@
 },
 "best_week":{
 "week":3,
+"matchup_key":"har-w3-15",
 "points":130.26,
 "opp_slot_id":"HAR-10",
 "opp_owner":"Sowmya Sridhar",
@@ -6175,6 +6510,7 @@
 },
 "worst_week":{
 "week":2,
+"matchup_key":"har-w2-10",
 "points":72.2,
 "opp_slot_id":"HAR-06",
 "opp_owner":"Brian Hunscher",
@@ -6228,6 +6564,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"alc-w1-5",
 "points":108.7,
 "opp_slot_id":"ALC-02",
 "opp_owner":"Jonathan Wong",
@@ -6241,6 +6578,7 @@
 },
 {
 "week":2,
+"matchup_key":"alc-w2-10",
 "points":84.56,
 "opp_slot_id":"ALC-08",
 "opp_owner":"Hersh lakdawala",
@@ -6254,6 +6592,7 @@
 },
 {
 "week":3,
+"matchup_key":"alc-w3-15",
 "points":131.18,
 "opp_slot_id":"ALC-10",
 "opp_owner":"Ranjeet Laungani",
@@ -6268,6 +6607,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"alc-w4-20",
 "points":0.0,
 "opp_slot_id":"ALC-12",
 "opp_owner":"League Manager",
@@ -6276,6 +6616,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":51,
 "record":{
 "wins":2,
@@ -6297,6 +6638,7 @@
 },
 "best_week":{
 "week":3,
+"matchup_key":"alc-w3-15",
 "points":131.18,
 "opp_slot_id":"ALC-10",
 "opp_owner":"Ranjeet Laungani",
@@ -6310,6 +6652,7 @@
 },
 "worst_week":{
 "week":2,
+"matchup_key":"alc-w2-10",
 "points":84.56,
 "opp_slot_id":"ALC-08",
 "opp_owner":"Hersh lakdawala",
@@ -6363,6 +6706,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"alc-w1-5",
 "points":94.72,
 "opp_slot_id":"ALC-01",
 "opp_owner":"Roberto Zuban",
@@ -6376,6 +6720,7 @@
 },
 {
 "week":2,
+"matchup_key":"alc-w2-12",
 "points":142.38,
 "opp_slot_id":"ALC-05",
 "opp_owner":"Mark Karlson",
@@ -6389,6 +6734,7 @@
 },
 {
 "week":3,
+"matchup_key":"alc-w3-18",
 "points":135.54,
 "opp_slot_id":"ALC-06",
 "opp_owner":"Cuau Trevino",
@@ -6403,6 +6749,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"alc-w4-23",
 "points":0.0,
 "opp_slot_id":"ALC-11",
 "opp_owner":"Cedric Garcia",
@@ -6411,6 +6758,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":21,
 "record":{
 "wins":1,
@@ -6432,6 +6780,7 @@
 },
 "best_week":{
 "week":2,
+"matchup_key":"alc-w2-12",
 "points":142.38,
 "opp_slot_id":"ALC-05",
 "opp_owner":"Mark Karlson",
@@ -6445,6 +6794,7 @@
 },
 "worst_week":{
 "week":1,
+"matchup_key":"alc-w1-5",
 "points":94.72,
 "opp_slot_id":"ALC-01",
 "opp_owner":"Roberto Zuban",
@@ -6498,6 +6848,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"alc-w1-2",
 "points":163.76,
 "opp_slot_id":"ALC-11",
 "opp_owner":"Cedric Garcia",
@@ -6511,6 +6862,7 @@
 },
 {
 "week":2,
+"matchup_key":"alc-w2-7",
 "points":163.52,
 "opp_slot_id":"ALC-04",
 "opp_owner":"Akshay Goel",
@@ -6524,6 +6876,7 @@
 },
 {
 "week":3,
+"matchup_key":"alc-w3-14",
 "points":93.66,
 "opp_slot_id":"ALC-07",
 "opp_owner":"Danielle Collazo",
@@ -6538,6 +6891,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"alc-w4-21",
 "points":0.0,
 "opp_slot_id":"ALC-09",
 "opp_owner":"Sam Hoffman",
@@ -6546,6 +6900,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":5,
 "record":{
 "wins":3,
@@ -6567,6 +6922,7 @@
 },
 "best_week":{
 "week":1,
+"matchup_key":"alc-w1-2",
 "points":163.76,
 "opp_slot_id":"ALC-11",
 "opp_owner":"Cedric Garcia",
@@ -6580,6 +6936,7 @@
 },
 "worst_week":{
 "week":3,
+"matchup_key":"alc-w3-14",
 "points":93.66,
 "opp_slot_id":"ALC-07",
 "opp_owner":"Danielle Collazo",
@@ -6625,6 +6982,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"alc-w1-1",
 "points":104.26,
 "opp_slot_id":"ALC-10",
 "opp_owner":"Ranjeet Laungani",
@@ -6638,6 +6996,7 @@
 },
 {
 "week":2,
+"matchup_key":"alc-w2-7",
 "points":105.58,
 "opp_slot_id":"ALC-03",
 "opp_owner":"Catherine Goel",
@@ -6651,6 +7010,7 @@
 },
 {
 "week":3,
+"matchup_key":"alc-w3-13",
 "points":94.08,
 "opp_slot_id":"ALC-12",
 "opp_owner":"League Manager",
@@ -6665,6 +7025,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"alc-w4-19",
 "points":0.0,
 "opp_slot_id":"ALC-07",
 "opp_owner":"Danielle Collazo",
@@ -6673,6 +7034,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":60,
 "record":{
 "wins":2,
@@ -6694,6 +7056,7 @@
 },
 "best_week":{
 "week":2,
+"matchup_key":"alc-w2-7",
 "points":105.58,
 "opp_slot_id":"ALC-03",
 "opp_owner":"Catherine Goel",
@@ -6707,6 +7070,7 @@
 },
 "worst_week":{
 "week":3,
+"matchup_key":"alc-w3-13",
 "points":94.08,
 "opp_slot_id":"ALC-12",
 "opp_owner":"League Manager",
@@ -6760,6 +7124,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"alc-w1-6",
 "points":120.16,
 "opp_slot_id":"ALC-09",
 "opp_owner":"Sam Hoffman",
@@ -6773,6 +7138,7 @@
 },
 {
 "week":2,
+"matchup_key":"alc-w2-12",
 "points":102.28,
 "opp_slot_id":"ALC-02",
 "opp_owner":"Jonathan Wong",
@@ -6786,6 +7152,7 @@
 },
 {
 "week":3,
+"matchup_key":"alc-w3-17",
 "points":123.84,
 "opp_slot_id":"ALC-08",
 "opp_owner":"Hersh lakdawala",
@@ -6800,6 +7167,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"alc-w4-22",
 "points":0.0,
 "opp_slot_id":"ALC-10",
 "opp_owner":"Ranjeet Laungani",
@@ -6808,6 +7176,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":36,
 "record":{
 "wins":1,
@@ -6829,6 +7198,7 @@
 },
 "best_week":{
 "week":3,
+"matchup_key":"alc-w3-17",
 "points":123.84,
 "opp_slot_id":"ALC-08",
 "opp_owner":"Hersh lakdawala",
@@ -6842,6 +7212,7 @@
 },
 "worst_week":{
 "week":2,
+"matchup_key":"alc-w2-12",
 "points":102.28,
 "opp_slot_id":"ALC-02",
 "opp_owner":"Jonathan Wong",
@@ -6895,6 +7266,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"alc-w1-4",
 "points":134.92,
 "opp_slot_id":"ALC-07",
 "opp_owner":"Danielle Collazo",
@@ -6908,6 +7280,7 @@
 },
 {
 "week":2,
+"matchup_key":"alc-w2-11",
 "points":122.46,
 "opp_slot_id":"ALC-09",
 "opp_owner":"Sam Hoffman",
@@ -6921,6 +7294,7 @@
 },
 {
 "week":3,
+"matchup_key":"alc-w3-18",
 "points":139.22,
 "opp_slot_id":"ALC-02",
 "opp_owner":"Jonathan Wong",
@@ -6935,6 +7309,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"alc-w4-24",
 "points":0.0,
 "opp_slot_id":"ALC-08",
 "opp_owner":"Hersh lakdawala",
@@ -6943,6 +7318,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":7,
 "record":{
 "wins":3,
@@ -6964,6 +7340,7 @@
 },
 "best_week":{
 "week":3,
+"matchup_key":"alc-w3-18",
 "points":139.22,
 "opp_slot_id":"ALC-02",
 "opp_owner":"Jonathan Wong",
@@ -6977,6 +7354,7 @@
 },
 "worst_week":{
 "week":2,
+"matchup_key":"alc-w2-11",
 "points":122.46,
 "opp_slot_id":"ALC-09",
 "opp_owner":"Sam Hoffman",
@@ -7030,6 +7408,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"alc-w1-4",
 "points":96.86,
 "opp_slot_id":"ALC-06",
 "opp_owner":"Cuau Trevino",
@@ -7043,6 +7422,7 @@
 },
 {
 "week":2,
+"matchup_key":"alc-w2-9",
 "points":80.14,
 "opp_slot_id":"ALC-11",
 "opp_owner":"Cedric Garcia",
@@ -7056,6 +7436,7 @@
 },
 {
 "week":3,
+"matchup_key":"alc-w3-14",
 "points":89.9,
 "opp_slot_id":"ALC-03",
 "opp_owner":"Catherine Goel",
@@ -7070,6 +7451,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"alc-w4-19",
 "points":0.0,
 "opp_slot_id":"ALC-04",
 "opp_owner":"Akshay Goel",
@@ -7078,6 +7460,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":79,
 "record":{
 "wins":0,
@@ -7099,6 +7482,7 @@
 },
 "best_week":{
 "week":1,
+"matchup_key":"alc-w1-4",
 "points":96.86,
 "opp_slot_id":"ALC-06",
 "opp_owner":"Cuau Trevino",
@@ -7112,6 +7496,7 @@
 },
 "worst_week":{
 "week":2,
+"matchup_key":"alc-w2-9",
 "points":80.14,
 "opp_slot_id":"ALC-11",
 "opp_owner":"Cedric Garcia",
@@ -7163,6 +7548,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"alc-w1-3",
 "points":137.66,
 "opp_slot_id":"ALC-12",
 "opp_owner":"League Manager",
@@ -7176,6 +7562,7 @@
 },
 {
 "week":2,
+"matchup_key":"alc-w2-10",
 "points":113.32,
 "opp_slot_id":"ALC-01",
 "opp_owner":"Roberto Zuban",
@@ -7189,6 +7576,7 @@
 },
 {
 "week":3,
+"matchup_key":"alc-w3-17",
 "points":117.94,
 "opp_slot_id":"ALC-05",
 "opp_owner":"Mark Karlson",
@@ -7203,6 +7591,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"alc-w4-24",
 "points":0.0,
 "opp_slot_id":"ALC-06",
 "opp_owner":"Cuau Trevino",
@@ -7211,6 +7600,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":22,
 "record":{
 "wins":1,
@@ -7232,6 +7622,7 @@
 },
 "best_week":{
 "week":1,
+"matchup_key":"alc-w1-3",
 "points":137.66,
 "opp_slot_id":"ALC-12",
 "opp_owner":"League Manager",
@@ -7245,6 +7636,7 @@
 },
 "worst_week":{
 "week":2,
+"matchup_key":"alc-w2-10",
 "points":113.32,
 "opp_slot_id":"ALC-01",
 "opp_owner":"Roberto Zuban",
@@ -7298,6 +7690,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"alc-w1-6",
 "points":150.66,
 "opp_slot_id":"ALC-05",
 "opp_owner":"Mark Karlson",
@@ -7311,6 +7704,7 @@
 },
 {
 "week":2,
+"matchup_key":"alc-w2-11",
 "points":83.2,
 "opp_slot_id":"ALC-06",
 "opp_owner":"Cuau Trevino",
@@ -7324,6 +7718,7 @@
 },
 {
 "week":3,
+"matchup_key":"alc-w3-16",
 "points":138.14,
 "opp_slot_id":"ALC-11",
 "opp_owner":"Cedric Garcia",
@@ -7338,6 +7733,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"alc-w4-21",
 "points":0.0,
 "opp_slot_id":"ALC-03",
 "opp_owner":"Catherine Goel",
@@ -7346,6 +7742,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":20,
 "record":{
 "wins":2,
@@ -7367,6 +7764,7 @@
 },
 "best_week":{
 "week":1,
+"matchup_key":"alc-w1-6",
 "points":150.66,
 "opp_slot_id":"ALC-05",
 "opp_owner":"Mark Karlson",
@@ -7380,6 +7778,7 @@
 },
 "worst_week":{
 "week":2,
+"matchup_key":"alc-w2-11",
 "points":83.2,
 "opp_slot_id":"ALC-06",
 "opp_owner":"Cuau Trevino",
@@ -7421,6 +7820,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"alc-w1-1",
 "points":69.84,
 "opp_slot_id":"ALC-04",
 "opp_owner":"Akshay Goel",
@@ -7434,6 +7834,7 @@
 },
 {
 "week":2,
+"matchup_key":"alc-w2-8",
 "points":56.92,
 "opp_slot_id":"ALC-12",
 "opp_owner":"League Manager",
@@ -7447,6 +7848,7 @@
 },
 {
 "week":3,
+"matchup_key":"alc-w3-15",
 "points":90.34,
 "opp_slot_id":"ALC-01",
 "opp_owner":"Roberto Zuban",
@@ -7461,6 +7863,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"alc-w4-22",
 "points":0.0,
 "opp_slot_id":"ALC-05",
 "opp_owner":"Mark Karlson",
@@ -7469,6 +7872,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":83,
 "record":{
 "wins":0,
@@ -7490,6 +7894,7 @@
 },
 "best_week":{
 "week":3,
+"matchup_key":"alc-w3-15",
 "points":90.34,
 "opp_slot_id":"ALC-01",
 "opp_owner":"Roberto Zuban",
@@ -7503,6 +7908,7 @@
 },
 "worst_week":{
 "week":2,
+"matchup_key":"alc-w2-8",
 "points":56.92,
 "opp_slot_id":"ALC-12",
 "opp_owner":"League Manager",
@@ -7540,6 +7946,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"alc-w1-2",
 "points":109.5,
 "opp_slot_id":"ALC-03",
 "opp_owner":"Catherine Goel",
@@ -7553,6 +7960,7 @@
 },
 {
 "week":2,
+"matchup_key":"alc-w2-9",
 "points":139.66,
 "opp_slot_id":"ALC-07",
 "opp_owner":"Danielle Collazo",
@@ -7566,6 +7974,7 @@
 },
 {
 "week":3,
+"matchup_key":"alc-w3-16",
 "points":131.74,
 "opp_slot_id":"ALC-09",
 "opp_owner":"Sam Hoffman",
@@ -7580,6 +7989,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"alc-w4-23",
 "points":0.0,
 "opp_slot_id":"ALC-02",
 "opp_owner":"Jonathan Wong",
@@ -7588,6 +7998,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":14,
 "record":{
 "wins":1,
@@ -7609,6 +8020,7 @@
 },
 "best_week":{
 "week":2,
+"matchup_key":"alc-w2-9",
 "points":139.66,
 "opp_slot_id":"ALC-07",
 "opp_owner":"Danielle Collazo",
@@ -7622,6 +8034,7 @@
 },
 "worst_week":{
 "week":1,
+"matchup_key":"alc-w1-2",
 "points":109.5,
 "opp_slot_id":"ALC-03",
 "opp_owner":"Catherine Goel",
@@ -7659,6 +8072,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"alc-w1-3",
 "points":142.1,
 "opp_slot_id":"ALC-08",
 "opp_owner":"Hersh lakdawala",
@@ -7672,6 +8086,7 @@
 },
 {
 "week":2,
+"matchup_key":"alc-w2-8",
 "points":105.4,
 "opp_slot_id":"ALC-10",
 "opp_owner":"Ranjeet Laungani",
@@ -7685,6 +8100,7 @@
 },
 {
 "week":3,
+"matchup_key":"alc-w3-13",
 "points":75.4,
 "opp_slot_id":"ALC-04",
 "opp_owner":"Akshay Goel",
@@ -7699,6 +8115,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"alc-w4-20",
 "points":0.0,
 "opp_slot_id":"ALC-01",
 "opp_owner":"Roberto Zuban",
@@ -7707,6 +8124,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":53,
 "record":{
 "wins":2,
@@ -7728,6 +8146,7 @@
 },
 "best_week":{
 "week":1,
+"matchup_key":"alc-w1-3",
 "points":142.1,
 "opp_slot_id":"ALC-08",
 "opp_owner":"Hersh lakdawala",
@@ -7741,6 +8160,7 @@
 },
 "worst_week":{
 "week":3,
+"matchup_key":"alc-w3-13",
 "points":75.4,
 "opp_slot_id":"ALC-04",
 "opp_owner":"Akshay Goel",
@@ -7791,6 +8211,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"all-w1-3",
 "points":107.12,
 "opp_slot_id":"ALL-02",
 "opp_owner":"Jack Cardwell",
@@ -7804,6 +8225,7 @@
 },
 {
 "week":2,
+"matchup_key":"all-w2-8",
 "points":134.48,
 "opp_slot_id":"ALL-04",
 "opp_owner":"Jacob Lehman",
@@ -7817,6 +8239,7 @@
 },
 {
 "week":3,
+"matchup_key":"all-w3-13",
 "points":89.04,
 "opp_slot_id":"ALL-12",
 "opp_owner":"League Manager",
@@ -7831,6 +8254,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"all-w4-20",
 "points":0.0,
 "opp_slot_id":"ALL-05",
 "opp_owner":"Ben Klopack",
@@ -7839,6 +8263,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":44,
 "record":{
 "wins":3,
@@ -7860,6 +8285,7 @@
 },
 "best_week":{
 "week":2,
+"matchup_key":"all-w2-8",
 "points":134.48,
 "opp_slot_id":"ALL-04",
 "opp_owner":"Jacob Lehman",
@@ -7873,6 +8299,7 @@
 },
 "worst_week":{
 "week":3,
+"matchup_key":"all-w3-13",
 "points":89.04,
 "opp_slot_id":"ALL-12",
 "opp_owner":"League Manager",
@@ -7926,6 +8353,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"all-w1-3",
 "points":88.18,
 "opp_slot_id":"ALL-01",
 "opp_owner":"Fraser Thompson",
@@ -7939,6 +8367,7 @@
 },
 {
 "week":2,
+"matchup_key":"all-w2-10",
 "points":59.8,
 "opp_slot_id":"ALL-05",
 "opp_owner":"Ben Klopack",
@@ -7952,6 +8381,7 @@
 },
 {
 "week":3,
+"matchup_key":"all-w3-17",
 "points":94.48,
 "opp_slot_id":"ALL-10",
 "opp_owner":"Benjamin Christensen",
@@ -7966,6 +8396,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"all-w4-24",
 "points":0.0,
 "opp_slot_id":"ALL-06",
 "opp_owner":"Ben Lieber",
@@ -7974,6 +8405,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":82,
 "record":{
 "wins":0,
@@ -7995,6 +8427,7 @@
 },
 "best_week":{
 "week":3,
+"matchup_key":"all-w3-17",
 "points":94.48,
 "opp_slot_id":"ALL-10",
 "opp_owner":"Benjamin Christensen",
@@ -8008,6 +8441,7 @@
 },
 "worst_week":{
 "week":2,
+"matchup_key":"all-w2-10",
 "points":59.8,
 "opp_slot_id":"ALL-05",
 "opp_owner":"Ben Klopack",
@@ -8053,6 +8487,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"all-w1-2",
 "points":147.66,
 "opp_slot_id":"ALL-07",
 "opp_owner":"Mike Latona",
@@ -8066,6 +8501,7 @@
 },
 {
 "week":2,
+"matchup_key":"all-w2-9",
 "points":105.48,
 "opp_slot_id":"ALL-08",
 "opp_owner":"Andre Costa",
@@ -8079,6 +8515,7 @@
 },
 {
 "week":3,
+"matchup_key":"all-w3-16",
 "points":129.18,
 "opp_slot_id":"ALL-09",
 "opp_owner":"Omer Khan",
@@ -8093,6 +8530,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"all-w4-23",
 "points":0.0,
 "opp_slot_id":"ALL-11",
 "opp_owner":"Max Gross",
@@ -8101,6 +8539,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":13,
 "record":{
 "wins":2,
@@ -8122,6 +8561,7 @@
 },
 "best_week":{
 "week":1,
+"matchup_key":"all-w1-2",
 "points":147.66,
 "opp_slot_id":"ALL-07",
 "opp_owner":"Mike Latona",
@@ -8135,6 +8575,7 @@
 },
 "worst_week":{
 "week":2,
+"matchup_key":"all-w2-9",
 "points":105.48,
 "opp_slot_id":"ALL-08",
 "opp_owner":"Andre Costa",
@@ -8187,6 +8628,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"all-w1-1",
 "points":147.46,
 "opp_slot_id":"ALL-12",
 "opp_owner":"League Manager",
@@ -8200,6 +8642,7 @@
 },
 {
 "week":2,
+"matchup_key":"all-w2-8",
 "points":112.72,
 "opp_slot_id":"ALL-01",
 "opp_owner":"Fraser Thompson",
@@ -8213,6 +8656,7 @@
 },
 {
 "week":3,
+"matchup_key":"all-w3-15",
 "points":105.86,
 "opp_slot_id":"ALL-05",
 "opp_owner":"Ben Klopack",
@@ -8227,6 +8671,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"all-w4-22",
 "points":0.0,
 "opp_slot_id":"ALL-10",
 "opp_owner":"Benjamin Christensen",
@@ -8235,6 +8680,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":23,
 "record":{
 "wins":2,
@@ -8256,6 +8702,7 @@
 },
 "best_week":{
 "week":1,
+"matchup_key":"all-w1-1",
 "points":147.46,
 "opp_slot_id":"ALL-12",
 "opp_owner":"League Manager",
@@ -8269,6 +8716,7 @@
 },
 "worst_week":{
 "week":3,
+"matchup_key":"all-w3-15",
 "points":105.86,
 "opp_slot_id":"ALL-05",
 "opp_owner":"Ben Klopack",
@@ -8322,6 +8770,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"all-w1-5",
 "points":102.2,
 "opp_slot_id":"ALL-11",
 "opp_owner":"Max Gross",
@@ -8335,6 +8784,7 @@
 },
 {
 "week":2,
+"matchup_key":"all-w2-10",
 "points":169.76,
 "opp_slot_id":"ALL-02",
 "opp_owner":"Jack Cardwell",
@@ -8348,6 +8798,7 @@
 },
 {
 "week":3,
+"matchup_key":"all-w3-15",
 "points":97.44,
 "opp_slot_id":"ALL-04",
 "opp_owner":"Jacob Lehman",
@@ -8362,6 +8813,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"all-w4-20",
 "points":0.0,
 "opp_slot_id":"ALL-01",
 "opp_owner":"Fraser Thompson",
@@ -8370,6 +8822,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":27,
 "record":{
 "wins":1,
@@ -8391,6 +8844,7 @@
 },
 "best_week":{
 "week":2,
+"matchup_key":"all-w2-10",
 "points":169.76,
 "opp_slot_id":"ALL-02",
 "opp_owner":"Jack Cardwell",
@@ -8404,6 +8858,7 @@
 },
 "worst_week":{
 "week":3,
+"matchup_key":"all-w3-15",
 "points":97.44,
 "opp_slot_id":"ALL-04",
 "opp_owner":"Jacob Lehman",
@@ -8457,6 +8912,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"all-w1-4",
 "points":145.66,
 "opp_slot_id":"ALL-08",
 "opp_owner":"Andre Costa",
@@ -8470,6 +8926,7 @@
 },
 {
 "week":2,
+"matchup_key":"all-w2-11",
 "points":62.32,
 "opp_slot_id":"ALL-09",
 "opp_owner":"Omer Khan",
@@ -8483,6 +8940,7 @@
 },
 {
 "week":3,
+"matchup_key":"all-w3-18",
 "points":97.96,
 "opp_slot_id":"ALL-11",
 "opp_owner":"Max Gross",
@@ -8497,6 +8955,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"all-w4-24",
 "points":0.0,
 "opp_slot_id":"ALL-02",
 "opp_owner":"Jack Cardwell",
@@ -8505,6 +8964,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":63,
 "record":{
 "wins":1,
@@ -8526,6 +8986,7 @@
 },
 "best_week":{
 "week":1,
+"matchup_key":"all-w1-4",
 "points":145.66,
 "opp_slot_id":"ALL-08",
 "opp_owner":"Andre Costa",
@@ -8539,6 +9000,7 @@
 },
 "worst_week":{
 "week":2,
+"matchup_key":"all-w2-11",
 "points":62.32,
 "opp_slot_id":"ALL-09",
 "opp_owner":"Omer Khan",
@@ -8592,6 +9054,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"all-w1-2",
 "points":146.9,
 "opp_slot_id":"ALL-03",
 "opp_owner":"Jeff Marowits",
@@ -8605,6 +9068,7 @@
 },
 {
 "week":2,
+"matchup_key":"all-w2-7",
 "points":80.3,
 "opp_slot_id":"ALL-12",
 "opp_owner":"League Manager",
@@ -8618,6 +9082,7 @@
 },
 {
 "week":3,
+"matchup_key":"all-w3-14",
 "points":128.4,
 "opp_slot_id":"ALL-08",
 "opp_owner":"Andre Costa",
@@ -8632,6 +9097,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"all-w4-21",
 "points":0.0,
 "opp_slot_id":"ALL-09",
 "opp_owner":"Omer Khan",
@@ -8640,6 +9106,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":29,
 "record":{
 "wins":0,
@@ -8661,6 +9128,7 @@
 },
 "best_week":{
 "week":1,
+"matchup_key":"all-w1-2",
 "points":146.9,
 "opp_slot_id":"ALL-03",
 "opp_owner":"Jeff Marowits",
@@ -8674,6 +9142,7 @@
 },
 "worst_week":{
 "week":2,
+"matchup_key":"all-w2-7",
 "points":80.3,
 "opp_slot_id":"ALL-12",
 "opp_owner":"League Manager",
@@ -8725,6 +9194,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"all-w1-4",
 "points":81.56,
 "opp_slot_id":"ALL-06",
 "opp_owner":"Ben Lieber",
@@ -8738,6 +9208,7 @@
 },
 {
 "week":2,
+"matchup_key":"all-w2-9",
 "points":82.0,
 "opp_slot_id":"ALL-03",
 "opp_owner":"Jeff Marowits",
@@ -8751,6 +9222,7 @@
 },
 {
 "week":3,
+"matchup_key":"all-w3-14",
 "points":129.74,
 "opp_slot_id":"ALL-07",
 "opp_owner":"Mike Latona",
@@ -8765,6 +9237,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"all-w4-19",
 "points":0.0,
 "opp_slot_id":"ALL-12",
 "opp_owner":"League Manager",
@@ -8773,6 +9246,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":67,
 "record":{
 "wins":1,
@@ -8794,6 +9268,7 @@
 },
 "best_week":{
 "week":3,
+"matchup_key":"all-w3-14",
 "points":129.74,
 "opp_slot_id":"ALL-07",
 "opp_owner":"Mike Latona",
@@ -8807,6 +9282,7 @@
 },
 "worst_week":{
 "week":1,
+"matchup_key":"all-w1-4",
 "points":81.56,
 "opp_slot_id":"ALL-06",
 "opp_owner":"Ben Lieber",
@@ -8860,6 +9336,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"all-w1-6",
 "points":204.5,
 "opp_slot_id":"ALL-10",
 "opp_owner":"Benjamin Christensen",
@@ -8873,6 +9350,7 @@
 },
 {
 "week":2,
+"matchup_key":"all-w2-11",
 "points":104.66,
 "opp_slot_id":"ALL-06",
 "opp_owner":"Ben Lieber",
@@ -8886,6 +9364,7 @@
 },
 {
 "week":3,
+"matchup_key":"all-w3-16",
 "points":149.18,
 "opp_slot_id":"ALL-03",
 "opp_owner":"Jeff Marowits",
@@ -8900,6 +9379,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"all-w4-21",
 "points":0.0,
 "opp_slot_id":"ALL-07",
 "opp_owner":"Mike Latona",
@@ -8908,6 +9388,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":3,
 "record":{
 "wins":3,
@@ -8929,6 +9410,7 @@
 },
 "best_week":{
 "week":1,
+"matchup_key":"all-w1-6",
 "points":204.5,
 "opp_slot_id":"ALL-10",
 "opp_owner":"Benjamin Christensen",
@@ -8942,6 +9424,7 @@
 },
 "worst_week":{
 "week":2,
+"matchup_key":"all-w2-11",
 "points":104.66,
 "opp_slot_id":"ALL-06",
 "opp_owner":"Ben Lieber",
@@ -8995,6 +9478,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"all-w1-6",
 "points":131.32,
 "opp_slot_id":"ALL-09",
 "opp_owner":"Omer Khan",
@@ -9008,6 +9492,7 @@
 },
 {
 "week":2,
+"matchup_key":"all-w2-12",
 "points":120.16,
 "opp_slot_id":"ALL-11",
 "opp_owner":"Max Gross",
@@ -9021,6 +9506,7 @@
 },
 {
 "week":3,
+"matchup_key":"all-w3-17",
 "points":100.42,
 "opp_slot_id":"ALL-02",
 "opp_owner":"Jack Cardwell",
@@ -9035,6 +9521,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"all-w4-22",
 "points":0.0,
 "opp_slot_id":"ALL-04",
 "opp_owner":"Jacob Lehman",
@@ -9043,6 +9530,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":30,
 "record":{
 "wins":1,
@@ -9064,6 +9552,7 @@
 },
 "best_week":{
 "week":1,
+"matchup_key":"all-w1-6",
 "points":131.32,
 "opp_slot_id":"ALL-09",
 "opp_owner":"Omer Khan",
@@ -9077,6 +9566,7 @@
 },
 "worst_week":{
 "week":3,
+"matchup_key":"all-w3-17",
 "points":100.42,
 "opp_slot_id":"ALL-02",
 "opp_owner":"Jack Cardwell",
@@ -9114,6 +9604,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"all-w1-5",
 "points":105.86,
 "opp_slot_id":"ALL-05",
 "opp_owner":"Ben Klopack",
@@ -9127,6 +9618,7 @@
 },
 {
 "week":2,
+"matchup_key":"all-w2-12",
 "points":121.74,
 "opp_slot_id":"ALL-10",
 "opp_owner":"Benjamin Christensen",
@@ -9140,6 +9632,7 @@
 },
 {
 "week":3,
+"matchup_key":"all-w3-18",
 "points":117.66,
 "opp_slot_id":"ALL-06",
 "opp_owner":"Ben Lieber",
@@ -9154,6 +9647,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"all-w4-23",
 "points":0.0,
 "opp_slot_id":"ALL-03",
 "opp_owner":"Jeff Marowits",
@@ -9162,6 +9656,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":32,
 "record":{
 "wins":3,
@@ -9183,6 +9678,7 @@
 },
 "best_week":{
 "week":2,
+"matchup_key":"all-w2-12",
 "points":121.74,
 "opp_slot_id":"ALL-10",
 "opp_owner":"Benjamin Christensen",
@@ -9196,6 +9692,7 @@
 },
 "worst_week":{
 "week":1,
+"matchup_key":"all-w1-5",
 "points":105.86,
 "opp_slot_id":"ALL-05",
 "opp_owner":"Ben Klopack",
@@ -9233,6 +9730,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"all-w1-1",
 "points":95.52,
 "opp_slot_id":"ALL-04",
 "opp_owner":"Jacob Lehman",
@@ -9246,6 +9744,7 @@
 },
 {
 "week":2,
+"matchup_key":"all-w2-7",
 "points":114.32,
 "opp_slot_id":"ALL-07",
 "opp_owner":"Mike Latona",
@@ -9259,6 +9758,7 @@
 },
 {
 "week":3,
+"matchup_key":"all-w3-13",
 "points":85.06,
 "opp_slot_id":"ALL-01",
 "opp_owner":"Fraser Thompson",
@@ -9273,6 +9773,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"all-w4-19",
 "points":0.0,
 "opp_slot_id":"ALL-08",
 "opp_owner":"Andre Costa",
@@ -9281,6 +9782,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":68,
 "record":{
 "wins":1,
@@ -9302,6 +9804,7 @@
 },
 "best_week":{
 "week":2,
+"matchup_key":"all-w2-7",
 "points":114.32,
 "opp_slot_id":"ALL-07",
 "opp_owner":"Mike Latona",
@@ -9315,6 +9818,7 @@
 },
 "worst_week":{
 "week":3,
+"matchup_key":"all-w3-13",
 "points":85.06,
 "opp_slot_id":"ALL-01",
 "opp_owner":"Fraser Thompson",
@@ -9356,6 +9860,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"c2c-w1-6",
 "points":110.16,
 "opp_slot_id":"C2C-09",
 "opp_owner":"Ande Shen",
@@ -9369,6 +9874,7 @@
 },
 {
 "week":2,
+"matchup_key":"c2c-w2-12",
 "points":116.68,
 "opp_slot_id":"C2C-11",
 "opp_owner":"Karthick Hemmanuer",
@@ -9382,6 +9888,7 @@
 },
 {
 "week":3,
+"matchup_key":"c2c-w3-17",
 "points":141.88,
 "opp_slot_id":"C2C-03",
 "opp_owner":"Gaby Lichucki",
@@ -9396,6 +9903,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"c2c-w4-22",
 "points":0.0,
 "opp_slot_id":"C2C-05",
 "opp_owner":"Terrence Dai",
@@ -9404,6 +9912,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":24,
 "record":{
 "wins":0,
@@ -9425,6 +9934,7 @@
 },
 "best_week":{
 "week":3,
+"matchup_key":"c2c-w3-17",
 "points":141.88,
 "opp_slot_id":"C2C-03",
 "opp_owner":"Gaby Lichucki",
@@ -9438,6 +9948,7 @@
 },
 "worst_week":{
 "week":1,
+"matchup_key":"c2c-w1-6",
 "points":110.16,
 "opp_slot_id":"C2C-09",
 "opp_owner":"Ande Shen",
@@ -9486,6 +9997,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"c2c-w1-5",
 "points":123.66,
 "opp_slot_id":"C2C-11",
 "opp_owner":"Karthick Hemmanuer",
@@ -9499,6 +10011,7 @@
 },
 {
 "week":2,
+"matchup_key":"c2c-w2-10",
 "points":129.94,
 "opp_slot_id":"C2C-03",
 "opp_owner":"Gaby Lichucki",
@@ -9512,6 +10025,7 @@
 },
 {
 "week":3,
+"matchup_key":"c2c-w3-15",
 "points":126.64,
 "opp_slot_id":"C2C-05",
 "opp_owner":"Terrence Dai",
@@ -9526,6 +10040,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"c2c-w4-20",
 "points":0.0,
 "opp_slot_id":"C2C-12",
 "opp_owner":"Aseem Mahajan",
@@ -9534,6 +10049,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":10,
 "record":{
 "wins":3,
@@ -9555,6 +10071,7 @@
 },
 "best_week":{
 "week":2,
+"matchup_key":"c2c-w2-10",
 "points":129.94,
 "opp_slot_id":"C2C-03",
 "opp_owner":"Gaby Lichucki",
@@ -9568,6 +10085,7 @@
 },
 "worst_week":{
 "week":1,
+"matchup_key":"c2c-w1-5",
 "points":123.66,
 "opp_slot_id":"C2C-11",
 "opp_owner":"Karthick Hemmanuer",
@@ -9609,6 +10127,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"c2c-w1-3",
 "points":109.26,
 "opp_slot_id":"C2C-12",
 "opp_owner":"Aseem Mahajan",
@@ -9622,6 +10141,7 @@
 },
 {
 "week":2,
+"matchup_key":"c2c-w2-10",
 "points":126.38,
 "opp_slot_id":"C2C-02",
 "opp_owner":"Alec Brockell",
@@ -9635,6 +10155,7 @@
 },
 {
 "week":3,
+"matchup_key":"c2c-w3-17",
 "points":143.18,
 "opp_slot_id":"C2C-01",
 "opp_owner":"ManYee Yu",
@@ -9649,6 +10170,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"c2c-w4-24",
 "points":0.0,
 "opp_slot_id":"C2C-10",
 "opp_owner":"Kylie Sagisi",
@@ -9657,6 +10179,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":18,
 "record":{
 "wins":2,
@@ -9678,6 +10201,7 @@
 },
 "best_week":{
 "week":3,
+"matchup_key":"c2c-w3-17",
 "points":143.18,
 "opp_slot_id":"C2C-01",
 "opp_owner":"ManYee Yu",
@@ -9691,6 +10215,7 @@
 },
 "worst_week":{
 "week":1,
+"matchup_key":"c2c-w1-3",
 "points":109.26,
 "opp_slot_id":"C2C-12",
 "opp_owner":"Aseem Mahajan",
@@ -9738,6 +10263,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"c2c-w1-2",
 "points":113.7,
 "opp_slot_id":"C2C-06",
 "opp_owner":"Rich Riley",
@@ -9751,6 +10277,7 @@
 },
 {
 "week":2,
+"matchup_key":"c2c-w2-7",
 "points":129.06,
 "opp_slot_id":"C2C-07",
 "opp_owner":"Evan Sexton",
@@ -9764,6 +10291,7 @@
 },
 {
 "week":3,
+"matchup_key":"c2c-w3-14",
 "points":78.04,
 "opp_slot_id":"C2C-08",
 "opp_owner":"Amelie Gantert",
@@ -9778,6 +10306,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"c2c-w4-21",
 "points":0.0,
 "opp_slot_id":"C2C-09",
 "opp_owner":"Ande Shen",
@@ -9786,6 +10315,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":52,
 "record":{
 "wins":1,
@@ -9807,6 +10337,7 @@
 },
 "best_week":{
 "week":2,
+"matchup_key":"c2c-w2-7",
 "points":129.06,
 "opp_slot_id":"C2C-07",
 "opp_owner":"Evan Sexton",
@@ -9820,6 +10351,7 @@
 },
 "worst_week":{
 "week":3,
+"matchup_key":"c2c-w3-14",
 "points":78.04,
 "opp_slot_id":"C2C-08",
 "opp_owner":"Amelie Gantert",
@@ -9870,6 +10402,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"c2c-w1-1",
 "points":115.06,
 "opp_slot_id":"C2C-07",
 "opp_owner":"Evan Sexton",
@@ -9883,6 +10416,7 @@
 },
 {
 "week":2,
+"matchup_key":"c2c-w2-8",
 "points":94.12,
 "opp_slot_id":"C2C-12",
 "opp_owner":"Aseem Mahajan",
@@ -9896,6 +10430,7 @@
 },
 {
 "week":3,
+"matchup_key":"c2c-w3-15",
 "points":102.22,
 "opp_slot_id":"C2C-02",
 "opp_owner":"Alec Brockell",
@@ -9910,6 +10445,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"c2c-w4-22",
 "points":0.0,
 "opp_slot_id":"C2C-01",
 "opp_owner":"ManYee Yu",
@@ -9918,6 +10454,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":62,
 "record":{
 "wins":0,
@@ -9939,6 +10476,7 @@
 },
 "best_week":{
 "week":1,
+"matchup_key":"c2c-w1-1",
 "points":115.06,
 "opp_slot_id":"C2C-07",
 "opp_owner":"Evan Sexton",
@@ -9952,6 +10490,7 @@
 },
 "worst_week":{
 "week":2,
+"matchup_key":"c2c-w2-8",
 "points":94.12,
 "opp_slot_id":"C2C-12",
 "opp_owner":"Aseem Mahajan",
@@ -10002,6 +10541,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"c2c-w1-2",
 "points":129.26,
 "opp_slot_id":"C2C-04",
 "opp_owner":"Michael Gary",
@@ -10015,6 +10555,7 @@
 },
 {
 "week":2,
+"matchup_key":"c2c-w2-9",
 "points":87.48,
 "opp_slot_id":"C2C-08",
 "opp_owner":"Amelie Gantert",
@@ -10028,6 +10569,7 @@
 },
 {
 "week":3,
+"matchup_key":"c2c-w3-16",
 "points":122.84,
 "opp_slot_id":"C2C-09",
 "opp_owner":"Ande Shen",
@@ -10042,6 +10584,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"c2c-w4-23",
 "points":0.0,
 "opp_slot_id":"C2C-11",
 "opp_owner":"Karthick Hemmanuer",
@@ -10050,6 +10593,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":37,
 "record":{
 "wins":2,
@@ -10071,6 +10615,7 @@
 },
 "best_week":{
 "week":1,
+"matchup_key":"c2c-w1-2",
 "points":129.26,
 "opp_slot_id":"C2C-04",
 "opp_owner":"Michael Gary",
@@ -10084,6 +10629,7 @@
 },
 "worst_week":{
 "week":2,
+"matchup_key":"c2c-w2-9",
 "points":87.48,
 "opp_slot_id":"C2C-08",
 "opp_owner":"Amelie Gantert",
@@ -10134,6 +10680,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"c2c-w1-1",
 "points":116.96,
 "opp_slot_id":"C2C-05",
 "opp_owner":"Terrence Dai",
@@ -10147,6 +10694,7 @@
 },
 {
 "week":2,
+"matchup_key":"c2c-w2-7",
 "points":95.42,
 "opp_slot_id":"C2C-04",
 "opp_owner":"Michael Gary",
@@ -10160,6 +10708,7 @@
 },
 {
 "week":3,
+"matchup_key":"c2c-w3-13",
 "points":117.96,
 "opp_slot_id":"C2C-12",
 "opp_owner":"Aseem Mahajan",
@@ -10174,6 +10723,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"c2c-w4-19",
 "points":0.0,
 "opp_slot_id":"C2C-08",
 "opp_owner":"Amelie Gantert",
@@ -10182,6 +10732,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":47,
 "record":{
 "wins":2,
@@ -10203,6 +10754,7 @@
 },
 "best_week":{
 "week":3,
+"matchup_key":"c2c-w3-13",
 "points":117.96,
 "opp_slot_id":"C2C-12",
 "opp_owner":"Aseem Mahajan",
@@ -10216,6 +10768,7 @@
 },
 "worst_week":{
 "week":2,
+"matchup_key":"c2c-w2-7",
 "points":95.42,
 "opp_slot_id":"C2C-04",
 "opp_owner":"Michael Gary",
@@ -10267,6 +10820,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"c2c-w1-4",
 "points":124.2,
 "opp_slot_id":"C2C-10",
 "opp_owner":"Kylie Sagisi",
@@ -10280,6 +10834,7 @@
 },
 {
 "week":2,
+"matchup_key":"c2c-w2-9",
 "points":125.58,
 "opp_slot_id":"C2C-06",
 "opp_owner":"Rich Riley",
@@ -10293,6 +10848,7 @@
 },
 {
 "week":3,
+"matchup_key":"c2c-w3-14",
 "points":140.64,
 "opp_slot_id":"C2C-04",
 "opp_owner":"Michael Gary",
@@ -10307,6 +10863,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"c2c-w4-19",
 "points":0.0,
 "opp_slot_id":"C2C-07",
 "opp_owner":"Evan Sexton",
@@ -10315,6 +10872,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":8,
 "record":{
 "wins":2,
@@ -10336,6 +10894,7 @@
 },
 "best_week":{
 "week":3,
+"matchup_key":"c2c-w3-14",
 "points":140.64,
 "opp_slot_id":"C2C-04",
 "opp_owner":"Michael Gary",
@@ -10349,6 +10908,7 @@
 },
 "worst_week":{
 "week":1,
+"matchup_key":"c2c-w1-4",
 "points":124.2,
 "opp_slot_id":"C2C-10",
 "opp_owner":"Kylie Sagisi",
@@ -10396,6 +10956,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"c2c-w1-6",
 "points":121.66,
 "opp_slot_id":"C2C-01",
 "opp_owner":"ManYee Yu",
@@ -10409,6 +10970,7 @@
 },
 {
 "week":2,
+"matchup_key":"c2c-w2-11",
 "points":92.1,
 "opp_slot_id":"C2C-10",
 "opp_owner":"Kylie Sagisi",
@@ -10422,6 +10984,7 @@
 },
 {
 "week":3,
+"matchup_key":"c2c-w3-16",
 "points":101.14,
 "opp_slot_id":"C2C-06",
 "opp_owner":"Rich Riley",
@@ -10436,6 +10999,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"c2c-w4-21",
 "points":0.0,
 "opp_slot_id":"C2C-04",
 "opp_owner":"Michael Gary",
@@ -10444,6 +11008,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":59,
 "record":{
 "wins":1,
@@ -10465,6 +11030,7 @@
 },
 "best_week":{
 "week":1,
+"matchup_key":"c2c-w1-6",
 "points":121.66,
 "opp_slot_id":"C2C-01",
 "opp_owner":"ManYee Yu",
@@ -10478,6 +11044,7 @@
 },
 "worst_week":{
 "week":2,
+"matchup_key":"c2c-w2-11",
 "points":92.1,
 "opp_slot_id":"C2C-10",
 "opp_owner":"Kylie Sagisi",
@@ -10528,6 +11095,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"c2c-w1-4",
 "points":136.82,
 "opp_slot_id":"C2C-08",
 "opp_owner":"Amelie Gantert",
@@ -10541,6 +11109,7 @@
 },
 {
 "week":2,
+"matchup_key":"c2c-w2-11",
 "points":110.26,
 "opp_slot_id":"C2C-09",
 "opp_owner":"Ande Shen",
@@ -10554,6 +11123,7 @@
 },
 {
 "week":3,
+"matchup_key":"c2c-w3-18",
 "points":75.52,
 "opp_slot_id":"C2C-11",
 "opp_owner":"Karthick Hemmanuer",
@@ -10568,6 +11138,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"c2c-w4-24",
 "points":0.0,
 "opp_slot_id":"C2C-03",
 "opp_owner":"Gaby Lichucki",
@@ -10576,6 +11147,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":50,
 "record":{
 "wins":2,
@@ -10597,6 +11169,7 @@
 },
 "best_week":{
 "week":1,
+"matchup_key":"c2c-w1-4",
 "points":136.82,
 "opp_slot_id":"C2C-08",
 "opp_owner":"Amelie Gantert",
@@ -10610,6 +11183,7 @@
 },
 "worst_week":{
 "week":3,
+"matchup_key":"c2c-w3-18",
 "points":75.52,
 "opp_slot_id":"C2C-11",
 "opp_owner":"Karthick Hemmanuer",
@@ -10647,6 +11221,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"c2c-w1-5",
 "points":104.22,
 "opp_slot_id":"C2C-02",
 "opp_owner":"Alec Brockell",
@@ -10660,6 +11235,7 @@
 },
 {
 "week":2,
+"matchup_key":"c2c-w2-12",
 "points":118.92,
 "opp_slot_id":"C2C-01",
 "opp_owner":"ManYee Yu",
@@ -10673,6 +11249,7 @@
 },
 {
 "week":3,
+"matchup_key":"c2c-w3-18",
 "points":111.3,
 "opp_slot_id":"C2C-10",
 "opp_owner":"Kylie Sagisi",
@@ -10687,6 +11264,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"c2c-w4-23",
 "points":0.0,
 "opp_slot_id":"C2C-06",
 "opp_owner":"Rich Riley",
@@ -10695,6 +11273,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":48,
 "record":{
 "wins":2,
@@ -10716,6 +11295,7 @@
 },
 "best_week":{
 "week":2,
+"matchup_key":"c2c-w2-12",
 "points":118.92,
 "opp_slot_id":"C2C-01",
 "opp_owner":"ManYee Yu",
@@ -10729,6 +11309,7 @@
 },
 "worst_week":{
 "week":1,
+"matchup_key":"c2c-w1-5",
 "points":104.22,
 "opp_slot_id":"C2C-02",
 "opp_owner":"Alec Brockell",
@@ -10766,6 +11347,7 @@
 "weeks":[
 {
 "week":1,
+"matchup_key":"c2c-w1-3",
 "points":52.62,
 "opp_slot_id":"C2C-03",
 "opp_owner":"Gaby Lichucki",
@@ -10779,6 +11361,7 @@
 },
 {
 "week":2,
+"matchup_key":"c2c-w2-8",
 "points":102.88,
 "opp_slot_id":"C2C-05",
 "opp_owner":"Terrence Dai",
@@ -10792,6 +11375,7 @@
 },
 {
 "week":3,
+"matchup_key":"c2c-w3-13",
 "points":105.74,
 "opp_slot_id":"C2C-07",
 "opp_owner":"Evan Sexton",
@@ -10806,6 +11390,7 @@
 ],
 "in_progress":{
 "week":4,
+"matchup_key":"c2c-w4-20",
 "points":0.0,
 "opp_slot_id":"C2C-02",
 "opp_owner":"Alec Brockell",
@@ -10814,6 +11399,7 @@
 "bench_points":0.0,
 "optimal_points":0.0
 },
+"roster_week":4,
 "power_rank":77,
 "record":{
 "wins":1,
@@ -10835,6 +11421,7 @@
 },
 "best_week":{
 "week":3,
+"matchup_key":"c2c-w3-13",
 "points":105.74,
 "opp_slot_id":"C2C-07",
 "opp_owner":"Evan Sexton",
@@ -10848,6 +11435,7 @@
 },
 "worst_week":{
 "week":1,
+"matchup_key":"c2c-w1-3",
 "points":52.62,
 "opp_slot_id":"C2C-03",
 "opp_owner":"Gaby Lichucki",
