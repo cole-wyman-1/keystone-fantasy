@@ -1,6 +1,6 @@
 # Keystone Fantasy Football 2026 — Site Plan
 
-Status: APPROVED 2026-09-21, SHIPPED 2026-09-22. Post-launch changes are recorded in CLAUDE.md (UI decisions) and AGENT_LOG.md; this file is the original design.
+Status: APPROVED 2026-09-21, SHIPPED 2026-09-22. Post-launch changes (rosters, box scores, Monday Night Sweats, home-page top 10 — 2026-09-29) are recorded in CLAUDE.md (UI decisions) and AGENT_LOG.md; this file is the original design.
 
 ## 1. Decisions so far
 

@@ -1,7 +1,7 @@
 # Keystone Fantasy Football 2026
 
-Standings, weekly high scores, a record book and a cross-league power ranking for the seven
-Keystone ESPN fantasy leagues. Static site on GitHub Pages, refreshed from ESPN by a
+Standings, weekly high scores, rosters and box scores, a record book, a cross-league power
+ranking, trades and Monday Night Sweats for the seven Keystone ESPN fantasy leagues. Static site on GitHub Pages, refreshed from ESPN by a
 GitHub Actions job three mornings a week (Mon / Tue / Fri, 11:00 UTC).
 
 Design and decisions: `PLAN.md`. Notes for future Claude sessions: `CLAUDE.md`.
@@ -105,7 +105,26 @@ compute, commit the new PNGs under `site/public/logos/`, push.
 
 Covers standings, streaks, all-play luck, record book, playoff flags, the optimal-lineup
 solver (against brute force), that no email address reaches `data/site/`, and that our
-computed standings agree with ESPN's own W-L and points for every team.
+computed standings agree with ESPN's own W-L and points for every team, that every published
+matchup's starters add up to its score, and the Monday Night Sweats window / selection rules.
+
+## Rosters and box scores
+
+Automatic. Each team page shows its latest lineup (starters, bench, IR, with this week's and last
+week's points); every matchup card links to a box score page with both lineups side by side.
+Both are only as fresh as the last refresh (Mon / Tue / Fri mornings), so a midweek waiver pickup
+appears on Friday.
+
+## Monday Night Sweats (`/sweats/`)
+
+The five closest undecided matchups across all leagues heading into Monday night, ranked by ESPN's
+win probability, skipping any matchup where the trailing team has nobody left to play. It is a
+**snapshot**: `compute.py` only rewrites `data/site/sweats.json` when a refresh runs after Sunday
+night football has ended and before Monday night kicks off. The regular Monday 11:00 UTC run does
+this on its own; to take the snapshot earlier (Sunday night after the late game, ~11:30 PM ET),
+run the workflow manually. Other refreshes leave it alone, so it stays up all week and gets a
+"Final … held on / came back to win" line once the week is complete. Before the first snapshot
+the page shows a "Coming Monday morning" card.
 
 ## Trade center
 
