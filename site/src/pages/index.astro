@@ -2,11 +2,17 @@
 import Layout from '../components/Layout.astro';
 import TeamCell from '../components/TeamCell.astro';
 import MessageBoard from '../components/MessageBoard.astro';
-import MondaySweats from '../components/MondaySweats.astro';
 import { meta, leagues, standings, highs, weekly, people, power, u, leagueUrl, personUrl, fmt, record } from '../lib/data';
 const lastWeek = highs.weeks.length ? highs.weeks[highs.weeks.length - 1] : null;
 const leaderboard = highs.leaderboard.slice(0, 8);
 const topPower = power.slice(0, 10);
+// top 10 scores across all leagues in the most recent completed week
+const topScores = lastWeek ? Object.entries(weekly).flatMap(([code, weeks]) => {
+  const w = (weeks as any)[String(lastWeek.week)];
+  if (!w?.complete) return [];
+  return w.matchups.flatMap((m: any) => [[m.home, m.away], [m.away, m.home]].map(([t, o]) => ({
+    ...t, league_code: code, opp: o, won: t.points > o.points, tied: t.points === o.points })));
+}).sort((a: any, b: any) => b.points - a.points).slice(0, 10) : [];
 const inProgressWeek = Object.values(weekly).flatMap((w: any) => Object.values(w)).find((w: any) => !w.complete) as any;
 ---
 <Layout>
@@ -22,7 +28,12 @@ const inProgressWeek = Object.values(weekly).flatMap((w: any) => Object.values(w
     </div>
   )}
 
-  <MondaySweats />
+  {topScores.length > 0 && (<>
+    <h2>Top 10 scores, week {lastWeek.week}</h2>
+    <div class="tbl-wrap"><table class="tbl"><thead><tr><th>#</th><th>Team</th><th>League</th><th class="num">Pts</th><th class="hide-sm">Opponent</th><th class="num hide-sm">Opp</th></tr></thead>
+      <tbody>{topScores.map((r: any, i: number) => (<tr class={i === 0 ? 'hi' : ''}><td class="num">{i + 1}</td><td><TeamCell slotId={r.slot_id} teamName={r.team_name} owner={r.owner} /></td><td class="muted">{r.league_code}</td><td class="num"><strong>{fmt(r.points)}</strong>{i === 0 ? ' ★' : ''}</td><td class="hide-sm"><span class={`badge ${r.won ? 'win' : r.tied ? '' : 'loss'}`}>{r.won ? 'W' : r.tied ? 'T' : 'L'}</span> <a href={personUrl(r.opp.slot_id)}><strong>{r.opp.team_name}</strong></a> <span class="muted small">{r.opp.owner}</span></td><td class="num hide-sm">{fmt(r.opp.points)}</td></tr>))}</tbody></table></div>
+    <p class="small muted">All 84 teams, completed week {lastWeek.week}. <a href={u('weekly-highs/')}>Weekly highs →</a> · <a href={u('sweats/')}>Monday Night Sweats →</a></p>
+  </>)}
 
   <h2>Leagues</h2>
   <div class="cards">

@@ -38,8 +38,8 @@ the in-progress week is always refetched; trades are refetched for every period 
 - `scripts/lib/icons.py` — emoji maps (hometown, fallbacks). `scripts/fetch_logos.py` — NFL/college/company PNGs → `site/public/logos/`, `data/logos.json`.
 - `scripts/board_schema.sql` — Supabase table, one-level-reply trigger, rate limits, RLS (read + insert only).
 - `site/src/lib/data.ts` — loads `data/site/*.json` at build; `u()` prefixes the `/keystone-fantasy` base path; formatters.
-- `site/src/components/` — Layout (nav + ALL global CSS), TeamCell (team bold link + manager subtext + badges), ProfileBadges (college/NFL/company logos, hometown emoji, tooltips), StandingsTable, Matchups, RecordTable, ScoreChart (inline SVG), TradeCard, MessageBoard (client JS → Supabase REST), Roster (team page lineup table), PlayerCell (player name + pos · NFL team), MondaySweats (home-page score bugs; own `is:global` styles).
-- `site/src/pages/` — index, leagues/[code], people/[slug] (slug = slot id lowercased), matchups/[key] (box score; key = `<code>-w<week>-<espn matchup id>`, e.g. `emp-w3-13`), weekly-highs, records, power, trades.
+- `site/src/components/` — Layout (nav + ALL global CSS), TeamCell (team bold link + manager subtext + badges), ProfileBadges (college/NFL/company logos, hometown emoji, tooltips), StandingsTable, Matchups, RecordTable, ScoreChart (inline SVG), TradeCard, MessageBoard (client JS → Supabase REST), Roster (team page lineup table), PlayerCell (player name + pos · NFL team), MondaySweats (score bugs for `/sweats/`; own `is:global` styles).
+- `site/src/pages/` — index, leagues/[code], people/[slug] (slug = slot id lowercased), matchups/[key] (box score; key = `<code>-w<week>-<espn matchup id>`, e.g. `emp-w3-13`), weekly-highs, records, power, trades, sweats.
 - `.github/workflows/refresh.yml` — cron + workflow_dispatch + push (paths-filtered). Fetch fails → no deploy. Bot commits `data/` with `[skip ci]`.
 - `tests/` — fixture league with hand-computed answers; lineup vs brute force; icons; trades; site-data checks (no emails, standings == ESPN records).
 
@@ -59,7 +59,8 @@ the in-progress week is always refetched; trades are refetched for every period 
 ## UI decisions (Cole's explicit choices — keep)
 - TEAM NAME is the bold link everywhere; manager name + badges are subtext. Person page h1 = team name, "Managed by …" below.
 - Standings tables: NO Luck column, NO Playoffs column. Gold dotted line under bye spots, blue dotted line under playoff cut, x/e marks by name.
-- Home page: 7 league cards, stat tiles, cross-league power TOP 10 (not the weekly-highs leaderboard), then the message board.
+- Home page: stat tiles, **top 10 scores of the last completed week (all 84 teams)**, 7 league cards, cross-league power TOP 10 (not the
+  weekly-highs leaderboard), then the message board. (2026-09-29: Cole wants the top-10 scores to be the first thing you see.)
 - Badges: college logo (ESPN CDN; 4 schools via favicon), hometown emoji (country flag for international), NFL logo, company logo for alumni
   jobs outside Keystone (favicon; skipped when it equals home city or contains "Keystone"; skipped if it would duplicate the college crest).
   Hover/tap tooltip names each. Add a new school/company in `fetch_logos.py` maps, run it, commit the PNG.
@@ -69,7 +70,7 @@ the in-progress week is always refetched; trades are refetched for every period 
 - Rosters / box scores (2026-09-29): team page has a Roster section = latest fetched lineup (`people[].roster_week`) with last completed week's
   points beside it. Matchup cards are fully clickable (stretched `.box-link`; team-name links sit above it) → `/matchups/<key>/`, both lineups side by side.
   Rosters are only as fresh as the last ESPN refresh.
-- **Monday Night Sweats** (home page, above Leagues; 2026-09-29): `compute.py` writes `data/site/sweats.json` ONLY when a refresh lands in the
+- **Monday Night Sweats** (own tab `/sweats/`, nav after Trades; 2026-09-29): `compute.py` writes `data/site/sweats.json` ONLY when a refresh lands in the
   "final day window" (`lib/sweats.in_final_day_window`: Sunday night over, Monday games not started) — the Mon 11:00 UTC cron. Other refreshes leave
   the snapshot alone, so it stays up all week and gets a "Final … held on / came back" line once the week completes. Picks the 5 undecided matchups
   with ESPN win probability closest to 50% (fallback: our normal-approx estimate from projections, labeled "estimated"), skipping any where the trailing

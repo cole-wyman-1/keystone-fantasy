@@ -57,3 +57,4 @@ trailing team has nobody left, score-bug visual with lead + remaining players.
   `MondaySweats.astro` on the home page. Snapshot semantics documented in CLAUDE.md.
 - Verified visually with a *simulated* week-3 snapshot (MNF players zeroed, projection := actual) — deleted before commit; the real one arrives Mon Oct 5.
 - Cole: verify live on Sunday night 2026-10-04; until then the home page shows a 'Coming Monday morning' skeleton card. Shipped 2026-09-29.
+- Then: Sweats moved to its own tab (`/sweats/`, nav after Trades); home page leads with the top-10 scores of the last completed week.

@@ -17,7 +17,6 @@ const finalOf = (s: any) => {
 ---
 {(!sweats || list.length === 0) && (
   <section class="sweats">
-    <h2>Monday Night Sweats</h2>
     <div class="bug bug-empty">
       <div class="bug-head"><span>Coming Monday morning</span></div>
       <div class="bug-body small muted">After Sunday night football, this section fills in with the 5 closest undecided matchups across all seven
@@ -28,8 +27,7 @@ const finalOf = (s: any) => {
 )}
 {sweats && list.length > 0 && (
   <section class="sweats">
-    <h2>Monday Night Sweats <span class="badge acc">Week {sweats.week}</span></h2>
-    <p class="small muted">The {list.length} closest matchups across all seven leagues heading into Monday night, as of {fmtDateET(sweats.as_of_utc)}.
+    <p class="small muted"><span class="badge acc">Week {sweats.week}</span> The {list.length} closest matchups across all seven leagues heading into Monday night, as of {fmtDateET(sweats.as_of_utc)}.
       Win probability {list.every((s) => s.win_prob_source === 'espn') ? 'from ESPN' : 'from ESPN where available, otherwise estimated from projections'}; matchups where the trailing team had nobody left to play are skipped.</p>
     <div class="sweat-grid">
       {list.map((s) => {
