@@ -185,7 +185,7 @@
 "league_name":"Freedom League",
 "slot_id":"C2C-12",
 "owner":"Aseem Mahajan",
-"team_name":"Key's Top-Notch Team",
+"team_name":"Aseem's Team",
 "opp_slot_id":"C2C-03",
 "opp_owner":"Gaby Lichucki",
 "opp_team_name":"yay sports"
@@ -324,7 +324,7 @@
 "team_name":"Ackshually Tyler SHOUGH",
 "opp_slot_id":"BEA-12",
 "opp_owner":"Charlie Fairfax",
-"opp_team_name":"Key's Top-Notch Team"
+"opp_team_name":"Charlie's Team"
 },
 {
 "week":3,
@@ -393,7 +393,7 @@
 "league_name":"Beantown League",
 "slot_id":"BEA-12",
 "owner":"Charlie Fairfax",
-"team_name":"Key's Top-Notch Team",
+"team_name":"Charlie's Team",
 "opp_slot_id":"BEA-05",
 "opp_owner":"Lukas Marmanis",
 "opp_team_name":"Ackshually Tyler SHOUGH",
@@ -578,7 +578,7 @@
 "team_name":"Chris's Amazing Team",
 "opp_slot_id":"BEA-12",
 "opp_owner":"Charlie Fairfax",
-"opp_team_name":"Key's Top-Notch Team",
+"opp_team_name":"Charlie's Team",
 "margin":0.82
 },
 {
@@ -3845,7 +3845,7 @@
 "league_name":"Beantown League",
 "slot_id":"BEA-12",
 "owner":"Charlie Fairfax",
-"team_name":"Key's Top-Notch Team",
+"team_name":"Charlie's Team",
 "opp_slot_id":"BEA-05",
 "opp_owner":"Lukas Marmanis",
 "opp_team_name":"Ackshually Tyler SHOUGH"
@@ -3884,7 +3884,7 @@
 "team_name":"Ackshually Tyler SHOUGH",
 "opp_slot_id":"BEA-12",
 "opp_owner":"Charlie Fairfax",
-"opp_team_name":"Key's Top-Notch Team"
+"opp_team_name":"Charlie's Team"
 },
 {
 "week":3,
@@ -3968,7 +3968,7 @@
 "league_name":"Beantown League",
 "slot_id":"BEA-12",
 "owner":"Charlie Fairfax",
-"team_name":"Key's Top-Notch Team",
+"team_name":"Charlie's Team",
 "opp_slot_id":"BEA-05",
 "opp_owner":"Lukas Marmanis",
 "opp_team_name":"Ackshually Tyler SHOUGH",
@@ -4081,7 +4081,7 @@
 "team_name":"Chris's Amazing Team",
 "opp_slot_id":"BEA-12",
 "opp_owner":"Charlie Fairfax",
-"opp_team_name":"Key's Top-Notch Team",
+"opp_team_name":"Charlie's Team",
 "margin":0.82
 },
 {
@@ -4169,7 +4169,7 @@
 "league_name":"Beantown League",
 "slot_id":"BEA-12",
 "owner":"Charlie Fairfax",
-"team_name":"Key's Top-Notch Team",
+"team_name":"Charlie's Team",
 "opp_slot_id":"BEA-07",
 "opp_owner":"Christopher Teixeira",
 "opp_team_name":"Chris's Amazing Team"
@@ -7681,7 +7681,7 @@
 "league_name":"Freedom League",
 "slot_id":"C2C-12",
 "owner":"Aseem Mahajan",
-"team_name":"Key's Top-Notch Team",
+"team_name":"Aseem's Team",
 "opp_slot_id":"C2C-03",
 "opp_owner":"Gaby Lichucki",
 "opp_team_name":"yay sports"
@@ -7789,7 +7789,7 @@
 "team_name":"yay sports",
 "opp_slot_id":"C2C-12",
 "opp_owner":"Aseem Mahajan",
-"opp_team_name":"Key's Top-Notch Team",
+"opp_team_name":"Aseem's Team",
 "margin":56.64
 },
 {
@@ -7932,7 +7932,7 @@
 "league_name":"Freedom League",
 "slot_id":"C2C-12",
 "owner":"Aseem Mahajan",
-"team_name":"Key's Top-Notch Team",
+"team_name":"Aseem's Team",
 "opp_slot_id":"C2C-05",
 "opp_owner":"Terrence Dai",
 "opp_team_name":"The Hypothetical Monopolists",
@@ -8039,7 +8039,7 @@
 "league_name":"Freedom League",
 "slot_id":"C2C-12",
 "owner":"Aseem Mahajan",
-"team_name":"Key's Top-Notch Team",
+"team_name":"Aseem's Team",
 "opp_slot_id":"C2C-05",
 "opp_owner":"Terrence Dai",
 "opp_team_name":"The Hypothetical Monopolists"
@@ -8059,7 +8059,7 @@
 "team_name":"yay sports",
 "opp_slot_id":"C2C-12",
 "opp_owner":"Aseem Mahajan",
-"opp_team_name":"Key's Top-Notch Team"
+"opp_team_name":"Aseem's Team"
 },
 {
 "week":2,
