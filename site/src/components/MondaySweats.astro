@@ -3,7 +3,6 @@
 // as a TV-style score bug: both teams, the lead, win probability, and who each side still has to play.
 import { sweats, weekly, meta, personUrl, matchupUrl, fmt, fmtDateET } from '../lib/data';
 const list: any[] = sweats?.sweats ?? [];
-const kick = (iso: string) => new Date(iso).toLocaleString('en-US', { timeZone: 'America/New_York', weekday: 'short', hour: 'numeric', minute: '2-digit' }) + ' ET';
 const pct = (p: number | null) => (p == null ? '–' : `${Math.round(p * 100)}%`);
 // what actually happened, once the week is complete
 const finalOf = (s: any) => {
@@ -21,7 +20,7 @@ const finalOf = (s: any) => {
       <div class="bug-head"><span>Coming Monday morning</span></div>
       <div class="bug-body small muted">After Sunday night football, this section fills in with the 5 closest undecided matchups across all seven
         leagues{meta.current_week ? ` for week ${meta.current_week}` : ''}: live score, ESPN win probability, the lead, and who each team still has to play on Monday night.
-        It updates with the Monday 7:00 AM ET refresh and stays up all week.</div>
+        It updates with the Monday morning refresh and stays up all week.</div>
     </div>
   </section>
 )}
@@ -43,7 +42,6 @@ const finalOf = (s: any) => {
                 <div class={`bug-row ${leads ? 'leader' : ''}`}>
                   {t.logo ? <img src={t.logo} alt="" loading="lazy" /> : <span class="logo-ph" />}
                   <div class="bug-team"><a href={personUrl(t.slot_id)}>{t.team_name}</a><span class="bug-owner">{t.owner}</span></div>
-                  {leads && s.lead > 0 && <span class="lead-chip">+{fmt(s.lead, 1)}</span>}
                   <span class="bug-score">{fmt(t.points, 1)}</span>
                 </div>
               );
@@ -53,13 +51,15 @@ const finalOf = (s: any) => {
               <span class={s.away.win_prob > 0.5 ? 'hi' : ''}>{pct(s.away.win_prob)}</span></div>
             <div class="wp-lbl muted">win probability{s.win_prob_source === 'estimate' ? ' (estimated)' : ''}</div>
             <div class="left">
-              {sides.map((t) => (
+              {sides.map((t, i) => (
                 <div class="left-side">
                   <div class="left-lbl">{t.abbrev || t.team_name} · {t.remaining.length ? `${t.remaining.length} left` : 'done'}</div>
+                  {s.leader === (i === 0 ? 'home' : 'away') && s.lead > 0 && (
+                    <div class="left-p left-lead"><span class="pl-name">Current lead</span><span class="proj">+{fmt(s.lead, 1)} pts</span></div>
+                  )}
                   {t.remaining.map((p: any) => (
-                    <div class="left-p"><span class="pl-name">{p.name}</span> <span class="muted">{`${p.position} · ${p.pro_team} ${p.game ?? ''}`}</span>{p.projected != null && <span class="proj">{fmt(p.projected, 1)} proj</span>}</div>
+                    <div class="left-p"><span class="pl-name">{p.name}</span>{p.projected != null && <span class="proj">{fmt(p.projected, 1)} proj</span>}</div>
                   ))}
-                  {t.remaining[0]?.game_utc && <div class="left-kick muted">{kick(t.remaining[0].game_utc)}</div>}
                 </div>
               ))}
             </div>
@@ -88,7 +88,6 @@ const finalOf = (s: any) => {
   .bug-team { min-width: 0; flex: 1; display: flex; flex-direction: column; line-height: 1.2; }
   .bug-team a { color: #fff; font-weight: 700; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
   .bug-owner { color: #aeb7c4; font-size: 0.75rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-  .lead-chip { background: #ffd166; color: #1a1d21; font-weight: 800; font-size: 0.72rem; padding: 2px 7px; border-radius: 999px; flex: none; }
   .bug-score { font-size: 1.35rem; font-weight: 800; font-variant-numeric: tabular-nums; min-width: 3.2em; text-align: right; flex: none; }
   .bug-row:not(.leader) .bug-score { color: #aeb7c4; font-weight: 700; }
   .wp { display: flex; align-items: center; gap: 8px; padding: 8px 12px 0; font-size: 0.8rem; font-weight: 700; color: var(--muted); font-variant-numeric: tabular-nums; }
@@ -99,10 +98,10 @@ const finalOf = (s: any) => {
   .left { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; padding: 10px 12px 12px; font-size: 0.82rem; }
   .left-side { min-width: 0; }
   .left-lbl { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); font-weight: 700; margin-bottom: 4px; }
-  .left-p { display: flex; flex-direction: column; margin-bottom: 4px; line-height: 1.3; }
-  .left-p .muted { font-size: 0.74rem; }
-  .left-p .proj { font-size: 0.74rem; color: var(--accent); font-weight: 600; }
-  .left-kick { font-size: 0.72rem; margin-top: 2px; }
+  .left-p { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; margin-bottom: 4px; line-height: 1.3; }
+  .left-p .pl-name { min-width: 0; }
+  .left-p .proj { font-size: 0.74rem; color: var(--accent); font-weight: 600; flex: none; font-variant-numeric: tabular-nums; }
+  .left-lead .pl-name, .left-lead .proj { font-weight: 800; color: var(--fg); }
   .bug-empty { max-width: 560px; }
   .bug-body { padding: 10px 12px 12px; }
   .final { margin-top: auto; border-top: 1px solid var(--line); padding: 8px 12px; font-size: 0.85rem; background: var(--soft); }

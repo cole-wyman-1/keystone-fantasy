@@ -2,9 +2,10 @@ name: Refresh ESPN data and deploy site
 
 on:
   schedule:
-    # 11:00 UTC = 7:00am EDT (until Nov 1 2026) / 6:00am EST. Mon, Tue, Fri.
-    # GitHub cron is UTC-only and cannot follow daylight saving time.
-    - cron: "0 11 * * 1,2,5"
+    # 09:17 UTC = 5:17am EDT (until Nov 1 2026) / 4:17am EST. Mon, Tue, Fri.
+    # GitHub cron is UTC-only and cannot follow daylight saving time. Early and off the hour on purpose:
+    # GitHub started the old 11:00 UTC schedule 4.5-7.5 hours late every time.
+    - cron: "17 9 * * 1,2,5"
   workflow_dispatch:        # "Run workflow" button in the Actions tab
   push:
     branches: [main]

@@ -58,3 +58,14 @@ trailing team has nobody left, score-bug visual with lead + remaining players.
 - Verified visually with a *simulated* week-3 snapshot (MNF players zeroed, projection := actual) — deleted before commit; the real one arrives Mon Oct 5.
 - Cole: verify live on Sunday night 2026-10-04; until then the home page shows a 'Coming Monday morning' skeleton card. Shipped 2026-09-29.
 - Then: Sweats moved to its own tab (`/sweats/`, nav after Trades); home page leads with the top-10 scores of the last completed week.
+
+## 2026-10-05 — Claude Code (Fable 5.1), first real Monday Night Sweats snapshot
+
+Cole: dashboard had not refreshed to create the sweats. Nothing was broken — the Mon 11:00 UTC cron had not fired yet at 13:36 UTC.
+- GitHub starts this schedule 4.5–7.5 h late every time (last four runs: 15:43, 18:23, 16:46, 16:28 UTC). Triggered `workflow_dispatch` by hand
+  (run 37318197652, success) → `data/site/sweats.json` created: week 4, as of 13:37 UTC, 5 picks from 42 undecided matchups, `/sweats/` live.
+- ESPN `winProbability` IS live (not pregame): it tracks our `est_win_prob` within ~5 points on all 5 picks (e.g. 0.30 vs 0.342, 0.91 vs 0.908). Keep `win_prob` = ESPN.
+- Open: cron lateness. The late run still lands in the window (MNF kicks off ~00:15 UTC Tue) but Cole sees an empty tab Monday morning.
+  Fixed same session: cron moved to `17 9 * * 1,2,5` (early + off the hour).
+- Sweats card tweaks (Cole): remaining players show name + projection only (no position / NFL team / opponent / kickoff); the lead moved out of
+  the dark score rows into the "left to play" list as a "Current lead +x.x pts" line on the leader's side.

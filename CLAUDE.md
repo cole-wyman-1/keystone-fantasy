@@ -7,7 +7,7 @@ Owner: Cole Wyman (commissioner of all 7 leagues). Shipped 2026-09-22. `PLAN.md`
 
 ## What this is
 Static Astro site for 7 private ESPN fantasy leagues (84 team slots = 81 people + 3 commissioner seats).
-Python scripts pull ESPN on a GitHub Actions cron (Mon/Tue/Fri 11:00 UTC), compute standings / weekly highs /
+Python scripts pull ESPN on a GitHub Actions cron (Mon/Tue/Fri 09:17 UTC), compute standings / weekly highs /
 record book / power ranking / trades, rebuild the site, deploy. No server, no database except the message board.
 
 ## Pipeline (run in this order; the workflow does exactly this)
@@ -71,12 +71,12 @@ the in-progress week is always refetched; trades are refetched for every period 
   points beside it. Matchup cards are fully clickable (stretched `.box-link`; team-name links sit above it) → `/matchups/<key>/`, both lineups side by side.
   Rosters are only as fresh as the last ESPN refresh.
 - **Monday Night Sweats** (own tab `/sweats/`, nav after Trades; 2026-09-29): `compute.py` writes `data/site/sweats.json` ONLY when a refresh lands in the
-  "final day window" (`lib/sweats.in_final_day_window`: Sunday night over, Monday games not started) — the Mon 11:00 UTC cron. Other refreshes leave
+  "final day window" (`lib/sweats.in_final_day_window`: Sunday night over, Monday games not started) — the Mon 09:17 UTC cron. Other refreshes leave
   the snapshot alone, so it stays up all week and gets a "Final … held on / came back" line once the week completes. Picks the 5 undecided matchups
   with ESPN win probability closest to 50% (fallback: our normal-approx estimate from projections, labeled "estimated"), skipping any where the trailing
   team has no starter left to play. Before the first Monday refresh there is no sweats.json and the section is hidden.
-  UNVERIFIED as of 2026-09-29: whether ESPN's `winProbability` updates during the week or is the pregame number — `est_win_prob` is stored beside
-  `espn_win_prob` in sweats.json so the first real snapshot (Mon 2026-10-05) can be compared; if ESPN's is static, switch `win_prob` to the estimate.
+  Verified 2026-10-05 (first real snapshot): ESPN's `winProbability` is live, within ~5 points of `est_win_prob` on every pick — keep `win_prob` = ESPN.
+  GitHub fired the original 11:00 UTC cron 4.5–7.5 h late every time, so on 2026-10-05 it moved to 09:17 UTC (early + off the hour). Still not guaranteed; manual run is the fallback.
 
 ## Hard-won gotchas
 - **CSS is inlined** (`inlineStylesheets: 'always'` in astro.config). External hashed CSS + frequent deploys + GitHub Pages 10-min cache → cached pages

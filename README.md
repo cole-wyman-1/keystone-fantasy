@@ -2,7 +2,7 @@
 
 Standings, weekly high scores, rosters and box scores, a record book, a cross-league power
 ranking, trades and Monday Night Sweats for the seven Keystone ESPN fantasy leagues. Static site on GitHub Pages, refreshed from ESPN by a
-GitHub Actions job three mornings a week (Mon / Tue / Fri, 11:00 UTC).
+GitHub Actions job three mornings a week (Mon / Tue / Fri, 09:17 UTC).
 
 Design and decisions: `PLAN.md`. Notes for future Claude sessions: `CLAUDE.md`.
 
@@ -120,7 +120,7 @@ appears on Friday.
 The five closest undecided matchups across all leagues heading into Monday night, ranked by ESPN's
 win probability, skipping any matchup where the trailing team has nobody left to play. It is a
 **snapshot**: `compute.py` only rewrites `data/site/sweats.json` when a refresh runs after Sunday
-night football has ended and before Monday night kicks off. The regular Monday 11:00 UTC run does
+night football has ended and before Monday night kicks off. The regular Monday 09:17 UTC run does
 this on its own; to take the snapshot earlier (Sunday night after the late game, ~11:30 PM ET),
 run the workflow manually. Other refreshes leave it alone, so it stays up all week and gets a
 "Final … held on / came back to win" line once the week is complete. Before the first snapshot
