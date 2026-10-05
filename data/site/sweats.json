@@ -1,0 +1,271 @@
+{
+"week":4,
+"as_of_utc":"2026-10-05T13:37:28+00:00",
+"candidates":42,
+"sweats":[
+{
+"key":"c2c-w4-23",
+"league_code":"C2C",
+"league_name":"Freedom League",
+"week":4,
+"win_prob_source":"espn",
+"leader":"away",
+"lead":5.7,
+"home":{
+"team_id":10,
+"slot_id":"C2C-11",
+"owner":"Karthick Hemmanuer",
+"team_name":"We're a basketball city anyways",
+"abbrev":"BBL",
+"logo":"https://g.espncdn.com/lm-static/logo-packs/core/StadiumFoods-ESPN/stadium-foods_pizza.svg",
+"points":98.7,
+"projected":117.3,
+"espn_win_prob":0.3,
+"remaining":[
+{
+"name":"Tyler Shough",
+"position":"QB",
+"pro_team":"NO",
+"projected":18.6,
+"game":"vs ATL",
+"game_utc":"2026-10-06T00:15:00+00:00"
+}
+],
+"est_win_prob":0.342,
+"win_prob":0.3
+},
+"away":{
+"team_id":9,
+"slot_id":"C2C-06",
+"owner":"Rich Riley",
+"team_name":"Rich's Rowdy Team",
+"abbrev":"RRT",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/4.svg",
+"points":104.4,
+"projected":123.86,
+"espn_win_prob":0.7,
+"remaining":[
+{
+"name":"Bijan Robinson",
+"position":"RB",
+"pro_team":"ATL",
+"projected":19.5,
+"game":"at NO",
+"game_utc":"2026-10-06T00:15:00+00:00"
+}
+],
+"est_win_prob":0.658,
+"win_prob":0.7
+}
+},
+{
+"key":"har-w4-19",
+"league_code":"HAR",
+"league_name":"Harbor League",
+"week":4,
+"win_prob_source":"espn",
+"leader":"home",
+"lead":23.86,
+"home":{
+"team_id":11,
+"slot_id":"HAR-04",
+"owner":"Douglas Kirkpatrick",
+"team_name":"Doug's Dangerous Team",
+"abbrev":"DDT",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/5.svg",
+"points":119.38,
+"projected":119.38,
+"espn_win_prob":0.25,
+"remaining":[],
+"est_win_prob":0.236,
+"win_prob":0.25
+},
+"away":{
+"team_id":7,
+"slot_id":"HAR-07",
+"owner":"Caroline Scala",
+"team_name":"Sunday Scaries",
+"abbrev":"SS",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/11.svg",
+"points":95.52,
+"projected":130.03,
+"espn_win_prob":0.75,
+"remaining":[
+{
+"name":"Bijan Robinson",
+"position":"RB",
+"pro_team":"ATL",
+"projected":19.5,
+"game":"at NO",
+"game_utc":"2026-10-06T00:15:00+00:00"
+},
+{
+"name":"Chris Olave",
+"position":"WR",
+"pro_team":"NO",
+"projected":15.0,
+"game":"vs ATL",
+"game_utc":"2026-10-06T00:15:00+00:00"
+}
+],
+"est_win_prob":0.764,
+"win_prob":0.75
+}
+},
+{
+"key":"emp-w4-21",
+"league_code":"EMP",
+"league_name":"Empire League",
+"week":4,
+"win_prob_source":"espn",
+"leader":"away",
+"lead":12.88,
+"home":{
+"team_id":9,
+"slot_id":"EMP-04",
+"owner":"Zach Macdonald",
+"team_name":"System of a 1st Down",
+"abbrev":"SO1D",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/4.svg",
+"points":88.02,
+"projected":107.48,
+"espn_win_prob":0.23,
+"remaining":[
+{
+"name":"Bijan Robinson",
+"position":"RB",
+"pro_team":"ATL",
+"projected":19.5,
+"game":"at NO",
+"game_utc":"2026-10-06T00:15:00+00:00"
+}
+],
+"est_win_prob":0.285,
+"win_prob":0.23
+},
+"away":{
+"team_id":10,
+"slot_id":"EMP-05",
+"owner":"Bradley Hart",
+"team_name":"Synergistic optimization",
+"abbrev":"SYNG",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/8.svg",
+"points":100.9,
+"projected":115.95,
+"espn_win_prob":0.77,
+"remaining":[
+{
+"name":"Chris Olave",
+"position":"WR",
+"pro_team":"NO",
+"projected":15.0,
+"game":"vs ATL",
+"game_utc":"2026-10-06T00:15:00+00:00"
+}
+],
+"est_win_prob":0.715,
+"win_prob":0.77
+}
+},
+{
+"key":"alc-w4-21",
+"league_code":"ALC",
+"league_name":"Alumni Classic",
+"week":4,
+"win_prob_source":"espn",
+"leader":"away",
+"lead":30.34,
+"home":{
+"team_id":3,
+"slot_id":"ALC-09",
+"owner":"Sam Hoffman",
+"team_name":"Sam's Calling for Hikes",
+"abbrev":"SCH",
+"logo":"https://g.espncdn.com/lm-static/logo-packs/ffl/BlitznBears-MartinLaksman/bears-01.svg",
+"points":74.58,
+"projected":94.04,
+"espn_win_prob":0.13,
+"remaining":[
+{
+"name":"Bijan Robinson",
+"position":"RB",
+"pro_team":"ATL",
+"projected":19.5,
+"game":"at NO",
+"game_utc":"2026-10-06T00:15:00+00:00"
+}
+],
+"est_win_prob":0.177,
+"win_prob":0.13
+},
+"away":{
+"team_id":6,
+"slot_id":"ALC-03",
+"owner":"Catherine Goel",
+"team_name":"Brady Bunch",
+"abbrev":"CG",
+"logo":"https://g.espncdn.com/lm-static/logo-packs/ffl/Blockparty-RobbHars/blockplayers-03.svg",
+"points":104.92,
+"projected":104.92,
+"espn_win_prob":0.87,
+"remaining":[],
+"est_win_prob":0.823,
+"win_prob":0.87
+}
+},
+{
+"key":"c2c-w4-20",
+"league_code":"C2C",
+"league_name":"Freedom League",
+"week":4,
+"win_prob_source":"espn",
+"leader":"home",
+"lead":37.4,
+"home":{
+"team_id":7,
+"slot_id":"C2C-02",
+"owner":"Alec Brockell",
+"team_name":"futbol americano",
+"abbrev":"AFA ",
+"logo":"https://mystique-api.fantasy.espn.com/apis/v1/domains/lm/images/e3087730-ab8c-11f1-adbb-af55773333bb",
+"points":104.16,
+"projected":104.16,
+"espn_win_prob":0.91,
+"remaining":[],
+"est_win_prob":0.908,
+"win_prob":0.91
+},
+"away":{
+"team_id":1,
+"slot_id":"C2C-12",
+"owner":"Aseem Mahajan",
+"team_name":"Aseem's Team",
+"abbrev":"KTT",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg",
+"points":66.76,
+"projected":90.4,
+"espn_win_prob":0.09,
+"remaining":[
+{
+"name":"Chris Olave",
+"position":"WR",
+"pro_team":"NO",
+"projected":15.0,
+"game":"vs ATL",
+"game_utc":"2026-10-06T00:15:00+00:00"
+},
+{
+"name":"Juwan Johnson",
+"position":"TE",
+"pro_team":"NO",
+"projected":8.6,
+"game":"vs ATL",
+"game_utc":"2026-10-06T00:15:00+00:00"
+}
+],
+"est_win_prob":0.092,
+"win_prob":0.09
+}
+}
+]
+}
