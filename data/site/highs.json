@@ -185,6 +185,68 @@
 "points":158.26,
 "team_id":7
 }
+},
+{
+"week":4,
+"per_league":{
+"EMP":{
+"slot_id":"EMP-09",
+"owner":"Matt Gates",
+"team_name":"Aussie Aussie Aussie Oi Oi Oi",
+"points":149.76,
+"team_id":4
+},
+"GOT":{
+"slot_id":"GOT-01",
+"owner":"Alice Khayami",
+"team_name":"Bijan Mustard",
+"points":141.28,
+"team_id":7
+},
+"BEA":{
+"slot_id":"BEA-03",
+"owner":"James Mulcahy",
+"team_name":"James learns football",
+"points":150.12,
+"team_id":5
+},
+"HAR":{
+"slot_id":"HAR-07",
+"owner":"Caroline Scala",
+"team_name":"Sunday Scaries",
+"points":138.32,
+"team_id":7
+},
+"ALC":{
+"slot_id":"ALC-06",
+"owner":"Cuau Trevino",
+"team_name":"Cuau MX",
+"points":140.52,
+"team_id":2
+},
+"ALL":{
+"slot_id":"ALL-08",
+"owner":"Andre Costa",
+"team_name":"Andre's Astounding Team",
+"points":151.62,
+"team_id":8
+},
+"C2C":{
+"slot_id":"C2C-06",
+"owner":"Rich Riley",
+"team_name":"Rich's Rowdy Team",
+"points":131.6,
+"team_id":9
+}
+},
+"overall":{
+"league_code":"ALL",
+"slot_id":"ALL-08",
+"owner":"Andre Costa",
+"team_name":"Andre's Astounding Team",
+"points":151.62,
+"team_id":8
+}
 }
 ],
 "leaderboard":[
@@ -200,13 +262,20 @@
 "owner":"Alice Khayami",
 "league_code":"GOT",
 "team_name":"Bijan Mustard",
-"count":2
+"count":3
 },
 {
 "slot_id":"BEA-02",
 "owner":"Justin Metz",
 "league_code":"BEA",
 "team_name":"LIFO The Party",
+"count":2
+},
+{
+"slot_id":"HAR-07",
+"owner":"Caroline Scala",
+"league_code":"HAR",
+"team_name":"Sunday Scaries",
 "count":2
 },
 {
@@ -217,11 +286,25 @@
 "count":2
 },
 {
+"slot_id":"ALC-06",
+"owner":"Cuau Trevino",
+"league_code":"ALC",
+"team_name":"Cuau MX",
+"count":2
+},
+{
 "slot_id":"ALL-09",
 "owner":"Omer Khan",
 "league_code":"ALL",
 "team_name":"Omer's Otherworldly Team",
 "count":2
+},
+{
+"slot_id":"EMP-09",
+"owner":"Matt Gates",
+"league_code":"EMP",
+"team_name":"Aussie Aussie Aussie Oi Oi Oi",
+"count":1
 },
 {
 "slot_id":"GOT-09",
@@ -235,6 +318,13 @@
 "owner":"Prateek Mehta",
 "league_code":"BEA",
 "team_name":"Prateek's Perfect Team",
+"count":1
+},
+{
+"slot_id":"BEA-03",
+"owner":"James Mulcahy",
+"league_code":"BEA",
+"team_name":"James learns football",
 "count":1
 },
 {
@@ -252,24 +342,17 @@
 "count":1
 },
 {
-"slot_id":"HAR-07",
-"owner":"Caroline Scala",
-"league_code":"HAR",
-"team_name":"Sunday Scaries",
-"count":1
-},
-{
-"slot_id":"ALC-06",
-"owner":"Cuau Trevino",
-"league_code":"ALC",
-"team_name":"Cuau MX",
-"count":1
-},
-{
 "slot_id":"ALL-05",
 "owner":"Ben Klopack",
 "league_code":"ALL",
 "team_name":"ben's Brilliant Team",
+"count":1
+},
+{
+"slot_id":"ALL-08",
+"owner":"Andre Costa",
+"league_code":"ALL",
+"team_name":"Andre's Astounding Team",
 "count":1
 },
 {
@@ -291,6 +374,13 @@
 "owner":"Gaby Lichucki",
 "league_code":"C2C",
 "team_name":"yay sports",
+"count":1
+},
+{
+"slot_id":"C2C-06",
+"owner":"Rich Riley",
+"league_code":"C2C",
+"team_name":"Rich's Rowdy Team",
 "count":1
 }
 ]
