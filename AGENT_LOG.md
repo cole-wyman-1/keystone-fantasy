@@ -69,3 +69,18 @@ Cole: dashboard had not refreshed to create the sweats. Nothing was broken — t
   Fixed same session: cron moved to `17 9 * * 1,2,5` (early + off the hour).
 - Sweats card tweaks (Cole): remaining players show name + projection only (no position / NFL team / opponent / kickoff); the lead moved out of
   the dark score rows into the "left to play" list as a "Current lead +x.x pts" line on the leader's side.
+
+## 2026-10-06 — Claude Code (Fable 5.1), manager profile links + headshots
+
+Cole: manager names link to keystone.com (current) or LinkedIn (alumni); team page shows a small headshot. He uploaded
+`Starter Files/private/names and linkedin .xlsx` (19 alumni: Name, Link, pasted photo).
+- keystone.com/our-people is a Webflow list: 299 cards, each `/our-people/<slug>` + headshot with a `-p-500` srcset rendition. Scraped with regex.
+- Name matching: exact → nickname table + exact last name → difflib ≥0.88. Took keystone.com matches from 41 (plain slug) to 48; caught
+  Chris/Christopher, Zach/Zachary, Michael H. Gary, "Karthik Hemmanur" (site) vs "Karthick Hemmanuer" (CSV), "Iakdawala"/"lakdawala" (spreadsheet typo).
+- Spreadsheet pictures: openpyxl loads none without Pillow and anchor handling is flaky, so pictures come straight from `xl/media` via
+  `xl/drawings/drawing1.xml` anchors; a `from` rowOff past ~half a row means the picture sits in the NEXT row (Excel writes it that way).
+  18 photos → 18 rows, no collisions. Cuau Trevino has a link but no photo.
+- Result: 48 Keystone + 18 LinkedIn = 66 of 81 members linked; 65 headshots (504 KB total). 15 members with neither — list sent to Cole.
+  Justin Metz is in the spreadsheet AND on keystone.com → Keystone wins (per Cole's rule 3).
+- Site: `Owner.astro` replaces every `{x.owner}`; `.mu .team a` z-index already lifts it above the stretched matchup `.box-link`.
+  Person page header is now photo + h1 + "Managed by <link>". Test added: links only keystone.com/linkedin.com, every photo file exists.

@@ -1,0 +1,11 @@
+---
+// A manager's name, linked out to their public profile (keystone.com page or LinkedIn) when we have one.
+// Plain text otherwise. Always opens in a new tab so the reader doesn't lose the site.
+import { people } from '../lib/data';
+const { slotId, name } = Astro.props;
+const p = slotId ? people[slotId] : null;
+const who = name || p?.display_name || '';
+const url = p?.profile_url;
+const title = url ? (p.profile_source === 'linkedin' ? `${who} on LinkedIn` : `${who} at Keystone`) : undefined;
+---
+{url ? <a class="who" href={url} target="_blank" rel="noopener" title={title}>{who}</a> : <Fragment>{who}</Fragment>}

@@ -29,6 +29,7 @@ MASTER = ROOT / "data" / "master.json"
 ESPN = ROOT / "data" / "espn"
 SITE = ROOT / "data" / "site"
 LOGOS = ROOT / "data" / "logos.json"
+PROFILES = ROOT / "data" / "profiles.json"   # from fetch_profiles.py: slot id -> {url, source, photo}
 PROFILE_FIELDS = ["keystone_group", "favorite_team", "home_city", "college", "company"]
 RECORD_N_OVERALL, RECORD_N_LEAGUE = 10, 5
 EMAIL_RE = re.compile(r"[\w.+-]+@[\w-]+\.[\w.-]+")
@@ -109,6 +110,7 @@ def sweat_candidates(code: str, league_name: str, week: dict, label: dict) -> li
 
 
 _LOGOS = json.loads(LOGOS.read_text()) if LOGOS.exists() else {"nfl": {}, "college": {}}
+_PROFILES = json.loads(PROFILES.read_text()) if PROFILES.exists() else {}
 
 
 def public_person(slot: dict) -> dict:
@@ -127,8 +129,11 @@ def public_person(slot: dict) -> dict:
     comp_logo = _LOGOS.get("company", {}).get(profile.get("company", ""))
     if comp_logo and comp_logo != logos.get("college"):   # don't show the college crest twice
         logos["company"] = comp_logo
+    link = _PROFILES.get(slot["slot_id"], {})
     return {
         "slot_id": slot["slot_id"], "slug": slot["slot_id"].lower(), "display_name": slot["display_name"],
+        "profile_url": link.get("url"), "profile_source": link.get("source"),   # keystone.com page or LinkedIn
+        "photo": link.get("photo"),                                            # headshots/<slot>.jpg, self-hosted
         "first_name": slot["first_name"], "last_name": slot["last_name"],
         "league_code": slot["league_code"], "league_name": slot["league_name"],
         "is_commissioner": slot["is_commissioner"], "manager_seat": slot["manager_seat"],

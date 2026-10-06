@@ -1,4 +1,5 @@
 ---
+import Owner from '../../components/Owner.astro';
 import Layout from '../../components/Layout.astro';
 import PlayerCell from '../../components/PlayerCell.astro';
 import { weekly, lineups, leagueByCode, leagueUrl, personUrl, fmt } from '../../lib/data';
@@ -34,12 +35,12 @@ const tier = m.playoff_tier && m.playoff_tier !== 'NONE' ? ' · Playoffs' : '';
 
   <div class="box-head">
     <div class={`side ${hw ? 'winner' : aw ? 'loser' : ''}`}>
-      <a href={personUrl(m.home.slot_id)}><strong>{m.home.team_name}</strong></a><span class="tn">{m.home.owner}</span>
+      <a href={personUrl(m.home.slot_id)}><strong>{m.home.team_name}</strong></a><span class="tn"><Owner slotId={m.home.slot_id} name={m.home.owner} /></span>
       <div class="score">{fmt(m.home.points)}</div>
     </div>
     <div class="vs muted">vs</div>
     <div class={`side r ${aw ? 'winner' : hw ? 'loser' : ''}`}>
-      <a href={personUrl(m.away.slot_id)}><strong>{m.away.team_name}</strong></a><span class="tn">{m.away.owner}</span>
+      <a href={personUrl(m.away.slot_id)}><strong>{m.away.team_name}</strong></a><span class="tn"><Owner slotId={m.away.slot_id} name={m.away.owner} /></span>
       <div class="score">{fmt(m.away.points)}</div>
     </div>
   </div>

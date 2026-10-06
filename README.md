@@ -82,6 +82,16 @@ fill Display Name / First / Last / Seat Type = Member, and the `ESPN Team ID` fr
 (add the school to `COLLEGE_ESPN` or `COLLEGE_DOMAIN`, or an employer to `COMPANY`, in that script), then
 compute, commit the new PNGs under `site/public/logos/`, push.
 
+**Manager profile links and headshots** (manager names link out; team pages show a photo): run
+`.venv/bin/python scripts/fetch_profiles.py`. It matches everyone against https://www.keystone.com/our-people
+(current employees → their Keystone page + Keystone headshot), then against the alumni spreadsheet
+`Starter Files/private/names and linkedin .xlsx` (columns Name, Link, Photo; paste each LinkedIn headshot as a
+normal floating picture inside that person's row). Anyone on keystone.com uses Keystone even if they're also in the
+spreadsheet. It prints who matched nobody; fix a name mismatch by adding it to `ALIASES` in the script (Keystone)
+or correcting the spreadsheet row (LinkedIn), re-run, then compute, commit `data/profiles.json` +
+`site/public/headshots/`, push. Existing photos are kept unless `--force`. The spreadsheet never leaves `private/`;
+only the LinkedIn URLs and the 160px photos are published.
+
 **Rename a league:** change `name` in `leagues.json` (the code and Slot IDs stay the same).
 
 **Force a full re-fetch** (e.g. after ESPN stat corrections): `scripts/fetch_espn.py --force`.

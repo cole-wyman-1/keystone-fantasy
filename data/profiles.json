@@ -1,0 +1,397 @@
+{
+ "ALC-01": {
+  "url": "https://www.linkedin.com/in/robertozuban/",
+  "source": "linkedin",
+  "name": "Roberto Zuban",
+  "photo": "headshots/alc-01.jpg"
+ },
+ "ALC-02": {
+  "url": "https://www.linkedin.com/in/jswong/",
+  "source": "linkedin",
+  "name": "Jonathan Wong",
+  "photo": "headshots/alc-02.jpg"
+ },
+ "ALC-03": {
+  "url": "https://www.linkedin.com/in/poiriercatherine/",
+  "source": "linkedin",
+  "name": "Catherine Goel",
+  "photo": "headshots/alc-03.jpg"
+ },
+ "ALC-04": {
+  "url": "https://www.linkedin.com/in/akshay-goel-7041a633/",
+  "source": "linkedin",
+  "name": "Akshay Goel",
+  "photo": "headshots/alc-04.jpg"
+ },
+ "ALC-05": {
+  "url": "https://www.linkedin.com/in/mark-karlson/",
+  "source": "linkedin",
+  "name": "Mark Karlson",
+  "photo": "headshots/alc-05.jpg"
+ },
+ "ALC-06": {
+  "url": "https://www.linkedin.com/in/cuauhtemoctrevino/",
+  "source": "linkedin",
+  "name": "Cuau Trevino"
+ },
+ "ALC-07": {
+  "url": "https://www.linkedin.com/in/dcollazo26/",
+  "source": "linkedin",
+  "name": "Danielle Collazo",
+  "photo": "headshots/alc-07.jpg"
+ },
+ "ALC-08": {
+  "url": "https://www.linkedin.com/in/hershlakdawala/",
+  "source": "linkedin",
+  "name": "Hersh Iakdawala",
+  "photo": "headshots/alc-08.jpg"
+ },
+ "ALC-09": {
+  "url": "https://www.linkedin.com/in/sammhoffman/",
+  "source": "linkedin",
+  "name": "Sam Hoffman",
+  "photo": "headshots/alc-09.jpg"
+ },
+ "ALC-11": {
+  "url": "https://www.linkedin.com/in/cedricgarcia/",
+  "source": "linkedin",
+  "name": "Cedric Garcia",
+  "photo": "headshots/alc-11.jpg"
+ },
+ "ALL-01": {
+  "url": "https://www.keystone.com/our-people/fraser-thompson",
+  "source": "keystone",
+  "name": "Fraser Thompson",
+  "photo": "headshots/all-01.jpg"
+ },
+ "ALL-02": {
+  "url": "https://www.linkedin.com/in/jackcardwell/",
+  "source": "linkedin",
+  "name": "Jack Cardwell",
+  "photo": "headshots/all-02.jpg"
+ },
+ "ALL-03": {
+  "url": "https://www.keystone.com/our-people/jeff-marowits-hlnh2",
+  "source": "keystone",
+  "name": "Jeff Marowits",
+  "photo": "headshots/all-03.jpg"
+ },
+ "ALL-04": {
+  "url": "https://www.linkedin.com/in/jacobklehman/",
+  "source": "linkedin",
+  "name": "Jacob Lehman",
+  "photo": "headshots/all-04.jpg"
+ },
+ "ALL-05": {
+  "url": "https://www.linkedin.com/in/benklopack/",
+  "source": "linkedin",
+  "name": "Ben Klopack",
+  "photo": "headshots/all-05.jpg"
+ },
+ "ALL-06": {
+  "url": "https://www.linkedin.com/in/benjamin-lieber-47541163/",
+  "source": "linkedin",
+  "name": "Ben Lieber",
+  "photo": "headshots/all-06.jpg"
+ },
+ "ALL-07": {
+  "url": "https://www.linkedin.com/in/michael-latona/",
+  "source": "linkedin",
+  "name": "Mike Latona",
+  "photo": "headshots/all-07.jpg"
+ },
+ "ALL-08": {
+  "url": "https://www.linkedin.com/in/andrelavadocosta/",
+  "source": "linkedin",
+  "name": "Andre Costa",
+  "photo": "headshots/all-08.jpg"
+ },
+ "ALL-09": {
+  "url": "https://www.linkedin.com/in/omer-ai/",
+  "source": "linkedin",
+  "name": "Omer Khan",
+  "photo": "headshots/all-09.jpg"
+ },
+ "ALL-10": {
+  "url": "https://www.linkedin.com/in/~benj/",
+  "source": "linkedin",
+  "name": "Benjamin Christensen",
+  "photo": "headshots/all-10.jpg"
+ },
+ "BEA-01": {
+  "url": "https://www.keystone.com/our-people/brittany-halks",
+  "source": "keystone",
+  "name": "Brittany Halks",
+  "photo": "headshots/bea-01.jpg"
+ },
+ "BEA-02": {
+  "url": "https://www.keystone.com/our-people/justin-metz",
+  "source": "keystone",
+  "name": "Justin Metz",
+  "photo": "headshots/bea-02.jpg"
+ },
+ "BEA-03": {
+  "url": "https://www.keystone.com/our-people/james-mulcahy",
+  "source": "keystone",
+  "name": "James Mulcahy",
+  "photo": "headshots/bea-03.jpg"
+ },
+ "BEA-04": {
+  "url": "https://www.keystone.com/our-people/jacqui-lemire",
+  "source": "keystone",
+  "name": "Jacqui Lemire",
+  "photo": "headshots/bea-04.jpg"
+ },
+ "BEA-07": {
+  "url": "https://www.keystone.com/our-people/chris-teixeira",
+  "source": "keystone",
+  "name": "Chris Teixeira",
+  "photo": "headshots/bea-07.jpg"
+ },
+ "BEA-08": {
+  "url": "https://www.keystone.com/our-people/bill-leith",
+  "source": "keystone",
+  "name": "Bill Leith",
+  "photo": "headshots/bea-08.jpg"
+ },
+ "BEA-09": {
+  "url": "https://www.keystone.com/our-people/peter-chang",
+  "source": "keystone",
+  "name": "Peter Chang",
+  "photo": "headshots/bea-09.jpg"
+ },
+ "C2C-01": {
+  "url": "https://www.keystone.com/our-people/manyee-yu",
+  "source": "keystone",
+  "name": "ManYee Yu",
+  "photo": "headshots/c2c-01.jpg"
+ },
+ "C2C-02": {
+  "url": "https://www.keystone.com/our-people/alec-brockell",
+  "source": "keystone",
+  "name": "Alec Brockell",
+  "photo": "headshots/c2c-02.jpg"
+ },
+ "C2C-03": {
+  "url": "https://www.keystone.com/our-people/gaby-lichucki",
+  "source": "keystone",
+  "name": "Gaby Lichucki",
+  "photo": "headshots/c2c-03.jpg"
+ },
+ "C2C-04": {
+  "url": "https://www.keystone.com/our-people/michael-h-gary",
+  "source": "keystone",
+  "name": "Michael H. Gary",
+  "photo": "headshots/c2c-04.jpg"
+ },
+ "C2C-05": {
+  "url": "https://www.keystone.com/our-people/terrence-dai",
+  "source": "keystone",
+  "name": "Terrence Dai",
+  "photo": "headshots/c2c-05.jpg"
+ },
+ "C2C-06": {
+  "url": "https://www.keystone.com/our-people/rich-riley",
+  "source": "keystone",
+  "name": "Rich Riley",
+  "photo": "headshots/c2c-06.jpg"
+ },
+ "C2C-07": {
+  "url": "https://www.keystone.com/our-people/evan-sexton",
+  "source": "keystone",
+  "name": "Evan Sexton",
+  "photo": "headshots/c2c-07.jpg"
+ },
+ "C2C-09": {
+  "url": "https://www.keystone.com/our-people/ande-shen",
+  "source": "keystone",
+  "name": "Ande Shen",
+  "photo": "headshots/c2c-09.jpg"
+ },
+ "C2C-10": {
+  "url": "https://www.keystone.com/our-people/kylie-sagisi",
+  "source": "keystone",
+  "name": "Kylie Sagisi",
+  "photo": "headshots/c2c-10.jpg"
+ },
+ "C2C-11": {
+  "url": "https://www.keystone.com/our-people/karthik-hemmanur",
+  "source": "keystone",
+  "name": "Karthik Hemmanur",
+  "photo": "headshots/c2c-11.jpg"
+ },
+ "C2C-12": {
+  "url": "https://www.keystone.com/our-people/aseem-mahajan",
+  "source": "keystone",
+  "name": "Aseem Mahajan",
+  "photo": "headshots/c2c-12.jpg"
+ },
+ "EMP-01": {
+  "url": "https://www.keystone.com/our-people/prajeet-sarker",
+  "source": "keystone",
+  "name": "Prajeet Sarker",
+  "photo": "headshots/emp-01.jpg"
+ },
+ "EMP-02": {
+  "url": "https://www.keystone.com/our-people/anita-bushnell",
+  "source": "keystone",
+  "name": "Anita Bushnell",
+  "photo": "headshots/emp-02.jpg"
+ },
+ "EMP-03": {
+  "url": "https://www.keystone.com/our-people/druv-murthy",
+  "source": "keystone",
+  "name": "Druv Murthy",
+  "photo": "headshots/emp-03.jpg"
+ },
+ "EMP-04": {
+  "url": "https://www.keystone.com/our-people/zachary-macdonald",
+  "source": "keystone",
+  "name": "Zachary Macdonald",
+  "photo": "headshots/emp-04.jpg"
+ },
+ "EMP-05": {
+  "url": "https://www.keystone.com/our-people/bradley-hart",
+  "source": "keystone",
+  "name": "Bradley Hart",
+  "photo": "headshots/emp-05.jpg"
+ },
+ "EMP-06": {
+  "url": "https://www.keystone.com/our-people/benjamin-feldman",
+  "source": "keystone",
+  "name": "Benjamin Feldman",
+  "photo": "headshots/emp-06.jpg"
+ },
+ "EMP-07": {
+  "url": "https://www.keystone.com/our-people/kelton-berry",
+  "source": "keystone",
+  "name": "Kelton Berry",
+  "photo": "headshots/emp-07.jpg"
+ },
+ "EMP-08": {
+  "url": "https://www.keystone.com/our-people/cole-wyman",
+  "source": "keystone",
+  "name": "Cole Wyman",
+  "photo": "headshots/emp-08.jpg"
+ },
+ "EMP-09": {
+  "url": "https://www.keystone.com/our-people/matt-gates",
+  "source": "keystone",
+  "name": "Matt Gates",
+  "photo": "headshots/emp-09.jpg"
+ },
+ "EMP-10": {
+  "url": "https://www.keystone.com/our-people/jacob-salant",
+  "source": "keystone",
+  "name": "Jacob Salant",
+  "photo": "headshots/emp-10.jpg"
+ },
+ "EMP-11": {
+  "url": "https://www.keystone.com/our-people/victoire-cagniart",
+  "source": "keystone",
+  "name": "Victoire Cagniart",
+  "photo": "headshots/emp-11.jpg"
+ },
+ "EMP-12": {
+  "url": "https://www.keystone.com/our-people/amelia-ockert",
+  "source": "keystone",
+  "name": "Amelia Ockert",
+  "photo": "headshots/emp-12.jpg"
+ },
+ "GOT-03": {
+  "url": "https://www.keystone.com/our-people/ashutosh-bajpai",
+  "source": "keystone",
+  "name": "Ashutosh Bajpai",
+  "photo": "headshots/got-03.jpg"
+ },
+ "GOT-04": {
+  "url": "https://www.keystone.com/our-people/sahil-singh",
+  "source": "keystone",
+  "name": "Sahil Singh",
+  "photo": "headshots/got-04.jpg"
+ },
+ "GOT-06": {
+  "url": "https://www.keystone.com/our-people/zoe-stern",
+  "source": "keystone",
+  "name": "Zoe Stern",
+  "photo": "headshots/got-06.jpg"
+ },
+ "GOT-07": {
+  "url": "https://www.keystone.com/our-people/rohan-bhargava",
+  "source": "keystone",
+  "name": "Rohan Bhargava",
+  "photo": "headshots/got-07.jpg"
+ },
+ "GOT-08": {
+  "url": "https://www.keystone.com/our-people/sloane-winters-holtzman",
+  "source": "keystone",
+  "name": "Sloane Winters Holtzman",
+  "photo": "headshots/got-08.jpg"
+ },
+ "GOT-11": {
+  "url": "https://www.keystone.com/our-people/robert-mueller",
+  "source": "keystone",
+  "name": "Robert Mueller",
+  "photo": "headshots/got-11.jpg"
+ },
+ "HAR-01": {
+  "url": "https://www.keystone.com/our-people/aaron-white",
+  "source": "keystone",
+  "name": "Aaron White",
+  "photo": "headshots/har-01.jpg"
+ },
+ "HAR-02": {
+  "url": "https://www.keystone.com/our-people/nhi-dang",
+  "source": "keystone",
+  "name": "Nhi Dang",
+  "photo": "headshots/har-02.jpg"
+ },
+ "HAR-03": {
+  "url": "https://www.keystone.com/our-people/sam-peter",
+  "source": "keystone",
+  "name": "Sam Peter",
+  "photo": "headshots/har-03.jpg"
+ },
+ "HAR-04": {
+  "url": "https://www.keystone.com/our-people/douglas-kirkpatrick",
+  "source": "keystone",
+  "name": "Douglas Kirkpatrick",
+  "photo": "headshots/har-04.jpg"
+ },
+ "HAR-06": {
+  "url": "https://www.keystone.com/our-people/brian-hunscher",
+  "source": "keystone",
+  "name": "Brian Hunscher",
+  "photo": "headshots/har-06.jpg"
+ },
+ "HAR-07": {
+  "url": "https://www.keystone.com/our-people/caroline-scala",
+  "source": "keystone",
+  "name": "Caroline Scala",
+  "photo": "headshots/har-07.jpg"
+ },
+ "HAR-09": {
+  "url": "https://www.keystone.com/our-people/tyler-richards",
+  "source": "keystone",
+  "name": "Tyler Richards",
+  "photo": "headshots/har-09.jpg"
+ },
+ "HAR-10": {
+  "url": "https://www.keystone.com/our-people/sowmya-sridhar",
+  "source": "keystone",
+  "name": "Sowmya Sridhar",
+  "photo": "headshots/har-10.jpg"
+ },
+ "HAR-11": {
+  "url": "https://www.keystone.com/our-people/gabriele-corbetta",
+  "source": "keystone",
+  "name": "Gabriele Corbetta",
+  "photo": "headshots/har-11.jpg"
+ },
+ "HAR-12": {
+  "url": "https://www.keystone.com/our-people/elisabeth-beltinger",
+  "source": "keystone",
+  "name": "Elisabeth Beltinger",
+  "photo": "headshots/har-12.jpg"
+ }
+}

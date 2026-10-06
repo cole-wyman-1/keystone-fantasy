@@ -36,6 +36,9 @@ the in-progress week is always refetched; trades are refetched for every period 
 - `scripts/lib/records.py` — pure functions: standings, streaks, all-play luck, weekly highs, record book, playoff picture, power rank.
 - `scripts/lib/lineup.py` — optimal lineup solver (+ brute-force reference for tests); `display_lineup` (starters in slot order, bench, IR). `lib/sweats.py` — Monday Night Sweats window / remaining starters / pick (pure, tested). `lib/trades.py` — transaction → trade normalization.
 - `scripts/lib/icons.py` — emoji maps (hometown, fallbacks). `scripts/fetch_logos.py` — NFL/college/company PNGs → `site/public/logos/`, `data/logos.json`.
+- `scripts/fetch_profiles.py` — manager → public profile + headshot. keystone.com/our-people cards (slug URL + photo) first, then the
+  alumni spreadsheet `Starter Files/private/names and linkedin .xlsx` (LinkedIn URL + pasted picture, read from the xlsx zip by anchor row),
+  then `ALIASES`. Writes `data/profiles.json` + `site/public/headshots/<slot>.jpg` (160px). Manual, not in the cron. Needs Pillow.
 - `scripts/board_schema.sql` — Supabase table, one-level-reply trigger, rate limits, RLS (read + insert only).
 - `site/src/lib/data.ts` — loads `data/site/*.json` at build; `u()` prefixes the `/keystone-fantasy` base path; formatters.
 - `site/src/components/` — Layout (nav + ALL global CSS), TeamCell (team bold link + manager subtext + badges), ProfileBadges (college/NFL/company logos, hometown emoji, tooltips), StandingsTable, Matchups, RecordTable, ScoreChart (inline SVG), TradeCard, MessageBoard (client JS → Supabase REST), Roster (team page lineup table), PlayerCell (player name + pos · NFL team), MondaySweats (score bugs for `/sweats/`; own `is:global` styles).
@@ -64,6 +67,9 @@ the in-progress week is always refetched; trades are refetched for every period 
 - Badges: college logo (ESPN CDN; 4 schools via favicon), hometown emoji (country flag for international), NFL logo, company logo for alumni
   jobs outside Keystone (favicon; skipped when it equals home city or contains "Keystone"; skipped if it would duplicate the college crest).
   Hover/tap tooltip names each. Add a new school/company in `fetch_logos.py` maps, run it, commit the PNG.
+- Manager links (2026-10-06, Cole): the manager name is an external link EVERYWHERE it appears (`Owner.astro`, class `who`, dotted underline,
+  new tab) → keystone.com page for current employees, LinkedIn for alumni; plain text when neither. Team page shows a round 72px headshot
+  beside the h1. keystone.com wins over the spreadsheet when both list someone. Cole OK'd publishing photos (site is public).
 - Light theme, minimal, mobile-first (tables scroll inside `.tbl-wrap`; `.hide-sm` hides low-priority columns under 640px).
 - Deferred by Cole: office / NFL-team / college grouping pages ("maybe later"); commissioner seats keep the name "League Manager".
 

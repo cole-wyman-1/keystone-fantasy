@@ -49,3 +49,16 @@ def test_every_matchup_has_lineups_that_add_up():
                     total = sum(s["player"]["points"] for s in lu["starters"] if s["player"])
                     assert abs(total - m[side]["points"]) < 0.02, (code, wk, m[side]["team_name"])
     assert len(keys) == sum(len(w["matchups"]) for weeks in weekly.values() for w in weeks.values())  # page urls unique
+
+
+def test_profile_links_and_headshots():
+    """Manager links only ever point at keystone.com or LinkedIn, and every photo we publish exists on disk."""
+    people = json.loads((SITE / "people.json").read_text())
+    public = SITE.parent.parent / "site" / "public"
+    for p in people.values():
+        url = p.get("profile_url")
+        if url:
+            assert re.match(r"https://(www\.)?(keystone\.com/our-people/|linkedin\.com/in/)", url), (p["slot_id"], url)
+            assert p["profile_source"] in ("keystone", "linkedin")
+        if p.get("photo"):
+            assert (public / p["photo"]).is_file(), (p["slot_id"], p["photo"])

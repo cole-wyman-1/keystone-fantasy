@@ -1,4 +1,5 @@
 ---
+import Owner from '../../components/Owner.astro';
 import Layout from '../../components/Layout.astro';
 import StandingsTable from '../../components/StandingsTable.astro';
 import Matchups from '../../components/Matchups.astro';
@@ -33,7 +34,7 @@ const cards = rb ? [['Highest score', rb.highest_score[0], 'points'], ['Lowest s
 
   {latest && (<>
     <h2>Week {latest.week} results</h2>
-    <p class="small"><span class="badge gold">High</span> <a href={personUrl(latest.high.slot_id)}><strong>{latest.high.team_name}</strong></a> ({latest.high.owner}) {fmt(latest.high.points)} · <span class="badge">Low</span> <a href={personUrl(latest.low.slot_id)}><strong>{latest.low.team_name}</strong></a> ({latest.low.owner}) {fmt(latest.low.points)}</p>
+    <p class="small"><span class="badge gold">High</span> <a href={personUrl(latest.high.slot_id)}><strong>{latest.high.team_name}</strong></a> (<Owner slotId={latest.high.slot_id} name={latest.high.owner} />) {fmt(latest.high.points)} · <span class="badge">Low</span> <a href={personUrl(latest.low.slot_id)}><strong>{latest.low.team_name}</strong></a> (<Owner slotId={latest.low.slot_id} name={latest.low.owner} />) {fmt(latest.low.points)}</p>
     <Matchups matchups={latest.matchups} />
   </>)}
 
@@ -48,7 +49,7 @@ const cards = rb ? [['Highest score', rb.highest_score[0], 'points'], ['Lowest s
     <div class="cards">
       {cards.map(([label, r, key]: any) => (
         <div class="card"><div class="small muted">{label}</div><div style="font-weight:700;font-size:1.2rem">{fmt(r[key])}</div>
-          <div><a href={personUrl(r.slot_id)}><strong>{r.team_name}</strong></a> <span class="muted small">{r.owner} · wk {r.week}{key === 'player_points' ? ` · ${r.player} (${r.position})` : ''}</span></div></div>
+          <div><a href={personUrl(r.slot_id)}><strong>{r.team_name}</strong></a> <span class="muted small"><Owner slotId={r.slot_id} name={r.owner} /> · wk {r.week}{key === 'player_points' ? ` · ${r.player} (${r.position})` : ''}</span></div></div>
       ))}
     </div>
   </>)}

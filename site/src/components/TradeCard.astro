@@ -1,4 +1,5 @@
 ---
+import Owner from './Owner.astro';
 import { personUrl, fmtDateET } from '../lib/data';
 const { t, showLeague = true } = Astro.props;
 const when = t.processed_utc || t.proposed_utc;
@@ -13,7 +14,7 @@ const fmtP = (p: any) => `${p.name}${p.position ? ` (${p.position}${p.pro_team ?
   <div class="trade-sides">
     {t.sides.map((s: any) => (
       <div class="trade-side">
-        <div class="trade-team"><a href={personUrl(s.slot_id)}><strong>{s.team_name}</strong></a> <span class="muted small">{s.owner}</span></div>
+        <div class="trade-team"><a href={personUrl(s.slot_id)}><strong>{s.team_name}</strong></a> <span class="muted small"><Owner slotId={s.slot_id} name={s.owner} /></span></div>
         <div class="small"><span class="muted">Receives:</span> {s.receives.length ? s.receives.map(fmtP).join(', ') : '—'}</div>
         <div class="small"><span class="muted">Sends:</span> {s.gives.length ? s.gives.map(fmtP).join(', ') : '—'}</div>
       </div>

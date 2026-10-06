@@ -1,4 +1,5 @@
 ---
+import Owner from '../../components/Owner.astro';
 import Layout from '../../components/Layout.astro';
 import ScoreChart from '../../components/ScoreChart.astro';
 import StandingsTable from '../../components/StandingsTable.astro';
@@ -29,8 +30,15 @@ const myTrades = allTrades.filter((t: any) => t.status === 'EXECUTED' && t.sides
 ---
 <Layout title={`${title} · ${who}`}>
   <p class="small"><a href={leagueUrl(p.league_code)}>← {league.name}</a></p>
-  <h1>{title}</h1>
-  <p class="muted">Managed by <strong>{who}</strong>{p.team?.abbrev ? ` · ${p.team.abbrev}` : ''} · {league.name}{p.is_commissioner ? ' · commissioner-owned team' : ''}</p>
+  <div class="person-head">
+    {p.photo && (p.profile_url
+      ? <a href={p.profile_url} target="_blank" rel="noopener" title={p.profile_source === 'linkedin' ? `${who} on LinkedIn` : `${who} at Keystone`}><img class="headshot" src={u(p.photo)} alt={who} width="72" height="72" /></a>
+      : <img class="headshot" src={u(p.photo)} alt={who} width="72" height="72" />)}
+    <div>
+      <h1>{title}</h1>
+      <p class="muted">Managed by <strong>{p.is_commissioner ? who : <Owner slotId={p.slot_id} name={who} />}</strong>{p.team?.abbrev ? ` · ${p.team.abbrev}` : ''} · {league.name}{p.is_commissioner ? ' · commissioner-owned team' : ''}</p>
+    </div>
+  </div>
   <ProfileBadges p={p} size="lg" />
 
   {r ? (
@@ -61,10 +69,10 @@ const myTrades = allTrades.filter((t: any) => t.status === 'EXECUTED' && t.sides
     </div>
     <h2>Game log</h2>
     <div class="tbl-wrap"><table class="tbl"><thead><tr><th>Wk</th><th>Result</th><th class="num">Pts</th><th>Opponent</th><th class="num">Opp</th><th class="num hide-sm">Rank</th><th class="num hide-sm">Bench</th><th class="num hide-sm">Optimal</th><th></th></tr></thead>
-      <tbody>{p.weeks.map((w: any) => (<tr class={w.league_high ? 'hi' : ''}><td><a href={matchupUrl(w.matchup_key)} title="Lineups">{w.week}</a></td><td><span class={`badge ${w.result === 'W' ? 'win' : w.result === 'L' ? 'loss' : ''}`}>{w.result}</span></td><td class="num"><strong>{fmt(w.points)}</strong>{w.league_high ? ' ★' : ''}</td><td><a href={personUrl(w.opp_slot_id)}><strong>{w.opp_team_name}</strong></a> <span class="muted small">{w.opp_owner}</span></td><td class="num">{fmt(w.opp_points)}</td><td class="num hide-sm">{w.rank_in_league}/{rows.length}</td><td class="num hide-sm">{fmt(w.bench_points)}</td><td class="num hide-sm">{fmt(w.optimal_points)}</td><td><a class="small" href={matchupUrl(w.matchup_key)}>Lineups</a></td></tr>))}</tbody></table></div>
+      <tbody>{p.weeks.map((w: any) => (<tr class={w.league_high ? 'hi' : ''}><td><a href={matchupUrl(w.matchup_key)} title="Lineups">{w.week}</a></td><td><span class={`badge ${w.result === 'W' ? 'win' : w.result === 'L' ? 'loss' : ''}`}>{w.result}</span></td><td class="num"><strong>{fmt(w.points)}</strong>{w.league_high ? ' ★' : ''}</td><td><a href={personUrl(w.opp_slot_id)}><strong>{w.opp_team_name}</strong></a> <span class="muted small"><Owner slotId={w.opp_slot_id} name={w.opp_owner} /></span></td><td class="num">{fmt(w.opp_points)}</td><td class="num hide-sm">{w.rank_in_league}/{rows.length}</td><td class="num hide-sm">{fmt(w.bench_points)}</td><td class="num hide-sm">{fmt(w.optimal_points)}</td><td><a class="small" href={matchupUrl(w.matchup_key)}>Lineups</a></td></tr>))}</tbody></table></div>
   </>)}
 
-  {p.in_progress && (<p class="small"><span class="badge acc">Week {p.in_progress.week} in progress</span> {fmt(p.in_progress.points)} vs <a href={personUrl(p.in_progress.opp_slot_id)}><strong>{p.in_progress.opp_team_name}</strong></a> ({p.in_progress.opp_owner}) {fmt(p.in_progress.opp_points)} · <a href={matchupUrl(p.in_progress.matchup_key)}>Lineups →</a></p>)}
+  {p.in_progress && (<p class="small"><span class="badge acc">Week {p.in_progress.week} in progress</span> {fmt(p.in_progress.points)} vs <a href={personUrl(p.in_progress.opp_slot_id)}><strong>{p.in_progress.opp_team_name}</strong></a> (<Owner slotId={p.in_progress.opp_slot_id} name={p.in_progress.opp_owner} />) {fmt(p.in_progress.opp_points)} · <a href={matchupUrl(p.in_progress.matchup_key)}>Lineups →</a></p>)}
 
   {myTrades.length > 0 && (<><h2>Trades</h2><div class="trades">{myTrades.map((t: any) => <TradeCard t={t} showLeague={false} />)}</div></>)}
 

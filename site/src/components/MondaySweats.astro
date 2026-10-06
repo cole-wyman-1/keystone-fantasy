@@ -1,4 +1,5 @@
 ---
+import Owner from './Owner.astro';
 // Monday Night Sweats: the closest undecided matchups across all leagues heading into Monday night,
 // as a TV-style score bug: both teams, the lead, win probability, and who each side still has to play.
 import { sweats, weekly, meta, personUrl, matchupUrl, fmt, fmtDateET } from '../lib/data';
@@ -41,7 +42,7 @@ const finalOf = (s: any) => {
               return (
                 <div class={`bug-row ${leads ? 'leader' : ''}`}>
                   {t.logo ? <img src={t.logo} alt="" loading="lazy" /> : <span class="logo-ph" />}
-                  <div class="bug-team"><a href={personUrl(t.slot_id)}>{t.team_name}</a><span class="bug-owner">{t.owner}</span></div>
+                  <div class="bug-team"><a href={personUrl(t.slot_id)}>{t.team_name}</a><span class="bug-owner"><Owner slotId={t.slot_id} name={t.owner} /></span></div>
                   <span class="bug-score">{fmt(t.points, 1)}</span>
                 </div>
               );

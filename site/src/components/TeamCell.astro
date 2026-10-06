@@ -1,4 +1,5 @@
 ---
+import Owner from './Owner.astro';
 // Team name is the bold link; the manager (and their badges) is the subtext.
 import ProfileBadges from './ProfileBadges.astro';
 import { personUrl, people } from '../lib/data';
@@ -7,4 +8,4 @@ const p = slotId ? people[slotId] : null;
 const name = teamName || p?.team?.name || '';
 const who = owner || p?.display_name || '';
 ---
-<span class="tc"><a href={personUrl(slotId)}><strong>{name}</strong></a><span class="tc-sub">{who}{league ? ` · ${league}` : ''}{icons && p && <ProfileBadges p={p} size="sm" />}</span></span>
+<span class="tc"><a href={personUrl(slotId)}><strong>{name}</strong></a><span class="tc-sub"><Owner slotId={slotId} name={who} />{league ? ` · ${league}` : ''}{icons && p && <ProfileBadges p={p} size="sm" />}</span></span>
