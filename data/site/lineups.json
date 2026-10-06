@@ -27798,10 +27798,10 @@
 {
 "slot":"TE",
 "player":{
-"id":15847,
-"name":"Travis Kelce",
+"id":4572680,
+"name":"Tucker Kraft",
 "position":"TE",
-"pro_team":"KC",
+"pro_team":"GB",
 "points":0.0
 }
 },
@@ -27880,10 +27880,10 @@
 "points":0.0
 },
 {
-"id":4572680,
-"name":"Tucker Kraft",
+"id":15847,
+"name":"Travis Kelce",
 "position":"TE",
-"pro_team":"GB",
+"pro_team":"KC",
 "points":0.0
 },
 {
@@ -58011,10 +58011,10 @@
 {
 "slot":"RB",
 "player":{
-"id":4567048,
-"name":"Kenneth Walker III",
+"id":4259545,
+"name":"D'Andre Swift",
 "position":"RB",
-"pro_team":"KC",
+"pro_team":"CHI",
 "points":0.0
 }
 },
@@ -58061,10 +58061,10 @@
 {
 "slot":"FLEX",
 "player":{
-"id":4259545,
-"name":"D'Andre Swift",
-"position":"RB",
-"pro_team":"CHI",
+"id":3128429,
+"name":"Courtland Sutton",
+"position":"WR",
+"pro_team":"DEN",
 "points":0.0
 }
 },
@@ -58091,6 +58091,13 @@
 ],
 "bench":[
 {
+"id":4567048,
+"name":"Kenneth Walker III",
+"position":"RB",
+"pro_team":"KC",
+"points":0.0
+},
+{
 "id":4373626,
 "name":"Tyler Allgeier",
 "position":"RB",
@@ -58102,13 +58109,6 @@
 "name":"George Holani",
 "position":"RB",
 "pro_team":"SEA",
-"points":0.0
-},
-{
-"id":3128429,
-"name":"Courtland Sutton",
-"position":"WR",
-"pro_team":"DEN",
 "points":0.0
 },
 {
