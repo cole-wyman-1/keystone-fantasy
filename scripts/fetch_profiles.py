@@ -2,7 +2,7 @@
 
 Sources, in priority order:
   1. keystone.com/our-people  — current employees. Each card has a stable /our-people/<slug> URL and a headshot.
-  2. Cole's spreadsheets      — every Starter Files/private/*.xlsx except the master (git-ignored): Name, Link
+  2. Cole's spreadsheets      — every Starter Files/private/*.xlsx or *.csv except the master (git-ignored): Name, Link
                                 (LinkedIn, or a keystone.com/our-people page for someone the matcher missed), and a
                                 pasted headshot per row (optional; a keystone.com link gets the site's photo). Header row
                                 optional. Images are read straight out of the .xlsx (xl/media) and tied to a row by
@@ -32,7 +32,8 @@ from PIL import Image, ImageOps
 ROOT = Path(__file__).resolve().parent.parent
 MASTER = ROOT / "data" / "master.json"
 PRIVATE = ROOT / "Starter Files" / "private"
-SHEETS = [p for p in sorted(PRIVATE.glob("*.xlsx")) if not p.name.startswith("Keystone_Fantasy_Football")]
+SHEETS = [p for p in sorted(list(PRIVATE.glob("*.xlsx")) + list(PRIVATE.glob("*.csv")))
+          if not p.name.lower().startswith(("keystone_fantasy_football", "keystone_ff_"))]
 OUT_JSON = ROOT / "data" / "profiles.json"
 OUT_DIR = ROOT / "site" / "public" / "headshots"
 PEOPLE_URL = "https://www.keystone.com/our-people"
@@ -105,6 +106,13 @@ def alumni_rows(path: Path) -> list[dict]:
     """[{name, url, image_bytes}] from the xlsx. Cells via openpyxl; pictures straight from the zip, each
     assigned to the sheet row its top edge sits in (an anchor whose rowOff is past half a row means
     'the next row' — Excel writes it that way when a picture is nudged to a row's top edge)."""
+    if path.suffix.lower() == ".csv":   # e.g. a Numbers export: name, link, nothing else (no pictures)
+        import csv
+        rows = []
+        for i, r in enumerate(csv.reader(path.open(encoding="utf-8-sig")), start=1):
+            if len(r) > 1 and r[0].strip() and r[1].strip().startswith("http"):
+                rows.append({"row": i, "name": r[0].strip(), "url": r[1].strip(), "image": None})
+        return rows
     import openpyxl
     wb = openpyxl.load_workbook(path, read_only=True)
     ws = wb[wb.sheetnames[0]]

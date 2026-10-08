@@ -184,11 +184,21 @@
   "name": "Peter Chang",
   "photo": "headshots/bea-09.jpg"
  },
+ "BEA-10": {
+  "url": "https://www.linkedin.com/in/nadirtekarli/",
+  "source": "linkedin",
+  "name": "Nadir Tekarli"
+ },
  "BEA-11": {
   "url": "https://www.linkedin.com/in/prateek92/",
   "source": "linkedin",
   "name": "Prateek Mehta",
   "photo": "headshots/bea-11.jpg"
+ },
+ "BEA-12": {
+  "url": "https://www.linkedin.com/in/cfairfax/",
+  "source": "linkedin",
+  "name": "Charlie Fairfax"
  },
  "C2C-01": {
   "url": "https://www.keystone.com/our-people/manyee-yu",

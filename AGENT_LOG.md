@@ -84,3 +84,5 @@ Cole: manager names link to keystone.com (current) or LinkedIn (alumni); team pa
   Justin Metz is in the spreadsheet AND on keystone.com → Keystone wins (per Cole's rule 3).
 - Site: `Owner.astro` replaces every `{x.owner}`; `.mu .team a` z-index already lifts it above the stretched matchup `.box-link`.
   Person page header is now photo + h1 + "Managed by <link>". Test added: links only keystone.com/linkedin.com, every photo file exists.
+- Later 2026-10-08: Cole re-exported from Numbers as `Additional Profiles.csv` (+ Nadir Tekarli, Charlie Fairfax, LinkedIn, no photos). Script
+  now reads `*.csv` too. 81/81 linked, 78 photos; Nadir, Charlie and Cuau have no photo by design (none on LinkedIn).
