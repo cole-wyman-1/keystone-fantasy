@@ -2,9 +2,11 @@
 
 Sources, in priority order:
   1. keystone.com/our-people  — current employees. Each card has a stable /our-people/<slug> URL and a headshot.
-  2. the alumni spreadsheet   — Starter Files/private/names and linkedin .xlsx (git-ignored): Name, Link, and a
-                                pasted headshot per row. Images are read straight out of the .xlsx (xl/media) and
-                                tied to a row by their drawing anchor.
+  2. Cole's spreadsheets      — every Starter Files/private/*.xlsx except the master (git-ignored): Name, Link
+                                (LinkedIn, or a keystone.com/our-people page for someone the matcher missed), and a
+                                pasted headshot per row (optional; a keystone.com link gets the site's photo). Header row
+                                optional. Images are read straight out of the .xlsx (xl/media) and tied to a row by
+                                their drawing anchor.
   3. ALIASES below            — hand fixes for names that don't match automatically.
 
 Writes data/profiles.json (slot id -> {url, source, photo}) and site/public/headshots/<slot>.jpg (160px, centre-cropped, path stored without a leading slash like logos.json).
@@ -29,7 +31,8 @@ from PIL import Image, ImageOps
 
 ROOT = Path(__file__).resolve().parent.parent
 MASTER = ROOT / "data" / "master.json"
-ALUMNI_XLSX = ROOT / "Starter Files" / "private" / "names and linkedin .xlsx"
+PRIVATE = ROOT / "Starter Files" / "private"
+SHEETS = [p for p in sorted(PRIVATE.glob("*.xlsx")) if not p.name.startswith("Keystone_Fantasy_Football")]
 OUT_JSON = ROOT / "data" / "profiles.json"
 OUT_DIR = ROOT / "site" / "public" / "headshots"
 PEOPLE_URL = "https://www.keystone.com/our-people"
@@ -106,7 +109,9 @@ def alumni_rows(path: Path) -> list[dict]:
     wb = openpyxl.load_workbook(path, read_only=True)
     ws = wb[wb.sheetnames[0]]
     rows = []
-    for i, r in enumerate(ws.iter_rows(min_row=2, values_only=True), start=2):
+    for i, r in enumerate(ws.iter_rows(min_row=1, values_only=True), start=1):
+        if i == 1 and not (len(r) > 1 and str(r[1] or "").startswith("http")):
+            continue   # header row
         if r and r[0]:
             rows.append({"row": i, "name": str(r[0]).strip(), "url": (str(r[1]).strip() if len(r) > 1 and r[1] else ""), "image": None})
     by_row = {r["row"]: r for r in rows}
@@ -159,7 +164,10 @@ def main() -> int:
     report = {"keystone": [], "linkedin": [], "unmatched_alumni_rows": [], "no_photo": [], "nobody": []}
 
     # 1. keystone.com
-    if not args.offline:
+    cards: dict[str, dict] = {}
+    if args.offline:
+        profiles = {k: v for k, v in previous.items() if v.get("source") == "keystone"}
+    else:
         html = requests.get(PEOPLE_URL, headers=UA, timeout=30).text
         cards = keystone_people(html)
         print(f"keystone.com: {len(cards)} people")
@@ -170,28 +178,34 @@ def main() -> int:
                 profiles[s["slot_id"]] = {"url": f"{PEOPLE_URL}/{slug}", "source": "keystone", "name": cards[slug]["name"],
                                           "_photo_url": cards[slug]["photo"]}
                 report["keystone"].append(f"{s['slot_id']} {s['display_name']} -> {cards[slug]['name']}")
-    else:
-        profiles = {k: v for k, v in previous.items() if v.get("source") == "keystone"}
 
-    # 2. alumni spreadsheet (only for people keystone.com doesn't list)
-    if ALUMNI_XLSX.exists():
-        rows = alumni_rows(ALUMNI_XLSX)
-        print(f"alumni spreadsheet: {len(rows)} rows, {sum(1 for r in rows if r['image'])} photos")
-        cands = {norm(s["display_name"]): s["slot_id"] for s in slots}
-        by_slot = {s["slot_id"]: s for s in slots}
+    # 2. Cole's spreadsheets (only for people the keystone.com matcher didn't pair)
+    cands = {norm(s["display_name"]): s["slot_id"] for s in slots}
+    by_slot = {s["slot_id"]: s for s in slots}
+    for sheet in SHEETS:
+        rows = alumni_rows(sheet)
+        print(f"{sheet.name}: {len(rows)} rows, {sum(1 for r in rows if r['image'])} photos")
         for r in rows:
             sid = match(r["name"], r["name"].split()[0], r["name"].split()[-1], cands)
             if not sid:
-                report["unmatched_alumni_rows"].append(r["name"])
+                report["unmatched_alumni_rows"].append(f"{r['name']} ({sheet.name})")
                 continue
             if sid in profiles:
-                print(f"  {r['name']} is on keystone.com; spreadsheet row ignored")
+                print(f"  {r['name']} already matched ({profiles[sid]['source']}); row in {sheet.name} ignored")
                 continue
-            if not re.match(r"https?://(www\.)?linkedin\.com/", r["url"]):
-                print(f"  ! {r['name']}: '{r['url']}' is not a LinkedIn URL; skipped", file=sys.stderr)
-                continue
-            profiles[sid] = {"url": r["url"], "source": "linkedin", "name": r["name"], "_image": r["image"]}
-            report["linkedin"].append(f"{sid} {by_slot[sid]['display_name']} -> {r['name']}")
+            ks = re.match(r"https?://(?:www\.)?keystone\.com/our-people/([a-z0-9-]+)/?$", r["url"])
+            if ks:
+                card = cards.get(ks.group(1)) if not args.offline else None
+                if not card and not args.offline:
+                    print(f"  ! {r['name']}: keystone.com has no card for '{ks.group(1)}'; linking anyway", file=sys.stderr)
+                profiles[sid] = {"url": f"{PEOPLE_URL}/{ks.group(1)}", "source": "keystone", "name": (card or {}).get("name", r["name"]),
+                                 "_photo_url": (card or {}).get("photo"), "_image": r["image"]}
+                report["keystone"].append(f"{sid} {by_slot[sid]['display_name']} -> {ks.group(1)} (from {sheet.name})")
+            elif re.match(r"https?://(www\.)?linkedin\.com/", r["url"]):
+                profiles[sid] = {"url": r["url"], "source": "linkedin", "name": r["name"], "_image": r["image"]}
+                report["linkedin"].append(f"{sid} {by_slot[sid]['display_name']} -> {r['name']}")
+            else:
+                print(f"  ! {r['name']}: '{r['url']}' is neither LinkedIn nor keystone.com/our-people; skipped", file=sys.stderr)
 
     # 3. headshots
     for sid, p in profiles.items():
@@ -226,7 +240,7 @@ def main() -> int:
     print(f"\nwrote {OUT_JSON.relative_to(ROOT)}: {len(report['keystone'])} keystone, {len(report['linkedin'])} linkedin, "
           f"{len(report['nobody'])} with no profile")
     for key, title in (("unmatched_alumni_rows", "spreadsheet rows that match nobody"), ("no_photo", "profile but no photo"),
-                       ("nobody", "no keystone.com page and not in the spreadsheet")):
+                       ("nobody", "no keystone.com page and not in any spreadsheet")):
         if report[key]:
             print(f"\n{title}:")
             for line in report[key]:
