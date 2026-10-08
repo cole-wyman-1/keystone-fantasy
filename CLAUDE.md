@@ -37,7 +37,7 @@ the in-progress week is always refetched; trades are refetched for every period 
 - `scripts/lib/lineup.py` — optimal lineup solver (+ brute-force reference for tests); `display_lineup` (starters in slot order, bench, IR). `lib/sweats.py` — Monday Night Sweats window / remaining starters / pick (pure, tested). `lib/trades.py` — transaction → trade normalization.
 - `scripts/lib/icons.py` — emoji maps (hometown, fallbacks). `scripts/fetch_logos.py` — NFL/college/company PNGs → `site/public/logos/`, `data/logos.json`.
 - `scripts/fetch_profiles.py` — manager → public profile + headshot. keystone.com/our-people cards (slug URL + photo) first, then the
-  alumni spreadsheet `Starter Files/private/names and linkedin .xlsx` (LinkedIn URL + pasted picture, read from the xlsx zip by anchor row),
+  every other `Starter Files/private/*.xlsx` (Name, Link = LinkedIn or keystone.com page, pasted picture read from the xlsx zip by anchor row),
   then `ALIASES`. Writes `data/profiles.json` + `site/public/headshots/<slot>.jpg` (160px). Manual, not in the cron. Needs Pillow.
 - `scripts/board_schema.sql` — Supabase table, one-level-reply trigger, rate limits, RLS (read + insert only).
 - `site/src/lib/data.ts` — loads `data/site/*.json` at build; `u()` prefixes the `/keystone-fantasy` base path; formatters.

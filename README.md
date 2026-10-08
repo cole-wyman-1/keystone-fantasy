@@ -85,7 +85,7 @@ compute, commit the new PNGs under `site/public/logos/`, push.
 **Manager profile links and headshots** (manager names link out; team pages show a photo): run
 `.venv/bin/python scripts/fetch_profiles.py`. It matches everyone against https://www.keystone.com/our-people
 (current employees → their Keystone page + Keystone headshot), then against the alumni spreadsheet
-`Starter Files/private/names and linkedin .xlsx` (columns Name, Link, Photo; paste each LinkedIn headshot as a
+every other `Starter Files/private/*.xlsx` (columns Name, Link, Photo; Link may be LinkedIn or a keystone.com/our-people page for a nickname the matcher missed; paste each LinkedIn headshot as a
 normal floating picture inside that person's row). Anyone on keystone.com uses Keystone even if they're also in the
 spreadsheet. It prints who matched nobody; fix a name mismatch by adding it to `ALIASES` in the script (Keystone)
 or correcting the spreadsheet row (LinkedIn), re-run, then compute, commit `data/profiles.json` +
