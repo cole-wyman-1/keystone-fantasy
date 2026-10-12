@@ -1,6 +1,6 @@
 {
  "season": 2026,
- "fetched_utc": "2026-10-09T16:11:21+00:00",
+ "fetched_utc": "2026-10-12T19:01:53+00:00",
  "leagues": [
   {
    "code": "EMP",
@@ -133,7 +133,7 @@
     3,
     4
    ],
-   "trades": 0
+   "trades": 1
   }
  ],
  "failures": []

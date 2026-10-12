@@ -1,1 +1,68 @@
-[]
+[
+{
+"id":"86f1b905-b97f-43e6-821c-91c3ada1e2df",
+"league_code":"C2C",
+"league_name":"Freedom League",
+"status":"EXECUTED",
+"status_label":"completed",
+"proposed_utc":"2026-10-10T02:53:00+00:00",
+"processed_utc":"2026-10-10T02:53:22+00:00",
+"week":5,
+"sides":[
+{
+"team_id":1,
+"slot_id":"C2C-12",
+"owner":"Aseem Mahajan",
+"team_name":"Aseem's Team",
+"abbrev":"KTT",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg",
+"gives":[
+{
+"name":"Ja'Marr Chase",
+"position":"WR",
+"pro_team":"CIN"
+}
+],
+"receives":[
+{
+"name":"Dalton Kincaid",
+"position":"TE",
+"pro_team":"BUF"
+},
+{
+"name":"Tee Higgins",
+"position":"WR",
+"pro_team":"CIN"
+}
+]
+},
+{
+"team_id":11,
+"slot_id":"C2C-03",
+"owner":"Gaby Lichucki",
+"team_name":"yay sports",
+"abbrev":"YAY",
+"logo":"https://g.espncdn.com/lm-static/logo-packs/ffl/BlitznBears-MartinLaksman/bears-13.svg",
+"gives":[
+{
+"name":"Dalton Kincaid",
+"position":"TE",
+"pro_team":"BUF"
+},
+{
+"name":"Tee Higgins",
+"position":"WR",
+"pro_team":"CIN"
+}
+],
+"receives":[
+{
+"name":"Ja'Marr Chase",
+"position":"WR",
+"pro_team":"CIN"
+}
+]
+}
+]
+}
+]
