@@ -86,3 +86,10 @@ Cole: manager names link to keystone.com (current) or LinkedIn (alumni); team pa
   Person page header is now photo + h1 + "Managed by <link>". Test added: links only keystone.com/linkedin.com, every photo file exists.
 - Later 2026-10-08: Cole re-exported from Numbers as `Additional Profiles.csv` (+ Nadir Tekarli, Charlie Fairfax, LinkedIn, no photos). Script
   now reads `*.csv` too. 81/81 linked, 78 photos; Nadir, Charlie and Cuau have no photo by design (none on LinkedIn).
+
+## 2026-10-13 — Week 5 finalize (manual run)
+- Cole reported the dashboard still said "Week 5 in progress" Tuesday morning. Cause: the Mon 09:17 UTC cron fired ~10 h late (19:01 UTC, before MNF)
+  and the Tue 09:17 UTC cron had not fired at all by 15:41 UTC. Dispatched the workflow manually (run 38424229569, success in ~2 min);
+  data commit 3976716 → weeks_complete=5 in all 7 leagues, current_week=6. Live site verified showing "Week 6 in progress".
+- GitHub's cron lateness is now routine (3 of 3 scheduled runs this week were 6–10 h late or missing). Manual "Run workflow" remains the reliable path
+  Tuesday mornings; consider a second cron slot (e.g. 13:17 UTC Tue) as a belt-and-braces.
