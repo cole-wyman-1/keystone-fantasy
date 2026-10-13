@@ -1,103 +1,103 @@
 {
  "scoring_period": 5,
  "matchup_period": 5,
- "complete": false,
- "fetched_utc": "2026-10-12T19:01:53+00:00",
+ "complete": true,
+ "fetched_utc": "2026-10-13T15:42:05+00:00",
  "matchups": [
   {
-   "home_win_prob": 0.92,
-   "away_win_prob": 0.08,
-   "home_projected": 120.04,
-   "away_projected": 97.18,
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 25,
    "matchup_period": 5,
    "home_team_id": 7,
    "away_team_id": 8,
-   "home_points": 105.36,
-   "away_points": 66.9,
-   "winner": "UNDECIDED",
+   "home_points": 127.66,
+   "away_points": 97.4,
+   "winner": "HOME",
    "playoff_tier": "NONE",
    "is_bye": false
   },
   {
-   "home_win_prob": 0.99,
-   "away_win_prob": 0.01,
-   "home_projected": 114.18,
-   "away_projected": 87.2,
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 26,
    "matchup_period": 5,
    "home_team_id": 4,
    "away_team_id": 5,
-   "home_points": 96.0,
+   "home_points": 124.32,
    "away_points": 87.2,
-   "winner": "UNDECIDED",
+   "winner": "HOME",
    "playoff_tier": "NONE",
    "is_bye": false
   },
   {
-   "home_win_prob": 0.01,
-   "away_win_prob": 0.99,
-   "home_projected": 61.42,
-   "away_projected": 137.29,
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 27,
    "matchup_period": 5,
    "home_team_id": 1,
    "away_team_id": 3,
    "home_points": 61.42,
-   "away_points": 111.8,
-   "winner": "UNDECIDED",
+   "away_points": 130.4,
+   "winner": "AWAY",
    "playoff_tier": "NONE",
    "is_bye": false
   },
   {
-   "home_win_prob": 0.12,
-   "away_win_prob": 0.88,
-   "home_projected": 116.94,
-   "away_projected": 121.15,
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 28,
    "matchup_period": 5,
    "home_team_id": 12,
    "away_team_id": 10,
    "home_points": 116.94,
-   "away_points": 113.84,
-   "winner": "UNDECIDED",
+   "away_points": 121.04,
+   "winner": "AWAY",
    "playoff_tier": "NONE",
    "is_bye": false
   },
   {
-   "home_win_prob": 0.92,
-   "away_win_prob": 0.08,
-   "home_projected": 123.36,
-   "away_projected": 107.81,
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 29,
    "matchup_period": 5,
    "home_team_id": 6,
    "away_team_id": 2,
    "home_points": 123.36,
-   "away_points": 85.3,
-   "winner": "UNDECIDED",
+   "away_points": 113.5,
+   "winner": "HOME",
    "playoff_tier": "NONE",
    "is_bye": false
   },
   {
-   "home_win_prob": 0.99,
-   "away_win_prob": 0.01,
-   "home_projected": 149.76,
-   "away_projected": 132.31,
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 30,
    "matchup_period": 5,
    "home_team_id": 9,
    "away_team_id": 11,
    "home_points": 149.76,
-   "away_points": 119.04,
-   "winner": "UNDECIDED",
+   "away_points": 138.64,
+   "winner": "HOME",
    "playoff_tier": "NONE",
    "is_bye": false
   }
  ],
  "lineups": {
   "7": {
-   "points": 105.36,
+   "points": 127.66,
    "players": [
     {
      "projected": 14.7,
@@ -118,7 +118,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 22.3
     },
     {
      "projected": 15.9,
@@ -491,7 +491,7 @@
    ]
   },
   "8": {
-   "points": 66.9,
+   "points": 97.4,
    "players": [
     {
      "projected": 13.1,
@@ -531,7 +531,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 30.5
     },
     {
      "projected": 0.0,
@@ -576,16 +576,16 @@
      "points": 6.1
     },
     {
-     "projected": 10.4,
+     "projected": 0.0,
      "game_utc": "2026-10-13T00:15:00+00:00",
      "game": "at LAR",
      "player_id": 3915416,
      "name": "DJ Moore",
      "position": "WR",
      "pro_team": "BUF",
-     "lineup_slot_id": 4,
-     "lineup_slot": "WR",
-     "started": true,
+     "lineup_slot_id": 20,
+     "lineup_slot": "BE",
+     "started": false,
      "eligible_slots": [
       3,
       4,
@@ -809,24 +809,6 @@
      "points": 1.9
     },
     {
-     "projected": 0.0,
-     "game_utc": null,
-     "game": null,
-     "player_id": -16012,
-     "name": "Chiefs D/ST",
-     "position": "D/ST",
-     "pro_team": "KC",
-     "lineup_slot_id": 20,
-     "lineup_slot": "BE",
-     "started": false,
-     "eligible_slots": [
-      16,
-      20,
-      21
-     ],
-     "points": 0.0
-    },
-    {
      "projected": 6.3,
      "game_utc": "2026-10-11T17:00:00+00:00",
      "game": "at NE",
@@ -864,11 +846,34 @@
       21
      ],
      "points": 5.0
+    },
+    {
+     "projected": 0.7,
+     "game_utc": "2026-10-13T00:15:00+00:00",
+     "game": "at LAR",
+     "player_id": 4683153,
+     "name": "Skyler Bell",
+     "position": "WR",
+     "pro_team": "BUF",
+     "lineup_slot_id": 4,
+     "lineup_slot": "WR",
+     "started": true,
+     "eligible_slots": [
+      25,
+      3,
+      4,
+      5,
+      23,
+      7,
+      20,
+      21
+     ],
+     "points": 0.0
     }
    ]
   },
   "4": {
-   "points": 96.0,
+   "points": 124.32,
    "players": [
     {
      "projected": 16.8,
@@ -909,7 +914,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 27.32
     },
     {
      "projected": 0.0,
@@ -1013,7 +1018,7 @@
       20,
       21
      ],
-     "points": 10.0
+     "points": 11.0
     },
     {
      "projected": 7.0,
@@ -1225,7 +1230,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 3.8
     },
     {
      "projected": 4.6,
@@ -1464,7 +1469,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 9.5
     },
     {
      "projected": 0.0,
@@ -1963,7 +1968,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 3.2
     },
     {
      "projected": 10.6,
@@ -2012,7 +2017,7 @@
    ]
   },
   "3": {
-   "points": 111.8,
+   "points": 130.4,
    "players": [
     {
      "projected": 24.6,
@@ -2076,7 +2081,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 16.6
     },
     {
      "projected": 0.0,
@@ -2282,7 +2287,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 2.0
     },
     {
      "projected": 9.7,
@@ -2582,7 +2587,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 14.7
     },
     {
      "projected": 10.4,
@@ -2795,7 +2800,7 @@
    ]
   },
   "10": {
-   "points": 113.84,
+   "points": 121.04,
    "players": [
     {
      "projected": 17.6,
@@ -3167,7 +3172,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 7.2
     }
    ]
   },
@@ -3284,12 +3289,12 @@
     },
     {
      "projected": 0.0,
-     "game_utc": "2026-10-11T20:25:00+00:00",
-     "game": "vs DET",
+     "game_utc": "2026-10-11T17:00:00+00:00",
+     "game": "at TEN",
      "player_id": 4432708,
      "name": "Marvin Harrison Jr.",
      "position": "WR",
-     "pro_team": "ARI",
+     "pro_team": "HOU",
      "lineup_slot_id": 20,
      "lineup_slot": "BE",
      "started": false,
@@ -3573,7 +3578,7 @@
    ]
   },
   "2": {
-   "points": 85.3,
+   "points": 113.5,
    "players": [
     {
      "projected": 18.1,
@@ -3595,7 +3600,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 29.2
     },
     {
      "projected": 0.0,
@@ -3781,7 +3786,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": -1.0
     },
     {
      "projected": 8.6,
@@ -4330,7 +4335,7 @@
    ]
   },
   "11": {
-   "points": 119.04,
+   "points": 138.64,
    "players": [
     {
      "projected": 16.4,
@@ -4416,7 +4421,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 19.6
     },
     {
      "projected": 12.5,
