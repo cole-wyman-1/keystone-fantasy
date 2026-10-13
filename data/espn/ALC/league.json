@@ -813,7 +813,7 @@
   {
    "home_win_prob": 0.43,
    "away_win_prob": 0.57,
-   "home_projected": 112.15,
+   "home_projected": 112.13,
    "away_projected": 125.63,
    "matchup_id": 32,
    "matchup_period": 6,
@@ -826,9 +826,9 @@
    "is_bye": false
   },
   {
-   "home_win_prob": 0.58,
-   "away_win_prob": 0.42,
-   "home_projected": 71.45,
+   "home_win_prob": 0.61,
+   "away_win_prob": 0.39,
+   "home_projected": 74.89,
    "away_projected": 62.91,
    "matchup_id": 33,
    "matchup_period": 6,
@@ -871,9 +871,9 @@
    "is_bye": false
   },
   {
-   "home_win_prob": 0.69,
-   "away_win_prob": 0.31,
-   "home_projected": 97.44,
+   "home_win_prob": 0.64,
+   "away_win_prob": 0.36,
+   "home_projected": 88.52,
    "away_projected": 69.19,
    "matchup_id": 36,
    "matchup_period": 6,

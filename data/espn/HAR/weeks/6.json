@@ -2,12 +2,12 @@
  "scoring_period": 6,
  "matchup_period": 6,
  "complete": false,
- "fetched_utc": "2026-10-13T15:41:59+00:00",
+ "fetched_utc": "2026-10-13T16:56:48+00:00",
  "matchups": [
   {
-   "home_win_prob": 0.79,
-   "away_win_prob": 0.21,
-   "home_projected": 119.07,
+   "home_win_prob": 0.78,
+   "away_win_prob": 0.22,
+   "home_projected": 119.02,
    "away_projected": 67.5,
    "matchup_id": 31,
    "matchup_period": 6,
@@ -20,10 +20,10 @@
    "is_bye": false
   },
   {
-   "home_win_prob": 0.56,
-   "away_win_prob": 0.44,
-   "home_projected": 100.07,
-   "away_projected": 90.72,
+   "home_win_prob": 0.54,
+   "away_win_prob": 0.46,
+   "home_projected": 100.05,
+   "away_projected": 94.19,
    "matchup_id": 32,
    "matchup_period": 6,
    "home_team_id": 3,
@@ -35,9 +35,9 @@
    "is_bye": false
   },
   {
-   "home_win_prob": 0.45,
-   "away_win_prob": 0.55,
-   "home_projected": 94.13,
+   "home_win_prob": 0.39,
+   "away_win_prob": 0.61,
+   "home_projected": 85.15,
    "away_projected": 102.22,
    "matchup_id": 33,
    "matchup_period": 6,
@@ -67,7 +67,7 @@
   {
    "home_win_prob": 0.63,
    "away_win_prob": 0.37,
-   "home_projected": 103.17,
+   "home_projected": 103.15,
    "away_projected": 82.28,
    "matchup_id": 35,
    "matchup_period": 6,
@@ -1360,7 +1360,7 @@
      "points": 0.0
     },
     {
-     "projected": 11.3,
+     "projected": 14.8,
      "game_utc": "2026-10-18T17:00:00+00:00",
      "game": "vs NYJ",
      "player_id": 4569173,
@@ -1715,7 +1715,7 @@
      "points": 0.0
     },
     {
-     "projected": 20.3,
+     "projected": 20.2,
      "game_utc": "2026-10-18T17:00:00+00:00",
      "game": "vs NYJ",
      "player_id": 4431452,
@@ -1778,7 +1778,7 @@
      "points": 0.0
     },
     {
-     "projected": 8.9,
+     "projected": 0.0,
      "game_utc": "2026-10-18T17:00:00+00:00",
      "game": "vs NYJ",
      "player_id": 4432710,

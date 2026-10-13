@@ -2,13 +2,13 @@
  "scoring_period": 6,
  "matchup_period": 6,
  "complete": false,
- "fetched_utc": "2026-10-13T15:42:05+00:00",
+ "fetched_utc": "2026-10-13T16:56:53+00:00",
  "matchups": [
   {
    "home_win_prob": 0.6,
    "away_win_prob": 0.4,
    "home_projected": 80.44,
-   "away_projected": 67.7,
+   "away_projected": 67.73,
    "matchup_id": 31,
    "matchup_period": 6,
    "home_team_id": 8,
@@ -23,7 +23,7 @@
    "home_win_prob": 0.31,
    "away_win_prob": 0.69,
    "home_projected": 79.72,
-   "away_projected": 113.12,
+   "away_projected": 113.08,
    "matchup_id": 32,
    "matchup_period": 6,
    "home_team_id": 3,
@@ -37,7 +37,7 @@
   {
    "home_win_prob": 0.67,
    "away_win_prob": 0.33,
-   "home_projected": 128.79,
+   "home_projected": 128.73,
    "away_projected": 95.75,
    "matchup_id": 33,
    "matchup_period": 6,
@@ -50,10 +50,10 @@
    "is_bye": false
   },
   {
-   "home_win_prob": 0.7,
-   "away_win_prob": 0.3,
+   "home_win_prob": 0.76,
+   "away_win_prob": 0.24,
    "home_projected": 94.8,
-   "away_projected": 65.56,
+   "away_projected": 56.61,
    "matchup_id": 34,
    "matchup_period": 6,
    "home_team_id": 2,
@@ -65,10 +65,10 @@
    "is_bye": false
   },
   {
-   "home_win_prob": 0.81,
-   "away_win_prob": 0.19,
+   "home_win_prob": 0.79,
+   "away_win_prob": 0.21,
    "home_projected": 116.75,
-   "away_projected": 61.78,
+   "away_projected": 65.26,
    "matchup_id": 35,
    "matchup_period": 6,
    "home_team_id": 11,
@@ -781,7 +781,7 @@
      "points": 0.0
     },
     {
-     "projected": 4.8,
+     "projected": 4.9,
      "game_utc": "2026-10-20T00:15:00+00:00",
      "game": "vs WSH",
      "player_id": -16025,
@@ -1728,7 +1728,7 @@
      "points": 0.0
     },
     {
-     "projected": 20.3,
+     "projected": 20.2,
      "game_utc": "2026-10-18T17:00:00+00:00",
      "game": "vs NYJ",
      "player_id": 4431452,
@@ -2821,7 +2821,7 @@
      "points": 0.0
     },
     {
-     "projected": 8.9,
+     "projected": 0.0,
      "game_utc": "2026-10-18T17:00:00+00:00",
      "game": "vs NYJ",
      "player_id": 4432710,
@@ -3664,7 +3664,7 @@
      "points": 0.0
     },
     {
-     "projected": 11.3,
+     "projected": 14.8,
      "game_utc": "2026-10-18T17:00:00+00:00",
      "game": "vs NYJ",
      "player_id": 4569173,
