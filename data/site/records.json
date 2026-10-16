@@ -650,7 +650,7 @@
 "team_name":"Sam's Calling for Hikes",
 "opp_slot_id":"ALC-07",
 "opp_owner":"Danielle Collazo",
-"opp_team_name":"DC's Team 🐆",
+"opp_team_name":"The Jets",
 "margin":1.28
 },
 {
@@ -981,7 +981,7 @@
 "team_name":"Sam's Calling for Hikes",
 "opp_slot_id":"ALC-07",
 "opp_owner":"Danielle Collazo",
-"opp_team_name":"DC's Team 🐆"
+"opp_team_name":"The Jets"
 },
 {
 "week":2,
@@ -1049,7 +1049,7 @@
 "team_name":"Brady Bunch",
 "opp_slot_id":"ALC-07",
 "opp_owner":"Danielle Collazo",
-"opp_team_name":"DC's Team 🐆"
+"opp_team_name":"The Jets"
 }
 ],
 "most_bench_points":[
@@ -5943,7 +5943,7 @@
 "team_name":"Cedric's Competitive Team",
 "opp_slot_id":"ALC-07",
 "opp_owner":"Danielle Collazo",
-"opp_team_name":"DC's Team 🐆",
+"opp_team_name":"The Jets",
 "margin":59.52
 }
 ],
@@ -5963,7 +5963,7 @@
 "team_name":"Sam's Calling for Hikes",
 "opp_slot_id":"ALC-07",
 "opp_owner":"Danielle Collazo",
-"opp_team_name":"DC's Team 🐆",
+"opp_team_name":"The Jets",
 "margin":1.28
 },
 {
@@ -6035,7 +6035,7 @@
 "team_name":"Brady Bunch",
 "opp_slot_id":"ALC-07",
 "opp_owner":"Danielle Collazo",
-"opp_team_name":"DC's Team 🐆",
+"opp_team_name":"The Jets",
 "margin":3.76
 }
 ],
@@ -6142,7 +6142,7 @@
 "team_name":"Sam's Calling for Hikes",
 "opp_slot_id":"ALC-07",
 "opp_owner":"Danielle Collazo",
-"opp_team_name":"DC's Team 🐆"
+"opp_team_name":"The Jets"
 },
 {
 "week":3,
@@ -6159,7 +6159,7 @@
 "team_name":"Brady Bunch",
 "opp_slot_id":"ALC-07",
 "opp_owner":"Danielle Collazo",
-"opp_team_name":"DC's Team 🐆"
+"opp_team_name":"The Jets"
 },
 {
 "week":3,
@@ -6413,7 +6413,7 @@
 "team_name":"Sam's Calling for Hikes",
 "opp_slot_id":"ALC-07",
 "opp_owner":"Danielle Collazo",
-"opp_team_name":"DC's Team 🐆",
+"opp_team_name":"The Jets",
 "bench_points":48.68,
 "optimal_points":128.58,
 "left_on_table":38.28,
@@ -8856,7 +8856,7 @@
 {
 "slot_id":"ALC-07",
 "owner":"Danielle Collazo",
-"team_name":"DC's Team 🐆",
+"team_name":"The Jets",
 "league_code":"ALC",
 "longest_loss_streak":5,
 "streak":"L5"
