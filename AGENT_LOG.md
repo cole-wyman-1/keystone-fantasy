@@ -93,3 +93,10 @@ Cole: manager names link to keystone.com (current) or LinkedIn (alumni); team pa
   data commit 3976716 → weeks_complete=5 in all 7 leagues, current_week=6. Live site verified showing "Week 6 in progress".
 - GitHub's cron lateness is now routine (3 of 3 scheduled runs this week were 6–10 h late or missing). Manual "Run workflow" remains the reliable path
   Tuesday mornings; consider a second cron slot (e.g. 13:17 UTC Tue) as a belt-and-braces.
+
+## 2026-10-19 — Week 6 Monday: GitHub incident
+- Mon 09:17 UTC cron did not fire. Cole dispatched manually at 15:26 UTC; the refresh job fetched + committed (ecca165, week-6 sweats snapshot, 5 picks)
+  but the run then wedged (refresh "in_progress" with no steps, deploy queued) — GitHub incident "Degraded availability for GitHub Actions,
+  GitHub Pages and Webhooks"; jobs API returned 502, cancel/force-cancel ignored. Dispatched a backup run (39280547331) queued behind it.
+- Incident cleared ~16:30 UTC: old run cancelled, backup run succeeded 16:34 UTC, live /sweats/ shows Week 6. Snapshot refetched at ~16:30, still in window.
+- Lesson: the sweats snapshot lives in the committed data, so a late deploy still publishes it; the only real risk is the cron not firing before MNF.
