@@ -2,94 +2,94 @@
  "scoring_period": 6,
  "matchup_period": 6,
  "complete": false,
- "fetched_utc": "2026-10-16T13:57:17+00:00",
+ "fetched_utc": "2026-10-19T15:26:30+00:00",
  "matchups": [
   {
-   "home_win_prob": 0.48,
-   "away_win_prob": 0.52,
-   "home_projected": 109.24,
-   "away_projected": 113.79,
+   "home_win_prob": 0.81,
+   "away_win_prob": 0.19,
+   "home_projected": 103.79,
+   "away_projected": 93.88,
    "matchup_id": 31,
    "matchup_period": 6,
    "home_team_id": 7,
    "away_team_id": 3,
-   "home_points": 0.0,
-   "away_points": 2.9,
+   "home_points": 84.64,
+   "away_points": 81.28,
    "winner": "UNDECIDED",
    "playoff_tier": "NONE",
    "is_bye": false
   },
   {
-   "home_win_prob": 0.54,
-   "away_win_prob": 0.46,
-   "home_projected": 133.79,
-   "away_projected": 126.59,
+   "home_win_prob": 0.0,
+   "away_win_prob": 1.0,
+   "home_projected": 104.46,
+   "away_projected": 136.54,
    "matchup_id": 32,
    "matchup_period": 6,
    "home_team_id": 11,
    "away_team_id": 8,
-   "home_points": 12.1,
-   "away_points": 0.0,
+   "home_points": 104.46,
+   "away_points": 136.54,
    "winner": "UNDECIDED",
    "playoff_tier": "NONE",
    "is_bye": false
   },
   {
-   "home_win_prob": 0.68,
-   "away_win_prob": 0.32,
-   "home_projected": 115.01,
-   "away_projected": 87.24,
+   "home_win_prob": 0.99,
+   "away_win_prob": 0.01,
+   "home_projected": 108.38,
+   "away_projected": 79.56,
    "matchup_id": 33,
    "matchup_period": 6,
    "home_team_id": 5,
    "away_team_id": 4,
-   "home_points": 19.4,
-   "away_points": 5.2,
+   "home_points": 87.0,
+   "away_points": 61.18,
    "winner": "UNDECIDED",
    "playoff_tier": "NONE",
    "is_bye": false
   },
   {
-   "home_win_prob": 0.57,
-   "away_win_prob": 0.43,
-   "home_projected": 100.14,
-   "away_projected": 90.1,
+   "home_win_prob": 0.34,
+   "away_win_prob": 0.66,
+   "home_projected": 89.02,
+   "away_projected": 93.36,
    "matchup_id": 34,
    "matchup_period": 6,
    "home_team_id": 2,
    "away_team_id": 1,
-   "home_points": 11.0,
-   "away_points": 4.4,
+   "home_points": 89.02,
+   "away_points": 71.96,
    "winner": "UNDECIDED",
    "playoff_tier": "NONE",
    "is_bye": false
   },
   {
-   "home_win_prob": 0.68,
-   "away_win_prob": 0.32,
-   "home_projected": 120.47,
-   "away_projected": 88.28,
+   "home_win_prob": 1.0,
+   "away_win_prob": 0.0,
+   "home_projected": 142.34,
+   "away_projected": 60.6,
    "matchup_id": 35,
    "matchup_period": 6,
    "home_team_id": 12,
    "away_team_id": 6,
-   "home_points": 0.0,
-   "away_points": 6.0,
+   "home_points": 142.34,
+   "away_points": 60.6,
    "winner": "UNDECIDED",
    "playoff_tier": "NONE",
    "is_bye": false
   },
   {
-   "home_win_prob": 0.72,
-   "away_win_prob": 0.28,
-   "home_projected": 106.14,
-   "away_projected": 71.1,
+   "home_win_prob": 0.99,
+   "away_win_prob": 0.01,
+   "home_projected": 64.07,
+   "away_projected": 57.88,
    "matchup_id": 36,
    "matchup_period": 6,
    "home_team_id": 9,
    "away_team_id": 10,
-   "home_points": 0.0,
-   "away_points": 4.48,
+   "home_points": 59.12,
+   "away_points": 57.88,
    "winner": "UNDECIDED",
    "playoff_tier": "NONE",
    "is_bye": false
@@ -97,10 +97,10 @@
  ],
  "lineups": {
   "7": {
-   "points": 0.0,
+   "points": 84.64,
    "players": [
     {
-     "projected": 19.5,
+     "projected": 19.2,
      "game_utc": "2026-10-20T00:15:00+00:00",
      "game": "vs WSH",
      "player_id": 3117251,
@@ -139,10 +139,10 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 5.9
     },
     {
-     "projected": 0.0,
+     "projected": 11.0,
      "game_utc": "2026-10-18T17:00:00+00:00",
      "game": "vs CAR",
      "player_id": 4241478,
@@ -161,10 +161,10 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 17.0
     },
     {
-     "projected": 13.2,
+     "projected": 11.1,
      "game_utc": "2026-10-18T17:00:00+00:00",
      "game": "at CLE",
      "player_id": 4429615,
@@ -183,7 +183,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 9.7
     },
     {
      "projected": 0.0,
@@ -205,16 +205,16 @@
      "points": 0.0
     },
     {
-     "projected": 11.3,
+     "projected": 0.0,
      "game_utc": "2026-10-18T20:25:00+00:00",
      "game": "at LV",
      "player_id": 3915416,
      "name": "DJ Moore",
      "position": "WR",
      "pro_team": "BUF",
-     "lineup_slot_id": 23,
-     "lineup_slot": "FLEX",
-     "started": true,
+     "lineup_slot_id": 20,
+     "lineup_slot": "BE",
+     "started": false,
      "eligible_slots": [
       3,
       4,
@@ -247,7 +247,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 16.0
     },
     {
      "projected": 0.0,
@@ -292,7 +292,7 @@
      "points": 0.0
     },
     {
-     "projected": 7.5,
+     "projected": 6.8,
      "game_utc": "2026-10-18T17:00:00+00:00",
      "game": "at CLE",
      "player_id": 3116365,
@@ -310,7 +310,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 0.9
     },
     {
      "projected": 0.0,
@@ -335,7 +335,7 @@
      "points": 0.0
     },
     {
-     "projected": 11.4,
+     "projected": 11.3,
      "game_utc": "2026-10-18T17:00:00+00:00",
      "game": "at PHI",
      "player_id": 4695883,
@@ -354,7 +354,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 12.7
     },
     {
      "projected": 0.0,
@@ -376,7 +376,7 @@
      "points": 0.0
     },
     {
-     "projected": 10.5,
+     "projected": 8.3,
      "game_utc": "2026-10-18T13:30:00+00:00",
      "game": "at JAX",
      "player_id": 2971573,
@@ -391,7 +391,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 11.0
     },
     {
      "projected": 5.5,
@@ -408,27 +408,6 @@
       25,
       2,
       3,
-      23,
-      7,
-      20,
-      21
-     ],
-     "points": 0.0
-    },
-    {
-     "projected": 5.4,
-     "game_utc": "2026-10-18T13:30:00+00:00",
-     "game": "at JAX",
-     "player_id": 3117256,
-     "name": "Dalton Schultz",
-     "position": "TE",
-     "pro_team": "HOU",
-     "lineup_slot_id": 20,
-     "lineup_slot": "BE",
-     "started": false,
-     "eligible_slots": [
-      5,
-      6,
       23,
       7,
       20,
@@ -475,10 +454,10 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 20.24
     },
     {
-     "projected": 6.7,
+     "projected": 6.8,
      "game_utc": "2026-10-18T17:00:00+00:00",
      "game": "vs NYJ",
      "player_id": -16017,
@@ -493,12 +472,33 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 5.0
+    },
+    {
+     "projected": 5.7,
+     "game_utc": "2026-10-18T20:05:00+00:00",
+     "game": "vs ARI",
+     "player_id": 2573401,
+     "name": "Tyler Higbee",
+     "position": "TE",
+     "pro_team": "LAR",
+     "lineup_slot_id": 23,
+     "lineup_slot": "FLEX",
+     "started": true,
+     "eligible_slots": [
+      5,
+      6,
+      23,
+      7,
+      20,
+      21
+     ],
+     "points": 2.2
     }
    ]
   },
   "3": {
-   "points": 2.9,
+   "points": 81.28,
    "players": [
     {
      "projected": 21.3,
@@ -519,10 +519,10 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 6.3
     },
     {
-     "projected": 10.3,
+     "projected": 0.0,
      "game_utc": "2026-10-18T20:05:00+00:00",
      "game": "at LAR",
      "player_id": 4870808,
@@ -562,10 +562,10 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 8.8
     },
     {
-     "projected": 19.3,
+     "projected": 0.0,
      "game_utc": "2026-10-18T17:00:00+00:00",
      "game": "at CLE",
      "player_id": 3916387,
@@ -584,7 +584,7 @@
      "points": 0.0
     },
     {
-     "projected": 12.2,
+     "projected": 11.7,
      "game_utc": "2026-10-18T13:30:00+00:00",
      "game": "vs HOU",
      "player_id": 4882093,
@@ -602,10 +602,10 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 22.7
     },
     {
-     "projected": 13.6,
+     "projected": 12.6,
      "game_utc": "2026-10-20T00:15:00+00:00",
      "game": "vs WSH",
      "player_id": 16737,
@@ -627,7 +627,7 @@
      "points": 0.0
     },
     {
-     "projected": 7.2,
+     "projected": 7.0,
      "game_utc": "2026-10-16T00:15:00+00:00",
      "game": "vs SEA",
      "player_id": 3128429,
@@ -708,7 +708,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 10.48
     },
     {
      "projected": 9.3,
@@ -730,10 +730,10 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 10.8
     },
     {
-     "projected": 5.8,
+     "projected": 11.1,
      "game_utc": "2026-10-18T20:05:00+00:00",
      "game": "at LAR",
      "player_id": 4373626,
@@ -751,7 +751,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 5.3
     },
     {
      "projected": 3.0,
@@ -791,10 +791,10 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 11.0
     },
     {
-     "projected": 9.7,
+     "projected": 9.1,
      "game_utc": "2026-10-18T17:00:00+00:00",
      "game": "at CLE",
      "player_id": 4697745,
@@ -809,7 +809,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 3.0
     },
     {
      "projected": 0.0,
@@ -869,12 +869,12 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 12.0
     }
    ]
   },
   "11": {
-   "points": 12.1,
+   "points": 104.46,
    "players": [
     {
      "projected": 19.2,
@@ -896,10 +896,10 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 11.0
     },
     {
-     "projected": 0.0,
+     "projected": 10.6,
      "game_utc": "2026-10-18T17:00:00+00:00",
      "game": "vs NYJ",
      "player_id": 4047646,
@@ -918,7 +918,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 4.2
     },
     {
      "projected": 19.2,
@@ -939,7 +939,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 8.2
     },
     {
      "projected": 13.8,
@@ -960,7 +960,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 21.0
     },
     {
      "projected": 8.8,
@@ -982,10 +982,10 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 5.4
     },
     {
-     "projected": 8.3,
+     "projected": 8.2,
      "game_utc": "2026-10-18T17:00:00+00:00",
      "game": "vs BAL",
      "player_id": 5083076,
@@ -1003,7 +1003,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 1.4
     },
     {
      "projected": 13.7,
@@ -1025,7 +1025,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 7.9
     },
     {
      "projected": 11.5,
@@ -1044,10 +1044,10 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 8.76
     },
     {
-     "projected": 9.5,
+     "projected": 9.7,
      "game_utc": "2026-10-16T00:15:00+00:00",
      "game": "vs SEA",
      "player_id": 4241985,
@@ -1087,10 +1087,10 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 19.4
     },
     {
-     "projected": 9.5,
+     "projected": 7.9,
      "game_utc": "2026-10-18T17:00:00+00:00",
      "game": "vs NYJ",
      "player_id": 4361432,
@@ -1109,7 +1109,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 10.7
     },
     {
      "projected": 0.0,
@@ -1133,7 +1133,7 @@
      "points": 0.0
     },
     {
-     "projected": 7.1,
+     "projected": 7.3,
      "game_utc": "2026-10-18T20:05:00+00:00",
      "game": "vs ARI",
      "player_id": -16014,
@@ -1148,7 +1148,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 2.0
     },
     {
      "projected": 0.0,
@@ -1212,7 +1212,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 24.2
     },
     {
      "projected": 13.2,
@@ -1233,7 +1233,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 11.4
     },
     {
      "projected": 16.4,
@@ -1252,7 +1252,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 9.46
     },
     {
      "projected": 10.7,
@@ -1270,12 +1270,12 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 12.0
     }
    ]
   },
   "8": {
-   "points": 0.0,
+   "points": 136.54,
    "players": [
     {
      "projected": 18.5,
@@ -1296,7 +1296,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 22.8
     },
     {
      "projected": 16.2,
@@ -1317,7 +1317,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 9.0
     },
     {
      "projected": 14.6,
@@ -1339,19 +1339,19 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 22.5
     },
     {
-     "projected": 11.8,
+     "projected": 0.0,
      "game_utc": "2026-10-18T17:00:00+00:00",
      "game": "vs BAL",
      "player_id": 4685702,
      "name": "Quinshon Judkins",
      "position": "RB",
      "pro_team": "CLE",
-     "lineup_slot_id": 2,
-     "lineup_slot": "RB",
-     "started": true,
+     "lineup_slot_id": 20,
+     "lineup_slot": "BE",
+     "started": false,
      "eligible_slots": [
       2,
       3,
@@ -1382,10 +1382,10 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 13.5
     },
     {
-     "projected": 12.5,
+     "projected": 13.0,
      "game_utc": "2026-10-18T13:30:00+00:00",
      "game": "vs HOU",
      "player_id": 4432620,
@@ -1404,28 +1404,7 @@
       20,
       21
      ],
-     "points": 0.0
-    },
-    {
-     "projected": 0.0,
-     "game_utc": "2026-10-18T17:00:00+00:00",
-     "game": "at PHI",
-     "player_id": 4678008,
-     "name": "Jonathon Brooks",
-     "position": "RB",
-     "pro_team": "CAR",
-     "lineup_slot_id": 20,
-     "lineup_slot": "BE",
-     "started": false,
-     "eligible_slots": [
-      2,
-      3,
-      23,
-      7,
-      20,
-      21
-     ],
-     "points": 0.0
+     "points": 8.4
     },
     {
      "projected": 8.4,
@@ -1446,10 +1425,10 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 13.0
     },
     {
-     "projected": 17.1,
+     "projected": 17.7,
      "game_utc": "2026-10-18T13:30:00+00:00",
      "game": "vs HOU",
      "player_id": 4360310,
@@ -1465,7 +1444,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 27.34
     },
     {
      "projected": 0.0,
@@ -1532,10 +1511,10 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 5.5
     },
     {
-     "projected": 1.5,
+     "projected": 1.7,
      "game_utc": "2026-10-18T20:25:00+00:00",
      "game": "at LV",
      "player_id": 4429501,
@@ -1553,7 +1532,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 1.4
     },
     {
      "projected": 9.0,
@@ -1574,10 +1553,10 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 2.1
     },
     {
-     "projected": 8.3,
+     "projected": 8.4,
      "game_utc": "2026-10-18T20:25:00+00:00",
      "game": "at KC",
      "player_id": 4612826,
@@ -1596,10 +1575,10 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 2.2
     },
     {
-     "projected": 6.2,
+     "projected": 5.6,
      "game_utc": "2026-10-18T13:30:00+00:00",
      "game": "vs HOU",
      "player_id": -16030,
@@ -1614,7 +1593,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": -2.0
     },
     {
      "projected": 11.0,
@@ -1632,19 +1611,19 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 9.0
     },
     {
-     "projected": 11.5,
+     "projected": 11.4,
      "game_utc": "2026-10-18T17:00:00+00:00",
      "game": "vs CAR",
      "player_id": 4360238,
      "name": "Dameon Pierce",
      "position": "RB",
      "pro_team": "PHI",
-     "lineup_slot_id": 20,
-     "lineup_slot": "BE",
-     "started": false,
+     "lineup_slot_id": 2,
+     "lineup_slot": "RB",
+     "started": true,
      "eligible_slots": [
       2,
       3,
@@ -1653,7 +1632,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 13.0
     },
     {
      "projected": 0.0,
@@ -1676,14 +1655,35 @@
       21
      ],
      "points": 0.0
+    },
+    {
+     "projected": 9.2,
+     "game_utc": "2026-10-18T17:00:00+00:00",
+     "game": "vs BAL",
+     "player_id": 4722893,
+     "name": "Jaleel McLaughlin",
+     "position": "RB",
+     "pro_team": "CLE",
+     "lineup_slot_id": 20,
+     "lineup_slot": "BE",
+     "started": false,
+     "eligible_slots": [
+      2,
+      3,
+      23,
+      7,
+      20,
+      21
+     ],
+     "points": 7.5
     }
    ]
   },
   "5": {
-   "points": 19.4,
+   "points": 87.0,
    "players": [
     {
-     "projected": 15.7,
+     "projected": 16.2,
      "game_utc": "2026-10-16T00:15:00+00:00",
      "game": "at DEN",
      "player_id": 4430878,
@@ -1745,7 +1745,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 10.3
     },
     {
      "projected": 0.0,
@@ -1770,7 +1770,7 @@
      "points": 0.0
     },
     {
-     "projected": 20.2,
+     "projected": 20.3,
      "game_utc": "2026-10-18T17:00:00+00:00",
      "game": "vs NYJ",
      "player_id": 4431452,
@@ -1786,10 +1786,10 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 23.8
     },
     {
-     "projected": 14.5,
+     "projected": 11.9,
      "game_utc": "2026-10-18T17:00:00+00:00",
      "game": "vs NYJ",
      "player_id": 4569173,
@@ -1807,7 +1807,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 3.6
     },
     {
      "projected": 9.8,
@@ -1828,7 +1828,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 6.2
     },
     {
      "projected": 21.4,
@@ -1850,16 +1850,16 @@
      "points": 0.0
     },
     {
-     "projected": 6.7,
+     "projected": 0.0,
      "game_utc": "2026-10-20T00:15:00+00:00",
      "game": "at SF",
      "player_id": 4575131,
      "name": "Jacory Croskey-Merritt",
      "position": "RB",
      "pro_team": "WSH",
-     "lineup_slot_id": 2,
-     "lineup_slot": "RB",
-     "started": true,
+     "lineup_slot_id": 20,
+     "lineup_slot": "BE",
+     "started": false,
      "eligible_slots": [
       2,
       3,
@@ -1871,7 +1871,7 @@
      "points": 0.0
     },
     {
-     "projected": 6.5,
+     "projected": 6.4,
      "game_utc": "2026-10-18T17:00:00+00:00",
      "game": "vs BAL",
      "player_id": 4870653,
@@ -1891,10 +1891,10 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 5.9
     },
     {
-     "projected": 6.5,
+     "projected": 7.0,
      "game_utc": "2026-10-18T20:25:00+00:00",
      "game": "at LV",
      "player_id": 4385690,
@@ -1912,7 +1912,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 7.3
     },
     {
      "projected": 7.3,
@@ -1922,9 +1922,9 @@
      "name": "Brian Robinson Jr.",
      "position": "RB",
      "pro_team": "ATL",
-     "lineup_slot_id": 20,
-     "lineup_slot": "BE",
-     "started": false,
+     "lineup_slot_id": 2,
+     "lineup_slot": "RB",
+     "started": true,
      "eligible_slots": [
       2,
       3,
@@ -1933,7 +1933,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 2.0
     },
     {
      "projected": 0.0,
@@ -1978,7 +1978,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 3.4
     },
     {
      "projected": 0.0,
@@ -2040,10 +2040,10 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 20.2
     },
     {
-     "projected": 7.0,
+     "projected": 7.3,
      "game_utc": "2026-10-18T20:25:00+00:00",
      "game": "vs LAC",
      "player_id": -16012,
@@ -2058,31 +2058,30 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 14.0
     },
     {
-     "projected": 10.9,
-     "game_utc": "2026-10-18T17:00:00+00:00",
-     "game": "vs NO",
-     "player_id": 5082424,
-     "name": "Dominic Zvada",
+     "projected": 9.9,
+     "game_utc": "2026-10-18T20:05:00+00:00",
+     "game": "vs ARI",
+     "player_id": 4259619,
+     "name": "Blake Grupe",
      "position": "K",
-     "pro_team": "NYG",
+     "pro_team": "LAR",
      "lineup_slot_id": 17,
      "lineup_slot": "K",
      "started": true,
      "eligible_slots": [
-      25,
       17,
       20,
       21
      ],
-     "points": 0.0
+     "points": 4.0
     }
    ]
   },
   "4": {
-   "points": 5.2,
+   "points": 61.18,
    "players": [
     {
      "projected": 0.0,
@@ -2146,7 +2145,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 15.5
     },
     {
      "projected": 0.0,
@@ -2251,10 +2250,10 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 1.0
     },
     {
-     "projected": 7.5,
+     "projected": 7.8,
      "game_utc": "2026-10-18T13:30:00+00:00",
      "game": "vs HOU",
      "player_id": 3916433,
@@ -2273,7 +2272,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 10.8
     },
     {
      "projected": 8.3,
@@ -2314,7 +2313,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 16.88
     },
     {
      "projected": 0.0,
@@ -2338,7 +2337,7 @@
      "points": 0.0
     },
     {
-     "projected": 3.5,
+     "projected": 5.3,
      "game_utc": "2026-10-18T17:00:00+00:00",
      "game": "vs BAL",
      "player_id": -16005,
@@ -2353,7 +2352,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 10.0
     },
     {
      "projected": 8.2,
@@ -2371,7 +2370,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 8.0
     },
     {
      "projected": 5.8,
@@ -2393,7 +2392,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 2.8
     },
     {
      "projected": 0.0,
@@ -2460,7 +2459,7 @@
      "points": 0.0
     },
     {
-     "projected": 5.4,
+     "projected": 5.3,
      "game_utc": "2026-10-18T17:00:00+00:00",
      "game": "vs NO",
      "player_id": -16019,
@@ -2475,12 +2474,12 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 1.0
     }
    ]
   },
   "2": {
-   "points": 11.0,
+   "points": 89.02,
    "players": [
     {
      "projected": 0.0,
@@ -2504,7 +2503,7 @@
      "points": 0.0
     },
     {
-     "projected": 13.2,
+     "projected": 13.9,
      "game_utc": "2026-10-18T13:30:00+00:00",
      "game": "at JAX",
      "player_id": 4258173,
@@ -2523,7 +2522,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 9.4
     },
     {
      "projected": 15.5,
@@ -2544,10 +2543,10 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 12.0
     },
     {
-     "projected": 13.9,
+     "projected": 13.8,
      "game_utc": "2026-10-18T20:05:00+00:00",
      "game": "vs ARI",
      "player_id": 16800,
@@ -2566,7 +2565,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 5.4
     },
     {
      "projected": 0.0,
@@ -2576,9 +2575,9 @@
      "name": "Jalen Hurts",
      "position": "QB",
      "pro_team": "PHI",
-     "lineup_slot_id": 0,
-     "lineup_slot": "QB",
-     "started": true,
+     "lineup_slot_id": 20,
+     "lineup_slot": "BE",
+     "started": false,
      "eligible_slots": [
       0,
       7,
@@ -2606,7 +2605,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 7.6
     },
     {
      "projected": 9.6,
@@ -2628,10 +2627,10 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 14.8
     },
     {
-     "projected": 8.5,
+     "projected": 8.0,
      "game_utc": "2026-10-18T17:00:00+00:00",
      "game": "vs CAR",
      "player_id": 3121023,
@@ -2649,7 +2648,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 9.1
     },
     {
      "projected": 10.2,
@@ -2667,10 +2666,10 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 1.0
     },
     {
-     "projected": 5.5,
+     "projected": 5.7,
      "game_utc": "2026-10-16T00:15:00+00:00",
      "game": "vs SEA",
      "player_id": -16007,
@@ -2729,7 +2728,7 @@
      "points": 0.0
     },
     {
-     "projected": 6.7,
+     "projected": 6.9,
      "game_utc": "2026-10-16T00:15:00+00:00",
      "game": "at DEN",
      "player_id": 4032473,
@@ -2751,7 +2750,7 @@
      "points": 9.3
     },
     {
-     "projected": 4.5,
+     "projected": 4.6,
      "game_utc": "2026-10-16T00:15:00+00:00",
      "game": "at DEN",
      "player_id": 2977187,
@@ -2773,7 +2772,7 @@
      "points": 7.5
     },
     {
-     "projected": 4.8,
+     "projected": 6.7,
      "game_utc": "2026-10-18T17:00:00+00:00",
      "game": "vs NO",
      "player_id": 4241457,
@@ -2791,10 +2790,10 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 0.2
     },
     {
-     "projected": 7.4,
+     "projected": 7.7,
      "game_utc": "2026-10-18T13:30:00+00:00",
      "game": "vs HOU",
      "player_id": 4430539,
@@ -2812,7 +2811,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 6.9
     },
     {
      "projected": 6.6,
@@ -2834,36 +2833,34 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 13.5
     },
     {
-     "projected": 7.4,
-     "game_utc": "2026-10-18T17:00:00+00:00",
-     "game": "at IND",
-     "player_id": 4428557,
-     "name": "Tyjae Spears",
-     "position": "RB",
-     "pro_team": "TEN",
-     "lineup_slot_id": 20,
-     "lineup_slot": "BE",
-     "started": false,
+     "projected": 18.3,
+     "game_utc": "2026-10-18T20:25:00+00:00",
+     "game": "vs BUF",
+     "player_id": 14880,
+     "name": "Kirk Cousins",
+     "position": "QB",
+     "pro_team": "LV",
+     "lineup_slot_id": 0,
+     "lineup_slot": "QB",
+     "started": true,
      "eligible_slots": [
-      2,
-      3,
-      23,
+      0,
       7,
       20,
       21
      ],
-     "points": 0.0
+     "points": 18.52
     }
    ]
   },
   "1": {
-   "points": 4.4,
+   "points": 71.96,
    "players": [
     {
-     "projected": 17.5,
+     "projected": 18.2,
      "game_utc": "2026-10-18T17:00:00+00:00",
      "game": "vs TEN",
      "player_id": 4242335,
@@ -2881,7 +2878,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 20.1
     },
     {
      "projected": 17.0,
@@ -2902,7 +2899,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 13.8
     },
     {
      "projected": 0.0,
@@ -2946,10 +2943,10 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 11.6
     },
     {
-     "projected": 7.6,
+     "projected": 7.4,
      "game_utc": "2026-10-16T00:15:00+00:00",
      "game": "vs SEA",
      "player_id": 4372016,
@@ -2992,7 +2989,7 @@
      "points": 0.0
     },
     {
-     "projected": 12.3,
+     "projected": 12.4,
      "game_utc": "2026-10-20T00:15:00+00:00",
      "game": "vs WSH",
      "player_id": 3040151,
@@ -3013,7 +3010,7 @@
      "points": 0.0
     },
     {
-     "projected": 5.9,
+     "projected": 7.5,
      "game_utc": "2026-10-18T17:00:00+00:00",
      "game": "vs PIT",
      "player_id": 4371733,
@@ -3031,10 +3028,10 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 2.9
     },
     {
-     "projected": 6.3,
+     "projected": 9.3,
      "game_utc": "2026-10-20T00:15:00+00:00",
      "game": "at SF",
      "player_id": 4697815,
@@ -3074,7 +3071,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 6.7
     },
     {
      "projected": 16.8,
@@ -3093,10 +3090,10 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 26.96
     },
     {
-     "projected": 6.8,
+     "projected": 6.3,
      "game_utc": "2026-10-18T17:00:00+00:00",
      "game": "vs NYJ",
      "player_id": 3046439,
@@ -3114,7 +3111,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 12.8
     },
     {
      "projected": 9.0,
@@ -3154,7 +3151,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 1.4
     },
     {
      "projected": 0.0,
@@ -3179,7 +3176,7 @@
      "points": 0.0
     },
     {
-     "projected": 5.2,
+     "projected": 5.4,
      "game_utc": "2026-10-18T13:30:00+00:00",
      "game": "vs HOU",
      "player_id": 4432773,
@@ -3219,7 +3216,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 8.0
     },
     {
      "projected": 0.0,
@@ -3242,7 +3239,7 @@
    ]
   },
   "12": {
-   "points": 0.0,
+   "points": 142.34,
    "players": [
     {
      "projected": 0.0,
@@ -3267,7 +3264,7 @@
      "points": 0.0
     },
     {
-     "projected": 21.8,
+     "projected": 21.9,
      "game_utc": "2026-10-18T20:25:00+00:00",
      "game": "vs LAC",
      "player_id": 4567048,
@@ -3285,7 +3282,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 26.9
     },
     {
      "projected": 13.9,
@@ -3307,7 +3304,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 12.3
     },
     {
      "projected": 9.1,
@@ -3329,10 +3326,10 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 14.3
     },
     {
-     "projected": 13.9,
+     "projected": 14.8,
      "game_utc": "2026-10-18T17:00:00+00:00",
      "game": "vs PIT",
      "player_id": 4596448,
@@ -3350,10 +3347,10 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 5.9
     },
     {
-     "projected": 2.8,
+     "projected": 3.0,
      "game_utc": "2026-10-18T13:30:00+00:00",
      "game": "at JAX",
      "player_id": 4432708,
@@ -3372,7 +3369,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 4.9
     },
     {
      "projected": 7.2,
@@ -3393,7 +3390,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 20.5
     },
     {
      "projected": 16.7,
@@ -3412,10 +3409,10 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 16.5
     },
     {
-     "projected": 13.8,
+     "projected": 13.7,
      "game_utc": "2026-10-18T17:00:00+00:00",
      "game": "at PHI",
      "player_id": 4241416,
@@ -3433,7 +3430,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 18.6
     },
     {
      "projected": 7.6,
@@ -3457,7 +3454,7 @@
      "points": 13.1
     },
     {
-     "projected": 7.5,
+     "projected": 9.4,
      "game_utc": "2026-10-18T20:25:00+00:00",
      "game": "at LV",
      "player_id": 4373678,
@@ -3476,7 +3473,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 11.4
     },
     {
      "projected": 8.6,
@@ -3497,7 +3494,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 13.9
     },
     {
      "projected": 0.0,
@@ -3521,7 +3518,7 @@
      "points": 0.0
     },
     {
-     "projected": 11.6,
+     "projected": 11.5,
      "game_utc": "2026-10-18T17:00:00+00:00",
      "game": "vs BAL",
      "player_id": 4832800,
@@ -3541,7 +3538,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 2.0
     },
     {
      "projected": 8.8,
@@ -3559,7 +3556,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 17.0
     },
     {
      "projected": 18.2,
@@ -3569,16 +3566,16 @@
      "name": "Bryce Young",
      "position": "QB",
      "pro_team": "CAR",
-     "lineup_slot_id": 20,
-     "lineup_slot": "BE",
-     "started": false,
+     "lineup_slot_id": 0,
+     "lineup_slot": "QB",
+     "started": true,
      "eligible_slots": [
       0,
       7,
       20,
       21
      ],
-     "points": 0.0
+     "points": 19.84
     },
     {
      "projected": 0.0,
@@ -3602,26 +3599,26 @@
      "points": 0.0
     },
     {
-     "projected": 15.3,
+     "projected": 15.2,
      "game_utc": "2026-10-18T20:05:00+00:00",
      "game": "at LAR",
      "player_id": 2578570,
      "name": "Jacoby Brissett",
      "position": "QB",
      "pro_team": "ARI",
-     "lineup_slot_id": 0,
-     "lineup_slot": "QB",
-     "started": true,
+     "lineup_slot_id": 20,
+     "lineup_slot": "BE",
+     "started": false,
      "eligible_slots": [
       0,
       7,
       20,
       21
      ],
-     "points": 0.0
+     "points": 6.92
     },
     {
-     "projected": 5.2,
+     "projected": 5.3,
      "game_utc": "2026-10-18T17:00:00+00:00",
      "game": "vs TEN",
      "player_id": -16011,
@@ -3636,12 +3633,12 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 5.0
     }
    ]
   },
   "6": {
-   "points": 6.0,
+   "points": 60.6,
    "players": [
     {
      "projected": 0.0,
@@ -3666,7 +3663,7 @@
      "points": 0.0
     },
     {
-     "projected": 19.9,
+     "projected": 17.6,
      "game_utc": "2026-10-18T17:00:00+00:00",
      "game": "at CLE",
      "player_id": 3043078,
@@ -3684,7 +3681,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 4.5
     },
     {
      "projected": 25.1,
@@ -3703,7 +3700,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 18.3
     },
     {
      "projected": 0.0,
@@ -3768,7 +3765,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 7.3
     },
     {
      "projected": 6.0,
@@ -3804,7 +3801,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 12.0
     },
     {
      "projected": 0.0,
@@ -3846,10 +3843,10 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 2.3
     },
     {
-     "projected": 9.8,
+     "projected": 10.5,
      "game_utc": "2026-10-18T13:30:00+00:00",
      "game": "at JAX",
      "player_id": 4429059,
@@ -3867,7 +3864,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 9.1
     },
     {
      "projected": 7.3,
@@ -3889,10 +3886,10 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 12.2
     },
     {
-     "projected": 7.5,
+     "projected": 7.1,
      "game_utc": "2026-10-18T17:00:00+00:00",
      "game": "at CLE",
      "player_id": -16033,
@@ -3907,10 +3904,10 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 10.0
     },
     {
-     "projected": 4.9,
+     "projected": 4.8,
      "game_utc": "2026-10-18T17:00:00+00:00",
      "game": "vs BAL",
      "player_id": 4241463,
@@ -3929,10 +3926,10 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 8.9
     },
     {
-     "projected": 6.0,
+     "projected": 5.0,
      "game_utc": "2026-10-18T17:00:00+00:00",
      "game": "at CLE",
      "player_id": 4360939,
@@ -3954,7 +3951,7 @@
      "points": 0.0
     },
     {
-     "projected": 8.6,
+     "projected": 7.2,
      "game_utc": "2026-10-18T17:00:00+00:00",
      "game": "vs CAR",
      "player_id": 4428850,
@@ -3973,10 +3970,10 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 3.4
     },
     {
-     "projected": 13.6,
+     "projected": 13.8,
      "game_utc": "2026-10-16T00:15:00+00:00",
      "game": "at DEN",
      "player_id": 3912547,
@@ -3997,7 +3994,7 @@
    ]
   },
   "9": {
-   "points": 0.0,
+   "points": 59.12,
    "players": [
     {
      "projected": 14.9,
@@ -4019,7 +4016,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 11.5
     },
     {
      "projected": 0.0,
@@ -4062,19 +4059,19 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 6.4
     },
     {
-     "projected": 9.5,
+     "projected": 0.0,
      "game_utc": "2026-10-18T17:00:00+00:00",
      "game": "vs TEN",
      "player_id": 4431459,
      "name": "Tyler Warren",
      "position": "TE",
      "pro_team": "IND",
-     "lineup_slot_id": 6,
-     "lineup_slot": "TE",
-     "started": true,
+     "lineup_slot_id": 20,
+     "lineup_slot": "BE",
+     "started": false,
      "eligible_slots": [
       5,
       6,
@@ -4102,19 +4099,19 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 11.02
     },
     {
-     "projected": 0.0,
+     "projected": 8.0,
      "game_utc": "2026-10-18T17:00:00+00:00",
      "game": "vs NYJ",
      "player_id": 4432710,
      "name": "TreVeyon Henderson",
      "position": "RB",
      "pro_team": "NE",
-     "lineup_slot_id": 20,
-     "lineup_slot": "BE",
-     "started": false,
+     "lineup_slot_id": 2,
+     "lineup_slot": "RB",
+     "started": true,
      "eligible_slots": [
       2,
       3,
@@ -4123,7 +4120,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 2.5
     },
     {
      "projected": 13.2,
@@ -4144,7 +4141,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 8.8
     },
     {
      "projected": 7.3,
@@ -4154,9 +4151,9 @@
      "name": "Wan'Dale Robinson",
      "position": "WR",
      "pro_team": "TEN",
-     "lineup_slot_id": 20,
-     "lineup_slot": "BE",
-     "started": false,
+     "lineup_slot_id": 23,
+     "lineup_slot": "FLEX",
+     "started": true,
      "eligible_slots": [
       3,
       4,
@@ -4166,10 +4163,10 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 3.7
     },
     {
-     "projected": 11.5,
+     "projected": 11.4,
      "game_utc": "2026-10-18T20:05:00+00:00",
      "game": "at LAR",
      "player_id": 4360761,
@@ -4188,19 +4185,19 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 5.2
     },
     {
-     "projected": 6.6,
+     "projected": 4.4,
      "game_utc": "2026-10-18T17:00:00+00:00",
      "game": "vs CAR",
      "player_id": 4870795,
      "name": "Makai Lemon",
      "position": "WR",
      "pro_team": "PHI",
-     "lineup_slot_id": 23,
-     "lineup_slot": "FLEX",
-     "started": true,
+     "lineup_slot_id": 20,
+     "lineup_slot": "BE",
+     "started": false,
      "eligible_slots": [
       25,
       3,
@@ -4211,7 +4208,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 3.4
     },
     {
      "projected": 0.0,
@@ -4261,9 +4258,9 @@
      "name": "Juwan Johnson",
      "position": "TE",
      "pro_team": "NO",
-     "lineup_slot_id": 20,
-     "lineup_slot": "BE",
-     "started": false,
+     "lineup_slot_id": 6,
+     "lineup_slot": "TE",
+     "started": true,
      "eligible_slots": [
       5,
       6,
@@ -4294,10 +4291,10 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 1.7
     },
     {
-     "projected": 4.8,
+     "projected": 4.9,
      "game_utc": "2026-10-20T00:15:00+00:00",
      "game": "vs WSH",
      "player_id": -16025,
@@ -4315,7 +4312,7 @@
      "points": 0.0
     },
     {
-     "projected": 6.0,
+     "projected": 9.1,
      "game_utc": "2026-10-18T20:25:00+00:00",
      "game": "at LV",
      "player_id": 4635008,
@@ -4334,10 +4331,10 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 13.9
     },
     {
-     "projected": 7.6,
+     "projected": 2.9,
      "game_utc": "2026-10-18T17:00:00+00:00",
      "game": "vs CAR",
      "player_id": 4715355,
@@ -4356,10 +4353,10 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 1.4
     },
     {
-     "projected": 9.5,
+     "projected": 7.4,
      "game_utc": "2026-10-18T13:30:00+00:00",
      "game": "vs HOU",
      "player_id": 4686361,
@@ -4374,7 +4371,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 10.0
     },
     {
      "projected": 7.3,
@@ -4384,9 +4381,9 @@
      "name": "Pierre Strong Jr.",
      "position": "RB",
      "pro_team": "GB",
-     "lineup_slot_id": 2,
-     "lineup_slot": "RB",
-     "started": true,
+     "lineup_slot_id": 20,
+     "lineup_slot": "BE",
+     "started": false,
      "eligible_slots": [
       2,
       3,
@@ -4395,15 +4392,15 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 9.2
     }
    ]
   },
   "10": {
-   "points": 4.48,
+   "points": 57.88,
    "players": [
     {
-     "projected": 12.2,
+     "projected": 8.3,
      "game_utc": "2026-10-18T17:00:00+00:00",
      "game": "vs NO",
      "player_id": 4696981,
@@ -4443,10 +4440,10 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 10.2
     },
     {
-     "projected": 13.1,
+     "projected": 12.9,
      "game_utc": "2026-10-16T00:15:00+00:00",
      "game": "vs SEA",
      "player_id": 4426338,
@@ -4484,7 +4481,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 5.7
     },
     {
      "projected": 12.0,
@@ -4505,7 +4502,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 20.9
     },
     {
      "projected": 0.0,
@@ -4547,7 +4544,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 6.4
     },
     {
      "projected": 6.0,
@@ -4569,7 +4566,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 6.2
     },
     {
      "projected": 0.0,
@@ -4594,7 +4591,7 @@
      "points": 0.0
     },
     {
-     "projected": 0.0,
+     "projected": 3.9,
      "game_utc": "2026-10-18T17:00:00+00:00",
      "game": "at CLE",
      "player_id": 4870847,
@@ -4614,10 +4611,10 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 6.0
     },
     {
-     "projected": 5.3,
+     "projected": 5.4,
      "game_utc": "2026-10-18T13:30:00+00:00",
      "game": "at JAX",
      "player_id": -16034,
@@ -4632,7 +4629,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": -2.0
     },
     {
      "projected": 0.9,
@@ -4657,7 +4654,7 @@
       14,
       15
      ],
-     "points": 0.0
+     "points": 13.9
     },
     {
      "projected": 7.7,
@@ -4675,10 +4672,10 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 6.0
     },
     {
-     "projected": 13.6,
+     "projected": 13.7,
      "game_utc": "2026-10-18T17:00:00+00:00",
      "game": "vs TEN",
      "player_id": 3917792,
@@ -4694,10 +4691,10 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 13.76
     },
     {
-     "projected": 8.6,
+     "projected": 6.8,
      "game_utc": "2026-10-16T00:15:00+00:00",
      "game": "at DEN",
      "player_id": 2473037,
@@ -4752,10 +4749,10 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 5.7
     },
     {
-     "projected": 14.1,
+     "projected": 15.9,
      "game_utc": "2026-10-18T13:30:00+00:00",
      "game": "at JAX",
      "player_id": 4432577,
@@ -4771,7 +4768,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 22.98
     }
    ]
   }
