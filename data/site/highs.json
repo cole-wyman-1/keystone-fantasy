@@ -309,6 +309,68 @@
 "points":188.66,
 "team_id":4
 }
+},
+{
+"week":6,
+"per_league":{
+"EMP":{
+"slot_id":"EMP-05",
+"owner":"Bradley Hart",
+"team_name":"Synergistic optimization",
+"points":139.92,
+"team_id":10
+},
+"GOT":{
+"slot_id":"GOT-01",
+"owner":"Alice Khayami",
+"team_name":"Bijan Mustard",
+"points":108.44,
+"team_id":7
+},
+"BEA":{
+"slot_id":"BEA-07",
+"owner":"Christopher Teixeira",
+"team_name":"Chris's Amazing Team",
+"points":129.3,
+"team_id":6
+},
+"HAR":{
+"slot_id":"HAR-08",
+"owner":"Ranmit Pantle",
+"team_name":"Ranmit's Rudderless Randos",
+"points":142.3,
+"team_id":1
+},
+"ALC":{
+"slot_id":"ALC-08",
+"owner":"Hersh lakdawala",
+"team_name":"The Ja’Marrican Dream",
+"points":142.34,
+"team_id":12
+},
+"ALL":{
+"slot_id":"ALL-10",
+"owner":"Benjamin Christensen",
+"team_name":"Seapigeons",
+"points":129.12,
+"team_id":6
+},
+"C2C":{
+"slot_id":"C2C-03",
+"owner":"Gaby Lichucki",
+"team_name":"yay sports",
+"points":130.76,
+"team_id":11
+}
+},
+"overall":{
+"league_code":"ALC",
+"slot_id":"ALC-08",
+"owner":"Hersh lakdawala",
+"team_name":"The Ja’Marrican Dream",
+"points":142.34,
+"team_id":12
+}
 }
 ],
 "leaderboard":[
@@ -317,14 +379,14 @@
 "owner":"Bradley Hart",
 "league_code":"EMP",
 "team_name":"Synergistic optimization",
-"count":3
+"count":4
 },
 {
 "slot_id":"GOT-01",
 "owner":"Alice Khayami",
 "league_code":"GOT",
 "team_name":"Bijan Mustard",
-"count":3
+"count":4
 },
 {
 "slot_id":"EMP-09",
@@ -376,6 +438,13 @@
 "count":2
 },
 {
+"slot_id":"C2C-03",
+"owner":"Gaby Lichucki",
+"league_code":"C2C",
+"team_name":"yay sports",
+"count":2
+},
+{
 "slot_id":"C2C-06",
 "owner":"Rich Riley",
 "league_code":"C2C",
@@ -418,6 +487,13 @@
 "count":1
 },
 {
+"slot_id":"BEA-07",
+"owner":"Christopher Teixeira",
+"league_code":"BEA",
+"team_name":"Chris's Amazing Team",
+"count":1
+},
+{
 "slot_id":"HAR-06",
 "owner":"Brian Hunscher",
 "league_code":"HAR",
@@ -439,6 +515,13 @@
 "count":1
 },
 {
+"slot_id":"HAR-08",
+"owner":"Ranmit Pantle",
+"league_code":"HAR",
+"team_name":"Ranmit's Rudderless Randos",
+"count":1
+},
+{
 "slot_id":"ALC-01",
 "owner":"Roberto Zuban",
 "league_code":"ALC",
@@ -446,10 +529,24 @@
 "count":1
 },
 {
+"slot_id":"ALC-08",
+"owner":"Hersh lakdawala",
+"league_code":"ALC",
+"team_name":"The Ja’Marrican Dream",
+"count":1
+},
+{
 "slot_id":"ALL-05",
 "owner":"Ben Klopack",
 "league_code":"ALL",
 "team_name":"ben's Brilliant Team",
+"count":1
+},
+{
+"slot_id":"ALL-10",
+"owner":"Benjamin Christensen",
+"league_code":"ALL",
+"team_name":"Seapigeons",
 "count":1
 },
 {
@@ -464,13 +561,6 @@
 "owner":"Alec Brockell",
 "league_code":"C2C",
 "team_name":"futbol americano",
-"count":1
-},
-{
-"slot_id":"C2C-03",
-"owner":"Gaby Lichucki",
-"league_code":"C2C",
-"team_name":"yay sports",
 "count":1
 }
 ]
