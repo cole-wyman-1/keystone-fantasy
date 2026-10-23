@@ -11859,10 +11859,10 @@
 {
 "slot":"QB",
 "player":{
-"id":3912547,
-"name":"Sam Darnold",
+"id":4036378,
+"name":"Jordan Love",
 "position":"QB",
-"pro_team":"SEA",
+"pro_team":"GB",
 "points":0.0
 }
 },
@@ -11879,10 +11879,10 @@
 {
 "slot":"RB",
 "player":{
-"id":4696981,
-"name":"Cam Skattebo",
+"id":4241416,
+"name":"Chuba Hubbard",
 "position":"RB",
-"pro_team":"NYG",
+"pro_team":"CAR",
 "points":0.0
 }
 },
@@ -11903,7 +11903,7 @@
 "name":"Luther Burden III",
 "position":"WR",
 "pro_team":"CHI",
-"points":0.0
+"points":21.7
 }
 },
 {
@@ -11959,17 +11959,17 @@
 ],
 "bench":[
 {
-"id":4036378,
-"name":"Jordan Love",
+"id":3912547,
+"name":"Sam Darnold",
 "position":"QB",
-"pro_team":"GB",
+"pro_team":"SEA",
 "points":0.0
 },
 {
-"id":4241416,
-"name":"Chuba Hubbard",
+"id":4696981,
+"name":"Cam Skattebo",
 "position":"RB",
-"pro_team":"CAR",
+"pro_team":"NYG",
 "points":0.0
 },
 {
@@ -11991,13 +11991,6 @@
 "name":"Chris Bell",
 "position":"WR",
 "pro_team":"MIA",
-"points":0.0
-},
-{
-"id":2991662,
-"name":"Mack Hollins",
-"position":"WR",
-"pro_team":"NE",
 "points":0.0
 },
 {
@@ -12074,7 +12067,7 @@
 "name":"A.J. Brown",
 "position":"WR",
 "pro_team":"NE",
-"points":0.0
+"points":6.3
 }
 },
 {
@@ -12094,7 +12087,7 @@
 "name":"Colston Loveland",
 "position":"TE",
 "pro_team":"CHI",
-"points":0.0
+"points":16.4
 }
 },
 {
@@ -12287,7 +12280,7 @@
 "name":"Cairo Santos",
 "position":"K",
 "pro_team":"CHI",
-"points":0.0
+"points":14.0
 }
 }
 ],
@@ -12360,7 +12353,7 @@
 "name":"Caleb Williams",
 "position":"QB",
 "pro_team":"CHI",
-"points":0.0
+"points":22.12
 }
 },
 {
@@ -12400,7 +12393,7 @@
 "name":"Rome Odunze",
 "position":"WR",
 "pro_team":"CHI",
-"points":0.0
+"points":8.9
 }
 },
 {
@@ -12480,7 +12473,7 @@
 "id":4241457,
 "name":"Najee Harris",
 "position":"RB",
-"pro_team":"NYG",
+"pro_team":"FA",
 "points":0.0
 },
 {
@@ -12523,7 +12516,7 @@
 "name":"Drake Maye",
 "position":"QB",
 "pro_team":"NE",
-"points":0.0
+"points":27.44
 }
 },
 {
@@ -12539,10 +12532,10 @@
 {
 "slot":"RB",
 "player":{
-"id":4431431,
-"name":"Corey Kiner",
+"id":4711533,
+"name":"Ollie Gordon II",
 "position":"RB",
-"pro_team":"NE",
+"pro_team":"MIA",
 "points":0.0
 }
 },
@@ -12626,17 +12619,17 @@
 "points":0.0
 },
 {
+"id":4426386,
+"name":"Roschon Johnson",
+"position":"RB",
+"pro_team":"CHI",
+"points":1.3
+},
+{
 "id":4685512,
 "name":"Jadarian Price",
 "position":"RB",
 "pro_team":"SEA",
-"points":0.0
-},
-{
-"id":4711533,
-"name":"Ollie Gordon II",
-"position":"RB",
-"pro_team":"MIA",
 "points":0.0
 },
 {
@@ -12654,18 +12647,18 @@
 "points":0.0
 },
 {
-"id":3116164,
-"name":"Mike Gesicki",
-"position":"TE",
-"pro_team":"CIN",
+"id":4569603,
+"name":"Malik Washington",
+"position":"WR",
+"pro_team":"MIA",
 "points":0.0
 },
 {
-"id":4360234,
-"name":"Evan McPherson",
-"position":"K",
-"pro_team":"CIN",
-"points":0.0
+"id":3046439,
+"name":"Hunter Henry",
+"position":"TE",
+"pro_team":"NE",
+"points":10.6
 },
 {
 "id":-16004,
@@ -12764,7 +12757,7 @@
 "name":"TreVeyon Henderson",
 "position":"RB",
 "pro_team":"NE",
-"points":0.0
+"points":3.3
 }
 },
 {
@@ -12877,7 +12870,7 @@
 "name":"Rhamondre Stevenson",
 "position":"RB",
 "pro_team":"NE",
-"points":0.0
+"points":20.0
 }
 },
 {
@@ -12923,10 +12916,10 @@
 {
 "slot":"FLEX",
 "player":{
-"id":4361432,
-"name":"Romeo Doubs",
+"id":4685261,
+"name":"Germie Bernard",
 "position":"WR",
-"pro_team":"NE",
+"pro_team":"PIT",
 "points":0.0
 }
 },
@@ -12974,17 +12967,17 @@
 "points":0.0
 },
 {
+"id":4361432,
+"name":"Romeo Doubs",
+"position":"WR",
+"pro_team":"NE",
+"points":0.0
+},
+{
 "id":4569559,
 "name":"Devaughn Vele",
 "position":"WR",
 "pro_team":"NO",
-"points":0.0
-},
-{
-"id":4685261,
-"name":"Germie Bernard",
-"position":"WR",
-"pro_team":"PIT",
 "points":0.0
 },
 {
@@ -13179,10 +13172,10 @@
 {
 "slot":"QB",
 "player":{
-"id":4426348,
-"name":"Jayden Daniels",
+"id":4685720,
+"name":"Bryce Young",
 "position":"QB",
-"pro_team":"WSH",
+"pro_team":"CAR",
 "points":0.0
 }
 },
@@ -13209,10 +13202,10 @@
 {
 "slot":"WR",
 "player":{
-"id":16800,
-"name":"Davante Adams",
+"id":4362628,
+"name":"Ja'Marr Chase",
 "position":"WR",
-"pro_team":"LAR",
+"pro_team":"CIN",
 "points":0.0
 }
 },
@@ -13239,10 +13232,10 @@
 {
 "slot":"TE",
 "player":{
-"id":4430539,
-"name":"Brenton Strange",
+"id":4430027,
+"name":"Sam LaPorta",
 "position":"TE",
-"pro_team":"JAX",
+"pro_team":"DET",
 "points":0.0
 }
 },
@@ -13279,10 +13272,10 @@
 ],
 "bench":[
 {
-"id":4685720,
-"name":"Bryce Young",
+"id":4426348,
+"name":"Jayden Daniels",
 "position":"QB",
-"pro_team":"CAR",
+"pro_team":"WSH",
 "points":0.0
 },
 {
@@ -13300,10 +13293,10 @@
 "points":0.0
 },
 {
-"id":4362628,
-"name":"Ja'Marr Chase",
+"id":16800,
+"name":"Davante Adams",
 "position":"WR",
-"pro_team":"CIN",
+"pro_team":"LAR",
 "points":0.0
 },
 {
@@ -13314,17 +13307,17 @@
 "points":0.0
 },
 {
-"id":4430027,
-"name":"Sam LaPorta",
-"position":"TE",
-"pro_team":"DET",
-"points":0.0
-},
-{
 "id":3117256,
 "name":"Dalton Schultz",
 "position":"TE",
 "pro_team":"HOU",
+"points":0.0
+},
+{
+"id":-16007,
+"name":"Broncos D/ST",
+"position":"D/ST",
+"pro_team":"DEN",
 "points":0.0
 }
 ],
@@ -13353,6 +13346,16 @@
 {
 "slot":"RB",
 "player":{
+"id":3929630,
+"name":"Saquon Barkley",
+"position":"RB",
+"pro_team":"PHI",
+"points":0.0
+}
+},
+{
+"slot":"RB",
+"player":{
 "id":4429096,
 "name":"Blake Corum",
 "position":"RB",
@@ -13361,12 +13364,12 @@
 }
 },
 {
-"slot":"RB",
+"slot":"WR",
 "player":{
-"id":4360238,
-"name":"Dameon Pierce",
-"position":"RB",
-"pro_team":"PHI",
+"id":4262921,
+"name":"Justin Jefferson",
+"position":"WR",
+"pro_team":"MIN",
 "points":0.0
 }
 },
@@ -13383,21 +13386,11 @@
 {
 "slot":"WR",
 "player":{
-"id":4373678,
-"name":"Khalil Shakir",
-"position":"WR",
-"pro_team":"BUF",
-"points":0.0
-}
-},
-{
-"slot":"WR",
-"player":{
 "id":4427095,
 "name":"DeMario Douglas",
 "position":"WR",
 "pro_team":"NE",
-"points":0.0
+"points":3.8
 }
 },
 {
@@ -13413,8 +13406,8 @@
 {
 "slot":"FLEX",
 "player":{
-"id":4722893,
-"name":"Jaleel McLaughlin",
+"id":4685702,
+"name":"Quinshon Judkins",
 "position":"RB",
 "pro_team":"CLE",
 "points":0.0
@@ -13423,20 +13416,20 @@
 {
 "slot":"D/ST",
 "player":{
-"id":-16027,
-"name":"Buccaneers D/ST",
+"id":-16016,
+"name":"Vikings D/ST",
 "position":"D/ST",
-"pro_team":"TB",
+"pro_team":"MIN",
 "points":0.0
 }
 },
 {
 "slot":"K",
 "player":{
-"id":5082424,
-"name":"Dominic Zvada",
+"id":4567104,
+"name":"Will Reichard",
 "position":"K",
-"pro_team":"NYG",
+"pro_team":"MIN",
 "points":0.0
 }
 }
@@ -13450,20 +13443,6 @@
 "points":0.0
 },
 {
-"id":3929630,
-"name":"Saquon Barkley",
-"position":"RB",
-"pro_team":"PHI",
-"points":0.0
-},
-{
-"id":4685702,
-"name":"Quinshon Judkins",
-"position":"RB",
-"pro_team":"CLE",
-"points":0.0
-},
-{
 "id":4035538,
 "name":"David Montgomery",
 "position":"RB",
@@ -13471,9 +13450,16 @@
 "points":0.0
 },
 {
-"id":4262921,
-"name":"Justin Jefferson",
-"position":"WR",
+"id":4360238,
+"name":"Dameon Pierce",
+"position":"RB",
+"pro_team":"PHI",
+"points":0.0
+},
+{
+"id":4360569,
+"name":"Jordan Mason",
+"position":"RB",
 "pro_team":"MIN",
 "points":0.0
 },
@@ -13485,6 +13471,13 @@
 "points":0.0
 },
 {
+"id":4373678,
+"name":"Khalil Shakir",
+"position":"WR",
+"pro_team":"BUF",
+"points":0.0
+},
+{
 "id":4715355,
 "name":"Darius Cooper",
 "position":"WR",
@@ -13492,10 +13485,10 @@
 "points":0.0
 },
 {
-"id":-16016,
-"name":"Vikings D/ST",
+"id":-16027,
+"name":"Buccaneers D/ST",
 "position":"D/ST",
-"pro_team":"MIN",
+"pro_team":"TB",
 "points":0.0
 }
 ],
@@ -13516,21 +13509,21 @@
 {
 "slot":"RB",
 "player":{
-"id":4259545,
-"name":"D'Andre Swift",
+"id":4429795,
+"name":"Jahmyr Gibbs",
 "position":"RB",
-"pro_team":"CHI",
+"pro_team":"DET",
 "points":0.0
 }
 },
 {
 "slot":"RB",
 "player":{
-"id":4882093,
-"name":"Bhayshul Tuten",
+"id":4259545,
+"name":"D'Andre Swift",
 "position":"RB",
-"pro_team":"JAX",
-"points":0.0
+"pro_team":"CHI",
+"points":17.0
 }
 },
 {
@@ -13556,10 +13549,10 @@
 {
 "slot":"WR",
 "player":{
-"id":2976212,
-"name":"Stefon Diggs",
+"id":4569587,
+"name":"Wan'Dale Robinson",
 "position":"WR",
-"pro_team":"WSH",
+"pro_team":"TEN",
 "points":0.0
 }
 },
@@ -13576,10 +13569,10 @@
 {
 "slot":"FLEX",
 "player":{
-"id":3054850,
-"name":"Alvin Kamara",
-"position":"RB",
-"pro_team":"NO",
+"id":3116365,
+"name":"Mark Andrews",
+"position":"TE",
+"pro_team":"BAL",
 "points":0.0
 }
 },
@@ -13590,7 +13583,7 @@
 "name":"Patriots D/ST",
 "position":"D/ST",
 "pro_team":"NE",
-"points":0.0
+"points":-1.0
 }
 },
 {
@@ -13613,10 +13606,17 @@
 "points":0.0
 },
 {
-"id":4429795,
-"name":"Jahmyr Gibbs",
+"id":4882093,
+"name":"Bhayshul Tuten",
 "position":"RB",
-"pro_team":"DET",
+"pro_team":"JAX",
+"points":0.0
+},
+{
+"id":3054850,
+"name":"Alvin Kamara",
+"position":"RB",
+"pro_team":"NO",
 "points":0.0
 },
 {
@@ -13634,10 +13634,10 @@
 "points":0.0
 },
 {
-"id":4569587,
-"name":"Wan'Dale Robinson",
+"id":2976212,
+"name":"Stefon Diggs",
 "position":"WR",
-"pro_team":"TEN",
+"pro_team":"WSH",
 "points":0.0
 },
 {
@@ -13652,13 +13652,6 @@
 "name":"Jake Ferguson",
 "position":"TE",
 "pro_team":"DAL",
-"points":0.0
-},
-{
-"id":3116365,
-"name":"Mark Andrews",
-"position":"TE",
-"pro_team":"BAL",
 "points":0.0
 }
 ],
@@ -13790,13 +13783,6 @@
 "points":0.0
 },
 {
-"id":4870653,
-"name":"KC Concepcion",
-"position":"WR",
-"pro_team":"CLE",
-"points":0.0
-},
-{
 "id":4428850,
 "name":"Dontayvion Wicks",
 "position":"WR",
@@ -13811,17 +13797,24 @@
 "points":0.0
 },
 {
+"id":4032473,
+"name":"Rashid Shaheed",
+"position":"WR",
+"pro_team":"SEA",
+"points":0.0
+},
+{
+"id":5081432,
+"name":"Antonio Williams",
+"position":"WR",
+"pro_team":"WSH",
+"points":0.0
+},
+{
 "id":3929645,
 "name":"Juwan Johnson",
 "position":"TE",
 "pro_team":"NO",
-"points":0.0
-},
-{
-"id":-16030,
-"name":"Jaguars D/ST",
-"position":"D/ST",
-"pro_team":"JAX",
 "points":0.0
 }
 ],
@@ -25780,7 +25773,7 @@
 "name":"D'Andre Swift",
 "position":"RB",
 "pro_team":"CHI",
-"points":0.0
+"points":17.0
 }
 },
 {
@@ -25830,7 +25823,7 @@
 "name":"Rhamondre Stevenson",
 "position":"RB",
 "pro_team":"NE",
-"points":0.0
+"points":20.0
 }
 },
 {
@@ -25919,8 +25912,8 @@
 {
 "slot":"QB",
 "player":{
-"id":4035671,
-"name":"Tyler Huntley",
+"id":3916387,
+"name":"Lamar Jackson",
 "position":"QB",
 "pro_team":"BAL",
 "points":0.0
@@ -25943,26 +25936,26 @@
 "name":"Roschon Johnson",
 "position":"RB",
 "pro_team":"CHI",
+"points":1.3
+}
+},
+{
+"slot":"WR",
+"player":{
+"id":4362628,
+"name":"Ja'Marr Chase",
+"position":"WR",
+"pro_team":"CIN",
 "points":0.0
 }
 },
 {
 "slot":"WR",
 "player":{
-"id":3121422,
-"name":"Terry McLaurin",
+"id":4429205,
+"name":"Jordan Addison",
 "position":"WR",
-"pro_team":"WSH",
-"points":0.0
-}
-},
-{
-"slot":"WR",
-"player":{
-"id":2976212,
-"name":"Stefon Diggs",
-"position":"WR",
-"pro_team":"WSH",
+"pro_team":"MIN",
 "points":0.0
 }
 },
@@ -25993,7 +25986,7 @@
 "name":"Colston Loveland",
 "position":"TE",
 "pro_team":"CHI",
-"points":0.0
+"points":16.4
 }
 },
 {
@@ -26009,18 +26002,18 @@
 {
 "slot":"K",
 "player":{
-"id":4686361,
-"name":"Cam Little",
+"id":4689936,
+"name":"Jake Bates",
 "position":"K",
-"pro_team":"JAX",
+"pro_team":"DET",
 "points":0.0
 }
 }
 ],
 "bench":[
 {
-"id":3916387,
-"name":"Lamar Jackson",
+"id":4035671,
+"name":"Tyler Huntley",
 "position":"QB",
 "pro_team":"BAL",
 "points":0.0
@@ -26033,17 +26026,10 @@
 "points":0.0
 },
 {
-"id":4362628,
-"name":"Ja'Marr Chase",
+"id":2976212,
+"name":"Stefon Diggs",
 "position":"WR",
-"pro_team":"CIN",
-"points":0.0
-},
-{
-"id":4429205,
-"name":"Jordan Addison",
-"position":"WR",
-"pro_team":"MIN",
+"pro_team":"WSH",
 "points":0.0
 },
 {
@@ -26054,10 +26040,10 @@
 "points":0.0
 },
 {
-"id":4686422,
-"name":"Xavier Hutchinson",
+"id":2977187,
+"name":"Cooper Kupp",
 "position":"WR",
-"pro_team":"HOU",
+"pro_team":"SEA",
 "points":0.0
 },
 {
@@ -26065,6 +26051,13 @@
 "name":"Dalton Kincaid",
 "position":"TE",
 "pro_team":"BUF",
+"points":0.0
+},
+{
+"id":4686361,
+"name":"Cam Little",
+"position":"K",
+"pro_team":"JAX",
 "points":0.0
 },
 {
@@ -26090,10 +26083,10 @@
 {
 "slot":"QB",
 "player":{
-"id":3918298,
-"name":"Josh Allen",
+"id":3912547,
+"name":"Sam Darnold",
 "position":"QB",
-"pro_team":"BUF",
+"pro_team":"SEA",
 "points":0.0
 }
 },
@@ -26130,20 +26123,20 @@
 {
 "slot":"WR",
 "player":{
-"id":4612826,
-"name":"Ladd McConkey",
+"id":4432708,
+"name":"Marvin Harrison Jr.",
 "position":"WR",
-"pro_team":"LAC",
+"pro_team":"HOU",
 "points":0.0
 }
 },
 {
 "slot":"WR",
 "player":{
-"id":5081432,
-"name":"Antonio Williams",
+"id":4361409,
+"name":"Jahan Dotson",
 "position":"WR",
-"pro_team":"WSH",
+"pro_team":"ATL",
 "points":0.0
 }
 },
@@ -26160,10 +26153,10 @@
 {
 "slot":"FLEX",
 "player":{
-"id":3054850,
-"name":"Alvin Kamara",
+"id":4047365,
+"name":"Josh Jacobs",
 "position":"RB",
-"pro_team":"NO",
+"pro_team":"GB",
 "points":0.0
 }
 },
@@ -26190,17 +26183,10 @@
 ],
 "bench":[
 {
-"id":3912547,
-"name":"Sam Darnold",
+"id":3918298,
+"name":"Josh Allen",
 "position":"QB",
-"pro_team":"SEA",
-"points":0.0
-},
-{
-"id":4047365,
-"name":"Josh Jacobs",
-"position":"RB",
-"pro_team":"GB",
+"pro_team":"BUF",
 "points":0.0
 },
 {
@@ -26211,10 +26197,17 @@
 "points":0.0
 },
 {
+"id":3054850,
+"name":"Alvin Kamara",
+"position":"RB",
+"pro_team":"NO",
+"points":0.0
+},
+{
 "id":4241457,
 "name":"Najee Harris",
 "position":"RB",
-"pro_team":"NYG",
+"pro_team":"FA",
 "points":0.0
 },
 {
@@ -26225,17 +26218,17 @@
 "points":0.0
 },
 {
-"id":4432708,
-"name":"Marvin Harrison Jr.",
+"id":4612826,
+"name":"Ladd McConkey",
 "position":"WR",
-"pro_team":"HOU",
+"pro_team":"LAC",
 "points":0.0
 },
 {
-"id":4431492,
-"name":"Roman Wilson",
+"id":5081432,
+"name":"Antonio Williams",
 "position":"WR",
-"pro_team":"PIT",
+"pro_team":"WSH",
 "points":0.0
 },
 {
@@ -26261,21 +26254,11 @@
 {
 "slot":"QB",
 "player":{
-"id":4426348,
-"name":"Jayden Daniels",
+"id":4431452,
+"name":"Drake Maye",
 "position":"QB",
-"pro_team":"WSH",
-"points":0.0
-}
-},
-{
-"slot":"RB",
-"player":{
-"id":4379399,
-"name":"James Cook III",
-"position":"RB",
-"pro_team":"BUF",
-"points":0.0
+"pro_team":"NE",
+"points":27.44
 }
 },
 {
@@ -26289,12 +26272,12 @@
 }
 },
 {
-"slot":"WR",
+"slot":"RB",
 "player":{
-"id":16737,
-"name":"Mike Evans",
-"position":"WR",
-"pro_team":"SF",
+"id":4429059,
+"name":"Woody Marks",
+"position":"RB",
+"pro_team":"HOU",
 "points":0.0
 }
 },
@@ -26315,6 +26298,16 @@
 "name":"Wan'Dale Robinson",
 "position":"WR",
 "pro_team":"TEN",
+"points":0.0
+}
+},
+{
+"slot":"WR",
+"player":{
+"id":4683062,
+"name":"Xavier Worthy",
+"position":"WR",
+"pro_team":"KC",
 "points":0.0
 }
 },
@@ -26361,10 +26354,10 @@
 ],
 "bench":[
 {
-"id":4431452,
-"name":"Drake Maye",
+"id":4426348,
+"name":"Jayden Daniels",
 "position":"QB",
-"pro_team":"NE",
+"pro_team":"WSH",
 "points":0.0
 },
 {
@@ -26382,17 +26375,17 @@
 "points":0.0
 },
 {
-"id":4429059,
-"name":"Woody Marks",
+"id":4379399,
+"name":"James Cook III",
 "position":"RB",
-"pro_team":"HOU",
+"pro_team":"BUF",
 "points":0.0
 },
 {
-"id":4683062,
-"name":"Xavier Worthy",
+"id":16737,
+"name":"Mike Evans",
 "position":"WR",
-"pro_team":"KC",
+"pro_team":"SF",
 "points":0.0
 },
 {
@@ -26434,10 +26427,10 @@
 {
 "slot":"RB",
 "player":{
-"id":4696981,
-"name":"Cam Skattebo",
+"id":4427366,
+"name":"Breece Hall",
 "position":"RB",
-"pro_team":"NYG",
+"pro_team":"NYJ",
 "points":0.0
 }
 },
@@ -26524,10 +26517,10 @@
 ],
 "bench":[
 {
-"id":4427366,
-"name":"Breece Hall",
+"id":4696981,
+"name":"Cam Skattebo",
 "position":"RB",
-"pro_team":"NYJ",
+"pro_team":"NYG",
 "points":0.0
 },
 {
@@ -26598,10 +26591,10 @@
 {
 "slot":"RB",
 "player":{
-"id":4371733,
-"name":"Kenny Gainwell",
+"id":4711533,
+"name":"Ollie Gordon II",
 "position":"RB",
-"pro_team":"TB",
+"pro_team":"MIA",
 "points":0.0
 }
 },
@@ -26612,6 +26605,16 @@
 "name":"Kendre Miller",
 "position":"RB",
 "pro_team":"NO",
+"points":0.0
+}
+},
+{
+"slot":"WR",
+"player":{
+"id":4241389,
+"name":"CeeDee Lamb",
+"position":"WR",
+"pro_team":"DAL",
 "points":0.0
 }
 },
@@ -26636,32 +26639,22 @@
 }
 },
 {
-"slot":"WR",
-"player":{
-"id":4688813,
-"name":"Josh Downs",
-"position":"WR",
-"pro_team":"IND",
-"points":0.0
-}
-},
-{
 "slot":"TE",
 "player":{
-"id":4242355,
-"name":"Jake Ferguson",
+"id":4429086,
+"name":"Michael Mayer",
 "position":"TE",
-"pro_team":"DAL",
+"pro_team":"LV",
 "points":0.0
 }
 },
 {
 "slot":"FLEX",
 "player":{
-"id":4241389,
-"name":"CeeDee Lamb",
-"position":"WR",
-"pro_team":"DAL",
+"id":3929630,
+"name":"Saquon Barkley",
+"position":"RB",
+"pro_team":"PHI",
 "points":0.0
 }
 },
@@ -26678,27 +26671,27 @@
 {
 "slot":"K",
 "player":{
-"id":4259619,
-"name":"Blake Grupe",
+"id":3055899,
+"name":"Harrison Butker",
 "position":"K",
-"pro_team":"LAR",
+"pro_team":"KC",
 "points":0.0
 }
 }
 ],
 "bench":[
 {
-"id":3929630,
-"name":"Saquon Barkley",
-"position":"RB",
-"pro_team":"PHI",
-"points":0.0
-},
-{
 "id":4432710,
 "name":"TreVeyon Henderson",
 "position":"RB",
 "pro_team":"NE",
+"points":3.3
+},
+{
+"id":4371733,
+"name":"Kenny Gainwell",
+"position":"RB",
+"pro_team":"TB",
 "points":0.0
 },
 {
@@ -26709,17 +26702,17 @@
 "points":0.0
 },
 {
-"id":4711533,
-"name":"Ollie Gordon II",
-"position":"RB",
-"pro_team":"MIA",
-"points":0.0
-},
-{
 "id":4431299,
 "name":"Rome Odunze",
 "position":"WR",
 "pro_team":"CHI",
+"points":8.9
+},
+{
+"id":4688813,
+"name":"Josh Downs",
+"position":"WR",
+"pro_team":"IND",
 "points":0.0
 },
 {
@@ -26730,17 +26723,17 @@
 "points":0.0
 },
 {
-"id":2991662,
-"name":"Mack Hollins",
+"id":4723820,
+"name":"Omar Cooper Jr.",
 "position":"WR",
-"pro_team":"NE",
+"pro_team":"NYJ",
 "points":0.0
 },
 {
-"id":-16030,
-"name":"Jaguars D/ST",
-"position":"D/ST",
-"pro_team":"JAX",
+"id":3895856,
+"name":"Christian Kirk",
+"position":"WR",
+"pro_team":"SF",
 "points":0.0
 }
 ],
@@ -26759,10 +26752,10 @@
 {
 "slot":"QB",
 "player":{
-"id":4685720,
-"name":"Bryce Young",
+"id":8439,
+"name":"Aaron Rodgers",
 "position":"QB",
-"pro_team":"CAR",
+"pro_team":"PIT",
 "points":0.0
 }
 },
@@ -26793,7 +26786,7 @@
 "name":"A.J. Brown",
 "position":"WR",
 "pro_team":"NE",
-"points":0.0
+"points":6.3
 }
 },
 {
@@ -26809,11 +26802,11 @@
 {
 "slot":"WR",
 "player":{
-"id":4242433,
-"name":"Joshua Palmer",
+"id":4427095,
+"name":"DeMario Douglas",
 "position":"WR",
-"pro_team":"BUF",
-"points":0.0
+"pro_team":"NE",
+"points":3.8
 }
 },
 {
@@ -26859,10 +26852,10 @@
 ],
 "bench":[
 {
-"id":4040715,
-"name":"Jalen Hurts",
+"id":4685720,
+"name":"Bryce Young",
 "position":"QB",
-"pro_team":"PHI",
+"pro_team":"CAR",
 "points":0.0
 },
 {
@@ -26887,6 +26880,13 @@
 "points":0.0
 },
 {
+"id":4360516,
+"name":"Tyrone Tracy Jr.",
+"position":"RB",
+"pro_team":"NYG",
+"points":0.0
+},
+{
 "id":3915416,
 "name":"DJ Moore",
 "position":"WR",
@@ -26906,13 +26906,6 @@
 "position":"WR",
 "pro_team":"CHI",
 "points":0.0
-},
-{
-"id":4427095,
-"name":"DeMario Douglas",
-"position":"WR",
-"pro_team":"NE",
-"points":0.0
 }
 ],
 "ir":[
@@ -26930,11 +26923,11 @@
 {
 "slot":"QB",
 "player":{
-"id":14880,
-"name":"Kirk Cousins",
+"id":4431611,
+"name":"Caleb Williams",
 "position":"QB",
-"pro_team":"LV",
-"points":0.0
+"pro_team":"CHI",
+"points":22.12
 }
 },
 {
@@ -26950,10 +26943,10 @@
 {
 "slot":"RB",
 "player":{
-"id":4882093,
-"name":"Bhayshul Tuten",
+"id":4038815,
+"name":"Rico Dowdle",
 "position":"RB",
-"pro_team":"JAX",
+"pro_team":"PIT",
 "points":0.0
 }
 },
@@ -26970,20 +26963,20 @@
 {
 "slot":"WR",
 "player":{
-"id":16800,
-"name":"Davante Adams",
+"id":4047650,
+"name":"DK Metcalf",
 "position":"WR",
-"pro_team":"LAR",
+"pro_team":"PIT",
 "points":0.0
 }
 },
 {
 "slot":"WR",
 "player":{
-"id":4047650,
-"name":"DK Metcalf",
+"id":4597500,
+"name":"Adonai Mitchell",
 "position":"WR",
-"pro_team":"PIT",
+"pro_team":"NYJ",
 "points":0.0
 }
 },
@@ -27000,20 +26993,20 @@
 {
 "slot":"FLEX",
 "player":{
-"id":4361432,
-"name":"Romeo Doubs",
+"id":4586312,
+"name":"Jaylin Noel",
 "position":"WR",
-"pro_team":"NE",
+"pro_team":"HOU",
 "points":0.0
 }
 },
 {
 "slot":"D/ST",
 "player":{
-"id":-16004,
-"name":"Bengals D/ST",
+"id":-16005,
+"name":"Browns D/ST",
 "position":"D/ST",
-"pro_team":"CIN",
+"pro_team":"CLE",
 "points":0.0
 }
 },
@@ -27030,17 +27023,17 @@
 ],
 "bench":[
 {
-"id":4431611,
-"name":"Caleb Williams",
+"id":14880,
+"name":"Kirk Cousins",
 "position":"QB",
-"pro_team":"CHI",
+"pro_team":"LV",
 "points":0.0
 },
 {
-"id":4038815,
-"name":"Rico Dowdle",
+"id":4882093,
+"name":"Bhayshul Tuten",
 "position":"RB",
-"pro_team":"PIT",
+"pro_team":"JAX",
 "points":0.0
 },
 {
@@ -27058,10 +27051,10 @@
 "points":0.0
 },
 {
-"id":4362249,
-"name":"Jayden Reed",
+"id":4361432,
+"name":"Romeo Doubs",
 "position":"WR",
-"pro_team":"GB",
+"pro_team":"NE",
 "points":0.0
 },
 {
@@ -27088,10 +27081,10 @@
 ],
 "ir":[
 {
-"id":4361529,
-"name":"Isiah Pacheco",
-"position":"RB",
-"pro_team":"DET",
+"id":16800,
+"name":"Davante Adams",
+"position":"WR",
+"pro_team":"LAR",
 "points":0.0
 }
 ]
@@ -27467,11 +27460,11 @@
 {
 "slot":"WR",
 "player":{
-"id":4432620,
-"name":"Parker Washington",
+"id":4685278,
+"name":"Luther Burden III",
 "position":"WR",
-"pro_team":"JAX",
-"points":0.0
+"pro_team":"CHI",
+"points":21.7
 }
 },
 {
@@ -27487,40 +27480,40 @@
 {
 "slot":"TE",
 "player":{
-"id":4361411,
-"name":"Pat Freiermuth",
+"id":4430027,
+"name":"Sam LaPorta",
 "position":"TE",
-"pro_team":"PIT",
+"pro_team":"DET",
 "points":0.0
 }
 },
 {
 "slot":"FLEX",
 "player":{
-"id":4685278,
-"name":"Luther Burden III",
+"id":5083754,
+"name":"Ryan Flournoy",
 "position":"WR",
-"pro_team":"CHI",
+"pro_team":"DAL",
 "points":0.0
 }
 },
 {
 "slot":"D/ST",
 "player":{
-"id":-16017,
-"name":"Patriots D/ST",
+"id":-16016,
+"name":"Vikings D/ST",
 "position":"D/ST",
-"pro_team":"NE",
+"pro_team":"MIN",
 "points":0.0
 }
 },
 {
 "slot":"K",
 "player":{
-"id":5082424,
-"name":"Dominic Zvada",
+"id":4360234,
+"name":"Evan McPherson",
 "position":"K",
-"pro_team":"NYG",
+"pro_team":"CIN",
 "points":0.0
 }
 }
@@ -27548,6 +27541,13 @@
 "points":0.0
 },
 {
+"id":4432620,
+"name":"Parker Washington",
+"position":"WR",
+"pro_team":"JAX",
+"points":0.0
+},
+{
 "id":3116165,
 "name":"Chris Godwin Jr.",
 "position":"WR",
@@ -27562,25 +27562,18 @@
 "points":0.0
 },
 {
-"id":4430027,
-"name":"Sam LaPorta",
+"id":4361411,
+"name":"Pat Freiermuth",
 "position":"TE",
-"pro_team":"DET",
+"pro_team":"PIT",
 "points":0.0
 },
 {
-"id":4360234,
-"name":"Evan McPherson",
-"position":"K",
-"pro_team":"CIN",
-"points":0.0
-},
-{
-"id":-16016,
-"name":"Vikings D/ST",
+"id":-16017,
+"name":"Patriots D/ST",
 "position":"D/ST",
-"pro_team":"MIN",
-"points":0.0
+"pro_team":"NE",
+"points":-1.0
 }
 ],
 "ir":[
@@ -27598,10 +27591,10 @@
 {
 "slot":"QB",
 "player":{
-"id":2969939,
-"name":"Jameis Winston",
+"id":3915511,
+"name":"Joe Burrow",
 "position":"QB",
-"pro_team":"NYG",
+"pro_team":"CIN",
 "points":0.0
 }
 },
@@ -27628,20 +27621,20 @@
 {
 "slot":"WR",
 "player":{
-"id":4569618,
-"name":"Garrett Wilson",
+"id":4374302,
+"name":"Amon-Ra St. Brown",
 "position":"WR",
-"pro_team":"NYJ",
+"pro_team":"DET",
 "points":0.0
 }
 },
 {
 "slot":"WR",
 "player":{
-"id":4360761,
-"name":"Michael Wilson",
+"id":4569618,
+"name":"Garrett Wilson",
 "position":"WR",
-"pro_team":"ARI",
+"pro_team":"NYJ",
 "points":0.0
 }
 },
@@ -27668,54 +27661,54 @@
 {
 "slot":"FLEX",
 "player":{
-"id":4685702,
-"name":"Quinshon Judkins",
+"id":4241985,
+"name":"J.K. Dobbins",
 "position":"RB",
-"pro_team":"CLE",
+"pro_team":"DEN",
 "points":0.0
 }
 },
 {
 "slot":"D/ST",
 "player":{
-"id":-16012,
-"name":"Chiefs D/ST",
+"id":-16020,
+"name":"Jets D/ST",
 "position":"D/ST",
-"pro_team":"KC",
+"pro_team":"NYJ",
 "points":0.0
 }
 },
 {
 "slot":"K",
 "player":{
-"id":4249087,
-"name":"Matt Gay",
+"id":4567104,
+"name":"Will Reichard",
 "position":"K",
-"pro_team":"LV",
+"pro_team":"MIN",
 "points":0.0
 }
 }
 ],
 "bench":[
 {
-"id":3915511,
-"name":"Joe Burrow",
+"id":2969939,
+"name":"Jameis Winston",
 "position":"QB",
-"pro_team":"CIN",
+"pro_team":"NYG",
 "points":0.0
 },
 {
-"id":4241985,
-"name":"J.K. Dobbins",
+"id":4685702,
+"name":"Quinshon Judkins",
 "position":"RB",
-"pro_team":"DEN",
+"pro_team":"CLE",
 "points":0.0
 },
 {
-"id":4374302,
-"name":"Amon-Ra St. Brown",
+"id":4360761,
+"name":"Michael Wilson",
 "position":"WR",
-"pro_team":"DET",
+"pro_team":"ARI",
 "points":0.0
 },
 {
@@ -27737,20 +27730,20 @@
 "name":"Hunter Henry",
 "position":"TE",
 "pro_team":"NE",
-"points":0.0
+"points":10.6
 },
 {
-"id":4567104,
-"name":"Will Reichard",
+"id":4249087,
+"name":"Matt Gay",
 "position":"K",
-"pro_team":"MIN",
+"pro_team":"LV",
 "points":0.0
 },
 {
-"id":-16020,
-"name":"Jets D/ST",
+"id":-16012,
+"name":"Chiefs D/ST",
 "position":"D/ST",
-"pro_team":"NYJ",
+"pro_team":"KC",
 "points":0.0
 }
 ],
@@ -40072,7 +40065,7 @@
 "name":"Cairo Santos",
 "position":"K",
 "pro_team":"CHI",
-"points":0.0
+"points":14.0
 }
 ],
 "ir":[
@@ -40090,10 +40083,10 @@
 {
 "slot":"QB",
 "player":{
-"id":2969939,
-"name":"Jameis Winston",
+"id":3917315,
+"name":"Kyler Murray",
 "position":"QB",
-"pro_team":"NYG",
+"pro_team":"MIN",
 "points":0.0
 }
 },
@@ -40110,10 +40103,20 @@
 {
 "slot":"RB",
 "player":{
-"id":4887558,
-"name":"Emanuel Wilson",
+"id":3916148,
+"name":"Tony Pollard",
 "position":"RB",
-"pro_team":"SEA",
+"pro_team":"TEN",
+"points":0.0
+}
+},
+{
+"slot":"WR",
+"player":{
+"id":4374302,
+"name":"Amon-Ra St. Brown",
+"position":"WR",
+"pro_team":"DET",
 "points":0.0
 }
 },
@@ -40130,20 +40133,10 @@
 {
 "slot":"WR",
 "player":{
-"id":4612826,
-"name":"Ladd McConkey",
+"id":4685261,
+"name":"Germie Bernard",
 "position":"WR",
-"pro_team":"LAC",
-"points":0.0
-}
-},
-{
-"slot":"WR",
-"player":{
-"id":3045523,
-"name":"Kendrick Bourne",
-"position":"WR",
-"pro_team":"ARI",
+"pro_team":"PIT",
 "points":0.0
 }
 },
@@ -40160,16 +40153,22 @@
 {
 "slot":"FLEX",
 "player":{
-"id":3916148,
-"name":"Tony Pollard",
-"position":"RB",
-"pro_team":"TEN",
+"id":3895856,
+"name":"Christian Kirk",
+"position":"WR",
+"pro_team":"SF",
 "points":0.0
 }
 },
 {
 "slot":"D/ST",
-"player":null
+"player":{
+"id":-16020,
+"name":"Jets D/ST",
+"position":"D/ST",
+"pro_team":"NYJ",
+"points":0.0
+}
 },
 {
 "slot":"K",
@@ -40184,17 +40183,17 @@
 ],
 "bench":[
 {
-"id":3917315,
-"name":"Kyler Murray",
-"position":"QB",
-"pro_team":"MIN",
-"points":0.0
-},
-{
 "id":2578570,
 "name":"Jacoby Brissett",
 "position":"QB",
 "pro_team":"ARI",
+"points":0.0
+},
+{
+"id":4887558,
+"name":"Emanuel Wilson",
+"position":"RB",
+"pro_team":"SEA",
 "points":0.0
 },
 {
@@ -40212,10 +40211,10 @@
 "points":0.0
 },
 {
-"id":4374302,
-"name":"Amon-Ra St. Brown",
+"id":4612826,
+"name":"Ladd McConkey",
 "position":"WR",
-"pro_team":"DET",
+"pro_team":"LAC",
 "points":0.0
 },
 {
@@ -40233,17 +40232,10 @@
 "points":0.0
 },
 {
-"id":4685261,
-"name":"Germie Bernard",
+"id":5081432,
+"name":"Antonio Williams",
 "position":"WR",
-"pro_team":"PIT",
-"points":0.0
-},
-{
-"id":3895856,
-"name":"Christian Kirk",
-"position":"WR",
-"pro_team":"SF",
+"pro_team":"WSH",
 "points":0.0
 }
 ],
@@ -40272,20 +40264,20 @@
 {
 "slot":"RB",
 "player":{
-"id":4596448,
-"name":"Bucky Irving",
+"id":4362238,
+"name":"Chase Brown",
 "position":"RB",
-"pro_team":"TB",
+"pro_team":"CIN",
 "points":0.0
 }
 },
 {
 "slot":"RB",
 "player":{
-"id":4599739,
-"name":"Kendre Miller",
+"id":4596448,
+"name":"Bucky Irving",
 "position":"RB",
-"pro_team":"NO",
+"pro_team":"TB",
 "points":0.0
 }
 },
@@ -40316,36 +40308,36 @@
 "name":"Luther Burden III",
 "position":"WR",
 "pro_team":"CHI",
-"points":0.0
+"points":21.7
 }
 },
 {
 "slot":"TE",
 "player":{
-"id":2576925,
-"name":"Darren Waller",
+"id":4430027,
+"name":"Sam LaPorta",
 "position":"TE",
-"pro_team":"CAR",
+"pro_team":"DET",
 "points":0.0
 }
 },
 {
 "slot":"FLEX",
 "player":{
-"id":16737,
-"name":"Mike Evans",
-"position":"WR",
-"pro_team":"SF",
+"id":4711533,
+"name":"Ollie Gordon II",
+"position":"RB",
+"pro_team":"MIA",
 "points":0.0
 }
 },
 {
 "slot":"D/ST",
 "player":{
-"id":-16030,
-"name":"Jaguars D/ST",
+"id":-16029,
+"name":"Panthers D/ST",
 "position":"D/ST",
-"pro_team":"JAX",
+"pro_team":"CAR",
 "points":0.0
 }
 },
@@ -40376,17 +40368,10 @@
 "points":0.0
 },
 {
-"id":4362238,
-"name":"Chase Brown",
+"id":4599739,
+"name":"Kendre Miller",
 "position":"RB",
-"pro_team":"CIN",
-"points":0.0
-},
-{
-"id":4711533,
-"name":"Ollie Gordon II",
-"position":"RB",
-"pro_team":"MIA",
+"pro_team":"NO",
 "points":0.0
 },
 {
@@ -40397,24 +40382,31 @@
 "points":0.0
 },
 {
-"id":4569603,
-"name":"Malik Washington",
+"id":4360516,
+"name":"Tyrone Tracy Jr.",
+"position":"RB",
+"pro_team":"NYG",
+"points":0.0
+},
+{
+"id":16737,
+"name":"Mike Evans",
 "position":"WR",
-"pro_team":"MIA",
+"pro_team":"SF",
 "points":0.0
 },
 {
-"id":4430027,
-"name":"Sam LaPorta",
-"position":"TE",
-"pro_team":"DET",
+"id":4723820,
+"name":"Omar Cooper Jr.",
+"position":"WR",
+"pro_team":"NYJ",
 "points":0.0
 },
 {
-"id":-16029,
-"name":"Panthers D/ST",
+"id":-16004,
+"name":"Bengals D/ST",
 "position":"D/ST",
-"pro_team":"CAR",
+"pro_team":"CIN",
 "points":0.0
 }
 ],
@@ -40457,7 +40449,17 @@
 "name":"D'Andre Swift",
 "position":"RB",
 "pro_team":"CHI",
-"points":0.0
+"points":17.0
+}
+},
+{
+"slot":"WR",
+"player":{
+"id":4047646,
+"name":"A.J. Brown",
+"position":"WR",
+"pro_team":"NE",
+"points":6.3
 }
 },
 {
@@ -40481,16 +40483,6 @@
 }
 },
 {
-"slot":"WR",
-"player":{
-"id":4832800,
-"name":"Denzel Boston",
-"position":"WR",
-"pro_team":"CLE",
-"points":0.0
-}
-},
-{
 "slot":"TE",
 "player":{
 "id":4572680,
@@ -40503,10 +40495,10 @@
 {
 "slot":"FLEX",
 "player":{
-"id":15847,
-"name":"Travis Kelce",
-"position":"TE",
-"pro_team":"KC",
+"id":4832800,
+"name":"Denzel Boston",
+"position":"WR",
+"pro_team":"CLE",
 "points":0.0
 }
 },
@@ -40547,13 +40539,6 @@
 "points":0.0
 },
 {
-"id":4047646,
-"name":"A.J. Brown",
-"position":"WR",
-"pro_team":"NE",
-"points":0.0
-},
-{
 "id":4429025,
 "name":"Quentin Johnston",
 "position":"WR",
@@ -40572,6 +40557,13 @@
 "name":"Xavier Hutchinson",
 "position":"WR",
 "pro_team":"HOU",
+"points":0.0
+},
+{
+"id":15847,
+"name":"Travis Kelce",
+"position":"TE",
+"pro_team":"KC",
 "points":0.0
 },
 {
@@ -40596,10 +40588,10 @@
 {
 "slot":"QB",
 "player":{
-"id":4035671,
-"name":"Tyler Huntley",
+"id":8439,
+"name":"Aaron Rodgers",
 "position":"QB",
-"pro_team":"BAL",
+"pro_team":"PIT",
 "points":0.0
 }
 },
@@ -40616,8 +40608,8 @@
 {
 "slot":"RB",
 "player":{
-"id":4429023,
-"name":"MarShawn Lloyd",
+"id":4047365,
+"name":"Josh Jacobs",
 "position":"RB",
 "pro_team":"GB",
 "points":0.0
@@ -40636,10 +40628,10 @@
 {
 "slot":"WR",
 "player":{
-"id":4432773,
-"name":"Brian Thomas Jr.",
+"id":4432708,
+"name":"Marvin Harrison Jr.",
 "position":"WR",
-"pro_team":"JAX",
+"pro_team":"HOU",
 "points":0.0
 }
 },
@@ -40650,21 +40642,11 @@
 "name":"DeMario Douglas",
 "position":"WR",
 "pro_team":"NE",
-"points":0.0
+"points":3.8
 }
 },
 {
 "slot":"TE",
-"player":{
-"id":4361307,
-"name":"Trey McBride",
-"position":"TE",
-"pro_team":"ARI",
-"points":0.0
-}
-},
-{
-"slot":"FLEX",
 "player":{
 "id":4432665,
 "name":"Brock Bowers",
@@ -40674,37 +40656,47 @@
 }
 },
 {
+"slot":"FLEX",
+"player":{
+"id":4361307,
+"name":"Trey McBride",
+"position":"TE",
+"pro_team":"ARI",
+"points":0.0
+}
+},
+{
 "slot":"D/ST",
 "player":{
-"id":-16014,
-"name":"Rams D/ST",
+"id":-16025,
+"name":"49ers D/ST",
 "position":"D/ST",
-"pro_team":"LAR",
+"pro_team":"SF",
 "points":0.0
 }
 },
 {
 "slot":"K",
 "player":{
-"id":4362081,
-"name":"Cameron Dicker",
+"id":3055899,
+"name":"Harrison Butker",
 "position":"K",
-"pro_team":"LAC",
+"pro_team":"KC",
 "points":0.0
 }
 }
 ],
 "bench":[
 {
-"id":8439,
-"name":"Aaron Rodgers",
+"id":4035671,
+"name":"Tyler Huntley",
 "position":"QB",
-"pro_team":"PIT",
+"pro_team":"BAL",
 "points":0.0
 },
 {
-"id":4047365,
-"name":"Josh Jacobs",
+"id":4429023,
+"name":"MarShawn Lloyd",
 "position":"RB",
 "pro_team":"GB",
 "points":0.0
@@ -40713,7 +40705,7 @@
 "id":4241457,
 "name":"Najee Harris",
 "position":"RB",
-"pro_team":"NYG",
+"pro_team":"FA",
 "points":0.0
 },
 {
@@ -40724,17 +40716,17 @@
 "points":0.0
 },
 {
-"id":4432708,
-"name":"Marvin Harrison Jr.",
-"position":"WR",
-"pro_team":"HOU",
-"points":0.0
-},
-{
 "id":2976212,
 "name":"Stefon Diggs",
 "position":"WR",
 "pro_team":"WSH",
+"points":0.0
+},
+{
+"id":4432773,
+"name":"Brian Thomas Jr.",
+"position":"WR",
+"pro_team":"JAX",
 "points":0.0
 },
 {
@@ -40745,10 +40737,10 @@
 "points":0.0
 },
 {
-"id":-16025,
-"name":"49ers D/ST",
-"position":"D/ST",
-"pro_team":"SF",
+"id":4362081,
+"name":"Cameron Dicker",
+"position":"K",
+"pro_team":"LAC",
 "points":0.0
 }
 ],
@@ -40817,10 +40809,10 @@
 {
 "slot":"WR",
 "player":{
-"id":4432620,
-"name":"Parker Washington",
+"id":4635008,
+"name":"Keon Coleman",
 "position":"WR",
-"pro_team":"JAX",
+"pro_team":"BUF",
 "points":0.0
 }
 },
@@ -40831,26 +40823,26 @@
 "name":"Colston Loveland",
 "position":"TE",
 "pro_team":"CHI",
-"points":0.0
+"points":16.4
 }
 },
 {
 "slot":"FLEX",
 "player":{
-"id":4635008,
-"name":"Keon Coleman",
+"id":4432620,
+"name":"Parker Washington",
 "position":"WR",
-"pro_team":"BUF",
+"pro_team":"JAX",
 "points":0.0
 }
 },
 {
 "slot":"D/ST",
 "player":{
-"id":-16027,
-"name":"Buccaneers D/ST",
+"id":-16010,
+"name":"Titans D/ST",
 "position":"D/ST",
-"pro_team":"TB",
+"pro_team":"TEN",
 "points":0.0
 }
 },
@@ -40962,7 +40954,7 @@
 "name":"Rhamondre Stevenson",
 "position":"RB",
 "pro_team":"NE",
-"points":0.0
+"points":20.0
 }
 },
 {
@@ -41012,7 +41004,7 @@
 "name":"Hunter Henry",
 "position":"TE",
 "pro_team":"NE",
-"points":0.0
+"points":10.6
 }
 },
 {
@@ -41131,20 +41123,20 @@
 {
 "slot":"WR",
 "player":{
-"id":4695883,
-"name":"Jalen Coker",
+"id":4262921,
+"name":"Justin Jefferson",
 "position":"WR",
-"pro_team":"CAR",
+"pro_team":"MIN",
 "points":0.0
 }
 },
 {
 "slot":"WR",
 "player":{
-"id":4569371,
-"name":"Isaiah Williams",
+"id":4695883,
+"name":"Jalen Coker",
 "position":"WR",
-"pro_team":"NYJ",
+"pro_team":"CAR",
 "points":0.0
 }
 },
@@ -41222,13 +41214,6 @@
 "points":0.0
 },
 {
-"id":4262921,
-"name":"Justin Jefferson",
-"position":"WR",
-"pro_team":"MIN",
-"points":0.0
-},
-{
 "id":4597500,
 "name":"Adonai Mitchell",
 "position":"WR",
@@ -41240,6 +41225,13 @@
 "name":"Isaac TeSlaa",
 "position":"WR",
 "pro_team":"DET",
+"points":0.0
+},
+{
+"id":4569371,
+"name":"Isaiah Williams",
+"position":"WR",
+"pro_team":"NYJ",
 "points":0.0
 },
 {
@@ -41316,7 +41308,7 @@
 "name":"Rome Odunze",
 "position":"WR",
 "pro_team":"CHI",
-"points":0.0
+"points":8.9
 }
 },
 {
@@ -41356,7 +41348,7 @@
 "name":"Patriots D/ST",
 "position":"D/ST",
 "pro_team":"NE",
-"points":0.0
+"points":-1.0
 }
 },
 {
@@ -41439,17 +41431,7 @@
 "name":"Drake Maye",
 "position":"QB",
 "pro_team":"NE",
-"points":0.0
-}
-},
-{
-"slot":"RB",
-"player":{
-"id":4379399,
-"name":"James Cook III",
-"position":"RB",
-"pro_team":"BUF",
-"points":0.0
+"points":27.44
 }
 },
 {
@@ -41459,6 +41441,16 @@
 "name":"J.K. Dobbins",
 "position":"RB",
 "pro_team":"DEN",
+"points":0.0
+}
+},
+{
+"slot":"RB",
+"player":{
+"id":3042519,
+"name":"Aaron Jones Sr.",
+"position":"RB",
+"pro_team":"MIN",
 "points":0.0
 }
 },
@@ -41485,10 +41477,10 @@
 {
 "slot":"WR",
 "player":{
-"id":4683062,
-"name":"Xavier Worthy",
+"id":4701936,
+"name":"Matthew Golden",
 "position":"WR",
-"pro_team":"KC",
+"pro_team":"GB",
 "points":0.0
 }
 },
@@ -41505,10 +41497,10 @@
 {
 "slot":"FLEX",
 "player":{
-"id":4701936,
-"name":"Matthew Golden",
+"id":4683062,
+"name":"Xavier Worthy",
 "position":"WR",
-"pro_team":"GB",
+"pro_team":"KC",
 "points":0.0
 }
 },
@@ -41535,10 +41527,10 @@
 ],
 "bench":[
 {
-"id":3042519,
-"name":"Aaron Jones Sr.",
+"id":4379399,
+"name":"James Cook III",
 "position":"RB",
-"pro_team":"MIN",
+"pro_team":"BUF",
 "points":0.0
 },
 {
@@ -41610,7 +41602,7 @@
 "name":"Caleb Williams",
 "position":"QB",
 "pro_team":"CHI",
-"points":0.0
+"points":22.12
 }
 },
 {
@@ -41680,7 +41672,7 @@
 "name":"TreVeyon Henderson",
 "position":"RB",
 "pro_team":"NE",
-"points":0.0
+"points":3.3
 }
 },
 {
@@ -53789,31 +53781,31 @@
 "points":0.0
 },
 {
+"id":4360516,
+"name":"Tyrone Tracy Jr.",
+"position":"RB",
+"pro_team":"NYG",
+"points":0.0
+},
+{
 "id":4431299,
 "name":"Rome Odunze",
 "position":"WR",
 "pro_team":"CHI",
-"points":0.0
+"points":8.9
 },
 {
-"id":4361432,
-"name":"Romeo Doubs",
+"id":5083754,
+"name":"Ryan Flournoy",
 "position":"WR",
-"pro_team":"NE",
+"pro_team":"DAL",
 "points":0.0
 },
 {
-"id":2573401,
-"name":"Tyler Higbee",
-"position":"TE",
-"pro_team":"LAR",
-"points":0.0
-},
-{
-"id":-16027,
-"name":"Buccaneers D/ST",
-"position":"D/ST",
-"pro_team":"TB",
+"id":4723820,
+"name":"Omar Cooper Jr.",
+"position":"WR",
+"pro_team":"NYJ",
 "points":0.0
 }
 ],
@@ -53832,20 +53824,10 @@
 {
 "slot":"QB",
 "player":{
-"id":4426348,
-"name":"Jayden Daniels",
+"id":8439,
+"name":"Aaron Rodgers",
 "position":"QB",
-"pro_team":"WSH",
-"points":0.0
-}
-},
-{
-"slot":"RB",
-"player":{
-"id":4379399,
-"name":"James Cook III",
-"position":"RB",
-"pro_team":"BUF",
+"pro_team":"PIT",
 "points":0.0
 }
 },
@@ -53856,6 +53838,16 @@
 "name":"Derrick Henry",
 "position":"RB",
 "pro_team":"BAL",
+"points":0.0
+}
+},
+{
+"slot":"RB",
+"player":{
+"id":4430737,
+"name":"Kyren Williams",
+"position":"RB",
+"pro_team":"LAR",
 "points":0.0
 }
 },
@@ -53872,16 +53864,6 @@
 {
 "slot":"WR",
 "player":{
-"id":16737,
-"name":"Mike Evans",
-"position":"WR",
-"pro_team":"SF",
-"points":0.0
-}
-},
-{
-"slot":"WR",
-"player":{
 "id":4832800,
 "name":"Denzel Boston",
 "position":"WR",
@@ -53890,7 +53872,27 @@
 }
 },
 {
+"slot":"WR",
+"player":{
+"id":4569603,
+"name":"Malik Washington",
+"position":"WR",
+"pro_team":"MIA",
+"points":0.0
+}
+},
+{
 "slot":"TE",
+"player":{
+"id":4430027,
+"name":"Sam LaPorta",
+"position":"TE",
+"pro_team":"DET",
+"points":0.0
+}
+},
+{
+"slot":"FLEX",
 "player":{
 "id":15847,
 "name":"Travis Kelce",
@@ -53900,22 +53902,12 @@
 }
 },
 {
-"slot":"FLEX",
-"player":{
-"id":4430737,
-"name":"Kyren Williams",
-"position":"RB",
-"pro_team":"LAR",
-"points":0.0
-}
-},
-{
 "slot":"D/ST",
 "player":{
-"id":-16014,
-"name":"Rams D/ST",
+"id":-16025,
+"name":"49ers D/ST",
 "position":"D/ST",
-"pro_team":"LAR",
+"pro_team":"SF",
 "points":0.0
 }
 },
@@ -53932,6 +53924,13 @@
 ],
 "bench":[
 {
+"id":4426348,
+"name":"Jayden Daniels",
+"position":"QB",
+"pro_team":"WSH",
+"points":0.0
+},
+{
 "id":3917315,
 "name":"Kyler Murray",
 "position":"QB",
@@ -53939,10 +53938,10 @@
 "points":0.0
 },
 {
-"id":2578570,
-"name":"Jacoby Brissett",
-"position":"QB",
-"pro_team":"ARI",
+"id":4379399,
+"name":"James Cook III",
+"position":"RB",
+"pro_team":"BUF",
 "points":0.0
 },
 {
@@ -53960,6 +53959,13 @@
 "points":0.0
 },
 {
+"id":16737,
+"name":"Mike Evans",
+"position":"WR",
+"pro_team":"SF",
+"points":0.0
+},
+{
 "id":3116165,
 "name":"Chris Godwin Jr.",
 "position":"WR",
@@ -53967,24 +53973,10 @@
 "points":0.0
 },
 {
-"id":4569603,
-"name":"Malik Washington",
+"id":4361409,
+"name":"Jahan Dotson",
 "position":"WR",
-"pro_team":"MIA",
-"points":0.0
-},
-{
-"id":4715355,
-"name":"Darius Cooper",
-"position":"WR",
-"pro_team":"PHI",
-"points":0.0
-},
-{
-"id":4430027,
-"name":"Sam LaPorta",
-"position":"TE",
-"pro_team":"DET",
+"pro_team":"ATL",
 "points":0.0
 }
 ],
@@ -54005,10 +53997,10 @@
 {
 "slot":"RB",
 "player":{
-"id":4429835,
-"name":"George Holani",
+"id":4427366,
+"name":"Breece Hall",
 "position":"RB",
-"pro_team":"SEA",
+"pro_team":"NYJ",
 "points":0.0
 }
 },
@@ -54116,10 +54108,10 @@
 "points":0.0
 },
 {
-"id":4427366,
-"name":"Breece Hall",
+"id":4429835,
+"name":"George Holani",
 "position":"RB",
-"pro_team":"NYJ",
+"pro_team":"SEA",
 "points":0.0
 },
 {
@@ -54170,7 +54162,7 @@
 "name":"Drake Maye",
 "position":"QB",
 "pro_team":"NE",
-"points":0.0
+"points":27.44
 }
 },
 {
@@ -54196,6 +54188,16 @@
 {
 "slot":"WR",
 "player":{
+"id":4047646,
+"name":"A.J. Brown",
+"position":"WR",
+"pro_team":"NE",
+"points":6.3
+}
+},
+{
+"slot":"WR",
+"player":{
 "id":4239993,
 "name":"Tee Higgins",
 "position":"WR",
@@ -54206,20 +54208,10 @@
 {
 "slot":"WR",
 "player":{
-"id":4428718,
-"name":"Tre Tucker",
+"id":4426388,
+"name":"Jameson Williams",
 "position":"WR",
-"pro_team":"LV",
-"points":0.0
-}
-},
-{
-"slot":"WR",
-"player":{
-"id":4427095,
-"name":"DeMario Douglas",
-"position":"WR",
-"pro_team":"NE",
+"pro_team":"DET",
 "points":0.0
 }
 },
@@ -54250,7 +54242,7 @@
 "name":"Patriots D/ST",
 "position":"D/ST",
 "pro_team":"NE",
-"points":0.0
+"points":-1.0
 }
 },
 {
@@ -54277,7 +54269,7 @@
 "name":"TreVeyon Henderson",
 "position":"RB",
 "pro_team":"NE",
-"points":0.0
+"points":3.3
 },
 {
 "id":4047365,
@@ -54294,24 +54286,17 @@
 "points":0.0
 },
 {
-"id":4426388,
-"name":"Jameson Williams",
+"id":4427095,
+"name":"DeMario Douglas",
 "position":"WR",
-"pro_team":"DET",
-"points":0.0
+"pro_team":"NE",
+"points":3.8
 },
 {
-"id":3126486,
-"name":"Deebo Samuel Sr.",
+"id":4428718,
+"name":"Tre Tucker",
 "position":"WR",
-"pro_team":"SF",
-"points":0.0
-},
-{
-"id":4032473,
-"name":"Rashid Shaheed",
-"position":"WR",
-"pro_team":"SEA",
+"pro_team":"LV",
 "points":0.0
 },
 {
@@ -54324,10 +54309,10 @@
 ],
 "ir":[
 {
-"id":4047646,
-"name":"A.J. Brown",
+"id":3126486,
+"name":"Deebo Samuel Sr.",
 "position":"WR",
-"pro_team":"NE",
+"pro_team":"SF",
 "points":0.0
 }
 ]
@@ -54361,7 +54346,7 @@
 "name":"Rhamondre Stevenson",
 "position":"RB",
 "pro_team":"NE",
-"points":0.0
+"points":20.0
 }
 },
 {
@@ -54411,7 +54396,7 @@
 "name":"Luther Burden III",
 "position":"WR",
 "pro_team":"CHI",
-"points":0.0
+"points":21.7
 }
 },
 {
@@ -54508,10 +54493,10 @@
 {
 "slot":"QB",
 "player":{
-"id":3918298,
-"name":"Josh Allen",
+"id":4433970,
+"name":"J.J. McCarthy",
 "position":"QB",
-"pro_team":"BUF",
+"pro_team":"NYG",
 "points":0.0
 }
 },
@@ -54568,11 +54553,11 @@
 {
 "slot":"TE",
 "player":{
-"id":4361411,
-"name":"Pat Freiermuth",
+"id":4723086,
+"name":"Colston Loveland",
 "position":"TE",
-"pro_team":"PIT",
-"points":0.0
+"pro_team":"CHI",
+"points":16.4
 }
 },
 {
@@ -54588,30 +54573,30 @@
 {
 "slot":"D/ST",
 "player":{
-"id":-16007,
-"name":"Broncos D/ST",
+"id":-16020,
+"name":"Jets D/ST",
 "position":"D/ST",
-"pro_team":"DEN",
+"pro_team":"NYJ",
 "points":0.0
 }
 },
 {
 "slot":"K",
 "player":{
-"id":4362081,
-"name":"Cameron Dicker",
+"id":4568263,
+"name":"Ryan Fitzgerald",
 "position":"K",
-"pro_team":"LAC",
+"pro_team":"CAR",
 "points":0.0
 }
 }
 ],
 "bench":[
 {
-"id":3917792,
-"name":"Daniel Jones",
+"id":3918298,
+"name":"Josh Allen",
 "position":"QB",
-"pro_team":"IND",
+"pro_team":"BUF",
 "points":0.0
 },
 {
@@ -54636,17 +54621,17 @@
 "points":0.0
 },
 {
-"id":4723086,
-"name":"Colston Loveland",
-"position":"TE",
-"pro_team":"CHI",
-"points":0.0
-},
-{
 "id":5083315,
 "name":"Kenyon Sadiq",
 "position":"TE",
 "pro_team":"NYJ",
+"points":0.0
+},
+{
+"id":4361411,
+"name":"Pat Freiermuth",
+"position":"TE",
+"pro_team":"PIT",
 "points":0.0
 },
 {
@@ -54657,10 +54642,10 @@
 "points":0.0
 },
 {
-"id":-16020,
-"name":"Jets D/ST",
+"id":-16007,
+"name":"Broncos D/ST",
 "position":"D/ST",
-"pro_team":"NYJ",
+"pro_team":"DEN",
 "points":0.0
 }
 ],
@@ -54679,10 +54664,10 @@
 {
 "slot":"QB",
 "player":{
-"id":4036378,
-"name":"Jordan Love",
+"id":3915511,
+"name":"Joe Burrow",
 "position":"QB",
-"pro_team":"GB",
+"pro_team":"CIN",
 "points":0.0
 }
 },
@@ -54719,10 +54704,10 @@
 {
 "slot":"WR",
 "player":{
-"id":4432620,
-"name":"Parker Washington",
+"id":4429205,
+"name":"Jordan Addison",
 "position":"WR",
-"pro_team":"JAX",
+"pro_team":"MIN",
 "points":0.0
 }
 },
@@ -54759,10 +54744,10 @@
 {
 "slot":"D/ST",
 "player":{
-"id":-16024,
-"name":"Chargers D/ST",
+"id":-16006,
+"name":"Cowboys D/ST",
 "position":"D/ST",
-"pro_team":"LAC",
+"pro_team":"DAL",
 "points":0.0
 }
 },
@@ -54779,10 +54764,10 @@
 ],
 "bench":[
 {
-"id":3915511,
-"name":"Joe Burrow",
+"id":4036378,
+"name":"Jordan Love",
 "position":"QB",
-"pro_team":"CIN",
+"pro_team":"GB",
 "points":0.0
 },
 {
@@ -54790,13 +54775,6 @@
 "name":"Justice Hill",
 "position":"RB",
 "pro_team":"BAL",
-"points":0.0
-},
-{
-"id":4241457,
-"name":"Najee Harris",
-"position":"RB",
-"pro_team":"NYG",
 "points":0.0
 },
 {
@@ -54814,10 +54792,10 @@
 "points":0.0
 },
 {
-"id":4429205,
-"name":"Jordan Addison",
+"id":4432620,
+"name":"Parker Washington",
 "position":"WR",
-"pro_team":"MIN",
+"pro_team":"JAX",
 "points":0.0
 },
 {
@@ -54825,6 +54803,13 @@
 "name":"Mack Hollins",
 "position":"WR",
 "pro_team":"NE",
+"points":0.0
+},
+{
+"id":-16024,
+"name":"Chargers D/ST",
+"position":"D/ST",
+"pro_team":"LAC",
 "points":0.0
 }
 ],
@@ -54907,7 +54892,7 @@
 "name":"Hunter Henry",
 "position":"TE",
 "pro_team":"NE",
-"points":0.0
+"points":10.6
 }
 },
 {
@@ -54923,10 +54908,10 @@
 {
 "slot":"D/ST",
 "player":{
-"id":-16030,
-"name":"Jaguars D/ST",
+"id":-16029,
+"name":"Panthers D/ST",
 "position":"D/ST",
-"pro_team":"JAX",
+"pro_team":"CAR",
 "points":0.0
 }
 },
@@ -54942,13 +54927,6 @@
 }
 ],
 "bench":[
-{
-"id":4040715,
-"name":"Jalen Hurts",
-"position":"QB",
-"pro_team":"PHI",
-"points":0.0
-},
 {
 "id":4035538,
 "name":"David Montgomery",
@@ -54971,10 +54949,10 @@
 "points":0.0
 },
 {
-"id":4722893,
-"name":"Jaleel McLaughlin",
+"id":4832955,
+"name":"Emmett Johnson",
 "position":"RB",
-"pro_team":"CLE",
+"pro_team":"KC",
 "points":0.0
 },
 {
@@ -54996,6 +54974,13 @@
 "name":"Darren Waller",
 "position":"TE",
 "pro_team":"CAR",
+"points":0.0
+},
+{
+"id":-16010,
+"name":"Titans D/ST",
+"position":"D/ST",
+"pro_team":"TEN",
 "points":0.0
 }
 ],
@@ -55024,16 +55009,6 @@
 {
 "slot":"RB",
 "player":{
-"id":4882093,
-"name":"Bhayshul Tuten",
-"position":"RB",
-"pro_team":"JAX",
-"points":0.0
-}
-},
-{
-"slot":"RB",
-"player":{
 "id":4241416,
 "name":"Chuba Hubbard",
 "position":"RB",
@@ -55042,12 +55017,22 @@
 }
 },
 {
+"slot":"RB",
+"player":{
+"id":4426386,
+"name":"Roschon Johnson",
+"position":"RB",
+"pro_team":"CHI",
+"points":1.3
+}
+},
+{
 "slot":"WR",
 "player":{
-"id":4612826,
-"name":"Ladd McConkey",
+"id":4362628,
+"name":"Ja'Marr Chase",
 "position":"WR",
-"pro_team":"LAC",
+"pro_team":"CIN",
 "points":0.0
 }
 },
@@ -55084,10 +55069,10 @@
 {
 "slot":"FLEX",
 "player":{
-"id":4429023,
-"name":"MarShawn Lloyd",
+"id":4241474,
+"name":"Brian Robinson Jr.",
 "position":"RB",
-"pro_team":"GB",
+"pro_team":"ATL",
 "points":0.0
 }
 },
@@ -55104,10 +55089,10 @@
 {
 "slot":"K",
 "player":{
-"id":4686361,
-"name":"Cam Little",
+"id":17372,
+"name":"Chris Boswell",
 "position":"K",
-"pro_team":"JAX",
+"pro_team":"PIT",
 "points":0.0
 }
 }
@@ -55121,38 +55106,17 @@
 "points":0.0
 },
 {
-"id":8439,
-"name":"Aaron Rodgers",
-"position":"QB",
-"pro_team":"PIT",
-"points":0.0
-},
-{
-"id":4241474,
-"name":"Brian Robinson Jr.",
+"id":4882093,
+"name":"Bhayshul Tuten",
 "position":"RB",
-"pro_team":"ATL",
+"pro_team":"JAX",
 "points":0.0
 },
 {
-"id":4429013,
-"name":"Tank Bigsby",
+"id":4429023,
+"name":"MarShawn Lloyd",
 "position":"RB",
-"pro_team":"PHI",
-"points":0.0
-},
-{
-"id":4426386,
-"name":"Roschon Johnson",
-"position":"RB",
-"pro_team":"CHI",
-"points":0.0
-},
-{
-"id":4362628,
-"name":"Ja'Marr Chase",
-"position":"WR",
-"pro_team":"CIN",
+"pro_team":"GB",
 "points":0.0
 },
 {
@@ -55163,14 +55127,43 @@
 "points":0.0
 },
 {
+"id":4612826,
+"name":"Ladd McConkey",
+"position":"WR",
+"pro_team":"LAC",
+"points":0.0
+},
+{
+"id":4241463,
+"name":"Jerry Jeudy",
+"position":"WR",
+"pro_team":"CLE",
+"points":0.0
+},
+{
+"id":3895856,
+"name":"Christian Kirk",
+"position":"WR",
+"pro_team":"SF",
+"points":0.0
+},
+{
+"id":3117256,
+"name":"Dalton Schultz",
+"position":"TE",
+"pro_team":"HOU",
+"points":0.0
+}
+],
+"ir":[
+{
 "id":4431492,
 "name":"Roman Wilson",
 "position":"WR",
 "pro_team":"PIT",
 "points":0.0
 }
-],
-"ir":[]
+]
 },
 "8":{
 "starters":[
@@ -55201,7 +55194,7 @@
 "name":"D'Andre Swift",
 "position":"RB",
 "pro_team":"CHI",
-"points":0.0
+"points":17.0
 }
 },
 {
@@ -55507,7 +55500,7 @@
 "name":"Caleb Williams",
 "position":"QB",
 "pro_team":"CHI",
-"points":0.0
+"points":22.12
 }
 },
 {
@@ -67623,10 +67616,10 @@
 {
 "slot":"QB",
 "player":{
-"id":3122840,
-"name":"Deshaun Watson",
+"id":8439,
+"name":"Aaron Rodgers",
 "position":"QB",
-"pro_team":"CLE",
+"pro_team":"PIT",
 "points":0.0
 }
 },
@@ -67647,7 +67640,7 @@
 "name":"D'Andre Swift",
 "position":"RB",
 "pro_team":"CHI",
-"points":0.0
+"points":17.0
 }
 },
 {
@@ -67693,11 +67686,11 @@
 {
 "slot":"FLEX",
 "player":{
-"id":4241985,
-"name":"J.K. Dobbins",
-"position":"RB",
-"pro_team":"DEN",
-"points":0.0
+"id":4047646,
+"name":"A.J. Brown",
+"position":"WR",
+"pro_team":"NE",
+"points":6.3
 }
 },
 {
@@ -67730,6 +67723,13 @@
 "points":0.0
 },
 {
+"id":4241985,
+"name":"J.K. Dobbins",
+"position":"RB",
+"pro_team":"DEN",
+"points":0.0
+},
+{
 "id":4426385,
 "name":"Zach Charbonnet",
 "position":"RB",
@@ -67751,18 +67751,11 @@
 "points":0.0
 },
 {
-"id":4047646,
-"name":"A.J. Brown",
-"position":"WR",
-"pro_team":"NE",
-"points":0.0
-},
-{
 "id":4431299,
 "name":"Rome Odunze",
 "position":"WR",
 "pro_team":"CHI",
-"points":0.0
+"points":8.9
 },
 {
 "id":4428718,
@@ -67814,10 +67807,10 @@
 {
 "slot":"RB",
 "player":{
-"id":4685382,
-"name":"Omarion Hampton",
+"id":4696044,
+"name":"Kaelon Black",
 "position":"RB",
-"pro_team":"LAC",
+"pro_team":"SF",
 "points":0.0
 }
 },
@@ -67874,10 +67867,10 @@
 {
 "slot":"D/ST",
 "player":{
-"id":-16017,
-"name":"Patriots D/ST",
+"id":-16029,
+"name":"Panthers D/ST",
 "position":"D/ST",
-"pro_team":"NE",
+"pro_team":"CAR",
 "points":0.0
 }
 },
@@ -67901,6 +67894,13 @@
 "points":0.0
 },
 {
+"id":4685382,
+"name":"Omarion Hampton",
+"position":"RB",
+"pro_team":"LAC",
+"points":0.0
+},
+{
 "id":4047365,
 "name":"Josh Jacobs",
 "position":"RB",
@@ -67912,13 +67912,6 @@
 "name":"Kyle Monangai",
 "position":"RB",
 "pro_team":"CHI",
-"points":0.0
-},
-{
-"id":4696044,
-"name":"Kaelon Black",
-"position":"RB",
-"pro_team":"SF",
 "points":0.0
 },
 {
@@ -68129,10 +68122,10 @@
 {
 "slot":"QB",
 "player":{
-"id":4431452,
-"name":"Drake Maye",
+"id":4361741,
+"name":"Brock Purdy",
 "position":"QB",
-"pro_team":"NE",
+"pro_team":"SF",
 "points":0.0
 }
 },
@@ -68143,7 +68136,7 @@
 "name":"Rhamondre Stevenson",
 "position":"RB",
 "pro_team":"NE",
-"points":0.0
+"points":20.0
 }
 },
 {
@@ -68219,21 +68212,21 @@
 {
 "slot":"K",
 "player":{
-"id":4259619,
-"name":"Blake Grupe",
+"id":4567104,
+"name":"Will Reichard",
 "position":"K",
-"pro_team":"LAR",
+"pro_team":"MIN",
 "points":0.0
 }
 }
 ],
 "bench":[
 {
-"id":4361741,
-"name":"Brock Purdy",
+"id":4431452,
+"name":"Drake Maye",
 "position":"QB",
-"pro_team":"SF",
-"points":0.0
+"pro_team":"NE",
+"points":27.44
 },
 {
 "id":3929630,
@@ -68300,30 +68293,30 @@
 {
 "slot":"QB",
 "player":{
-"id":4360310,
-"name":"Trevor Lawrence",
+"id":15864,
+"name":"Geno Smith",
 "position":"QB",
-"pro_team":"JAX",
+"pro_team":"NYJ",
 "points":0.0
 }
 },
 {
 "slot":"RB",
 "player":{
-"id":4379399,
-"name":"James Cook III",
+"id":4685702,
+"name":"Quinshon Judkins",
 "position":"RB",
-"pro_team":"BUF",
+"pro_team":"CLE",
 "points":0.0
 }
 },
 {
 "slot":"RB",
 "player":{
-"id":4360238,
-"name":"Dameon Pierce",
+"id":4429096,
+"name":"Blake Corum",
 "position":"RB",
-"pro_team":"PHI",
+"pro_team":"LAR",
 "points":0.0
 }
 },
@@ -68344,16 +68337,16 @@
 "name":"Luther Burden III",
 "position":"WR",
 "pro_team":"CHI",
-"points":0.0
+"points":21.7
 }
 },
 {
 "slot":"WR",
 "player":{
-"id":4432620,
-"name":"Parker Washington",
+"id":4723820,
+"name":"Omar Cooper Jr.",
 "position":"WR",
-"pro_team":"JAX",
+"pro_team":"NYJ",
 "points":0.0
 }
 },
@@ -68370,20 +68363,20 @@
 {
 "slot":"FLEX",
 "player":{
-"id":4429096,
-"name":"Blake Corum",
-"position":"RB",
-"pro_team":"LAR",
+"id":4361411,
+"name":"Pat Freiermuth",
+"position":"TE",
+"pro_team":"PIT",
 "points":0.0
 }
 },
 {
 "slot":"D/ST",
 "player":{
-"id":-16030,
-"name":"Jaguars D/ST",
+"id":-16020,
+"name":"Jets D/ST",
 "position":"D/ST",
-"pro_team":"JAX",
+"pro_team":"NYJ",
 "points":0.0
 }
 },
@@ -68400,10 +68393,17 @@
 ],
 "bench":[
 {
-"id":4685702,
-"name":"Quinshon Judkins",
+"id":4360310,
+"name":"Trevor Lawrence",
+"position":"QB",
+"pro_team":"JAX",
+"points":0.0
+},
+{
+"id":4379399,
+"name":"James Cook III",
 "position":"RB",
-"pro_team":"CLE",
+"pro_team":"BUF",
 "points":0.0
 },
 {
@@ -68428,10 +68428,17 @@
 "points":0.0
 },
 {
-"id":4722893,
-"name":"Jaleel McLaughlin",
+"id":4360238,
+"name":"Dameon Pierce",
 "position":"RB",
-"pro_team":"CLE",
+"pro_team":"PHI",
+"points":0.0
+},
+{
+"id":4432620,
+"name":"Parker Washington",
+"position":"WR",
+"pro_team":"JAX",
 "points":0.0
 },
 {
@@ -68439,20 +68446,6 @@
 "name":"Ladd McConkey",
 "position":"WR",
 "pro_team":"LAC",
-"points":0.0
-},
-{
-"id":4597500,
-"name":"Adonai Mitchell",
-"position":"WR",
-"pro_team":"NYJ",
-"points":0.0
-},
-{
-"id":4361411,
-"name":"Pat Freiermuth",
-"position":"TE",
-"pro_team":"PIT",
 "points":0.0
 }
 ],
@@ -68481,20 +68474,20 @@
 {
 "slot":"RB",
 "player":{
-"id":4361579,
-"name":"Javonte Williams",
+"id":4429795,
+"name":"Jahmyr Gibbs",
 "position":"RB",
-"pro_team":"DAL",
+"pro_team":"DET",
 "points":0.0
 }
 },
 {
 "slot":"RB",
 "player":{
-"id":4241457,
-"name":"Najee Harris",
+"id":4361579,
+"name":"Javonte Williams",
 "position":"RB",
-"pro_team":"NYG",
+"pro_team":"DAL",
 "points":0.0
 }
 },
@@ -68511,20 +68504,20 @@
 {
 "slot":"WR",
 "player":{
-"id":16800,
-"name":"Davante Adams",
+"id":4047650,
+"name":"DK Metcalf",
 "position":"WR",
-"pro_team":"LAR",
+"pro_team":"PIT",
 "points":0.0
 }
 },
 {
 "slot":"WR",
 "player":{
-"id":4047650,
-"name":"DK Metcalf",
+"id":4429205,
+"name":"Jordan Addison",
 "position":"WR",
-"pro_team":"PIT",
+"pro_team":"MIN",
 "points":0.0
 }
 },
@@ -68571,13 +68564,6 @@
 ],
 "bench":[
 {
-"id":4040715,
-"name":"Jalen Hurts",
-"position":"QB",
-"pro_team":"PHI",
-"points":0.0
-},
-{
 "id":3046779,
 "name":"Jared Goff",
 "position":"QB",
@@ -68585,18 +68571,18 @@
 "points":0.0
 },
 {
-"id":4429795,
-"name":"Jahmyr Gibbs",
-"position":"RB",
-"pro_team":"DET",
+"id":4685201,
+"name":"Tanner McKee",
+"position":"QB",
+"pro_team":"PHI",
 "points":0.0
 },
 {
-"id":4429205,
-"name":"Jordan Addison",
-"position":"WR",
-"pro_team":"MIN",
-"points":0.0
+"id":4426386,
+"name":"Roschon Johnson",
+"position":"RB",
+"pro_team":"CHI",
+"points":1.3
 },
 {
 "id":4032473,
@@ -68620,6 +68606,13 @@
 "points":0.0
 },
 {
+"id":4586312,
+"name":"Jaylin Noel",
+"position":"WR",
+"pro_team":"HOU",
+"points":0.0
+},
+{
 "id":4430539,
 "name":"Brenton Strange",
 "position":"TE",
@@ -68627,7 +68620,15 @@
 "points":0.0
 }
 ],
-"ir":[]
+"ir":[
+{
+"id":16800,
+"name":"Davante Adams",
+"position":"WR",
+"pro_team":"LAR",
+"points":0.0
+}
+]
 },
 "4":{
 "starters":[
@@ -68644,10 +68645,10 @@
 {
 "slot":"RB",
 "player":{
-"id":4429023,
-"name":"MarShawn Lloyd",
+"id":4362238,
+"name":"Chase Brown",
 "position":"RB",
-"pro_team":"GB",
+"pro_team":"CIN",
 "points":0.0
 }
 },
@@ -68664,31 +68665,31 @@
 {
 "slot":"WR",
 "player":{
-"id":3121422,
-"name":"Terry McLaurin",
-"position":"WR",
-"pro_team":"WSH",
-"points":0.0
-}
-},
-{
-"slot":"WR",
-"player":{
-"id":3916433,
-"name":"Jakobi Meyers",
-"position":"WR",
-"pro_team":"JAX",
-"points":0.0
-}
-},
-{
-"slot":"WR",
-"player":{
 "id":2973405,
 "name":"Kalif Raymond",
 "position":"WR",
 "pro_team":"CHI",
 "points":0.0
+}
+},
+{
+"slot":"WR",
+"player":{
+"id":4569603,
+"name":"Malik Washington",
+"position":"WR",
+"pro_team":"MIA",
+"points":0.0
+}
+},
+{
+"slot":"WR",
+"player":{
+"id":4427095,
+"name":"DeMario Douglas",
+"position":"WR",
+"pro_team":"NE",
+"points":3.8
 }
 },
 {
@@ -68698,26 +68699,26 @@
 "name":"Colston Loveland",
 "position":"TE",
 "pro_team":"CHI",
-"points":0.0
+"points":16.4
 }
 },
 {
 "slot":"FLEX",
 "player":{
-"id":2976212,
-"name":"Stefon Diggs",
+"id":4262921,
+"name":"Justin Jefferson",
 "position":"WR",
-"pro_team":"WSH",
+"pro_team":"MIN",
 "points":0.0
 }
 },
 {
 "slot":"D/ST",
 "player":{
-"id":-16019,
-"name":"Giants D/ST",
+"id":-16005,
+"name":"Browns D/ST",
 "position":"D/ST",
-"pro_team":"NYG",
+"pro_team":"CLE",
 "points":0.0
 }
 },
@@ -68728,7 +68729,7 @@
 "name":"Cairo Santos",
 "position":"K",
 "pro_team":"CHI",
-"points":0.0
+"points":14.0
 }
 }
 ],
@@ -68741,10 +68742,10 @@
 "points":0.0
 },
 {
-"id":4362238,
-"name":"Chase Brown",
+"id":4429023,
+"name":"MarShawn Lloyd",
 "position":"RB",
-"pro_team":"CIN",
+"pro_team":"GB",
 "points":0.0
 },
 {
@@ -68755,10 +68756,10 @@
 "points":0.0
 },
 {
-"id":4262921,
-"name":"Justin Jefferson",
+"id":3121422,
+"name":"Terry McLaurin",
 "position":"WR",
-"pro_team":"MIN",
+"pro_team":"WSH",
 "points":0.0
 },
 {
@@ -68769,10 +68770,17 @@
 "points":0.0
 },
 {
-"id":4569603,
-"name":"Malik Washington",
+"id":3916433,
+"name":"Jakobi Meyers",
 "position":"WR",
-"pro_team":"MIA",
+"pro_team":"JAX",
+"points":0.0
+},
+{
+"id":2976212,
+"name":"Stefon Diggs",
+"position":"WR",
+"pro_team":"WSH",
 "points":0.0
 },
 {
@@ -68780,13 +68788,6 @@
 "name":"T.J. Hockenson",
 "position":"TE",
 "pro_team":"MIN",
-"points":0.0
-},
-{
-"id":-16005,
-"name":"Browns D/ST",
-"position":"D/ST",
-"pro_team":"CLE",
 "points":0.0
 }
 ],
@@ -68805,10 +68806,10 @@
 {
 "slot":"QB",
 "player":{
-"id":4431611,
-"name":"Caleb Williams",
+"id":4685720,
+"name":"Bryce Young",
 "position":"QB",
-"pro_team":"CHI",
+"pro_team":"CAR",
 "points":0.0
 }
 },
@@ -68885,10 +68886,10 @@
 {
 "slot":"D/ST",
 "player":{
-"id":-16011,
-"name":"Colts D/ST",
+"id":-16010,
+"name":"Titans D/ST",
 "position":"D/ST",
-"pro_team":"IND",
+"pro_team":"TEN",
 "points":0.0
 }
 },
@@ -68905,11 +68906,11 @@
 ],
 "bench":[
 {
-"id":4685720,
-"name":"Bryce Young",
+"id":4431611,
+"name":"Caleb Williams",
 "position":"QB",
-"pro_team":"CAR",
-"points":0.0
+"pro_team":"CHI",
+"points":22.12
 },
 {
 "id":2578570,
@@ -69129,7 +69130,7 @@
 "name":"Hunter Henry",
 "position":"TE",
 "pro_team":"NE",
-"points":0.0
+"points":10.6
 }
 ],
 "ir":[]
@@ -69139,20 +69140,20 @@
 {
 "slot":"QB",
 "player":{
-"id":2577417,
-"name":"Dak Prescott",
+"id":3917315,
+"name":"Kyler Murray",
 "position":"QB",
-"pro_team":"DAL",
+"pro_team":"MIN",
 "points":0.0
 }
 },
 {
 "slot":"RB",
 "player":{
-"id":4432710,
-"name":"TreVeyon Henderson",
+"id":4427366,
+"name":"Breece Hall",
 "position":"RB",
-"pro_team":"NE",
+"pro_team":"NYJ",
 "points":0.0
 }
 },
@@ -69209,10 +69210,10 @@
 {
 "slot":"FLEX",
 "player":{
-"id":4569587,
-"name":"Wan'Dale Robinson",
-"position":"WR",
-"pro_team":"TEN",
+"id":4431459,
+"name":"Tyler Warren",
+"position":"TE",
+"pro_team":"IND",
 "points":0.0
 }
 },
@@ -69239,24 +69240,31 @@
 ],
 "bench":[
 {
-"id":3917315,
-"name":"Kyler Murray",
+"id":2577417,
+"name":"Dak Prescott",
 "position":"QB",
-"pro_team":"MIN",
+"pro_team":"DAL",
 "points":0.0
 },
 {
-"id":4427366,
-"name":"Breece Hall",
+"id":4432710,
+"name":"TreVeyon Henderson",
 "position":"RB",
-"pro_team":"NYJ",
-"points":0.0
+"pro_team":"NE",
+"points":3.3
 },
 {
 "id":4249836,
 "name":"Pierre Strong Jr.",
 "position":"RB",
 "pro_team":"GB",
+"points":0.0
+},
+{
+"id":4569587,
+"name":"Wan'Dale Robinson",
+"position":"WR",
+"pro_team":"TEN",
 "points":0.0
 },
 {
@@ -69278,13 +69286,6 @@
 "name":"Darius Cooper",
 "position":"WR",
 "pro_team":"PHI",
-"points":0.0
-},
-{
-"id":4431459,
-"name":"Tyler Warren",
-"position":"TE",
-"pro_team":"IND",
 "points":0.0
 },
 {
@@ -69310,10 +69311,10 @@
 {
 "slot":"QB",
 "player":{
-"id":3918298,
-"name":"Josh Allen",
+"id":3912547,
+"name":"Sam Darnold",
 "position":"QB",
-"pro_team":"BUF",
+"pro_team":"SEA",
 "points":0.0
 }
 },
@@ -69390,10 +69391,10 @@
 {
 "slot":"D/ST",
 "player":{
-"id":-16026,
-"name":"Seahawks D/ST",
+"id":-16033,
+"name":"Ravens D/ST",
 "position":"D/ST",
-"pro_team":"SEA",
+"pro_team":"BAL",
 "points":0.0
 }
 },
@@ -69410,10 +69411,10 @@
 ],
 "bench":[
 {
-"id":3912547,
-"name":"Sam Darnold",
+"id":3918298,
+"name":"Josh Allen",
 "position":"QB",
-"pro_team":"SEA",
+"pro_team":"BUF",
 "points":0.0
 },
 {
@@ -69445,10 +69446,10 @@
 "points":0.0
 },
 {
-"id":-16033,
-"name":"Ravens D/ST",
+"id":-16026,
+"name":"Seahawks D/ST",
 "position":"D/ST",
-"pro_team":"BAL",
+"pro_team":"SEA",
 "points":0.0
 }
 ],
@@ -81604,7 +81605,7 @@
 "name":"Rome Odunze",
 "position":"WR",
 "pro_team":"CHI",
-"points":0.0
+"points":8.9
 }
 },
 {
@@ -81620,10 +81621,10 @@
 {
 "slot":"WR",
 "player":{
-"id":4569603,
-"name":"Malik Washington",
+"id":4683062,
+"name":"Xavier Worthy",
 "position":"WR",
-"pro_team":"MIA",
+"pro_team":"KC",
 "points":0.0
 }
 },
@@ -81640,10 +81641,10 @@
 {
 "slot":"FLEX",
 "player":{
-"id":4683062,
-"name":"Xavier Worthy",
-"position":"WR",
-"pro_team":"KC",
+"id":4427366,
+"name":"Breece Hall",
+"position":"RB",
+"pro_team":"NYJ",
 "points":0.0
 }
 },
@@ -81670,13 +81671,6 @@
 ],
 "bench":[
 {
-"id":4426338,
-"name":"Bo Nix",
-"position":"QB",
-"pro_team":"DEN",
-"points":0.0
-},
-{
 "id":14880,
 "name":"Kirk Cousins",
 "position":"QB",
@@ -81684,17 +81678,10 @@
 "points":0.0
 },
 {
-"id":16800,
-"name":"Davante Adams",
-"position":"WR",
-"pro_team":"LAR",
-"points":0.0
-},
-{
-"id":4432773,
-"name":"Brian Thomas Jr.",
-"position":"WR",
-"pro_team":"JAX",
+"id":4360516,
+"name":"Tyrone Tracy Jr.",
+"position":"RB",
+"pro_team":"NYG",
 "points":0.0
 },
 {
@@ -81705,6 +81692,13 @@
 "points":0.0
 },
 {
+"id":4569603,
+"name":"Malik Washington",
+"position":"WR",
+"pro_team":"MIA",
+"points":0.0
+},
+{
 "id":4373678,
 "name":"Khalil Shakir",
 "position":"WR",
@@ -81712,11 +81706,18 @@
 "points":0.0
 },
 {
+"id":4723820,
+"name":"Omar Cooper Jr.",
+"position":"WR",
+"pro_team":"NYJ",
+"points":0.0
+},
+{
 "id":3046439,
 "name":"Hunter Henry",
 "position":"TE",
 "pro_team":"NE",
-"points":0.0
+"points":10.6
 },
 {
 "id":-16021,
@@ -81728,10 +81729,10 @@
 ],
 "ir":[
 {
-"id":4427366,
-"name":"Breece Hall",
-"position":"RB",
-"pro_team":"NYJ",
+"id":16800,
+"name":"Davante Adams",
+"position":"WR",
+"pro_team":"LAR",
 "points":0.0
 }
 ]
@@ -81745,7 +81746,7 @@
 "name":"Drake Maye",
 "position":"QB",
 "pro_team":"NE",
-"points":0.0
+"points":27.44
 }
 },
 {
@@ -81914,20 +81915,20 @@
 {
 "slot":"RB",
 "player":{
-"id":4567048,
-"name":"Kenneth Walker III",
+"id":4429795,
+"name":"Jahmyr Gibbs",
 "position":"RB",
-"pro_team":"KC",
+"pro_team":"DET",
 "points":0.0
 }
 },
 {
 "slot":"RB",
 "player":{
-"id":4259545,
-"name":"D'Andre Swift",
+"id":4567048,
+"name":"Kenneth Walker III",
 "position":"RB",
-"pro_team":"CHI",
+"pro_team":"KC",
 "points":0.0
 }
 },
@@ -81944,20 +81945,20 @@
 {
 "slot":"WR",
 "player":{
-"id":4248528,
-"name":"Christian Watson",
+"id":4426388,
+"name":"Jameson Williams",
 "position":"WR",
-"pro_team":"GB",
+"pro_team":"DET",
 "points":0.0
 }
 },
 {
 "slot":"WR",
 "player":{
-"id":3128429,
-"name":"Courtland Sutton",
+"id":4248528,
+"name":"Christian Watson",
 "position":"WR",
-"pro_team":"DEN",
+"pro_team":"GB",
 "points":0.0
 }
 },
@@ -81974,11 +81975,11 @@
 {
 "slot":"FLEX",
 "player":{
-"id":4430539,
-"name":"Brenton Strange",
-"position":"TE",
-"pro_team":"JAX",
-"points":0.0
+"id":4259545,
+"name":"D'Andre Swift",
+"position":"RB",
+"pro_team":"CHI",
+"points":17.0
 }
 },
 {
@@ -82004,10 +82005,10 @@
 ],
 "bench":[
 {
-"id":4429795,
-"name":"Jahmyr Gibbs",
-"position":"RB",
-"pro_team":"DET",
+"id":8439,
+"name":"Aaron Rodgers",
+"position":"QB",
+"pro_team":"PIT",
 "points":0.0
 },
 {
@@ -82025,10 +82026,10 @@
 "points":0.0
 },
 {
-"id":4426388,
-"name":"Jameson Williams",
+"id":3128429,
+"name":"Courtland Sutton",
 "position":"WR",
-"pro_team":"DET",
+"pro_team":"DEN",
 "points":0.0
 },
 {
@@ -82036,13 +82037,6 @@
 "name":"Quentin Johnston",
 "position":"WR",
 "pro_team":"LAC",
-"points":0.0
-},
-{
-"id":4362249,
-"name":"Jayden Reed",
-"position":"WR",
-"pro_team":"GB",
 "points":0.0
 },
 {
@@ -82057,6 +82051,13 @@
 "name":"Jaylin Noel",
 "position":"WR",
 "pro_team":"HOU",
+"points":0.0
+},
+{
+"id":4430539,
+"name":"Brenton Strange",
+"position":"TE",
+"pro_team":"JAX",
 "points":0.0
 }
 ],
@@ -82300,30 +82301,30 @@
 {
 "slot":"FLEX",
 "player":{
-"id":4685382,
-"name":"Omarion Hampton",
-"position":"RB",
-"pro_team":"LAC",
-"points":0.0
+"id":4427095,
+"name":"DeMario Douglas",
+"position":"WR",
+"pro_team":"NE",
+"points":3.8
 }
 },
 {
 "slot":"D/ST",
 "player":{
-"id":-16017,
-"name":"Patriots D/ST",
+"id":-16016,
+"name":"Vikings D/ST",
 "position":"D/ST",
-"pro_team":"NE",
+"pro_team":"MIN",
 "points":0.0
 }
 },
 {
 "slot":"K",
 "player":{
-"id":4034949,
-"name":"Eddy Pineiro",
+"id":4567104,
+"name":"Will Reichard",
 "position":"K",
-"pro_team":"SF",
+"pro_team":"MIN",
 "points":0.0
 }
 }
@@ -82337,10 +82338,24 @@
 "points":0.0
 },
 {
+"id":4433970,
+"name":"J.J. McCarthy",
+"position":"QB",
+"pro_team":"NYG",
+"points":0.0
+},
+{
 "id":4432710,
 "name":"TreVeyon Henderson",
 "position":"RB",
 "pro_team":"NE",
+"points":3.3
+},
+{
+"id":4685382,
+"name":"Omarion Hampton",
+"position":"RB",
+"pro_team":"LAC",
 "points":0.0
 },
 {
@@ -82348,13 +82363,6 @@
 "name":"Kyle Monangai",
 "position":"RB",
 "pro_team":"CHI",
-"points":0.0
-},
-{
-"id":4870795,
-"name":"Makai Lemon",
-"position":"WR",
-"pro_team":"PHI",
 "points":0.0
 },
 {
@@ -82372,17 +82380,10 @@
 "points":0.0
 },
 {
-"id":4567104,
-"name":"Will Reichard",
+"id":4034949,
+"name":"Eddy Pineiro",
 "position":"K",
-"pro_team":"MIN",
-"points":0.0
-},
-{
-"id":-16016,
-"name":"Vikings D/ST",
-"position":"D/ST",
-"pro_team":"MIN",
+"pro_team":"SF",
 "points":0.0
 }
 ],
@@ -82405,7 +82406,7 @@
 "name":"Caleb Williams",
 "position":"QB",
 "pro_team":"CHI",
-"points":0.0
+"points":22.12
 }
 },
 {
@@ -82465,7 +82466,7 @@
 "name":"Colston Loveland",
 "position":"TE",
 "pro_team":"CHI",
-"points":0.0
+"points":16.4
 }
 },
 {
@@ -82481,11 +82482,11 @@
 {
 "slot":"D/ST",
 "player":{
-"id":-16014,
-"name":"Rams D/ST",
+"id":-16003,
+"name":"Bears D/ST",
 "position":"D/ST",
-"pro_team":"LAR",
-"points":0.0
+"pro_team":"CHI",
+"points":3.0
 }
 },
 {
@@ -82501,18 +82502,18 @@
 ],
 "bench":[
 {
-"id":3912547,
-"name":"Sam Darnold",
-"position":"QB",
-"pro_team":"SEA",
-"points":0.0
-},
-{
 "id":3052587,
 "name":"Baker Mayfield",
 "position":"QB",
 "pro_team":"TB",
 "points":0.0
+},
+{
+"id":4426386,
+"name":"Roschon Johnson",
+"position":"RB",
+"pro_team":"CHI",
+"points":1.3
 },
 {
 "id":3916148,
@@ -82529,17 +82530,10 @@
 "points":0.0
 },
 {
-"id":4682745,
-"name":"Jaylen Wright",
+"id":4686468,
+"name":"Seth McGowan",
 "position":"RB",
-"pro_team":"MIA",
-"points":0.0
-},
-{
-"id":4426386,
-"name":"Roschon Johnson",
-"position":"RB",
-"pro_team":"CHI",
+"pro_team":"IND",
 "points":0.0
 },
 {
@@ -82554,6 +82548,13 @@
 "name":"Malachi Fields",
 "position":"WR",
 "pro_team":"NYG",
+"points":0.0
+},
+{
+"id":-16014,
+"name":"Rams D/ST",
+"position":"D/ST",
+"pro_team":"LAR",
 "points":0.0
 }
 ],
@@ -82612,21 +82613,21 @@
 {
 "slot":"WR",
 "player":{
-"id":4428331,
-"name":"Rashee Rice",
+"id":4360939,
+"name":"Rashod Bateman",
 "position":"WR",
-"pro_team":"KC",
+"pro_team":"BAL",
 "points":0.0
 }
 },
 {
 "slot":"WR",
 "player":{
-"id":3121422,
-"name":"Terry McLaurin",
+"id":4695193,
+"name":"Efton Chism III",
 "position":"WR",
-"pro_team":"WSH",
-"points":0.0
+"pro_team":"NE",
+"points":2.1
 }
 },
 {
@@ -82679,6 +82680,20 @@
 "points":0.0
 },
 {
+"id":4428331,
+"name":"Rashee Rice",
+"position":"WR",
+"pro_team":"KC",
+"points":0.0
+},
+{
+"id":3121422,
+"name":"Terry McLaurin",
+"position":"WR",
+"pro_team":"WSH",
+"points":0.0
+},
+{
 "id":4361432,
 "name":"Romeo Doubs",
 "position":"WR",
@@ -82686,24 +82701,10 @@
 "points":0.0
 },
 {
-"id":4360939,
-"name":"Rashod Bateman",
-"position":"WR",
-"pro_team":"BAL",
-"points":0.0
-},
-{
 "id":5081432,
 "name":"Antonio Williams",
 "position":"WR",
 "pro_team":"WSH",
-"points":0.0
-},
-{
-"id":4384852,
-"name":"Dohnte Meyers",
-"position":"WR",
-"pro_team":"CIN",
 "points":0.0
 },
 {
@@ -82749,7 +82750,7 @@
 "name":"Rhamondre Stevenson",
 "position":"RB",
 "pro_team":"NE",
-"points":0.0
+"points":20.0
 }
 },
 {
@@ -82769,7 +82770,7 @@
 "name":"A.J. Brown",
 "position":"WR",
 "pro_team":"NE",
-"points":0.0
+"points":6.3
 }
 },
 {
@@ -82779,7 +82780,7 @@
 "name":"Luther Burden III",
 "position":"WR",
 "pro_team":"CHI",
-"points":0.0
+"points":21.7
 }
 },
 {
@@ -82829,7 +82830,7 @@
 "name":"Cairo Santos",
 "position":"K",
 "pro_team":"CHI",
-"points":0.0
+"points":14.0
 }
 }
 ],
@@ -82918,10 +82919,10 @@
 {
 "slot":"RB",
 "player":{
-"id":4429023,
-"name":"MarShawn Lloyd",
+"id":4685247,
+"name":"Braelon Allen",
 "position":"RB",
-"pro_team":"GB",
+"pro_team":"NYJ",
 "points":0.0
 }
 },
@@ -82948,10 +82949,10 @@
 {
 "slot":"WR",
 "player":{
-"id":4432620,
-"name":"Parker Washington",
+"id":4428718,
+"name":"Tre Tucker",
 "position":"WR",
-"pro_team":"JAX",
+"pro_team":"LV",
 "points":0.0
 }
 },
@@ -82968,10 +82969,10 @@
 {
 "slot":"FLEX",
 "player":{
-"id":4685247,
-"name":"Braelon Allen",
-"position":"RB",
-"pro_team":"NYJ",
+"id":4429086,
+"name":"Michael Mayer",
+"position":"TE",
+"pro_team":"LV",
 "points":0.0
 }
 },
@@ -83012,10 +83013,10 @@
 "points":0.0
 },
 {
-"id":4702555,
-"name":"Jonah Coleman",
+"id":4429023,
+"name":"MarShawn Lloyd",
 "position":"RB",
-"pro_team":"DEN",
+"pro_team":"GB",
 "points":0.0
 },
 {
@@ -83033,17 +83034,17 @@
 "points":0.0
 },
 {
+"id":4432620,
+"name":"Parker Washington",
+"position":"WR",
+"pro_team":"JAX",
+"points":0.0
+},
+{
 "id":4360078,
 "name":"Alec Pierce",
 "position":"WR",
 "pro_team":"IND",
-"points":0.0
-},
-{
-"id":4428718,
-"name":"Tre Tucker",
-"position":"WR",
-"pro_team":"LV",
 "points":0.0
 },
 {
@@ -83056,10 +83057,10 @@
 ],
 "ir":[
 {
-"id":5081397,
-"name":"Dylan Sampson",
+"id":4702555,
+"name":"Jonah Coleman",
 "position":"RB",
-"pro_team":"CLE",
+"pro_team":"DEN",
 "points":0.0
 }
 ]
@@ -83272,40 +83273,40 @@
 {
 "slot":"WR",
 "player":{
-"id":3915416,
-"name":"DJ Moore",
+"id":4597500,
+"name":"Adonai Mitchell",
 "position":"WR",
-"pro_team":"BUF",
+"pro_team":"NYJ",
 "points":0.0
 }
 },
 {
 "slot":"WR",
 "player":{
-"id":2976212,
-"name":"Stefon Diggs",
+"id":3045523,
+"name":"Kendrick Bourne",
 "position":"WR",
-"pro_team":"WSH",
+"pro_team":"ARI",
 "points":0.0
 }
 },
 {
 "slot":"TE",
 "player":{
-"id":3116365,
-"name":"Mark Andrews",
+"id":4430027,
+"name":"Sam LaPorta",
 "position":"TE",
-"pro_team":"BAL",
+"pro_team":"DET",
 "points":0.0
 }
 },
 {
 "slot":"FLEX",
 "player":{
-"id":4360238,
-"name":"Dameon Pierce",
+"id":4711533,
+"name":"Ollie Gordon II",
 "position":"RB",
-"pro_team":"PHI",
+"pro_team":"MIA",
 "points":0.0
 }
 },
@@ -83322,10 +83323,10 @@
 {
 "slot":"K",
 "player":{
-"id":3917232,
-"name":"Tyler Bass",
+"id":4568263,
+"name":"Ryan Fitzgerald",
 "position":"K",
-"pro_team":"BUF",
+"pro_team":"CAR",
 "points":0.0
 }
 }
@@ -83346,13 +83347,6 @@
 "points":0.0
 },
 {
-"id":4711533,
-"name":"Ollie Gordon II",
-"position":"RB",
-"pro_team":"MIA",
-"points":0.0
-},
-{
 "id":4430968,
 "name":"Kimani Vidal",
 "position":"RB",
@@ -83360,10 +83354,24 @@
 "points":0.0
 },
 {
-"id":4597500,
-"name":"Adonai Mitchell",
+"id":4360238,
+"name":"Dameon Pierce",
+"position":"RB",
+"pro_team":"PHI",
+"points":0.0
+},
+{
+"id":3915416,
+"name":"DJ Moore",
 "position":"WR",
-"pro_team":"NYJ",
+"pro_team":"BUF",
+"points":0.0
+},
+{
+"id":2976212,
+"name":"Stefon Diggs",
+"position":"WR",
+"pro_team":"WSH",
 "points":0.0
 },
 {
@@ -83374,17 +83382,10 @@
 "points":0.0
 },
 {
-"id":3045523,
-"name":"Kendrick Bourne",
-"position":"WR",
-"pro_team":"ARI",
-"points":0.0
-},
-{
-"id":4430027,
-"name":"Sam LaPorta",
+"id":3116365,
+"name":"Mark Andrews",
 "position":"TE",
-"pro_team":"DET",
+"pro_team":"BAL",
 "points":0.0
 }
 ],
@@ -83403,20 +83404,10 @@
 {
 "slot":"QB",
 "player":{
-"id":3918298,
-"name":"Josh Allen",
+"id":3917792,
+"name":"Daniel Jones",
 "position":"QB",
-"pro_team":"BUF",
-"points":0.0
-}
-},
-{
-"slot":"RB",
-"player":{
-"id":4379399,
-"name":"James Cook III",
-"position":"RB",
-"pro_team":"BUF",
+"pro_team":"IND",
 "points":0.0
 }
 },
@@ -83427,6 +83418,16 @@
 "name":"Javonte Williams",
 "position":"RB",
 "pro_team":"DAL",
+"points":0.0
+}
+},
+{
+"slot":"RB",
+"player":{
+"id":4241416,
+"name":"Chuba Hubbard",
+"position":"RB",
+"pro_team":"CAR",
 "points":0.0
 }
 },
@@ -83463,20 +83464,20 @@
 {
 "slot":"TE",
 "player":{
-"id":4431459,
-"name":"Tyler Warren",
+"id":4361050,
+"name":"Isaiah Likely",
 "position":"TE",
-"pro_team":"IND",
+"pro_team":"NYG",
 "points":0.0
 }
 },
 {
 "slot":"FLEX",
 "player":{
-"id":4241416,
-"name":"Chuba Hubbard",
+"id":4568490,
+"name":"RJ Harvey",
 "position":"RB",
-"pro_team":"CAR",
+"pro_team":"DEN",
 "points":0.0
 }
 },
@@ -83493,15 +83494,22 @@
 {
 "slot":"K",
 "player":{
-"id":4697745,
-"name":"Tyler Loop",
+"id":17372,
+"name":"Chris Boswell",
 "position":"K",
-"pro_team":"BAL",
+"pro_team":"PIT",
 "points":0.0
 }
 }
 ],
 "bench":[
+{
+"id":3918298,
+"name":"Josh Allen",
+"position":"QB",
+"pro_team":"BUF",
+"points":0.0
+},
 {
 "id":4038941,
 "name":"Justin Herbert",
@@ -83510,17 +83518,10 @@
 "points":0.0
 },
 {
-"id":3917792,
-"name":"Daniel Jones",
-"position":"QB",
-"pro_team":"IND",
-"points":0.0
-},
-{
-"id":4568490,
-"name":"RJ Harvey",
+"id":4379399,
+"name":"James Cook III",
 "position":"RB",
-"pro_team":"DEN",
+"pro_team":"BUF",
 "points":0.0
 },
 {
@@ -83538,17 +83539,17 @@
 "points":0.0
 },
 {
-"id":4361050,
-"name":"Isaiah Likely",
+"id":4431459,
+"name":"Tyler Warren",
 "position":"TE",
-"pro_team":"NYG",
+"pro_team":"IND",
 "points":0.0
 },
 {
-"id":17372,
-"name":"Chris Boswell",
+"id":4697745,
+"name":"Tyler Loop",
 "position":"K",
-"pro_team":"PIT",
+"pro_team":"BAL",
 "points":0.0
 },
 {
@@ -95485,20 +95486,20 @@
 {
 "slot":"RB",
 "player":{
-"id":4569987,
-"name":"Jaylen Warren",
+"id":4429795,
+"name":"Jahmyr Gibbs",
 "position":"RB",
-"pro_team":"PIT",
+"pro_team":"DET",
 "points":0.0
 }
 },
 {
 "slot":"RB",
 "player":{
-"id":4429023,
-"name":"MarShawn Lloyd",
+"id":4569987,
+"name":"Jaylen Warren",
 "position":"RB",
-"pro_team":"GB",
+"pro_team":"PIT",
 "points":0.0
 }
 },
@@ -95589,13 +95590,6 @@
 "points":0.0
 },
 {
-"id":4429795,
-"name":"Jahmyr Gibbs",
-"position":"RB",
-"pro_team":"DET",
-"points":0.0
-},
-{
 "id":4360569,
 "name":"Jordan Mason",
 "position":"RB",
@@ -95607,6 +95601,13 @@
 "name":"Alvin Kamara",
 "position":"RB",
 "pro_team":"NO",
+"points":0.0
+},
+{
+"id":4429023,
+"name":"MarShawn Lloyd",
+"position":"RB",
+"pro_team":"GB",
 "points":0.0
 },
 {
@@ -95637,7 +95638,7 @@
 "name":"A.J. Brown",
 "position":"WR",
 "pro_team":"NE",
-"points":0.0
+"points":6.3
 }
 ]
 },
@@ -95669,7 +95670,7 @@
 "id":4241457,
 "name":"Najee Harris",
 "position":"RB",
-"pro_team":"NYG",
+"pro_team":"FA",
 "points":0.0
 }
 },
@@ -95903,7 +95904,7 @@
 "name":"Cairo Santos",
 "position":"K",
 "pro_team":"CHI",
-"points":0.0
+"points":14.0
 }
 }
 ],
@@ -95976,7 +95977,7 @@
 "name":"Drake Maye",
 "position":"QB",
 "pro_team":"NE",
-"points":0.0
+"points":27.44
 }
 },
 {
@@ -96012,50 +96013,50 @@
 {
 "slot":"WR",
 "player":{
-"id":4432620,
-"name":"Parker Washington",
+"id":3116165,
+"name":"Chris Godwin Jr.",
 "position":"WR",
-"pro_team":"JAX",
+"pro_team":"TB",
 "points":0.0
 }
 },
 {
 "slot":"WR",
 "player":{
-"id":4635008,
-"name":"Keon Coleman",
+"id":5083754,
+"name":"Ryan Flournoy",
 "position":"WR",
-"pro_team":"BUF",
+"pro_team":"DAL",
 "points":0.0
 }
 },
 {
 "slot":"TE",
 "player":{
-"id":5083076,
-"name":"Harold Fannin Jr.",
+"id":3046439,
+"name":"Hunter Henry",
 "position":"TE",
-"pro_team":"CLE",
-"points":0.0
+"pro_team":"NE",
+"points":10.6
 }
 },
 {
 "slot":"FLEX",
 "player":{
-"id":4887558,
-"name":"Emanuel Wilson",
+"id":4429059,
+"name":"Woody Marks",
 "position":"RB",
-"pro_team":"SEA",
+"pro_team":"HOU",
 "points":0.0
 }
 },
 {
 "slot":"D/ST",
 "player":{
-"id":-16030,
-"name":"Jaguars D/ST",
+"id":-16034,
+"name":"Texans D/ST",
 "position":"D/ST",
-"pro_team":"JAX",
+"pro_team":"HOU",
 "points":0.0
 }
 },
@@ -96079,18 +96080,18 @@
 "points":0.0
 },
 {
-"id":4429059,
-"name":"Woody Marks",
+"id":4887558,
+"name":"Emanuel Wilson",
 "position":"RB",
-"pro_team":"HOU",
+"pro_team":"SEA",
 "points":0.0
 },
 {
-"id":4596334,
-"name":"Keaton Mitchell",
-"position":"RB",
-"pro_team":"LAC",
-"points":0.0
+"id":4427095,
+"name":"DeMario Douglas",
+"position":"WR",
+"pro_team":"NE",
+"points":3.8
 },
 {
 "id":4428331,
@@ -96100,31 +96101,31 @@
 "points":0.0
 },
 {
-"id":3116165,
-"name":"Chris Godwin Jr.",
+"id":4432620,
+"name":"Parker Washington",
 "position":"WR",
-"pro_team":"TB",
+"pro_team":"JAX",
 "points":0.0
 },
 {
-"id":3046439,
-"name":"Hunter Henry",
+"id":4635008,
+"name":"Keon Coleman",
+"position":"WR",
+"pro_team":"BUF",
+"points":0.0
+},
+{
+"id":3895856,
+"name":"Christian Kirk",
+"position":"WR",
+"pro_team":"SF",
+"points":0.0
+},
+{
+"id":5083076,
+"name":"Harold Fannin Jr.",
 "position":"TE",
-"pro_team":"NE",
-"points":0.0
-},
-{
-"id":5083315,
-"name":"Kenyon Sadiq",
-"position":"TE",
-"pro_team":"NYJ",
-"points":0.0
-},
-{
-"id":-16034,
-"name":"Texans D/ST",
-"position":"D/ST",
-"pro_team":"HOU",
+"pro_team":"CLE",
 "points":0.0
 }
 ],
@@ -96135,20 +96136,10 @@
 {
 "slot":"QB",
 "player":{
-"id":4426348,
-"name":"Jayden Daniels",
+"id":4426338,
+"name":"Bo Nix",
 "position":"QB",
-"pro_team":"WSH",
-"points":0.0
-}
-},
-{
-"slot":"RB",
-"player":{
-"id":4379399,
-"name":"James Cook III",
-"position":"RB",
-"pro_team":"BUF",
+"pro_team":"DEN",
 "points":0.0
 }
 },
@@ -96159,6 +96150,16 @@
 "name":"Derrick Henry",
 "position":"RB",
 "pro_team":"BAL",
+"points":0.0
+}
+},
+{
+"slot":"RB",
+"player":{
+"id":4685247,
+"name":"Braelon Allen",
+"position":"RB",
+"pro_team":"NYJ",
 "points":0.0
 }
 },
@@ -96179,7 +96180,7 @@
 "name":"Luther Burden III",
 "position":"WR",
 "pro_team":"CHI",
-"points":0.0
+"points":21.7
 }
 },
 {
@@ -96189,11 +96190,21 @@
 "name":"Rome Odunze",
 "position":"WR",
 "pro_team":"CHI",
-"points":0.0
+"points":8.9
 }
 },
 {
 "slot":"TE",
+"player":{
+"id":15847,
+"name":"Travis Kelce",
+"position":"TE",
+"pro_team":"KC",
+"points":0.0
+}
+},
+{
+"slot":"FLEX",
 "player":{
 "id":3117256,
 "name":"Dalton Schultz",
@@ -96203,42 +96214,46 @@
 }
 },
 {
-"slot":"FLEX",
-"player":{
-"id":4685247,
-"name":"Braelon Allen",
-"position":"RB",
-"pro_team":"NYJ",
-"points":0.0
-}
-},
-{
 "slot":"D/ST",
 "player":{
-"id":-16028,
-"name":"Commanders D/ST",
+"id":-16007,
+"name":"Broncos D/ST",
 "position":"D/ST",
-"pro_team":"WSH",
+"pro_team":"DEN",
 "points":0.0
 }
 },
 {
 "slot":"K",
 "player":{
-"id":4362081,
-"name":"Cameron Dicker",
+"id":17372,
+"name":"Chris Boswell",
 "position":"K",
-"pro_team":"LAC",
+"pro_team":"PIT",
 "points":0.0
 }
 }
 ],
 "bench":[
 {
-"id":4426338,
-"name":"Bo Nix",
+"id":4426348,
+"name":"Jayden Daniels",
 "position":"QB",
-"pro_team":"DEN",
+"pro_team":"WSH",
+"points":0.0
+},
+{
+"id":4433970,
+"name":"J.J. McCarthy",
+"position":"QB",
+"pro_team":"NYG",
+"points":0.0
+},
+{
+"id":4379399,
+"name":"James Cook III",
+"position":"RB",
+"pro_team":"BUF",
 "points":0.0
 },
 {
@@ -96263,31 +96278,17 @@
 "points":0.0
 },
 {
-"id":15847,
-"name":"Travis Kelce",
-"position":"TE",
-"pro_team":"KC",
-"points":0.0
-},
-{
-"id":4570037,
-"name":"Terrance Ferguson",
-"position":"TE",
-"pro_team":"LAR",
-"points":0.0
-},
-{
-"id":17372,
-"name":"Chris Boswell",
+"id":4362081,
+"name":"Cameron Dicker",
 "position":"K",
-"pro_team":"PIT",
+"pro_team":"LAC",
 "points":0.0
 },
 {
-"id":-16007,
-"name":"Broncos D/ST",
+"id":-16028,
+"name":"Commanders D/ST",
 "position":"D/ST",
-"pro_team":"DEN",
+"pro_team":"WSH",
 "points":0.0
 }
 ],
@@ -96306,10 +96307,10 @@
 {
 "slot":"QB",
 "player":{
-"id":4040715,
-"name":"Jalen Hurts",
+"id":4432577,
+"name":"C.J. Stroud",
 "position":"QB",
-"pro_team":"PHI",
+"pro_team":"HOU",
 "points":0.0
 }
 },
@@ -96320,7 +96321,7 @@
 "name":"D'Andre Swift",
 "position":"RB",
 "pro_team":"CHI",
-"points":0.0
+"points":17.0
 }
 },
 {
@@ -96406,17 +96407,10 @@
 ],
 "bench":[
 {
-"id":4432577,
-"name":"C.J. Stroud",
+"id":3912547,
+"name":"Sam Darnold",
 "position":"QB",
-"pro_team":"HOU",
-"points":0.0
-},
-{
-"id":4429160,
-"name":"De'Von Achane",
-"position":"RB",
-"pro_team":"MIA",
+"pro_team":"SEA",
 "points":0.0
 },
 {
@@ -96462,7 +96456,15 @@
 "points":0.0
 }
 ],
-"ir":[]
+"ir":[
+{
+"id":4429160,
+"name":"De'Von Achane",
+"position":"RB",
+"pro_team":"MIA",
+"points":0.0
+}
+]
 },
 "4":{
 "starters":[
@@ -96712,10 +96714,10 @@
 {
 "slot":"D/ST",
 "player":{
-"id":-16027,
-"name":"Buccaneers D/ST",
+"id":-16016,
+"name":"Vikings D/ST",
 "position":"D/ST",
-"pro_team":"TB",
+"pro_team":"MIN",
 "points":0.0
 }
 },
@@ -96774,18 +96776,18 @@
 "points":0.0
 },
 {
+"id":4723820,
+"name":"Omar Cooper Jr.",
+"position":"WR",
+"pro_team":"NYJ",
+"points":0.0
+},
+{
 "id":4723086,
 "name":"Colston Loveland",
 "position":"TE",
 "pro_team":"CHI",
-"points":0.0
-},
-{
-"id":-16016,
-"name":"Vikings D/ST",
-"position":"D/ST",
-"pro_team":"MIN",
-"points":0.0
+"points":16.4
 }
 ],
 "ir":[
@@ -96813,20 +96815,20 @@
 {
 "slot":"RB",
 "player":{
-"id":4685702,
-"name":"Quinshon Judkins",
+"id":3042519,
+"name":"Aaron Jones Sr.",
 "position":"RB",
-"pro_team":"CLE",
+"pro_team":"MIN",
 "points":0.0
 }
 },
 {
 "slot":"RB",
 "player":{
-"id":3915411,
-"name":"Ty Johnson",
+"id":4040761,
+"name":"Devin Singletary",
 "position":"RB",
-"pro_team":"BUF",
+"pro_team":"NYG",
 "points":0.0
 }
 },
@@ -96843,16 +96845,6 @@
 {
 "slot":"WR",
 "player":{
-"id":4429022,
-"name":"Kayshon Boutte",
-"position":"WR",
-"pro_team":"HOU",
-"points":0.0
-}
-},
-{
-"slot":"WR",
-"player":{
 "id":2973405,
 "name":"Kalif Raymond",
 "position":"WR",
@@ -96861,12 +96853,22 @@
 }
 },
 {
+"slot":"WR",
+"player":{
+"id":4239993,
+"name":"Tee Higgins",
+"position":"WR",
+"pro_team":"CIN",
+"points":0.0
+}
+},
+{
 "slot":"TE",
 "player":{
-"id":4385690,
-"name":"Dalton Kincaid",
+"id":3116164,
+"name":"Mike Gesicki",
 "position":"TE",
-"pro_team":"BUF",
+"pro_team":"CIN",
 "points":0.0
 }
 },
@@ -96893,10 +96895,10 @@
 {
 "slot":"K",
 "player":{
-"id":4686361,
-"name":"Cam Little",
+"id":4360234,
+"name":"Evan McPherson",
 "position":"K",
-"pro_team":"JAX",
+"pro_team":"CIN",
 "points":0.0
 }
 }
@@ -96910,31 +96912,31 @@
 "points":0.0
 },
 {
-"id":4432710,
-"name":"TreVeyon Henderson",
+"id":4685702,
+"name":"Quinshon Judkins",
 "position":"RB",
-"pro_team":"NE",
+"pro_team":"CLE",
 "points":0.0
 },
 {
-"id":3042519,
-"name":"Aaron Jones Sr.",
+"id":3915411,
+"name":"Ty Johnson",
 "position":"RB",
-"pro_team":"MIN",
+"pro_team":"BUF",
 "points":0.0
 },
 {
-"id":4040761,
-"name":"Devin Singletary",
+"id":4362619,
+"name":"Chris Rodriguez Jr.",
 "position":"RB",
-"pro_team":"NYG",
+"pro_team":"JAX",
 "points":0.0
 },
 {
-"id":4239993,
-"name":"Tee Higgins",
+"id":4429022,
+"name":"Kayshon Boutte",
 "position":"WR",
-"pro_team":"CIN",
+"pro_team":"HOU",
 "points":0.0
 },
 {
@@ -96945,17 +96947,17 @@
 "points":0.0
 },
 {
-"id":3116164,
-"name":"Mike Gesicki",
+"id":4385690,
+"name":"Dalton Kincaid",
 "position":"TE",
-"pro_team":"CIN",
+"pro_team":"BUF",
 "points":0.0
 },
 {
-"id":4360234,
-"name":"Evan McPherson",
+"id":4686361,
+"name":"Cam Little",
 "position":"K",
-"pro_team":"CIN",
+"pro_team":"JAX",
 "points":0.0
 }
 ],
@@ -97139,20 +97141,30 @@
 {
 "slot":"RB",
 "player":{
-"id":4569173,
-"name":"Rhamondre Stevenson",
+"id":4362238,
+"name":"Chase Brown",
 "position":"RB",
-"pro_team":"NE",
+"pro_team":"CIN",
 "points":0.0
 }
 },
 {
 "slot":"RB",
 "player":{
-"id":4360238,
-"name":"Dameon Pierce",
+"id":4569173,
+"name":"Rhamondre Stevenson",
 "position":"RB",
-"pro_team":"PHI",
+"pro_team":"NE",
+"points":20.0
+}
+},
+{
+"slot":"WR",
+"player":{
+"id":4374302,
+"name":"Amon-Ra St. Brown",
+"position":"WR",
+"pro_team":"DET",
 "points":0.0
 }
 },
@@ -97177,16 +97189,6 @@
 }
 },
 {
-"slot":"WR",
-"player":{
-"id":4569559,
-"name":"Devaughn Vele",
-"position":"WR",
-"pro_team":"NO",
-"points":0.0
-}
-},
-{
 "slot":"TE",
 "player":{
 "id":4361050,
@@ -97199,20 +97201,20 @@
 {
 "slot":"FLEX",
 "player":{
-"id":3045523,
-"name":"Kendrick Bourne",
+"id":4586312,
+"name":"Jaylin Noel",
 "position":"WR",
-"pro_team":"ARI",
+"pro_team":"HOU",
 "points":0.0
 }
 },
 {
 "slot":"D/ST",
 "player":{
-"id":-16011,
-"name":"Colts D/ST",
+"id":-16020,
+"name":"Jets D/ST",
 "position":"D/ST",
-"pro_team":"IND",
+"pro_team":"NYJ",
 "points":0.0
 }
 },
@@ -97228,13 +97230,6 @@
 }
 ],
 "bench":[
-{
-"id":4362238,
-"name":"Chase Brown",
-"position":"RB",
-"pro_team":"CIN",
-"points":0.0
-},
 {
 "id":4239996,
 "name":"Travis Etienne Jr.",
@@ -97264,17 +97259,24 @@
 "points":0.0
 },
 {
-"id":4374302,
-"name":"Amon-Ra St. Brown",
-"position":"WR",
-"pro_team":"DET",
+"id":4360238,
+"name":"Dameon Pierce",
+"position":"RB",
+"pro_team":"PHI",
 "points":0.0
 },
 {
-"id":4715355,
-"name":"Darius Cooper",
+"id":4569559,
+"name":"Devaughn Vele",
 "position":"WR",
-"pro_team":"PHI",
+"pro_team":"NO",
+"points":0.0
+},
+{
+"id":3045523,
+"name":"Kendrick Bourne",
+"position":"WR",
+"pro_team":"ARI",
 "points":0.0
 },
 {
@@ -97304,26 +97306,36 @@
 "name":"Caleb Williams",
 "position":"QB",
 "pro_team":"CHI",
+"points":22.12
+}
+},
+{
+"slot":"RB",
+"player":{
+"id":4047365,
+"name":"Josh Jacobs",
+"position":"RB",
+"pro_team":"GB",
 "points":0.0
 }
 },
 {
 "slot":"RB",
 "player":{
-"id":4685382,
-"name":"Omarion Hampton",
+"id":4241416,
+"name":"Chuba Hubbard",
 "position":"RB",
-"pro_team":"LAC",
+"pro_team":"CAR",
 "points":0.0
 }
 },
 {
-"slot":"RB",
+"slot":"WR",
 "player":{
-"id":4882093,
-"name":"Bhayshul Tuten",
-"position":"RB",
-"pro_team":"JAX",
+"id":4262921,
+"name":"Justin Jefferson",
+"position":"WR",
+"pro_team":"MIN",
 "points":0.0
 }
 },
@@ -97348,16 +97360,6 @@
 }
 },
 {
-"slot":"WR",
-"player":{
-"id":4832800,
-"name":"Denzel Boston",
-"position":"WR",
-"pro_team":"CLE",
-"points":0.0
-}
-},
-{
 "slot":"TE",
 "player":{
 "id":2573401,
@@ -97370,30 +97372,30 @@
 {
 "slot":"FLEX",
 "player":{
-"id":4241416,
-"name":"Chuba Hubbard",
-"position":"RB",
-"pro_team":"CAR",
+"id":4832800,
+"name":"Denzel Boston",
+"position":"WR",
+"pro_team":"CLE",
 "points":0.0
 }
 },
 {
 "slot":"D/ST",
 "player":{
-"id":-16033,
-"name":"Ravens D/ST",
+"id":-16029,
+"name":"Panthers D/ST",
 "position":"D/ST",
-"pro_team":"BAL",
+"pro_team":"CAR",
 "points":0.0
 }
 },
 {
 "slot":"K",
 "player":{
-"id":3917232,
-"name":"Tyler Bass",
+"id":4567104,
+"name":"Will Reichard",
 "position":"K",
-"pro_team":"BUF",
+"pro_team":"MIN",
 "points":0.0
 }
 }
@@ -97407,17 +97409,31 @@
 "points":0.0
 },
 {
-"id":4047365,
-"name":"Josh Jacobs",
+"id":4426386,
+"name":"Roschon Johnson",
 "position":"RB",
-"pro_team":"GB",
+"pro_team":"CHI",
+"points":1.3
+},
+{
+"id":4685382,
+"name":"Omarion Hampton",
+"position":"RB",
+"pro_team":"LAC",
 "points":0.0
 },
 {
-"id":4262921,
-"name":"Justin Jefferson",
-"position":"WR",
-"pro_team":"MIN",
+"id":4882093,
+"name":"Bhayshul Tuten",
+"position":"RB",
+"pro_team":"JAX",
+"points":0.0
+},
+{
+"id":4360516,
+"name":"Tyrone Tracy Jr.",
+"position":"RB",
+"pro_team":"NYG",
 "points":0.0
 },
 {
@@ -97435,24 +97451,10 @@
 "points":0.0
 },
 {
-"id":4361432,
-"name":"Romeo Doubs",
-"position":"WR",
-"pro_team":"NE",
-"points":0.0
-},
-{
-"id":4567104,
-"name":"Will Reichard",
-"position":"K",
-"pro_team":"MIN",
-"points":0.0
-},
-{
-"id":-16017,
-"name":"Patriots D/ST",
+"id":-16033,
+"name":"Ravens D/ST",
 "position":"D/ST",
-"pro_team":"NE",
+"pro_team":"BAL",
 "points":0.0
 }
 ],
