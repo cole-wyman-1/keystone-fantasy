@@ -123,13 +123,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"emp-w7-39",
-"points":3.3,
+"points":60.1,
 "opp_slot_id":"EMP-02",
 "opp_owner":"Anita Bushnell",
 "opp_team_name":"Drake and Goff",
-"opp_points":27.44,
-"bench_points":0.0,
-"optimal_points":3.3
+"opp_points":98.64,
+"bench_points":37.8,
+"optimal_points":85.1
 },
 "roster_week":7,
 "power_rank":80,
@@ -305,13 +305,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"emp-w7-39",
-"points":27.44,
+"points":98.64,
 "opp_slot_id":"EMP-01",
 "opp_owner":"Prajeet Sarker",
 "opp_team_name":"TheGenoSmithExperience",
-"opp_points":3.3,
-"bench_points":11.9,
-"optimal_points":39.34
+"opp_points":60.1,
+"bench_points":48.92,
+"optimal_points":116.04
 },
 "roster_week":7,
 "power_rank":57,
@@ -487,13 +487,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"emp-w7-41",
-"points":3.8,
+"points":89.22,
 "opp_slot_id":"EMP-09",
 "opp_owner":"Matt Gates",
 "opp_team_name":"Aussie Aussie Aussie Oi Oi Oi",
-"opp_points":0.0,
-"bench_points":0.0,
-"optimal_points":3.8
+"opp_points":55.62,
+"bench_points":41.9,
+"optimal_points":120.12
 },
 "roster_week":7,
 "power_rank":56,
@@ -671,13 +671,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"emp-w7-38",
-"points":14.0,
+"points":78.6,
 "opp_slot_id":"EMP-11",
 "opp_owner":"Victoire Cagniart",
 "opp_team_name":"Victoire's Spirited Team",
-"opp_points":31.02,
-"bench_points":0.0,
-"optimal_points":14.0
+"opp_points":58.62,
+"bench_points":43.1,
+"optimal_points":104.3
 },
 "roster_week":7,
 "power_rank":73,
@@ -855,13 +855,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"emp-w7-42",
-"points":16.0,
+"points":85.6,
 "opp_slot_id":"EMP-10",
 "opp_owner":"Jacob Salant",
 "opp_team_name":"Team Salant",
-"opp_points":0.0,
-"bench_points":0.0,
-"optimal_points":16.0
+"opp_points":116.38,
+"bench_points":23.12,
+"optimal_points":95.12
 },
 "roster_week":7,
 "power_rank":4,
@@ -1039,13 +1039,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"emp-w7-40",
-"points":20.0,
+"points":106.22,
 "opp_slot_id":"EMP-12",
 "opp_owner":"Amelia Ockert",
 "opp_team_name":"Amelia's Awesome Team",
-"opp_points":0.0,
-"bench_points":0.0,
-"optimal_points":20.0
+"opp_points":110.08,
+"bench_points":22.0,
+"optimal_points":121.62
 },
 "roster_week":7,
 "power_rank":36,
@@ -1223,13 +1223,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"emp-w7-37",
-"points":22.7,
+"points":49.3,
 "opp_slot_id":"EMP-08",
 "opp_owner":"Cole Wyman",
 "opp_team_name":"Manhattan Elitists",
-"opp_points":21.7,
-"bench_points":0.0,
-"optimal_points":22.7
+"opp_points":118.06,
+"bench_points":45.36,
+"optimal_points":74.1
 },
 "roster_week":7,
 "power_rank":83,
@@ -1407,13 +1407,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"emp-w7-37",
-"points":21.7,
+"points":118.06,
 "opp_slot_id":"EMP-07",
 "opp_owner":"Kelton Berry",
 "opp_team_name":"Kelton's Deluxe Team",
-"opp_points":22.7,
-"bench_points":0.0,
-"optimal_points":21.7
+"opp_points":49.3,
+"bench_points":51.88,
+"optimal_points":131.66
 },
 "roster_week":7,
 "power_rank":11,
@@ -1591,13 +1591,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"emp-w7-41",
-"points":0.0,
+"points":55.62,
 "opp_slot_id":"EMP-03",
 "opp_owner":"Druv Murthy",
 "opp_team_name":"Druv's Daring Team",
-"opp_points":3.8,
-"bench_points":0.0,
-"optimal_points":0.0
+"opp_points":89.22,
+"bench_points":38.0,
+"optimal_points":84.62
 },
 "roster_week":7,
 "power_rank":1,
@@ -1775,13 +1775,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"emp-w7-42",
-"points":0.0,
+"points":116.38,
 "opp_slot_id":"EMP-05",
 "opp_owner":"Bradley Hart",
 "opp_team_name":"Synergistic optimization",
-"opp_points":16.0,
-"bench_points":0.0,
-"optimal_points":0.0
+"opp_points":85.6,
+"bench_points":2.3,
+"optimal_points":116.38
 },
 "roster_week":7,
 "power_rank":23,
@@ -1946,13 +1946,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"emp-w7-38",
-"points":31.02,
+"points":58.62,
 "opp_slot_id":"EMP-04",
 "opp_owner":"Zach Macdonald",
 "opp_team_name":"System of a 1st Down",
-"opp_points":14.0,
-"bench_points":0.0,
-"optimal_points":31.02
+"opp_points":78.6,
+"bench_points":47.72,
+"optimal_points":92.52
 },
 "roster_week":7,
 "power_rank":58,
@@ -2117,13 +2117,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"emp-w7-40",
-"points":0.0,
+"points":110.08,
 "opp_slot_id":"EMP-06",
 "opp_owner":"Ben Feldman",
 "opp_team_name":"Benjamin's Best Team",
-"opp_points":20.0,
-"bench_points":0.0,
-"optimal_points":0.0
+"opp_points":106.22,
+"bench_points":16.3,
+"optimal_points":120.38
 },
 "roster_week":7,
 "power_rank":64,
@@ -2301,13 +2301,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"got-w7-42",
-"points":21.7,
+"points":106.56,
 "opp_slot_id":"GOT-11",
 "opp_owner":"Robert Mueller",
 "opp_team_name":"Rob-in the Win",
-"opp_points":0.0,
-"bench_points":-1.0,
-"optimal_points":21.7
+"opp_points":117.08,
+"bench_points":30.92,
+"optimal_points":110.02
 },
 "roster_week":7,
 "power_rank":3,
@@ -2485,13 +2485,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"got-w7-38",
-"points":27.44,
+"points":69.14,
 "opp_slot_id":"GOT-07",
 "opp_owner":"Rohan Bhargava",
 "opp_team_name":"Rohan's Rowdy Team",
-"opp_points":0.0,
-"bench_points":0.0,
-"optimal_points":27.44
+"opp_points":119.18,
+"bench_points":34.02,
+"optimal_points":80.64
 },
 "roster_week":7,
 "power_rank":47,
@@ -2669,13 +2669,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"got-w7-39",
-"points":0.0,
+"points":56.62,
 "opp_slot_id":"GOT-09",
 "opp_owner":"Julian Kurtzman",
 "opp_team_name":"Julian's Scary Team",
-"opp_points":0.0,
-"bench_points":0.0,
-"optimal_points":0.0
+"opp_points":72.0,
+"bench_points":46.3,
+"optimal_points":100.12
 },
 "roster_week":7,
 "power_rank":44,
@@ -2844,13 +2844,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"got-w7-41",
-"points":0.0,
+"points":34.2,
 "opp_slot_id":"GOT-12",
 "opp_owner":"League Manager",
 "opp_team_name":"Key's Top-Notch Team",
-"opp_points":0.0,
-"bench_points":0.0,
-"optimal_points":0.0
+"opp_points":98.82,
+"bench_points":48.12,
+"optimal_points":72.92
 },
 "roster_week":7,
 "power_rank":84,
@@ -3028,13 +3028,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"got-w7-37",
-"points":17.7,
+"points":74.8,
 "opp_slot_id":"GOT-06",
 "opp_owner":"Zoe Stern",
 "opp_team_name":"Zoe's Team",
-"opp_points":37.0,
-"bench_points":0.0,
-"optimal_points":17.7
+"opp_points":106.7,
+"bench_points":19.42,
+"optimal_points":82.22
 },
 "roster_week":7,
 "power_rank":78,
@@ -3209,13 +3209,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"got-w7-37",
-"points":37.0,
+"points":106.7,
 "opp_slot_id":"GOT-05",
 "opp_owner":"Benjamin Sango",
 "opp_team_name":"Benjy's Pass Breakup",
-"opp_points":17.7,
-"bench_points":0.0,
-"optimal_points":37.0
+"opp_points":74.8,
+"bench_points":68.1,
+"optimal_points":148.18
 },
 "roster_week":7,
 "power_rank":40,
@@ -3393,13 +3393,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"got-w7-38",
-"points":0.0,
+"points":119.18,
 "opp_slot_id":"GOT-02",
 "opp_owner":"Santiago Castillo",
 "opp_team_name":"Fries in the Bag",
-"opp_points":27.44,
-"bench_points":0.0,
-"optimal_points":0.0
+"opp_points":69.14,
+"bench_points":37.0,
+"optimal_points":126.08
 },
 "roster_week":7,
 "power_rank":41,
@@ -3577,13 +3577,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"got-w7-40",
-"points":10.1,
+"points":85.48,
 "opp_slot_id":"GOT-10",
 "opp_owner":"Bogdan Hamilton",
 "opp_team_name":"Bogdan's Brilliant Team",
-"opp_points":22.12,
-"bench_points":0.0,
-"optimal_points":10.1
+"opp_points":89.92,
+"bench_points":43.62,
+"optimal_points":104.68
 },
 "roster_week":7,
 "power_rank":26,
@@ -3761,13 +3761,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"got-w7-39",
-"points":0.0,
+"points":72.0,
 "opp_slot_id":"GOT-03",
 "opp_owner":"Ashutosh Bajpai",
 "opp_team_name":"Ashutosh's Astounding Team",
-"opp_points":0.0,
-"bench_points":12.2,
-"optimal_points":12.2
+"opp_points":56.62,
+"bench_points":22.0,
+"optimal_points":85.2
 },
 "roster_week":7,
 "power_rank":62,
@@ -3945,13 +3945,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"got-w7-40",
-"points":22.12,
+"points":89.92,
 "opp_slot_id":"GOT-08",
 "opp_owner":"Sloane Winters Holtzman",
 "opp_team_name":"End Zone Sloane",
-"opp_points":10.1,
-"bench_points":0.0,
-"optimal_points":22.12
+"opp_points":85.48,
+"bench_points":21.5,
+"optimal_points":91.02
 },
 "roster_week":7,
 "power_rank":13,
@@ -4120,13 +4120,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"got-w7-42",
-"points":0.0,
+"points":117.08,
 "opp_slot_id":"GOT-01",
 "opp_owner":"Alice Khayami",
 "opp_team_name":"Bijan Mustard",
-"opp_points":21.7,
-"bench_points":10.6,
-"optimal_points":10.6
+"opp_points":106.56,
+"bench_points":60.5,
+"optimal_points":150.98
 },
 "roster_week":7,
 "power_rank":39,
@@ -4291,13 +4291,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"got-w7-41",
-"points":0.0,
+"points":98.82,
 "opp_slot_id":"GOT-04",
 "opp_owner":"Sahil Singh",
 "opp_team_name":"Sahil's Game of Throws",
-"opp_points":0.0,
-"bench_points":0.0,
-"optimal_points":0.0
+"opp_points":34.2,
+"bench_points":53.2,
+"optimal_points":142.42
 },
 "roster_week":7,
 "power_rank":53,
@@ -4475,13 +4475,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"bea-w7-39",
-"points":3.8,
+"points":96.08,
 "opp_slot_id":"BEA-02",
 "opp_owner":"Justin Metz",
 "opp_team_name":"LIFO The Party",
-"opp_points":23.3,
-"bench_points":0.0,
-"optimal_points":3.8
+"opp_points":120.68,
+"bench_points":23.8,
+"optimal_points":107.48
 },
 "roster_week":7,
 "power_rank":61,
@@ -4659,13 +4659,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"bea-w7-39",
-"points":23.3,
+"points":120.68,
 "opp_slot_id":"BEA-01",
 "opp_owner":"Brittany Halks",
 "opp_team_name":"Brittany's Brilliant Team",
-"opp_points":3.8,
-"bench_points":0.0,
-"optimal_points":23.3
+"opp_points":96.08,
+"bench_points":53.6,
+"optimal_points":152.78
 },
 "roster_week":7,
 "power_rank":8,
@@ -4844,13 +4844,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"bea-w7-40",
-"points":30.6,
+"points":76.3,
 "opp_slot_id":"BEA-05",
 "opp_owner":"Lukas Marmanis",
 "opp_team_name":"Ackshually Tyler SHOUGH",
-"opp_points":16.4,
-"bench_points":0.0,
-"optimal_points":30.6
+"opp_points":79.8,
+"bench_points":42.12,
+"optimal_points":101.72
 },
 "roster_week":7,
 "power_rank":31,
@@ -5029,13 +5029,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"bea-w7-38",
-"points":0.0,
+"points":99.9,
 "opp_slot_id":"BEA-11",
 "opp_owner":"Prateek Mehta",
 "opp_team_name":"Prateek's Perfect Team",
-"opp_points":21.7,
-"bench_points":0.0,
-"optimal_points":0.0
+"opp_points":115.32,
+"bench_points":70.38,
+"optimal_points":149.9
 },
 "roster_week":7,
 "power_rank":37,
@@ -5213,13 +5213,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"bea-w7-40",
-"points":16.4,
+"points":79.8,
 "opp_slot_id":"BEA-03",
 "opp_owner":"James Mulcahy",
 "opp_team_name":"James learns football",
-"opp_points":30.6,
-"bench_points":0.0,
-"optimal_points":16.4
+"opp_points":76.3,
+"bench_points":17.4,
+"optimal_points":97.2
 },
 "roster_week":7,
 "power_rank":50,
@@ -5399,13 +5399,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"bea-w7-42",
-"points":25.42,
+"points":70.72,
 "opp_slot_id":"BEA-07",
 "opp_owner":"Christopher Teixeira",
 "opp_team_name":"Chris's Amazing Team",
-"opp_points":27.44,
-"bench_points":0.0,
-"optimal_points":25.42
+"opp_points":87.04,
+"bench_points":51.62,
+"optimal_points":88.92
 },
 "roster_week":7,
 "power_rank":69,
@@ -5583,13 +5583,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"bea-w7-42",
-"points":27.44,
+"points":87.04,
 "opp_slot_id":"BEA-06",
 "opp_owner":"Sylee Dandekar",
 "opp_team_name":"Sylee's Super Team",
-"opp_points":25.42,
-"bench_points":0.0,
-"optimal_points":27.44
+"opp_points":70.72,
+"bench_points":12.6,
+"optimal_points":95.94
 },
 "roster_week":7,
 "power_rank":17,
@@ -5768,13 +5768,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"bea-w7-37",
-"points":0.0,
+"points":73.62,
 "opp_slot_id":"BEA-10",
 "opp_owner":"Nadir Tekarli",
 "opp_team_name":"Salt Lake Dirty Sodas",
-"opp_points":0.0,
-"bench_points":0.0,
-"optimal_points":0.0
+"opp_points":88.26,
+"bench_points":58.38,
+"optimal_points":114.48
 },
 "roster_week":7,
 "power_rank":70,
@@ -5953,13 +5953,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"bea-w7-41",
-"points":0.0,
+"points":68.82,
 "opp_slot_id":"BEA-12",
 "opp_owner":"Charlie Fairfax",
 "opp_team_name":"Charlie's Team",
-"opp_points":7.9,
-"bench_points":0.0,
-"optimal_points":0.0
+"opp_points":38.7,
+"bench_points":41.28,
+"optimal_points":84.48
 },
 "roster_week":7,
 "power_rank":81,
@@ -6133,13 +6133,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"bea-w7-37",
-"points":0.0,
+"points":88.26,
 "opp_slot_id":"BEA-08",
 "opp_owner":"Bill Leith",
 "opp_team_name":"Bill's Best Team",
-"opp_points":0.0,
-"bench_points":14.0,
-"optimal_points":14.0
+"opp_points":73.62,
+"bench_points":22.8,
+"optimal_points":107.46
 },
 "roster_week":7,
 "power_rank":20,
@@ -6308,13 +6308,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"bea-w7-38",
-"points":21.7,
+"points":115.32,
 "opp_slot_id":"BEA-04",
 "opp_owner":"Jacqui Lemire",
 "opp_team_name":"Uncommon Champions",
-"opp_points":0.0,
-"bench_points":0.0,
-"optimal_points":21.7
+"opp_points":99.9,
+"bench_points":74.62,
+"optimal_points":156.92
 },
 "roster_week":7,
 "power_rank":12,
@@ -6479,13 +6479,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"bea-w7-41",
-"points":7.9,
+"points":38.7,
 "opp_slot_id":"BEA-09",
 "opp_owner":"Peter Chang",
 "opp_team_name":"Peter's Totally Serious Team",
-"opp_points":0.0,
-"bench_points":0.0,
-"optimal_points":7.9
+"opp_points":68.82,
+"bench_points":46.72,
+"optimal_points":81.82
 },
 "roster_week":7,
 "power_rank":51,
@@ -6654,13 +6654,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"har-w7-38",
-"points":0.0,
+"points":70.02,
 "opp_slot_id":"HAR-08",
 "opp_owner":"Ranmit Pantle",
 "opp_team_name":"Ranmit's Rudderless Randos",
-"opp_points":32.74,
-"bench_points":0.0,
-"optimal_points":0.0
+"opp_points":137.64,
+"bench_points":31.68,
+"optimal_points":84.18
 },
 "roster_week":7,
 "power_rank":72,
@@ -6829,13 +6829,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"har-w7-37",
-"points":0.0,
+"points":102.3,
 "opp_slot_id":"HAR-04",
 "opp_owner":"Douglas Kirkpatrick",
 "opp_team_name":"Doug's Dangerous Team",
-"opp_points":0.0,
-"bench_points":8.9,
-"optimal_points":8.9
+"opp_points":67.18,
+"bench_points":61.12,
+"optimal_points":140.6
 },
 "roster_week":7,
 "power_rank":45,
@@ -7011,13 +7011,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"har-w7-41",
-"points":17.0,
+"points":96.7,
 "opp_slot_id":"HAR-05",
 "opp_owner":"Jin Paik",
 "opp_team_name":"Little Giants",
-"opp_points":1.3,
-"bench_points":0.0,
-"optimal_points":17.0
+"opp_points":86.2,
+"bench_points":12.6,
+"optimal_points":101.7
 },
 "roster_week":7,
 "power_rank":16,
@@ -7195,13 +7195,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"har-w7-37",
-"points":0.0,
+"points":67.18,
 "opp_slot_id":"HAR-02",
 "opp_owner":"Nhi Dang",
 "opp_team_name":"Mimi Family",
-"opp_points":0.0,
-"bench_points":0.0,
-"optimal_points":0.0
+"opp_points":102.3,
+"bench_points":15.0,
+"optimal_points":68.0
 },
 "roster_week":7,
 "power_rank":10,
@@ -7377,13 +7377,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"har-w7-41",
-"points":1.3,
+"points":86.2,
 "opp_slot_id":"HAR-03",
 "opp_owner":"Samuel Peter",
 "opp_team_name":"Team 17",
-"opp_points":17.0,
-"bench_points":0.0,
-"optimal_points":1.3
+"opp_points":96.7,
+"bench_points":8.6,
+"optimal_points":93.5
 },
 "roster_week":7,
 "power_rank":68,
@@ -7562,13 +7562,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"har-w7-40",
-"points":10.6,
+"points":77.8,
 "opp_slot_id":"HAR-07",
 "opp_owner":"Caroline Scala",
 "opp_team_name":"Sunday Scaries",
-"opp_points":0.0,
-"bench_points":0.0,
-"optimal_points":10.6
+"opp_points":103.48,
+"bench_points":33.4,
+"optimal_points":108.5
 },
 "roster_week":7,
 "power_rank":60,
@@ -7746,13 +7746,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"har-w7-40",
-"points":0.0,
+"points":103.48,
 "opp_slot_id":"HAR-06",
 "opp_owner":"Brian Hunscher",
 "opp_team_name":"All Sleepers",
-"opp_points":10.6,
-"bench_points":0.0,
-"optimal_points":0.0
+"opp_points":77.8,
+"bench_points":21.76,
+"optimal_points":108.28
 },
 "roster_week":7,
 "power_rank":27,
@@ -7930,13 +7930,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"har-w7-38",
-"points":32.74,
+"points":137.64,
 "opp_slot_id":"HAR-01",
 "opp_owner":"Aaron White",
 "opp_team_name":"All Vibes",
-"opp_points":0.0,
-"bench_points":7.1,
-"optimal_points":39.84
+"opp_points":70.02,
+"bench_points":75.82,
+"optimal_points":163.44
 },
 "roster_week":7,
 "power_rank":34,
@@ -8105,13 +8105,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"har-w7-39",
-"points":16.4,
+"points":100.08,
 "opp_slot_id":"HAR-12",
 "opp_owner":"Elisabeth Beltinger",
 "opp_team_name":"Dumb Luck Club",
-"opp_points":41.7,
-"bench_points":0.0,
-"optimal_points":16.4
+"opp_points":131.12,
+"bench_points":18.7,
+"optimal_points":106.98
 },
 "roster_week":7,
 "power_rank":9,
@@ -8280,13 +8280,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"har-w7-42",
-"points":22.12,
+"points":81.12,
 "opp_slot_id":"HAR-11",
 "opp_owner":"Gabriele Corbetta",
 "opp_team_name":"Gabriele's Great Team",
-"opp_points":0.0,
-"bench_points":0.0,
-"optimal_points":22.12
+"opp_points":39.5,
+"bench_points":35.0,
+"optimal_points":98.92
 },
 "roster_week":7,
 "power_rank":74,
@@ -8455,13 +8455,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"har-w7-42",
-"points":0.0,
+"points":39.5,
 "opp_slot_id":"HAR-10",
 "opp_owner":"Sowmya Sridhar",
 "opp_team_name":"clueless part three",
-"opp_points":22.12,
-"bench_points":0.0,
-"optimal_points":0.0
+"opp_points":81.12,
+"bench_points":36.12,
+"optimal_points":72.92
 },
 "roster_week":7,
 "power_rank":67,
@@ -8626,13 +8626,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"har-w7-39",
-"points":41.7,
+"points":131.12,
 "opp_slot_id":"HAR-09",
 "opp_owner":"Tyler Richards",
 "opp_team_name":"CoolName?utm_source=chatgpt.com",
-"opp_points":16.4,
-"bench_points":0.0,
-"optimal_points":41.7
+"opp_points":100.08,
+"bench_points":47.62,
+"optimal_points":148.92
 },
 "roster_week":7,
 "power_rank":59,
@@ -8813,13 +8813,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"alc-w7-39",
-"points":21.7,
+"points":135.58,
 "opp_slot_id":"ALC-06",
 "opp_owner":"Cuau Trevino",
 "opp_team_name":"Cuau MX",
-"opp_points":0.0,
-"bench_points":0.0,
-"optimal_points":21.7
+"opp_points":82.32,
+"bench_points":10.6,
+"optimal_points":140.48
 },
 "roster_week":7,
 "power_rank":15,
@@ -9000,13 +9000,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"alc-w7-38",
-"points":20.0,
+"points":135.22,
 "opp_slot_id":"ALC-09",
 "opp_owner":"Sam Hoffman",
 "opp_team_name":"Sam's Calling for Hikes",
-"opp_points":0.0,
-"bench_points":27.44,
-"optimal_points":47.44
+"opp_points":73.8,
+"bench_points":58.84,
+"optimal_points":175.14
 },
 "roster_week":7,
 "power_rank":19,
@@ -9187,13 +9187,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"alc-w7-42",
-"points":0.0,
+"points":80.78,
 "opp_slot_id":"ALC-10",
 "opp_owner":"Ranjeet Laungani",
 "opp_team_name":"RL Remarkables",
-"opp_points":0.0,
-"bench_points":0.0,
-"optimal_points":0.0
+"opp_points":86.18,
+"bench_points":22.0,
+"optimal_points":98.58
 },
 "roster_week":7,
 "power_rank":32,
@@ -9366,13 +9366,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"alc-w7-37",
-"points":0.0,
+"points":85.66,
 "opp_slot_id":"ALC-05",
 "opp_owner":"Mark Karlson",
 "opp_team_name":"Mark's Magnificent Team",
-"opp_points":23.3,
-"bench_points":0.0,
-"optimal_points":0.0
+"opp_points":105.48,
+"bench_points":53.88,
+"optimal_points":120.18
 },
 "roster_week":7,
 "power_rank":54,
@@ -9553,13 +9553,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"alc-w7-37",
-"points":23.3,
+"points":105.48,
 "opp_slot_id":"ALC-04",
 "opp_owner":"Akshay Goel",
 "opp_team_name":"First and Goel",
-"opp_points":0.0,
-"bench_points":8.9,
-"optimal_points":32.2
+"opp_points":85.66,
+"bench_points":60.0,
+"optimal_points":128.18
 },
 "roster_week":7,
 "power_rank":24,
@@ -9740,13 +9740,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"alc-w7-39",
-"points":0.0,
+"points":82.32,
 "opp_slot_id":"ALC-01",
 "opp_owner":"Roberto Zuban",
 "opp_team_name":"Like a Good Nabers",
-"opp_points":21.7,
-"bench_points":1.3,
-"optimal_points":1.3
+"opp_points":135.58,
+"bench_points":26.5,
+"optimal_points":87.7
 },
 "roster_week":7,
 "power_rank":6,
@@ -9927,13 +9927,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"alc-w7-40",
-"points":34.2,
+"points":93.9,
 "opp_slot_id":"ALC-08",
 "opp_owner":"Hersh lakdawala",
 "opp_team_name":"The Ja’Marrican Dream",
-"opp_points":0.0,
-"bench_points":0.0,
-"optimal_points":34.2
+"opp_points":93.82,
+"bench_points":16.8,
+"optimal_points":105.4
 },
 "roster_week":7,
 "power_rank":77,
@@ -10112,13 +10112,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"alc-w7-40",
-"points":0.0,
+"points":93.82,
 "opp_slot_id":"ALC-07",
 "opp_owner":"Danielle Collazo",
 "opp_team_name":"The Jets",
-"opp_points":34.2,
-"bench_points":22.12,
-"optimal_points":22.12
+"opp_points":93.9,
+"bench_points":75.5,
+"optimal_points":120.42
 },
 "roster_week":7,
 "power_rank":7,
@@ -10299,13 +10299,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"alc-w7-38",
-"points":0.0,
+"points":73.8,
 "opp_slot_id":"ALC-02",
 "opp_owner":"Jonathan Wong",
 "opp_team_name":"J Wong",
-"opp_points":20.0,
-"bench_points":0.0,
-"optimal_points":0.0
+"opp_points":135.22,
+"bench_points":32.32,
+"optimal_points":96.12
 },
 "roster_week":7,
 "power_rank":48,
@@ -10474,13 +10474,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"alc-w7-42",
-"points":0.0,
+"points":86.18,
 "opp_slot_id":"ALC-03",
 "opp_owner":"Catherine Goel",
 "opp_team_name":"Brady Bunch",
-"opp_points":0.0,
-"bench_points":0.0,
-"optimal_points":0.0
+"opp_points":80.78,
+"bench_points":46.04,
+"optimal_points":108.08
 },
 "roster_week":7,
 "power_rank":82,
@@ -10645,13 +10645,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"alc-w7-41",
-"points":0.0,
+"points":47.2,
 "opp_slot_id":"ALC-12",
 "opp_owner":"League Manager",
 "opp_team_name":"Key's Top-Notch Team",
-"opp_points":0.0,
-"bench_points":3.3,
-"optimal_points":3.3
+"opp_points":77.82,
+"bench_points":12.2,
+"optimal_points":58.3
 },
 "roster_week":7,
 "power_rank":30,
@@ -10816,13 +10816,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"alc-w7-41",
-"points":0.0,
+"points":77.82,
 "opp_slot_id":"ALC-11",
 "opp_owner":"Cedric Garcia",
 "opp_team_name":"Cedric's Competitive Team",
-"opp_points":0.0,
-"bench_points":10.6,
-"optimal_points":10.6
+"opp_points":47.2,
+"bench_points":36.5,
+"optimal_points":96.02
 },
 "roster_week":7,
 "power_rank":63,
@@ -11000,13 +11000,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"all-w7-41",
-"points":0.0,
+"points":106.32,
 "opp_slot_id":"ALL-03",
 "opp_owner":"Jeff Marowits",
 "opp_team_name":"Unreasonable Hostility",
-"opp_points":0.0,
-"bench_points":0.0,
-"optimal_points":0.0
+"opp_points":110.08,
+"bench_points":23.1,
+"optimal_points":114.8
 },
 "roster_week":7,
 "power_rank":42,
@@ -11187,13 +11187,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"all-w7-40",
-"points":62.0,
+"points":106.66,
 "opp_slot_id":"ALL-08",
 "opp_owner":"Andre Costa",
 "opp_team_name":"Andre's Astounding Team",
-"opp_points":2.1,
-"bench_points":0.0,
-"optimal_points":62.0
+"opp_points":89.52,
+"bench_points":18.0,
+"optimal_points":111.06
 },
 "roster_week":7,
 "power_rank":76,
@@ -11366,13 +11366,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"all-w7-41",
-"points":0.0,
+"points":110.08,
 "opp_slot_id":"ALL-01",
 "opp_owner":"Fraser Thompson",
 "opp_team_name":"Fraser's Fantastic Team",
-"opp_points":0.0,
-"bench_points":0.0,
-"optimal_points":0.0
+"opp_points":106.32,
+"bench_points":17.9,
+"optimal_points":121.58
 },
 "roster_week":7,
 "power_rank":29,
@@ -11552,13 +11552,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"all-w7-42",
-"points":0.0,
+"points":52.42,
 "opp_slot_id":"ALL-07",
 "opp_owner":"Mike Latona",
 "opp_team_name":"The Bills Make Me Wanna, Shout!",
-"opp_points":0.0,
-"bench_points":0.0,
-"optimal_points":0.0
+"opp_points":92.8,
+"bench_points":20.1,
+"optimal_points":59.52
 },
 "roster_week":7,
 "power_rank":18,
@@ -11739,13 +11739,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"all-w7-39",
-"points":3.8,
+"points":56.1,
 "opp_slot_id":"ALL-06",
 "opp_owner":"Ben Lieber",
 "opp_team_name":"Beliebe In Miracles",
-"opp_points":41.52,
-"bench_points":3.3,
-"optimal_points":7.1
+"opp_points":167.92,
+"bench_points":30.62,
+"optimal_points":81.42
 },
 "roster_week":7,
 "power_rank":49,
@@ -11926,13 +11926,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"all-w7-39",
-"points":41.52,
+"points":167.92,
 "opp_slot_id":"ALL-05",
 "opp_owner":"Ben Klopack",
 "opp_team_name":"ben's Brilliant Team",
-"opp_points":3.8,
-"bench_points":1.3,
-"optimal_points":42.82
+"opp_points":56.1,
+"bench_points":54.16,
+"optimal_points":180.72
 },
 "roster_week":7,
 "power_rank":55,
@@ -12113,13 +12113,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"all-w7-42",
-"points":0.0,
+"points":92.8,
 "opp_slot_id":"ALL-04",
 "opp_owner":"Jacob Lehman",
 "opp_team_name":"K-Pop Lehman's Punters",
-"opp_points":0.0,
-"bench_points":0.0,
-"optimal_points":0.0
+"opp_points":52.42,
+"bench_points":3.8,
+"optimal_points":94.3
 },
 "roster_week":7,
 "power_rank":28,
@@ -12298,13 +12298,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"all-w7-40",
-"points":2.1,
+"points":89.52,
 "opp_slot_id":"ALL-02",
 "opp_owner":"Jack Cardwell",
 "opp_team_name":"Jack's Scary Team",
-"opp_points":62.0,
-"bench_points":0.0,
-"optimal_points":2.1
+"opp_points":106.66,
+"bench_points":19.1,
+"optimal_points":96.52
 },
 "roster_week":7,
 "power_rank":25,
@@ -12485,13 +12485,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"all-w7-38",
-"points":17.0,
+"points":88.18,
 "opp_slot_id":"ALL-11",
 "opp_owner":"Max Gross",
 "opp_team_name":"Max's Magnificent Team",
-"opp_points":0.0,
-"bench_points":0.0,
-"optimal_points":17.0
+"opp_points":73.6,
+"bench_points":18.3,
+"optimal_points":92.58
 },
 "roster_week":7,
 "power_rank":2,
@@ -12672,13 +12672,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"all-w7-37",
-"points":8.9,
+"points":76.72,
 "opp_slot_id":"ALL-12",
 "opp_owner":"League Manager",
 "opp_team_name":"The Commissioner",
-"opp_points":27.44,
-"bench_points":10.6,
-"optimal_points":19.5
+"opp_points":106.64,
+"bench_points":60.3,
+"optimal_points":107.4
 },
 "roster_week":7,
 "power_rank":33,
@@ -12843,13 +12843,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"all-w7-38",
-"points":0.0,
+"points":73.6,
 "opp_slot_id":"ALL-09",
 "opp_owner":"Omer Khan",
 "opp_team_name":"Omer's Otherworldly Team",
-"opp_points":17.0,
-"bench_points":0.0,
-"optimal_points":0.0
+"opp_points":88.18,
+"bench_points":25.02,
+"optimal_points":95.82
 },
 "roster_week":7,
 "power_rank":52,
@@ -13014,13 +13014,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"all-w7-37",
-"points":27.44,
+"points":106.64,
 "opp_slot_id":"ALL-10",
 "opp_owner":"Benjamin Christensen",
 "opp_team_name":"Seapigeons",
-"opp_points":8.9,
-"bench_points":0.0,
-"optimal_points":27.44
+"opp_points":76.72,
+"bench_points":47.0,
+"optimal_points":119.14
 },
 "roster_week":7,
 "power_rank":65,
@@ -13189,13 +13189,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"c2c-w7-37",
-"points":0.0,
+"points":85.38,
 "opp_slot_id":"C2C-07",
 "opp_owner":"Evan Sexton",
 "opp_team_name":"Evan's Excellent Team",
-"opp_points":0.0,
-"bench_points":0.0,
-"optimal_points":0.0
+"opp_points":65.5,
+"bench_points":95.9,
+"optimal_points":118.38
 },
 "roster_week":7,
 "power_rank":35,
@@ -13371,13 +13371,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"c2c-w7-39",
-"points":30.6,
+"points":113.68,
 "opp_slot_id":"C2C-10",
 "opp_owner":"Kylie Sagisi",
 "opp_team_name":"Slim Reapers",
-"opp_points":17.0,
-"bench_points":0.0,
-"optimal_points":30.6
+"opp_points":72.72,
+"bench_points":30.48,
+"optimal_points":129.68
 },
 "roster_week":7,
 "power_rank":21,
@@ -13546,13 +13546,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"c2c-w7-40",
-"points":0.0,
+"points":129.62,
 "opp_slot_id":"C2C-08",
 "opp_owner":"Amelie Gantert",
 "opp_team_name":"The A(melie) Team",
-"opp_points":0.0,
-"bench_points":16.4,
-"optimal_points":16.4
+"opp_points":81.12,
+"bench_points":69.5,
+"optimal_points":165.82
 },
 "roster_week":7,
 "trades":[
@@ -13730,13 +13730,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"c2c-w7-42",
-"points":20.0,
+"points":68.6,
 "opp_slot_id":"C2C-05",
 "opp_owner":"Terrence Dai",
 "opp_team_name":"The Hypothetical Monopolists",
-"opp_points":22.12,
-"bench_points":0.0,
-"optimal_points":20.0
+"opp_points":69.72,
+"bench_points":46.0,
+"optimal_points":96.8
 },
 "roster_week":7,
 "power_rank":38,
@@ -13914,13 +13914,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"c2c-w7-42",
-"points":22.12,
+"points":69.72,
 "opp_slot_id":"C2C-04",
 "opp_owner":"Michael Gary",
 "opp_team_name":"12th man",
-"opp_points":20.0,
-"bench_points":1.3,
-"optimal_points":23.42
+"opp_points":68.6,
+"bench_points":32.1,
+"optimal_points":85.42
 },
 "roster_week":7,
 "power_rank":46,
@@ -14098,13 +14098,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"c2c-w7-41",
-"points":0.0,
+"points":102.7,
 "opp_slot_id":"C2C-12",
 "opp_owner":"Aseem Mahajan",
 "opp_team_name":"Aseem's Team",
-"opp_points":0.0,
-"bench_points":0.0,
-"optimal_points":0.0
+"opp_points":66.22,
+"bench_points":29.76,
+"optimal_points":119.46
 },
 "roster_week":7,
 "power_rank":22,
@@ -14282,13 +14282,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"c2c-w7-37",
-"points":0.0,
+"points":65.5,
 "opp_slot_id":"C2C-01",
 "opp_owner":"ManYee Yu",
 "opp_team_name":"Touch base in the end zone",
-"opp_points":0.0,
-"bench_points":0.0,
-"optimal_points":0.0
+"opp_points":85.38,
+"bench_points":21.3,
+"optimal_points":86.8
 },
 "roster_week":7,
 "power_rank":71,
@@ -14467,13 +14467,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"c2c-w7-40",
-"points":0.0,
+"points":81.12,
 "opp_slot_id":"C2C-03",
 "opp_owner":"Gaby Lichucki",
 "opp_team_name":"yay sports",
-"opp_points":0.0,
-"bench_points":0.0,
-"optimal_points":0.0
+"opp_points":129.62,
+"bench_points":17.5,
+"optimal_points":86.6
 },
 "roster_week":7,
 "power_rank":14,
@@ -14648,13 +14648,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"c2c-w7-38",
-"points":14.0,
+"points":35.3,
 "opp_slot_id":"C2C-11",
 "opp_owner":"Karthick Hemmanuer",
 "opp_team_name":"We're a basketball city anyways",
-"opp_points":38.04,
-"bench_points":0.0,
-"optimal_points":14.0
+"opp_points":92.94,
+"bench_points":38.96,
+"optimal_points":74.26
 },
 "roster_week":7,
 "power_rank":75,
@@ -14832,13 +14832,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"c2c-w7-39",
-"points":17.0,
+"points":72.72,
 "opp_slot_id":"C2C-02",
 "opp_owner":"Alec Brockell",
 "opp_team_name":"futbol americano",
-"opp_points":30.6,
-"bench_points":0.0,
-"optimal_points":17.0
+"opp_points":113.68,
+"bench_points":53.58,
+"optimal_points":102.82
 },
 "roster_week":7,
 "power_rank":66,
@@ -15003,13 +15003,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"c2c-w7-38",
-"points":38.04,
+"points":92.94,
 "opp_slot_id":"C2C-09",
 "opp_owner":"Ande Shen",
 "opp_team_name":"Ande's Awesome Team",
-"opp_points":14.0,
-"bench_points":3.8,
-"optimal_points":41.84
+"opp_points":35.3,
+"bench_points":49.92,
+"optimal_points":106.14
 },
 "roster_week":7,
 "power_rank":43,
@@ -15174,13 +15174,13 @@
 "in_progress":{
 "week":7,
 "matchup_key":"c2c-w7-41",
-"points":0.0,
+"points":66.22,
 "opp_slot_id":"C2C-06",
 "opp_owner":"Rich Riley",
 "opp_team_name":"Rich's Rowdy Team",
-"opp_points":0.0,
-"bench_points":0.0,
-"optimal_points":0.0
+"opp_points":102.7,
+"bench_points":46.3,
+"optimal_points":105.9
 },
 "roster_week":7,
 "trades":[
