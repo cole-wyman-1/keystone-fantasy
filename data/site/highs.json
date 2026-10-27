@@ -371,6 +371,68 @@
 "points":142.34,
 "team_id":12
 }
+},
+{
+"week":7,
+"per_league":{
+"EMP":{
+"slot_id":"EMP-10",
+"owner":"Jacob Salant",
+"team_name":"Team Salant",
+"points":130.38,
+"team_id":6
+},
+"GOT":{
+"slot_id":"GOT-09",
+"owner":"Julian Kurtzman",
+"team_name":"Julian's Scary Team",
+"points":131.28,
+"team_id":4
+},
+"BEA":{
+"slot_id":"BEA-02",
+"owner":"Justin Metz",
+"team_name":"LIFO The Party",
+"points":120.68,
+"team_id":10
+},
+"HAR":{
+"slot_id":"HAR-12",
+"owner":"Elisabeth Beltinger",
+"team_name":"Dumb Luck Club",
+"points":145.12,
+"team_id":2
+},
+"ALC":{
+"slot_id":"ALC-02",
+"owner":"Jonathan Wong",
+"team_name":"J Wong",
+"points":163.02,
+"team_id":5
+},
+"ALL":{
+"slot_id":"ALL-06",
+"owner":"Ben Lieber",
+"team_name":"Beliebe In Miracles",
+"points":167.92,
+"team_id":11
+},
+"C2C":{
+"slot_id":"C2C-03",
+"owner":"Gaby Lichucki",
+"team_name":"yay sports",
+"points":151.12,
+"team_id":11
+}
+},
+"overall":{
+"league_code":"ALL",
+"slot_id":"ALL-06",
+"owner":"Ben Lieber",
+"team_name":"Beliebe In Miracles",
+"points":167.92,
+"team_id":11
+}
 }
 ],
 "leaderboard":[
@@ -389,6 +451,20 @@
 "count":4
 },
 {
+"slot_id":"BEA-02",
+"owner":"Justin Metz",
+"league_code":"BEA",
+"team_name":"LIFO The Party",
+"count":3
+},
+{
+"slot_id":"C2C-03",
+"owner":"Gaby Lichucki",
+"league_code":"C2C",
+"team_name":"yay sports",
+"count":3
+},
+{
 "slot_id":"EMP-09",
 "owner":"Matt Gates",
 "league_code":"EMP",
@@ -396,10 +472,10 @@
 "count":2
 },
 {
-"slot_id":"BEA-02",
-"owner":"Justin Metz",
-"league_code":"BEA",
-"team_name":"LIFO The Party",
+"slot_id":"GOT-09",
+"owner":"Julian Kurtzman",
+"league_code":"GOT",
+"team_name":"Julian's Scary Team",
 "count":2
 },
 {
@@ -438,13 +514,6 @@
 "count":2
 },
 {
-"slot_id":"C2C-03",
-"owner":"Gaby Lichucki",
-"league_code":"C2C",
-"team_name":"yay sports",
-"count":2
-},
-{
 "slot_id":"C2C-06",
 "owner":"Rich Riley",
 "league_code":"C2C",
@@ -452,10 +521,10 @@
 "count":2
 },
 {
-"slot_id":"GOT-09",
-"owner":"Julian Kurtzman",
-"league_code":"GOT",
-"team_name":"Julian's Scary Team",
+"slot_id":"EMP-10",
+"owner":"Jacob Salant",
+"league_code":"EMP",
+"team_name":"Team Salant",
 "count":1
 },
 {
@@ -522,6 +591,13 @@
 "count":1
 },
 {
+"slot_id":"HAR-12",
+"owner":"Elisabeth Beltinger",
+"league_code":"HAR",
+"team_name":"Dumb Luck Club",
+"count":1
+},
+{
 "slot_id":"ALC-01",
 "owner":"Roberto Zuban",
 "league_code":"ALC",
@@ -536,6 +612,13 @@
 "count":1
 },
 {
+"slot_id":"ALC-02",
+"owner":"Jonathan Wong",
+"league_code":"ALC",
+"team_name":"J Wong",
+"count":1
+},
+{
 "slot_id":"ALL-05",
 "owner":"Ben Klopack",
 "league_code":"ALL",
@@ -547,6 +630,13 @@
 "owner":"Benjamin Christensen",
 "league_code":"ALL",
 "team_name":"Seapigeons",
+"count":1
+},
+{
+"slot_id":"ALL-06",
+"owner":"Ben Lieber",
+"league_code":"ALL",
+"team_name":"Beliebe In Miracles",
 "count":1
 },
 {
