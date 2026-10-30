@@ -1,5 +1,40 @@
 [
  {
+  "id": "747c9c5b-a48f-40db-b9e5-8b184d5356c8",
+  "status": "CANCELED",
+  "status_label": "canceled",
+  "proposed_utc": "2026-10-30T01:29:35+00:00",
+  "processed_utc": null,
+  "scoring_period": 8,
+  "proposer_team_id": 3,
+  "team_ids": [
+   3,
+   10
+  ],
+  "moves": [
+   {
+    "player_id": 4595348,
+    "from_team_id": 10,
+    "to_team_id": 3
+   },
+   {
+    "player_id": 4428557,
+    "from_team_id": 10,
+    "to_team_id": 3
+   },
+   {
+    "player_id": 12483,
+    "from_team_id": 3,
+    "to_team_id": 10
+   },
+   {
+    "player_id": 4887558,
+    "from_team_id": 3,
+    "to_team_id": 10
+   }
+  ]
+ },
+ {
   "id": "5ab67331-a59b-4fde-88b3-2cb9e07f6874",
   "status": "CANCELED",
   "status_label": "canceled",
