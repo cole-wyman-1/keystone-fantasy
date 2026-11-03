@@ -433,6 +433,68 @@
 "points":167.92,
 "team_id":11
 }
+},
+{
+"week":8,
+"per_league":{
+"EMP":{
+"slot_id":"EMP-08",
+"owner":"Cole Wyman",
+"team_name":"Manhattan Elitists",
+"points":135.72,
+"team_id":1
+},
+"GOT":{
+"slot_id":"GOT-06",
+"owner":"Zoe Stern",
+"team_name":"Zoe's Team",
+"points":157.6,
+"team_id":8
+},
+"BEA":{
+"slot_id":"BEA-02",
+"owner":"Justin Metz",
+"team_name":"LIFO The Party",
+"points":154.8,
+"team_id":10
+},
+"HAR":{
+"slot_id":"HAR-08",
+"owner":"Ranmit Pantle",
+"team_name":"Ranmit's Rudderless Randos",
+"points":155.86,
+"team_id":1
+},
+"ALC":{
+"slot_id":"ALC-09",
+"owner":"Sam Hoffman",
+"team_name":"Sam's Calling for Hikes",
+"points":141.34,
+"team_id":3
+},
+"ALL":{
+"slot_id":"ALL-03",
+"owner":"Jeff Marowits",
+"team_name":"Unreasonable Hostility",
+"points":167.88,
+"team_id":5
+},
+"C2C":{
+"slot_id":"C2C-01",
+"owner":"ManYee Yu",
+"team_name":"Touch base in the end zone",
+"points":149.08,
+"team_id":3
+}
+},
+"overall":{
+"league_code":"ALL",
+"slot_id":"ALL-03",
+"owner":"Jeff Marowits",
+"team_name":"Unreasonable Hostility",
+"points":167.88,
+"team_id":5
+}
 }
 ],
 "leaderboard":[
@@ -455,7 +517,7 @@
 "owner":"Justin Metz",
 "league_code":"BEA",
 "team_name":"LIFO The Party",
-"count":3
+"count":4
 },
 {
 "slot_id":"C2C-03",
@@ -483,6 +545,13 @@
 "owner":"Caroline Scala",
 "league_code":"HAR",
 "team_name":"Sunday Scaries",
+"count":2
+},
+{
+"slot_id":"HAR-08",
+"owner":"Ranmit Pantle",
+"league_code":"HAR",
+"team_name":"Ranmit's Rudderless Randos",
 "count":2
 },
 {
@@ -528,10 +597,24 @@
 "count":1
 },
 {
+"slot_id":"EMP-08",
+"owner":"Cole Wyman",
+"league_code":"EMP",
+"team_name":"Manhattan Elitists",
+"count":1
+},
+{
 "slot_id":"GOT-02",
 "owner":"Santiago Castillo",
 "league_code":"GOT",
 "team_name":"Fries in the Bag",
+"count":1
+},
+{
+"slot_id":"GOT-06",
+"owner":"Zoe Stern",
+"league_code":"GOT",
+"team_name":"Zoe's Team",
 "count":1
 },
 {
@@ -584,13 +667,6 @@
 "count":1
 },
 {
-"slot_id":"HAR-08",
-"owner":"Ranmit Pantle",
-"league_code":"HAR",
-"team_name":"Ranmit's Rudderless Randos",
-"count":1
-},
-{
 "slot_id":"HAR-12",
 "owner":"Elisabeth Beltinger",
 "league_code":"HAR",
@@ -619,6 +695,13 @@
 "count":1
 },
 {
+"slot_id":"ALC-09",
+"owner":"Sam Hoffman",
+"league_code":"ALC",
+"team_name":"Sam's Calling for Hikes",
+"count":1
+},
+{
 "slot_id":"ALL-05",
 "owner":"Ben Klopack",
 "league_code":"ALL",
@@ -640,6 +723,13 @@
 "count":1
 },
 {
+"slot_id":"ALL-03",
+"owner":"Jeff Marowits",
+"league_code":"ALL",
+"team_name":"Unreasonable Hostility",
+"count":1
+},
+{
 "slot_id":"C2C-10",
 "owner":"Kylie Sagisi",
 "league_code":"C2C",
@@ -651,6 +741,13 @@
 "owner":"Alec Brockell",
 "league_code":"C2C",
 "team_name":"futbol americano",
+"count":1
+},
+{
+"slot_id":"C2C-01",
+"owner":"ManYee Yu",
+"league_code":"C2C",
+"team_name":"Touch base in the end zone",
 "count":1
 }
 ]
