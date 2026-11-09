@@ -1,278 +1,278 @@
 {
-"week":8,
-"as_of_utc":"2026-11-02T19:28:41+00:00",
+"week":9,
+"as_of_utc":"2026-11-09T19:47:12+00:00",
 "candidates":42,
 "sweats":[
 {
-"key":"emp-w8-43",
-"league_code":"EMP",
-"league_name":"Empire League",
-"week":8,
-"win_prob_source":"espn",
-"leader":"home",
-"lead":12.86,
-"home":{
-"team_id":7,
-"slot_id":"EMP-07",
-"owner":"Kelton Berry",
-"team_name":"Kelton's Deluxe Team",
-"abbrev":"KDT",
-"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/11.svg",
-"points":64.06,
-"projected":73.47,
-"espn_win_prob":0.47,
-"remaining":[
-{
-"name":"Colston Loveland",
-"position":"TE",
-"pro_team":"CHI",
-"projected":9.4,
-"game":"at SEA",
-"game_utc":"2026-11-03T01:15:00+00:00"
-}
-],
-"est_win_prob":0.472,
-"win_prob":0.47
-},
-"away":{
-"team_id":12,
-"slot_id":"EMP-11",
-"owner":"Victoire Cagniart",
-"team_name":"Victoire's Spirited Team",
-"abbrev":"VST",
-"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/18.svg",
-"points":51.2,
-"projected":74.32,
-"espn_win_prob":0.53,
-"remaining":[
-{
-"name":"Caleb Williams",
-"position":"QB",
-"pro_team":"CHI",
-"projected":15.5,
-"game":"at SEA",
-"game_utc":"2026-11-03T01:15:00+00:00"
-},
-{
-"name":"Rome Odunze",
-"position":"WR",
-"pro_team":"CHI",
-"projected":7.6,
-"game":"at SEA",
-"game_utc":"2026-11-03T01:15:00+00:00"
-}
-],
-"est_win_prob":0.528,
-"win_prob":0.53
-}
-},
-{
-"key":"alc-w8-45",
+"key":"alc-w9-54",
 "league_code":"ALC",
 "league_name":"Alumni Classic",
-"week":8,
+"week":9,
 "win_prob_source":"espn",
 "leader":"away",
-"lead":16.74,
+"lead":14.02,
 "home":{
-"team_id":12,
-"slot_id":"ALC-08",
-"owner":"Hersh lakdawala",
-"team_name":"The Ja’Marrican Dream",
-"abbrev":"USA",
-"logo":"https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-7.svg",
-"points":124.6,
-"projected":140.08,
-"espn_win_prob":0.43,
+"team_id":4,
+"slot_id":"ALC-07",
+"owner":"Danielle Collazo",
+"team_name":"The Jets",
+"abbrev":"NY",
+"logo":"https://g.espncdn.com/lm-static/logo-packs/core/CatsAndDogs/cats_dogs-6.svg",
+"points":75.26,
+"projected":90.36,
+"espn_win_prob":0.56,
 "remaining":[
 {
-"name":"Caleb Williams",
-"position":"QB",
-"pro_team":"CHI",
-"projected":15.5,
-"game":"at SEA",
-"game_utc":"2026-11-03T01:15:00+00:00"
+"name":"Justin Jefferson",
+"position":"WR",
+"pro_team":"MIN",
+"projected":15.1,
+"game":"vs BUF",
+"game_utc":"2026-11-10T01:15:00+00:00"
 }
 ],
-"est_win_prob":0.447,
-"win_prob":0.43
+"est_win_prob":0.547,
+"win_prob":0.56
 },
 "away":{
-"team_id":3,
-"slot_id":"ALC-09",
-"owner":"Sam Hoffman",
-"team_name":"Sam's Calling for Hikes",
-"abbrev":"SCH",
-"logo":"https://g.espncdn.com/lm-static/logo-packs/ffl/BlitznBears-MartinLaksman/bears-01.svg",
-"points":141.34,
-"projected":141.34,
-"espn_win_prob":0.57,
+"team_id":1,
+"slot_id":"ALC-12",
+"owner":"League Manager",
+"team_name":"Key's Top-Notch Team",
+"abbrev":"KTT",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg",
+"points":89.28,
+"projected":89.28,
+"espn_win_prob":0.44,
 "remaining":[],
-"est_win_prob":0.553,
-"win_prob":0.57
+"est_win_prob":0.453,
+"win_prob":0.44
 }
 },
 {
-"key":"all-w8-43",
-"league_code":"ALL",
-"league_name":"Alumni Legends",
-"week":8,
+"key":"alc-w9-49",
+"league_code":"ALC",
+"league_name":"Alumni Classic",
+"week":9,
+"win_prob_source":"espn",
+"leader":"away",
+"lead":0.14,
+"home":{
+"team_id":2,
+"slot_id":"ALC-06",
+"owner":"Cuau Trevino",
+"team_name":"Cuau MX",
+"abbrev":"CUAU",
+"logo":"https://g.espncdn.com/lm-static/logo-packs/core/DIS_Avengers_EndGame/DIS_Avengers_EndGame_Capt_America.svg",
+"points":91.4,
+"projected":100.63,
+"espn_win_prob":0.42,
+"remaining":[
+{
+"name":"Jordan Addison",
+"position":"WR",
+"pro_team":"MIN",
+"projected":9.2,
+"game":"vs BUF",
+"game_utc":"2026-11-10T01:15:00+00:00"
+}
+],
+"est_win_prob":0.432,
+"win_prob":0.42
+},
+"away":{
+"team_id":7,
+"slot_id":"ALC-04",
+"owner":"Akshay Goel",
+"team_name":"First and Goel",
+"abbrev":"AAT",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/11.svg",
+"points":91.54,
+"projected":102.06,
+"espn_win_prob":0.58,
+"remaining":[
+{
+"name":"DJ Moore",
+"position":"WR",
+"pro_team":"BUF",
+"projected":10.5,
+"game":"at MIN",
+"game_utc":"2026-11-10T01:15:00+00:00"
+}
+],
+"est_win_prob":0.568,
+"win_prob":0.58
+}
+},
+{
+"key":"bea-w9-53",
+"league_code":"BEA",
+"league_name":"Beantown League",
+"week":9,
 "win_prob_source":"espn",
 "leader":"home",
-"lead":20.78,
+"lead":31.82,
 "home":{
+"team_id":10,
+"slot_id":"BEA-02",
+"owner":"Justin Metz",
+"team_name":"LIFO The Party",
+"abbrev":"LIFO",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/8.svg",
+"points":118.78,
+"projected":118.78,
+"espn_win_prob":0.4,
+"remaining":[],
+"est_win_prob":0.365,
+"win_prob":0.4
+},
+"away":{
+"team_id":6,
+"slot_id":"BEA-07",
+"owner":"Christopher Teixeira",
+"team_name":"Maye Flower",
+"abbrev":"MF",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/14.svg",
+"points":86.96,
+"projected":123.41,
+"espn_win_prob":0.6,
+"remaining":[
+{
+"name":"James Cook III",
+"position":"RB",
+"pro_team":"BUF",
+"projected":17.5,
+"game":"at MIN",
+"game_utc":"2026-11-10T01:15:00+00:00"
+},
+{
+"name":"Tyler Bass",
+"position":"K",
+"pro_team":"BUF",
+"projected":10.5,
+"game":"at MIN",
+"game_utc":"2026-11-10T01:15:00+00:00"
+},
+{
+"name":"T.J. Hockenson",
+"position":"TE",
+"pro_team":"MIN",
+"projected":8.4,
+"game":"vs BUF",
+"game_utc":"2026-11-10T01:15:00+00:00"
+}
+],
+"est_win_prob":0.635,
+"win_prob":0.6
+}
+},
+{
+"key":"all-w9-49",
+"league_code":"ALL",
+"league_name":"Alumni Legends",
+"week":9,
+"win_prob_source":"espn",
+"leader":"away",
+"lead":2.9,
+"home":{
+"team_id":11,
+"slot_id":"ALL-06",
+"owner":"Ben Lieber",
+"team_name":"Beliebe In Miracles",
+"abbrev":"BBT",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/5.svg",
+"points":78.96,
+"projected":94.06,
+"espn_win_prob":0.63,
+"remaining":[
+{
+"name":"Justin Jefferson",
+"position":"WR",
+"pro_team":"MIN",
+"projected":15.1,
+"game":"vs BUF",
+"game_utc":"2026-11-10T01:15:00+00:00"
+}
+],
+"est_win_prob":0.611,
+"win_prob":0.63
+},
+"away":{
 "team_id":1,
 "slot_id":"ALL-12",
 "owner":"League Manager",
 "team_name":"The Commissioner",
 "abbrev":"COLE",
 "logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg",
-"points":108.06,
-"projected":108.06,
-"espn_win_prob":0.63,
-"remaining":[],
-"est_win_prob":0.593,
-"win_prob":0.63
-},
-"away":{
-"team_id":9,
-"slot_id":"ALL-11",
-"owner":"Max Gross",
-"team_name":"Max's Magnificent Team",
-"abbrev":"MMT",
-"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/4.svg",
-"points":87.28,
-"projected":105.5,
+"points":81.86,
+"projected":91.09,
 "espn_win_prob":0.37,
 "remaining":[
 {
-"name":"Jaxon Smith-Njigba",
+"name":"Jordan Addison",
 "position":"WR",
-"pro_team":"SEA",
-"projected":18.2,
-"game":"vs CHI",
-"game_utc":"2026-11-03T01:15:00+00:00"
+"pro_team":"MIN",
+"projected":9.2,
+"game":"vs BUF",
+"game_utc":"2026-11-10T01:15:00+00:00"
 }
 ],
-"est_win_prob":0.407,
+"est_win_prob":0.389,
 "win_prob":0.37
 }
 },
 {
-"key":"bea-w8-43",
-"league_code":"BEA",
-"league_name":"Beantown League",
-"week":8,
-"win_prob_source":"espn",
-"leader":"home",
-"lead":22.52,
-"home":{
-"team_id":4,
-"slot_id":"BEA-10",
-"owner":"Nadir Tekarli",
-"team_name":"Salt Lake Dirty Sodas",
-"abbrev":"SLDs",
-"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/12.svg",
-"points":103.58,
-"projected":103.58,
-"espn_win_prob":0.3,
-"remaining":[],
-"est_win_prob":0.305,
-"win_prob":0.3
-},
-"away":{
-"team_id":9,
-"slot_id":"BEA-11",
-"owner":"Prateek Mehta",
-"team_name":"Prateek's Perfect Team",
-"abbrev":"PPT",
-"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/4.svg",
-"points":81.06,
-"projected":110.08,
-"espn_win_prob":0.7,
-"remaining":[
-{
-"name":"Jaxon Smith-Njigba",
-"position":"WR",
-"pro_team":"SEA",
-"projected":18.2,
-"game":"vs CHI",
-"game_utc":"2026-11-03T01:15:00+00:00"
-},
-{
-"name":"Luther Burden III",
-"position":"WR",
-"pro_team":"CHI",
-"projected":10.8,
-"game":"at SEA",
-"game_utc":"2026-11-03T01:15:00+00:00"
-}
-],
-"est_win_prob":0.695,
-"win_prob":0.7
-}
-},
-{
-"key":"all-w8-47",
+"key":"all-w9-52",
 "league_code":"ALL",
 "league_name":"Alumni Legends",
-"week":8,
+"week":9,
 "win_prob_source":"espn",
 "leader":"home",
-"lead":5.26,
+"lead":45.68,
 "home":{
+"team_id":7,
+"slot_id":"ALL-09",
+"owner":"Omer Khan",
+"team_name":"Omer's Otherworldly Team",
+"abbrev":"OOT",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/11.svg",
+"points":132.18,
+"projected":132.18,
+"espn_win_prob":0.67,
+"remaining":[],
+"est_win_prob":0.699,
+"win_prob":0.67
+},
+"away":{
 "team_id":2,
 "slot_id":"ALL-04",
 "owner":"Jacob Lehman",
 "team_name":"K-Pop Lehman's Punters",
 "abbrev":"KPLP",
 "logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/19.svg",
-"points":109.96,
-"projected":115.76,
-"espn_win_prob":0.28,
+"points":86.5,
+"projected":123.97,
+"espn_win_prob":0.33,
 "remaining":[
 {
-"name":"Seahawks D/ST",
-"position":"D/ST",
-"pro_team":"SEA",
-"projected":5.8,
-"game":"vs CHI",
-"game_utc":"2026-11-03T01:15:00+00:00"
-}
-],
-"est_win_prob":0.273,
-"win_prob":0.28
-},
-"away":{
-"team_id":8,
-"slot_id":"ALL-08",
-"owner":"Andre Costa",
-"team_name":"Andre's Astounding Team",
-"abbrev":"AAT",
-"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/16.svg",
-"points":104.7,
-"projected":120.64,
-"espn_win_prob":0.72,
-"remaining":[
-{
-"name":"Jason Myers",
-"position":"K",
-"pro_team":"SEA",
-"projected":9.5,
-"game":"vs CHI",
-"game_utc":"2026-11-03T01:15:00+00:00"
+"name":"Josh Allen",
+"position":"QB",
+"pro_team":"BUF",
+"projected":19.9,
+"game":"at MIN",
+"game_utc":"2026-11-10T01:15:00+00:00"
 },
 {
-"name":"Emanuel Wilson",
+"name":"James Cook III",
 "position":"RB",
-"pro_team":"SEA",
-"projected":6.4,
-"game":"vs CHI",
-"game_utc":"2026-11-03T01:15:00+00:00"
+"pro_team":"BUF",
+"projected":17.5,
+"game":"at MIN",
+"game_utc":"2026-11-10T01:15:00+00:00"
 }
 ],
-"est_win_prob":0.727,
-"win_prob":0.72
+"est_win_prob":0.301,
+"win_prob":0.33
 }
 }
 ]
