@@ -1498,7 +1498,7 @@
 },
 "9":{
 "week":9,
-"complete":false,
+"complete":true,
 "matchups":[
 {
 "key":"emp-w9-49",
@@ -1520,12 +1520,12 @@
 "team_name":"Kelton's Deluxe Team",
 "abbrev":"KDT",
 "logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/11.svg",
-"points":54.5,
+"points":67.36,
 "bench_points":29.94,
-"optimal_points":78.32
+"optimal_points":79.96
 },
-"winner":"UNDECIDED",
-"margin":4.1,
+"winner":"AWAY",
+"margin":16.96,
 "playoff_tier":"NONE"
 },
 {
@@ -1537,9 +1537,9 @@
 "team_name":"Victoire's Spirited Team",
 "abbrev":"VST",
 "logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/18.svg",
-"points":76.16,
-"bench_points":38.2,
-"optimal_points":101.6
+"points":92.86,
+"bench_points":43.5,
+"optimal_points":118.3
 },
 "away":{
 "team_id":11,
@@ -1549,11 +1549,11 @@
 "abbrev":"AAT",
 "logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/5.svg",
 "points":71.34,
-"bench_points":43.18,
+"bench_points":43.38,
 "optimal_points":89.24
 },
-"winner":"UNDECIDED",
-"margin":4.82,
+"winner":"HOME",
+"margin":21.52,
 "playoff_tier":"NONE"
 },
 {
@@ -1576,12 +1576,12 @@
 "team_name":"Druv's Daring Team",
 "abbrev":"DDT",
 "logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/19.svg",
-"points":84.56,
-"bench_points":13.9,
-"optimal_points":91.06
+"points":108.66,
+"bench_points":25.1,
+"optimal_points":110.86
 },
-"winner":"UNDECIDED",
-"margin":81.42,
+"winner":"HOME",
+"margin":57.32,
 "playoff_tier":"NONE"
 },
 {
@@ -1593,7 +1593,7 @@
 "team_name":"System of a 1st Down",
 "abbrev":"SO1D",
 "logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/4.svg",
-"points":50.8,
+"points":57.7,
 "bench_points":83.4,
 "optimal_points":119.6
 },
@@ -1605,11 +1605,11 @@
 "abbrev":"JAS",
 "logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/14.svg",
 "points":78.28,
-"bench_points":27.4,
+"bench_points":31.2,
 "optimal_points":94.68
 },
-"winner":"UNDECIDED",
-"margin":27.48,
+"winner":"AWAY",
+"margin":20.58,
 "playoff_tier":"NONE"
 },
 {
@@ -1636,7 +1636,7 @@
 "bench_points":23.9,
 "optimal_points":99.0
 },
-"winner":"UNDECIDED",
+"winner":"HOME",
 "margin":13.24,
 "playoff_tier":"NONE"
 },
@@ -1649,9 +1649,9 @@
 "team_name":"Benjamin's Best Team",
 "abbrev":"BBT",
 "logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/20.svg",
-"points":88.68,
+"points":106.78,
 "bench_points":51.58,
-"optimal_points":109.48
+"optimal_points":124.88
 },
 "away":{
 "team_id":4,
@@ -1661,11 +1661,198 @@
 "abbrev":"MMT",
 "logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/12.svg",
 "points":165.86,
-"bench_points":52.74,
+"bench_points":55.94,
 "optimal_points":184.14
 },
+"winner":"AWAY",
+"margin":59.08,
+"playoff_tier":"NONE"
+}
+],
+"high":{
+"slot_id":"EMP-08",
+"owner":"Cole Wyman",
+"team_name":"Manhattan Elitists",
+"points":165.98,
+"team_id":1
+},
+"low":{
+"slot_id":"EMP-01",
+"owner":"Prajeet Sarker",
+"team_name":"TheGenoSmithExperience",
+"points":50.4
+}
+},
+"10":{
+"week":10,
+"complete":false,
+"matchups":[
+{
+"key":"emp-w10-55",
+"home":{
+"team_id":7,
+"slot_id":"EMP-07",
+"owner":"Kelton Berry",
+"team_name":"Kelton's Deluxe Team",
+"abbrev":"KDT",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/11.svg",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
+},
+"away":{
+"team_id":11,
+"slot_id":"EMP-12",
+"owner":"Amelia Ockert",
+"team_name":"Amelia's Awesome Team",
+"abbrev":"AAT",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/5.svg",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
+},
 "winner":"UNDECIDED",
-"margin":77.18,
+"margin":0.0,
+"playoff_tier":"NONE"
+},
+{
+"key":"emp-w10-56",
+"home":{
+"team_id":2,
+"slot_id":"EMP-03",
+"owner":"Druv Murthy",
+"team_name":"Druv's Daring Team",
+"abbrev":"DDT",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/19.svg",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
+},
+"away":{
+"team_id":8,
+"slot_id":"EMP-01",
+"owner":"Prajeet Sarker",
+"team_name":"TheGenoSmithExperience",
+"abbrev":"TGSE",
+"logo":"https://mystique-api.fantasy.espn.com/apis/v1/domains/lm/images/2bd94100-ab8e-11f1-9afc-5feb43d211a1",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
+},
+"winner":"UNDECIDED",
+"margin":0.0,
+"playoff_tier":"NONE"
+},
+{
+"key":"emp-w10-57",
+"home":{
+"team_id":6,
+"slot_id":"EMP-10",
+"owner":"Jacob Salant",
+"team_name":"Team Salant",
+"abbrev":"JAS",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/14.svg",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
+},
+"away":{
+"team_id":12,
+"slot_id":"EMP-11",
+"owner":"Victoire Cagniart",
+"team_name":"Victoire's Spirited Team",
+"abbrev":"VST",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/18.svg",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
+},
+"winner":"UNDECIDED",
+"margin":0.0,
+"playoff_tier":"NONE"
+},
+{
+"key":"emp-w10-58",
+"home":{
+"team_id":10,
+"slot_id":"EMP-05",
+"owner":"Bradley Hart",
+"team_name":"Synergistic optimization",
+"abbrev":"SYNG",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/8.svg",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
+},
+"away":{
+"team_id":1,
+"slot_id":"EMP-08",
+"owner":"Cole Wyman",
+"team_name":"Manhattan Elitists",
+"abbrev":"NYC",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
+},
+"winner":"UNDECIDED",
+"margin":0.0,
+"playoff_tier":"NONE"
+},
+{
+"key":"emp-w10-59",
+"home":{
+"team_id":4,
+"slot_id":"EMP-09",
+"owner":"Matt Gates",
+"team_name":"Aussie Aussie Aussie Oi Oi Oi",
+"abbrev":"MMT",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/12.svg",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
+},
+"away":{
+"team_id":9,
+"slot_id":"EMP-04",
+"owner":"Zach Macdonald",
+"team_name":"System of a 1st Down",
+"abbrev":"SO1D",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/4.svg",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
+},
+"winner":"UNDECIDED",
+"margin":0.0,
+"playoff_tier":"NONE"
+},
+{
+"key":"emp-w10-60",
+"home":{
+"team_id":3,
+"slot_id":"EMP-06",
+"owner":"Ben Feldman",
+"team_name":"Benjamin's Best Team",
+"abbrev":"BBT",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/20.svg",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
+},
+"away":{
+"team_id":5,
+"slot_id":"EMP-02",
+"owner":"Anita Bushnell",
+"team_name":"Drake and Goff",
+"abbrev":"DAG",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/1.svg",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
+},
+"winner":"UNDECIDED",
+"margin":0.0,
 "playoff_tier":"NONE"
 }
 ]
@@ -3170,7 +3357,7 @@
 },
 "9":{
 "week":9,
-"complete":false,
+"complete":true,
 "matchups":[
 {
 "key":"got-w9-49",
@@ -3182,7 +3369,7 @@
 "abbrev":"JST",
 "logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/12.svg",
 "points":109.3,
-"bench_points":13.3,
+"bench_points":18.5,
 "optimal_points":114.9
 },
 "away":{
@@ -3192,12 +3379,12 @@
 "team_name":"Benjy's Pass Breakup",
 "abbrev":"BBT",
 "logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/20.svg",
-"points":108.2,
-"bench_points":21.92,
-"optimal_points":111.3
+"points":112.0,
+"bench_points":26.22,
+"optimal_points":114.0
 },
-"winner":"UNDECIDED",
-"margin":1.1,
+"winner":"AWAY",
+"margin":2.7,
 "playoff_tier":"NONE"
 },
 {
@@ -3210,8 +3397,8 @@
 "abbrev":"FITB",
 "logo":"https://g.espncdn.com/lm-static/logo-packs/core/StadiumFoods-ESPN/stadium-foods_french-fries.svg",
 "points":106.86,
-"bench_points":61.4,
-"optimal_points":123.96
+"bench_points":83.4,
+"optimal_points":132.76
 },
 "away":{
 "team_id":9,
@@ -3224,7 +3411,7 @@
 "bench_points":29.74,
 "optimal_points":89.76
 },
-"winner":"UNDECIDED",
+"winner":"HOME",
 "margin":27.3,
 "playoff_tier":"NONE"
 },
@@ -3238,7 +3425,7 @@
 "abbrev":"ZS",
 "logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/16.svg",
 "points":97.88,
-"bench_points":63.1,
+"bench_points":65.9,
 "optimal_points":118.48
 },
 "away":{
@@ -3248,12 +3435,12 @@
 "team_name":"Key's Top-Notch Team",
 "abbrev":"KTT",
 "logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg",
-"points":65.7,
+"points":78.7,
 "bench_points":26.7,
-"optimal_points":76.6
+"optimal_points":89.6
 },
-"winner":"UNDECIDED",
-"margin":32.18,
+"winner":"HOME",
+"margin":19.18,
 "playoff_tier":"NONE"
 },
 {
@@ -3265,9 +3452,9 @@
 "team_name":"Rohan's Rowdy Team",
 "abbrev":"RRT",
 "logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/8.svg",
-"points":60.5,
+"points":88.36,
 "bench_points":42.3,
-"optimal_points":86.1
+"optimal_points":113.96
 },
 "away":{
 "team_id":5,
@@ -3276,12 +3463,12 @@
 "team_name":"Rob-in the Win",
 "abbrev":"RTW",
 "logo":"https://g.espncdn.com/lm-static/logo-packs/core/CatsAndDogs/cats_dogs-2.svg",
-"points":92.92,
-"bench_points":27.74,
-"optimal_points":104.92
+"points":101.92,
+"bench_points":35.54,
+"optimal_points":109.72
 },
-"winner":"UNDECIDED",
-"margin":32.42,
+"winner":"AWAY",
+"margin":13.56,
 "playoff_tier":"NONE"
 },
 {
@@ -3294,7 +3481,7 @@
 "abbrev":"AAT",
 "logo":"https://g.espncdn.com/lm-static/logo-packs/ffl/AtTheStadium-RobbHarskamp/At_The_Stadium_05.svg",
 "points":137.98,
-"bench_points":25.8,
+"bench_points":29.0,
 "optimal_points":140.58
 },
 "away":{
@@ -3305,10 +3492,10 @@
 "abbrev":"AA",
 "logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/11.svg",
 "points":155.9,
-"bench_points":54.58,
+"bench_points":60.58,
 "optimal_points":186.78
 },
-"winner":"UNDECIDED",
+"winner":"AWAY",
 "margin":17.92,
 "playoff_tier":"NONE"
 },
@@ -3321,7 +3508,7 @@
 "team_name":"End Zone Sloane",
 "abbrev":"EZS",
 "logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/14.svg",
-"points":82.88,
+"points":87.98,
 "bench_points":62.54,
 "optimal_points":124.94
 },
@@ -3332,12 +3519,199 @@
 "team_name":"Sahil's Game of Throws",
 "abbrev":"SGT",
 "logo":"https://g.espncdn.com/lm-static/logo-packs/ffl/BoneHeads-ToddDetwiler/BoneHeads-10.svg",
-"points":67.12,
+"points":74.42,
 "bench_points":79.7,
-"optimal_points":132.1
+"optimal_points":134.8
+},
+"winner":"HOME",
+"margin":13.56,
+"playoff_tier":"NONE"
+}
+],
+"high":{
+"slot_id":"GOT-01",
+"owner":"Alice Khayami",
+"team_name":"Bijan Mustard",
+"points":155.9,
+"team_id":7
+},
+"low":{
+"slot_id":"GOT-04",
+"owner":"Sahil Singh",
+"team_name":"Sahil's Game of Throws",
+"points":74.42
+}
+},
+"10":{
+"week":10,
+"complete":false,
+"matchups":[
+{
+"key":"got-w10-55",
+"home":{
+"team_id":3,
+"slot_id":"GOT-05",
+"owner":"Benjamin Sango",
+"team_name":"Benjy's Pass Breakup",
+"abbrev":"BBT",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/20.svg",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
+},
+"away":{
+"team_id":9,
+"slot_id":"GOT-10",
+"owner":"Bogdan Hamilton",
+"team_name":"Bogdan's Brilliant Team",
+"abbrev":"BBT",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/4.svg",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
 },
 "winner":"UNDECIDED",
-"margin":15.76,
+"margin":0.0,
+"playoff_tier":"NONE"
+},
+{
+"key":"got-w10-56",
+"home":{
+"team_id":1,
+"slot_id":"GOT-12",
+"owner":"League Manager",
+"team_name":"Key's Top-Notch Team",
+"abbrev":"KTT",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
+},
+"away":{
+"team_id":4,
+"slot_id":"GOT-09",
+"owner":"Julian Kurtzman",
+"team_name":"Julian's Scary Team",
+"abbrev":"JST",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/12.svg",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
+},
+"winner":"UNDECIDED",
+"margin":0.0,
+"playoff_tier":"NONE"
+},
+{
+"key":"got-w10-57",
+"home":{
+"team_id":5,
+"slot_id":"GOT-11",
+"owner":"Robert Mueller",
+"team_name":"Rob-in the Win",
+"abbrev":"RTW",
+"logo":"https://g.espncdn.com/lm-static/logo-packs/core/CatsAndDogs/cats_dogs-2.svg",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
+},
+"away":{
+"team_id":2,
+"slot_id":"GOT-02",
+"owner":"Santiago Castillo",
+"team_name":"Fries in the Bag",
+"abbrev":"FITB",
+"logo":"https://g.espncdn.com/lm-static/logo-packs/core/StadiumFoods-ESPN/stadium-foods_french-fries.svg",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
+},
+"winner":"UNDECIDED",
+"margin":0.0,
+"playoff_tier":"NONE"
+},
+{
+"key":"got-w10-58",
+"home":{
+"team_id":7,
+"slot_id":"GOT-01",
+"owner":"Alice Khayami",
+"team_name":"Bijan Mustard",
+"abbrev":"AA",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/11.svg",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
+},
+"away":{
+"team_id":8,
+"slot_id":"GOT-06",
+"owner":"Zoe Stern",
+"team_name":"Zoe's Team",
+"abbrev":"ZS",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/16.svg",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
+},
+"winner":"UNDECIDED",
+"margin":0.0,
+"playoff_tier":"NONE"
+},
+{
+"key":"got-w10-59",
+"home":{
+"team_id":11,
+"slot_id":"GOT-04",
+"owner":"Sahil Singh",
+"team_name":"Sahil's Game of Throws",
+"abbrev":"SGT",
+"logo":"https://g.espncdn.com/lm-static/logo-packs/ffl/BoneHeads-ToddDetwiler/BoneHeads-10.svg",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
+},
+"away":{
+"team_id":10,
+"slot_id":"GOT-07",
+"owner":"Rohan Bhargava",
+"team_name":"Rohan's Rowdy Team",
+"abbrev":"RRT",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/8.svg",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
+},
+"winner":"UNDECIDED",
+"margin":0.0,
+"playoff_tier":"NONE"
+},
+{
+"key":"got-w10-60",
+"home":{
+"team_id":6,
+"slot_id":"GOT-08",
+"owner":"Sloane Winters Holtzman",
+"team_name":"End Zone Sloane",
+"abbrev":"EZS",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/14.svg",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
+},
+"away":{
+"team_id":12,
+"slot_id":"GOT-03",
+"owner":"Ashutosh Bajpai",
+"team_name":"Ashutosh's Astounding Team",
+"abbrev":"AAT",
+"logo":"https://g.espncdn.com/lm-static/logo-packs/ffl/AtTheStadium-RobbHarskamp/At_The_Stadium_05.svg",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
+},
+"winner":"UNDECIDED",
+"margin":0.0,
 "playoff_tier":"NONE"
 }
 ]
@@ -4842,7 +5216,7 @@
 },
 "9":{
 "week":9,
-"complete":false,
+"complete":true,
 "matchups":[
 {
 "key":"bea-w9-49",
@@ -4864,12 +5238,12 @@
 "team_name":"Salt Lake Dirty Sodas",
 "abbrev":"SLDs",
 "logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/12.svg",
-"points":72.94,
+"points":76.74,
 "bench_points":70.48,
 "optimal_points":104.96
 },
-"winner":"UNDECIDED",
-"margin":41.12,
+"winner":"HOME",
+"margin":37.32,
 "playoff_tier":"NONE"
 },
 {
@@ -4882,7 +5256,7 @@
 "abbrev":"PPT",
 "logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/4.svg",
 "points":100.8,
-"bench_points":58.06,
+"bench_points":63.26,
 "optimal_points":120.14
 },
 "away":{
@@ -4892,12 +5266,12 @@
 "team_name":"James learns football",
 "abbrev":"JST",
 "logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/1.svg",
-"points":101.5,
+"points":114.36,
 "bench_points":54.7,
 "optimal_points":134.5
 },
-"winner":"UNDECIDED",
-"margin":0.7,
+"winner":"AWAY",
+"margin":13.56,
 "playoff_tier":"NONE"
 },
 {
@@ -4921,10 +5295,10 @@
 "abbrev":"KTT",
 "logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg",
 "points":99.4,
-"bench_points":39.4,
-"optimal_points":113.5
+"bench_points":56.2,
+"optimal_points":122.5
 },
-"winner":"UNDECIDED",
+"winner":"AWAY",
 "margin":34.4,
 "playoff_tier":"NONE"
 },
@@ -4937,7 +5311,7 @@
 "team_name":"Uncommon Champions",
 "abbrev":"UC",
 "logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/5.svg",
-"points":98.22,
+"points":103.32,
 "bench_points":50.58,
 "optimal_points":136.38
 },
@@ -4952,8 +5326,8 @@
 "bench_points":83.24,
 "optimal_points":87.56
 },
-"winner":"UNDECIDED",
-"margin":55.86,
+"winner":"HOME",
+"margin":60.96,
 "playoff_tier":"NONE"
 },
 {
@@ -4966,7 +5340,7 @@
 "abbrev":"LIFO",
 "logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/8.svg",
 "points":118.78,
-"bench_points":56.38,
+"bench_points":62.38,
 "optimal_points":132.28
 },
 "away":{
@@ -4976,12 +5350,12 @@
 "team_name":"Maye Flower",
 "abbrev":"MF",
 "logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/14.svg",
-"points":86.96,
-"bench_points":17.2,
-"optimal_points":89.66
+"points":121.96,
+"bench_points":24.1,
+"optimal_points":122.46
 },
-"winner":"UNDECIDED",
-"margin":31.82,
+"winner":"AWAY",
+"margin":3.18,
 "playoff_tier":"NONE"
 },
 {
@@ -5004,12 +5378,199 @@
 "team_name":"Peter's Totally Serious Team",
 "abbrev":"PWC",
 "logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/19.svg",
-"points":75.98,
+"points":83.48,
 "bench_points":39.84,
-"optimal_points":99.84
+"optimal_points":105.74
+},
+"winner":"HOME",
+"margin":47.46,
+"playoff_tier":"NONE"
+}
+],
+"high":{
+"slot_id":"BEA-05",
+"owner":"Lukas Marmanis",
+"team_name":"Ackshually Tyler SHOUGH",
+"points":130.94,
+"team_id":12
+},
+"low":{
+"slot_id":"BEA-06",
+"owner":"Sylee Dandekar",
+"team_name":"Sylee's Super Team",
+"points":42.36
+}
+},
+"10":{
+"week":10,
+"complete":false,
+"matchups":[
+{
+"key":"bea-w10-55",
+"home":{
+"team_id":4,
+"slot_id":"BEA-10",
+"owner":"Nadir Tekarli",
+"team_name":"Salt Lake Dirty Sodas",
+"abbrev":"SLDs",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/12.svg",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
+},
+"away":{
+"team_id":5,
+"slot_id":"BEA-03",
+"owner":"James Mulcahy",
+"team_name":"James learns football",
+"abbrev":"JST",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/1.svg",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
 },
 "winner":"UNDECIDED",
-"margin":54.96,
+"margin":0.0,
+"playoff_tier":"NONE"
+},
+{
+"key":"bea-w10-56",
+"home":{
+"team_id":1,
+"slot_id":"BEA-12",
+"owner":"Charlie Fairfax",
+"team_name":"Charlie's Team",
+"abbrev":"KTT",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
+},
+"away":{
+"team_id":8,
+"slot_id":"BEA-01",
+"owner":"Brittany Halks",
+"team_name":"Brittany's Brilliant Team",
+"abbrev":"BBT",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/16.svg",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
+},
+"winner":"UNDECIDED",
+"margin":0.0,
+"playoff_tier":"NONE"
+},
+{
+"key":"bea-w10-57",
+"home":{
+"team_id":7,
+"slot_id":"BEA-06",
+"owner":"Sylee Dandekar",
+"team_name":"Sylee's Super Team",
+"abbrev":"SST",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/11.svg",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
+},
+"away":{
+"team_id":9,
+"slot_id":"BEA-11",
+"owner":"Prateek Mehta",
+"team_name":"Prateek's Perfect Team",
+"abbrev":"PPT",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/4.svg",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
+},
+"winner":"UNDECIDED",
+"margin":0.0,
+"playoff_tier":"NONE"
+},
+{
+"key":"bea-w10-58",
+"home":{
+"team_id":6,
+"slot_id":"BEA-07",
+"owner":"Christopher Teixeira",
+"team_name":"Maye Flower",
+"abbrev":"MF",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/14.svg",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
+},
+"away":{
+"team_id":3,
+"slot_id":"BEA-08",
+"owner":"Bill Leith",
+"team_name":"Bill's Best Team",
+"abbrev":"BBT",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/20.svg",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
+},
+"winner":"UNDECIDED",
+"margin":0.0,
+"playoff_tier":"NONE"
+},
+{
+"key":"bea-w10-59",
+"home":{
+"team_id":2,
+"slot_id":"BEA-09",
+"owner":"Peter Chang",
+"team_name":"Peter's Totally Serious Team",
+"abbrev":"PWC",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/19.svg",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
+},
+"away":{
+"team_id":11,
+"slot_id":"BEA-04",
+"owner":"Jacqui Lemire",
+"team_name":"Uncommon Champions",
+"abbrev":"UC",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/5.svg",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
+},
+"winner":"UNDECIDED",
+"margin":0.0,
+"playoff_tier":"NONE"
+},
+{
+"key":"bea-w10-60",
+"home":{
+"team_id":12,
+"slot_id":"BEA-05",
+"owner":"Lukas Marmanis",
+"team_name":"Ackshually Tyler SHOUGH",
+"abbrev":"ATS",
+"logo":"https://mystique-api.fantasy.espn.com/apis/v1/domains/lm/images/064ab8d0-abfa-11f1-a12f-2b44c2a1875d",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
+},
+"away":{
+"team_id":10,
+"slot_id":"BEA-02",
+"owner":"Justin Metz",
+"team_name":"LIFO The Party",
+"abbrev":"LIFO",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/8.svg",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
+},
+"winner":"UNDECIDED",
+"margin":0.0,
 "playoff_tier":"NONE"
 }
 ]
@@ -6514,7 +7075,7 @@
 },
 "9":{
 "week":9,
-"complete":false,
+"complete":true,
 "matchups":[
 {
 "key":"har-w9-49",
@@ -6525,9 +7086,9 @@
 "team_name":"CoolName?utm_source=chatgpt.com",
 "abbrev":"TTT",
 "logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/4.svg",
-"points":143.9,
+"points":169.76,
 "bench_points":40.28,
-"optimal_points":169.88
+"optimal_points":188.46
 },
 "away":{
 "team_id":11,
@@ -6536,12 +7097,12 @@
 "team_name":"Doug's Dangerous Team",
 "abbrev":"DDT",
 "logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/5.svg",
-"points":75.84,
+"points":92.54,
 "bench_points":38.1,
-"optimal_points":99.84
+"optimal_points":111.34
 },
-"winner":"UNDECIDED",
-"margin":68.06,
+"winner":"HOME",
+"margin":77.22,
 "playoff_tier":"NONE"
 },
 {
@@ -6565,10 +7126,10 @@
 "abbrev":"BAS",
 "logo":"https://g.espncdn.com/lm-static/logo-packs/ffl/BlitznBears-MartinLaksman/bears-07.svg",
 "points":108.14,
-"bench_points":44.9,
+"bench_points":48.1,
 "optimal_points":135.84
 },
-"winner":"UNDECIDED",
+"winner":"HOME",
 "margin":0.02,
 "playoff_tier":"NONE"
 },
@@ -6581,9 +7142,9 @@
 "team_name":"Mimi Family",
 "abbrev":"Mimi",
 "logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/20.svg",
-"points":79.32,
+"points":85.32,
 "bench_points":58.54,
-"optimal_points":101.34
+"optimal_points":107.34
 },
 "away":{
 "team_id":8,
@@ -6593,11 +7154,11 @@
 "abbrev":"321",
 "logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/16.svg",
 "points":87.38,
-"bench_points":43.6,
-"optimal_points":122.78
+"bench_points":51.4,
+"optimal_points":123.98
 },
-"winner":"UNDECIDED",
-"margin":8.06,
+"winner":"AWAY",
+"margin":2.06,
 "playoff_tier":"NONE"
 },
 {
@@ -6609,9 +7170,9 @@
 "team_name":"All Vibes",
 "abbrev":"AVBS",
 "logo":"https://mystique-api.fantasy.espn.com/apis/v1/domains/lm/images/25019b70-aba2-11f1-8623-4f919cfbc4d9",
-"points":83.98,
-"bench_points":11.5,
-"optimal_points":88.08
+"points":96.58,
+"bench_points":16.7,
+"optimal_points":97.68
 },
 "away":{
 "team_id":5,
@@ -6624,8 +7185,8 @@
 "bench_points":51.3,
 "optimal_points":70.36
 },
-"winner":"UNDECIDED",
-"margin":50.52,
+"winner":"HOME",
+"margin":63.12,
 "playoff_tier":"NONE"
 },
 {
@@ -6638,7 +7199,7 @@
 "abbrev":"DLC",
 "logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/19.svg",
 "points":85.5,
-"bench_points":30.32,
+"bench_points":30.52,
 "optimal_points":96.3
 },
 "away":{
@@ -6649,10 +7210,10 @@
 "abbrev":"GGT",
 "logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/12.svg",
 "points":103.42,
-"bench_points":26.6,
-"optimal_points":118.6
+"bench_points":38.2,
+"optimal_points":119.6
 },
-"winner":"UNDECIDED",
+"winner":"AWAY",
 "margin":17.92,
 "playoff_tier":"NONE"
 },
@@ -6665,8 +7226,8 @@
 "team_name":"Sunday Scaries",
 "abbrev":"SS",
 "logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/11.svg",
-"points":136.24,
-"bench_points":71.68,
+"points":145.14,
+"bench_points":76.38,
 "optimal_points":170.68
 },
 "away":{
@@ -6676,12 +7237,199 @@
 "team_name":"Little Giants",
 "abbrev":"LG",
 "logo":"https://g.espncdn.com/lm-static/logo-packs/ffl/OldeTymeFootball-AndrewJanik/Warriors_18.svg",
-"points":90.9,
+"points":105.9,
 "bench_points":42.68,
-"optimal_points":114.1
+"optimal_points":129.1
+},
+"winner":"HOME",
+"margin":39.24,
+"playoff_tier":"NONE"
+}
+],
+"high":{
+"slot_id":"HAR-09",
+"owner":"Tyler Richards",
+"team_name":"CoolName?utm_source=chatgpt.com",
+"points":169.76,
+"team_id":9
+},
+"low":{
+"slot_id":"HAR-10",
+"owner":"Sowmya Sridhar",
+"team_name":"clueless part three",
+"points":33.46
+}
+},
+"10":{
+"week":10,
+"complete":false,
+"matchups":[
+{
+"key":"har-w10-55",
+"home":{
+"team_id":11,
+"slot_id":"HAR-04",
+"owner":"Douglas Kirkpatrick",
+"team_name":"Doug's Dangerous Team",
+"abbrev":"DDT",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/5.svg",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
+},
+"away":{
+"team_id":10,
+"slot_id":"HAR-06",
+"owner":"Brian Hunscher",
+"team_name":"All Sleepers",
+"abbrev":"BAS",
+"logo":"https://g.espncdn.com/lm-static/logo-packs/ffl/BlitznBears-MartinLaksman/bears-07.svg",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
 },
 "winner":"UNDECIDED",
-"margin":45.34,
+"margin":0.0,
+"playoff_tier":"NONE"
+},
+{
+"key":"har-w10-56",
+"home":{
+"team_id":8,
+"slot_id":"HAR-03",
+"owner":"Samuel Peter",
+"team_name":"Team 17",
+"abbrev":"321",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/16.svg",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
+},
+"away":{
+"team_id":9,
+"slot_id":"HAR-09",
+"owner":"Tyler Richards",
+"team_name":"CoolName?utm_source=chatgpt.com",
+"abbrev":"TTT",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/4.svg",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
+},
+"winner":"UNDECIDED",
+"margin":0.0,
+"playoff_tier":"NONE"
+},
+{
+"key":"har-w10-57",
+"home":{
+"team_id":5,
+"slot_id":"HAR-10",
+"owner":"Sowmya Sridhar",
+"team_name":"clueless part three",
+"abbrev":"CPT",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/1.svg",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
+},
+"away":{
+"team_id":1,
+"slot_id":"HAR-08",
+"owner":"Ranmit Pantle",
+"team_name":"Ranmit's Rudderless Randos",
+"abbrev":"RRR",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
+},
+"winner":"UNDECIDED",
+"margin":0.0,
+"playoff_tier":"NONE"
+},
+{
+"key":"har-w10-58",
+"home":{
+"team_id":4,
+"slot_id":"HAR-11",
+"owner":"Gabriele Corbetta",
+"team_name":"Gabriele's Great Team",
+"abbrev":"GGT",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/12.svg",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
+},
+"away":{
+"team_id":3,
+"slot_id":"HAR-02",
+"owner":"Nhi Dang",
+"team_name":"Mimi Family",
+"abbrev":"Mimi",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/20.svg",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
+},
+"winner":"UNDECIDED",
+"margin":0.0,
+"playoff_tier":"NONE"
+},
+{
+"key":"har-w10-59",
+"home":{
+"team_id":6,
+"slot_id":"HAR-05",
+"owner":"Jin Paik",
+"team_name":"Little Giants",
+"abbrev":"LG",
+"logo":"https://g.espncdn.com/lm-static/logo-packs/ffl/OldeTymeFootball-AndrewJanik/Warriors_18.svg",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
+},
+"away":{
+"team_id":12,
+"slot_id":"HAR-01",
+"owner":"Aaron White",
+"team_name":"All Vibes",
+"abbrev":"AVBS",
+"logo":"https://mystique-api.fantasy.espn.com/apis/v1/domains/lm/images/25019b70-aba2-11f1-8623-4f919cfbc4d9",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
+},
+"winner":"UNDECIDED",
+"margin":0.0,
+"playoff_tier":"NONE"
+},
+{
+"key":"har-w10-60",
+"home":{
+"team_id":7,
+"slot_id":"HAR-07",
+"owner":"Caroline Scala",
+"team_name":"Sunday Scaries",
+"abbrev":"SS",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/11.svg",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
+},
+"away":{
+"team_id":2,
+"slot_id":"HAR-12",
+"owner":"Elisabeth Beltinger",
+"team_name":"Dumb Luck Club",
+"abbrev":"DLC",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/19.svg",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
+},
+"winner":"UNDECIDED",
+"margin":0.0,
 "playoff_tier":"NONE"
 }
 ]
@@ -8186,7 +8934,7 @@
 },
 "9":{
 "week":9,
-"complete":false,
+"complete":true,
 "matchups":[
 {
 "key":"alc-w9-49",
@@ -8197,7 +8945,7 @@
 "team_name":"Cuau MX",
 "abbrev":"CUAU",
 "logo":"https://g.espncdn.com/lm-static/logo-packs/core/DIS_Avengers_EndGame/DIS_Avengers_EndGame_Capt_America.svg",
-"points":91.4,
+"points":95.2,
 "bench_points":24.64,
 "optimal_points":103.44
 },
@@ -8208,12 +8956,12 @@
 "team_name":"First and Goel",
 "abbrev":"AAT",
 "logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/11.svg",
-"points":91.54,
+"points":96.64,
 "bench_points":48.68,
-"optimal_points":107.78
+"optimal_points":110.28
 },
-"winner":"UNDECIDED",
-"margin":0.14,
+"winner":"AWAY",
+"margin":1.44,
 "playoff_tier":"NONE"
 },
 {
@@ -8226,8 +8974,8 @@
 "abbrev":"JW",
 "logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/1.svg",
 "points":127.18,
-"bench_points":30.66,
-"optimal_points":129.68
+"bench_points":49.96,
+"optimal_points":132.58
 },
 "away":{
 "team_id":12,
@@ -8237,10 +8985,10 @@
 "abbrev":"USA",
 "logo":"https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-7.svg",
 "points":170.56,
-"bench_points":41.44,
+"bench_points":49.24,
 "optimal_points":178.14
 },
-"winner":"UNDECIDED",
+"winner":"AWAY",
 "margin":43.38,
 "playoff_tier":"NONE"
 },
@@ -8265,10 +9013,10 @@
 "abbrev":"CCT",
 "logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/4.svg",
 "points":115.2,
-"bench_points":10.4,
+"bench_points":13.6,
 "optimal_points":125.6
 },
-"winner":"UNDECIDED",
+"winner":"HOME",
 "margin":13.88,
 "playoff_tier":"NONE"
 },
@@ -8292,12 +9040,12 @@
 "team_name":"RL Remarkables",
 "abbrev":"RR",
 "logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/14.svg",
-"points":80.38,
+"points":85.58,
 "bench_points":52.76,
-"optimal_points":102.76
+"optimal_points":107.96
 },
-"winner":"UNDECIDED",
-"margin":22.1,
+"winner":"HOME",
+"margin":16.9,
 "playoff_tier":"NONE"
 },
 {
@@ -8309,9 +9057,9 @@
 "team_name":"Like a Good Nabers",
 "abbrev":"LAGN",
 "logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/16.svg",
-"points":105.28,
-"bench_points":39.4,
-"optimal_points":125.78
+"points":134.98,
+"bench_points":39.6,
+"optimal_points":144.78
 },
 "away":{
 "team_id":6,
@@ -8320,12 +9068,12 @@
 "team_name":"Brady Bunch",
 "abbrev":"CG",
 "logo":"https://g.espncdn.com/lm-static/logo-packs/ffl/Blockparty-RobbHars/blockplayers-03.svg",
-"points":50.88,
-"bench_points":29.5,
-"optimal_points":73.78
+"points":53.48,
+"bench_points":42.36,
+"optimal_points":86.64
 },
-"winner":"UNDECIDED",
-"margin":54.4,
+"winner":"HOME",
+"margin":81.5,
 "playoff_tier":"NONE"
 },
 {
@@ -8337,9 +9085,9 @@
 "team_name":"The Jets",
 "abbrev":"NY",
 "logo":"https://g.espncdn.com/lm-static/logo-packs/core/CatsAndDogs/cats_dogs-6.svg",
-"points":75.26,
-"bench_points":24.92,
-"optimal_points":85.86
+"points":82.56,
+"bench_points":30.22,
+"optimal_points":87.96
 },
 "away":{
 "team_id":1,
@@ -8352,8 +9100,195 @@
 "bench_points":39.6,
 "optimal_points":101.3
 },
+"winner":"AWAY",
+"margin":6.72,
+"playoff_tier":"NONE"
+}
+],
+"high":{
+"slot_id":"ALC-08",
+"owner":"Hersh lakdawala",
+"team_name":"The Ja’Marrican Dream",
+"points":170.56,
+"team_id":12
+},
+"low":{
+"slot_id":"ALC-03",
+"owner":"Catherine Goel",
+"team_name":"Brady Bunch",
+"points":53.48
+}
+},
+"10":{
+"week":10,
+"complete":false,
+"matchups":[
+{
+"key":"alc-w10-55",
+"home":{
+"team_id":7,
+"slot_id":"ALC-04",
+"owner":"Akshay Goel",
+"team_name":"First and Goel",
+"abbrev":"AAT",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/11.svg",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
+},
+"away":{
+"team_id":12,
+"slot_id":"ALC-08",
+"owner":"Hersh lakdawala",
+"team_name":"The Ja’Marrican Dream",
+"abbrev":"USA",
+"logo":"https://g.espncdn.com/lm-static/logo-packs/core/StarsAndFlames/stars_flames-7.svg",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
+},
 "winner":"UNDECIDED",
-"margin":14.02,
+"margin":0.0,
+"playoff_tier":"NONE"
+},
+{
+"key":"alc-w10-56",
+"home":{
+"team_id":9,
+"slot_id":"ALC-11",
+"owner":"Cedric Garcia",
+"team_name":"Cedric's Competitive Team",
+"abbrev":"CCT",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/4.svg",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
+},
+"away":{
+"team_id":2,
+"slot_id":"ALC-06",
+"owner":"Cuau Trevino",
+"team_name":"Cuau MX",
+"abbrev":"CUAU",
+"logo":"https://g.espncdn.com/lm-static/logo-packs/core/DIS_Avengers_EndGame/DIS_Avengers_EndGame_Capt_America.svg",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
+},
+"winner":"UNDECIDED",
+"margin":0.0,
+"playoff_tier":"NONE"
+},
+{
+"key":"alc-w10-57",
+"home":{
+"team_id":10,
+"slot_id":"ALC-10",
+"owner":"Ranjeet Laungani",
+"team_name":"RL Remarkables",
+"abbrev":"RR",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/14.svg",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
+},
+"away":{
+"team_id":5,
+"slot_id":"ALC-02",
+"owner":"Jonathan Wong",
+"team_name":"J Wong",
+"abbrev":"JW",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/1.svg",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
+},
+"winner":"UNDECIDED",
+"margin":0.0,
+"playoff_tier":"NONE"
+},
+{
+"key":"alc-w10-58",
+"home":{
+"team_id":6,
+"slot_id":"ALC-03",
+"owner":"Catherine Goel",
+"team_name":"Brady Bunch",
+"abbrev":"CG",
+"logo":"https://g.espncdn.com/lm-static/logo-packs/ffl/Blockparty-RobbHars/blockplayers-03.svg",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
+},
+"away":{
+"team_id":11,
+"slot_id":"ALC-05",
+"owner":"Mark Karlson",
+"team_name":"Mark's Magnificent Team",
+"abbrev":"MMT",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/5.svg",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
+},
+"winner":"UNDECIDED",
+"margin":0.0,
+"playoff_tier":"NONE"
+},
+{
+"key":"alc-w10-59",
+"home":{
+"team_id":1,
+"slot_id":"ALC-12",
+"owner":"League Manager",
+"team_name":"Key's Top-Notch Team",
+"abbrev":"KTT",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
+},
+"away":{
+"team_id":3,
+"slot_id":"ALC-09",
+"owner":"Sam Hoffman",
+"team_name":"Sam's Calling for Hikes",
+"abbrev":"SCH",
+"logo":"https://g.espncdn.com/lm-static/logo-packs/ffl/BlitznBears-MartinLaksman/bears-01.svg",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
+},
+"winner":"UNDECIDED",
+"margin":0.0,
+"playoff_tier":"NONE"
+},
+{
+"key":"alc-w10-60",
+"home":{
+"team_id":4,
+"slot_id":"ALC-07",
+"owner":"Danielle Collazo",
+"team_name":"The Jets",
+"abbrev":"NY",
+"logo":"https://g.espncdn.com/lm-static/logo-packs/core/CatsAndDogs/cats_dogs-6.svg",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
+},
+"away":{
+"team_id":8,
+"slot_id":"ALC-01",
+"owner":"Roberto Zuban",
+"team_name":"Like a Good Nabers",
+"abbrev":"LAGN",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/16.svg",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
+},
+"winner":"UNDECIDED",
+"margin":0.0,
 "playoff_tier":"NONE"
 }
 ]
@@ -9858,7 +10793,7 @@
 },
 "9":{
 "week":9,
-"complete":false,
+"complete":true,
 "matchups":[
 {
 "key":"all-w9-49",
@@ -9869,9 +10804,9 @@
 "team_name":"Beliebe In Miracles",
 "abbrev":"BBT",
 "logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/5.svg",
-"points":78.96,
-"bench_points":49.32,
-"optimal_points":109.26
+"points":86.26,
+"bench_points":62.32,
+"optimal_points":111.06
 },
 "away":{
 "team_id":1,
@@ -9880,12 +10815,12 @@
 "team_name":"The Commissioner",
 "abbrev":"COLE",
 "logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg",
-"points":81.86,
+"points":85.66,
 "bench_points":19.8,
-"optimal_points":85.96
+"optimal_points":89.76
 },
-"winner":"UNDECIDED",
-"margin":2.9,
+"winner":"HOME",
+"margin":0.6,
 "playoff_tier":"NONE"
 },
 {
@@ -9898,8 +10833,8 @@
 "abbrev":"MMT",
 "logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/4.svg",
 "points":74.86,
-"bench_points":27.9,
-"optimal_points":97.46
+"bench_points":32.2,
+"optimal_points":97.86
 },
 "away":{
 "team_id":4,
@@ -9912,7 +10847,7 @@
 "bench_points":54.98,
 "optimal_points":138.18
 },
-"winner":"UNDECIDED",
+"winner":"AWAY",
 "margin":37.32,
 "playoff_tier":"NONE"
 },
@@ -9926,7 +10861,7 @@
 "abbrev":"BENJ",
 "logo":"https://g.espncdn.com/lm-static/logo-packs/core/TeamMascots-RobbHarskamp/Team_Mascots-08.svg",
 "points":126.24,
-"bench_points":45.64,
+"bench_points":53.44,
 "optimal_points":141.86
 },
 "away":{
@@ -9936,12 +10871,12 @@
 "team_name":"Unreasonable Hostility",
 "abbrev":"UR",
 "logo":"https://mystique-api.fantasy.espn.com/apis/v1/domains/lm/images/fb0fac80-aa75-11f1-8ecc-d1c52c68c30a",
-"points":106.94,
+"points":121.94,
 "bench_points":12.2,
-"optimal_points":112.34
+"optimal_points":127.34
 },
-"winner":"UNDECIDED",
-"margin":19.3,
+"winner":"HOME",
+"margin":4.3,
 "playoff_tier":"NONE"
 },
 {
@@ -9964,12 +10899,12 @@
 "team_name":"K-Pop Lehman's Punters",
 "abbrev":"KPLP",
 "logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/19.svg",
-"points":86.5,
+"points":116.06,
 "bench_points":45.32,
-"optimal_points":103.92
+"optimal_points":116.66
 },
-"winner":"UNDECIDED",
-"margin":45.68,
+"winner":"HOME",
+"margin":16.12,
 "playoff_tier":"NONE"
 },
 {
@@ -9981,9 +10916,9 @@
 "team_name":"ben's Brilliant Team",
 "abbrev":"BBT",
 "logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/18.svg",
-"points":120.3,
-"bench_points":28.4,
-"optimal_points":126.5
+"points":134.6,
+"bench_points":34.4,
+"optimal_points":135.5
 },
 "away":{
 "team_id":10,
@@ -9992,12 +10927,12 @@
 "team_name":"The Bills Make Me Wanna, Shout!",
 "abbrev":"BBL",
 "logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/8.svg",
-"points":100.92,
-"bench_points":27.1,
+"points":106.02,
+"bench_points":30.3,
 "optimal_points":110.02
 },
-"winner":"UNDECIDED",
-"margin":19.38,
+"winner":"HOME",
+"margin":28.58,
 "playoff_tier":"NONE"
 },
 {
@@ -10009,9 +10944,9 @@
 "team_name":"Andre's Astounding Team",
 "abbrev":"AAT",
 "logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/16.svg",
-"points":110.78,
+"points":113.38,
 "bench_points":33.1,
-"optimal_points":125.18
+"optimal_points":127.78
 },
 "away":{
 "team_id":3,
@@ -10021,11 +10956,198 @@
 "abbrev":"FFT",
 "logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/20.svg",
 "points":104.64,
-"bench_points":3.2,
-"optimal_points":104.64
+"bench_points":8.4,
+"optimal_points":105.44
+},
+"winner":"HOME",
+"margin":8.74,
+"playoff_tier":"NONE"
+}
+],
+"high":{
+"slot_id":"ALL-05",
+"owner":"Ben Klopack",
+"team_name":"ben's Brilliant Team",
+"points":134.6,
+"team_id":12
+},
+"low":{
+"slot_id":"ALL-11",
+"owner":"Max Gross",
+"team_name":"Max's Magnificent Team",
+"points":74.86
+}
+},
+"10":{
+"week":10,
+"complete":false,
+"matchups":[
+{
+"key":"all-w10-55",
+"home":{
+"team_id":1,
+"slot_id":"ALL-12",
+"owner":"League Manager",
+"team_name":"The Commissioner",
+"abbrev":"COLE",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
+},
+"away":{
+"team_id":4,
+"slot_id":"ALL-02",
+"owner":"Jack Cardwell",
+"team_name":"Jack's Scary Team",
+"abbrev":"JST",
+"logo":"https://g.espncdn.com/lm-static/logo-packs/ffl/CrazyHelmets-ToddDetwiler/Helmets_11.svg",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
 },
 "winner":"UNDECIDED",
-"margin":6.14,
+"margin":0.0,
+"playoff_tier":"NONE"
+},
+{
+"key":"all-w10-56",
+"home":{
+"team_id":5,
+"slot_id":"ALL-03",
+"owner":"Jeff Marowits",
+"team_name":"Unreasonable Hostility",
+"abbrev":"UR",
+"logo":"https://mystique-api.fantasy.espn.com/apis/v1/domains/lm/images/fb0fac80-aa75-11f1-8ecc-d1c52c68c30a",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
+},
+"away":{
+"team_id":11,
+"slot_id":"ALL-06",
+"owner":"Ben Lieber",
+"team_name":"Beliebe In Miracles",
+"abbrev":"BBT",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/5.svg",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
+},
+"winner":"UNDECIDED",
+"margin":0.0,
+"playoff_tier":"NONE"
+},
+{
+"key":"all-w10-57",
+"home":{
+"team_id":2,
+"slot_id":"ALL-04",
+"owner":"Jacob Lehman",
+"team_name":"K-Pop Lehman's Punters",
+"abbrev":"KPLP",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/19.svg",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
+},
+"away":{
+"team_id":9,
+"slot_id":"ALL-11",
+"owner":"Max Gross",
+"team_name":"Max's Magnificent Team",
+"abbrev":"MMT",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/4.svg",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
+},
+"winner":"UNDECIDED",
+"margin":0.0,
+"playoff_tier":"NONE"
+},
+{
+"key":"all-w10-58",
+"home":{
+"team_id":10,
+"slot_id":"ALL-07",
+"owner":"Mike Latona",
+"team_name":"The Bills Make Me Wanna, Shout!",
+"abbrev":"BBL",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/8.svg",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
+},
+"away":{
+"team_id":6,
+"slot_id":"ALL-10",
+"owner":"Benjamin Christensen",
+"team_name":"Seapigeons",
+"abbrev":"BENJ",
+"logo":"https://g.espncdn.com/lm-static/logo-packs/core/TeamMascots-RobbHarskamp/Team_Mascots-08.svg",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
+},
+"winner":"UNDECIDED",
+"margin":0.0,
+"playoff_tier":"NONE"
+},
+{
+"key":"all-w10-59",
+"home":{
+"team_id":3,
+"slot_id":"ALL-01",
+"owner":"Fraser Thompson",
+"team_name":"Fraser's Fantastic Team",
+"abbrev":"FFT",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/20.svg",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
+},
+"away":{
+"team_id":7,
+"slot_id":"ALL-09",
+"owner":"Omer Khan",
+"team_name":"Omer's Otherworldly Team",
+"abbrev":"OOT",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/11.svg",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
+},
+"winner":"UNDECIDED",
+"margin":0.0,
+"playoff_tier":"NONE"
+},
+{
+"key":"all-w10-60",
+"home":{
+"team_id":8,
+"slot_id":"ALL-08",
+"owner":"Andre Costa",
+"team_name":"Andre's Astounding Team",
+"abbrev":"AAT",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/16.svg",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
+},
+"away":{
+"team_id":12,
+"slot_id":"ALL-05",
+"owner":"Ben Klopack",
+"team_name":"ben's Brilliant Team",
+"abbrev":"BBT",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/18.svg",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
+},
+"winner":"UNDECIDED",
+"margin":0.0,
 "playoff_tier":"NONE"
 }
 ]
@@ -11530,7 +12652,7 @@
 },
 "9":{
 "week":9,
-"complete":false,
+"complete":true,
 "matchups":[
 {
 "key":"c2c-w9-49",
@@ -11542,8 +12664,8 @@
 "abbrev":"SLM",
 "logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/19.svg",
 "points":111.56,
-"bench_points":29.7,
-"optimal_points":135.26
+"bench_points":35.0,
+"optimal_points":135.96
 },
 "away":{
 "team_id":8,
@@ -11552,12 +12674,12 @@
 "team_name":"Evan's Excellent Team",
 "abbrev":"EET",
 "logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/16.svg",
-"points":46.8,
-"bench_points":31.9,
-"optimal_points":78.7
+"points":59.66,
+"bench_points":37.0,
+"optimal_points":93.46
 },
-"winner":"UNDECIDED",
-"margin":64.76,
+"winner":"HOME",
+"margin":51.9,
 "playoff_tier":"NONE"
 },
 {
@@ -11569,9 +12691,9 @@
 "team_name":"We're a basketball city anyways",
 "abbrev":"BBL",
 "logo":"https://g.espncdn.com/lm-static/logo-packs/core/StadiumFoods-ESPN/stadium-foods_pizza.svg",
-"points":94.66,
-"bench_points":32.9,
-"optimal_points":101.56
+"points":109.66,
+"bench_points":36.1,
+"optimal_points":116.56
 },
 "away":{
 "team_id":11,
@@ -11581,11 +12703,11 @@
 "abbrev":"YAY",
 "logo":"https://g.espncdn.com/lm-static/logo-packs/ffl/BlitznBears-MartinLaksman/bears-13.svg",
 "points":135.88,
-"bench_points":27.9,
+"bench_points":33.9,
 "optimal_points":146.38
 },
-"winner":"UNDECIDED",
-"margin":41.22,
+"winner":"AWAY",
+"margin":26.22,
 "playoff_tier":"NONE"
 },
 {
@@ -11598,7 +12720,7 @@
 "abbrev":"MMT",
 "logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/20.svg",
 "points":98.74,
-"bench_points":7.72,
+"bench_points":12.92,
 "optimal_points":102.64
 },
 "away":{
@@ -11612,7 +12734,7 @@
 "bench_points":65.68,
 "optimal_points":161.88
 },
-"winner":"UNDECIDED",
+"winner":"AWAY",
 "margin":24.74,
 "playoff_tier":"NONE"
 },
@@ -11626,8 +12748,8 @@
 "abbrev":"AAT",
 "logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/1.svg",
 "points":81.5,
-"bench_points":29.82,
-"optimal_points":111.62
+"bench_points":37.62,
+"optimal_points":119.42
 },
 "away":{
 "team_id":6,
@@ -11636,12 +12758,12 @@
 "team_name":"The Hypothetical Monopolists",
 "abbrev":"TD",
 "logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/14.svg",
-"points":66.76,
+"points":83.06,
 "bench_points":31.4,
-"optimal_points":87.66
+"optimal_points":99.36
 },
-"winner":"UNDECIDED",
-"margin":14.74,
+"winner":"AWAY",
+"margin":1.56,
 "playoff_tier":"NONE"
 },
 {
@@ -11653,9 +12775,9 @@
 "team_name":"futbol americano",
 "abbrev":"AFA ",
 "logo":"https://mystique-api.fantasy.espn.com/apis/v1/domains/lm/images/e3087730-ab8c-11f1-adbb-af55773333bb",
-"points":86.44,
+"points":103.14,
 "bench_points":57.36,
-"optimal_points":107.66
+"optimal_points":119.16
 },
 "away":{
 "team_id":12,
@@ -11664,12 +12786,12 @@
 "team_name":"12th man",
 "abbrev":"MMT",
 "logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/18.svg",
-"points":101.2,
-"bench_points":42.2,
-"optimal_points":108.7
+"points":114.2,
+"bench_points":46.0,
+"optimal_points":121.7
 },
-"winner":"UNDECIDED",
-"margin":14.76,
+"winner":"AWAY",
+"margin":11.06,
 "playoff_tier":"NONE"
 },
 {
@@ -11682,7 +12804,7 @@
 "abbrev":"AAT",
 "logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/2.svg",
 "points":109.28,
-"bench_points":15.32,
+"bench_points":15.52,
 "optimal_points":109.28
 },
 "away":{
@@ -11692,12 +12814,199 @@
 "team_name":"Aseem's Team",
 "abbrev":"KTT",
 "logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg",
-"points":84.44,
-"bench_points":68.94,
-"optimal_points":114.64
+"points":87.04,
+"bench_points":77.94,
+"optimal_points":115.84
+},
+"winner":"HOME",
+"margin":22.24,
+"playoff_tier":"NONE"
+}
+],
+"high":{
+"slot_id":"C2C-03",
+"owner":"Gaby Lichucki",
+"team_name":"yay sports",
+"points":135.88,
+"team_id":11
+},
+"low":{
+"slot_id":"C2C-07",
+"owner":"Evan Sexton",
+"team_name":"Evan's Excellent Team",
+"points":59.66
+}
+},
+"10":{
+"week":10,
+"complete":false,
+"matchups":[
+{
+"key":"c2c-w10-55",
+"home":{
+"team_id":8,
+"slot_id":"C2C-07",
+"owner":"Evan Sexton",
+"team_name":"Evan's Excellent Team",
+"abbrev":"EET",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/16.svg",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
+},
+"away":{
+"team_id":11,
+"slot_id":"C2C-03",
+"owner":"Gaby Lichucki",
+"team_name":"yay sports",
+"abbrev":"YAY",
+"logo":"https://g.espncdn.com/lm-static/logo-packs/ffl/BlitznBears-MartinLaksman/bears-13.svg",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
 },
 "winner":"UNDECIDED",
-"margin":24.84,
+"margin":0.0,
+"playoff_tier":"NONE"
+},
+{
+"key":"c2c-w10-56",
+"home":{
+"team_id":9,
+"slot_id":"C2C-06",
+"owner":"Rich Riley",
+"team_name":"Rich's Rowdy Team",
+"abbrev":"RRT",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/4.svg",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
+},
+"away":{
+"team_id":2,
+"slot_id":"C2C-10",
+"owner":"Kylie Sagisi",
+"team_name":"Slim Reapers",
+"abbrev":"SLM",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/19.svg",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
+},
+"winner":"UNDECIDED",
+"margin":0.0,
+"playoff_tier":"NONE"
+},
+{
+"key":"c2c-w10-57",
+"home":{
+"team_id":6,
+"slot_id":"C2C-05",
+"owner":"Terrence Dai",
+"team_name":"The Hypothetical Monopolists",
+"abbrev":"TD",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/14.svg",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
+},
+"away":{
+"team_id":10,
+"slot_id":"C2C-11",
+"owner":"Karthick Hemmanuer",
+"team_name":"We're a basketball city anyways",
+"abbrev":"BBL",
+"logo":"https://g.espncdn.com/lm-static/logo-packs/core/StadiumFoods-ESPN/stadium-foods_pizza.svg",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
+},
+"winner":"UNDECIDED",
+"margin":0.0,
+"playoff_tier":"NONE"
+},
+{
+"key":"c2c-w10-58",
+"home":{
+"team_id":12,
+"slot_id":"C2C-04",
+"owner":"Michael Gary",
+"team_name":"12th man",
+"abbrev":"MMT",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/18.svg",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
+},
+"away":{
+"team_id":3,
+"slot_id":"C2C-01",
+"owner":"ManYee Yu",
+"team_name":"Touch base in the end zone",
+"abbrev":"MMT",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/20.svg",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
+},
+"winner":"UNDECIDED",
+"margin":0.0,
+"playoff_tier":"NONE"
+},
+{
+"key":"c2c-w10-59",
+"home":{
+"team_id":1,
+"slot_id":"C2C-12",
+"owner":"Aseem Mahajan",
+"team_name":"Aseem's Team",
+"abbrev":"KTT",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/6.svg",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
+},
+"away":{
+"team_id":5,
+"slot_id":"C2C-09",
+"owner":"Ande Shen",
+"team_name":"Ande's Awesome Team",
+"abbrev":"AAT",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/1.svg",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
+},
+"winner":"UNDECIDED",
+"margin":0.0,
+"playoff_tier":"NONE"
+},
+{
+"key":"c2c-w10-60",
+"home":{
+"team_id":4,
+"slot_id":"C2C-08",
+"owner":"Amelie Gantert",
+"team_name":"The A(melie) Team",
+"abbrev":"AAT",
+"logo":"https://g.espncdn.com/lm-static/ffl/images/default_logos/2.svg",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
+},
+"away":{
+"team_id":7,
+"slot_id":"C2C-02",
+"owner":"Alec Brockell",
+"team_name":"futbol americano",
+"abbrev":"AFA ",
+"logo":"https://mystique-api.fantasy.espn.com/apis/v1/domains/lm/images/e3087730-ab8c-11f1-adbb-af55773333bb",
+"points":0.0,
+"bench_points":0.0,
+"optimal_points":0.0
+},
+"winner":"UNDECIDED",
+"margin":0.0,
 "playoff_tier":"NONE"
 }
 ]

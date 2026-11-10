@@ -495,21 +495,83 @@
 "points":167.88,
 "team_id":5
 }
+},
+{
+"week":9,
+"per_league":{
+"EMP":{
+"slot_id":"EMP-08",
+"owner":"Cole Wyman",
+"team_name":"Manhattan Elitists",
+"points":165.98,
+"team_id":1
+},
+"GOT":{
+"slot_id":"GOT-01",
+"owner":"Alice Khayami",
+"team_name":"Bijan Mustard",
+"points":155.9,
+"team_id":7
+},
+"BEA":{
+"slot_id":"BEA-05",
+"owner":"Lukas Marmanis",
+"team_name":"Ackshually Tyler SHOUGH",
+"points":130.94,
+"team_id":12
+},
+"HAR":{
+"slot_id":"HAR-09",
+"owner":"Tyler Richards",
+"team_name":"CoolName?utm_source=chatgpt.com",
+"points":169.76,
+"team_id":9
+},
+"ALC":{
+"slot_id":"ALC-08",
+"owner":"Hersh lakdawala",
+"team_name":"The Ja’Marrican Dream",
+"points":170.56,
+"team_id":12
+},
+"ALL":{
+"slot_id":"ALL-05",
+"owner":"Ben Klopack",
+"team_name":"ben's Brilliant Team",
+"points":134.6,
+"team_id":12
+},
+"C2C":{
+"slot_id":"C2C-03",
+"owner":"Gaby Lichucki",
+"team_name":"yay sports",
+"points":135.88,
+"team_id":11
+}
+},
+"overall":{
+"league_code":"ALC",
+"slot_id":"ALC-08",
+"owner":"Hersh lakdawala",
+"team_name":"The Ja’Marrican Dream",
+"points":170.56,
+"team_id":12
+}
 }
 ],
 "leaderboard":[
-{
-"slot_id":"EMP-05",
-"owner":"Bradley Hart",
-"league_code":"EMP",
-"team_name":"Synergistic optimization",
-"count":4
-},
 {
 "slot_id":"GOT-01",
 "owner":"Alice Khayami",
 "league_code":"GOT",
 "team_name":"Bijan Mustard",
+"count":5
+},
+{
+"slot_id":"EMP-05",
+"owner":"Bradley Hart",
+"league_code":"EMP",
+"team_name":"Synergistic optimization",
 "count":4
 },
 {
@@ -524,13 +586,20 @@
 "owner":"Gaby Lichucki",
 "league_code":"C2C",
 "team_name":"yay sports",
-"count":3
+"count":4
 },
 {
 "slot_id":"EMP-09",
 "owner":"Matt Gates",
 "league_code":"EMP",
 "team_name":"Aussie Aussie Aussie Oi Oi Oi",
+"count":2
+},
+{
+"slot_id":"EMP-08",
+"owner":"Cole Wyman",
+"league_code":"EMP",
+"team_name":"Manhattan Elitists",
 "count":2
 },
 {
@@ -545,6 +614,13 @@
 "owner":"Caroline Scala",
 "league_code":"HAR",
 "team_name":"Sunday Scaries",
+"count":2
+},
+{
+"slot_id":"HAR-09",
+"owner":"Tyler Richards",
+"league_code":"HAR",
+"team_name":"CoolName?utm_source=chatgpt.com",
 "count":2
 },
 {
@@ -569,10 +645,24 @@
 "count":2
 },
 {
+"slot_id":"ALC-08",
+"owner":"Hersh lakdawala",
+"league_code":"ALC",
+"team_name":"The Ja’Marrican Dream",
+"count":2
+},
+{
 "slot_id":"ALL-09",
 "owner":"Omer Khan",
 "league_code":"ALL",
 "team_name":"Omer's Otherworldly Team",
+"count":2
+},
+{
+"slot_id":"ALL-05",
+"owner":"Ben Klopack",
+"league_code":"ALL",
+"team_name":"ben's Brilliant Team",
 "count":2
 },
 {
@@ -594,13 +684,6 @@
 "owner":"Jacob Salant",
 "league_code":"EMP",
 "team_name":"Team Salant",
-"count":1
-},
-{
-"slot_id":"EMP-08",
-"owner":"Cole Wyman",
-"league_code":"EMP",
-"team_name":"Manhattan Elitists",
 "count":1
 },
 {
@@ -646,6 +729,13 @@
 "count":1
 },
 {
+"slot_id":"BEA-05",
+"owner":"Lukas Marmanis",
+"league_code":"BEA",
+"team_name":"Ackshually Tyler SHOUGH",
+"count":1
+},
+{
 "slot_id":"HAR-06",
 "owner":"Brian Hunscher",
 "league_code":"HAR",
@@ -657,13 +747,6 @@
 "owner":"Douglas Kirkpatrick",
 "league_code":"HAR",
 "team_name":"Doug's Dangerous Team",
-"count":1
-},
-{
-"slot_id":"HAR-09",
-"owner":"Tyler Richards",
-"league_code":"HAR",
-"team_name":"CoolName?utm_source=chatgpt.com",
 "count":1
 },
 {
@@ -681,13 +764,6 @@
 "count":1
 },
 {
-"slot_id":"ALC-08",
-"owner":"Hersh lakdawala",
-"league_code":"ALC",
-"team_name":"The Ja’Marrican Dream",
-"count":1
-},
-{
 "slot_id":"ALC-02",
 "owner":"Jonathan Wong",
 "league_code":"ALC",
@@ -699,13 +775,6 @@
 "owner":"Sam Hoffman",
 "league_code":"ALC",
 "team_name":"Sam's Calling for Hikes",
-"count":1
-},
-{
-"slot_id":"ALL-05",
-"owner":"Ben Klopack",
-"league_code":"ALL",
-"team_name":"ben's Brilliant Team",
 "count":1
 },
 {
