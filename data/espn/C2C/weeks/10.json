@@ -1,96 +1,96 @@
 {
  "scoring_period": 10,
  "matchup_period": 10,
- "complete": false,
- "fetched_utc": "2026-11-16T19:34:54+00:00",
+ "complete": true,
+ "fetched_utc": "2026-11-17T18:33:23+00:00",
  "matchups": [
   {
-   "home_win_prob": 0.0,
-   "away_win_prob": 1.0,
-   "home_projected": 112.84,
-   "away_projected": 158.18,
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 55,
    "matchup_period": 10,
    "home_team_id": 8,
    "away_team_id": 11,
    "home_points": 112.84,
    "away_points": 158.18,
-   "winner": "UNDECIDED",
+   "winner": "AWAY",
    "playoff_tier": "NONE",
    "is_bye": false
   },
   {
-   "home_win_prob": 0.99,
-   "away_win_prob": 0.01,
-   "home_projected": 103.22,
-   "away_projected": 47.37,
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 56,
    "matchup_period": 10,
    "home_team_id": 9,
    "away_team_id": 2,
    "home_points": 103.22,
-   "away_points": 41.94,
-   "winner": "UNDECIDED",
+   "away_points": 54.14,
+   "winner": "HOME",
    "playoff_tier": "NONE",
    "is_bye": false
   },
   {
-   "home_win_prob": 0.99,
-   "away_win_prob": 0.01,
-   "home_projected": 144.24,
-   "away_projected": 98.62,
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 57,
    "matchup_period": 10,
    "home_team_id": 6,
    "away_team_id": 10,
-   "home_points": 136.48,
+   "home_points": 140.48,
    "away_points": 98.62,
-   "winner": "UNDECIDED",
+   "winner": "HOME",
    "playoff_tier": "NONE",
    "is_bye": false
   },
   {
-   "home_win_prob": 0.0,
-   "away_win_prob": 1.0,
-   "home_projected": 127.22,
-   "away_projected": 145.06,
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 58,
    "matchup_period": 10,
    "home_team_id": 12,
    "away_team_id": 3,
    "home_points": 127.22,
    "away_points": 145.06,
-   "winner": "UNDECIDED",
+   "winner": "AWAY",
    "playoff_tier": "NONE",
    "is_bye": false
   },
   {
-   "home_win_prob": 1.0,
-   "away_win_prob": 0.0,
-   "home_projected": 94.3,
-   "away_projected": 32.8,
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 59,
    "matchup_period": 10,
    "home_team_id": 1,
    "away_team_id": 5,
    "home_points": 94.3,
    "away_points": 32.8,
-   "winner": "UNDECIDED",
+   "winner": "HOME",
    "playoff_tier": "NONE",
    "is_bye": false
   },
   {
-   "home_win_prob": 0.51,
-   "away_win_prob": 0.49,
-   "home_projected": 108.36,
-   "away_projected": 107.79,
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 60,
    "matchup_period": 10,
    "home_team_id": 4,
    "away_team_id": 7,
    "home_points": 108.36,
-   "away_points": 73.86,
-   "winner": "UNDECIDED",
+   "away_points": 104.46,
+   "winner": "HOME",
    "playoff_tier": "NONE",
    "is_bye": false
   }
@@ -1264,7 +1264,7 @@
    ]
   },
   "2": {
-   "points": 41.94,
+   "points": 54.14,
    "players": [
     {
      "projected": 0.0,
@@ -1414,7 +1414,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 12.2
     },
     {
      "projected": 9.7,
@@ -1640,7 +1640,7 @@
    ]
   },
   "6": {
-   "points": 136.48,
+   "points": 140.48,
    "players": [
     {
      "projected": 15.4,
@@ -1683,7 +1683,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 17.0
     },
     {
      "projected": 9.9,
@@ -1934,7 +1934,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 4.0
     },
     {
      "projected": 6.1,
@@ -3933,7 +3933,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 7.6
     },
     {
      "projected": 0.0,
@@ -4309,7 +4309,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 2.4
     },
     {
      "projected": 0.0,
@@ -4335,7 +4335,7 @@
    ]
   },
   "7": {
-   "points": 73.86,
+   "points": 104.46,
    "players": [
     {
      "projected": 19.7,
@@ -4377,7 +4377,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 16.5
     },
     {
      "projected": 11.9,
@@ -4399,7 +4399,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 8.4
     },
     {
      "projected": 17.7,
@@ -4581,7 +4581,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 11.0
     },
     {
      "projected": 6.9,
@@ -4624,7 +4624,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 5.7
     },
     {
      "projected": 10.5,

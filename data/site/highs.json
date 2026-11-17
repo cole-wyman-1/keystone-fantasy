@@ -557,9 +557,78 @@
 "points":170.56,
 "team_id":12
 }
+},
+{
+"week":10,
+"per_league":{
+"EMP":{
+"slot_id":"EMP-05",
+"owner":"Bradley Hart",
+"team_name":"Synergistic optimization",
+"points":156.22,
+"team_id":10
+},
+"GOT":{
+"slot_id":"GOT-07",
+"owner":"Rohan Bhargava",
+"team_name":"Rohan's Rowdy Team",
+"points":140.74,
+"team_id":10
+},
+"BEA":{
+"slot_id":"BEA-12",
+"owner":"Charlie Fairfax",
+"team_name":"Charlie's Team",
+"points":125.22,
+"team_id":1
+},
+"HAR":{
+"slot_id":"HAR-05",
+"owner":"Jin Paik",
+"team_name":"Little Giants",
+"points":150.02,
+"team_id":6
+},
+"ALC":{
+"slot_id":"ALC-02",
+"owner":"Jonathan Wong",
+"team_name":"J Wong",
+"points":196.46,
+"team_id":5
+},
+"ALL":{
+"slot_id":"ALL-10",
+"owner":"Benjamin Christensen",
+"team_name":"Seapigeons",
+"points":143.74,
+"team_id":6
+},
+"C2C":{
+"slot_id":"C2C-03",
+"owner":"Gaby Lichucki",
+"team_name":"yay sports",
+"points":158.18,
+"team_id":11
+}
+},
+"overall":{
+"league_code":"ALC",
+"slot_id":"ALC-02",
+"owner":"Jonathan Wong",
+"team_name":"J Wong",
+"points":196.46,
+"team_id":5
+}
 }
 ],
 "leaderboard":[
+{
+"slot_id":"EMP-05",
+"owner":"Bradley Hart",
+"league_code":"EMP",
+"team_name":"Synergistic optimization",
+"count":5
+},
 {
 "slot_id":"GOT-01",
 "owner":"Alice Khayami",
@@ -568,24 +637,17 @@
 "count":5
 },
 {
-"slot_id":"EMP-05",
-"owner":"Bradley Hart",
-"league_code":"EMP",
-"team_name":"Synergistic optimization",
-"count":4
+"slot_id":"C2C-03",
+"owner":"Gaby Lichucki",
+"league_code":"C2C",
+"team_name":"yay sports",
+"count":5
 },
 {
 "slot_id":"BEA-02",
 "owner":"Justin Metz",
 "league_code":"BEA",
 "team_name":"LIFO The Party",
-"count":4
-},
-{
-"slot_id":"C2C-03",
-"owner":"Gaby Lichucki",
-"league_code":"C2C",
-"team_name":"yay sports",
 "count":4
 },
 {
@@ -652,6 +714,13 @@
 "count":2
 },
 {
+"slot_id":"ALC-02",
+"owner":"Jonathan Wong",
+"league_code":"ALC",
+"team_name":"J Wong",
+"count":2
+},
+{
 "slot_id":"ALL-09",
 "owner":"Omer Khan",
 "league_code":"ALL",
@@ -670,6 +739,13 @@
 "owner":"Andre Costa",
 "league_code":"ALL",
 "team_name":"Andre's Astounding Team",
+"count":2
+},
+{
+"slot_id":"ALL-10",
+"owner":"Benjamin Christensen",
+"league_code":"ALL",
+"team_name":"Seapigeons",
 "count":2
 },
 {
@@ -698,6 +774,13 @@
 "owner":"Zoe Stern",
 "league_code":"GOT",
 "team_name":"Zoe's Team",
+"count":1
+},
+{
+"slot_id":"GOT-07",
+"owner":"Rohan Bhargava",
+"league_code":"GOT",
+"team_name":"Rohan's Rowdy Team",
 "count":1
 },
 {
@@ -736,6 +819,13 @@
 "count":1
 },
 {
+"slot_id":"BEA-12",
+"owner":"Charlie Fairfax",
+"league_code":"BEA",
+"team_name":"Charlie's Team",
+"count":1
+},
+{
 "slot_id":"HAR-06",
 "owner":"Brian Hunscher",
 "league_code":"HAR",
@@ -757,6 +847,13 @@
 "count":1
 },
 {
+"slot_id":"HAR-05",
+"owner":"Jin Paik",
+"league_code":"HAR",
+"team_name":"Little Giants",
+"count":1
+},
+{
 "slot_id":"ALC-01",
 "owner":"Roberto Zuban",
 "league_code":"ALC",
@@ -764,24 +861,10 @@
 "count":1
 },
 {
-"slot_id":"ALC-02",
-"owner":"Jonathan Wong",
-"league_code":"ALC",
-"team_name":"J Wong",
-"count":1
-},
-{
 "slot_id":"ALC-09",
 "owner":"Sam Hoffman",
 "league_code":"ALC",
 "team_name":"Sam's Calling for Hikes",
-"count":1
-},
-{
-"slot_id":"ALL-10",
-"owner":"Benjamin Christensen",
-"league_code":"ALL",
-"team_name":"Seapigeons",
 "count":1
 },
 {
