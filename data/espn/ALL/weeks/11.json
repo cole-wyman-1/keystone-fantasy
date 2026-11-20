@@ -2,13 +2,13 @@
  "scoring_period": 11,
  "matchup_period": 11,
  "complete": false,
- "fetched_utc": "2026-11-17T18:33:20+00:00",
+ "fetched_utc": "2026-11-20T17:46:33+00:00",
  "matchups": [
   {
-   "home_win_prob": 0.77,
-   "away_win_prob": 0.23,
-   "home_projected": 99.12,
-   "away_projected": 60.27,
+   "home_win_prob": 0.44,
+   "away_win_prob": 0.56,
+   "home_projected": 99.11,
+   "away_projected": 108.62,
    "matchup_id": 61,
    "matchup_period": 11,
    "home_team_id": 5,
@@ -20,10 +20,10 @@
    "is_bye": false
   },
   {
-   "home_win_prob": 0.08,
-   "away_win_prob": 0.92,
-   "home_projected": 37.3,
-   "away_projected": 121.76,
+   "home_win_prob": 0.29,
+   "away_win_prob": 0.71,
+   "home_projected": 87.83,
+   "away_projected": 127.79,
    "matchup_id": 62,
    "matchup_period": 11,
    "home_team_id": 4,
@@ -35,61 +35,61 @@
    "is_bye": false
   },
   {
-   "home_win_prob": 0.47,
-   "away_win_prob": 0.53,
-   "home_projected": 76.5,
-   "away_projected": 80.2,
+   "home_win_prob": 0.42,
+   "away_win_prob": 0.58,
+   "home_projected": 106.78,
+   "away_projected": 120.52,
    "matchup_id": 63,
    "matchup_period": 11,
    "home_team_id": 11,
    "away_team_id": 10,
-   "home_points": 0.0,
-   "away_points": 0.0,
+   "home_points": 1.3,
+   "away_points": 15.0,
    "winner": "UNDECIDED",
    "playoff_tier": "NONE",
    "is_bye": false
   },
   {
-   "home_win_prob": 0.49,
-   "away_win_prob": 0.51,
-   "home_projected": 100.16,
-   "away_projected": 102.63,
+   "home_win_prob": 0.35,
+   "away_win_prob": 0.65,
+   "home_projected": 91.22,
+   "away_projected": 115.48,
    "matchup_id": 64,
    "matchup_period": 11,
    "home_team_id": 9,
    "away_team_id": 3,
    "home_points": 0.0,
-   "away_points": 0.0,
+   "away_points": 18.6,
    "winner": "UNDECIDED",
    "playoff_tier": "NONE",
    "is_bye": false
   },
   {
-   "home_win_prob": 0.68,
-   "away_win_prob": 0.32,
-   "home_projected": 107.09,
-   "away_projected": 78.62,
+   "home_win_prob": 0.61,
+   "away_win_prob": 0.39,
+   "home_projected": 105.58,
+   "away_projected": 89.43,
    "matchup_id": 65,
    "matchup_period": 11,
    "home_team_id": 6,
    "away_team_id": 8,
-   "home_points": 0.0,
-   "away_points": 0.0,
+   "home_points": 21.46,
+   "away_points": 3.9,
    "winner": "UNDECIDED",
    "playoff_tier": "NONE",
    "is_bye": false
   },
   {
-   "home_win_prob": 0.78,
-   "away_win_prob": 0.22,
-   "home_projected": 133.65,
-   "away_projected": 78.53,
+   "home_win_prob": 0.48,
+   "away_win_prob": 0.52,
+   "home_projected": 109.28,
+   "away_projected": 112.02,
    "matchup_id": 66,
    "matchup_period": 11,
    "home_team_id": 7,
    "away_team_id": 12,
-   "home_points": 0.0,
-   "away_points": 0.0,
+   "home_points": 13.3,
+   "away_points": 4.2,
    "winner": "UNDECIDED",
    "playoff_tier": "NONE",
    "is_bye": false
@@ -269,7 +269,7 @@
      "points": 0.0
     },
     {
-     "projected": 0.0,
+     "projected": 7.1,
      "game_utc": "2026-11-24T01:15:00+00:00",
      "game": "vs CIN",
      "player_id": 4575131,
@@ -311,7 +311,7 @@
      "points": 0.0
     },
     {
-     "projected": 8.5,
+     "projected": 8.3,
      "game_utc": "2026-11-22T18:00:00+00:00",
      "game": "at PHI",
      "player_id": -16023,
@@ -528,9 +528,9 @@
      "name": "Kyren Williams",
      "position": "RB",
      "pro_team": "LAR",
-     "lineup_slot_id": 2,
-     "lineup_slot": "RB",
-     "started": true,
+     "lineup_slot_id": 20,
+     "lineup_slot": "BE",
+     "started": false,
      "eligible_slots": [
       2,
       3,
@@ -570,9 +570,9 @@
      "name": "Drake Maye",
      "position": "QB",
      "pro_team": "NE",
-     "lineup_slot_id": 0,
-     "lineup_slot": "QB",
-     "started": true,
+     "lineup_slot_id": 20,
+     "lineup_slot": "BE",
+     "started": false,
      "eligible_slots": [
       0,
       7,
@@ -582,16 +582,16 @@
      "points": 0.0
     },
     {
-     "projected": 10.7,
+     "projected": 10.5,
      "game_utc": "2026-11-22T18:00:00+00:00",
      "game": "at DAL",
      "player_id": 4871023,
      "name": "Carnell Tate",
      "position": "WR",
      "pro_team": "TEN",
-     "lineup_slot_id": 20,
-     "lineup_slot": "BE",
-     "started": false,
+     "lineup_slot_id": 4,
+     "lineup_slot": "WR",
+     "started": true,
      "eligible_slots": [
       25,
       3,
@@ -605,38 +605,16 @@
      "points": 0.0
     },
     {
-     "projected": 7.8,
-     "game_utc": "2026-11-22T18:00:00+00:00",
-     "game": "at DAL",
-     "player_id": 4569587,
-     "name": "Wan'Dale Robinson",
-     "position": "WR",
-     "pro_team": "TEN",
-     "lineup_slot_id": 20,
-     "lineup_slot": "BE",
-     "started": false,
-     "eligible_slots": [
-      3,
-      4,
-      5,
-      23,
-      7,
-      20,
-      21
-     ],
-     "points": 0.0
-    },
-    {
-     "projected": 7.7,
+     "projected": 7.6,
      "game_utc": "2026-11-22T18:00:00+00:00",
      "game": "at DET",
      "player_id": 4371733,
      "name": "Kenny Gainwell",
      "position": "RB",
      "pro_team": "TB",
-     "lineup_slot_id": 20,
-     "lineup_slot": "BE",
-     "started": false,
+     "lineup_slot_id": 2,
+     "lineup_slot": "RB",
+     "started": true,
      "eligible_slots": [
       2,
       3,
@@ -655,9 +633,9 @@
      "name": "Jordan Addison",
      "position": "WR",
      "pro_team": "MIN",
-     "lineup_slot_id": 4,
-     "lineup_slot": "WR",
-     "started": true,
+     "lineup_slot_id": 21,
+     "lineup_slot": "IR",
+     "started": false,
      "eligible_slots": [
       3,
       4,
@@ -691,7 +669,7 @@
      "points": 0.0
     },
     {
-     "projected": 8.8,
+     "projected": 9.3,
      "game_utc": "2026-11-23T01:20:00+00:00",
      "game": "vs MIN",
      "player_id": 3126486,
@@ -821,9 +799,9 @@
      "name": "Eli Raridon",
      "position": "TE",
      "pro_team": "NE",
-     "lineup_slot_id": 6,
-     "lineup_slot": "TE",
-     "started": true,
+     "lineup_slot_id": 20,
+     "lineup_slot": "BE",
+     "started": false,
      "eligible_slots": [
       25,
       5,
@@ -836,7 +814,7 @@
      "points": 0.0
     },
     {
-     "projected": 8.4,
+     "projected": 18.9,
      "game_utc": "2026-11-22T18:00:00+00:00",
      "game": "vs ARI",
      "player_id": 4832955,
@@ -851,6 +829,46 @@
       2,
       3,
       23,
+      7,
+      20,
+      21
+     ],
+     "points": 0.0
+    },
+    {
+     "projected": 7.8,
+     "game_utc": "2026-11-24T01:15:00+00:00",
+     "game": "vs CIN",
+     "player_id": 4360635,
+     "name": "Chig Okonkwo",
+     "position": "TE",
+     "pro_team": "WSH",
+     "lineup_slot_id": 6,
+     "lineup_slot": "TE",
+     "started": true,
+     "eligible_slots": [
+      5,
+      6,
+      23,
+      7,
+      20,
+      21
+     ],
+     "points": 0.0
+    },
+    {
+     "projected": 11.5,
+     "game_utc": "2026-11-22T18:00:00+00:00",
+     "game": "at CAR",
+     "player_id": 2578570,
+     "name": "Jacoby Brissett",
+     "position": "QB",
+     "pro_team": "BAL",
+     "lineup_slot_id": 0,
+     "lineup_slot": "QB",
+     "started": true,
+     "eligible_slots": [
+      0,
       7,
       20,
       21
@@ -892,9 +910,9 @@
      "name": "Travis Etienne Jr.",
      "position": "RB",
      "pro_team": "NO",
-     "lineup_slot_id": 21,
-     "lineup_slot": "IR",
-     "started": false,
+     "lineup_slot_id": 2,
+     "lineup_slot": "RB",
+     "started": true,
      "eligible_slots": [
       2,
       3,
@@ -935,9 +953,9 @@
      "name": "Luther Burden III",
      "position": "WR",
      "pro_team": "CHI",
-     "lineup_slot_id": 20,
-     "lineup_slot": "BE",
-     "started": false,
+     "lineup_slot_id": 4,
+     "lineup_slot": "WR",
+     "started": true,
      "eligible_slots": [
       3,
       4,
@@ -978,9 +996,9 @@
      "name": "Tucker Kraft",
      "position": "TE",
      "pro_team": "GB",
-     "lineup_slot_id": 6,
-     "lineup_slot": "TE",
-     "started": true,
+     "lineup_slot_id": 20,
+     "lineup_slot": "BE",
+     "started": false,
      "eligible_slots": [
       5,
       6,
@@ -999,9 +1017,9 @@
      "name": "Matthew Golden",
      "position": "WR",
      "pro_team": "GB",
-     "lineup_slot_id": 4,
-     "lineup_slot": "WR",
-     "started": true,
+     "lineup_slot_id": 20,
+     "lineup_slot": "BE",
+     "started": false,
      "eligible_slots": [
       3,
       4,
@@ -1014,16 +1032,16 @@
      "points": 0.0
     },
     {
-     "projected": 21.5,
+     "projected": 21.8,
      "game_utc": "2026-11-22T18:00:00+00:00",
      "game": "vs ARI",
      "player_id": 3139477,
      "name": "Patrick Mahomes",
      "position": "QB",
      "pro_team": "KC",
-     "lineup_slot_id": 20,
-     "lineup_slot": "BE",
-     "started": false,
+     "lineup_slot_id": 0,
+     "lineup_slot": "QB",
+     "started": true,
      "eligible_slots": [
       0,
       7,
@@ -1033,16 +1051,16 @@
      "points": 0.0
     },
     {
-     "projected": 5.4,
+     "projected": 4.8,
      "game_utc": "2026-11-22T18:00:00+00:00",
      "game": "at DET",
      "player_id": 3116165,
      "name": "Chris Godwin Jr.",
      "position": "WR",
      "pro_team": "TB",
-     "lineup_slot_id": 20,
-     "lineup_slot": "BE",
-     "started": false,
+     "lineup_slot_id": 23,
+     "lineup_slot": "FLEX",
+     "started": true,
      "eligible_slots": [
       3,
       4,
@@ -1062,9 +1080,9 @@
      "name": "Jordan Love",
      "position": "QB",
      "pro_team": "GB",
-     "lineup_slot_id": 0,
-     "lineup_slot": "QB",
-     "started": true,
+     "lineup_slot_id": 20,
+     "lineup_slot": "BE",
+     "started": false,
      "eligible_slots": [
       0,
       7,
@@ -1092,7 +1110,7 @@
      "points": 0.0
     },
     {
-     "projected": 5.7,
+     "projected": 7.5,
      "game_utc": "2026-11-23T01:20:00+00:00",
      "game": "vs MIN",
      "player_id": 15818,
@@ -1157,8 +1175,8 @@
      "name": "Pat Freiermuth",
      "position": "TE",
      "pro_team": "PIT",
-     "lineup_slot_id": 23,
-     "lineup_slot": "FLEX",
+     "lineup_slot_id": 6,
+     "lineup_slot": "TE",
      "started": true,
      "eligible_slots": [
       5,
@@ -1200,9 +1218,9 @@
      "name": "Kaleb Johnson",
      "position": "RB",
      "pro_team": "GB",
-     "lineup_slot_id": 2,
-     "lineup_slot": "RB",
-     "started": true,
+     "lineup_slot_id": 20,
+     "lineup_slot": "BE",
+     "started": false,
      "eligible_slots": [
       2,
       3,
@@ -1220,7 +1238,7 @@
      "player_id": 4249836,
      "name": "Pierre Strong Jr.",
      "position": "RB",
-     "pro_team": "GB",
+     "pro_team": "FA",
      "lineup_slot_id": 20,
      "lineup_slot": "BE",
      "started": false,
@@ -1301,7 +1319,7 @@
      "points": 0.0
     },
     {
-     "projected": 6.7,
+     "projected": 6.6,
      "game_utc": "2026-11-20T01:15:00+00:00",
      "game": "at HOU",
      "player_id": 4431459,
@@ -1319,7 +1337,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 2.7
     },
     {
      "projected": 0.0,
@@ -1329,9 +1347,9 @@
      "name": "Marvin Harrison Jr.",
      "position": "WR",
      "pro_team": "HOU",
-     "lineup_slot_id": 4,
-     "lineup_slot": "WR",
-     "started": true,
+     "lineup_slot_id": 20,
+     "lineup_slot": "BE",
+     "started": false,
      "eligible_slots": [
       3,
       4,
@@ -1427,7 +1445,7 @@
      "points": 0.0
     },
     {
-     "projected": 10.6,
+     "projected": 10.5,
      "game_utc": "2026-11-20T01:15:00+00:00",
      "game": "at HOU",
      "player_id": 3917792,
@@ -1443,7 +1461,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 4.06
     },
     {
      "projected": 0.0,
@@ -1487,7 +1505,7 @@
      "points": 0.0
     },
     {
-     "projected": 5.8,
+     "projected": 6.5,
      "game_utc": "2026-11-22T18:00:00+00:00",
      "game": "vs TB",
      "player_id": -16008,
@@ -1530,9 +1548,9 @@
      "name": "Kalif Raymond",
      "position": "WR",
      "pro_team": "CHI",
-     "lineup_slot_id": 20,
-     "lineup_slot": "BE",
-     "started": false,
+     "lineup_slot_id": 4,
+     "lineup_slot": "WR",
+     "started": true,
      "eligible_slots": [
       3,
       4,
@@ -1608,7 +1626,7 @@
    ]
   },
   "11": {
-   "points": 0.0,
+   "points": 1.3,
    "players": [
     {
      "projected": 16.4,
@@ -1640,9 +1658,9 @@
      "name": "Drake London",
      "position": "WR",
      "pro_team": "ATL",
-     "lineup_slot_id": 4,
-     "lineup_slot": "WR",
-     "started": true,
+     "lineup_slot_id": 20,
+     "lineup_slot": "BE",
+     "started": false,
      "eligible_slots": [
       3,
       4,
@@ -1655,16 +1673,16 @@
      "points": 0.0
     },
     {
-     "projected": 9.2,
+     "projected": 8.3,
      "game_utc": "2026-11-22T18:00:00+00:00",
      "game": "at DET",
      "player_id": 4567750,
      "name": "Emeka Egbuka",
      "position": "WR",
      "pro_team": "TB",
-     "lineup_slot_id": 20,
-     "lineup_slot": "BE",
-     "started": false,
+     "lineup_slot_id": 4,
+     "lineup_slot": "WR",
+     "started": true,
      "eligible_slots": [
       3,
       4,
@@ -1684,8 +1702,8 @@
      "name": "Zay Flowers",
      "position": "WR",
      "pro_team": "BAL",
-     "lineup_slot_id": 23,
-     "lineup_slot": "FLEX",
+     "lineup_slot_id": 4,
+     "lineup_slot": "WR",
      "started": true,
      "eligible_slots": [
       3,
@@ -1720,27 +1738,6 @@
      "points": 0.0
     },
     {
-     "projected": 3.8,
-     "game_utc": "2026-11-22T18:00:00+00:00",
-     "game": "vs BAL",
-     "player_id": 4678008,
-     "name": "Jonathon Brooks",
-     "position": "RB",
-     "pro_team": "CAR",
-     "lineup_slot_id": 20,
-     "lineup_slot": "BE",
-     "started": false,
-     "eligible_slots": [
-      2,
-      3,
-      23,
-      7,
-      20,
-      21
-     ],
-     "points": 0.0
-    },
-    {
      "projected": 19.0,
      "game_utc": "2026-11-22T18:00:00+00:00",
      "game": "vs NO",
@@ -1748,9 +1745,9 @@
      "name": "Caleb Williams",
      "position": "QB",
      "pro_team": "CHI",
-     "lineup_slot_id": 20,
-     "lineup_slot": "BE",
-     "started": false,
+     "lineup_slot_id": 0,
+     "lineup_slot": "QB",
+     "started": true,
      "eligible_slots": [
       0,
       7,
@@ -1788,9 +1785,9 @@
      "name": "Blake Corum",
      "position": "RB",
      "pro_team": "LAR",
-     "lineup_slot_id": 2,
-     "lineup_slot": "RB",
-     "started": true,
+     "lineup_slot_id": 20,
+     "lineup_slot": "BE",
+     "started": false,
      "eligible_slots": [
       2,
       3,
@@ -1809,9 +1806,9 @@
      "name": "KC Concepcion",
      "position": "WR",
      "pro_team": "CLE",
-     "lineup_slot_id": 4,
-     "lineup_slot": "WR",
-     "started": true,
+     "lineup_slot_id": 20,
+     "lineup_slot": "BE",
+     "started": false,
      "eligible_slots": [
       25,
       3,
@@ -1832,9 +1829,9 @@
      "name": "Rams D/ST",
      "position": "D/ST",
      "pro_team": "LAR",
-     "lineup_slot_id": 16,
-     "lineup_slot": "D/ST",
-     "started": true,
+     "lineup_slot_id": 20,
+     "lineup_slot": "BE",
+     "started": false,
      "eligible_slots": [
       16,
       20,
@@ -1850,15 +1847,15 @@
      "name": "Ka'imi Fairbairn",
      "position": "K",
      "pro_team": "HOU",
-     "lineup_slot_id": 17,
-     "lineup_slot": "K",
-     "started": true,
+     "lineup_slot_id": 20,
+     "lineup_slot": "BE",
+     "started": false,
      "eligible_slots": [
       17,
       20,
       21
      ],
-     "points": 0.0
+     "points": 6.0
     },
     {
      "projected": 6.0,
@@ -1913,9 +1910,9 @@
      "name": "Colston Loveland",
      "position": "TE",
      "pro_team": "CHI",
-     "lineup_slot_id": 20,
-     "lineup_slot": "BE",
-     "started": false,
+     "lineup_slot_id": 6,
+     "lineup_slot": "TE",
+     "started": true,
      "eligible_slots": [
       5,
       6,
@@ -1927,16 +1924,16 @@
      "points": 0.0
     },
     {
-     "projected": 4.9,
+     "projected": 5.1,
      "game_utc": "2026-11-20T01:15:00+00:00",
      "game": "at HOU",
      "player_id": 4686468,
      "name": "Seth McGowan",
      "position": "RB",
      "pro_team": "IND",
-     "lineup_slot_id": 20,
-     "lineup_slot": "BE",
-     "started": false,
+     "lineup_slot_id": 2,
+     "lineup_slot": "RB",
+     "started": true,
      "eligible_slots": [
       25,
       2,
@@ -1946,7 +1943,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 1.3
     },
     {
      "projected": 10.9,
@@ -1956,9 +1953,9 @@
      "name": "Tyler Bass",
      "position": "K",
      "pro_team": "BUF",
-     "lineup_slot_id": 20,
-     "lineup_slot": "BE",
-     "started": false,
+     "lineup_slot_id": 17,
+     "lineup_slot": "K",
+     "started": true,
      "eligible_slots": [
       17,
       20,
@@ -1974,8 +1971,8 @@
      "name": "Darren Waller",
      "position": "TE",
      "pro_team": "CAR",
-     "lineup_slot_id": 6,
-     "lineup_slot": "TE",
+     "lineup_slot_id": 23,
+     "lineup_slot": "FLEX",
      "started": true,
      "eligible_slots": [
       5,
@@ -1995,9 +1992,9 @@
      "name": "Fernando Mendoza",
      "position": "QB",
      "pro_team": "LV",
-     "lineup_slot_id": 0,
-     "lineup_slot": "QB",
-     "started": true,
+     "lineup_slot_id": 20,
+     "lineup_slot": "BE",
+     "started": false,
      "eligible_slots": [
       25,
       0,
@@ -2006,11 +2003,29 @@
       21
      ],
      "points": 0.0
+    },
+    {
+     "projected": 5.6,
+     "game_utc": "2026-11-22T21:05:00+00:00",
+     "game": "vs NYJ",
+     "player_id": -16024,
+     "name": "Chargers D/ST",
+     "position": "D/ST",
+     "pro_team": "LAC",
+     "lineup_slot_id": 16,
+     "lineup_slot": "D/ST",
+     "started": true,
+     "eligible_slots": [
+      16,
+      20,
+      21
+     ],
+     "points": 0.0
     }
    ]
   },
   "10": {
-   "points": 0.0,
+   "points": 15.0,
    "players": [
     {
      "projected": 0.0,
@@ -2020,9 +2035,9 @@
      "name": "Bijan Robinson",
      "position": "RB",
      "pro_team": "ATL",
-     "lineup_slot_id": 23,
-     "lineup_slot": "FLEX",
-     "started": true,
+     "lineup_slot_id": 20,
+     "lineup_slot": "BE",
+     "started": false,
      "eligible_slots": [
       2,
       3,
@@ -2100,16 +2115,16 @@
      "points": 0.0
     },
     {
-     "projected": 15.7,
+     "projected": 15.8,
      "game_utc": "2026-11-22T18:00:00+00:00",
      "game": "at DET",
      "player_id": 4596448,
      "name": "Bucky Irving",
      "position": "RB",
      "pro_team": "TB",
-     "lineup_slot_id": 20,
-     "lineup_slot": "BE",
-     "started": false,
+     "lineup_slot_id": 2,
+     "lineup_slot": "RB",
+     "started": true,
      "eligible_slots": [
       2,
       3,
@@ -2164,16 +2179,16 @@
      "points": 0.0
     },
     {
-     "projected": 9.6,
+     "projected": 6.8,
      "game_utc": "2026-11-24T01:15:00+00:00",
      "game": "vs CIN",
      "player_id": 4697815,
      "name": "Rachaad White",
      "position": "RB",
      "pro_team": "WSH",
-     "lineup_slot_id": 2,
-     "lineup_slot": "RB",
-     "started": true,
+     "lineup_slot_id": 20,
+     "lineup_slot": "BE",
+     "started": false,
      "eligible_slots": [
       2,
       3,
@@ -2185,7 +2200,7 @@
      "points": 0.0
     },
     {
-     "projected": 6.9,
+     "projected": 6.7,
      "game_utc": "2026-11-20T01:15:00+00:00",
      "game": "vs IND",
      "player_id": -16034,
@@ -2200,10 +2215,10 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 15.0
     },
     {
-     "projected": 8.9,
+     "projected": 9.0,
      "game_utc": "2026-11-22T21:05:00+00:00",
      "game": "at LAC",
      "player_id": 4597500,
@@ -2232,9 +2247,9 @@
      "name": "Jordyn Tyson",
      "position": "WR",
      "pro_team": "NO",
-     "lineup_slot_id": 20,
-     "lineup_slot": "BE",
-     "started": false,
+     "lineup_slot_id": 23,
+     "lineup_slot": "FLEX",
+     "started": true,
      "eligible_slots": [
       25,
       3,
@@ -2255,9 +2270,9 @@
      "name": "Matthew Stafford",
      "position": "QB",
      "pro_team": "LAR",
-     "lineup_slot_id": 0,
-     "lineup_slot": "QB",
-     "started": true,
+     "lineup_slot_id": 20,
+     "lineup_slot": "BE",
+     "started": false,
      "eligible_slots": [
       0,
       7,
@@ -2267,7 +2282,7 @@
      "points": 0.0
     },
     {
-     "projected": 12.8,
+     "projected": 12.9,
      "game_utc": "2026-11-22T18:00:00+00:00",
      "game": "at BUF",
      "player_id": 4711533,
@@ -2310,7 +2325,7 @@
      "points": 0.0
     },
     {
-     "projected": 6.7,
+     "projected": 6.2,
      "game_utc": "2026-11-22T21:05:00+00:00",
      "game": "vs NYJ",
      "player_id": 4430968,
@@ -2393,20 +2408,18 @@
      "points": 0.0
     },
     {
-     "projected": 4.2,
+     "projected": 16.9,
      "game_utc": "2026-11-22T18:00:00+00:00",
-     "game": "at CHI",
-     "player_id": 4569682,
-     "name": "Audric Estime",
-     "position": "RB",
-     "pro_team": "NO",
-     "lineup_slot_id": 20,
-     "lineup_slot": "BE",
-     "started": false,
+     "game": "at DAL",
+     "player_id": 4688380,
+     "name": "Cam Ward",
+     "position": "QB",
+     "pro_team": "TEN",
+     "lineup_slot_id": 0,
+     "lineup_slot": "QB",
+     "started": true,
      "eligible_slots": [
-      2,
-      3,
-      23,
+      0,
       7,
       20,
       21
@@ -2462,7 +2475,7 @@
      "points": 0.0
     },
     {
-     "projected": 11.2,
+     "projected": 11.3,
      "game_utc": "2026-11-22T21:05:00+00:00",
      "game": "at LAC",
      "player_id": 4569618,
@@ -2525,7 +2538,7 @@
      "points": 0.0
     },
     {
-     "projected": 10.0,
+     "projected": 0.0,
      "game_utc": "2026-11-23T01:20:00+00:00",
      "game": "vs MIN",
      "player_id": 16737,
@@ -2547,7 +2560,7 @@
      "points": 0.0
     },
     {
-     "projected": 10.6,
+     "projected": 11.7,
      "game_utc": "2026-11-23T01:20:00+00:00",
      "game": "vs MIN",
      "player_id": 3040151,
@@ -2715,7 +2728,7 @@
      "points": 0.0
     },
     {
-     "projected": 5.0,
+     "projected": 4.8,
      "game_utc": "2026-11-22T18:00:00+00:00",
      "game": "at CAR",
      "player_id": -16033,
@@ -2798,10 +2811,10 @@
    ]
   },
   "3": {
-   "points": 0.0,
+   "points": 18.6,
    "players": [
     {
-     "projected": 14.9,
+     "projected": 15.2,
      "game_utc": "2026-11-20T01:15:00+00:00",
      "game": "at HOU",
      "player_id": 4242335,
@@ -2819,7 +2832,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 4.7
     },
     {
      "projected": 9.4,
@@ -2894,9 +2907,9 @@
      "name": "David Montgomery",
      "position": "RB",
      "pro_team": "HOU",
-     "lineup_slot_id": 20,
-     "lineup_slot": "BE",
-     "started": false,
+     "lineup_slot_id": 2,
+     "lineup_slot": "RB",
+     "started": true,
      "eligible_slots": [
       2,
       3,
@@ -2905,7 +2918,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 13.9
     },
     {
      "projected": 13.3,
@@ -2999,9 +3012,9 @@
      "name": "Jonah Coleman",
      "position": "RB",
      "pro_team": "DEN",
-     "lineup_slot_id": 20,
-     "lineup_slot": "BE",
-     "started": false,
+     "lineup_slot_id": 23,
+     "lineup_slot": "FLEX",
+     "started": true,
      "eligible_slots": [
       25,
       2,
@@ -3021,9 +3034,9 @@
      "name": "Jordan Mason",
      "position": "RB",
      "pro_team": "MIN",
-     "lineup_slot_id": 2,
-     "lineup_slot": "RB",
-     "started": true,
+     "lineup_slot_id": 20,
+     "lineup_slot": "BE",
+     "started": false,
      "eligible_slots": [
       2,
       3,
@@ -3057,39 +3070,21 @@
      "points": 0.0
     },
     {
-     "projected": 6.7,
+     "projected": 6.8,
      "game_utc": "2026-11-22T21:05:00+00:00",
      "game": "at LAC",
      "player_id": 4685247,
      "name": "Braelon Allen",
      "position": "RB",
      "pro_team": "NYJ",
-     "lineup_slot_id": 23,
-     "lineup_slot": "FLEX",
-     "started": true,
+     "lineup_slot_id": 20,
+     "lineup_slot": "BE",
+     "started": false,
      "eligible_slots": [
       2,
       3,
       23,
       7,
-      20,
-      21
-     ],
-     "points": 0.0
-    },
-    {
-     "projected": 9.5,
-     "game_utc": "2026-11-22T18:00:00+00:00",
-     "game": "at DET",
-     "player_id": 3150744,
-     "name": "Chase McLaughlin",
-     "position": "K",
-     "pro_team": "TB",
-     "lineup_slot_id": 20,
-     "lineup_slot": "BE",
-     "started": false,
-     "eligible_slots": [
-      17,
       20,
       21
      ],
@@ -3103,9 +3098,9 @@
      "name": "Bryce Young",
      "position": "QB",
      "pro_team": "CAR",
-     "lineup_slot_id": 0,
-     "lineup_slot": "QB",
-     "started": true,
+     "lineup_slot_id": 20,
+     "lineup_slot": "BE",
+     "started": false,
      "eligible_slots": [
       0,
       7,
@@ -3130,24 +3125,6 @@
       6,
       23,
       7,
-      20,
-      21
-     ],
-     "points": 0.0
-    },
-    {
-     "projected": 3.7,
-     "game_utc": "2026-11-22T21:25:00+00:00",
-     "game": "vs JAX",
-     "player_id": -16019,
-     "name": "Giants D/ST",
-     "position": "D/ST",
-     "pro_team": "NYG",
-     "lineup_slot_id": 16,
-     "lineup_slot": "D/ST",
-     "started": true,
-     "eligible_slots": [
-      16,
       20,
       21
      ],
@@ -3192,11 +3169,48 @@
       21
      ],
      "points": 0.0
+    },
+    {
+     "projected": 6.2,
+     "game_utc": "2026-11-22T21:05:00+00:00",
+     "game": "at LAC",
+     "player_id": -16020,
+     "name": "Jets D/ST",
+     "position": "D/ST",
+     "pro_team": "NYJ",
+     "lineup_slot_id": 16,
+     "lineup_slot": "D/ST",
+     "started": true,
+     "eligible_slots": [
+      16,
+      20,
+      21
+     ],
+     "points": 0.0
+    },
+    {
+     "projected": 20.8,
+     "game_utc": "2026-11-22T21:25:00+00:00",
+     "game": "vs LV",
+     "player_id": 4426338,
+     "name": "Bo Nix",
+     "position": "QB",
+     "pro_team": "DEN",
+     "lineup_slot_id": 0,
+     "lineup_slot": "QB",
+     "started": true,
+     "eligible_slots": [
+      0,
+      7,
+      20,
+      21
+     ],
+     "points": 0.0
     }
    ]
   },
   "6": {
-   "points": 0.0,
+   "points": 21.46,
    "players": [
     {
      "projected": 17.6,
@@ -3206,8 +3220,8 @@
      "name": "Christian McCaffrey",
      "position": "RB",
      "pro_team": "SF",
-     "lineup_slot_id": 2,
-     "lineup_slot": "RB",
+     "lineup_slot_id": 23,
+     "lineup_slot": "FLEX",
      "started": true,
      "eligible_slots": [
       2,
@@ -3227,8 +3241,8 @@
      "name": "Derrick Henry",
      "position": "RB",
      "pro_team": "BAL",
-     "lineup_slot_id": 23,
-     "lineup_slot": "FLEX",
+     "lineup_slot_id": 2,
+     "lineup_slot": "RB",
      "started": true,
      "eligible_slots": [
       2,
@@ -3291,9 +3305,9 @@
      "name": "Rome Odunze",
      "position": "WR",
      "pro_team": "CHI",
-     "lineup_slot_id": 20,
-     "lineup_slot": "BE",
-     "started": false,
+     "lineup_slot_id": 4,
+     "lineup_slot": "WR",
+     "started": true,
      "eligible_slots": [
       3,
       4,
@@ -3368,27 +3382,6 @@
      "points": 0.0
     },
     {
-     "projected": 0.0,
-     "game_utc": null,
-     "game": null,
-     "player_id": 4360248,
-     "name": "Kyle Pitts Sr.",
-     "position": "TE",
-     "pro_team": "ATL",
-     "lineup_slot_id": 20,
-     "lineup_slot": "BE",
-     "started": false,
-     "eligible_slots": [
-      5,
-      6,
-      23,
-      7,
-      20,
-      21
-     ],
-     "points": 0.0
-    },
-    {
      "projected": 9.4,
      "game_utc": "2026-11-20T01:15:00+00:00",
      "game": "at HOU",
@@ -3404,7 +3397,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 1.0
     },
     {
      "projected": 7.7,
@@ -3414,9 +3407,9 @@
      "name": "Khalil Shakir",
      "position": "WR",
      "pro_team": "BUF",
-     "lineup_slot_id": 4,
-     "lineup_slot": "WR",
-     "started": true,
+     "lineup_slot_id": 20,
+     "lineup_slot": "BE",
+     "started": false,
      "eligible_slots": [
       3,
       4,
@@ -3436,9 +3429,9 @@
      "name": "Hunter Henry",
      "position": "TE",
      "pro_team": "NE",
-     "lineup_slot_id": 6,
-     "lineup_slot": "TE",
-     "started": true,
+     "lineup_slot_id": 20,
+     "lineup_slot": "BE",
+     "started": false,
      "eligible_slots": [
       5,
       6,
@@ -3485,10 +3478,10 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 20.46
     },
     {
-     "projected": 7.0,
+     "projected": 0.0,
      "game_utc": "2026-11-22T21:05:00+00:00",
      "game": "at LAC",
      "player_id": 4723820,
@@ -3503,27 +3496,6 @@
       3,
       4,
       5,
-      23,
-      7,
-      20,
-      21
-     ],
-     "points": 0.0
-    },
-    {
-     "projected": 0.0,
-     "game_utc": "2026-11-22T21:25:00+00:00",
-     "game": "vs JAX",
-     "player_id": 4360516,
-     "name": "Tyrone Tracy Jr.",
-     "position": "RB",
-     "pro_team": "NYG",
-     "lineup_slot_id": 20,
-     "lineup_slot": "BE",
-     "started": false,
-     "eligible_slots": [
-      2,
-      3,
       23,
       7,
       20,
@@ -3555,13 +3527,34 @@
      "points": 0.0
     },
     {
-     "projected": 3.1,
-     "game_utc": "2026-11-22T21:25:00+00:00",
-     "game": "vs JAX",
-     "player_id": 4040761,
-     "name": "Devin Singletary",
+     "projected": 6.1,
+     "game_utc": "2026-11-24T01:15:00+00:00",
+     "game": "at WSH",
+     "player_id": 3116164,
+     "name": "Mike Gesicki",
+     "position": "TE",
+     "pro_team": "CIN",
+     "lineup_slot_id": 6,
+     "lineup_slot": "TE",
+     "started": true,
+     "eligible_slots": [
+      5,
+      6,
+      23,
+      7,
+      20,
+      21
+     ],
+     "points": 0.0
+    },
+    {
+     "projected": 0.0,
+     "game_utc": null,
+     "game": null,
+     "player_id": 5081397,
+     "name": "Dylan Sampson",
      "position": "RB",
-     "pro_team": "NYG",
+     "pro_team": "CLE",
      "lineup_slot_id": 20,
      "lineup_slot": "BE",
      "started": false,
@@ -3576,19 +3569,41 @@
      "points": 0.0
     },
     {
-     "projected": 6.1,
-     "game_utc": "2026-11-24T01:15:00+00:00",
-     "game": "at WSH",
-     "player_id": 3116164,
-     "name": "Mike Gesicki",
-     "position": "TE",
-     "pro_team": "CIN",
+     "projected": 6.6,
+     "game_utc": "2026-11-22T21:25:00+00:00",
+     "game": "vs LV",
+     "player_id": 4600981,
+     "name": "Pat Bryant",
+     "position": "WR",
+     "pro_team": "DEN",
      "lineup_slot_id": 20,
      "lineup_slot": "BE",
      "started": false,
      "eligible_slots": [
+      3,
+      4,
       5,
-      6,
+      23,
+      7,
+      20,
+      21
+     ],
+     "points": 0.0
+    },
+    {
+     "projected": 6.9,
+     "game_utc": "2026-11-22T18:00:00+00:00",
+     "game": "at CAR",
+     "player_id": 4038441,
+     "name": "Justice Hill",
+     "position": "RB",
+     "pro_team": "BAL",
+     "lineup_slot_id": 20,
+     "lineup_slot": "BE",
+     "started": false,
+     "eligible_slots": [
+      2,
+      3,
       23,
       7,
       20,
@@ -3599,7 +3614,7 @@
    ]
   },
   "8": {
-   "points": 0.0,
+   "points": 3.9,
    "players": [
     {
      "projected": 0.0,
@@ -3715,9 +3730,9 @@
      "name": "Harold Fannin Jr.",
      "position": "TE",
      "pro_team": "CLE",
-     "lineup_slot_id": 6,
-     "lineup_slot": "TE",
-     "started": true,
+     "lineup_slot_id": 20,
+     "lineup_slot": "BE",
+     "started": false,
      "eligible_slots": [
       5,
       6,
@@ -3812,16 +3827,16 @@
      "points": 0.0
     },
     {
-     "projected": 6.5,
+     "projected": 6.4,
      "game_utc": "2026-11-22T21:25:00+00:00",
      "game": "vs LV",
      "player_id": -16007,
      "name": "Broncos D/ST",
      "position": "D/ST",
      "pro_team": "DEN",
-     "lineup_slot_id": 20,
-     "lineup_slot": "BE",
-     "started": false,
+     "lineup_slot_id": 16,
+     "lineup_slot": "D/ST",
+     "started": true,
      "eligible_slots": [
       16,
       20,
@@ -3830,34 +3845,16 @@
      "points": 0.0
     },
     {
-     "projected": 0.0,
-     "game_utc": null,
-     "game": null,
-     "player_id": 2473037,
-     "name": "Jason Myers",
-     "position": "K",
-     "pro_team": "SEA",
-     "lineup_slot_id": 17,
-     "lineup_slot": "K",
-     "started": true,
-     "eligible_slots": [
-      17,
-      20,
-      21
-     ],
-     "points": 0.0
-    },
-    {
-     "projected": 7.1,
+     "projected": 7.0,
      "game_utc": "2026-11-20T01:15:00+00:00",
      "game": "vs IND",
      "player_id": 3117256,
      "name": "Dalton Schultz",
      "position": "TE",
      "pro_team": "HOU",
-     "lineup_slot_id": 20,
-     "lineup_slot": "BE",
-     "started": false,
+     "lineup_slot_id": 6,
+     "lineup_slot": "TE",
+     "started": true,
      "eligible_slots": [
       5,
       6,
@@ -3866,7 +3863,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 1.6
     },
     {
      "projected": 7.1,
@@ -3899,9 +3896,9 @@
      "name": "Packers D/ST",
      "position": "D/ST",
      "pro_team": "GB",
-     "lineup_slot_id": 16,
-     "lineup_slot": "D/ST",
-     "started": true,
+     "lineup_slot_id": 20,
+     "lineup_slot": "BE",
+     "started": false,
      "eligible_slots": [
       16,
       20,
@@ -3994,12 +3991,30 @@
       20,
       21
      ],
+     "points": 2.3
+    },
+    {
+     "projected": 9.9,
+     "game_utc": "2026-11-22T21:25:00+00:00",
+     "game": "vs LV",
+     "player_id": 2985659,
+     "name": "Wil Lutz",
+     "position": "K",
+     "pro_team": "DEN",
+     "lineup_slot_id": 17,
+     "lineup_slot": "K",
+     "started": true,
+     "eligible_slots": [
+      17,
+      20,
+      21
+     ],
      "points": 0.0
     }
    ]
   },
   "7": {
-   "points": 0.0,
+   "points": 13.3,
    "players": [
     {
      "projected": 19.8,
@@ -4023,7 +4038,7 @@
      "points": 0.0
     },
     {
-     "projected": 24.1,
+     "projected": 0.0,
      "game_utc": "2026-11-22T18:00:00+00:00",
      "game": "vs ARI",
      "player_id": 4567048,
@@ -4063,7 +4078,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 13.3
     },
     {
      "projected": 15.6,
@@ -4355,7 +4370,7 @@
      "points": 0.0
     },
     {
-     "projected": 5.4,
+     "projected": 5.3,
      "game_utc": "2026-11-23T01:20:00+00:00",
      "game": "vs MIN",
      "player_id": -16025,
@@ -4375,7 +4390,7 @@
    ]
   },
   "12": {
-   "points": 0.0,
+   "points": 4.2,
    "players": [
     {
      "projected": 18.9,
@@ -4400,16 +4415,16 @@
      "points": 0.0
     },
     {
-     "projected": 11.9,
+     "projected": 12.7,
      "game_utc": "2026-11-22T21:05:00+00:00",
      "game": "vs NYJ",
      "player_id": 4685382,
      "name": "Omarion Hampton",
      "position": "RB",
      "pro_team": "LAC",
-     "lineup_slot_id": 20,
-     "lineup_slot": "BE",
-     "started": false,
+     "lineup_slot_id": 2,
+     "lineup_slot": "RB",
+     "started": true,
      "eligible_slots": [
       2,
       3,
@@ -4428,9 +4443,9 @@
      "name": "DeVonta Smith",
      "position": "WR",
      "pro_team": "PHI",
-     "lineup_slot_id": 20,
-     "lineup_slot": "BE",
-     "started": false,
+     "lineup_slot_id": 4,
+     "lineup_slot": "WR",
+     "started": true,
      "eligible_slots": [
       3,
       4,
@@ -4472,9 +4487,9 @@
      "name": "Jadarian Price",
      "position": "RB",
      "pro_team": "SEA",
-     "lineup_slot_id": 2,
-     "lineup_slot": "RB",
-     "started": true,
+     "lineup_slot_id": 20,
+     "lineup_slot": "BE",
+     "started": false,
      "eligible_slots": [
       25,
       2,
@@ -4515,9 +4530,9 @@
      "name": "Dak Prescott",
      "position": "QB",
      "pro_team": "DAL",
-     "lineup_slot_id": 20,
-     "lineup_slot": "BE",
-     "started": false,
+     "lineup_slot_id": 0,
+     "lineup_slot": "QB",
+     "started": true,
      "eligible_slots": [
       0,
       7,
@@ -4576,9 +4591,9 @@
      "name": "Kyle Monangai",
      "position": "RB",
      "pro_team": "CHI",
-     "lineup_slot_id": 20,
-     "lineup_slot": "BE",
-     "started": false,
+     "lineup_slot_id": 2,
+     "lineup_slot": "RB",
+     "started": true,
      "eligible_slots": [
       2,
       3,
@@ -4597,9 +4612,9 @@
      "name": "Tyler Shough",
      "position": "QB",
      "pro_team": "NO",
-     "lineup_slot_id": 0,
-     "lineup_slot": "QB",
-     "started": true,
+     "lineup_slot_id": 20,
+     "lineup_slot": "BE",
+     "started": false,
      "eligible_slots": [
       0,
       7,
@@ -4616,9 +4631,9 @@
      "name": "Woody Marks",
      "position": "RB",
      "pro_team": "HOU",
-     "lineup_slot_id": 2,
-     "lineup_slot": "RB",
-     "started": true,
+     "lineup_slot_id": 20,
+     "lineup_slot": "BE",
+     "started": false,
      "eligible_slots": [
       2,
       3,
@@ -4694,9 +4709,9 @@
      "name": "DeMario Douglas",
      "position": "WR",
      "pro_team": "NE",
-     "lineup_slot_id": 4,
-     "lineup_slot": "WR",
-     "started": true,
+     "lineup_slot_id": 20,
+     "lineup_slot": "BE",
+     "started": false,
      "eligible_slots": [
       3,
       4,
@@ -4746,7 +4761,7 @@
       20,
       21
      ],
-     "points": 0.0
+     "points": 4.2
     }
    ]
   }
