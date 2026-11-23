@@ -1,5 +1,65 @@
 [
  {
+  "id": "50f308a8-79dc-4256-a986-69c5a31dc367",
+  "status": "CANCELED",
+  "status_label": "canceled",
+  "proposed_utc": "2026-11-22T07:37:00+00:00",
+  "processed_utc": null,
+  "scoring_period": 11,
+  "proposer_team_id": 1,
+  "team_ids": [
+   1,
+   10
+  ],
+  "moves": [
+   {
+    "player_id": 4702555,
+    "from_team_id": 10,
+    "to_team_id": 1
+   },
+   {
+    "player_id": 4241985,
+    "from_team_id": 1,
+    "to_team_id": 10
+   },
+   {
+    "player_id": 4431452,
+    "from_team_id": 1,
+    "to_team_id": 10
+   }
+  ]
+ },
+ {
+  "id": "5e1fde73-8dda-4b9b-97a5-aed83ef6c6f7",
+  "status": "CANCELED",
+  "status_label": "canceled",
+  "proposed_utc": "2026-11-20T23:56:03+00:00",
+  "processed_utc": null,
+  "scoring_period": 11,
+  "proposer_team_id": 1,
+  "team_ids": [
+   1,
+   4
+  ],
+  "moves": [
+   {
+    "player_id": 4374302,
+    "from_team_id": 4,
+    "to_team_id": 1
+   },
+   {
+    "player_id": 4431452,
+    "from_team_id": 1,
+    "to_team_id": 4
+   },
+   {
+    "player_id": 4427095,
+    "from_team_id": 1,
+    "to_team_id": 4
+   }
+  ]
+ },
+ {
   "id": "fcf72c33-36ce-41a9-88dd-46d1deadf3f5",
   "status": "PENDING",
   "status_label": "pending",
