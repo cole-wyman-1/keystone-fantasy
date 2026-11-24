@@ -1,11 +1,12 @@
 {
  "season": 2026,
- "fetched_utc": "2026-11-23T21:19:49+00:00",
+ "fetched_utc": "2026-11-24T20:08:45+00:00",
  "leagues": [
   {
    "code": "EMP",
    "weeks_fetched": [
-    11
+    11,
+    12
    ],
    "weeks_skipped": [
     1,
@@ -29,14 +30,16 @@
     7,
     8,
     9,
-    10
+    10,
+    11
    ],
    "trades": 0
   },
   {
    "code": "GOT",
    "weeks_fetched": [
-    11
+    11,
+    12
    ],
    "weeks_skipped": [
     1,
@@ -60,14 +63,16 @@
     7,
     8,
     9,
-    10
+    10,
+    11
    ],
    "trades": 0
   },
   {
    "code": "BEA",
    "weeks_fetched": [
-    11
+    11,
+    12
    ],
    "weeks_skipped": [
     1,
@@ -91,14 +96,16 @@
     7,
     8,
     9,
-    10
+    10,
+    11
    ],
    "trades": 0
   },
   {
    "code": "HAR",
    "weeks_fetched": [
-    11
+    11,
+    12
    ],
    "weeks_skipped": [
     1,
@@ -122,14 +129,16 @@
     7,
     8,
     9,
-    10
+    10,
+    11
    ],
    "trades": 0
   },
   {
    "code": "ALC",
    "weeks_fetched": [
-    11
+    11,
+    12
    ],
    "weeks_skipped": [
     1,
@@ -153,14 +162,16 @@
     7,
     8,
     9,
-    10
+    10,
+    11
    ],
    "trades": 0
   },
   {
    "code": "ALL",
    "weeks_fetched": [
-    11
+    11,
+    12
    ],
    "weeks_skipped": [
     1,
@@ -184,14 +195,16 @@
     7,
     8,
     9,
-    10
+    10,
+    11
    ],
    "trades": 0
   },
   {
    "code": "C2C",
    "weeks_fetched": [
-    11
+    11,
+    12
    ],
    "weeks_skipped": [
     1,
@@ -215,7 +228,8 @@
     7,
     8,
     9,
-    10
+    10,
+    11
    ],
    "trades": 1
   }

@@ -619,6 +619,68 @@
 "points":196.46,
 "team_id":5
 }
+},
+{
+"week":11,
+"per_league":{
+"EMP":{
+"slot_id":"EMP-02",
+"owner":"Anita Bushnell",
+"team_name":"Drake and Goff",
+"points":136.86,
+"team_id":5
+},
+"GOT":{
+"slot_id":"GOT-03",
+"owner":"Ashutosh Bajpai",
+"team_name":"Ashutosh's Astounding Team",
+"points":148.5,
+"team_id":12
+},
+"BEA":{
+"slot_id":"BEA-04",
+"owner":"Jacqui Lemire",
+"team_name":"Uncommon Champions",
+"points":139.12,
+"team_id":11
+},
+"HAR":{
+"slot_id":"HAR-07",
+"owner":"Caroline Scala",
+"team_name":"Sunday Scaries",
+"points":134.5,
+"team_id":7
+},
+"ALC":{
+"slot_id":"ALC-01",
+"owner":"Roberto Zuban",
+"team_name":"Like a Good Nabers",
+"points":143.64,
+"team_id":8
+},
+"ALL":{
+"slot_id":"ALL-01",
+"owner":"Fraser Thompson",
+"team_name":"Fraser's Fantastic Team",
+"points":134.5,
+"team_id":3
+},
+"C2C":{
+"slot_id":"C2C-05",
+"owner":"Terrence Dai",
+"team_name":"The Hypothetical Monopolists",
+"points":132.64,
+"team_id":6
+}
+},
+"overall":{
+"league_code":"GOT",
+"slot_id":"GOT-03",
+"owner":"Ashutosh Bajpai",
+"team_name":"Ashutosh's Astounding Team",
+"points":148.5,
+"team_id":12
+}
 }
 ],
 "leaderboard":[
@@ -651,6 +713,13 @@
 "count":4
 },
 {
+"slot_id":"HAR-07",
+"owner":"Caroline Scala",
+"league_code":"HAR",
+"team_name":"Sunday Scaries",
+"count":3
+},
+{
 "slot_id":"EMP-09",
 "owner":"Matt Gates",
 "league_code":"EMP",
@@ -669,13 +738,6 @@
 "owner":"Julian Kurtzman",
 "league_code":"GOT",
 "team_name":"Julian's Scary Team",
-"count":2
-},
-{
-"slot_id":"HAR-07",
-"owner":"Caroline Scala",
-"league_code":"HAR",
-"team_name":"Sunday Scaries",
 "count":2
 },
 {
@@ -704,6 +766,13 @@
 "owner":"Cuau Trevino",
 "league_code":"ALC",
 "team_name":"Cuau MX",
+"count":2
+},
+{
+"slot_id":"ALC-01",
+"owner":"Roberto Zuban",
+"league_code":"ALC",
+"team_name":"Like a Good Nabers",
 "count":2
 },
 {
@@ -763,6 +832,13 @@
 "count":1
 },
 {
+"slot_id":"EMP-02",
+"owner":"Anita Bushnell",
+"league_code":"EMP",
+"team_name":"Drake and Goff",
+"count":1
+},
+{
 "slot_id":"GOT-02",
 "owner":"Santiago Castillo",
 "league_code":"GOT",
@@ -781,6 +857,13 @@
 "owner":"Rohan Bhargava",
 "league_code":"GOT",
 "team_name":"Rohan's Rowdy Team",
+"count":1
+},
+{
+"slot_id":"GOT-03",
+"owner":"Ashutosh Bajpai",
+"league_code":"GOT",
+"team_name":"Ashutosh's Astounding Team",
 "count":1
 },
 {
@@ -826,6 +909,13 @@
 "count":1
 },
 {
+"slot_id":"BEA-04",
+"owner":"Jacqui Lemire",
+"league_code":"BEA",
+"team_name":"Uncommon Champions",
+"count":1
+},
+{
 "slot_id":"HAR-06",
 "owner":"Brian Hunscher",
 "league_code":"HAR",
@@ -854,13 +944,6 @@
 "count":1
 },
 {
-"slot_id":"ALC-01",
-"owner":"Roberto Zuban",
-"league_code":"ALC",
-"team_name":"Like a Good Nabers",
-"count":1
-},
-{
 "slot_id":"ALC-09",
 "owner":"Sam Hoffman",
 "league_code":"ALC",
@@ -882,6 +965,13 @@
 "count":1
 },
 {
+"slot_id":"ALL-01",
+"owner":"Fraser Thompson",
+"league_code":"ALL",
+"team_name":"Fraser's Fantastic Team",
+"count":1
+},
+{
 "slot_id":"C2C-10",
 "owner":"Kylie Sagisi",
 "league_code":"C2C",
@@ -900,6 +990,13 @@
 "owner":"ManYee Yu",
 "league_code":"C2C",
 "team_name":"Touch base in the end zone",
+"count":1
+},
+{
+"slot_id":"C2C-05",
+"owner":"Terrence Dai",
+"league_code":"C2C",
+"team_name":"The Hypothetical Monopolists",
 "count":1
 }
 ]

@@ -73,8 +73,8 @@
  },
  "scoring_format": "Half PPR",
  "status": {
-  "current_matchup_period": 11,
-  "latest_scoring_period": 11,
+  "current_matchup_period": 12,
+  "latest_scoring_period": 12,
   "final_scoring_period": 17,
   "is_active": true
  },
@@ -99,12 +99,12 @@
    ],
    "espn_record": {
     "wins": 7,
-    "losses": 3,
+    "losses": 4,
     "ties": 0,
-    "points_for": 1188.2,
-    "points_against": 1022.54
+    "points_for": 1291.8600000000001,
+    "points_against": 1143.04
    },
-   "espn_playoff_seed": 3
+   "espn_playoff_seed": 4
   },
   {
    "espn_team_id": 2,
@@ -120,11 +120,11 @@
     }
    ],
    "espn_record": {
-    "wins": 4,
+    "wins": 5,
     "losses": 6,
     "ties": 0,
-    "points_for": 998.76,
-    "points_against": 1028.28
+    "points_for": 1082.82,
+    "points_against": 1105.78
    },
    "espn_playoff_seed": 9
   },
@@ -143,10 +143,10 @@
    ],
    "espn_record": {
     "wins": 7,
-    "losses": 3,
+    "losses": 4,
     "ties": 0,
-    "points_for": 1068.84,
-    "points_against": 946.98
+    "points_for": 1125.3,
+    "points_against": 1081.48
    },
    "espn_playoff_seed": 5
   },
@@ -165,10 +165,10 @@
    ],
    "espn_record": {
     "wins": 2,
-    "losses": 8,
+    "losses": 9,
     "ties": 0,
-    "points_for": 876.8,
-    "points_against": 1183.3000000000002
+    "points_for": 958.4399999999999,
+    "points_against": 1290.3600000000001
    },
    "espn_playoff_seed": 11
   },
@@ -187,10 +187,10 @@
    ],
    "espn_record": {
     "wins": 2,
-    "losses": 8,
+    "losses": 9,
     "ties": 0,
-    "points_for": 791.9399999999999,
-    "points_against": 1099.66
+    "points_for": 865.0799999999999,
+    "points_against": 1228.96
    },
    "espn_playoff_seed": 12
   },
@@ -208,13 +208,13 @@
     }
    ],
    "espn_record": {
-    "wins": 4,
+    "wins": 5,
     "losses": 6,
     "ties": 0,
-    "points_for": 1082.7,
-    "points_against": 1107.48
+    "points_for": 1203.2,
+    "points_against": 1211.14
    },
-   "espn_playoff_seed": 7
+   "espn_playoff_seed": 6
   },
   {
    "espn_team_id": 7,
@@ -230,11 +230,11 @@
     }
    ],
    "espn_record": {
-    "wins": 8,
+    "wins": 9,
     "losses": 2,
     "ties": 0,
-    "points_for": 1214.9399999999998,
-    "points_against": 958.8
+    "points_for": 1349.4399999999998,
+    "points_against": 1015.26
    },
    "espn_playoff_seed": 1
   },
@@ -252,13 +252,13 @@
     }
    ],
    "espn_record": {
-    "wins": 7,
+    "wins": 8,
     "losses": 3,
     "ties": 0,
-    "points_for": 1172.7599999999998,
-    "points_against": 951.2199999999999
+    "points_for": 1254.4999999999998,
+    "points_against": 1018.8799999999999
    },
-   "espn_playoff_seed": 4
+   "espn_playoff_seed": 3
   },
   {
    "espn_team_id": 9,
@@ -274,11 +274,11 @@
     }
    ],
    "espn_record": {
-    "wins": 7,
+    "wins": 8,
     "losses": 3,
     "ties": 0,
-    "points_for": 1250.2,
-    "points_against": 1017.0400000000001
+    "points_for": 1357.26,
+    "points_against": 1098.68
    },
    "espn_playoff_seed": 2
   },
@@ -296,11 +296,11 @@
     }
    ],
    "espn_record": {
-    "wins": 4,
+    "wins": 5,
     "losses": 6,
     "ties": 0,
-    "points_for": 1035.92,
-    "points_against": 1021.3799999999999
+    "points_for": 1165.22,
+    "points_against": 1094.52
    },
    "espn_playoff_seed": 8
   },
@@ -319,12 +319,12 @@
    ],
    "espn_record": {
     "wins": 5,
-    "losses": 5,
+    "losses": 6,
     "ties": 0,
-    "points_for": 1116.28,
-    "points_against": 1226.5
+    "points_for": 1183.94,
+    "points_against": 1308.24
    },
-   "espn_playoff_seed": 6
+   "espn_playoff_seed": 7
   },
   {
    "espn_team_id": 12,
@@ -346,10 +346,10 @@
    ],
    "espn_record": {
     "wins": 3,
-    "losses": 7,
+    "losses": 8,
     "ties": 0,
-    "points_for": 858.0,
-    "points_against": 1092.16
+    "points_for": 935.5,
+    "points_against": 1176.22
    },
    "espn_playoff_seed": 10
   }
@@ -1256,92 +1256,17 @@
    "is_bye": false
   },
   {
-   "home_win_prob": 0.91,
-   "away_win_prob": 0.09,
-   "home_projected": 81.74,
-   "away_projected": 70.16,
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
    "matchup_id": 61,
    "matchup_period": 11,
    "home_team_id": 8,
    "away_team_id": 11,
    "home_points": 81.74,
-   "away_points": 50.6,
-   "winner": "UNDECIDED",
-   "playoff_tier": "NONE",
-   "is_bye": false
-  },
-  {
-   "home_win_prob": 0.99,
-   "away_win_prob": 0.01,
-   "home_projected": 136.36,
-   "away_projected": 73.14,
-   "matchup_id": 62,
-   "matchup_period": 11,
-   "home_team_id": 10,
-   "away_team_id": 5,
-   "home_points": 123.2,
-   "away_points": 73.14,
-   "winner": "UNDECIDED",
-   "playoff_tier": "NONE",
-   "is_bye": false
-  },
-  {
-   "home_win_prob": 0.99,
-   "away_win_prob": 0.01,
-   "home_projected": 97.5,
-   "away_projected": 81.64,
-   "matchup_id": 63,
-   "matchup_period": 11,
-   "home_team_id": 9,
-   "away_team_id": 4,
-   "home_points": 90.36,
-   "away_points": 81.64,
-   "winner": "UNDECIDED",
-   "playoff_tier": "NONE",
-   "is_bye": false
-  },
-  {
-   "home_win_prob": 0.01,
-   "away_win_prob": 0.99,
-   "home_projected": 104.42,
-   "away_projected": 135.92,
-   "matchup_id": 64,
-   "matchup_period": 11,
-   "home_team_id": 1,
-   "away_team_id": 6,
-   "home_points": 82.36,
-   "away_points": 114.9,
-   "winner": "UNDECIDED",
-   "playoff_tier": "NONE",
-   "is_bye": false
-  },
-  {
-   "home_win_prob": 0.01,
-   "away_win_prob": 0.99,
-   "home_projected": 56.46,
-   "away_projected": 133.38,
-   "matchup_id": 65,
-   "matchup_period": 11,
-   "home_team_id": 3,
-   "away_team_id": 7,
-   "home_points": 56.46,
-   "away_points": 104.4,
-   "winner": "UNDECIDED",
-   "playoff_tier": "NONE",
-   "is_bye": false
-  },
-  {
-   "home_win_prob": 0.29,
-   "away_win_prob": 0.71,
-   "home_projected": 79.89,
-   "away_projected": 84.06,
-   "matchup_id": 66,
-   "matchup_period": 11,
-   "home_team_id": 12,
-   "away_team_id": 2,
-   "home_points": 64.9,
-   "away_points": 84.06,
-   "winner": "UNDECIDED",
+   "away_points": 67.66,
+   "winner": "HOME",
    "playoff_tier": "NONE",
    "is_bye": false
   },
@@ -1350,6 +1275,81 @@
    "away_win_prob": null,
    "home_projected": null,
    "away_projected": null,
+   "matchup_id": 62,
+   "matchup_period": 11,
+   "home_team_id": 10,
+   "away_team_id": 5,
+   "home_points": 129.3,
+   "away_points": 73.14,
+   "winner": "HOME",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
+   "matchup_id": 63,
+   "matchup_period": 11,
+   "home_team_id": 9,
+   "away_team_id": 4,
+   "home_points": 107.06,
+   "away_points": 81.64,
+   "winner": "HOME",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
+   "matchup_id": 64,
+   "matchup_period": 11,
+   "home_team_id": 1,
+   "away_team_id": 6,
+   "home_points": 103.66,
+   "away_points": 120.5,
+   "winner": "AWAY",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
+   "matchup_id": 65,
+   "matchup_period": 11,
+   "home_team_id": 3,
+   "away_team_id": 7,
+   "home_points": 56.46,
+   "away_points": 134.5,
+   "winner": "AWAY",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "home_win_prob": null,
+   "away_win_prob": null,
+   "home_projected": null,
+   "away_projected": null,
+   "matchup_id": 66,
+   "matchup_period": 11,
+   "home_team_id": 12,
+   "away_team_id": 2,
+   "home_points": 77.5,
+   "away_points": 84.06,
+   "winner": "AWAY",
+   "playoff_tier": "NONE",
+   "is_bye": false
+  },
+  {
+   "home_win_prob": 0.69,
+   "away_win_prob": 0.31,
+   "home_projected": 115.07,
+   "away_projected": 82.22,
    "matchup_id": 67,
    "matchup_period": 12,
    "home_team_id": 11,
@@ -1361,10 +1361,10 @@
    "is_bye": false
   },
   {
-   "home_win_prob": null,
-   "away_win_prob": null,
-   "home_projected": null,
-   "away_projected": null,
+   "home_win_prob": 0.42,
+   "away_win_prob": 0.58,
+   "home_projected": 99.6,
+   "away_projected": 114.94,
    "matchup_id": 68,
    "matchup_period": 12,
    "home_team_id": 4,
@@ -1376,10 +1376,10 @@
    "is_bye": false
   },
   {
-   "home_win_prob": null,
-   "away_win_prob": null,
-   "home_projected": null,
-   "away_projected": null,
+   "home_win_prob": 0.51,
+   "away_win_prob": 0.49,
+   "home_projected": 124.05,
+   "away_projected": 121.49,
    "matchup_id": 69,
    "matchup_period": 12,
    "home_team_id": 6,
@@ -1391,10 +1391,10 @@
    "is_bye": false
   },
   {
-   "home_win_prob": null,
-   "away_win_prob": null,
-   "home_projected": null,
-   "away_projected": null,
+   "home_win_prob": 0.53,
+   "away_win_prob": 0.47,
+   "home_projected": 115.43,
+   "away_projected": 109.04,
    "matchup_id": 70,
    "matchup_period": 12,
    "home_team_id": 7,
@@ -1406,10 +1406,10 @@
    "is_bye": false
   },
   {
-   "home_win_prob": null,
-   "away_win_prob": null,
-   "home_projected": null,
-   "away_projected": null,
+   "home_win_prob": 0.48,
+   "away_win_prob": 0.52,
+   "home_projected": 103.19,
+   "away_projected": 106.03,
    "matchup_id": 71,
    "matchup_period": 12,
    "home_team_id": 2,
@@ -1421,10 +1421,10 @@
    "is_bye": false
   },
   {
-   "home_win_prob": null,
-   "away_win_prob": null,
-   "home_projected": null,
-   "away_projected": null,
+   "home_win_prob": 0.3,
+   "away_win_prob": 0.7,
+   "home_projected": 87.37,
+   "away_projected": 126.59,
    "matchup_id": 72,
    "matchup_period": 12,
    "home_team_id": 12,
