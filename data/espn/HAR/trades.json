@@ -1,5 +1,30 @@
 [
  {
+  "id": "bfb2832d-3bf2-480d-87be-94cad8677f9d",
+  "status": "PENDING",
+  "status_label": "pending",
+  "proposed_utc": "2026-11-26T07:44:56+00:00",
+  "processed_utc": null,
+  "scoring_period": 12,
+  "proposer_team_id": 1,
+  "team_ids": [
+   1,
+   12
+  ],
+  "moves": [
+   {
+    "player_id": 3929630,
+    "from_team_id": 12,
+    "to_team_id": 1
+   },
+   {
+    "player_id": 4883647,
+    "from_team_id": 1,
+    "to_team_id": 12
+   }
+  ]
+ },
+ {
   "id": "50f308a8-79dc-4256-a986-69c5a31dc367",
   "status": "CANCELED",
   "status_label": "canceled",
